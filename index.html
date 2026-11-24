@@ -258,6 +258,7 @@ function renderDay(meta){
 }
 function grade(existingResult){
   if(!current || !currentMeta || (graded && !existingResult)) return;
+  if(!existingResult){var unanswered=false;document.querySelectorAll('#qBox .q').forEach(function(div){if(div.dataset.type==='mcq'){if(!div.querySelector('.choice.sel'))unanswered=true}else{var input=div.querySelector('input[type=text]');if(!input||!input.value.trim())unanswered=true}});if(unanswered){showNotice('모든 문제에 답한 뒤 채점해 주세요. 월~토 문제를 모두 풀어야 일요일 오답 복습이 열립니다.');return}}
   var meta=currentMeta;
   currentDate=meta.date;
   var total=0, correctCount=0, wrong=[], qCount=document.querySelectorAll('#qBox .q').length, pointsPerQuestion=100/Math.max(qCount,1);
@@ -306,6 +307,7 @@ function grade(existingResult){
   el('gradeBtn').style.display='none'; el('gradeBtn').disabled=true; el('copyBtn').style.display='block';
   el('attemptMeta').textContent='이 날짜 풀이 기록 '+Math.max(prev,shownAttempt)+'회 · 최근 점수 '+shownScore+'점';
   renderTrend();
+  buildChips();document.querySelectorAll('.chip').forEach(function(c){c.classList.toggle('on',c.dataset.date===currentDate)});
 }
 function explText(div){
   var qs=current.getElementsByTagName('q');
