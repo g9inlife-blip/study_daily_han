@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-12-02" weekday="수" subject="과학" unit="물질·전기·태양계">
   <english>
-    <word><term>density</term><pos>명사</pos><meaning>밀도</meaning><example>The density of water is 1 g per cubic centimeter.</example></word>
-    <word><term>substance</term><pos>명사</pos><meaning>물질</meaning><example>Water is a pure substance.</example></word>
-    <idiom><term>mix up</term><meaning>혼동하다, 섞다</meaning><example>Don't mix up the two bottles.</example></idiom>
-    <idiom><term>break down</term><meaning>분해되다, 고장 나다</meaning><example>The machine broke down yesterday.</example></idiom>
+    <word><term>density</term><pronunciation>/ˈdensəti/</pronunciation><pos>명사</pos><meaning>밀도</meaning><example>The density of water is 1 g per cubic centimeter.</example></word>
+    <word><term>substance</term><pronunciation>/ˈsʌbstəns/</pronunciation><pos>명사</pos><meaning>물질</meaning><example>Water is a pure substance.</example></word>
+    <idiom><term>mix up</term><pronunciation>/mɪks ˈʌp/</pronunciation><meaning>혼동하다, 섞다</meaning><example>Don't mix up the two bottles.</example></idiom>
+    <idiom><term>break down</term><pronunciation>/breɪk ˈdaʊn/</pronunciation><meaning>분해되다, 고장 나다</meaning><example>The machine broke down yesterday.</example></idiom>
   </english>
   <questions>
     <q id="1" type="mcq" difficulty="중">
