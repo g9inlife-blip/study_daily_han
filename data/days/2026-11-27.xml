@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-11-27" weekday="금" subject="영어" unit="비교급·조동사·to부정사/동명사">
   <english>
-    <word><term>compare</term><pos>동사</pos><meaning>비교하다</meaning><example>Let's compare the two plans.</example></word>
-    <word><term>regularly</term><pos>부사</pos><meaning>규칙적으로</meaning><example>She exercises regularly.</example></word>
-    <idiom><term>look forward to</term><meaning>~을 고대하다, ~을 기대하다</meaning><example>I look forward to seeing you.</example></idiom>
-    <idiom><term>give up</term><meaning>포기하다</meaning><example>Never give up your dream.</example></idiom>
+    <word><term>compare</term><pronunciation>/kəmˈper/</pronunciation><pos>동사</pos><meaning>비교하다</meaning><example>Let's compare the two plans.</example></word>
+    <word><term>regularly</term><pronunciation>/ˈreɡjələrli/</pronunciation><pos>부사</pos><meaning>규칙적으로</meaning><example>She exercises regularly.</example></word>
+    <idiom><term>look forward to</term><pronunciation>/lʊk ˈfɔːrwərd tuː/</pronunciation><meaning>~을 고대하다, ~을 기대하다</meaning><example>I look forward to seeing you.</example></idiom>
+    <idiom><term>give up</term><pronunciation>/ɡɪv ˈʌp/</pronunciation><meaning>포기하다</meaning><example>Never give up your dream.</example></idiom>
   </english>
   <passage>Many students think that studying English is only about memorizing words. However, using English in real life is more important than memorizing long lists. For example, when you watch a movie in English, you can hear how people really speak. You should not be afraid of making mistakes. Mistakes help you learn faster, and speaking every day makes your English stronger.</passage>
   <questions>
