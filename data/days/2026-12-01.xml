@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-12-01" weekday="화" subject="수학" unit="도형의 성질·확률">
   <english>
-    <word><term>calculate</term><pos>동사</pos><meaning>계산하다</meaning><example>Please calculate the area of the triangle.</example></word>
-    <word><term>likely</term><pos>형용사, 부사</pos><meaning>~일 것 같은, 아마</meaning><example>It is likely to rain tomorrow.</example></word>
-    <idiom><term>at random</term><meaning>무작위로, 아무렇게나</meaning><example>Pick a card at random.</example></idiom>
-    <idiom><term>figure out</term><meaning>~을 알아내다, 해결하다</meaning><example>Can you figure out this problem?</example></idiom>
+    <word><term>calculate</term><pronunciation>/ˈkælkjəleɪt/</pronunciation><pos>동사</pos><meaning>계산하다</meaning><example>Please calculate the area of the triangle.</example></word>
+    <word><term>likely</term><pronunciation>/ˈlaɪkli/</pronunciation><pos>형용사, 부사</pos><meaning>~일 것 같은, 아마</meaning><example>It is likely to rain tomorrow.</example></word>
+    <idiom><term>at random</term><pronunciation>/æt ˈrændəm/</pronunciation><meaning>무작위로, 아무렇게나</meaning><example>Pick a card at random.</example></idiom>
+    <idiom><term>figure out</term><pronunciation>/ˈfɪɡjər aʊt/</pronunciation><meaning>~을 알아내다, 해결하다</meaning><example>Can you figure out this problem?</example></idiom>
   </english>
   <questions>
     <q id="1" type="mcq" difficulty="중">
