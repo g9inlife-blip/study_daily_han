@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-11-30" weekday="월" subject="국어" unit="문학 독해·문법·작문">
   <english>
-    <word><term>perspective</term><pos>명사</pos><meaning>관점, 시각</meaning><example>Try to see it from a different perspective.</example></word>
-    <word><term>express</term><pos>동사</pos><meaning>표현하다</meaning><example>She expressed her feelings clearly.</example></word>
-    <idiom><term>come up with</term><meaning>~을 생각해 내다</meaning><example>He came up with a good idea.</example></idiom>
-    <idiom><term>in other words</term><meaning>다시 말하면</meaning><example>In other words, we need more time.</example></idiom>
+    <word><term>perspective</term><pronunciation>/pərˈspektɪv/</pronunciation><pos>명사</pos><meaning>관점, 시각</meaning><example>Try to see it from a different perspective.</example></word>
+    <word><term>express</term><pronunciation>/ɪkˈspres/</pronunciation><pos>동사</pos><meaning>표현하다</meaning><example>She expressed her feelings clearly.</example></word>
+    <idiom><term>come up with</term><pronunciation>/kʌm ˈʌp wɪð/</pronunciation><meaning>~을 생각해 내다</meaning><example>He came up with a good idea.</example></idiom>
+    <idiom><term>in other words</term><pronunciation>/ɪn ˈʌðər wɝːdz/</pronunciation><meaning>다시 말하면</meaning><example>In other words, we need more time.</example></idiom>
   </english>
   <passage>겨울 강가에 서면 물은 흐르지 않는 듯 고요하지만, 얼음 아래에서는 여전히 물이 흐른다. 할머니는 그런 강을 보며 말씀하셨다. “겉으로 멈춘 것 같아도 속으로는 흐르는 게 있다. 사람도 그렇단다.” 나는 그 말을 오래 마음에 품었다. 시험에 떨어지고 마음이 얼어붙은 것 같던 날에도, 내 안에서는 무언가 계속 흐르고 있었을 것이다. 봄이 오면 얼음은 녹고 강은 다시 소리를 내며 흐른다. 나도 그렇게 다시 흐를 수 있을 것이다.</passage>
   <questions>
