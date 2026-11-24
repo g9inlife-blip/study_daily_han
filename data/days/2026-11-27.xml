@@ -33,10 +33,10 @@
       <explanation>enjoy 뒤에는 동명사가 온다. read의 동명사는 reading이다. enjoy, finish, mind 뒤에는 동명사를 쓴다는 것을 기억하자.</explanation>
     </q>
     <q id="5" type="short" difficulty="중">
-      <stem>다음 우리말을 영어로 옮기시오. (비교급을 쓸 것) 이 강은 저 강보다 길다.</stem>
-      <answer>This river is longer than that river.</answer>
-      <keywords>longer than</keywords>
-      <explanation>모범답안: This river is longer than that river. 채점 포인트: ① 비교급 longer를 쓴 것 ② than을 쓴 것 ③ 주어와 동사 This river is가 맞는 것.</explanation>
+      <stem>빈칸에 알맞은 비교급 단어를 쓰시오. This river is ___ than that river. (long)</stem>
+      <answer>longer</answer>
+      <keywords>longer</keywords>
+      <explanation>긴 형용사와 달리 long의 비교급은 -er을 붙인 longer이다.</explanation>
     </q>
   </questions>
 </daily>
