@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>중2 매일 5문제</title>
+<style>
+:root{--bg:#fdf8ef;--card:#fff;--ink:#2b2620;--muted:#8a7f72;--line:#eadfd0;--accent:#c96f2e;--accent2:#2f6b4f;--good:#2f6b4f;--bad:#b3382e;--soft:#fff6e8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR","Malgun Gothic",sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:16px 14px 48px}
+header{text-align:center;padding:10px 0 4px}
+h1{margin:0;font-size:26px}
+.sub{color:var(--muted);font-size:13px;margin:4px 0 0}
+.tabs{display:flex;gap:8px;margin:16px 0}
+.tab{flex:1;padding:10px;border:1px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;font-size:15px;font-weight:700}
+.tab.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.datechips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;font-size:13px}
+.chip.on{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+.meta{font-size:14px;color:var(--muted)}
+.meta b{color:var(--ink)}
+.passage{background:var(--soft);border-left:4px solid var(--accent);padding:12px;border-radius:8px;white-space:pre-wrap}
+.q{border-top:1px solid var(--line);padding:14px 0}
+.q h3{margin:0 0 8px;font-size:16px}
+.badge{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:999px;padding:2px 8px;color:var(--muted);margin-left:6px}
+.choices{display:grid;gap:8px}
+.choice{border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;background:#fff;text-align:left;font-size:15px}
+.choice.sel{border-color:var(--accent);background:#fff1e2}
+.choice.correct{border-color:var(--good);background:#e6f3ec}
+.choice.wrong{border-color:var(--bad);background:#fdecea}
+input[type=text],textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;font-size:15px;font-family:inherit}
+textarea{min-height:90px;resize:vertical}
+.btn{display:block;width:100%;padding:13px;border:0;border-radius:12px;background:var(--accent);color:#fff;font-size:16px;font-weight:700;cursor:pointer;margin:10px 0}
+.btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.btn.green{background:var(--accent2)}
+.score{font-size:34px;font-weight:800;text-align:center}
+.center{text-align:center}
+.expl{display:none;background:#f6f2ea;border-radius:10px;padding:10px 12px;margin-top:8px;font-size:14px}
+.graded .expl{display:block}
+.ok{color:var(--good);font-weight:700}.ng{color:var(--bad);font-weight:700}
+.wordgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.word{border:1px solid var(--line);border-radius:10px;padding:10px;cursor:pointer}
+.word .mean{display:none;color:var(--muted);font-size:13px;margin-top:4px}
+.word.open .mean{display:block}
+.hint{font-size:12px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td,th{border-bottom:1px solid var(--line);padding:7px 4px;text-align:left}
+canvas{width:100%;height:180px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.notice{background:#fff3cd;border:1px solid #e6c87a;border-radius:12px;padding:12px;font-size:14px}
+footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
+@media(max-width:520px){.wordgrid{grid-template-columns:1fr}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><h1>중2 매일 5문제</h1><p class="sub">고려대 입시 대비 · 중2 2학기 마무리 · 월화수목금 돌아가며 하루 5문제</p></header>
+<div class="tabs">
+<button class="tab on" id="tabQuiz">문제 풀기</button>
+<button class="tab" id="tabTrend">결과 · 추세</button>
+</div>
+<div id="notice" class="notice" style="display:none"></div>
+
+<section id="viewQuiz">
+<div class="card"><div style="font-weight:700;margin-bottom:8px">날짜 선택</div><div class="datechips" id="chips"></div>
+<p class="meta" id="dayMeta"></p><p class="meta" id="attemptMeta"></p></div>
+<div class="card" id="englishCard"><div style="font-weight:700">오늘의 영어 — 단어 2개 · 숙어 2개 <span class="hint">카드를 눌러 뜻 보기</span></div><div class="wordgrid" id="englishBox" style="margin-top:10px"></div></div>
+<div class="card" id="quizCard"><div id="passageBox"></div><div id="qBox"></div>
+<button class="btn" id="gradeBtn">채점하기</button>
+<div id="scoreBox"></div>
+<button class="btn ghost" id="copyBtn" style="display:none">결과 복사하기 (부모에게 보내기)</button>
+</div>
+</section>
+
+<section id="viewTrend" style="display:none">
+<div class="card"><div style="font-weight:700">최근 점수 추세</div><canvas id="chart" width="700" height="180"></canvas><p class="hint" id="chartHint"></p></div>
+<div class="card"><div style="font-weight:700">한눈에 보기</div><div id="summaryBox"></div></div>
+<div class="card"><div style="font-weight:700">과목별 평균</div><div id="subjectBox"></div></div>
+<div class="card"><div style="font-weight:700">약한 단원 (틀린 문제)</div><div id="weakBox"></div></div>
+<div class="card"><div style="font-weight:700">기록 관리</div>
+<p class="hint">기록은 이 브라우저에만 저장돼요. 기기 변경 전에 내보내기로 백업하세요.</p>
+<button class="btn ghost" id="exportBtn">기록 내보내기 (JSON 다운로드)</button>
+<button class="btn ghost" id="importBtn">기록 가져오기 (JSON 파일 선택)</button>
+<input type="file" id="importFile" accept=".json,application/json" style="display:none">
+<button class="btn ghost" id="clearBtn">기록 전체 지우기</button>
+<div id="historyBox"></div></div>
+</section>
+<footer>문제는 data/days/*.xml 에서 불러옵니다. 새 날짜는 XML 한 파일 + manifest 한 줄이면 추가됩니다.</footer>
+</div>
+<script>
+var LS_KEY='study_daily_han_results_v1';
+var manifest=null, current=null, currentDate='', startTime=0, graded=false, lastResult=null;
+function el(id){return document.getElementById(id)}
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function txt(n){return n? (n.textContent||'').trim():''}
+function loadResults(){try{return JSON.parse(localStorage.getItem(LS_KEY)||'[]')}catch(e){return []}}
+function saveResults(r){try{localStorage.setItem(LS_KEY,JSON.stringify(r))}catch(e){}}
+function norm(s){return String(s||'').trim().replace(/\s+/g,' ').replace(/[.,!?。]/g,'')}
+function fetchText(url){
+  return fetch(url).then(function(r){if(!r.ok) throw new Error('HTTP '+r.status); return r.text()}).catch(function(e){
+    return new Promise(function(res,rej){
+      try{var x=new XMLHttpRequest(); x.open('GET',url,true);
+        x.onload=function(){ if(x.status===0||x.status===200) res(x.responseText); else rej(new Error('XHR '+x.status)) };
+        x.onerror=function(){rej(e)}; x.send();
+      }catch(err){rej(e)}
+    });
+  });
+}
+function showNotice(msg){var n=el('notice'); n.style.display='block'; n.textContent=msg}
+function loadManifest(){
+  return fetchText('data/manifest.json').then(function(t){
+    manifest=JSON.parse(t);
+    if(!manifest.days||!manifest.days.length) throw new Error('manifest empty');
+    buildChips();
+    var today=new Date(); var iso=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
+    var found=manifest.days.find(function(d){return d.date===iso});
+    selectDate(found?found.date:manifest.days[manifest.days.length-1].date);
+  }).catch(function(e){
+    showNotice('문제를 불러오지 못했어요. file:// 로 직접 열면 fetch가 막힐 수 있습니다. 로컬 서버로 열어 주세요: 터미널에서 python3 -m http.server 8000 실행 후 http://localhost:8000/index.html 접속. (오류: '+e.message+')');
+  });
+}
+function buildChips(){
+  var box=el('chips'); box.innerHTML='';
+  manifest.days.forEach(function(d){
+    var b=document.createElement('button'); b.className='chip'; b.textContent=d.date.slice(5)+' ('+d.weekday+') '+d.subject;
+    b.dataset.date=d.date; b.onclick=function(){selectDate(d.date)};
+    box.appendChild(b);
+  });
+}
+function selectDate(date){
+  currentDate=date; graded=false; lastResult=null; startTime=Date.now();
+  el('gradeBtn').style.display='block'; el('copyBtn').style.display='none'; el('scoreBox').innerHTML='';
+  document.querySelectorAll('.chip').forEach(function(c){c.classList.toggle('on',c.dataset.date===date)});
+  var meta=manifest.days.find(function(d){return d.date===date});
+  fetchText(meta.file).then(function(t){
+    var doc=new DOMParser().parseFromString(t,'text/xml');
+    if(doc.getElementsByTagName('parsererror').length) throw new Error('XML 파싱 오류');
+    current=doc.documentElement;
+    renderDay(meta);
+  }).catch(function(e){ showNotice('이 날짜 문제를 불러오지 못했어요: '+e.message); });
+}
+function renderDay(meta){
+  el('dayMeta').innerHTML='<b>'+esc(meta.date)+' ('+esc(meta.weekday)+')</b> · '+esc(meta.subject)+' · 단원: '+esc(meta.unit);
+  var res=loadResults().filter(function(r){return r.date===meta.date});
+  el('attemptMeta').textContent=res.length?('이 날짜 풀이 기록 '+res.length+'회 · 최근 점수 '+res[res.length-1].score+'점'):('아직 이 날짜 풀이 기록이 없어요.');
+  var eng=current.getElementsByTagName('english')[0];
+  var box=el('englishBox'); box.innerHTML='';
+  if(eng){
+    Array.prototype.forEach.call(eng.children,function(item){
+      var kind=item.tagName==='word'?'단어':'숙어';
+      var term=txt(item.getElementsByTagName('term')[0]);
+      var pos=item.getElementsByTagName('pos')[0]?txt(item.getElementsByTagName('pos')[0]):'';
+      var mean=txt(item.getElementsByTagName('meaning')[0]);
+      var ex=txt(item.getElementsByTagName('example')[0]);
+      var d=document.createElement('div'); d.className='word';
+      d.innerHTML='<b>'+esc(term)+'</b> <span class="hint">['+kind+(pos?' · '+esc(pos):'')+']</span><div class="mean">'+esc(mean)+(ex?'<br>예) '+esc(ex):'')+'</div>';
+      d.onclick=function(){d.classList.toggle('open')};
+      box.appendChild(d);
+    });
+  }
+  var p=current.getElementsByTagName('passage')[0];
+  el('passageBox').innerHTML=p?'<div class="passage"><b>지문</b>\n'+esc(txt(p))+'</div>':'';
+  var qbox=el('qBox'); qbox.innerHTML='';
+  var qs=current.getElementsByTagName('q');
+  Array.prototype.forEach.call(qs,function(q,i){
+    var id=q.getAttribute('id')||(i+1), type=q.getAttribute('type'), diff=q.getAttribute('difficulty')||'';
+    var stem=txt(q.getElementsByTagName('stem')[0]);
+    var ans=txt(q.getElementsByTagName('answer')[0]);
+    var expl=txt(q.getElementsByTagName('explanation')[0]);
+    var div=document.createElement('div'); div.className='q'; div.dataset.qid=id; div.dataset.type=type; div.dataset.answer=ans;
+    var kw=q.getElementsByTagName('keywords')[0]?txt(q.getElementsByTagName('keywords')[0]):'';
+    div.dataset.keywords=kw;
+    var h='<h3>'+(i+1)+'. '+esc(stem)+'<span class="badge">'+(type==='mcq'?'객관식':'주관식')+' · 난이도 '+esc(diff)+'</span></h3>';
+    if(type==='mcq'){
+      h+='<div class="choices">';
+      var ch=q.getElementsByTagName('choice');
+      Array.prototype.forEach.call(ch,function(c,j){
+        h+='<button class="choice" data-num="'+(j+1)+'">'+(j+1)+'. '+esc(txt(c))+'</button>';
+      });
+      h+='</div>';
+    } else {
+      var long=kw.split(',').length>=3;
+      h+= long?'<textarea placeholder="풀이 과정을 서술해 주세요."></textarea>':'<input type="text" placeholder="답을 입력하세요.">';
+      h+='<div class="hint">채점 전에는 정답이 보이지 않습니다.</div>';
+    }
+    h+='<div class="expl"></div>';
+    div.innerHTML=h; qbox.appendChild(div);
+    div.querySelectorAll('.choice').forEach(function(btn){
+      btn.onclick=function(){ if(graded) return; div.querySelectorAll('.choice').forEach(function(b){b.classList.remove('sel')}); btn.classList.add('sel'); };
+    });
+  });
+  el('quizCard').classList.remove('graded');
+}
+function grade(){
+  if(!current) return;
+  var total=0, correctCount=0, wrong=[];
+  document.querySelectorAll('#qBox .q').forEach(function(div){
+    var type=div.dataset.type, ans=div.dataset.answer, pts=0, ok=false;
+    var explDiv=div.querySelector('.expl');
+    if(type==='mcq'){
+      var sel=div.querySelector('.choice.sel');
+      var picked=sel?sel.dataset.num:'';
+      ok=picked===ans; pts=ok?20:0;
+      div.querySelectorAll('.choice').forEach(function(b){
+        if(b.dataset.num===ans) b.classList.add('correct');
+        else if(b===sel) b.classList.add('wrong');
+      });
+    } else {
+      var input=div.querySelector('textarea,input');
+      var v=norm(input?input.value:'');
+      var kws=div.dataset.keywords.split(',').map(function(s){return norm(s)}).filter(Boolean);
+      if(kws.length>=3){
+        var hit=kws.filter(function(k){return v.indexOf(k)>-1}).length;
+        pts=hit>=3?20:(hit===2?15:(hit===1?10:0)); ok=pts>=15;
+        explDiv.innerHTML='<b>'+(ok?'잘했어요':'아쉬워요')+'</b> 키워드 '+hit+'/'+kws.length+'개 포함 · '+pts+'점<br>모범답안: '+esc(ans)+'<br>'+esc(explText(div));
+      } else {
+        ok=v===norm(ans)||(kws.length&&kws.some(function(k){return v===k||v.indexOf(k)>-1}));
+        pts=ok?20:0;
+        explDiv.innerHTML='<b>'+(ok?'정답!':'오답')+'</b> 정답: '+esc(ans)+'<br>'+esc(explText(div));
+      }
+    }
+    if(type==='mcq'){ var e=explText(div); explDiv.innerHTML='<b>'+(ok?'정답!':'오답')+'</b> '+(type==='mcq'?'정답은 '+esc(ans)+'번입니다.<br>':'정답: '+esc(ans)+'<br>')+esc(e); }
+    total+=pts; if(ok) correctCount++; else wrong.push(div.dataset.qid);
+  });
+  graded=true; el('quizCard').classList.add('graded');
+  var elapsed=Math.round((Date.now()-startTime)/1000);
+  var meta=manifest.days.find(function(d){return d.date===currentDate});
+  var results=loadResults();
+  var prev=results.filter(function(r){return r.date===currentDate}).length;
+  lastResult={date:currentDate,subject:meta.subject,unit:meta.unit,score:total,correct:correctCount,totalQ:5,wrong:wrong,elapsedSec:elapsed,attempt:prev+1,at:new Date().toISOString()};
+  results.push(lastResult); saveResults(results);
+  el('scoreBox').innerHTML='<div class="score">'+total+'점</div><p class="center">'+correctCount+'/5 맞았어요 · 소요 시간 '+Math.floor(elapsed/60)+'분 '+elapsed%60+'초 · '+(prev+1)+'번째 풀이</p>';
+  el('gradeBtn').style.display='none'; el('copyBtn').style.display='block';
+  el('attemptMeta').textContent='이 날짜 풀이 기록 '+(prev+1)+'회 · 최근 점수 '+total+'점';
+  renderTrend();
+}
+function explText(div){
+  var qs=current.getElementsByTagName('q');
+  for(var i=0;i<qs.length;i++){ if(qs[i].getAttribute('id')===div.dataset.qid) return txt(qs[i].getElementsByTagName('explanation')[0]); }
+  return '';
+}
+function renderTrend(){
+  var res=loadResults();
+  var box=el('summaryBox'), sb=el('subjectBox'), wb=el('weakBox'), hb=el('historyBox');
+  if(!res.length){
+    el('chartHint').textContent='아직 기록이 없어요. 문제를 풀고 채점하면 여기에 추세가 그려집니다.';
+    box.innerHTML='아직 풀이 기록이 없습니다.'; sb.innerHTML='-'; wb.innerHTML='-'; hb.innerHTML='';
+    var c=el('chart').getContext('2d'); c.clearRect(0,0,700,180); return;
+  }
+  var sorted=res.slice().sort(function(a,b){return a.date<b.date?-1:1});
+  var last5=sorted.slice(-5); var avg5=Math.round(last5.reduce(function(s,r){return s+r.score},0)/last5.length);
+  var streak=0; var d=new Date(sorted[sorted.length-1].date+'T00:00:00'); var dates={}; res.forEach(function(r){dates[r.date]=1});
+  while(dates[d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')]){streak++; d.setDate(d.getDate()-1)}
+  box.innerHTML='<table><tr><th>최근 5회 평균</th><td>'+avg5+'점</td></tr><tr><th>전체 평균</th><td>'+Math.round(res.reduce(function(s,r){return s+r.score},0)/res.length)+'점</td></tr><tr><th>연속 풀이</th><td>'+streak+'일</td></tr><tr><th>총 풀이</th><td>'+res.length+'회</td></tr></table>';
+  var bySub={}; res.forEach(function(r){(bySub[r.subject]=bySub[r.subject]||[]).push(r.score)});
+  sb.innerHTML='<table>'+Object.keys(bySub).map(function(k){return '<tr><th>'+esc(k)+'</th><td>'+Math.round(bySub[k].reduce(function(a,b){return a+b},0)/bySub[k].length)+'점 ('+bySub[k].length+'회)</td></tr>'}).join('')+'</table>';
+  var weak={}; res.forEach(function(r){(r.wrong||[]).forEach(function(){weak[r.subject+' · '+r.unit]=(weak[r.subject+' · '+r.unit]||0)+1})});
+  var wkeys=Object.keys(weak).sort(function(a,b){return weak[b]-weak[a]});
+  wb.innerHTML=wkeys.length?wkeys.map(function(k){return '<div>· '+esc(k)+' — 틀린 문제 '+weak[k]+'개</div>'}).join(''):'틀린 문제가 없어요. 잘하고 있어요!';
+  hb.innerHTML='<div style="font-weight:700;margin-top:10px">풀이 기록</div><table>'+sorted.slice().reverse().map(function(r){return '<tr><td>'+esc(r.date)+'</td><td>'+esc(r.subject)+'</td><td>'+r.score+'점</td><td>'+r.correct+'/5</td><td>'+r.attempt+'회차</td></tr>'}).join('')+'</table>';
+  el('chartHint').textContent='최근 '+sorted.length+'회 기록 (날짜순)';
+  var c=el('chart').getContext('2d'); c.clearRect(0,0,700,180);
+  c.strokeStyle='#eadfd0'; c.beginPath(); c.moveTo(30,20); c.lineTo(30,150); c.lineTo(680,150); c.stroke();
+  c.fillStyle='#8a7f72'; c.font='12px sans-serif'; c.fillText('100',2,25); c.fillText('0',2,150);
+  var pts=sorted.slice(-14); var n=pts.length;
+  if(n===1){ c.fillStyle='#c96f2e'; c.beginPath(); c.arc(350,150-pts[0].score*1.3,5,0,7); c.fill(); c.fillText(pts[0].score+'점',330,130-pts[0].score*1.3); return; }
+  c.strokeStyle='#c96f2e'; c.lineWidth=2; c.beginPath();
+  pts.forEach(function(r,i){ var x=40+i*(630/(n-1)), y=150-r.score*1.3; if(i===0) c.moveTo(x,y); else c.lineTo(x,y); });
+  c.stroke();
+  pts.forEach(function(r,i){ var x=40+i*(630/(n-1)), y=150-r.score*1.3; c.fillStyle='#c96f2e'; c.beginPath(); c.arc(x,y,4,0,7); c.fill(); c.fillStyle='#2b2620'; c.fillText(r.score,x-8,y-8); });
+}
+el('tabQuiz').onclick=function(){el('tabQuiz').classList.add('on');el('tabTrend').classList.remove('on');el('viewQuiz').style.display='block';el('viewTrend').style.display='none'};
+el('tabTrend').onclick=function(){el('tabTrend').classList.add('on');el('tabQuiz').classList.remove('on');el('viewTrend').style.display='block';el('viewQuiz').style.display='none';renderTrend()};
+el('gradeBtn').onclick=grade;
+el('copyBtn').onclick=function(){
+  if(!lastResult) return;
+  var t='[중2 매일 5문제] '+lastResult.date+' '+lastResult.subject+' ('+lastResult.unit+') — '+lastResult.score+'점 ('+lastResult.correct+'/5), '+(lastResult.wrong.length?'틀린 문제 '+lastResult.wrong.join(', ')+'번':'전부 맞았어요')+', '+(lastResult.attempt)+'번째 풀이';
+  (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){el('copyBtn').textContent='복사했어요!'}).catch(function(){prompt('아래 결과를 복사하세요',t)});
+};
+el('exportBtn').onclick=function(){
+  var blob=new Blob([JSON.stringify(loadResults(),null,2)],{type:'application/json'});
+  var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='study_daily_han_results.json'; a.click();
+};
+el('importBtn').onclick=function(){el('importFile').click()};
+el('importFile').onchange=function(e){
+  var f=e.target.files[0]; if(!f) return;
+  var rd=new FileReader(); rd.onload=function(){ try{var d=JSON.parse(rd.result); if(!Array.isArray(d)) throw 0; saveResults(d); renderTrend(); alert('가져왔어요. '+d.length+'개 기록.')}catch(err){alert('JSON 형식이 올바르지 않아요.')} }; rd.readAsText(f);
+};
+el('clearBtn').onclick=function(){ if(confirm('기록을 전부 지울까요?')){saveResults([]); renderTrend();} };
+loadManifest(); renderTrend();
+</script>
+</body>
+</html>

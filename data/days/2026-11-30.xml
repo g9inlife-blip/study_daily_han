@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily date="2026-11-30" weekday="월" subject="국어" unit="문학 독해·문법·작문">
+  <english>
+    <word><term>perspective</term><pos>명사</pos><meaning>관점, 시각</meaning><example>Try to see it from a different perspective.</example></word>
+    <word><term>express</term><pos>동사</pos><meaning>표현하다</meaning><example>She expressed her feelings clearly.</example></word>
+    <idiom><term>come up with</term><meaning>~을 생각해 내다</meaning><example>He came up with a good idea.</example></idiom>
+    <idiom><term>in other words</term><meaning>다시 말하면</meaning><example>In other words, we need more time.</example></idiom>
+  </english>
+  <passage>겨울 강가에 서면 물은 흐르지 않는 듯 고요하지만, 얼음 아래에서는 여전히 물이 흐른다. 할머니는 그런 강을 보며 말씀하셨다. “겉으로 멈춘 것 같아도 속으로는 흐르는 게 있다. 사람도 그렇단다.” 나는 그 말을 오래 마음에 품었다. 시험에 떨어지고 마음이 얼어붙은 것 같던 날에도, 내 안에서는 무언가 계속 흐르고 있었을 것이다. 봄이 오면 얼음은 녹고 강은 다시 소리를 내며 흐른다. 나도 그렇게 다시 흐를 수 있을 것이다.</passage>
+  <questions>
+    <q id="1" type="mcq" difficulty="중">
+      <stem>이 글의 중심 생각으로 가장 알맞은 것은?</stem>
+      <choices><choice>겨울 강은 완전히 얼어붙어 아무것도 흐르지 않는다.</choice><choice>겉으로 멈춘 것 같아도 속에서는 계속 흐르듯, 어려운 시기에도 내면의 힘은 이어진다.</choice><choice>시험에 떨어지면 다시 일어설 수 없다.</choice><choice>할머니의 말씀은 틀린 생각이다.</choice></choices>
+      <answer>2</answer>
+      <explanation>할머니의 말씀과 글쓴이의 깨달음을 연결하면 중심 생각은 겉으로 멈춘 것 같아도 속으로는 흐른다는 것이다. 시험 실패의 경험도 그 비유로 받아들인다.</explanation>
+    </q>
+    <q id="2" type="mcq" difficulty="중">
+      <stem>이 글에서 사용된 표현 방법으로 알맞은 것은?</stem>
+      <choices><choice>강의 얼음과 사람의 마음을 비유하고 있다.</choice><choice>숫자와 통계를 들어 주장하고 있다.</choice><choice>역사적 사실을 나열하고 있다.</choice><choice>반복되는 운율을 이용해 노래처럼 쓰고 있다.</choice></choices>
+      <answer>1</answer>
+      <explanation>겨울 강의 얼음 아래 흐르는 물이 사람의 내면과 닮았다는 비유를 중심 표현으로 쓰고 있다. 글 전체가 이 비유를 통해 마음을 설명한다.</explanation>
+    </q>
+    <q id="3" type="mcq" difficulty="중">
+      <stem>다음 중 피동 표현이 사용된 문장은?</stem>
+      <choices><choice>나는 그 말을 오래 마음에 품었다.</choice><choice>강은 다시 소리를 내며 흐른다.</choice><choice>얼음은 봄이 오면 녹는다.</choice><choice>시험에 떨어지고 마음이 얼어붙은 것 같던 날에도, 내 안에서는 무언가 계속 흐르고 있었을 것이다.</choice></choices>
+      <answer>4</answer>
+      <explanation>얼어붙다는 얼다에 피동 접미사 -어붙-이 결합한 말로, 마음이 저절로 얼어붙은 상태를 나타낸다. 피동은 동작의 주체가 따로 있고 대상이 주어가 되는 표현이다.</explanation>
+    </q>
+    <q id="4" type="short" difficulty="중">
+      <stem>지문에서 할머니가 한 말을 한 단어로 요약하면 무엇인가? (지문 속 표현을 그대로 쓰시오. 두 글자)</stem>
+      <answer>흐른다</answer>
+      <keywords>흐른다</keywords>
+      <explanation>할머니의 말씀 핵심은 겉으로 멈춘 것 같아도 속으로는 흐른다는 것이다. 지문 속 표현 흐른다가 정답이다.</explanation>
+    </q>
+    <q id="5" type="short" difficulty="중">
+      <stem>글쓴이처럼 좌절을 겪었을 때 다시 일어설 수 있는 이유를 자신의 경험이나 생각을 근거로 들어 두 문장 이상으로 쓰시오.</stem>
+      <answer>겉으로는 멈춘 것 같아도 속에서는 계속 노력이 흐르기 때문에 다시 일어설 수 있다. 작은 실천을 이어 가면 얼음이 녹듯 마음이 풀리고 다시 도전할 힘이 생긴다.</answer>
+      <keywords>노력, 실천, 도전, 흐르기</keywords>
+      <explanation>모범답안: 겉으로는 멈춘 것 같아도 속에서는 계속 노력이 흐르기 때문에 다시 일어설 수 있다. 작은 실천을 이어 가면 얼음이 녹듯 마음이 풀리고 다시 도전할 힘이 생긴다. 채점 포인트: ① 글의 비유를 활용한 것 ② 자신의 경험이나 생각을 근거로 든 것 ③ 두 문장 이상으로 쓴 것.</explanation>
+    </q>
+  </questions>
+</daily>

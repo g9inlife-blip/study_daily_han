@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily date="2026-11-25" weekday="수" subject="과학" unit="전기·자기·태양계">
+  <english>
+    <word><term>circuit</term><pos>명사</pos><meaning>회로, 순환</meaning><example>The electric circuit is broken.</example></word>
+    <word><term>observe</term><pos>동사</pos><meaning>관찰하다</meaning><example>Scientists observe the stars every night.</example></word>
+    <idiom><term>turn on</term><meaning>~을 켜다</meaning><example>Please turn on the light.</example></idiom>
+    <idiom><term>run out of</term><meaning>~이 다 떨어지다, ~이 없어지다</meaning><example>We have run out of batteries.</example></idiom>
+  </english>
+  <questions>
+    <q id="1" type="mcq" difficulty="중">
+      <stem>저항 10Ω에 2A의 전류가 흐를 때, 저항 양단에 걸리는 전압은? (옴의 법칙 V = IR을 이용하시오.)</stem>
+      <choices><choice>5V</choice><choice>12V</choice><choice>20V</choice><choice>0.2V</choice></choices>
+      <answer>3</answer>
+      <explanation>옴의 법칙 V = IR에서 V = 10 × 2 = 20V이다. 전압은 저항과 전류의 곱과 같고, 단위는 볼트(V)이다.</explanation>
+    </q>
+    <q id="2" type="mcq" difficulty="중">
+      <stem>직선 도선에 전류가 흐를 때 생기는 자기장의 방향에 대한 설명으로 옳은 것은?</stem>
+      <choices><choice>전류 방향과 평행하게 직선으로 생긴다.</choice><choice>도선을 중심으로 동심원 모양으로 생기며, 오른손 법칙으로 방향을 알 수 있다.</choice><choice>도선에서 멀어질수록 자기장이 세진다.</choice><choice>전류가 흐르지 않을 때만 생긴다.</choice></choices>
+      <answer>2</answer>
+      <explanation>직선 도선 주위의 자기장은 도선을 중심으로 하는 동심원 모양이다. 오른손 엄지손가락을 전류 방향으로 향하게 하면, 나머지 손가락이 감는 방향이 자기장의 방향이다. 도선에서 멀어질수록 자기장은 약해진다.</explanation>
+    </q>
+    <q id="3" type="mcq" difficulty="중">
+      <stem>태양계 행성에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices><choice>태양에서 가까운 순서대로 수성, 금성, 지구, 화성이다.</choice><choice>목성은 태양계에서 가장 큰 행성이다.</choice><choice>토성은 뚜렷한 고리를 가지고 있다.</choice><choice>해왕성은 태양에서 가장 가까운 행성이다.</choice></choices>
+      <answer>4</answer>
+      <explanation>태양에서 가장 가까운 행성은 수성이고, 가장 먼 행성은 해왕성이다. 행성 순서(태양에서 먼 순서)는 수성-금성-지구-화성-목성-토성-천왕성-해왕성이다.</explanation>
+    </q>
+    <q id="4" type="short" difficulty="중">
+      <stem>전압이 일정할 때 저항이 2배가 되면 전류는 몇 배가 되는가? (예: 2배이면 2, 절반이면 0.5라고 쓰시오.)</stem>
+      <answer>0.5</answer>
+      <keywords>0.5, 절반, 1/2</keywords>
+      <explanation>옴의 법칙 I = V/R에서 전압 V가 일정하면 전류는 저항에 반비례한다. 저항이 2배가 되면 전류는 1/2배, 즉 0.5배가 된다.</explanation>
+    </q>
+    <q id="5" type="short" difficulty="중">
+      <stem>전동기(모터)가 돌아가는 원리를 전류와 자기장의 관계로 서술하시오.</stem>
+      <answer>코일에 전류가 흐르면 자기장 속에서 힘을 받아 코일이 회전하고, 정류자가 전류 방향을 바꿔 주어 계속 같은 방향으로 회전한다.</answer>
+      <keywords>전류, 자기장, 힘, 회전</keywords>
+      <explanation>모범답안: 코일에 전류가 흐르면 자기장 속에서 힘을 받아 코일이 회전한다. 정류자가 전류 방향을 바꿔 주어 코일이 계속 같은 방향으로 회전한다. 채점 포인트: ① 전류가 흐르는 코일이 자기장에서 힘을 받는 것 ② 그 힘으로 회전하는 것 ③ 정류자 역할로 계속 회전하는 것.</explanation>
+    </q>
+  </questions>
+</daily>

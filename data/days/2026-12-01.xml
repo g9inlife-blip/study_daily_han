@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily date="2026-12-01" weekday="화" subject="수학" unit="도형의 성질·확률">
+  <english>
+    <word><term>calculate</term><pos>동사</pos><meaning>계산하다</meaning><example>Please calculate the area of the triangle.</example></word>
+    <word><term>likely</term><pos>형용사, 부사</pos><meaning>~일 것 같은, 아마</meaning><example>It is likely to rain tomorrow.</example></word>
+    <idiom><term>at random</term><meaning>무작위로, 아무렇게나</meaning><example>Pick a card at random.</example></idiom>
+    <idiom><term>figure out</term><meaning>~을 알아내다, 해결하다</meaning><example>Can you figure out this problem?</example></idiom>
+  </english>
+  <questions>
+    <q id="1" type="mcq" difficulty="중">
+      <stem>평행사변형의 성질로 옳지 않은 것은?</stem>
+      <choices><choice>두 쌍의 대변의 길이가 각각 같다.</choice><choice>두 쌍의 대각의 크기가 각각 같다.</choice><choice>두 대각선은 서로를 이등분한다.</choice><choice>네 내각의 크기가 모두 같다.</choice></choices>
+      <answer>4</answer>
+      <explanation>네 내각이 모두 같은 사각형은 직사각형이다. 평행사변형은 대변과 대각이 각각 같고, 대각선이 서로를 이등분한다.</explanation>
+    </q>
+    <q id="2" type="mcq" difficulty="중">
+      <stem>주머니에 빨간 공 3개, 파란 공 2개가 있다. 공 하나를 꺼낼 때 파란 공이 나올 확률은?</stem>
+      <choices><choice>1/5</choice><choice>2/5</choice><choice>3/5</choice><choice>1/2</choice></choices>
+      <answer>2</answer>
+      <explanation>전체 공은 5개, 파란 공은 2개이므로 확률은 2/5이다.</explanation>
+    </q>
+    <q id="3" type="mcq" difficulty="상">
+      <stem>이등변삼각형 ABC에서 AB = AC, ∠A = 40°이다. ∠B의 크기는? (단, ∠B = ∠C이다.)</stem>
+      <choices><choice>40°</choice><choice>60°</choice><choice>70°</choice><choice>100°</choice></choices>
+      <answer>3</answer>
+      <explanation>삼각형 내각의 합은 180°이다. ∠B + ∠C = 180° - 40° = 140°이고, ∠B = ∠C이므로 ∠B = 70°이다.</explanation>
+    </q>
+    <q id="4" type="short" difficulty="중">
+      <stem>삼각형의 세 내각의 합은 몇 도인가? (숫자만 쓰시오.)</stem>
+      <answer>180</answer>
+      <keywords>180</keywords>
+      <explanation>삼각형의 세 내각의 합은 항상 180°이다.</explanation>
+    </q>
+    <q id="5" type="short" difficulty="중">
+      <stem>두 삼각형이 합동임을 보이는 방법 중 하나인 SSS 합동 조건을 설명하고, 왜 세 변이 같으면 합동이 되는지 서술하시오.</stem>
+      <answer>SSS 합동 조건은 두 삼각형의 세 쌍의 대응변의 길이가 각각 같으면 두 삼각형은 합동이라는 조건이다. 세 변의 길이가 정해지면 삼각형의 모양과 크기가 하나로 정해지기 때문이다.</answer>
+      <keywords>세 변, 합동, 모양, 크기</keywords>
+      <explanation>모범답안: SSS 합동 조건은 두 삼각형의 세 쌍의 대응변의 길이가 각각 같으면 두 삼각형은 합동이라는 조건이다. 세 변의 길이가 정해지면 삼각형의 모양과 크기가 하나로 정해지기 때문이다. 채점 포인트: ① 세 쌍의 대응변이 같다는 조건 ② 합동이라는 결론 ③ 세 변이 정해지면 모양과 크기가 정해진다는 이유.</explanation>
+    </q>
+  </questions>
+</daily>

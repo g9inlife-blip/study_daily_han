@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily date="2026-12-02" weekday="수" subject="과학" unit="물질·전기·태양계">
+  <english>
+    <word><term>density</term><pos>명사</pos><meaning>밀도</meaning><example>The density of water is 1 g per cubic centimeter.</example></word>
+    <word><term>substance</term><pos>명사</pos><meaning>물질</meaning><example>Water is a pure substance.</example></word>
+    <idiom><term>mix up</term><meaning>혼동하다, 섞다</meaning><example>Don't mix up the two bottles.</example></idiom>
+    <idiom><term>break down</term><meaning>분해되다, 고장 나다</meaning><example>The machine broke down yesterday.</example></idiom>
+  </english>
+  <questions>
+    <q id="1" type="mcq" difficulty="중">
+      <stem>다음 중 원소 기호와 이름이 바르게 짝지어진 것은?</stem>
+      <choices><choice>O - 수소</choice><choice>H - 산소</choice><choice>Fe - 철</choice><choice>Na - 칼륨</choice></choices>
+      <answer>3</answer>
+      <explanation>Fe는 철, O는 산소, H는 수소, Na는 나트륨이다. 칼륨은 K이다.</explanation>
+    </q>
+    <q id="2" type="mcq" difficulty="중">
+      <stem>저항을 직렬로 연결할 때 전체 저항에 대한 설명으로 옳은 것은?</stem>
+      <choices><choice>전체 저항은 가장 작은 저항보다 작아진다.</choice><choice>전체 저항은 각 저항의 합과 같다.</choice><choice>전체 저항은 각 저항의 곱과 같다.</choice><choice>직렬 연결에서는 전압이 각 저항에 똑같이 걸린다.</choice></choices>
+      <answer>2</answer>
+      <explanation>직렬 연결에서는 전체 저항이 각 저항의 합과 같아진다. 전류는 모든 저항에 똑같이 흐르고, 전압은 저항에 비례해 나뉜다.</explanation>
+    </q>
+    <q id="3" type="mcq" difficulty="중">
+      <stem>달의 위상 변화에 대한 설명으로 옳은 것은?</stem>
+      <choices><choice>달은 스스로 빛을 내어 모양이 변한다.</choice><choice>달이 지구 주위를 공전하면서 태양빛을 받는 부분이 달라져 모양이 변한다.</choice><choice>달의 위상은 계절에 따라 정해진다.</choice><choice>보름달 다음에는 바로 그믐달이 된다.</choice></choices>
+      <answer>2</answer>
+      <explanation>달은 스스로 빛을 내지 않고 태양빛을 반사한다. 달이 지구 주위를 공전하면서 태양빛을 받는 부분이 달라 보여 초승달, 상현달, 보름달, 하현달 순으로 변한다.</explanation>
+    </q>
+    <q id="4" type="short" difficulty="중">
+      <stem>질량이 20g, 부피가 10cm³인 물체의 밀도는 몇 g/cm³인가? (숫자만 쓰시오.)</stem>
+      <answer>2</answer>
+      <keywords>2</keywords>
+      <explanation>밀도 = 질량 ÷ 부피 = 20 ÷ 10 = 2 g/cm³이다.</explanation>
+    </q>
+    <q id="5" type="short" difficulty="중">
+      <stem>가정에서 전기를 안전하게 사용하기 위해 지켜야 할 점을 두 가지 이상 들어 서술하시오.</stem>
+      <answer>젖은 손으로 전기 제품을 만지지 않고, 한 콘센트에 여러 기구를 꽂아 과부하를 일으키지 않으며, 손상된 전선은 사용하지 않는다.</answer>
+      <keywords>젖은 손, 과부하, 손상된 전선</keywords>
+      <explanation>모범답안: 젖은 손으로 전기 제품을 만지지 않고, 한 콘센트에 여러 기구를 꽂아 과부하를 일으키지 않으며, 손상된 전선은 사용하지 않는다. 채점 포인트: ① 젖은 손 주의 ② 과부하 방지 ③ 손상된 전선 사용 금지 중 두 가지 이상.</explanation>
+    </q>
+  </questions>
+</daily>

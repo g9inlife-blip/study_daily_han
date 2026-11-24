@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily date="2026-12-03" weekday="목" subject="역사" unit="근대화 운동 심화">
+  <english>
+    <word><term>independence</term><pos>명사</pos><meaning>독립</meaning><example>They fought for independence.</example></word>
+    <word><term>establish</term><pos>동사</pos><meaning>설립하다, 세우다</meaning><example>He established a new school.</example></word>
+    <idiom><term>take over</term><meaning>인수하다, 장악하다</meaning><example>Japan took over Korea in 1910.</example></idiom>
+    <idiom><term>put up with</term><meaning>~을 참다</meaning><example>We cannot put up with unfair rules.</example></idiom>
+  </english>
+  <questions>
+    <q id="1" type="mcq" difficulty="중">
+      <stem>갑신정변(1884)에 대한 설명으로 옳은 것은?</stem>
+      <choices><choice>김옥균 등 개화파가 청나라의 간섭에서 벗어나 근대화를 추진하려 했다.</choice><choice>농민들이 탐관오리에 맞서 일으킨 운동이다.</choice><choice>일본이 조선을 강제로 병합하기 위해 일으킨 사건이다.</choice><choice>고종이 직접 주도한 친일 쿠데타이다.</choice></choices>
+      <answer>1</answer>
+      <explanation>갑신정변은 김옥균 등 개화파가 청나라의 간섭에서 벗어나 근대화를 추진하려 일으킨 사건으로, 청나라 군대의 개입으로 사흘 만에 실패했다.</explanation>
+    </q>
+    <q id="2" type="mcq" difficulty="중">
+      <stem>독립협회와 대한제국에 대한 설명으로 옳은 것은?</stem>
+      <choices><choice>독립협회는 독립신문을 발행하며 자주 독립과 개혁을 주장했다.</choice><choice>대한제국은 1894년에 선포되었다.</choice><choice>독립협회는 일본의 지원을 받아 만들어졌다.</choice><choice>대한제국은 청나라의 속국임을 선언했다.</choice></choices>
+      <answer>1</answer>
+      <explanation>독립협회는 서재필 등이 주도해 독립신문을 발행하고 만민공동회를 열며 자주 독립과 개혁을 주장했다. 대한제국은 1897년에 선포되었다.</explanation>
+    </q>
+    <q id="3" type="mcq" difficulty="중">
+      <stem>동학 농민 운동의 의의로 가장 알맞은 것은?</stem>
+      <choices><choice>농민들이 부당한 수탈과 외세 침략에 맞서 민중의 힘을 보여 주었다.</choice><choice>조선 정부가 스스로 근대화에 성공하는 계기가 되었다.</choice><choice>일본의 침략을 완전히 막아 냈다.</choice><choice>신분제가 저절로 없어지는 계기가 되었다.</choice></choices>
+      <answer>1</answer>
+      <explanation>동학 농민 운동은 농민들이 부당한 수탈과 외세 침략에 맞서 일어났다는 점에서 민중의 힘을 보여 주었고, 이후 갑오개혁과 근대화 논의에 큰 영향을 주었다.</explanation>
+    </q>
+    <q id="4" type="short" difficulty="중">
+      <stem>고종이 국호를 대한제국으로 바꾸고 황제로 즉위한 해는 몇 년인가? (숫자만 쓰시오.)</stem>
+      <answer>1897</answer>
+      <keywords>1897</keywords>
+      <explanation>1897년 고종은 국호를 대한제국으로 바꾸고 황제로 즉위하며 자주 독립 국가임을 선언했다.</explanation>
+    </q>
+    <q id="5" type="short" difficulty="중">
+      <stem>독립협회가 주장한 자주 독립과 개혁의 내용을 설명하고, 그것이 왜 중요했는지 서술하시오.</stem>
+      <answer>독립협회는 자주 독립과 의회 설립, 교육과 산업 진흥을 주장하며 외세 간섭에서 벗어나 스스로 근대 국가를 세우려 했다. 이는 백성이 나라의 주인이라는 의식을 키웠다는 점에서 중요했다.</answer>
+      <keywords>자주 독립, 개혁, 근대 국가</keywords>
+      <explanation>모범답안: 독립협회는 자주 독립과 의회 설립, 교육과 산업 진흥을 주장하며 외세 간섭에서 벗어나 스스로 근대 국가를 세우려 했다. 이는 백성이 나라의 주인이라는 의식을 키웠다는 점에서 중요했다. 채점 포인트: ① 자주 독립 주장 ② 의회·교육·산업 같은 개혁 내용 ③ 민중 의식을 키웠다는 의의.</explanation>
+    </q>
+  </questions>
+</daily>

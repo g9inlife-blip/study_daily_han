@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily date="2026-11-26" weekday="목" subject="역사" unit="개항과 근대화">
+  <english>
+    <word><term>reform</term><pos>명사, 동사</pos><meaning>개혁, 개혁하다</meaning><example>The king started a reform of the government.</example></word>
+    <word><term>resistance</term><pos>명사</pos><meaning>저항, 반대</meaning><example>The people showed strong resistance.</example></word>
+    <idiom><term>stand up for</term><meaning>~을 옹호하다, ~을 위해 맞서다</meaning><example>He stood up for his friends.</example></idiom>
+    <idiom><term>take place</term><meaning>일어나다, 개최되다</meaning><example>The meeting took place in Seoul.</example></idiom>
+  </english>
+  <questions>
+    <q id="1" type="mcq" difficulty="중">
+      <stem>1876년에 체결되어 조선이 개항하게 된 조약은?</stem>
+      <choices><choice>강화도 조약</choice><choice>을사늑약</choice><choice>한일 병합 조약</choice><choice>조미 수호 통상 조약</choice></choices>
+      <answer>1</answer>
+      <explanation>1876년 강화도 조약으로 조선은 부산, 원산, 인천을 개항하고 일본과 통상을 시작했다. 을사늑약은 1905년, 한일 병합은 1910년의 일이다.</explanation>
+    </q>
+    <q id="2" type="mcq" difficulty="중">
+      <stem>동학 농민 운동(1894)에 대한 설명으로 옳은 것은?</stem>
+      <choices><choice>전봉준을 중심으로 탐관오리와 외세에 맞서 일어났다.</choice><choice>김옥균이 주도한 상층부의 쿠데타였다.</choice><choice>강화도 조약을 체결하기 위해 일어났다.</choice><choice>일본의 침략을 막기 위해 정부가 주도했다.</choice></choices>
+      <answer>1</answer>
+      <explanation>동학 농민 운동은 전봉준을 중심으로 농민들이 탐관오리의 수탈과 외세 침략에 맞서 일으킨 운동이다. 갑오개혁과 청일전쟁의 계기가 되었고, 농민들의 요구가 담긴 집강소 설치로 이어지기도 했다.</explanation>
+    </q>
+    <q id="3" type="mcq" difficulty="중">
+      <stem>갑오개혁(1894~1895)에 대한 설명으로 옳지 않은 것은?</stem>
+      <choices><choice>신분제를 폐지하고 과거제를 없앴다.</choice><choice>조세 제도를 개혁하고 화폐를 정리했다.</choice><choice>갑오개혁은 일본의 간섭 없이 조선 정부만의 힘으로 추진되었다.</choice><choice>교육과 군사 제도 개혁을 시도했다.</choice></choices>
+      <answer>3</answer>
+      <explanation>갑오개혁은 청일전쟁 중 일본의 간섭 아래 추진된 개혁으로, 신분제 폐지·과거제 폐지·조세 개혁 등 근대적 개혁을 담았지만 일본의 영향에서 자유롭지 못했다.</explanation>
+    </q>
+    <q id="4" type="short" difficulty="중">
+      <stem>1884년에 김옥균 등 개화파가 일으킨 사건의 이름은? (네 글자로 쓰시오.)</stem>
+      <answer>갑신정변</answer>
+      <keywords>갑신정변</keywords>
+      <explanation>갑신정변은 1884년 김옥균 등 개화파가 청나라의 간섭에서 벗어나 근대화를 추진하려 일으킨 사건이다. 청나라 군대의 개입으로 사흘 만에 실패했다.</explanation>
+    </q>
+    <q id="5" type="short" difficulty="중">
+      <stem>개항 이후 조선 사회가 어떻게 달라졌는지 경제와 문화 측면에서 서술하시오.</stem>
+      <answer>경제에서는 개항장을 중심으로 외국 상인이 들어오고 쌀과 금이 유출되며 상공업이 흔들렸고, 문화에서는 서양 문물과 기독교, 신식 교육이 들어와 생활과 의식이 변했다.</answer>
+      <keywords>개항장, 외국 상인, 서양 문물, 신식 교육</keywords>
+      <explanation>모범답안: 경제에서는 개항장을 중심으로 외국 상인이 들어오고 쌀과 금이 유출되며 상공업이 흔들렸고, 문화에서는 서양 문물과 기독교, 신식 교육이 들어와 생활과 의식이 변했다. 채점 포인트: ① 개항장·외국 상인·무역 변화 ② 쌀·금 유출 같은 경제적 충격 ③ 서양 문물·신식 교육 같은 문화 변화.</explanation>
+    </q>
+  </questions>
+</daily>
