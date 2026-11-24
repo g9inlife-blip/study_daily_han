@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-11-26" weekday="목" subject="역사" unit="개항과 근대화">
   <english>
-    <word><term>reform</term><pos>명사, 동사</pos><meaning>개혁, 개혁하다</meaning><example>The king started a reform of the government.</example></word>
-    <word><term>resistance</term><pos>명사</pos><meaning>저항, 반대</meaning><example>The people showed strong resistance.</example></word>
-    <idiom><term>stand up for</term><meaning>~을 옹호하다, ~을 위해 맞서다</meaning><example>He stood up for his friends.</example></idiom>
-    <idiom><term>take place</term><meaning>일어나다, 개최되다</meaning><example>The meeting took place in Seoul.</example></idiom>
+    <word><term>reform</term><pronunciation>/rɪˈfɔːrm/</pronunciation><pos>명사, 동사</pos><meaning>개혁, 개혁하다</meaning><example>The king started a reform of the government.</example></word>
+    <word><term>resistance</term><pronunciation>/rɪˈzɪstəns/</pronunciation><pos>명사</pos><meaning>저항, 반대</meaning><example>The people showed strong resistance.</example></word>
+    <idiom><term>stand up for</term><pronunciation>/ˌstænd ˈʌp fɔːr/</pronunciation><meaning>~을 옹호하다, ~을 위해 맞서다</meaning><example>He stood up for his friends.</example></idiom>
+    <idiom><term>take place</term><pronunciation>/teɪk ˈpleɪs/</pronunciation><meaning>일어나다, 개최되다</meaning><example>The meeting took place in Seoul.</example></idiom>
   </english>
   <questions>
     <q id="1" type="mcq" difficulty="중">
