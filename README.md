@@ -140,6 +140,8 @@ PY
 ## GitHub Pages 테스트 배포
 
 - GitHub Pages는 개발·UI 테스트용으로만 사용합니다. 실제 가족 학습 기록과 개인정보는 공개 정적 파일에 저장하지 않습니다.
+- 현재 저장소는 **Private**입니다. GitHub Free에서는 Pages를 사용하려면 저장소가 Public이어야 하므로, Private 유지 시 Pages를 지원하는 유료 플랜이 필요할 수 있습니다.
+- 저장소를 Public으로 바꾸는 경우 문제 XML의 정답·해설까지 인터넷에 공개된다는 점을 확인하고 진행합니다.
 - 저장소의 **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택해야 합니다.
 - 이후 `main`에 push하면 콘텐츠 검증을 통과한 경우 테스트 사이트가 배포됩니다. Pull request에서는 검증만 실행하고 배포하지 않습니다.
 - GitHub Pages는 공개 사이트이므로 URL을 아는 사람은 GitHub 로그인 없이 접속할 수 있습니다.
