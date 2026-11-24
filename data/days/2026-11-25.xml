@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-11-25" weekday="수" subject="과학" unit="전기·자기·태양계">
   <english>
-    <word><term>circuit</term><pos>명사</pos><meaning>회로, 순환</meaning><example>The electric circuit is broken.</example></word>
-    <word><term>observe</term><pos>동사</pos><meaning>관찰하다</meaning><example>Scientists observe the stars every night.</example></word>
-    <idiom><term>turn on</term><meaning>~을 켜다</meaning><example>Please turn on the light.</example></idiom>
-    <idiom><term>run out of</term><meaning>~이 다 떨어지다, ~이 없어지다</meaning><example>We have run out of batteries.</example></idiom>
+    <word><term>circuit</term><pronunciation>/ˈsɝːkɪt/</pronunciation><pos>명사</pos><meaning>회로, 순환</meaning><example>The electric circuit is broken.</example></word>
+    <word><term>observe</term><pronunciation>/əbˈzɝːv/</pronunciation><pos>동사</pos><meaning>관찰하다</meaning><example>Scientists observe the stars every night.</example></word>
+    <idiom><term>turn on</term><pronunciation>/tɝːn ˈɑːn/</pronunciation><meaning>~을 켜다</meaning><example>Please turn on the light.</example></idiom>
+    <idiom><term>run out of</term><pronunciation>/rʌn ˈaʊt əv/</pronunciation><meaning>~이 다 떨어지다, ~이 없어지다</meaning><example>We have run out of batteries.</example></idiom>
   </english>
   <questions>
     <q id="1" type="mcq" difficulty="중">
