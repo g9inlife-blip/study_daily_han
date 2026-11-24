@@ -144,7 +144,7 @@ function selectDate(date){
     if(requestId!==loadToken) return;
     current=doc.documentElement; currentMeta=meta;
     renderDay(meta);
-    el('gradeBtn').disabled=false;
+    el('gradeBtn').disabled=graded;
   }).catch(function(e){ if(requestId===loadToken) showNotice('이 날짜 문제를 불러오지 못했어요: '+e.message); });
 }
 function renderDay(meta){
@@ -170,6 +170,8 @@ function renderDay(meta){
   var p=current.getElementsByTagName('passage')[0];
   el('passageBox').innerHTML=p?'<div class="passage"><b>지문</b>\n'+esc(txt(p))+'</div>':'';
   var qbox=el('qBox'); qbox.innerHTML='';
+  var previous=loadResults().filter(function(r){return r.date===meta.date}).sort(function(a,b){return String(a.at||'').localeCompare(String(b.at||''))});
+  var previousResult=previous.length?previous[previous.length-1]:null;
   var qs=current.getElementsByTagName('q');
   Array.prototype.forEach.call(qs,function(q,i){
     var id=q.getAttribute('id')||(i+1), type=q.getAttribute('type'), diff=q.getAttribute('difficulty')||'';
@@ -188,14 +190,14 @@ function renderDay(meta){
       });
       h+='</div>';
     } else {
-      var long=kw.split(',').length>=3;
-      h+= long?'<textarea placeholder="풀이 과정을 서술해 주세요."></textarea>':'<input type="text" placeholder="답을 입력하세요.">';
+      h+='<input type="text" placeholder="짧은 답을 입력하세요.">';
       h+='<div class="hint">채점 전에는 정답이 보이지 않습니다.</div>';
     }
     h+='<div class="expl"></div>';
     div.innerHTML=h; qbox.appendChild(div);
     var drafts=loadAnswerDrafts();
     var saved=drafts[meta.date]&&drafts[meta.date][String(id)];
+    if(previousResult && previousResult.answers && Object.prototype.hasOwnProperty.call(previousResult.answers,String(id))) saved=previousResult.answers[String(id)];
     if(type==='mcq'){
       div.querySelectorAll('.choice').forEach(function(btn){
         if(String(saved||'')===btn.dataset.num) btn.classList.add('sel');
@@ -204,13 +206,15 @@ function renderDay(meta){
     } else {
       var answerInput=div.querySelector('textarea,input');
       if(answerInput && saved!=null) answerInput.value=saved;
-      if(answerInput) answerInput.addEventListener('input',function(){saveAnswerDraft(meta.date,id,answerInput.value)});
+      if(answerInput) answerInput.addEventListener('input',function(){if(!graded) saveAnswerDraft(meta.date,id,answerInput.value)});
     }
   });
   el('quizCard').classList.remove('graded');
+  if(previousResult){grade(previousResult);}
+  else {el('gradeBtn').style.display='block';el('gradeBtn').disabled=false;el('copyBtn').style.display='none';el('scoreBox').innerHTML='';}
 }
-function grade(){
-  if(!current || !currentMeta) return;
+function grade(existingResult){
+  if(!current || !currentMeta || (graded && !existingResult)) return;
   var meta=currentMeta;
   currentDate=meta.date;
   var total=0, correctCount=0, wrong=[];
@@ -229,15 +233,9 @@ function grade(){
       var input=div.querySelector('textarea,input');
       var v=norm(input?input.value:'');
       var kws=div.dataset.keywords.split(',').map(function(s){return norm(s)}).filter(Boolean);
-      if(kws.length>=3){
-        var hit=kws.filter(function(k){return v.indexOf(k)>-1}).length;
-        pts=hit>=3?20:(hit===2?15:(hit===1?10:0)); ok=pts>=15;
-        explDiv.innerHTML='<b>'+(ok?'잘했어요':'아쉬워요')+'</b> 키워드 '+hit+'/'+kws.length+'개 포함 · '+pts+'점<br>모범답안: '+esc(ans)+'<br>'+esc(explText(div));
-      } else {
-        ok=v===norm(ans)||(kws.length&&kws.some(function(k){return v===k||v.indexOf(k)>-1}));
-        pts=ok?20:0;
-        explDiv.innerHTML='<b>'+(ok?'정답!':'오답')+'</b> 정답: '+esc(ans)+'<br>'+esc(explText(div));
-      }
+      ok=v===norm(ans)||kws.some(function(k){return v===k});
+      pts=ok?20:0;
+      explDiv.innerHTML='<b>'+(ok?'정답!':'오답')+'</b> 정답: '+esc(ans)+'<br>'+esc(explText(div));
     }
     if(type==='mcq'){ var e=explText(div); explDiv.innerHTML='<b>'+(ok?'정답!':'오답')+'</b> '+(type==='mcq'?'정답은 '+esc(ans)+'번입니다.<br>':'정답: '+esc(ans)+'<br>')+esc(e); }
     total+=pts; if(ok) correctCount++; else wrong.push(div.dataset.qid);
@@ -246,11 +244,24 @@ function grade(){
   var elapsed=Math.round((Date.now()-startTime)/1000);
   var results=loadResults();
   var prev=results.filter(function(r){return r.date===currentDate}).length;
-  lastResult={date:currentDate,subject:meta.subject,unit:meta.unit,score:total,correct:correctCount,totalQ:5,wrong:wrong,elapsedSec:elapsed,attempt:prev+1,at:new Date().toISOString()};
-  results.push(lastResult); saveResults(results);
-  el('scoreBox').innerHTML='<div class="score">'+total+'점</div><p class="center">'+correctCount+'/5 맞았어요 · 소요 시간 '+Math.floor(elapsed/60)+'분 '+elapsed%60+'초 · '+(prev+1)+'번째 풀이</p>';
-  el('gradeBtn').style.display='none'; el('copyBtn').style.display='block';
-  el('attemptMeta').textContent='이 날짜 풀이 기록 '+(prev+1)+'회 · 최근 점수 '+total+'점';
+  if(existingResult){
+    lastResult=existingResult;
+  } else {
+    var answerSnapshot={};
+    document.querySelectorAll('#qBox .q').forEach(function(div){
+      var id=String(div.dataset.qid), input=div.querySelector('input[type=text]'), selected=div.querySelector('.choice.sel');
+      answerSnapshot[id]=div.dataset.type==='mcq'?(selected?selected.dataset.num:''):(input?input.value:'');
+    });
+    lastResult={date:currentDate,subject:meta.subject,unit:meta.unit,score:total,correct:correctCount,totalQ:5,wrong:wrong,answers:answerSnapshot,elapsedSec:elapsed,attempt:prev+1,at:new Date().toISOString()};
+    results.push(lastResult); saveResults(results);
+  }
+  var shownScore=existingResult?existingResult.score:total;
+  var shownCorrect=existingResult?existingResult.correct:correctCount;
+  var shownElapsed=existingResult?(existingResult.elapsedSec||0):elapsed;
+  var shownAttempt=existingResult?(existingResult.attempt||prev):prev+1;
+  el('scoreBox').innerHTML='<div class="score">'+shownScore+'점</div><p class="center">'+shownCorrect+'/5 맞았어요 · 소요 시간 '+Math.floor(shownElapsed/60)+'분 '+shownElapsed%60+'초 · '+shownAttempt+'번째 풀이</p>';
+  el('gradeBtn').style.display='none'; el('gradeBtn').disabled=true; el('copyBtn').style.display='block';
+  el('attemptMeta').textContent='이 날짜 풀이 기록 '+Math.max(prev,shownAttempt)+'회 · 최근 점수 '+shownScore+'점';
   renderTrend();
 }
 function explText(div){
