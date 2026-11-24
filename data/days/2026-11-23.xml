@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daily date="2026-11-23" weekday="월" subject="국어" unit="비문학 독해·문학 표현·문법">
+  <passage>도시는 편리한 시설과 빠른 교통을 갖추고 있지만, 그만큼 많은 에너지를 사용한다. 건물의 조명을 필요할 때만 켜고 대중교통을 이용하는 작은 실천은 에너지 소비를 줄이는 데 도움이 된다. 한 사람의 행동은 작아 보일 수 있지만, 여러 사람이 함께 실천하면 큰 변화를 만들 수 있다. 환경을 지키는 일은 특별한 누군가만의 책임이 아니라 오늘을 살아가는 우리 모두의 몫이다.</passage>
+  <questions>
+    <q id="1" type="mcq" difficulty="중">
+      <stem>이 글의 중심 내용으로 가장 알맞은 것은?</stem>
+      <choices><choice>도시에서는 에너지를 사용하지 말아야 한다.</choice><choice>작은 에너지 절약 실천도 여러 사람이 함께하면 환경 보호에 도움이 된다.</choice><choice>환경 보호는 전문가만 할 수 있는 일이다.</choice><choice>대중교통은 에너지 소비와 관계가 없다.</choice></choices>
+      <answer>2</answer>
+      <explanation>글은 조명과 대중교통 이용 등 일상 속 작은 실천을 소개하고, 여러 사람이 함께하면 큰 변화를 만들 수 있다고 강조한다.</explanation>
+    </q>
+    <q id="2" type="mcq" difficulty="중">
+      <stem>글쓴이가 근거로 제시한 에너지 절약 방법이 아닌 것은?</stem>
+      <choices><choice>필요할 때만 조명 켜기</choice><choice>대중교통 이용하기</choice><choice>사용하지 않는 전등 끄기</choice><choice>개인 자동차를 더 자주 이용하기</choice></choices>
+      <answer>4</answer>
+      <explanation>개인 자동차를 더 자주 이용하는 것은 글에서 제시한 에너지 절약 방법이 아니다.</explanation>
+    </q>
+    <q id="3" type="mcq" difficulty="중">
+      <stem>“한 사람의 행동은 작아 보일 수 있지만, 여러 사람이 함께 실천하면 큰 변화를 만들 수 있다.”에 담긴 표현 방식으로 알맞은 것은?</stem>
+      <choices><choice>개인의 실천과 공동체의 실천을 대조하여 강조한다.</choice><choice>시간의 흐름에 따라 사건을 나열한다.</choice><choice>인물의 대화를 통해 갈등을 드러낸다.</choice><choice>반어적 표현으로 실제 의미와 반대되는 뜻을 나타낸다.</choice></choices>
+      <answer>1</answer>
+      <explanation>한 사람의 행동과 여러 사람이 함께하는 행동을 대조하여 공동 실천의 중요성을 강조하고 있다.</explanation>
+    </q>
+    <q id="4" type="short" difficulty="중">
+      <stem>문장에서 주어가 동작이나 상태의 대상이 되는 표현을 무엇이라고 하는가? (세 글자)</stem>
+      <answer>피동문</answer>
+      <keywords>피동문</keywords>
+      <explanation>주어가 다른 주체의 동작을 받거나 어떤 작용의 대상이 되는 문장을 피동문이라고 한다.</explanation>
+    </q>
+    <q id="5" type="short" difficulty="중">
+      <stem>‘환경을 지키는 일은 우리 모두의 몫이다.’에서 문장의 주체를 나타내는 성분은 무엇인가? (두 글자)</stem>
+      <answer>주어</answer>
+      <keywords>주어</keywords>
+      <explanation>‘환경을 지키는 일은’이 문장에서 설명의 대상이 되는 주어 역할을 한다.</explanation>
+    </q>
+  </questions>
+</daily>
