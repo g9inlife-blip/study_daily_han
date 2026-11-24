@@ -14,7 +14,7 @@
       <answer>2</answer>
       <explanation>선행사가 사물인 book이므로 which가 맞다. who는 사람을, where는 장소를, when은 시간을 나타낼 때 쓴다.</explanation>
     </q>
-    <q id="2" type="mcq" difficulty="중">
+    <q id="2" requiresPassage="true" type="mcq" difficulty="중">
       <stem>지문에서 학생들의 청소 프로젝트 결과로 알맞은 것은?</stem>
       <choices><choice>강물이 더 더러워졌다.</choice><choice>강물이 깨끗해지고 물고기가 돌아왔다.</choice><choice>학생들이 강을 버리게 되었다.</choice><choice>마을 사람들이 강을 찾지 않게 되었다.</choice></choices>
       <answer>2</answer>
@@ -32,7 +32,7 @@
       <keywords>learning</keywords>
       <explanation>be interested in 뒤에는 동명사가 온다. learn의 동명사는 learning이다.</explanation>
     </q>
-    <q id="5" type="short" difficulty="중">
+    <q id="5" requiresPassage="true" type="short" difficulty="중">
       <stem>강 청소 프로젝트 이후 지문 속 강으로 돌아온 생물은 무엇인가? (두 글자)</stem>
       <answer>물고기</answer>
       <keywords>물고기</keywords>
