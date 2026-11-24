@@ -42,7 +42,7 @@ textarea{min-height:90px;resize:vertical}
 .ok{color:var(--good);font-weight:700}.ng{color:var(--bad);font-weight:700}
 .wordgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .word{border:1px solid var(--line);border-radius:10px;padding:10px;cursor:pointer}
-.word .mean{display:none;color:var(--muted);font-size:13px;margin-top:4px}
+.word .pron{display:block;color:var(--accent2);font-size:13px;margin-top:2px;font-family:Georgia,serif;letter-spacing:.2px}.word .mean{display:none;color:var(--muted);font-size:13px;margin-top:4px}
 .word.open .mean{display:block}
 .hint{font-size:12px;color:var(--muted)}
 table{width:100%;border-collapse:collapse;font-size:14px}
@@ -173,10 +173,11 @@ function renderDay(meta){
       var kind=item.tagName==='word'?'단어':'숙어';
       var term=txt(item.getElementsByTagName('term')[0]);
       var pos=item.getElementsByTagName('pos')[0]?txt(item.getElementsByTagName('pos')[0]):'';
+      var pron=txt(item.getElementsByTagName('pronunciation')[0]);
       var mean=txt(item.getElementsByTagName('meaning')[0]);
       var ex=txt(item.getElementsByTagName('example')[0]);
       var d=document.createElement('div'); d.className='word';
-      d.innerHTML='<b>'+esc(term)+'</b> <span class="hint">['+kind+(pos?' · '+esc(pos):'')+']</span><div class="mean">'+esc(mean)+(ex?'<br>예) '+esc(ex):'')+'</div>';
+      d.innerHTML='<b>'+esc(term)+'</b> <span class="hint">['+kind+(pos?' · '+esc(pos):'')+']</span>'+(pron?'<div class="pron">'+esc(pron)+'</div>':'')+'<div class="mean">'+esc(mean)+(ex?'<br>예) '+esc(ex):'')+'</div>';
       d.onclick=function(){d.classList.toggle('open')};
       box.appendChild(d);
     });
