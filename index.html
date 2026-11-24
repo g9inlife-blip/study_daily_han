@@ -91,7 +91,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <script>
 var LS_KEY='study_daily_han_results_v1';
 var ANSWER_KEY='study_daily_han_answers_v1';
-var WEEKEND_SET_KEY='study_daily_han_weekend_sets_v1';
+var WEEKEND_SET_KEY='study_daily_han_weekend_sets_v2';
 var manifest=null, current=null, currentMeta=null, currentDate='', startTime=0, graded=false, lastResult=null, loadToken=0, selectedWeekStart='';
 function el(id){return document.getElementById(id)}
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
@@ -146,7 +146,7 @@ function makeWeekendSet(date){
     var missing=subjects.filter(function(sub){return !pools[sub]||pools[sub].length<2});
     if(missing.length)throw new Error('이 주의 평일 문제 중 '+missing.join(', ')+' 과목이 부족해요. 월~금 5과목 문제가 모두 등록되면 주말 10문제가 열립니다.');
     var out=document.implementation.createDocument('','day',null),root=out.documentElement;
-    subjects.forEach(function(sub){var pool=pools[sub].slice();for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=pool[i];pool[i]=pool[j];pool[j]=tmp}pool.slice(0,2).forEach(function(q,i){var clone=out.importNode(q,true);clone.setAttribute('id','weekend-'+sub+'-'+i);root.appendChild(clone)})});
+    subjects.forEach(function(sub){var pool=pools[sub].slice();for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=pool[i];pool[i]=pool[j];pool[j]=tmp}pool.slice(0,2).forEach(function(q,i){var clone=out.importNode(q,true);clone.setAttribute('id','weekend-'+sub+'-'+i);if(q.getAttribute('requiresPassage')==='true'){var sourcePassage=q.ownerDocument.getElementsByTagName('passage')[0];if(sourcePassage)clone.appendChild(out.importNode(sourcePassage,true))}root.appendChild(clone)})});
     return new XMLSerializer().serializeToString(out);
   });
 }
@@ -195,7 +195,9 @@ function renderDay(meta){
     var div=document.createElement('div'); div.className='q'; div.dataset.qid=id; div.dataset.type=type; div.dataset.answer=ans;
     var kw=q.getElementsByTagName('keywords')[0]?txt(q.getElementsByTagName('keywords')[0]):'';
     div.dataset.keywords=kw;
-    var h='<h3>'+(i+1)+'. '+esc(stem)+'<span class="badge">'+(type==='mcq'?'객관식':'주관식')+' · 난이도 '+esc(diff)+'</span></h3>';
+    var questionPassage=meta.weekend&&q.getAttribute('requiresPassage')==='true'?q.getElementsByTagName('passage')[0]:null;
+    var h=questionPassage?'<div class="passage"><b>참고 지문</b>\n'+esc(txt(questionPassage))+'</div>':'';
+    h+='<h3>'+(i+1)+'. '+esc(stem)+'<span class="badge">'+(type==='mcq'?'객관식':'주관식')+' · 난이도 '+esc(diff)+'</span></h3>';
     if(type==='mcq'){
       h+='<div class="choices">';
       var ch=q.getElementsByTagName('choice');
