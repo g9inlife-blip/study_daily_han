@@ -32,10 +32,10 @@
       <explanation>옴의 법칙 I = V/R에서 전압 V가 일정하면 전류는 저항에 반비례한다. 저항이 2배가 되면 전류는 1/2배, 즉 0.5배가 된다.</explanation>
     </q>
     <q id="5" type="short" difficulty="중">
-      <stem>전동기(모터)가 돌아가는 원리를 전류와 자기장의 관계로 서술하시오.</stem>
-      <answer>코일에 전류가 흐르면 자기장 속에서 힘을 받아 코일이 회전하고, 정류자가 전류 방향을 바꿔 주어 계속 같은 방향으로 회전한다.</answer>
-      <keywords>전류, 자기장, 힘, 회전</keywords>
-      <explanation>모범답안: 코일에 전류가 흐르면 자기장 속에서 힘을 받아 코일이 회전한다. 정류자가 전류 방향을 바꿔 주어 코일이 계속 같은 방향으로 회전한다. 채점 포인트: ① 전류가 흐르는 코일이 자기장에서 힘을 받는 것 ② 그 힘으로 회전하는 것 ③ 정류자 역할로 계속 회전하는 것.</explanation>
+      <stem>전동기에서 전류가 흐르는 코일이 자기장 속에서 받는 것은 무엇인가? (한 단어)</stem>
+      <answer>힘</answer>
+      <keywords>힘</keywords>
+      <explanation>전류가 흐르는 코일은 자기장 속에서 힘을 받아 회전한다.</explanation>
     </q>
   </questions>
 </daily>
