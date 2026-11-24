@@ -23,17 +23,12 @@ jobs:
       - name: Validate manifest and daily XML
         run: python tools/validate_content.py
 
-  deploy:
+  build:
     if: github.event_name != 'pull_request'
     needs: validate
     runs-on: ubuntu-latest
     permissions:
-      pages: write
-      id-token: write
       contents: read
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,6 +38,18 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
