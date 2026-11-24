@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-12-04" weekday="금" subject="영어" unit="관계대명사·독해 심화">
   <english>
-    <word><term>environment</term><pos>명사</pos><meaning>환경</meaning><example>We should protect the environment.</example></word>
-    <word><term>reduce</term><pos>동사</pos><meaning>줄이다</meaning><example>Please reduce the use of plastic.</example></word>
-    <idiom><term>take care of</term><meaning>~을 돌보다, 챙기다</meaning><example>Take care of your health.</example></idiom>
-    <idiom><term>as a result</term><meaning>그 결과</meaning><example>He studied hard. As a result, he passed the test.</example></idiom>
+    <word><term>environment</term><pronunciation>/ɪnˈvaɪrənmənt/</pronunciation><pos>명사</pos><meaning>환경</meaning><example>We should protect the environment.</example></word>
+    <word><term>reduce</term><pronunciation>/rɪˈduːs/</pronunciation><pos>동사</pos><meaning>줄이다</meaning><example>Please reduce the use of plastic.</example></word>
+    <idiom><term>take care of</term><pronunciation>/teɪk ˈker əv/</pronunciation><meaning>~을 돌보다, 챙기다</meaning><example>Take care of your health.</example></idiom>
+    <idiom><term>as a result</term><pronunciation>/æz ə rɪˈzʌlt/</pronunciation><meaning>그 결과</meaning><example>He studied hard. As a result, he passed the test.</example></idiom>
   </english>
   <passage>Our town has a small river that many people love. In the past, people threw trash into the river, and the water became dirty. Then students started a cleaning project. Every Saturday, they collect trash near the river. As a result, the water is cleaner now, and fish have come back. The project shows that small actions can change a town.</passage>
   <questions>
