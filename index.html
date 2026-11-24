@@ -16,7 +16,7 @@ h1{margin:0;font-size:26px}
 .tab{flex:1;padding:10px;border:1px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;font-size:15px;font-weight:700}
 .tab.on{background:var(--accent);color:#fff;border-color:var(--accent)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 2px 8px rgba(0,0,0,.04)}
-.datechips{display:flex;flex-wrap:wrap;gap:8px}
+.weeknav{display:flex;align-items:center;gap:8px;margin:0 0 12px}.weeknav button{flex:1;border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px;cursor:pointer;font-weight:700}.weeknav button:disabled{opacity:.35;cursor:default}.weeklabel{font-size:13px;font-weight:700;text-align:center;min-width:112px}.datechips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;font-size:13px}
 .chip.on{background:var(--accent2);color:#fff;border-color:var(--accent2)}
 .meta{font-size:14px;color:var(--muted)}
@@ -63,7 +63,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <div id="notice" class="notice" style="display:none"></div>
 
 <section id="viewQuiz">
-<div class="card"><div style="font-weight:700;margin-bottom:8px">날짜 선택</div><div class="datechips" id="chips"></div>
+<div class="card"><div style="font-weight:700;margin-bottom:8px">주차 선택</div><div class="weeknav"><button id="prevWeek">← 이전 주차</button><div class="weeklabel" id="weekLabel"></div><button id="nextWeek">다음 주차 →</button></div><div class="datechips" id="chips"></div>
 <p class="meta" id="dayMeta"></p><p class="meta" id="attemptMeta"></p></div>
 <div class="card" id="englishCard"><div style="font-weight:700">오늘의 영어 — 단어 2개 · 숙어 2개 <span class="hint">카드를 눌러 뜻 보기</span></div><div class="wordgrid" id="englishBox" style="margin-top:10px"></div></div>
 <div class="card" id="quizCard"><div id="passageBox"></div><div id="qBox"></div>
@@ -91,7 +91,8 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <script>
 var LS_KEY='study_daily_han_results_v1';
 var ANSWER_KEY='study_daily_han_answers_v1';
-var manifest=null, current=null, currentMeta=null, currentDate='', startTime=0, graded=false, lastResult=null, loadToken=0;
+var WEEKEND_SET_KEY='study_daily_han_weekend_sets_v1';
+var manifest=null, current=null, currentMeta=null, currentDate='', startTime=0, graded=false, lastResult=null, loadToken=0, selectedWeekStart='';
 function el(id){return document.getElementById(id)}
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 function txt(n){return n? (n.textContent||'').trim():''}
@@ -111,41 +112,53 @@ function fetchText(url){
   });
 }
 function showNotice(msg){var n=el('notice'); n.style.display='block'; n.textContent=msg}
+function dateObj(iso){return new Date(iso+'T00:00:00')}
+function isoDate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function mondayOf(iso){var d=dateObj(iso);d.setDate(d.getDate()-(d.getDay()+6)%7);return isoDate(d)}
+function addDays(iso,n){var d=dateObj(iso);d.setDate(d.getDate()+n);return isoDate(d)}
+function weekText(start){return start.slice(5).replace('-','/')+' ~ '+addDays(start,6).slice(5).replace('-','/')}
+function loadWeekendSets(){try{return JSON.parse(localStorage.getItem(WEEKEND_SET_KEY)||'{}')}catch(e){return {}}}
+function saveWeekendSet(date,xml){var all=loadWeekendSets();all[date]=xml;try{localStorage.setItem(WEEKEND_SET_KEY,JSON.stringify(all))}catch(e){}}
 function loadManifest(){
   return fetchText('data/manifest.json').then(function(t){
-    manifest=JSON.parse(t);
-    if(!manifest.days||!manifest.days.length) throw new Error('manifest empty');
-    buildChips();
-    var today=new Date(); var iso=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
-    var found=manifest.days.find(function(d){return d.date===iso});
-    selectDate(found?found.date:manifest.days[manifest.days.length-1].date);
-  }).catch(function(e){
-    showNotice('문제를 불러오지 못했어요. file:// 로 직접 열면 fetch가 막힐 수 있습니다. 로컬 서버로 열어 주세요: 터미널에서 python3 -m http.server 8000 실행 후 http://localhost:8000/index.html 접속. (오류: '+e.message+')');
-  });
+    manifest=JSON.parse(t);if(!manifest.days||!manifest.days.length)throw new Error('manifest empty');
+    var today=isoDate(new Date()),currentWeek=mondayOf(today);selectedWeekStart=currentWeek;
+    var found=manifest.days.find(function(d){return d.date===today});
+    var first=manifest.days.filter(function(d){return mondayOf(d.date)===currentWeek}).sort(function(a,b){return a.date.localeCompare(b.date)})[0];
+    buildChips();selectDate(found?found.date:(first?first.date:addDays(currentWeek,5)));
+  }).catch(function(e){showNotice('문제를 불러오지 못했어요. file:// 로 직접 열면 fetch가 막힐 수 있습니다. 로컬 서버로 열어 주세요: 터미널에서 python3 -m http.server 8000 실행 후 http://localhost:8000/index.html 접속. (오류: '+e.message+')')});
 }
 function buildChips(){
-  var box=el('chips'); box.innerHTML='';
-  manifest.days.forEach(function(d){
-    var b=document.createElement('button'); b.className='chip'; b.textContent=d.date.slice(5)+' ('+d.weekday+') '+d.subject;
-    b.dataset.date=d.date; b.onclick=function(){selectDate(d.date)};
-    box.appendChild(b);
+  var box=el('chips');box.innerHTML='';
+  var today=isoDate(new Date()),currentWeek=mondayOf(today),weeks=manifest.days.map(function(d){return mondayOf(d.date)}),minWeek=weeks.sort()[0];
+  el('weekLabel').textContent=weekText(selectedWeekStart);
+  el('prevWeek').disabled=selectedWeekStart<=minWeek;el('nextWeek').disabled=selectedWeekStart>=currentWeek;
+  el('prevWeek').onclick=function(){if(selectedWeekStart>minWeek){selectedWeekStart=addDays(selectedWeekStart,-7);buildChips();selectDate(selectedWeekStart)}};
+  el('nextWeek').onclick=function(){if(selectedWeekStart<currentWeek){selectedWeekStart=addDays(selectedWeekStart,7);buildChips();selectDate(selectedWeekStart)}};
+  manifest.days.filter(function(d){return mondayOf(d.date)===selectedWeekStart}).forEach(function(d){
+    var btn=document.createElement('button');btn.className='chip';btn.textContent=d.date.slice(5)+' ('+d.weekday+') '+d.subject;btn.dataset.date=d.date;btn.onclick=function(){selectDate(d.date)};box.appendChild(btn);
+  });
+  ['토','일'].forEach(function(day,i){var date=addDays(selectedWeekStart,5+i),btn=document.createElement('button');btn.className='chip';btn.textContent=date.slice(5)+' ('+day+') 주말 10문제';btn.dataset.date=date;btn.onclick=function(){selectDate(date)};box.appendChild(btn)});
+}
+function makeWeekendSet(date){
+  var week=mondayOf(date),days=manifest.days.filter(function(d){return mondayOf(d.date)===week&&d.weekday!=='토'&&d.weekday!=='일'}),subjects=['국어','수학','과학','역사','영어'],pools={};
+  return Promise.all(days.map(function(meta){return fetchText(meta.file).then(function(t){var doc=new DOMParser().parseFromString(t,'text/xml');pools[meta.subject]=(pools[meta.subject]||[]).concat(Array.prototype.slice.call(doc.getElementsByTagName('q')))})})).then(function(){
+    var missing=subjects.filter(function(sub){return !pools[sub]||pools[sub].length<2});
+    if(missing.length)throw new Error('이 주의 평일 문제 중 '+missing.join(', ')+' 과목이 부족해요. 월~금 5과목 문제가 모두 등록되면 주말 10문제가 열립니다.');
+    var out=document.implementation.createDocument('','day',null),root=out.documentElement;
+    subjects.forEach(function(sub){var pool=pools[sub].slice();for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=pool[i];pool[i]=pool[j];pool[j]=tmp}pool.slice(0,2).forEach(function(q,i){var clone=out.importNode(q,true);clone.setAttribute('id','weekend-'+sub+'-'+i);root.appendChild(clone)})});
+    return new XMLSerializer().serializeToString(out);
   });
 }
 function selectDate(date){
-  currentDate=date; currentMeta=null; current=null; graded=false; lastResult=null; startTime=Date.now();
-  var requestId=++loadToken;
-  el('gradeBtn').disabled=true;
-  el('gradeBtn').style.display='block'; el('copyBtn').style.display='none'; el('scoreBox').innerHTML='';
+  currentDate=date;currentMeta=null;current=null;graded=false;lastResult=null;startTime=Date.now();
+  var requestId=++loadToken;el('gradeBtn').disabled=true;el('gradeBtn').style.display='block';el('copyBtn').style.display='none';el('scoreBox').innerHTML='';
   document.querySelectorAll('.chip').forEach(function(c){c.classList.toggle('on',c.dataset.date===date)});
   var meta=manifest.days.find(function(d){return d.date===date});
-  fetchText(meta.file).then(function(t){
-    var doc=new DOMParser().parseFromString(t,'text/xml');
-    if(doc.getElementsByTagName('parsererror').length) throw new Error('XML 파싱 오류');
-    if(requestId!==loadToken) return;
-    current=doc.documentElement; currentMeta=meta;
-    renderDay(meta);
-    el('gradeBtn').disabled=graded;
-  }).catch(function(e){ if(requestId===loadToken) showNotice('이 날짜 문제를 불러오지 못했어요: '+e.message); });
+  if(meta){fetchText(meta.file).then(function(t){var doc=new DOMParser().parseFromString(t,'text/xml');if(doc.getElementsByTagName('parsererror').length)throw new Error('XML 파싱 오류');if(requestId!==loadToken)return;current=doc.documentElement;currentMeta=meta;renderDay(meta);el('gradeBtn').disabled=graded}).catch(function(e){if(requestId===loadToken)showNotice('이 날짜 문제를 불러오지 못했어요: '+e.message)})}
+  else{var sets=loadWeekendSets(),saved=sets[date],ready=saved?Promise.resolve(saved):makeWeekendSet(date).then(function(xml){saveWeekendSet(date,xml);return xml});
+    ready.then(function(xml){if(requestId!==loadToken)return;var doc=new DOMParser().parseFromString(xml,'text/xml');if(doc.getElementsByTagName('parsererror').length)throw new Error('주말 문제 저장 데이터를 읽지 못했어요.');current=doc.documentElement;currentMeta={date:date,weekday:dateObj(date).getDay()===6?'토':'일',subject:'주말 종합',unit:'이번 주 평일 5과목 복습',weekend:true};renderDay(currentMeta);el('gradeBtn').disabled=graded})
+    .catch(function(e){if(requestId===loadToken){el('dayMeta').textContent=date+' · 주말 종합';el('attemptMeta').textContent='';el('qBox').innerHTML='';el('passageBox').innerHTML='';el('gradeBtn').style.display='none';showNotice(e.message)}})}
 }
 function renderDay(meta){
   currentMeta=meta;
@@ -217,14 +230,14 @@ function grade(existingResult){
   if(!current || !currentMeta || (graded && !existingResult)) return;
   var meta=currentMeta;
   currentDate=meta.date;
-  var total=0, correctCount=0, wrong=[];
+  var total=0, correctCount=0, wrong=[], qCount=document.querySelectorAll('#qBox .q').length, pointsPerQuestion=100/Math.max(qCount,1);
   document.querySelectorAll('#qBox .q').forEach(function(div){
     var type=div.dataset.type, ans=div.dataset.answer, pts=0, ok=false;
     var explDiv=div.querySelector('.expl');
     if(type==='mcq'){
       var sel=div.querySelector('.choice.sel');
       var picked=sel?sel.dataset.num:'';
-      ok=picked===ans; pts=ok?20:0;
+      ok=picked===ans; pts=ok?pointsPerQuestion:0;
       div.querySelectorAll('.choice').forEach(function(b){
         if(b.dataset.num===ans) b.classList.add('correct');
         else if(b===sel) b.classList.add('wrong');
@@ -234,7 +247,7 @@ function grade(existingResult){
       var v=norm(input?input.value:'');
       var kws=div.dataset.keywords.split(',').map(function(s){return norm(s)}).filter(Boolean);
       ok=v===norm(ans)||kws.some(function(k){return v===k});
-      pts=ok?20:0;
+      pts=ok?pointsPerQuestion:0;
       explDiv.innerHTML='<b>'+(ok?'정답!':'오답')+'</b> 정답: '+esc(ans)+'<br>'+esc(explText(div));
     }
     if(type==='mcq'){ var e=explText(div); explDiv.innerHTML='<b>'+(ok?'정답!':'오답')+'</b> '+(type==='mcq'?'정답은 '+esc(ans)+'번입니다.<br>':'정답: '+esc(ans)+'<br>')+esc(e); }
@@ -252,14 +265,14 @@ function grade(existingResult){
       var id=String(div.dataset.qid), input=div.querySelector('input[type=text]'), selected=div.querySelector('.choice.sel');
       answerSnapshot[id]=div.dataset.type==='mcq'?(selected?selected.dataset.num:''):(input?input.value:'');
     });
-    lastResult={date:currentDate,subject:meta.subject,unit:meta.unit,score:total,correct:correctCount,totalQ:5,wrong:wrong,answers:answerSnapshot,elapsedSec:elapsed,attempt:prev+1,at:new Date().toISOString()};
+    lastResult={date:currentDate,subject:meta.subject,unit:meta.unit,score:total,correct:correctCount,totalQ:qCount,wrong:wrong,answers:answerSnapshot,elapsedSec:elapsed,attempt:prev+1,at:new Date().toISOString()};
     results.push(lastResult); saveResults(results);
   }
   var shownScore=existingResult?existingResult.score:total;
   var shownCorrect=existingResult?existingResult.correct:correctCount;
   var shownElapsed=existingResult?(existingResult.elapsedSec||0):elapsed;
   var shownAttempt=existingResult?(existingResult.attempt||prev):prev+1;
-  el('scoreBox').innerHTML='<div class="score">'+shownScore+'점</div><p class="center">'+shownCorrect+'/5 맞았어요 · 소요 시간 '+Math.floor(shownElapsed/60)+'분 '+shownElapsed%60+'초 · '+shownAttempt+'번째 풀이</p>';
+  el('scoreBox').innerHTML='<div class="score">'+shownScore+'점</div><p class="center">'+shownCorrect+'/'+(existingResult?(existingResult.totalQ||5):qCount)+' 맞았어요 · 소요 시간 '+Math.floor(shownElapsed/60)+'분 '+shownElapsed%60+'초 · '+shownAttempt+'번째 풀이</p>';
   el('gradeBtn').style.display='none'; el('gradeBtn').disabled=true; el('copyBtn').style.display='block';
   el('attemptMeta').textContent='이 날짜 풀이 기록 '+Math.max(prev,shownAttempt)+'회 · 최근 점수 '+shownScore+'점';
   renderTrend();
@@ -287,7 +300,7 @@ function renderTrend(){
   var weak={}; res.forEach(function(r){(r.wrong||[]).forEach(function(){weak[r.subject+' · '+r.unit]=(weak[r.subject+' · '+r.unit]||0)+1})});
   var wkeys=Object.keys(weak).sort(function(a,b){return weak[b]-weak[a]});
   wb.innerHTML=wkeys.length?wkeys.map(function(k){return '<div>· '+esc(k)+' — 틀린 문제 '+weak[k]+'개</div>'}).join(''):'틀린 문제가 없어요. 잘하고 있어요!';
-  hb.innerHTML='<div style="font-weight:700;margin-top:10px">풀이 기록</div><table>'+sorted.slice().reverse().map(function(r){return '<tr><td>'+esc(r.date)+'</td><td>'+esc(r.subject)+'</td><td>'+r.score+'점</td><td>'+r.correct+'/5</td><td>'+r.attempt+'회차</td></tr>'}).join('')+'</table>';
+  hb.innerHTML='<div style="font-weight:700;margin-top:10px">풀이 기록</div><table>'+sorted.slice().reverse().map(function(r){return '<tr><td>'+esc(r.date)+'</td><td>'+esc(r.subject)+'</td><td>'+r.score+'점</td><td>'+r.correct+'/'+(r.totalQ||5)+'</td><td>'+r.attempt+'회차</td></tr>'}).join('')+'</table>';
   el('chartHint').textContent='최근 '+sorted.length+'회 기록 (날짜·과목순)';
   var c=el('chart').getContext('2d'); c.clearRect(0,0,700,180);
   c.strokeStyle='#eadfd0'; c.beginPath(); c.moveTo(30,20); c.lineTo(30,150); c.lineTo(680,150); c.stroke();
@@ -305,7 +318,7 @@ el('tabTrend').onclick=function(){el('tabTrend').classList.add('on');el('tabQuiz
 el('gradeBtn').onclick=grade;
 el('copyBtn').onclick=function(){
   if(!lastResult) return;
-  var t='[중2 매일 5문제] '+lastResult.date+' '+lastResult.subject+' ('+lastResult.unit+') — '+lastResult.score+'점 ('+lastResult.correct+'/5), '+(lastResult.wrong.length?'틀린 문제 '+lastResult.wrong.join(', ')+'번':'전부 맞았어요')+', '+(lastResult.attempt)+'번째 풀이';
+  var t='[중2 매일 5문제] '+lastResult.date+' '+lastResult.subject+' ('+lastResult.unit+') — '+lastResult.score+'점 ('+lastResult.correct+'/'+(lastResult.totalQ||5)+'), '+(lastResult.wrong.length?'틀린 문제 '+lastResult.wrong.join(', ')+'번':'전부 맞았어요')+', '+(lastResult.attempt)+'번째 풀이';
   (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){el('copyBtn').textContent='복사했어요!'}).catch(function(){prompt('아래 결과를 복사하세요',t)});
 };
 el('exportBtn').onclick=function(){
