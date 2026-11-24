@@ -150,12 +150,36 @@ function isWeekComplete(date){
   return days.length>0&&days.every(function(d){return !!latestResult(d.date)})&&!!latestResult(addDays(week,5));
 }
 function makeWeekendSet(date){
-  var week=mondayOf(date),days=manifest.days.filter(function(d){return mondayOf(d.date)===week&&d.weekday!=='토'&&d.weekday!=='일'}),subjects=['국어','수학','과학','역사','영어'],pools={};
-  return Promise.all(days.map(function(meta){return fetchText(meta.file).then(function(t){var doc=new DOMParser().parseFromString(t,'text/xml');Array.prototype.forEach.call(doc.getElementsByTagName('q'),function(q,i){(pools[meta.subject]=pools[meta.subject]||[]).push({q:q,date:meta.date,qid:q.getAttribute('id')||String(i+1)})})})).then(function(){
+  var week=mondayOf(date);
+  var days=manifest.days.filter(function(d){return mondayOf(d.date)===week&&d.weekday!=='토'&&d.weekday!=='일'});
+  var subjects=['국어','수학','과학','역사','영어'],pools={};
+  return Promise.all(days.map(function(meta){
+    return fetchText(meta.file).then(function(t){
+      var doc=new DOMParser().parseFromString(t,'text/xml');
+      Array.prototype.forEach.call(doc.getElementsByTagName('q'),function(q,i){
+        if(!pools[meta.subject])pools[meta.subject]=[];
+        pools[meta.subject].push({q:q,date:meta.date,qid:q.getAttribute('id')||String(i+1)});
+      });
+    });
+  })).then(function(){
     var missing=subjects.filter(function(sub){return !pools[sub]||pools[sub].length<2});
     if(missing.length)throw new Error('이 주의 평일 문제 중 '+missing.join(', ')+' 과목이 부족해요. 월~금 5과목 문제가 모두 등록되면 토요일 문제가 열립니다.');
     var out=document.implementation.createDocument('','day',null),root=out.documentElement;
-    subjects.forEach(function(sub){var pool=pools[sub].slice();for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=pool[i];pool[i]=pool[j];pool[j]=tmp}pool.slice(0,2).forEach(function(entry,i){var q=entry.q,clone=out.importNode(q,true);clone.setAttribute('id','weekend-'+sub+'-'+i);clone.setAttribute('sourceDate',entry.date);clone.setAttribute('sourceQid',entry.qid);if(q.getAttribute('requiresPassage')==='true'){var sourcePassage=q.ownerDocument.getElementsByTagName('passage')[0];if(sourcePassage)clone.appendChild(out.importNode(sourcePassage,true))}root.appendChild(clone)})});
+    subjects.forEach(function(sub){
+      var pool=pools[sub].slice();
+      for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=pool[i];pool[i]=pool[j];pool[j]=tmp}
+      pool.slice(0,2).forEach(function(entry,i){
+        var q=entry.q,clone=out.importNode(q,true);
+        clone.setAttribute('id','weekend-'+sub+'-'+i);
+        clone.setAttribute('sourceDate',entry.date);
+        clone.setAttribute('sourceQid',entry.qid);
+        if(q.getAttribute('requiresPassage')==='true'){
+          var sourcePassage=q.ownerDocument.getElementsByTagName('passage')[0];
+          if(sourcePassage)clone.appendChild(out.importNode(sourcePassage,true));
+        }
+        root.appendChild(clone);
+      });
+    });
     return new XMLSerializer().serializeToString(out);
   });
 }
