@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-11-24" weekday="화" subject="수학" unit="일차함수·연립방정식·확률">
   <english>
-    <word><term>significant</term><pos>형용사</pos><meaning>중요한, 상당한</meaning><example>There was a significant increase in sales.</example></word>
-    <word><term>proportion</term><pos>명사</pos><meaning>비율, 부분</meaning><example>A large proportion of students walk to school.</example></word>
-    <idiom><term>take something for granted</term><meaning>~을 당연하게 여기다</meaning><example>Don't take your health for granted.</example></idiom>
-    <idiom><term>in the long run</term><meaning>장기적으로 보면, 결국에는</meaning><example>In the long run, regular exercise will help you.</example></idiom>
+    <word><term>significant</term><pronunciation>/sɪɡˈnɪfɪkənt/</pronunciation><pos>형용사</pos><meaning>중요한, 상당한</meaning><example>There was a significant increase in sales.</example></word>
+    <word><term>proportion</term><pronunciation>/prəˈpɔːrʃən/</pronunciation><pos>명사</pos><meaning>비율, 부분</meaning><example>A large proportion of students walk to school.</example></word>
+    <idiom><term>take something for granted</term><pronunciation>/teɪk ˈsʌmθɪŋ fər ˈɡræntɪd/</pronunciation><meaning>~을 당연하게 여기다</meaning><example>Don't take your health for granted.</example></idiom>
+    <idiom><term>in the long run</term><pronunciation>/ɪn ðə ˈlɔːŋ rʌn/</pronunciation><meaning>장기적으로 보면, 결국에는</meaning><example>In the long run, regular exercise will help you.</example></idiom>
   </english>
   <questions>
     <q id="1" type="mcq" difficulty="중">
