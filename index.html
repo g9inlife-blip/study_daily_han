@@ -133,8 +133,8 @@ function buildChips(){
   var today=isoDate(new Date()),currentWeek=mondayOf(today),weeks=manifest.days.map(function(d){return mondayOf(d.date)}),minWeek=weeks.sort()[0];
   el('weekLabel').textContent=weekText(selectedWeekStart);
   el('prevWeek').disabled=selectedWeekStart<=minWeek;el('nextWeek').disabled=selectedWeekStart>=currentWeek;
-  el('prevWeek').onclick=function(){if(selectedWeekStart>minWeek){selectedWeekStart=addDays(selectedWeekStart,-7);buildChips();selectDate(selectedWeekStart)}};
-  el('nextWeek').onclick=function(){if(selectedWeekStart<currentWeek){selectedWeekStart=addDays(selectedWeekStart,7);buildChips();selectDate(selectedWeekStart)}};
+  el('prevWeek').onclick=function(){if(selectedWeekStart>minWeek){selectedWeekStart=addDays(selectedWeekStart,-7);buildChips();var first=manifest.days.filter(function(d){return mondayOf(d.date)===selectedWeekStart}).sort(function(a,b){return a.date.localeCompare(b.date)})[0];selectDate(first?first.date:addDays(selectedWeekStart,5))}};
+  el('nextWeek').onclick=function(){if(selectedWeekStart<currentWeek){selectedWeekStart=addDays(selectedWeekStart,7);buildChips();var first=manifest.days.filter(function(d){return mondayOf(d.date)===selectedWeekStart}).sort(function(a,b){return a.date.localeCompare(b.date)})[0];selectDate(first?first.date:addDays(selectedWeekStart,5))}};
   manifest.days.filter(function(d){return mondayOf(d.date)===selectedWeekStart}).forEach(function(d){
     var btn=document.createElement('button');btn.className='chip';btn.textContent=d.date.slice(5)+' ('+d.weekday+') '+d.subject;btn.dataset.date=d.date;btn.onclick=function(){selectDate(d.date)};box.appendChild(btn);
   });
@@ -152,7 +152,7 @@ function makeWeekendSet(date){
 }
 function selectDate(date){
   currentDate=date;currentMeta=null;current=null;graded=false;lastResult=null;startTime=Date.now();
-  var requestId=++loadToken;el('gradeBtn').disabled=true;el('gradeBtn').style.display='block';el('copyBtn').style.display='none';el('scoreBox').innerHTML='';
+  var requestId=++loadToken;el('notice').style.display='none';el('gradeBtn').disabled=true;el('gradeBtn').style.display='block';el('copyBtn').style.display='none';el('scoreBox').innerHTML='';
   document.querySelectorAll('.chip').forEach(function(c){c.classList.toggle('on',c.dataset.date===date)});
   var meta=manifest.days.find(function(d){return d.date===date});
   if(meta){fetchText(meta.file).then(function(t){var doc=new DOMParser().parseFromString(t,'text/xml');if(doc.getElementsByTagName('parsererror').length)throw new Error('XML 파싱 오류');if(requestId!==loadToken)return;current=doc.documentElement;currentMeta=meta;renderDay(meta);el('gradeBtn').disabled=graded}).catch(function(e){if(requestId===loadToken)showNotice('이 날짜 문제를 불러오지 못했어요: '+e.message)})}
@@ -162,6 +162,7 @@ function selectDate(date){
 }
 function renderDay(meta){
   currentMeta=meta;
+  el('englishCard').style.display=meta.weekend?'none':'block';
   el('dayMeta').innerHTML='<b>'+esc(meta.date)+' ('+esc(meta.weekday)+')</b> · '+esc(meta.subject)+' · 단원: '+esc(meta.unit);
   var res=loadResults().filter(function(r){return r.date===meta.date});
   el('attemptMeta').textContent=res.length?('이 날짜 풀이 기록 '+res.length+'회 · 최근 점수 '+res[res.length-1].score+'점'):('아직 이 날짜 풀이 기록이 없어요.');
