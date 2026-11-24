@@ -32,10 +32,10 @@
       <explanation>삼각형의 세 내각의 합은 항상 180°이다.</explanation>
     </q>
     <q id="5" type="short" difficulty="중">
-      <stem>두 삼각형이 합동임을 보이는 방법 중 하나인 SSS 합동 조건을 설명하고, 왜 세 변이 같으면 합동이 되는지 서술하시오.</stem>
-      <answer>SSS 합동 조건은 두 삼각형의 세 쌍의 대응변의 길이가 각각 같으면 두 삼각형은 합동이라는 조건이다. 세 변의 길이가 정해지면 삼각형의 모양과 크기가 하나로 정해지기 때문이다.</answer>
-      <keywords>세 변, 합동, 모양, 크기</keywords>
-      <explanation>모범답안: SSS 합동 조건은 두 삼각형의 세 쌍의 대응변의 길이가 각각 같으면 두 삼각형은 합동이라는 조건이다. 세 변의 길이가 정해지면 삼각형의 모양과 크기가 하나로 정해지기 때문이다. 채점 포인트: ① 세 쌍의 대응변이 같다는 조건 ② 합동이라는 결론 ③ 세 변이 정해지면 모양과 크기가 정해진다는 이유.</explanation>
+      <stem>SSS 합동 조건에서 두 삼각형이 각각 같아야 하는 것은 무엇인가? (두 글자)</stem>
+      <answer>세 변</answer>
+      <keywords>세 변</keywords>
+      <explanation>두 삼각형의 세 쌍의 대응변의 길이가 각각 같으면 SSS 합동이다.</explanation>
     </q>
   </questions>
 </daily>
