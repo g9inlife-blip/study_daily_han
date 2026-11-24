@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <daily date="2026-12-03" weekday="목" subject="역사" unit="근대화 운동 심화">
   <english>
-    <word><term>independence</term><pos>명사</pos><meaning>독립</meaning><example>They fought for independence.</example></word>
-    <word><term>establish</term><pos>동사</pos><meaning>설립하다, 세우다</meaning><example>He established a new school.</example></word>
-    <idiom><term>take over</term><meaning>인수하다, 장악하다</meaning><example>Japan took over Korea in 1910.</example></idiom>
-    <idiom><term>put up with</term><meaning>~을 참다</meaning><example>We cannot put up with unfair rules.</example></idiom>
+    <word><term>independence</term><pronunciation>/ˌɪndɪˈpendəns/</pronunciation><pos>명사</pos><meaning>독립</meaning><example>They fought for independence.</example></word>
+    <word><term>establish</term><pronunciation>/ɪˈstæblɪʃ/</pronunciation><pos>동사</pos><meaning>설립하다, 세우다</meaning><example>He established a new school.</example></word>
+    <idiom><term>take over</term><pronunciation>/teɪk ˈoʊvər/</pronunciation><meaning>인수하다, 장악하다</meaning><example>Japan took over Korea in 1910.</example></idiom>
+    <idiom><term>put up with</term><pronunciation>/pʊt ˈʌp wɪð/</pronunciation><meaning>~을 참다</meaning><example>We cannot put up with unfair rules.</example></idiom>
   </english>
   <questions>
     <q id="1" type="mcq" difficulty="중">
