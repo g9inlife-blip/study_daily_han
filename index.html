@@ -18,7 +18,7 @@ h1{margin:0;font-size:26px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 2px 8px rgba(0,0,0,.04)}
 .weeknav{display:flex;align-items:center;gap:8px;margin:0 0 12px}.weeknav button{flex:1;border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px;cursor:pointer;font-weight:700}.weeknav button:disabled{opacity:.35;cursor:default}.weeklabel{font-size:13px;font-weight:700;text-align:center;min-width:112px}.datechips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;font-size:13px}
-.chip.on{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+.chip.on{background:var(--accent2);color:#fff;border-color:var(--accent2)}.chip:disabled{opacity:.4;cursor:not-allowed}
 .meta{font-size:14px;color:var(--muted)}
 .meta b{color:var(--ink)}
 .passage{background:var(--soft);border-left:4px solid var(--accent);padding:12px;border-radius:8px;white-space:pre-wrap}
@@ -91,7 +91,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <script>
 var LS_KEY='study_daily_han_results_v1';
 var ANSWER_KEY='study_daily_han_answers_v1';
-var WEEKEND_SET_KEY='study_daily_han_weekend_sets_v2';
+var WEEKEND_SET_KEY='study_daily_han_weekend_sets_v3';
 var manifest=null, current=null, currentMeta=null, currentDate='', startTime=0, graded=false, lastResult=null, loadToken=0, selectedWeekStart='';
 function el(id){return document.getElementById(id)}
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
@@ -138,15 +138,41 @@ function buildChips(){
   manifest.days.filter(function(d){return mondayOf(d.date)===selectedWeekStart}).forEach(function(d){
     var btn=document.createElement('button');btn.className='chip';btn.textContent=d.date.slice(5)+' ('+d.weekday+') '+d.subject;btn.dataset.date=d.date;btn.onclick=function(){selectDate(d.date)};box.appendChild(btn);
   });
-  ['토','일'].forEach(function(day,i){var date=addDays(selectedWeekStart,5+i),btn=document.createElement('button');btn.className='chip';btn.textContent=date.slice(5)+' ('+day+') 주말 10문제';btn.dataset.date=date;btn.onclick=function(){selectDate(date)};box.appendChild(btn)});
+  var satDate=addDays(selectedWeekStart,5),satBtn=document.createElement('button');satBtn.className='chip';satBtn.textContent=satDate.slice(5)+' (토) 주간 종합 10문제';satBtn.dataset.date=satDate;satBtn.onclick=function(){selectDate(satDate)};box.appendChild(satBtn);
+  var sunDate=addDays(selectedWeekStart,6),sunBtn=document.createElement('button');sunBtn.className='chip';sunBtn.dataset.date=sunDate;sunBtn.disabled=!isWeekComplete(sunDate);sunBtn.textContent=sunDate.slice(5)+' (일) 오답 복습'+(sunBtn.disabled?' · 잠김':'');sunBtn.onclick=function(){if(!isWeekComplete(sunDate)){showNotice('월요일부터 토요일까지 모든 날짜의 문제를 풀고 채점하면 일요일 오답 복습이 열립니다.');return}selectDate(sunDate)};box.appendChild(sunBtn);
+}
+function latestResult(date){
+  var found=loadResults().filter(function(r){return r.date===date}).sort(function(a,b){return String(a.at||'').localeCompare(String(b.at||''))});
+  return found.length?found[found.length-1]:null;
+}
+function isWeekComplete(date){
+  var week=mondayOf(date),days=manifest.days.filter(function(d){return mondayOf(d.date)===week&&d.weekday!=='토'&&d.weekday!=='일'});
+  return days.length>0&&days.every(function(d){return !!latestResult(d.date)})&&!!latestResult(addDays(week,5));
 }
 function makeWeekendSet(date){
   var week=mondayOf(date),days=manifest.days.filter(function(d){return mondayOf(d.date)===week&&d.weekday!=='토'&&d.weekday!=='일'}),subjects=['국어','수학','과학','역사','영어'],pools={};
-  return Promise.all(days.map(function(meta){return fetchText(meta.file).then(function(t){var doc=new DOMParser().parseFromString(t,'text/xml');pools[meta.subject]=(pools[meta.subject]||[]).concat(Array.prototype.slice.call(doc.getElementsByTagName('q')))})})).then(function(){
+  return Promise.all(days.map(function(meta){return fetchText(meta.file).then(function(t){var doc=new DOMParser().parseFromString(t,'text/xml');Array.prototype.forEach.call(doc.getElementsByTagName('q'),function(q,i){(pools[meta.subject]=pools[meta.subject]||[]).push({q:q,date:meta.date,qid:q.getAttribute('id')||String(i+1)})})})).then(function(){
     var missing=subjects.filter(function(sub){return !pools[sub]||pools[sub].length<2});
-    if(missing.length)throw new Error('이 주의 평일 문제 중 '+missing.join(', ')+' 과목이 부족해요. 월~금 5과목 문제가 모두 등록되면 주말 10문제가 열립니다.');
+    if(missing.length)throw new Error('이 주의 평일 문제 중 '+missing.join(', ')+' 과목이 부족해요. 월~금 5과목 문제가 모두 등록되면 토요일 문제가 열립니다.');
     var out=document.implementation.createDocument('','day',null),root=out.documentElement;
-    subjects.forEach(function(sub){var pool=pools[sub].slice();for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=pool[i];pool[i]=pool[j];pool[j]=tmp}pool.slice(0,2).forEach(function(q,i){var clone=out.importNode(q,true);clone.setAttribute('id','weekend-'+sub+'-'+i);if(q.getAttribute('requiresPassage')==='true'){var sourcePassage=q.ownerDocument.getElementsByTagName('passage')[0];if(sourcePassage)clone.appendChild(out.importNode(sourcePassage,true))}root.appendChild(clone)})});
+    subjects.forEach(function(sub){var pool=pools[sub].slice();for(var i=pool.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),tmp=pool[i];pool[i]=pool[j];pool[j]=tmp}pool.slice(0,2).forEach(function(entry,i){var q=entry.q,clone=out.importNode(q,true);clone.setAttribute('id','weekend-'+sub+'-'+i);clone.setAttribute('sourceDate',entry.date);clone.setAttribute('sourceQid',entry.qid);if(q.getAttribute('requiresPassage')==='true'){var sourcePassage=q.ownerDocument.getElementsByTagName('passage')[0];if(sourcePassage)clone.appendChild(out.importNode(sourcePassage,true))}root.appendChild(clone)})});
+    return new XMLSerializer().serializeToString(out);
+  });
+}
+function makeSundaySet(date){
+  var week=mondayOf(date),days=manifest.days.filter(function(d){return mondayOf(d.date)===week&&d.weekday!=='토'&&d.weekday!=='일'}),satDate=addDays(week,5),satResult=latestResult(satDate),oldSets={};
+  try{oldSets=JSON.parse(localStorage.getItem('study_daily_han_weekend_sets_v2')||'{}')}catch(e){}
+  var saturdayXML=loadWeekendSets()[satDate]||oldSets[satDate];
+  var satReady=saturdayXML?Promise.resolve(saturdayXML):makeWeekendSet(satDate).then(function(xml){saveWeekendSet(satDate,xml);return xml});
+  return Promise.all([satReady].concat(days.map(function(meta){return fetchText(meta.file)}))).then(function(parts){
+    var satDoc=new DOMParser().parseFromString(parts[0],'text/xml'),sourceDocs={};
+    days.forEach(function(meta,i){sourceDocs[meta.date]=new DOMParser().parseFromString(parts[i+1],'text/xml')});
+    var entries=[],seen={};
+    function addEntry(sourceDate,sourceQid){var key=sourceDate+'|'+sourceQid;if(!seen[key]){seen[key]=true;entries.push({date:sourceDate,qid:String(sourceQid)})}}
+    days.forEach(function(meta){var result=latestResult(meta.date);(result&&result.wrong||[]).forEach(function(qid){addEntry(meta.date,qid)})});
+    if(satResult){var satQs=satDoc.getElementsByTagName('q');(satResult.wrong||[]).forEach(function(wrongId){for(var i=0;i<satQs.length;i++){if(satQs[i].getAttribute('id')===String(wrongId)){var srcDate=satQs[i].getAttribute('sourceDate'),srcQid=satQs[i].getAttribute('sourceQid');if(srcDate&&srcQid)addEntry(srcDate,srcQid);break}}})}
+    var out=document.implementation.createDocument('','day',null),root=out.documentElement;
+    entries.forEach(function(entry){var doc=sourceDocs[entry.date];if(!doc)return;var qs=doc.getElementsByTagName('q'),sourceQ=null;for(var j=0;j<qs.length;j++){if((qs[j].getAttribute('id')||String(j+1))===entry.qid){sourceQ=qs[j];break}}if(!sourceQ)return;var clone=out.importNode(sourceQ,true);clone.setAttribute('id','review-'+entry.date+'-'+entry.qid);if(sourceQ.getAttribute('requiresPassage')==='true'){var passage=sourceQ.ownerDocument.getElementsByTagName('passage')[0];if(passage)clone.appendChild(out.importNode(passage,true))}root.appendChild(clone)});
     return new XMLSerializer().serializeToString(out);
   });
 }
@@ -156,8 +182,8 @@ function selectDate(date){
   document.querySelectorAll('.chip').forEach(function(c){c.classList.toggle('on',c.dataset.date===date)});
   var meta=manifest.days.find(function(d){return d.date===date});
   if(meta){fetchText(meta.file).then(function(t){var doc=new DOMParser().parseFromString(t,'text/xml');if(doc.getElementsByTagName('parsererror').length)throw new Error('XML 파싱 오류');if(requestId!==loadToken)return;current=doc.documentElement;currentMeta=meta;renderDay(meta);el('gradeBtn').disabled=graded}).catch(function(e){if(requestId===loadToken)showNotice('이 날짜 문제를 불러오지 못했어요: '+e.message)})}
-  else{var sets=loadWeekendSets(),saved=sets[date],ready=saved?Promise.resolve(saved):makeWeekendSet(date).then(function(xml){saveWeekendSet(date,xml);return xml});
-    ready.then(function(xml){if(requestId!==loadToken)return;var doc=new DOMParser().parseFromString(xml,'text/xml');if(doc.getElementsByTagName('parsererror').length)throw new Error('주말 문제 저장 데이터를 읽지 못했어요.');current=doc.documentElement;currentMeta={date:date,weekday:dateObj(date).getDay()===6?'토':'일',subject:'주말 종합',unit:'이번 주 평일 5과목 복습',weekend:true};renderDay(currentMeta);el('gradeBtn').disabled=graded})
+  else{var isSunday=dateObj(date).getDay()===0;if(isSunday&&!isWeekComplete(date)){showNotice('월요일부터 토요일까지 모든 날짜의 문제를 풀고 채점해야 일요일 오답 복습이 열립니다.');return}var sets=loadWeekendSets(),saved=sets[date],ready=saved?Promise.resolve(saved):(isSunday?makeSundaySet(date):makeWeekendSet(date)).then(function(xml){saveWeekendSet(date,xml);return xml});
+    ready.then(function(xml){if(requestId!==loadToken)return;var doc=new DOMParser().parseFromString(xml,'text/xml');if(doc.getElementsByTagName('parsererror').length)throw new Error('주말 문제 저장 데이터를 읽지 못했어요.');current=doc.documentElement;currentMeta={date:date,weekday:dateObj(date).getDay()===6?'토':'일',subject:isSunday?'오답 복습':'주말 종합',unit:isSunday?'월~토 오답 문제':'이번 주 평일 5과목 복습',weekend:true,review:isSunday};renderDay(currentMeta);if(isSunday&&current.getElementsByTagName('q').length===0){el('gradeBtn').style.display='none';showNotice('월요일부터 토요일까지 틀린 문제가 없습니다. 복습할 문제가 없어요.')}el('gradeBtn').disabled=graded})
     .catch(function(e){if(requestId===loadToken){el('dayMeta').textContent=date+' · 주말 종합';el('attemptMeta').textContent='';el('qBox').innerHTML='';el('passageBox').innerHTML='';el('gradeBtn').style.display='none';showNotice(e.message)}})}
 }
 function renderDay(meta){
