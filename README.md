@@ -135,3 +135,26 @@ PY
 ```
 
 기대 결과: 날짜별 문제 5개, 객관식 3개, 주관식 2개, 단어 2개, 숙어 2개.
+
+
+## GitHub Pages 테스트 배포
+
+- GitHub Pages는 개발·UI 테스트용으로만 사용합니다. 실제 가족 학습 기록과 개인정보는 공개 정적 파일에 저장하지 않습니다.
+- 저장소의 **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택해야 합니다.
+- 이후 `main`에 push하면 콘텐츠 검증을 통과한 경우 테스트 사이트가 배포됩니다. Pull request에서는 검증만 실행하고 배포하지 않습니다.
+- GitHub Pages는 공개 사이트이므로 URL을 아는 사람은 GitHub 로그인 없이 접속할 수 있습니다.
+
+### 콘텐츠 검증
+
+로컬에서 Python 3으로 실행:
+
+```bash
+python tools/validate_content.py
+```
+
+manifest와 날짜별 XML의 날짜/요일/과목, 문항 구성(객관식 3 + 주관식 2), 영어 단어·숙어 수, 수학 난이도 구성을 검사합니다. GitHub Actions에서도 push 및 pull request마다 실행됩니다.
+
+추가 운영 문서:
+- [배포 및 접근 제어 가이드](docs/DEPLOYMENT_AND_ACCESS_GUIDE.md)
+- [월간 문제 배치 생성·검수 운영안](docs/QUESTION_GENERATION_WORKFLOW.md)
+- [학습 시스템 설계 청사진](docs/LEARNING_BLUEPRINT.md)
