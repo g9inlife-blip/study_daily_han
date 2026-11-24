@@ -32,10 +32,10 @@
       <explanation>밀도 = 질량 ÷ 부피 = 20 ÷ 10 = 2 g/cm³이다.</explanation>
     </q>
     <q id="5" type="short" difficulty="중">
-      <stem>가정에서 전기를 안전하게 사용하기 위해 지켜야 할 점을 두 가지 이상 들어 서술하시오.</stem>
-      <answer>젖은 손으로 전기 제품을 만지지 않고, 한 콘센트에 여러 기구를 꽂아 과부하를 일으키지 않으며, 손상된 전선은 사용하지 않는다.</answer>
-      <keywords>젖은 손, 과부하, 손상된 전선</keywords>
-      <explanation>모범답안: 젖은 손으로 전기 제품을 만지지 않고, 한 콘센트에 여러 기구를 꽂아 과부하를 일으키지 않으며, 손상된 전선은 사용하지 않는다. 채점 포인트: ① 젖은 손 주의 ② 과부하 방지 ③ 손상된 전선 사용 금지 중 두 가지 이상.</explanation>
+      <stem>감전 사고를 예방하려면 전기 제품을 만질 때 어떤 손을 피해야 하는가? (두 글자)</stem>
+      <answer>젖은 손</answer>
+      <keywords>젖은 손</keywords>
+      <explanation>젖은 손으로 전기 제품을 만지면 감전 위험이 커지므로 반드시 피해야 한다.</explanation>
     </q>
   </questions>
 </daily>
