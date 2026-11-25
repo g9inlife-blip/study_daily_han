@@ -282,7 +282,6 @@ function renderDay(meta){
 }
 function grade(existingResult){
   if(!current || !currentMeta || (graded && !existingResult)) return;
-  if(!existingResult){var unanswered=false;document.querySelectorAll('#qBox .q').forEach(function(div){if(div.dataset.type==='mcq'){if(!div.querySelector('.choice.sel'))unanswered=true}else{var input=div.querySelector('input[type=text]');if(!input||!input.value.trim())unanswered=true}});if(unanswered){showNotice('모든 문제에 답한 뒤 채점해 주세요. 월~토 문제를 모두 풀어야 일요일 오답 복습이 열립니다.');return}}
   var meta=currentMeta;
   currentDate=meta.date;
   var total=0, correctCount=0, wrong=[], qCount=document.querySelectorAll('#qBox .q').length, pointsPerQuestion=100/Math.max(qCount,1);
@@ -371,7 +370,7 @@ function renderTrend(){
 }
 el('tabQuiz').onclick=function(){el('tabQuiz').classList.add('on');el('tabTrend').classList.remove('on');el('viewQuiz').style.display='block';el('viewTrend').style.display='none'};
 el('tabTrend').onclick=function(){el('tabTrend').classList.add('on');el('tabQuiz').classList.remove('on');el('viewTrend').style.display='block';el('viewQuiz').style.display='none';renderTrend()};
-el('gradeBtn').onclick=grade;
+el('gradeBtn').onclick=function(){grade();};
 el('copyBtn').onclick=function(){
   if(!lastResult) return;
   var t='[중2 매일 5문제] '+lastResult.date+' '+lastResult.subject+' ('+lastResult.unit+') — '+lastResult.score+'점 ('+lastResult.correct+'/'+(lastResult.totalQ||5)+'), '+(lastResult.wrong.length?'틀린 문제 '+lastResult.wrong.join(', ')+'번':'전부 맞았어요')+', '+(lastResult.attempt)+'번째 풀이';
