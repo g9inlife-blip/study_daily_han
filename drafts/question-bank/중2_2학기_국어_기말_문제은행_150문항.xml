@@ -442,124 +442,124 @@
     <scoringCriteria>측정 대상 구분 + 표본/검증 한계</scoringCriteria>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-2-001" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>쓰기 맥락</concept>
-    <prompt>도서관 이용 안내를 분석하는 학생이 있다. '쓰기 맥락'에 관한 설명으로 가장 적절한 것은?</prompt>
+  <question id="KOR2S2-2-001" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>설문 문항과 조사 결과의 타당성</concept>
+    <prompt>학생회가 ‘우리 학교 학생은 모두 아침 독서를 원한다’는 주장을 뒷받침하려고 2학년 1개 반 학생 28명에게 ‘아침 독서 시간이 생기면 좋겠습니까?’라고 물었다. 응답자의 24명이 찬성했다. 이 조사 결과에 대한 평가로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">주제·목적·예상 독자·매체를 고려해 글쓰기를 계획한다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="D">표·그래프는 수량 비교, 사진·그림은 모양·위치, 동영상은 움직임 전달에 유용하다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
+      <option id="A">찬성 응답이 많으므로 전교생 모두가 아침 독서를 원한다고 결론 내릴 수 있다.</option>
+      <option id="B">질문이 찬성 쪽으로 유도될 가능성이 있고 조사 대상도 한 반이므로 전교생의 의견으로 일반화하기 어렵다.</option>
+      <option id="C">응답 인원이 28명이므로 조사 결과는 어떤 경우에도 신뢰할 수 없다.</option>
+      <option id="D">찬성 비율이 높으므로 아침 독서가 학업 성취도를 높인다는 사실이 증명된다.</option>
+      <option id="E">반대 응답이 4명이므로 조사 결과에서 제외해도 전체 경향은 달라지지 않는다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 쓰기 맥락이다. 주제·목적·예상 독자·매체를 고려해 글쓰기를 계획한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 쓰기 맥락의 의미를 상황에 적용해야 한다. 주제·목적·예상 독자·매체를 고려해 글쓰기를 계획한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>B</answer>
+    <explanation>한 반 28명의 응답은 전교생을 대표한다고 보기 어렵고, ‘생기면 좋겠습니까?’라는 질문은 찬성 응답을 유도할 여지도 있다.</explanation>
+    <advancedExplanation>A는 표본 범위를 전교생으로 확대했다. C는 표본 수만으로 신뢰성을 단정했다. D는 선호도 조사를 학업 성취 효과의 증거로 바꾸었다. E는 반대 의견을 임의로 제외해 결과를 왜곡한다. 조사 결과를 평가할 때는 표본의 대표성, 질문의 중립성, 측정한 내용과 주장 사이의 관계를 함께 살펴야 한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="KOR2S2-2-002" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>자료 수집</concept>
-    <prompt>청소년 독서 안내 글를 분석하는 학생이 있다. '자료 수집'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <concept>쓰기 맥락에 따른 자료와 표현 선택</concept>
+    <prompt>학교 도서관 이용 안내문을 제작하려 한다. 예상 독자는 도서관 이용 방법을 잘 모르는 신입생이고, 글의 목적은 실제 이용을 돕는 것이다. 다음 중 쓰기 맥락을 가장 충실히 반영한 계획은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">주제와 관련해 떠오르는 내용을 정리하고 자료를 활용해 전달 내용을 마련한다.</option>
-      <option id="C">주제와 관련된 정보를 여러 자료에서 찾아 모은다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
+      <option id="A">도서관의 역사와 건축 양식을 중심으로 긴 설명문을 작성한다.</option>
+      <option id="B">재미있는 유행어를 많이 넣고 이용 규칙은 생략한다.</option>
+      <option id="C">운영 시간·대출 절차를 간단한 문장과 순서도로 제시하고 실제 위치 사진을 함께 배치한다.</option>
+      <option id="D">도서관 이용 경험이 많은 교사를 대상으로 전문 용어를 사용한다.</option>
+      <option id="E">도서관의 장점을 강조하기 위해 이용 제한 사항은 모두 제외한다.</option>
     </options>
     <answer>C</answer>
-    <explanation>핵심 개념은 자료 수집이다. 주제와 관련된 정보를 여러 자료에서 찾아 모은다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 자료 수집의 의미를 상황에 적용해야 한다. 주제와 관련된 정보를 여러 자료에서 찾아 모은다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <explanation>신입생이 실제로 이용하도록 돕는 목적에 맞게 절차·시간 정보를 쉽게 전달하고 순서도와 위치 사진으로 이해를 보완한다.</explanation>
+    <advancedExplanation>A는 목적에 비해 정보가 우회적이다. B는 흥미만 강조해 필수 정보를 누락한다. D는 예상 독자 수준과 맞지 않는다. E는 이용에 필요한 제한 정보를 감춰 안내의 정확성을 해친다. 쓰기 맥락은 주제뿐 아니라 목적과 예상 독자에 맞는 정보량·표현·자료 형태를 결정한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-2-003" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>자료 선정</concept>
-    <prompt>지역 행사 기사를 분석하는 학생이 있다. '자료 선정'에 관한 설명으로 가장 적절한 것은?</prompt>
+  <question id="KOR2S2-2-003" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>읽기 중 이해 장애에 따른 전략 조정</concept>
+    <prompt>민서는 설명 글을 읽다가 ‘재현’이라는 낱말의 뜻을 몰라 뒤 문단까지 이해하지 못했다. 처음에는 문맥으로 뜻을 짐작했지만 글의 핵심을 파악하는 데 어려움이 계속되었다. 다음 행동으로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="C">주제·목적 관련성, 독자 수준·흥미, 출처 신뢰성, 매체 적합성을 따진다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">글의 유형과 전달 순서를 고려해 내용을 배열한다.</option>
+      <option id="A">읽기 목적을 바꾸고 글 읽기를 중단한다.</option>
+      <option id="B">앞에서 세운 예측이 맞다고 생각하고 그대로 넘어간다.</option>
+      <option id="C">모르는 낱말을 표시하고 사전이나 참고 자료로 뜻을 확인한 뒤 해당 문단을 다시 읽는다.</option>
+      <option id="D">글의 마지막 문장만 읽고 전체 내용을 추측한다.</option>
+      <option id="E">이해가 되지 않는 부분을 모두 외운 뒤 다음 글로 넘어간다.</option>
     </options>
     <answer>C</answer>
-    <explanation>핵심 개념은 자료 선정이다. 주제·목적 관련성, 독자 수준·흥미, 출처 신뢰성, 매체 적합성을 따진다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 자료 선정의 의미를 상황에 적용해야 한다. 주제·목적 관련성, 독자 수준·흥미, 출처 신뢰성, 매체 적합성을 따진다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <explanation>문맥 추측만으로 해결되지 않는 어휘 때문에 이해가 막혔으므로 어휘 뜻을 확인하고 해당 부분을 다시 읽는 전략으로 조정해야 한다.</explanation>
+    <advancedExplanation>A는 이해 문제를 해결하지 않고 읽기를 포기한다. B는 예측을 검증하지 않는다. D는 근거 없이 전체 내용을 추측한다. E는 의미 이해 대신 기계적 암기에 의존한다. 읽기 전략은 고정된 순서로 수행하는 것이 아니라 실제 이해 상태를 점검해 적절히 바꾸어야 한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-2-004" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>자료 유형</concept>
-    <prompt>학교 축제 게시물를 분석하는 학생이 있다. '자료 유형'에 관한 설명으로 가장 적절한 것은?</prompt>
+  <question id="KOR2S2-2-004" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>같은 사건을 다룬 뉴스의 관점 비교</concept>
+    <prompt>같은 지역의 청소년 문화 공간 폐쇄를 다룬 두 뉴스가 있다. 가 뉴스는 ‘이용자 감소로 운영 효율화 불가피’라는 제목과 텅 빈 내부 사진을 사용했다. 나 뉴스는 ‘갈 곳 잃은 청소년들’이라는 제목과 공간을 이용하는 학생들의 인터뷰 사진을 사용했다. 두 뉴스의 차이를 설명한 것으로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">표·그래프는 수량 비교, 사진·그림은 모양·위치, 동영상은 움직임 전달에 유용하다.</option>
-      <option id="E">문자·사진·표·그래프·동영상 등을 적절히 배치해 의미를 전달한다.</option>
+      <option id="A">두 뉴스는 같은 사건을 다루므로 독자에게 전달하는 관점도 반드시 같다.</option>
+      <option id="B">가 뉴스는 운영 측면을, 나 뉴스는 이용자 경험을 상대적으로 부각해 사건을 다르게 재현한다.</option>
+      <option id="C">나 뉴스의 사진은 실제 이용자 모습이므로 제작자의 관점이 개입되지 않았다.</option>
+      <option id="D">가 뉴스는 사진을 사용했으므로 객관적이고 나 뉴스는 제목을 사용했으므로 주관적이다.</option>
+      <option id="E">두 뉴스의 차이는 제목의 길이에서만 생긴다.</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 자료 유형이다. 표·그래프는 수량 비교, 사진·그림은 모양·위치, 동영상은 움직임 전달에 유용하다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 자료 유형의 의미를 상황에 적용해야 한다. 표·그래프는 수량 비교, 사진·그림은 모양·위치, 동영상은 움직임 전달에 유용하다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>B</answer>
+    <explanation>가 뉴스는 운영 효율과 이용 감소를, 나 뉴스는 청소년의 경험과 공간의 필요성을 강조한다. 선택한 제목과 사진이 관점의 차이를 만든다.</explanation>
+    <advancedExplanation>A는 동일 사건이 동일하게 재현된다고 오해한다. C는 실제 사진도 선택·배치에 따라 관점을 드러낼 수 있음을 놓친다. D는 특정 표현 형식만으로 객관성을 판단한다. E는 제목 길이보다 어떤 정보와 장면을 선택했는지가 중요하다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-2-005" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>내용 생성</concept>
-    <prompt>급식 만족도 그래프를 분석하는 학생이 있다. '내용 생성'에 관한 설명으로 가장 적절한 것은?</prompt>
+  <question id="KOR2S2-2-005" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>주장과 근거의 관련성 판단</concept>
+    <prompt>다음 주장과 근거의 연결을 평가한 것으로 가장 적절한 것은? [주장] ‘MBTI 결과만으로 친구의 성격을 단정해서는 안 된다.’ [근거] ‘검사 결과는 문항과 응답 당시의 상황 등에 영향을 받을 수 있고, 한 유형이 개인의 모든 특성을 설명하지는 못한다.’</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">쓰기 과정에서 계획과 결과를 비교하고 어려움이 생기면 전략을 보완한다.</option>
-      <option id="E">주제와 관련해 떠오르는 내용을 정리하고 자료를 활용해 전달 내용을 마련한다.</option>
+      <option id="A">근거가 주장과 관련이 없으므로 주장을 뒷받침하지 못한다.</option>
+      <option id="B">근거는 검사 결과의 한계를 제시하므로 주장을 뒷받침한다.</option>
+      <option id="C">근거가 검사 결과를 언급하므로 MBTI 검사는 전혀 쓸모없다는 결론이 된다.</option>
+      <option id="D">근거는 친구 관계에 관한 내용이 아니므로 어떤 주장에도 사용할 수 없다.</option>
+      <option id="E">근거가 두 가지 이유를 제시하므로 오히려 주장의 신뢰성을 낮춘다.</option>
     </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 내용 생성이다. 주제와 관련해 떠오르는 내용을 정리하고 자료를 활용해 전달 내용을 마련한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 내용 생성의 의미를 상황에 적용해야 한다. 주제와 관련해 떠오르는 내용을 정리하고 자료를 활용해 전달 내용을 마련한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>B</answer>
+    <explanation>검사 결과의 제한성과 개인의 복합적인 특성을 근거로 제시해 유형만으로 사람을 단정하지 말아야 한다는 주장과 직접 연결된다.</explanation>
+    <advancedExplanation>A는 근거와 주장의 논리적 관련성을 놓쳤다. C는 ‘한계가 있다’를 ‘전혀 쓸모없다’로 과장했다. D는 검사 결과를 타인 판단에 적용하는 문제와 관련이 있다. E는 근거가 여러 개라는 이유만으로 신뢰성이 낮아지는 것은 아니다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="KOR2S2-2-006" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>내용 조직</concept>
-    <prompt>학급 누리집 게시글를 분석하는 학생이 있다. '내용 조직'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <concept>복합양식 자료의 기능 분담과 상호 보완</concept>
+    <prompt>학생이 ‘분리배출 방법 안내’ 글을 쓴다. 글에는 품목별 배출 요일과 장소, 분리배출 순서를 담으려 한다. 자료의 기능을 고려한 구성으로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">예상 독자와 매체를 고려해 내용·조직·표현 차원에서 수정한다.</option>
-      <option id="B">글의 유형과 전달 순서를 고려해 내용을 배열한다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">배출 요일은 장식 사진으로, 분리배출 순서는 긴 문단 하나로만 제시한다.</option>
+      <option id="B">모든 정보를 배경 음악이 있는 영상으로만 제시해 독자가 필요한 부분을 다시 찾기 어렵게 한다.</option>
+      <option id="C">요일과 장소는 표로 정리하고, 분리배출 순서는 단계별 그림과 짧은 설명으로 제시한다.</option>
+      <option id="D">표와 그림을 많이 넣되 각 자료가 무엇을 설명하는지는 밝히지 않는다.</option>
+      <option id="E">글과 자료의 내용이 반복되도록 같은 문장을 사진 위에 여러 번 배치한다.</option>
     </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 내용 조직이다. 글의 유형과 전달 순서를 고려해 내용을 배열한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 내용 조직의 의미를 상황에 적용해야 한다. 글의 유형과 전달 순서를 고려해 내용을 배열한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>C</answer>
+    <explanation>표는 요일·장소처럼 항목별 정보를 비교하고 찾는 데 유용하며, 단계별 그림은 순서와 행동 방법을 직관적으로 보여 준다.</explanation>
+    <advancedExplanation>A는 자료의 기능을 뒤바꾸어 정보 탐색을 어렵게 한다. B는 필요한 정보를 빠르게 확인하기 어렵다. D는 자료와 설명의 연결이 없어 해석이 불분명하다. E는 상호 보완이 아니라 불필요한 중복이다. 복합양식 글쓰기는 자료를 많이 넣는 것이 아니라 각 양식의 장점을 목적에 맞게 배치하는 일이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-2-007" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>복합양식 구성</concept>
-    <prompt>학생회 선거 포스터를 분석하는 학생이 있다. '복합양식 구성'에 관한 설명으로 가장 적절한 것은?</prompt>
+  <question id="KOR2S2-2-007" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>읽기 전 예측과 읽기 후 확인</concept>
+    <prompt>‘추상화는 낙서가 아니야’라는 제목을 본 학생이 ‘추상화가 어떤 기준으로 작품이 되는지 설명하겠구나.’라고 예상했다. 글을 다 읽은 뒤 예상이 맞았는지 확인하는 활동으로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="B">문자·사진·표·그래프·동영상 등을 적절히 배치해 의미를 전달한다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">정보 전달·설득·정서 표현 목적에 맞춰 포스터·카드 뉴스·영상 등을 선택한다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">제목만 다시 읽고 처음 예상이 옳았다고 판단한다.</option>
+      <option id="B">글에서 추상화의 표현 방식과 작가의 선택을 설명한 부분을 찾아 처음 예상과 비교한다.</option>
+      <option id="C">자신이 좋아하는 그림을 떠올려 글의 내용을 대신한다.</option>
+      <option id="D">글과 관계없는 미술 작품의 가격을 조사한다.</option>
+      <option id="E">읽기 전에 세운 예측은 읽은 뒤에는 확인할 필요가 없다.</option>
     </options>
     <answer>B</answer>
-    <explanation>핵심 개념은 복합양식 구성이다. 문자·사진·표·그래프·동영상 등을 적절히 배치해 의미를 전달한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 복합양식 구성의 의미를 상황에 적용해야 한다. 문자·사진·표·그래프·동영상 등을 적절히 배치해 의미를 전달한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <explanation>읽기 후에는 실제 글의 핵심 내용과 근거를 확인해 읽기 전에 세운 예측이 타당했는지 점검해야 한다.</explanation>
+    <advancedExplanation>A는 제목만으로 내용을 판단해 본문 근거를 확인하지 않는다. C는 개인 취향으로 글의 내용을 대체한다. D는 글의 주제와 직접 관련이 없다. E는 예측을 확인하고 수정하는 읽기 과정을 무시한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-2-008" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>점검과 조정</concept>
-    <prompt>환경 보호 카드 뉴스를 분석하는 학생이 있다. '점검과 조정'에 관한 설명으로 가장 적절한 것은?</prompt>
+  <question id="KOR2S2-2-008" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>고정 관념이 재현에 미치는 영향</concept>
+    <prompt>학교 홍보 영상에서 과학 실험 장면에는 남학생만, 돌봄 활동 장면에는 여학생만 등장한다. 이 영상에 대한 비판적 평가로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="B">주제·목적·예상 독자·매체를 고려해 글쓰기를 계획한다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">쓰기 과정에서 계획과 결과를 비교하고 어려움이 생기면 전략을 보완한다.</option>
+      <option id="A">실제 촬영 장면이므로 성별에 대한 고정 관념이 반영될 가능성은 없다.</option>
+      <option id="B">특정 성별을 특정 역할과 반복해 연결해 학생들이 역할을 성별에 따라 제한적으로 인식하게 할 수 있다.</option>
+      <option id="C">장면이 짧으므로 영상이 전달하는 의미에는 영향을 주지 않는다.</option>
+      <option id="D">과학 실험과 돌봄 활동을 함께 보여 주었으므로 성별 표현은 균형 잡혀 있다.</option>
+      <option id="E">홍보 영상은 학교를 소개하는 자료이므로 사회적 고정 관념을 평가할 필요가 없다.</option>
     </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 점검과 조정이다. 쓰기 과정에서 계획과 결과를 비교하고 어려움이 생기면 전략을 보완한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 점검과 조정의 의미를 상황에 적용해야 한다. 쓰기 과정에서 계획과 결과를 비교하고 어려움이 생기면 전략을 보완한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>B</answer>
+    <explanation>특정 성별을 특정 활동에 반복적으로 배치하면 성별에 따라 어울리는 역할이 정해져 있다는 인상을 줄 수 있다.</explanation>
+    <advancedExplanation>A는 실제 장면도 선택·편집된 재현물이라는 점을 놓친다. C는 짧은 장면도 반복되면 인식에 영향을 줄 수 있다. D는 활동 종류가 둘이라는 사실만으로 인물 배치의 균형이 확보되는 것은 아니다. E는 홍보물도 사회적 관점과 고정 관념을 담을 수 있다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="KOR2S2-2-009" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
