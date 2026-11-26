@@ -495,7 +495,7 @@ function submitFinalExam(){
  var questions=el('finalQuestionList').querySelectorAll('.final-question'),unanswered=[];
  questions.forEach(function(div){
   if(div.dataset.type==='multiple_choice'){if(!div.querySelector('input:checked'))unanswered.push(div.dataset.id)}
-  else{var score=div.querySelector('.final-score-select');if(!score||score.value==='')unanswered.push(div.dataset.id)}
+  else{var score=div.querySelector('.final-score-select'),response=div.querySelector('textarea');if(!response||!response.value.trim()||!score||score.value==='')unanswered.push(div.dataset.id)}
  });
  if(unanswered.length){alert('답변 또는 서답형 점수를 입력해 주세요. 미완료 '+unanswered.length+'문항: '+unanswered.slice(0,5).join(', '));return}
  if(!confirm('답안을 제출할까요? 제출 후에는 수정할 수 없습니다.'))return;
@@ -520,7 +520,7 @@ function submitFinalExam(){
  var stats={};rows.forEach(function(r){Object.keys(r.questionStats||{}).forEach(function(id){var s=stats[id]||(stats[id]={attemptCount:0,correctCount:0});s.attemptCount++;if(r.questionStats[id].correct)s.correctCount++})});
  el('finalResult').style.display='block';
  el('finalResult').innerHTML='<div class="score">'+finalScore+'점</div><p class="center">선택형 '+mcCorrect+'/23 정답 · 서답형 '+shortScore+'/12점 · '+attempt+'번째 응시</p><p class="hint">문항별 정답률은 이 기기의 응시 기록을 기준으로 누적됩니다. 다른 기기와 자동 동기화되지는 않습니다.</p>'+
- '<table><tr><th>문항</th><th>응시</th><th>정답</th><th>정답률</th></tr>'+Object.keys(stats).map(function(id){var s=stats[id];return '<tr><td>'+esc(id)+'</td><td>'+s.attemptCount+'</td><td>'+s.correctCount+'</td><td>'+Math.round(s.correctCount/s.attemptCount*100)+'%</td></tr>'}).join('')+'</table>'+
+ '<table><tr><th>문항</th><th>응시</th><th>정답</th><th>정답률</th><th>난이도2</th></tr>'+Object.keys(stats).map(function(id){var s=stats[id],rate=s.correctCount/s.attemptCount*100,d2=s.attemptCount<10?'미산정':(rate<=40?'상':(rate<=70?'중':'하'));return '<tr><td>'+esc(id)+'</td><td>'+s.attemptCount+'</td><td>'+s.correctCount+'</td><td>'+Math.round(rate)+'%</td><td>'+d2+'</td></tr>'}).join('')+'</table><p class="hint">난이도2는 문항별 응시 10회 이상부터 정답률 기준으로 산정합니다(정답률 40% 이하 상, 40% 초과~70% 중, 70% 초과 하).</p>'+
  '<button class="btn ghost" id="restartFinalBtn">다시 풀기</button>';
  el('finalResult').scrollIntoView({behavior:'smooth',block:'start'});
  el('restartFinalBtn').onclick=function(){if(confirm('새 응시를 시작할까요? 기존 기록은 보존됩니다.')){finalSubmitted=false;el('finalExamArea').style.display='none';el('finalIntro').style.display='block';}};
