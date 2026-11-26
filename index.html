@@ -604,7 +604,7 @@ function startRound(stage){
     html+='<div class="final-options">';
     Array.prototype.forEach.call(options,function(opt){var key=opt.getAttribute('id');html+='<label class="final-option"><input type="radio" name="round-answer-'+i+'" value="'+esc(key)+'"><span><b>'+esc(key)+'.</b> '+esc(opt.textContent.trim())+'</span></label>'});
     html+='</div>';
-   }else html+='<textarea class="round-short" placeholder="답안을 작성하세요."></textarea>';
+   }else html+='<textarea class="round-short" placeholder="답안을 작성하세요."></textarea><select class="final-score-select round-short-grade"><option value="">모범 답안 확인 후 평가</option><option value="1">정답 처리</option><option value="0">오답 처리</option></select>';
    html+='<div class="final-feedback"></div>';div.innerHTML=html;area.appendChild(div);
   });
   el('roundExamMeta').textContent=stage+'차 · '+items.length+'문항 · 직전 차수 오답 '+(prev?prev.wrongRefs.length:0)+'문항을 우선 포함하고 신규 문항으로 구성';
@@ -614,7 +614,7 @@ function startRound(stage){
 function submitRound(){
  if(roundSubmitted||!roundCurrent)return;
  var divs=el('roundQuestionList').querySelectorAll('.final-question'),missing=[];
- divs.forEach(function(d){if(d.dataset.type==='multiple_choice'){if(!d.querySelector('input:checked'))missing.push(Number(d.dataset.index)+1)}else if(!d.querySelector('.round-short').value.trim())missing.push(Number(d.dataset.index)+1)});
+ divs.forEach(function(d){if(d.dataset.type==='multiple_choice'){if(!d.querySelector('input:checked'))missing.push(Number(d.dataset.index)+1)}else if(!d.querySelector('.round-short').value.trim()||!d.querySelector('.round-short-grade').value)missing.push(Number(d.dataset.index)+1)});
  if(missing.length){alert('답변하지 않은 문항이 있습니다: '+missing.slice(0,8).join(', '));return}
  if(!confirm(roundCurrentNo+'차 답안을 제출하고 채점할까요?'))return;
  var correct=0,wrongRefs=[],answers={};
@@ -622,11 +622,11 @@ function submitRound(){
   var entry=roundCurrent[i],q=entry.node,answer=xmlText(q,'answer'),ok=false,picked='';
   if(div.dataset.type==='multiple_choice'){var selected=div.querySelector('input:checked');picked=selected.value;ok=picked===answer;
    div.querySelectorAll('.final-option').forEach(function(label){var input=label.querySelector('input');if(input.value===answer)label.classList.add('selected');if(input.checked&&input.value!==answer)label.style.borderColor='var(--bad)'});
-  }else{picked=div.querySelector('.round-short').value;ok=norm(picked)===norm(answer)}
+  }else{picked=div.querySelector('.round-short').value;ok=div.querySelector('.round-short-grade').value==='1'}
   if(ok)correct++;else wrongRefs.push({stage:entry.sourceStage,id:entry.sourceId});
   answers[entry.sourceStage+'|'+entry.sourceId]=picked;
   div.classList.add('revealed');div.querySelector('.final-feedback').innerHTML='<b>'+(ok?'정답':'오답')+'</b> · 정답 '+esc(answer)+'<p>'+esc(xmlText(q,'explanation'))+'</p><p><b>심화해설</b><br>'+esc(xmlText(q,'advancedExplanation'))+'</p>';
-  div.querySelectorAll('input,textarea').forEach(function(c){c.disabled=true});
+  div.querySelectorAll('input,textarea,select').forEach(function(c){c.disabled=true});
  });
  roundSubmitted=true;var rows=loadRoundResults(),record={stage:roundCurrentNo,at:new Date().toISOString(),score:Math.round(correct/roundCurrent.length*100),correct:correct,total:roundCurrent.length,wrongRefs:wrongRefs,answers:answers};
  rows.push(record);saveRoundResults(rows);
