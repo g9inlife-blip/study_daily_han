@@ -392,54 +392,54 @@
     <advancedExplanation>A·C·D는 비판적 평가의 목적이 아니다. E는 제작자의 관점을 검토 없이 받아들이는 것으로 비판적 읽기와 반대다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-    <question id="KOR2S2-1-026" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="P3" passageRef="민서가 용어의 뜻을 확인한 뒤 핵심 문장을 다시 읽고 한 문장으로 요약한 행동이 이해에 도움이 되는 까닭을 두 가지 쓰시오." attemptCount="0" correctCount="0">
+    <question id="KOR2S2-1-026" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="short_answer" passageRef="P3" attemptCount="0" correctCount="0">
     <concept>점검하고 조정하며 읽기</concept>
-    <prompt>낯선 용어의 정확한 뜻을 확인해 문장 이해를 돕고, 핵심 내용을 자신의 말로 요약해 이해 여부와 중심 내용을 점검할 수 있다.</prompt>
-    <answer>용어 뜻 확인 + 요약을 통한 중심 내용 정리/이해 점검</answer>
-    <explanation>용어 뜻 확인 + 요약을 통한 중심 내용 정리/이해 점검</explanation>
-    <advancedExplanation>채점 기준: undefined. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
-    <modelAnswer>용어 뜻 확인 + 요약을 통한 중심 내용 정리/이해 점검</modelAnswer>
-    <scoringCriteria>undefined</scoringCriteria>
+    <prompt>민서가 용어의 뜻을 확인한 뒤 핵심 문장을 다시 읽고 한 문장으로 요약한 행동이 이해에 도움이 되는 까닭을 두 가지 쓰시오.</prompt>
+    <answer>낯선 용어의 정확한 뜻을 확인해 문장 이해를 돕고, 핵심 내용을 자신의 말로 요약해 이해 여부와 중심 내용을 점검할 수 있다.</answer>
+    <explanation>낯선 용어의 정확한 뜻을 확인해 문장 이해를 돕고, 핵심 내용을 자신의 말로 요약해 이해 여부와 중심 내용을 점검할 수 있다.</explanation>
+    <advancedExplanation>채점 기준: 용어 뜻 확인 + 요약을 통한 중심 내용 정리/이해 점검. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
+    <modelAnswer>낯선 용어의 정확한 뜻을 확인해 문장 이해를 돕고, 핵심 내용을 자신의 말로 요약해 이해 여부와 중심 내용을 점검할 수 있다.</modelAnswer>
+    <scoringCriteria>용어 뜻 확인 + 요약을 통한 중심 내용 정리/이해 점검</scoringCriteria>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-    <question id="KOR2S2-1-027" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="P2" passageRef="읽기 전에 제목과 차례를 보고 내용을 예상하는 것과, 읽은 뒤 실제 내용과 비교하는 것이 각각 어떤 역할을 하는지 쓰시오." attemptCount="0" correctCount="0">
+    <question id="KOR2S2-1-027" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="short_answer" passageRef="P2" attemptCount="0" correctCount="0">
     <concept>점검하고 조정하며 읽기</concept>
-    <prompt>읽기 전 예측은 글의 내용과 구조를 미리 짐작해 읽기 방향을 세우게 한다. 읽는 중 예측 확인은 실제 내용과 비교해 이해를 점검하고 필요하면 예측을 수정하게 한다.</prompt>
-    <answer>읽기 방향 설정 + 실제 내용과 비교·점검·수정</answer>
-    <explanation>읽기 방향 설정 + 실제 내용과 비교·점검·수정</explanation>
-    <advancedExplanation>채점 기준: undefined. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
-    <modelAnswer>읽기 방향 설정 + 실제 내용과 비교·점검·수정</modelAnswer>
-    <scoringCriteria>undefined</scoringCriteria>
+    <prompt>읽기 전에 제목과 차례를 보고 내용을 예상하는 것과, 읽은 뒤 실제 내용과 비교하는 것이 각각 어떤 역할을 하는지 쓰시오.</prompt>
+    <answer>읽기 전 예측은 글의 내용과 구조를 미리 짐작해 읽기 방향을 세우게 한다. 읽는 중 예측 확인은 실제 내용과 비교해 이해를 점검하고 필요하면 예측을 수정하게 한다.</answer>
+    <explanation>읽기 전 예측은 글의 내용과 구조를 미리 짐작해 읽기 방향을 세우게 한다. 읽는 중 예측 확인은 실제 내용과 비교해 이해를 점검하고 필요하면 예측을 수정하게 한다.</explanation>
+    <advancedExplanation>채점 기준: 읽기 방향 설정 + 실제 내용과 비교·점검·수정. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
+    <modelAnswer>읽기 전 예측은 글의 내용과 구조를 미리 짐작해 읽기 방향을 세우게 한다. 읽는 중 예측 확인은 실제 내용과 비교해 이해를 점검하고 필요하면 예측을 수정하게 한다.</modelAnswer>
+    <scoringCriteria>읽기 방향 설정 + 실제 내용과 비교·점검·수정</scoringCriteria>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-    <question id="KOR2S2-1-028" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="P6" passageRef="지후가 안내 글을 쓸 때 예상 독자를 고려해야 하는 이유와, 이를 반영한 표현 방법 한 가지를 쓰시오." attemptCount="0" correctCount="0">
+    <question id="KOR2S2-1-028" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="short_answer" passageRef="P6" attemptCount="0" correctCount="0">
     <concept>복합양식 자료를 활용하여 글 쓰기</concept>
-    <prompt>같은 정보라도 예상 독자의 관심과 이해 수준에 따라 필요한 내용과 표현이 달라지기 때문이다. 학생이 궁금해할 이용 시간·대출 방법을 소제목과 표로 제시할 수 있다.</prompt>
-    <answer>예상 독자의 관심/수준 고려 + 구체적인 표현·자료 예시</answer>
-    <explanation>예상 독자의 관심/수준 고려 + 구체적인 표현·자료 예시</explanation>
-    <advancedExplanation>채점 기준: undefined. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
-    <modelAnswer>예상 독자의 관심/수준 고려 + 구체적인 표현·자료 예시</modelAnswer>
-    <scoringCriteria>undefined</scoringCriteria>
+    <prompt>지후가 안내 글을 쓸 때 예상 독자를 고려해야 하는 이유와, 이를 반영한 표현 방법 한 가지를 쓰시오.</prompt>
+    <answer>같은 정보라도 예상 독자의 관심과 이해 수준에 따라 필요한 내용과 표현이 달라지기 때문이다. 학생이 궁금해할 이용 시간·대출 방법을 소제목과 표로 제시할 수 있다.</answer>
+    <explanation>같은 정보라도 예상 독자의 관심과 이해 수준에 따라 필요한 내용과 표현이 달라지기 때문이다. 학생이 궁금해할 이용 시간·대출 방법을 소제목과 표로 제시할 수 있다.</explanation>
+    <advancedExplanation>채점 기준: 예상 독자의 관심/수준 고려 + 구체적인 표현·자료 예시. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
+    <modelAnswer>같은 정보라도 예상 독자의 관심과 이해 수준에 따라 필요한 내용과 표현이 달라지기 때문이다. 학생이 궁금해할 이용 시간·대출 방법을 소제목과 표로 제시할 수 있다.</modelAnswer>
+    <scoringCriteria>예상 독자의 관심/수준 고려 + 구체적인 표현·자료 예시</scoringCriteria>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-    <question id="KOR2S2-1-029" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="P4" passageRef="두 홍보물이 같은 축제를 다르게 재현한 이유를 ‘선택’과 ‘관점’이라는 말을 포함하여 설명하시오." attemptCount="0" correctCount="0">
+    <question id="KOR2S2-1-029" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="short_answer" passageRef="P4" attemptCount="0" correctCount="0">
     <concept>현실을 재현하는 매체 자료</concept>
-    <prompt>제작자가 전달하려는 관점에 따라 강조할 문구와 이미지를 선택하고 다른 장면은 배제했기 때문이다. 가는 가족 방문객을, 나는 청년 예술 활동을 중심으로 축제를 재현했다.</prompt>
-    <answer>관점에 따른 문구·이미지 선택과 배제 + 두 홍보물의 구체적 차이</answer>
-    <explanation>관점에 따른 문구·이미지 선택과 배제 + 두 홍보물의 구체적 차이</explanation>
-    <advancedExplanation>채점 기준: undefined. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
-    <modelAnswer>관점에 따른 문구·이미지 선택과 배제 + 두 홍보물의 구체적 차이</modelAnswer>
-    <scoringCriteria>undefined</scoringCriteria>
+    <prompt>두 홍보물이 같은 축제를 다르게 재현한 이유를 ‘선택’과 ‘관점’이라는 말을 포함하여 설명하시오.</prompt>
+    <answer>제작자가 전달하려는 관점에 따라 강조할 문구와 이미지를 선택하고 다른 장면은 배제했기 때문이다. 가는 가족 방문객을, 나는 청년 예술 활동을 중심으로 축제를 재현했다.</answer>
+    <explanation>제작자가 전달하려는 관점에 따라 강조할 문구와 이미지를 선택하고 다른 장면은 배제했기 때문이다. 가는 가족 방문객을, 나는 청년 예술 활동을 중심으로 축제를 재현했다.</explanation>
+    <advancedExplanation>채점 기준: 관점에 따른 문구·이미지 선택과 배제 + 두 홍보물의 구체적 차이. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
+    <modelAnswer>제작자가 전달하려는 관점에 따라 강조할 문구와 이미지를 선택하고 다른 장면은 배제했기 때문이다. 가는 가족 방문객을, 나는 청년 예술 활동을 중심으로 축제를 재현했다.</modelAnswer>
+    <scoringCriteria>관점에 따른 문구·이미지 선택과 배제 + 두 홍보물의 구체적 차이</scoringCriteria>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-    <question id="KOR2S2-1-030" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="P5" passageRef="‘우리 학교 급식 만족도가 전국 최고’라는 주장을 평가하기 위해 확인해야 할 정보 세 가지를 쓰시오." attemptCount="0" correctCount="0">
+    <question id="KOR2S2-1-030" stage="1" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="short_answer" passageRef="P5" attemptCount="0" correctCount="0">
     <concept>글과 자료 평가하며 읽기</concept>
-    <prompt>조사 기관과 조사 시기, 조사 대상·표본 수, 질문 문항과 조사 방법 및 전국 비교 자료의 출처 등을 확인해야 한다.</prompt>
-    <answer>조사 기관/출처, 시기, 대상·표본, 문항·방법, 비교 근거 중 세 가지</answer>
-    <explanation>조사 기관/출처, 시기, 대상·표본, 문항·방법, 비교 근거 중 세 가지</explanation>
-    <advancedExplanation>채점 기준: undefined. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
-    <modelAnswer>조사 기관/출처, 시기, 대상·표본, 문항·방법, 비교 근거 중 세 가지</modelAnswer>
-    <scoringCriteria>undefined</scoringCriteria>
+    <prompt>‘우리 학교 급식 만족도가 전국 최고’라는 주장을 평가하기 위해 확인해야 할 정보 세 가지를 쓰시오.</prompt>
+    <answer>조사 기관과 조사 시기, 조사 대상·표본 수, 질문 문항과 조사 방법 및 전국 비교 자료의 출처 등을 확인해야 한다.</answer>
+    <explanation>조사 기관과 조사 시기, 조사 대상·표본 수, 질문 문항과 조사 방법 및 전국 비교 자료의 출처 등을 확인해야 한다.</explanation>
+    <advancedExplanation>채점 기준: 조사 기관/출처, 시기, 대상·표본, 문항·방법, 비교 근거 중 세 가지. 핵심 개념을 정확히 설명하고 자료의 구체적인 요소를 근거로 들었는지 확인한다. 표현이 다르더라도 핵심 의미가 같으면 정답으로 인정한다.</advancedExplanation>
+    <modelAnswer>조사 기관과 조사 시기, 조사 대상·표본 수, 질문 문항과 조사 방법 및 전국 비교 자료의 출처 등을 확인해야 한다.</modelAnswer>
+    <scoringCriteria>조사 기관/출처, 시기, 대상·표본, 문항·방법, 비교 근거 중 세 가지</scoringCriteria>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="KOR2S2-2-001" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
