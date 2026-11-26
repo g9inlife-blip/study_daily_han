@@ -609,8 +609,12 @@ function startRound(stage){
  el('roundExamArea').style.display='block';el('roundExamMeta').textContent=stage+'차 문항을 준비하고 있습니다...';
  roundQuestionList(stage,prev?prev.wrongRefs:[]).then(function(items){
   roundCurrent=items;var area=el('roundQuestionList');area.innerHTML='';
+  var passageMap={},shownPassages={};
+  Array.prototype.forEach.call(items[0].node.ownerDocument.getElementsByTagName('passage'),function(p){passageMap[p.getAttribute('id')]=p});
   items.forEach(function(entry,i){
    var q=entry.node,type=q.getAttribute('type'),prompt=xmlText(q,'prompt'),div=document.createElement('div');
+   var passageId=q.getAttribute('passageRef'),passage=passageMap[passageId];
+   if(passage && !shownPassages[passageId]){var pd=document.createElement('div');pd.className='final-passage';pd.innerHTML='<b>'+esc(passage.getAttribute('title')||'공통 자료')+'</b><br>'+esc(xmlText(passage,'text'));area.appendChild(pd);shownPassages[passageId]=true;}
    div.className='final-question';div.dataset.index=i;div.dataset.sourceStage=entry.sourceStage;div.dataset.sourceId=entry.sourceId;div.dataset.type=type;
    var html='<h3>'+ (i+1)+'. '+esc(prompt)+'</h3><div class="hint">문항 '+esc(entry.sourceId)+' · 난이도 '+esc(q.getAttribute('difficulty')||'')+'</div>';
    var options=q.getElementsByTagName('option');
