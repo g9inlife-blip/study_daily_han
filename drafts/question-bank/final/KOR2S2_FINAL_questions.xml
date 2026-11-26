@@ -21,7 +21,7 @@
     <advancedExplanation>②·③은 조사 대상을 확대했다. ④는 응답 분포와 다르다. ⑤는 54명과 54%를 혼동했다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-FINAL-002" passageRef="A" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-FINAL-002" passageRef="A" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_select" attemptCount="0" correctCount="0">
     <prompt>자료 가와 나를 비교한 평가로 적절한 것을 두 개 고르면?</prompt>
     <options>
       <option id="A">① 자료 가는 조사 대상과 시점을 밝혀 결과의 적용 범위를 판단할 수 있다.</option>
