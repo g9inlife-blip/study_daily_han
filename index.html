@@ -110,6 +110,18 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
   <p class="hint">비활성 과목은 탭만 먼저 마련했으며, 과목별 범위와 문제은행이 준비되면 순차적으로 열 예정입니다.</p>
 </div>
 <div id="subject-korean">
+<div class="card" id="roundsCard">
+  <div style="font-weight:800;font-size:18px">1차~4차 학습</div>
+  <p class="meta">각 회차 30문항 · 직전 회차 오답 + 신규 문항</p>
+  <p class="hint">객관식 자동 채점 · 주관식은 모범 답안 확인 후 자기 채점. 다음 회차는 직전 회차 제출 후 열리며 오답은 바로 직전 회차 기준으로만 재출제됩니다.</p>
+  <div id="roundCards"></div>
+  <div id="roundExamArea" style="display:none">
+    <div id="roundExamMeta" class="meta"></div>
+    <div id="roundQuestionList"></div>
+    <button class="btn" id="submitRoundBtn">답안 제출 및 채점</button>
+    <div class="card" id="roundResult" style="display:none"></div>
+  </div>
+</div>
 <div class="card" id="finalIntro">
   <div style="font-weight:800;font-size:18px">FINAL 예상 기말고사</div>
   <p class="meta">26문항 · 선택형 23 · 서답형 3 · 공통 자료 4세트</p>
