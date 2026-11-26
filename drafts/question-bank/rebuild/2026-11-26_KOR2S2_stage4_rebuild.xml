@@ -226,44 +226,44 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 선택한 장면이 관점 형성에 영향을 준다는 설명 1점, 배제된 장면이 전달 내용의 범위를 제한한다는 설명 1점, 두 영상의 강조점 차이를 구체적으로 설명 1점. ‘편집이 달라서’만 쓰면 1점 이하. 허용: ‘포함/제외’, ‘보여 줌/감춤’ 등 의미가 같은 표현." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="short_answer" attemptCount="0" correctCount="0">
     <concept>매체의 선택과 배제</concept>
     <prompt>같은 학교 축제를 소개하는 영상 두 편이 있다. 한 영상은 공연과 수상 장면을, 다른 영상은 준비 과정과 안전 문제를 중심으로 보여 준다. 두 영상에 제작자의 관점이 반영되는 이유를 ‘선택’과 ‘배제’를 사용하여 설명하시오.</prompt>
     <answer>제작자는 보여 줄 장면을 선택하고 보여 주지 않을 장면을 배제한다. 첫 영상은 축제의 성과와 즐거움을, 둘째 영상은 준비 과정과 안전 문제를 강조하므로 같은 축제라도 서로 다른 관점으로 재현된다.</answer>
     <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
-    <advancedExplanation>중</advancedExplanation>
+    <advancedExplanation>채점(3점): 선택한 장면이 관점 형성에 영향을 준다는 설명 1점, 배제된 장면이 전달 내용의 범위를 제한한다는 설명 1점, 두 영상의 강조점 차이를 구체적으로 설명 1점. ‘편집이 달라서’만 쓰면 1점 이하. 허용: ‘포함/제외’, ‘보여 줌/감춤’ 등 의미가 같은 표현." difficulty2="미산정</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-027" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 집단 전체로 일반화하는 문제 1점, 고정 관념 또는 다양성 삭제를 지적 1점, 다양한 실제 활동이나 인물을 포함하는 개선안 1점. ‘나쁘다’처럼 이유 없는 평가만 있으면 문제점 점수는 인정하지 않음. 유사한 구체적 대안 허용." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-027" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="short_answer" attemptCount="0" correctCount="0">
     <concept>고정 관념 비판</concept>
     <prompt>청소년 홍보물이 청소년을 모두 스마트폰만 보는 모습으로 표현했다. 이 표현이 지닐 수 있는 문제점 한 가지와 개선 방법 한 가지를 쓰시오.</prompt>
     <answer>청소년의 다양한 관심과 활동을 무시하고 청소년 전체가 스마트폰에만 몰두한다는 고정 관념을 만들 수 있다. 학습·운동·봉사·예술 등 다양한 청소년의 모습을 함께 제시한다.</answer>
     <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
-    <advancedExplanation>중</advancedExplanation>
+    <advancedExplanation>채점(3점): 집단 전체로 일반화하는 문제 1점, 고정 관념 또는 다양성 삭제를 지적 1점, 다양한 실제 활동이나 인물을 포함하는 개선안 1점. ‘나쁘다’처럼 이유 없는 평가만 있으면 문제점 점수는 인정하지 않음. 유사한 구체적 대안 허용." difficulty2="미산정</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-028" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 유명인·단정 문구 등 설득 방식 설명 1점, 객관적 근거가 부족함을 지적 1점, 성능 자료·비교 기준·조건 중 하나 이상 제시 1점. ‘인터넷 검색’만 쓰면 확인 대상이 없어 0~1점. 동등한 근거 확인 방법 허용." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-028" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="short_answer" attemptCount="0" correctCount="0">
     <concept>광고 분석</concept>
     <prompt>한 광고가 ‘우리 제품은 최고’라는 문구와 유명인의 사진만 제시하고 제품의 성능을 비교한 자료는 제시하지 않았다. 광고의 설득 방식과 소비자가 추가로 확인해야 할 내용을 각각 쓰시오.</prompt>
     <answer>유명인의 이미지와 단정적인 문구를 이용해 호감과 신뢰를 얻으려는 설득 방식이다. 소비자는 성능을 뒷받침하는 객관적 시험 결과, 비교 기준, 사용 조건과 한계를 확인해야 한다.</answer>
     <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
-    <advancedExplanation>상</advancedExplanation>
+    <advancedExplanation>채점(3점): 유명인·단정 문구 등 설득 방식 설명 1점, 객관적 근거가 부족함을 지적 1점, 성능 자료·비교 기준·조건 중 하나 이상 제시 1점. ‘인터넷 검색’만 쓰면 확인 대상이 없어 0~1점. 동등한 근거 확인 방법 허용." difficulty2="미산정</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-029" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 일부 장면으로 집단을 일반화하는 문제 1점, 고정 관념·편견의 형성 가능성 1점, 다양한 사례·당사자 목소리 등 구체적 개선 1점. 범죄 장면을 모두 삭제하라는 답은 균형성 설명이 없으면 최대 2점." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-029" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="short_answer" attemptCount="0" correctCount="0">
     <concept>특정 집단 재현</concept>
     <prompt>지역 홍보 영상이 이주민을 범죄 사건 장면에만 등장시키고 지역 사회에서 함께 일하거나 생활하는 모습은 보여 주지 않았다. 이 영상의 재현상 문제와 균형을 높일 방법을 설명하시오.</prompt>
     <answer>범죄 장면만 선택하면 이주민을 위험한 집단으로 일반화하는 고정 관념을 강화할 수 있다. 다양한 이주민의 일상과 직업, 지역 사회 참여 모습을 함께 보여 주고 실제 자료와 당사자의 목소리를 포함해야 한다.</answer>
     <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
-    <advancedExplanation>상</advancedExplanation>
+    <advancedExplanation>채점(3점): 일부 장면으로 집단을 일반화하는 문제 1점, 고정 관념·편견의 형성 가능성 1점, 다양한 사례·당사자 목소리 등 구체적 개선 1점. 범죄 장면을 모두 삭제하라는 답은 균형성 설명이 없으면 최대 2점." difficulty2="미산정</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-030" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(4점): 홍보물 관점 1점, 주민 자료 관점 1점, 추가 정보 두 가지 각 1점. 같은 내용을 반복한 두 항목은 1점만 인정. ‘인터넷 검색’처럼 구체적 정보가 없는 답은 인정하지 않음. 의미가 같은 자료·조사 항목 허용." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-030" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="short_answer" attemptCount="0" correctCount="0">
     <concept>관점 비교와 종합</concept>
     <prompt>도시 공원 조성 홍보물은 새 산책로와 운동 시설을 강조하고, 주민 모임 자료는 기존 나무의 제거와 생태 변화를 강조한다. 두 자료의 관점 차이를 설명하고 공원 조성 사업을 판단하기 위해 추가로 확인할 정보 두 가지를 쓰시오.</prompt>
     <answer>홍보물은 이용 편의와 시설 개선을, 주민 자료는 기존 자연환경의 훼손 가능성을 강조한다. 판단을 위해 나무 제거 범위와 생태 영향 조사, 주민 의견 및 대체 녹지 계획, 사업 비용과 이용 계획 등을 확인해야 한다.</answer>
     <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
-    <advancedExplanation>상</advancedExplanation>
+    <advancedExplanation>채점(4점): 홍보물 관점 1점, 주민 자료 관점 1점, 추가 정보 두 가지 각 1점. 같은 내용을 반복한 두 항목은 1점만 인정. ‘인터넷 검색’처럼 구체적 정보가 없는 답은 인정하지 않음. 의미가 같은 자료·조사 항목 허용." difficulty2="미산정</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
 </examBank>
