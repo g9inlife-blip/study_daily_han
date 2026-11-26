@@ -483,11 +483,13 @@ function renderFinalQuestions(){
    var type=q.getAttribute('type'),div=document.createElement('div');div.className='final-question';div.dataset.id=id;div.dataset.type=type;
    var prompt=xmlText(q,'prompt'),difficulty=q.getAttribute('difficulty')||'미분류';
    var html='<h3>'+number+'. '+esc(prompt)+'</h3><div class="hint">문항 '+esc(id)+' · 난이도 '+esc(difficulty)+'</div>';
-   if(type==='multiple_choice'){
+   if(type==='multiple_choice'||type==='multiple_select'){
     html+='<div class="final-options">';
-    Array.prototype.forEach.call(q.getElementsByTagName('option'),function(opt){
-      var key=opt.getAttribute('id');
-      html+='<label class="final-option"><input type="radio" name="answer-'+esc(id)+'" value="'+esc(key)+'"><span><b>'+esc(key)+'.</b> '+esc(opt.textContent.trim())+'</span></label>';
+    if(type==='multiple_select')html+='<div class="hint">정답을 모두 선택하세요.</div>';
+    var optionLabels=['①','②','③','④','⑤'];
+    Array.prototype.forEach.call(q.getElementsByTagName('option'),function(opt,index){
+      var key=opt.getAttribute('id'),inputType=type==='multiple_select'?'checkbox':'radio';
+      html+='<label class="final-option"><input type="'+inputType+'" name="answer-'+esc(id)+'" value="'+esc(key)+'"><span><b>'+optionLabels[index]+'.</b> '+esc(opt.textContent.trim().replace(/^[①②③④⑤]\s*/,''))+'</span></label>';
     });html+='</div>';
    }else{
     html+='<textarea class="final-short-answer" placeholder="답안을 구체적으로 작성하세요."></textarea><button type="button" class="btn ghost final-reveal-btn">모범 답안과 채점 기준 확인</button><div class="final-score-wrap" style="display:none"><label><b>내 답안 점수 (0~4점)</b></label><select class="final-score-select"><option value="">점수를 선택하세요</option><option value="0">0점 · 핵심 내용 없음</option><option value="1">1점 · 일부 내용만 제시</option><option value="2">2점 · 핵심 일부를 설명</option><option value="3">3점 · 대부분 정확하게 설명</option><option value="4">4점 · 모든 평가 요소 충족</option></select></div>';
@@ -502,13 +504,13 @@ function renderFinalQuestions(){
    }
   });
  });
- el('finalProgress').textContent='총 '+number+'문항 · 선택형 23문항 자동 채점 · 서답형 3문항 직접 채점';
+ el('finalProgress').textContent='총 '+number+'문항 · 선택형 23문항 자동 채점(복수 선택 포함) · 서답형 3문항 직접 채점';
 }
 function submitFinalExam(){
  if(finalSubmitted)return;
  var questions=el('finalQuestionList').querySelectorAll('.final-question'),unanswered=[];
  questions.forEach(function(div){
-  if(div.dataset.type==='multiple_choice'){if(!div.querySelector('input:checked'))unanswered.push(div.dataset.id)}
+  if(div.dataset.type==='multiple_choice'||div.dataset.type==='multiple_select'){if(!div.querySelector('input:checked'))unanswered.push(div.dataset.id)}
   else{var score=div.querySelector('.final-score-select'),response=div.querySelector('textarea');if(!response||!response.value.trim()||!score||score.value==='')unanswered.push(div.dataset.id)}
  });
  if(unanswered.length){alert('답변 또는 서답형 점수를 입력해 주세요. 미완료 '+unanswered.length+'문항: '+unanswered.slice(0,5).join(', '));return}
@@ -517,9 +519,13 @@ function submitFinalExam(){
  questions.forEach(function(div){
   var id=div.dataset.id,q=finalBank.querySelector('question[id="'+id+'"]'),type=div.dataset.type,fb=div.querySelector('.final-feedback');
   var ans=xmlText(q,'answer'),correct=false,score=0;
-  if(type==='multiple_choice'){
-   var picked=div.querySelector('input:checked').value;answers[id]=picked;correct=picked===ans;score=correct?100/26:0;if(correct)mcCorrect++;
-   div.querySelectorAll('.final-option').forEach(function(label){var input=label.querySelector('input');if(input.value===ans)label.classList.add('selected');if(input.checked&&input.value!==ans)label.style.borderColor='var(--bad)'});
+  if(type==='multiple_choice'||type==='multiple_select'){
+   var picked=Array.prototype.map.call(div.querySelectorAll('input:checked'),function(input){return input.value}).sort();
+   var expected=ans.split(',').map(function(value){return value.trim()}).sort();
+   answers[id]=type==='multiple_select'?picked:picked[0];
+   correct=picked.length===expected.length&&picked.every(function(value,index){return value===expected[index]});
+   score=correct?100/26:0;if(correct)mcCorrect++;
+   div.querySelectorAll('.final-option').forEach(function(label){var input=label.querySelector('input');if(expected.indexOf(input.value)>=0)label.classList.add('selected');if(input.checked&&expected.indexOf(input.value)<0)label.style.borderColor='var(--bad)'});
    fb.innerHTML='<b>'+(correct?'정답':'오답')+'</b> · 정답 '+esc(ans)+'<p>'+esc(xmlText(q,'explanation'))+'</p><p><b>심화해설</b><br>'+esc(xmlText(q,'advancedExplanation'))+'</p>';div.classList.add('revealed');
   }else{
    var response=div.querySelector('textarea').value,selectedScore=Number(div.querySelector('.final-score-select').value);answers[id]={response:response,score:selectedScore};score=selectedScore*(100/26/4);shortScore+=selectedScore;correct=selectedScore===4;
