@@ -622,7 +622,11 @@ function startRound(stage){
     html+='<div class="final-options">';
     Array.prototype.forEach.call(options,function(opt){var key=opt.getAttribute('id');html+='<label class="final-option"><input type="radio" name="round-answer-'+i+'" value="'+esc(key)+'"><span><b>'+esc(key)+'.</b> '+esc(opt.textContent.trim())+'</span></label>'});
     html+='</div>';
-   }else html+='<textarea class="round-short" placeholder="답안을 작성하세요."></textarea><select class="final-score-select round-short-grade"><option value="">모범 답안 확인 후 평가</option><option value="1">정답 처리</option><option value="0">오답 처리</option></select>';
+   }else {
+    html+='<textarea class="round-short" placeholder="답안을 작성하세요."></textarea>';
+    html+='<div class="final-passage"><b>모범 답안</b><br>'+esc(xmlText(q,'modelAnswer')||xmlText(q,'answer'))+'<p><b>채점 기준</b><br>'+esc(xmlText(q,'scoringCriteria')||'핵심 내용이 포함되었는지 확인하세요.')+'</p></div>';
+    html+='<select class="final-score-select round-short-grade"><option value="">모범 답안 확인 후 평가</option><option value="1">정답 처리</option><option value="0">오답 처리</option></select>';
+   }
    html+='<div class="final-feedback"></div>';div.innerHTML=html;area.appendChild(div);
   });
   el('roundExamMeta').textContent=stage+'차 · '+items.length+'문항 · 직전 차수 오답 '+(prev?prev.wrongRefs.length:0)+'문항을 우선 포함하고 신규 문항으로 구성';
