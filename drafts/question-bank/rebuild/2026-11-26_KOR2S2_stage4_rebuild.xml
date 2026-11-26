@@ -1,269 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
-<examBank schemaVersion="1.0" revision="1-draft" status="draft_complete" subject="국어" schoolLevel="중학교" grade="2" semester="2" textbook="미래엔 중학교 국어 2-2 (민병곤 외)" sourcePages="188-199" created="2026-11-26">
-  <metadata><questionCount>30</questionCount><multipleChoiceCount>25</multipleChoiceCount><shortAnswerCount>5</shortAnswerCount><completion>4단원 30문항 초안 작성. 교육적 최종 검수 및 통합 검증 예정.</completion><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics></metadata>
-  <question id="KOR2S2-V2-4-001" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>매체 자료의 특성</concept>
-    <prompt>학교 안전 수칙을 알리는 영상에서 화면 자막과 그림을 함께 사용하는 가장 큰 이유는?</prompt>
-    <options><option id="A">말을 길게 늘여 영상 시간을 늘리기 위해</option><option id="B">소리로 전달한 내용을 시각적으로 보완해 핵심 정보를 쉽게 이해하도록 하기 위해</option><option id="C">영상에 글자가 많을수록 정보가 정확해지기 때문에</option><option id="D">그림이 있으면 사실 확인이 필요 없기 때문에</option><option id="E">시청자가 소리만 듣지 못하게 하기 위해</option></options>
+<examBank schemaVersion="1.0" revision="2-rebuild" status="draft_revised" subject="국어" schoolLevel="중학교" grade="2" semester="2" textbook="미래엔 중학교 국어 2-2 (민병곤 외)" sourcePages="188-199" created="2026-11-26">
+  <metadata><questionCount>30</questionCount><multipleChoiceCount>25</multipleChoiceCount><shortAnswerCount>5</shortAnswerCount><completion>4단원 교과서 핵심 목표 중심으로 전면 재구성. 문항별 교육적 재검수 예정.</completion><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics></metadata>
+  <question id="KOR2S2-V2-4-001" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체 자료는 현실 전체가 아니라 선택·구성된 일부를 보여 준다. 위험한 횡단보도만 제시하면 문제의 심각성이 부각되지만, 그것만으로 학교 주변 전체가 위험하다고 단정할 수는 없다. A·D는 선택과 구성의 영향을 무시한다. C는 일부 정보의 생략을 곧바로 거짓으로 단정한다. E는 한 장면을 전체에 일반화한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>매체의 현실 재현</concept>
+    <prompt>학교 주변의 교통 문제를 다룬 홍보 영상이 위험한 횡단보도만 보여 주고 안전하게 정비된 길은 보여 주지 않았다. 이 영상에 대한 설명으로 가장 적절한 것은?</prompt>
+    <options><option id="A">영상은 현실을 있는 그대로 빠짐없이 전달한다.</option><option id="B">위험한 장면을 선택해 보여 줌으로써 교통 문제의 심각성을 강조한다.</option><option id="C">안전한 길을 보여 주지 않았으므로 영상 전체가 거짓이다.</option><option id="D">촬영한 장면은 제작자의 관점과 무관하다.</option><option id="E">영상에 나온 장소는 모두 같은 위험도를 가진다.</option></options>
     <answer>B</answer>
-    <explanation>자막과 그림은 음성 정보를 보완하고 핵심 내용을 눈으로 확인하도록 돕는다.</explanation>
-    <advancedExplanation>복합양식 매체는 문자·음성·이미지·영상 등의 자원을 함께 사용한다. 자막은 핵심어와 수치 등을 다시 확인하게 하고 그림은 상황이나 절차를 직관적으로 보여 줄 수 있다. 다만 자료가 많다고 자동으로 정확해지는 것은 아니므로 내용과 표현의 적절성을 점검해야 한다. A는 정보 전달 목적을 무시하고, C는 정보량과 정확성을 혼동한다. D는 시각 자료를 사실 검증의 대체물로 오해했으며, E는 매체의 기능과 무관하다.</advancedExplanation>
+    <explanation>선택한 장면이 위험성을 강조하므로 제작자의 관점이 드러날 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-002" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현과 현실의 차이</concept>
-    <prompt>다큐멘터리 영상이 실제 사건을 촬영한 장면으로 구성되어 있더라도 현실을 그대로 보여 준다고 단정하기 어려운 까닭은?</prompt>
-    <options><option id="A">촬영 장비는 언제나 현실을 왜곡하기 때문에</option><option id="B">촬영 대상과 장면의 선택, 편집과 배열에 제작자의 관점이 반영될 수 있기 때문에</option><option id="C">영상에는 사실이 포함될 수 없기 때문에</option><option id="D">다큐멘터리는 모두 허구이기 때문에</option><option id="E">시청자가 영상을 이해할 수 없기 때문에</option></options>
-    <answer>B</answer>
-    <explanation>무엇을 촬영하고 어떻게 편집·배열하는지에 따라 현실의 특정 측면이 강조될 수 있다.</explanation>
-    <advancedExplanation>매체 자료는 현실을 바탕으로 제작되더라도 선택과 구성 과정을 거친 재현물이다. 촬영 범위, 인터뷰 대상, 장면의 길이, 자막과 배경음악, 편집 순서 등이 의미 형성에 영향을 준다. 따라서 영상의 사실적 장면도 제작 맥락과 관점을 살펴 읽어야 한다. A는 기술이 항상 왜곡한다고 일반화하고, C·D는 사실 기반 영상의 가능성을 부정한다. E는 제작 과정의 선택과 시청자 해석 문제를 혼동한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-003" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>화면 구성과 의미</concept>
-    <prompt>뉴스 화면에서 특정 인물의 얼굴을 크게 확대하고 다른 인물은 화면 가장자리에 작게 배치했다. 이 화면 구성에 대한 해석으로 가장 적절한 것은?</prompt>
-    <options><option id="A">화면 크기만으로 인물의 실제 중요도가 객관적으로 증명된다.</option><option id="B">인물의 크기와 위치가 시청자의 주목과 인물에 대한 인상에 영향을 줄 수 있다.</option><option id="C">화면 가장자리에 있는 인물은 사건과 관계가 없다.</option><option id="D">확대된 얼굴은 반드시 거짓 정보를 전달한다.</option><option id="E">화면 구성은 의미 전달과 아무 관계가 없다.</option></options>
-    <answer>B</answer>
-    <explanation>크기와 위치는 시청자의 시선을 유도하고 인물의 중요성에 대한 인상을 형성할 수 있다.</explanation>
-    <advancedExplanation>영상·사진의 구도와 크기, 시선 방향, 배치 등은 정보를 전달하는 표현 방식이다. 특정 인물을 크게 보여 주면 그 인물에 주목하게 만들 수 있지만, 그것만으로 실제 중요성이나 사실 여부가 증명되는 것은 아니다. 화면 구성의 효과를 인식하고 다른 정보와 함께 판단해야 한다. A는 표현 효과를 객관적 사실로 오해하고, C는 위치만으로 관련성을 단정한다. D는 과잉 해석이며, E는 시각적 표현의 의미 작용을 무시한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-004" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>사진의 맥락</concept>
-    <prompt>인터넷에서 재난 현장 사진 한 장을 보았다. 사진이 전달하는 상황을 정확히 이해하기 위해 가장 먼저 확인할 내용으로 적절한 것은?</prompt>
-    <options><option id="A">사진의 색감이 아름다운지</option><option id="B">촬영 날짜와 장소, 사진 설명 및 원래 게시 맥락</option><option id="C">사진에 등장한 사람의 옷차림만</option><option id="D">사진의 파일 크기</option><option id="E">사진을 공유한 사람의 친구 수</option></options>
-    <answer>B</answer>
-    <explanation>사진이 언제 어디서 어떤 맥락에서 촬영·게시되었는지 확인해야 한다.</explanation>
-    <advancedExplanation>사진은 실제 장면을 담을 수 있지만 촬영 시점과 장소, 전후 상황이 빠지면 다른 사건처럼 오해될 수 있다. 원 게시물과 설명, 촬영 정보, 신뢰할 만한 추가 보도를 함께 확인하는 것이 좋다. A·C·D·E는 사진의 진위와 맥락을 확인하는 핵심 정보가 아니다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-005" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>편집 순서의 효과</concept>
-    <prompt>영상에서 원래 시간 순서와 다르게 장면을 배열하면 생길 수 있는 효과로 가장 적절한 것은?</prompt>
-    <options><option id="A">사건의 인과 관계나 인물의 행동에 대한 시청자의 해석이 달라질 수 있다.</option><option id="B">촬영된 장면의 내용은 반드시 바뀐다.</option><option id="C">영상의 길이만 달라지고 의미는 변하지 않는다.</option><option id="D">편집 순서는 시청자에게 전혀 드러나지 않는다.</option><option id="E">모든 편집은 사실을 조작한 것이다.</option></options>
+  <question id="KOR2S2-V2-4-002" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="홍보물은 목적에 맞는 장면을 선택해 수용자의 관심과 행동을 유도한다. 다만 일부 장면만으로 실제 축제의 모든 측면을 알 수 없으므로 다른 정보도 확인해야 한다. B·C는 홍보물의 선택을 객관적 증명으로 오해하고, D는 일부 방문객을 전체로 일반화한다. E는 제작 목적과 표현 선택의 관계를 부정한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>제작자의 의도</concept>
+    <prompt>지역 축제 홍보물에 공연 장면과 방문객의 웃는 얼굴만 담고 교통 혼잡이나 소음 문제는 담지 않았다. 제작자의 의도를 추론한 것으로 가장 적절한 것은?</prompt>
+    <options><option id="A">축제의 긍정적인 이미지를 강조해 방문을 유도하려는 의도일 수 있다.</option><option id="B">축제에 문제가 전혀 없음을 객관적으로 증명하려는 것이다.</option><option id="C">교통 혼잡이 존재하지 않는다는 사실이 확인된다.</option><option id="D">방문객의 표정은 축제의 모든 측면을 대표한다.</option><option id="E">홍보물에는 제작자의 의도가 반영될 수 없다.</option></options>
     <answer>A</answer>
-    <explanation>장면의 배열은 사건의 연결 관계와 의미를 다르게 받아들이게 할 수 있다.</explanation>
-    <advancedExplanation>편집은 장면의 순서와 길이, 연결 방식을 선택해 서사를 구성한다. 같은 장면도 어떤 장면 앞뒤에 놓이는지에 따라 원인·결과나 인물의 태도에 대한 해석이 달라질 수 있다. 다만 편집이 있다는 사실만으로 조작이라고 단정해서는 안 된다. B는 편집과 촬영 내용을 혼동하고, C·D는 편집의 의미 효과를 부정한다. E는 모든 편집을 부정적으로 일반화한다.</advancedExplanation>
+    <explanation>긍정적인 장면을 중심으로 구성해 축제에 대한 호감을 높이려는 의도를 추론할 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-006" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>사진과 자막의 관계</concept>
-    <prompt>뉴스 영상에 ‘시위 현장’이라는 자막과 함께 군중 사진이 제시되었다. 그러나 사진의 촬영 날짜는 3년 전 다른 지역으로 확인되었다. 가장 타당한 판단은?</prompt>
-    <options><option id="A">자막이 있으므로 사진은 현재 시위 장면이다.</option><option id="B">사진 자체가 선명하면 촬영 시점은 중요하지 않다.</option><option id="C">자막과 사진의 맥락이 일치하지 않아 현재 상황을 보여 주는 자료로 사용하기 어렵다.</option><option id="D">사진은 오래되었으므로 어떤 정보도 제공하지 못한다.</option><option id="E">사진 속 군중 수를 현재 시위 참가자 수로 계산할 수 있다.</option></options>
+  <question id="KOR2S2-V2-4-003" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="이미지는 무엇을 보여 주고 무엇을 제외하는지에 따라 주제에 대한 인상을 형성한다. 깨끗한 숲은 지켜야 할 자연의 모습을 강조하지만, 환경 문제가 해결되었다는 근거는 아니다. A·C는 이미지의 상징적 효과를 사실 판단으로 바꾸고, D는 복합양식 표현의 상호작용을 무시한다. E는 미적 완성도와 주장 타당성을 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>이미지의 선택과 배제</concept>
+    <prompt>환경 보호 포스터가 깨끗한 숲 사진과 ‘우리의 선택이 숲을 지킵니다’라는 문구를 사용하고, 쓰레기가 쌓인 장소의 사진은 넣지 않았다. 이미지 선택의 효과로 가장 적절한 것은?</prompt>
+    <options><option id="A">환경 문제가 이미 해결되었다는 사실을 증명한다.</option><option id="B">깨끗한 숲의 이미지를 통해 보호해야 할 대상을 긍정적으로 떠올리게 한다.</option><option id="C">쓰레기 문제는 존재하지 않는다고 결론 내리게 한다.</option><option id="D">문구와 이미지의 관계는 의미 형성에 영향을 주지 않는다.</option><option id="E">사진이 아름다우므로 포스터의 모든 주장은 사실이다.</option></options>
+    <answer>B</answer>
+    <explanation>깨끗한 숲 이미지는 보호 대상의 가치를 부각하고 환경 보호의 필요성을 환기한다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-004" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="대상을 어떤 말로 이름 붙이고 어떤 특징을 앞세우는지에 따라 관점이 드러난다. 두 문구는 동일한 사업의 편익과 환경 영향을 각각 부각할 수 있으므로 사업 계획과 실제 자료를 함께 살펴야 한다. A·D는 표현의 관점 형성 기능을 부정한다. C는 관점 차이를 사실·거짓의 이분법으로 처리하고, E는 표현 차이를 대상 자체의 차이로 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>문구의 관점</concept>
+    <prompt>같은 공원 조성 사업을 두고 홍보물 1은 ‘도심에 생기는 새로운 쉼터’, 홍보물 2는 ‘나무가 사라지는 공사 현장’이라고 표현했다. 두 문구의 차이를 가장 잘 설명한 것은?</prompt>
+    <options><option id="A">두 문구는 같은 단어를 사용하므로 관점이 같다.</option><option id="B">첫 문구는 편의와 혜택을, 둘째 문구는 자연 훼손 가능성을 강조한다.</option><option id="C">둘 중 하나는 반드시 사실이 아니다.</option><option id="D">문구는 이미지가 없으면 관점을 드러낼 수 없다.</option><option id="E">표현이 다르므로 실제 사업도 서로 다른 사업이다.</option></options>
+    <answer>B</answer>
+    <explanation>같은 대상을 서로 다른 측면에서 표현해 수용자가 주목하는 부분을 달리한다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-005" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 성공 사례를 선택해 효과를 강조할 수 있다. 한 명의 사례는 가능성을 보여 줄 뿐 모든 사람에게 같은 결과가 나타난다는 증거는 아니다. 수강 기간, 학습량, 전체 수강생의 결과 등 추가 근거가 필요하다. A는 외형에 치우치고, C·D는 강조 표현과 단일 사례를 충분한 증거로 착각한다. E는 광고의 설득 목적을 이유로 비판적 검토를 포기한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>광고의 설득 방식</concept>
+    <prompt>학원 광고가 성적이 크게 오른 학생 한 명의 사례와 ‘누구나 성적 향상!’이라는 문구를 제시한다. 광고를 비판적으로 볼 때 가장 먼저 확인할 점은?</prompt>
+    <options><option id="A">학생의 사진이 선명한지 확인한다.</option><option id="B">한 명의 사례가 모든 학생에게 적용되는지, 다른 결과와 조건은 어떠한지 확인한다.</option><option id="C">광고 문구가 크면 근거가 충분하다고 판단한다.</option><option id="D">학생의 사례가 있으므로 누구나 같은 결과를 얻는다고 본다.</option><option id="E">광고는 홍보 목적이므로 검토할 필요가 없다.</option></options>
+    <answer>B</answer>
+    <explanation>일부 사례를 전체 학생에게 일반화할 수 있는지와 결과의 조건을 확인해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-006" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체 자료는 누구를 대표 사례로 선택하는지에 따라 집단에 대한 인식을 형성한다. 다양한 직업인을 균형 있게 제시하면 특정 성별만 해당 직업에 어울린다는 인상을 줄일 수 있다. B는 편향된 재현을 현실 전체로 일반화한다. C는 실제 인물이라는 이유로 선택의 편향을 무시하고, D·E는 반복 노출의 영향을 간과한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>고정 관념의 재현</concept>
+    <prompt>직업 소개 포스터에서 간호사는 여성 사진으로, 기계 기술자는 남성 사진으로만 제시했다. 이 자료를 비판적으로 평가한 내용은?</prompt>
+    <options><option id="A">직업별 성별 고정 관념을 강화할 수 있으므로 다양한 성별의 직업인을 함께 보여 주는 것이 바람직하다.</option><option id="B">실제 직업인은 모두 포스터와 같은 성별이다.</option><option id="C">사진이 실제 인물이라면 고정 관념과 관계없다.</option><option id="D">직업을 쉽게 이해시키므로 성별 구분은 문제가 없다.</option><option id="E">포스터의 사진은 직업에 대한 인식에 영향을 주지 않는다.</option></options>
+    <answer>A</answer>
+    <explanation>특정 성별만 반복해 보여 주면 직업과 성별을 연결하는 고정 관념을 강화할 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-007" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="특정 집단을 한 가지 모습으로 반복 재현하면 다양한 개인과 생활 모습을 지우고 고정 관념을 강화할 수 있다. 제작자는 누구를 어떤 상황에서 보여 주는지 점검해야 한다. B는 오락성을 이유로 차별적 표현을 정당화하고, C는 한 사람을 전체로 일반화한다. D·E는 매체의 사회적 영향과 당사자 관점을 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>특정 집단의 재현</concept>
+    <prompt>관광 안내 영상이 특정 지역 주민을 늘 게으르고 무질서한 모습으로 묘사한다. 가장 적절한 비판은?</prompt>
+    <options><option id="A">일부 장면만으로 집단 전체의 특성을 일반화해 편견을 만들 수 있다.</option><option id="B">재미있는 영상이면 집단을 어떻게 표현해도 괜찮다.</option><option id="C">실제 주민 한 명이 등장했으므로 전체 묘사가 정확하다.</option><option id="D">영상은 사진과 달리 고정 관념을 만들지 않는다.</option><option id="E">지역 주민의 의견은 매체 자료 해석과 관계없다.</option></options>
+    <answer>A</answer>
+    <explanation>개별 사례를 집단 전체의 특성처럼 제시하는 일반화의 문제를 지적해야 한다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-008" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="문자와 이미지는 함께 의미를 만든다. 사진이 한산한 시점에 촬영되었을 수도 있으므로 곧바로 거짓이라고 단정하지 말고 촬영 시점·장소와 ‘주말마다’라는 표현의 근거를 확인해야 한다. A·B는 한 요소만으로 결론을 내리고, D는 홍보 목적을 정확성 면제 사유로 오해한다. E는 표현 조작으로 근거 부족을 해결하려 한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>사진과 문구의 관계</concept>
+    <prompt>지역 상점 홍보물에 한산한 거리 사진을 넣고 ‘주말마다 발 디딜 틈 없는 명소’라고 적었다. 가장 적절한 평가 방법은?</prompt>
+    <options><option id="A">문구만 읽고 실제로 붐빈다고 판단한다.</option><option id="B">사진만 보고 상점이 인기가 없다고 확정한다.</option><option id="C">사진 촬영 시점과 장소, 문구의 근거를 확인해 이미지와 설명이 일치하는지 살핀다.</option><option id="D">홍보물이므로 사진과 문구가 달라도 문제가 없다.</option><option id="E">사진의 색을 바꾸면 문구의 타당성이 높아진다.</option></options>
     <answer>C</answer>
-    <explanation>촬영 시점과 장소가 다르므로 현재 시위의 장면인 것처럼 제시하면 오해를 일으킨다.</explanation>
-    <advancedExplanation>복합양식 자료는 문자와 이미지가 서로 보완하는지, 또는 서로 다른 정보를 전달해 혼란을 주는지 살펴야 한다. 과거 사진이 역사적 비교 자료로는 의미가 있을 수 있지만, 현재 사건의 현장 사진처럼 제시해서는 안 된다. 자료 설명에 촬영 시점과 장소를 밝혀야 한다. A는 자막을 무조건 신뢰하고, B는 맥락의 중요성을 무시한다. D는 자료의 제한적 활용 가능성까지 부정한다. E는 과거 사진으로 현재 수치를 추정하는 오류다.</advancedExplanation>
+    <explanation>사진과 문구가 서로 다른 인상을 주므로 촬영 맥락과 주장의 근거를 확인해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-007" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>배경음악의 기능</concept>
-    <prompt>공익 광고에서 잔잔한 배경음악을 사용해 환경 보호의 필요성을 전달한다. 배경음악의 역할에 대한 설명으로 가장 적절한 것은?</prompt>
-    <options><option id="A">음악만으로 광고의 모든 사실이 증명된다.</option><option id="B">분위기와 정서를 형성해 메시지를 받아들이는 방식에 영향을 줄 수 있다.</option><option id="C">음악이 있으면 화면과 자막은 필요 없다.</option><option id="D">음악의 종류는 메시지와 관계없이 무작위로 정해진다.</option><option id="E">배경음악은 언제나 시청자의 판단을 정확하게 만든다.</option></options>
-    <answer>B</answer>
-    <explanation>배경음악은 정서적 분위기를 조성하고 메시지에 대한 인상에 영향을 준다.</explanation>
-    <advancedExplanation>소리 자원은 정보 전달뿐 아니라 분위기와 감정을 형성한다. 잔잔한 음악은 차분함이나 성찰을 유도할 수 있지만, 음악은 사실을 입증하는 근거가 아니다. 영상의 메시지와 음악이 어떤 정서적 효과를 만드는지 함께 살펴야 한다. A·E는 음악의 효과를 사실 검증이나 정확성 보장으로 과장한다. C·D는 복합양식 구성의 상호작용을 무시한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-008" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>관점의 시각화</concept>
-    <prompt>같은 도시 재개발 현장을 다룬 사진 두 장이 있다. 한 사진은 새 건물과 넓은 도로를 중심으로 찍었고, 다른 사진은 철거된 주택과 이주 안내문을 중심으로 찍었다. 두 사진을 비교하는 방법으로 가장 적절한 것은?</prompt>
-    <options><option id="A">둘 중 더 밝은 사진이 객관적이다.</option><option id="B">각 사진이 선택한 대상과 촬영 위치, 화면 밖에 놓인 정보를 비교해 서로 다른 관점을 파악한다.</option><option id="C">사진은 글이 아니므로 관점이 존재하지 않는다.</option><option id="D">두 사진의 색상만 비교해 사실 여부를 판단한다.</option><option id="E">두 사진은 같은 장소이므로 전달하는 의미도 반드시 같다.</option></options>
-    <answer>B</answer>
-    <explanation>촬영 대상과 위치, 프레임 밖의 정보 선택이 서로 다른 측면을 강조할 수 있다.</explanation>
-    <advancedExplanation>사진은 프레임 안에 무엇을 포함하고 무엇을 제외하는지에 따라 현실의 특정 측면을 부각한다. 한 사진은 개발 성과, 다른 사진은 주민의 삶과 이주 문제에 주목할 수 있다. 비교할 때에는 촬영 시점과 장소도 확인하고 사진만으로 전체 현실을 단정하지 않아야 한다. A·D는 시각적 인상에 의존하고, C는 사진의 관점 형성 기능을 부정한다. E는 동일 장소가 동일한 재현을 뜻한다고 오해한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-009" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>자막의 정확성</concept>
-    <prompt>인터뷰 영상에서 출연자가 ‘약 30명’이라고 말했는데 자막에는 ‘300명’이라고 표시되었다. 가장 적절한 수정 방법은?</prompt>
-    <options><option id="A">강조 효과를 위해 300명을 그대로 둔다.</option><option id="B">음성과 대조해 자막을 ‘약 30명’으로 바로잡고 수치가 중요한 정보임을 확인한다.</option><option id="C">자막을 삭제하면 모든 문제가 해결된다.</option><option id="D">출연자의 발언보다 자막이 항상 정확하다고 본다.</option><option id="E">숫자 대신 ‘많은 사람’으로 바꾸어 오류를 숨긴다.</option></options>
-    <answer>B</answer>
-    <explanation>자막은 발언 내용과 일치해야 하며 특히 수치 오류는 의미를 크게 바꾼다.</explanation>
-    <advancedExplanation>자막은 음성 내용을 보조하는 표현이므로 발언과 정확히 대응해야 한다. 30명과 300명은 정보의 규모를 열 배 차이 나게 만들 수 있으므로 원음이나 기록을 확인해 바로잡아야 한다. 모호한 표현으로 오류를 감추기보다 정확한 수치와 필요하면 출처를 제시한다. A·D는 오류를 방치하고, C는 필요한 정보까지 제거한다. E는 정확성을 회복하지 않고 문제를 은폐한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-010" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>영상의 시점</concept>
-    <prompt>어린이 눈높이에서 촬영한 교통안전 영상이 운전자의 시점에서 촬영한 영상과 다르게 전달할 수 있는 점은?</prompt>
-    <options><option id="A">촬영 시점에 따라 위험 요소와 공간이 보이는 방식이 달라질 수 있다.</option><option id="B">카메라 위치는 영상의 의미에 영향을 주지 않는다.</option><option id="C">어린이 눈높이 영상은 실제 상황을 담을 수 없다.</option><option id="D">운전자 시점만이 언제나 정확하다.</option><option id="E">촬영 시점이 다르면 두 영상 중 하나는 반드시 조작이다.</option></options>
+  <question id="KOR2S2-V2-4-009" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="누구의 목소리를 포함하고 제외하는지는 매체의 관점에 영향을 준다. 수상자와 교장의 경험은 의미가 있지만 일반 학생의 경험까지 대표한다고 볼 수는 없다. B·E는 대표성을 근거 없이 부여하고, C는 일부 생략을 곧바로 거짓으로 단정한다. D는 인물 선택의 효과를 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>선택된 인물</concept>
+    <prompt>학교 홍보 영상에서 수상한 학생과 교장만 인터뷰하고 일반 학생의 의견은 담지 않았다. 이 구성의 한계를 가장 잘 설명한 것은?</prompt>
+    <options><option id="A">인터뷰 대상의 선택에 따라 학교생활의 특정 측면만 대표되는 것처럼 보일 수 있다.</option><option id="B">수상자와 교장의 말은 모든 학생의 생각을 자동으로 대표한다.</option><option id="C">일반 학생이 나오지 않으면 영상은 무조건 거짓이다.</option><option id="D">인터뷰 대상은 영상의 관점과 무관하다.</option><option id="E">등장인물 수가 적으면 메시지가 객관적이다.</option></options>
     <answer>A</answer>
-    <explanation>카메라의 위치와 시점은 무엇이 보이고 강조되는지에 영향을 준다.</explanation>
-    <advancedExplanation>시점은 대상과 공간을 바라보는 위치를 말한다. 어린이 눈높이에서는 차량이나 장애물이 더 크게 느껴질 수 있고 운전자 시점에서는 사각지대나 시야 제한이 드러날 수 있다. 각 시점은 서로 다른 정보를 제공하므로 목적에 맞게 비교해야 한다. B는 시점의 효과를 무시하고, C~E는 특정 시점을 절대화하거나 차이를 조작으로 단정한다.</advancedExplanation>
+    <explanation>인터뷰 대상이 누구인지에 따라 어떤 경험과 의견이 드러나는지가 달라진다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-011" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>통계 그래프의 시각적 왜곡</concept>
-    <prompt>뉴스 화면의 막대그래프가 두 지역의 값 차이를 실제보다 크게 보이게 한다. 그래프의 왜곡 여부를 점검할 때 가장 먼저 살펴볼 요소는?</prompt>
-    <options><option id="A">막대의 색상 조화</option><option id="B">세로축의 시작점과 눈금 간격, 수치 범위</option><option id="C">그래프 제목의 글꼴</option><option id="D">화면 전환 효과의 속도</option><option id="E">그래프 주변 장식의 개수</option></options>
+  <question id="KOR2S2-V2-4-010" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 소비자의 관심을 끌기 위해 효과를 크게 표현할 수 있다. 건강이나 성능에 관한 주장은 검증 자료와 조건이 필요하다. A·C는 표현의 자신감이나 제품 사진을 증거로 착각한다. D는 인기와 사실성을 혼동하고, E는 기억에 남는 표현과 정확성을 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>광고의 과장 표현</concept>
+    <prompt>음료 광고가 ‘마시면 하루 종일 피로가 사라진다’고 주장하지만 구체적인 근거는 제시하지 않았다. 가장 타당한 반응은?</prompt>
+    <options><option id="A">광고 문구가 단정적이므로 사실로 받아들인다.</option><option id="B">효과를 뒷받침하는 신뢰할 만한 근거와 적용 조건을 확인하고 과장 여부를 판단한다.</option><option id="C">광고에 제품 사진이 있으므로 효과가 입증된다.</option><option id="D">많이 판매되면 광고의 모든 표현이 사실이다.</option><option id="E">문구가 기억에 남으면 정확한 광고이다.</option></options>
     <answer>B</answer>
-    <explanation>축의 시작점과 눈금 간격이 값의 차이를 시각적으로 과장하거나 축소할 수 있다.</explanation>
-    <advancedExplanation>그래프는 수치를 시각적으로 전달하므로 축의 범위와 눈금 간격, 단위, 자료 출처를 확인해야 한다. 세로축이 0에서 시작하지 않으면 막대 길이 차이가 실제 수치 차이보다 크게 보일 수 있다. 다만 모든 그래프가 반드시 0에서 시작해야 하는 것은 아니며, 축의 범위가 명확히 표시되고 목적에 맞는지 검토해야 한다. A·C·D·E는 장식적 요소에 집중해 수치 해석에 직접 영향을 주는 축과 단위를 확인하지 않는다.</advancedExplanation>
+    <explanation>효과 주장은 근거와 적용 조건을 확인해야 하며 단정적 표현만으로 사실이 되지 않는다.</explanation>
+    <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-012" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>이미지 출처 확인</concept>
-    <prompt>발표 자료에 인터넷에서 찾은 사진을 사용하려 한다. 사진의 신뢰성과 맥락을 확인하는 절차로 가장 적절한 것은?</prompt>
-    <options><option id="A">검색 결과 첫 화면에 나오면 출처를 확인하지 않는다.</option><option id="B">원 게시처와 게시 날짜, 설명을 확인하고 다른 신뢰할 만한 자료와 대조한다.</option><option id="C">사진 아래에 임의의 기관 이름을 적는다.</option><option id="D">사진이 고화질이면 사실이라고 판단한다.</option><option id="E">공유 횟수가 많으면 원본이라고 본다.</option></options>
-    <answer>B</answer>
-    <explanation>원 출처와 날짜, 설명을 확인하고 독립된 자료와 대조해야 한다.</explanation>
-    <advancedExplanation>사진의 해상도나 인기도는 촬영 시점·장소·내용의 진위를 보장하지 않는다. 원 게시처와 게시 시점, 설명, 원본 여부를 확인하고 다른 신뢰할 만한 자료와 비교해야 맥락을 정확히 파악할 수 있다. A는 검색 순위를 신뢰성으로 혼동하고, C는 출처를 허위로 표시한다. D·E는 품질과 인기도를 사실성의 근거로 오해한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-013" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현의 선택과 생략</concept>
-    <prompt>지역 축제 영상이 축제의 화려한 공연 장면만 이어 보여 주고 준비 과정의 노동이나 주변 교통 혼잡은 담지 않았다. 이 영상의 재현 방식을 설명한 것으로 가장 적절한 것은?</prompt>
-    <options><option id="A">영상에 나온 장면은 모두 사실이므로 축제 전체를 완전하게 보여 준다.</option><option id="B">특정 장면을 선택하고 다른 측면을 생략해 축제의 즐거움에 초점을 맞춘 재현이다.</option><option id="C">생략된 장면이 있으므로 영상의 모든 장면은 거짓이다.</option><option id="D">영상의 길이가 짧으면 관점이 생길 수 없다.</option><option id="E">공연 장면만으로 교통 혼잡이 없었다는 사실을 증명한다.</option></options>
-    <answer>B</answer>
-    <explanation>장면 선택과 생략을 통해 축제의 특정 측면을 강조한 것이다.</explanation>
-    <advancedExplanation>매체 재현은 현실의 모든 요소를 그대로 복제하는 것이 아니라 목적과 관점에 따라 장면을 선택하고 구성한다. 축제의 즐거움을 보여 주는 영상으로는 적절할 수 있지만, 축제 전체의 영향을 평가하려면 준비 노동이나 교통·환경 문제 등 다른 자료도 함께 살펴야 한다. A는 일부 장면을 전체 현실로 일반화하고, C는 선택적 재현을 곧 허위로 단정한다. D는 분량과 관점의 관계를 오해하고, E는 장면에 없는 정보를 추론한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-014" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>인물 인터뷰의 편집</concept>
-    <prompt>인터뷰 영상에서 질문자의 질문은 삭제하고 답변 일부만 이어 붙였다. 이 편집으로 생길 수 있는 문제는?</prompt>
-    <options><option id="A">답변이 질문과 무관한 내용처럼 보이거나 발언 의도가 달라 보일 수 있다.</option><option id="B">인터뷰이의 목소리 크기만 달라진다.</option><option id="C">질문이 없으면 답변은 언제나 더 객관적이다.</option><option id="D">편집은 발언의 의미에 영향을 주지 않는다.</option><option id="E">답변 일부를 사용하면 인터뷰 전체가 반드시 허위가 된다.</option></options>
+  <question id="KOR2S2-V2-4-011" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체 자료의 의미는 포함된 정보뿐 아니라 제외된 정보와도 관련된다. 이주 주민의 생활 변화는 사업 평가에 중요한 요소일 수 있으므로 관련 자료를 추가로 확인해야 한다. B·C는 보이지 않는 정보를 부정하거나 임의로 추정한다. D는 홍보물의 목적을 일방적 정보 제공으로 오해하고, E는 의도적 선택 가능성을 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>생략의 효과</concept>
+    <prompt>재개발 홍보 영상이 새 아파트와 도로의 모습만 보여 주고 이주 주민의 생활 변화는 다루지 않았다. 생략된 정보에 주목해야 하는 이유는?</prompt>
+    <options><option id="A">생략된 정보가 사업을 바라보는 판단에 중요한 영향을 줄 수 있기 때문이다.</option><option id="B">영상에 나오지 않은 정보는 존재하지 않기 때문이다.</option><option id="C">새 건물 사진만으로 주민의 만족도가 확인되기 때문이다.</option><option id="D">홍보물은 긍정적인 내용만 다루어야 하기 때문이다.</option><option id="E">생략은 언제나 제작자의 실수이기 때문이다.</option></options>
     <answer>A</answer>
-    <explanation>질문과 답변의 맥락이 사라지면 발언의 의미가 달라지거나 오해될 수 있다.</explanation>
-    <advancedExplanation>인터뷰는 질문과 답변이 연결되어 의미를 형성한다. 질문을 제거하거나 답변 일부만 배열하면 발언이 나온 맥락과 대상이 불분명해질 수 있다. 필요한 부분을 편집하더라도 의미를 왜곡하지 않도록 질문 맥락과 생략 사실을 적절히 밝혀야 한다. B는 의미 변화 문제를 놓치고, C·D는 편집의 영향력을 부정한다. E는 편집의 존재만으로 허위라고 단정한다.</advancedExplanation>
+    <explanation>무엇을 제외했는지 살피면 자료가 강조하는 관점과 한계를 파악할 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-015" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>매체별 표현 방식</concept>
-    <prompt>같은 학교 급식 정보를 안내할 때 짧은 모바일 카드뉴스와 상세 안내문을 제작한다. 매체 특성에 맞는 구성으로 가장 적절한 것은?</prompt>
-    <options><option id="A">두 매체 모두 모든 정보를 한 화면에 같은 크기로 넣는다.</option><option id="B">카드뉴스는 핵심 정보를 짧은 단위와 시각 요소로 나누고, 상세 안내문은 날짜·대상·절차·문의처를 체계적으로 제시한다.</option><option id="C">카드뉴스에는 중요한 정보보다 장식 이미지를 우선한다.</option><option id="D">상세 안내문은 글이 길어지면 핵심 정보를 생략한다.</option><option id="E">매체가 달라도 독자와 이용 상황은 고려하지 않는다.</option></options>
-    <answer>B</answer>
-    <explanation>매체의 화면과 이용 상황에 맞추면서도 독자가 필요한 정보를 찾기 쉽게 구성해야 한다.</explanation>
-    <advancedExplanation>카드뉴스는 모바일 화면에서 빠르게 핵심을 파악하도록 정보 단위를 나누고 시각적 위계를 활용할 수 있다. 상세 안내문은 필요한 정보를 정확히 찾도록 항목과 절차를 체계화해야 한다. 어느 매체든 정확성과 필수 정보는 유지해야 한다. A는 매체 특성을 무시하고, C는 장식을 정보보다 앞세운다. D는 안내의 필수 정보를 제거하며, E는 독자와 이용 맥락을 고려하지 않는다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-016" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>이미지와 본문 일치</concept>
-    <prompt>환경 보호 포스터의 본문은 ‘일회용 컵 사용 줄이기’를 권하지만 그림에는 일회용 컵을 여러 개 쌓아 둔 모습만 있고 설명이 없다. 가장 적절한 개선은?</prompt>
-    <options><option id="A">그림을 더 크게 만들어 의미를 맡긴다.</option><option id="B">다회용 컵 사용 등 실천 행동을 보여 주는 이미지나 설명을 추가해 본문 메시지와 연결한다.</option><option id="C">본문 문구를 삭제한다.</option><option id="D">그림과 본문이 달라도 보는 사람이 알아서 이해하게 둔다.</option><option id="E">장식 테두리를 추가한다.</option></options>
-    <answer>B</answer>
-    <explanation>시각 자료가 본문의 주장과 실천 방법을 보완하도록 바꾸어야 한다.</explanation>
-    <advancedExplanation>복합양식 자료에서는 글과 이미지가 서로 보완하며 일관된 의미를 만들어야 한다. 현재 그림은 일회용 컵을 보여 줄 뿐 줄이기 행동을 분명히 전달하지 못한다. 다회용 컵 사용 장면이나 구체적인 실천 문구를 더하면 메시지와 시각 자료가 연결된다. A·E는 장식만 강화하고, C는 핵심 메시지를 없앤다. D는 복합양식 자료의 일관성 점검을 포기한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-017" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>영상의 사실성과 연출</concept>
-    <prompt>역사 다큐멘터리에서 당시 상황을 재현한 배우 장면과 실제 기록 영상이 함께 사용되었다. 시청자가 두 자료를 구별하도록 하는 가장 적절한 방법은?</prompt>
-    <options><option id="A">두 장면을 구분하지 않고 모두 실제 촬영 영상이라고 표시한다.</option><option id="B">재연 장면임을 자막이나 설명으로 밝히고 실제 기록 영상의 출처와 시점을 제시한다.</option><option id="C">배우가 등장하면 다큐멘터리 전체를 허구로 판단한다.</option><option id="D">실제 기록 영상은 출처를 밝힐 필요가 없다.</option><option id="E">배경음악을 바꾸어 재연 여부를 암시한다.</option></options>
-    <answer>B</answer>
-    <explanation>재연과 기록 자료를 명확히 구분하고 기록 영상의 출처·시점을 밝혀야 한다.</explanation>
-    <advancedExplanation>재연 장면은 과거 상황을 이해하도록 돕지만 당시의 실제 촬영 기록과 동일하지 않다. 시청자가 자료의 성격을 혼동하지 않도록 재연 여부를 표시하고, 기록 영상은 출처와 촬영 시점을 안내해야 한다. 다큐멘터리에는 서로 다른 성격의 자료가 함께 쓰일 수 있다. A는 자료 유형을 허위 표시하고, C는 일부 재연을 전체 허구로 확대한다. D는 검증 가능한 출처 정보를 생략하며, E는 명확한 설명 대신 분위기에 의존한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-018" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>화면 전환의 의미</concept>
-    <prompt>영상에서 학교의 낡은 시설 장면 직후 새 시설 장면을 보여 주었다. 이 연결이 전달할 수 있는 의미로 가장 적절한 것은?</prompt>
-    <options><option id="A">두 시설이 같은 시기에 존재했다는 사실이 자동으로 증명된다.</option><option id="B">전후 비교나 변화의 의미를 강조할 수 있지만 실제 변화 여부는 촬영 시점과 맥락을 확인해야 한다.</option><option id="C">화면 전환은 시청자의 해석에 영향을 주지 않는다.</option><option id="D">새 시설 장면이 나오면 낡은 시설은 존재한 적이 없다는 뜻이다.</option><option id="E">영상 순서만으로 시설 개선의 원인이 확정된다.</option></options>
-    <answer>B</answer>
-    <explanation>장면의 연결은 변화나 대비를 강조하지만 시점과 맥락 확인이 필요하다.</explanation>
-    <advancedExplanation>편집에서 전후 장면을 이어 붙이면 개선이나 변화의 의미가 강하게 전달될 수 있다. 그러나 두 장면의 촬영 시기, 장소, 실제 연관성을 확인하지 않으면 단순 비교를 인과관계로 오해할 수 있다. A·D는 장면 연결만으로 시간과 존재를 확정하고, C는 편집 효과를 부정한다. E는 배열만으로 원인을 단정한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-019" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>복합양식 자료 종합 해석</concept>
-    <prompt>학교 주변 교통안전 자료에 지도, 사고 건수 막대그래프, 보행자 인터뷰가 함께 제시되었다. 세 자료를 종합해 판단하는 방법으로 가장 적절한 것은?</prompt>
-    <options><option id="A">막대그래프의 수치만 보고 위험 지역을 확정한다.</option><option id="B">지도에서 위치를 확인하고 그래프의 조사 기간·단위를 살핀 뒤 인터뷰의 경험을 보완 정보로 활용한다.</option><option id="C">인터뷰 한 명의 경험을 전체 지역의 통계로 바꾼다.</option><option id="D">지도에 표시되지 않은 곳은 안전하다고 판단한다.</option><option id="E">세 자료가 함께 있으므로 출처와 조사 방법은 확인하지 않아도 된다.</option></options>
-    <answer>B</answer>
-    <explanation>각 자료가 제공하는 정보와 한계를 구분해 종합해야 한다.</explanation>
-    <advancedExplanation>지도는 공간적 위치, 그래프는 수치와 변화, 인터뷰는 개인의 경험과 구체적 맥락을 제공한다. 자료마다 표현할 수 있는 정보가 다르므로 조사 기간과 단위, 표본, 위치 정보를 확인하고 서로 보완해 해석해야 한다. 한 자료의 한계를 다른 자료가 완전히 대신한다고 볼 수는 없다. A는 수치의 범위와 위치를 무시하고, C는 개인 경험을 모집단 통계로 일반화한다. D는 지도에 없는 정보를 안전의 증거로 오해하며, E는 자료 검증을 생략한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-020" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>매체의 전달 범위</concept>
-    <prompt>짧은 SNS 영상이 빠르게 공유되면서 일부 장면만 잘려 전달되었다. 이때 발생할 수 있는 문제를 가장 적절하게 설명한 것은?</prompt>
-    <options><option id="A">공유 횟수가 많아지면 원래 맥락이 자동으로 복구된다.</option><option id="B">일부 장면만 유통되면 전후 맥락이 사라져 사건을 잘못 이해할 수 있다.</option><option id="C">짧은 영상은 언제나 긴 영상보다 정확하다.</option><option id="D">SNS 영상은 모두 조작되었다.</option><option id="E">영상이 짧으면 출처를 확인할 필요가 없다.</option></options>
-    <answer>B</answer>
-    <explanation>잘린 장면은 앞뒤 맥락과 조건이 빠져 의미가 달라질 수 있다.</explanation>
-    <advancedExplanation>디지털 매체는 빠르게 확산될 수 있지만, 짧게 편집된 영상이나 일부 캡처만 공유되면 발언의 전후 상황과 촬영 맥락이 사라질 수 있다. 원본과 전체 맥락, 게시자 및 촬영 시점 등을 확인해야 한다. A는 확산과 맥락 복원을 혼동하고, C는 길이와 정확성을 동일시한다. D는 과도한 일반화이며, E는 짧은 자료일수록 출처 확인이 중요할 수 있음을 놓친다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-021" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현 자료의 윤리적 표현</concept>
-    <prompt>재난 피해자를 다룬 영상에서 당사자의 얼굴과 이름을 공개하고 감정을 자극하는 음악을 반복 사용했다. 자료 제작자가 점검해야 할 사항으로 가장 적절한 것은?</prompt>
-    <options><option id="A">감정이 강하게 전달되면 공개 범위는 고려하지 않아도 된다.</option><option id="B">당사자의 동의와 사생활 보호, 맥락의 정확성, 감정 자극 표현의 필요성을 함께 검토한다.</option><option id="C">재난 영상은 시청자의 관심을 끌기 위해 모든 개인정보를 공개해야 한다.</option><option id="D">음악이 사실을 대신 설명하므로 인터뷰 맥락은 생략한다.</option><option id="E">피해자의 모습은 자료의 신뢰성과 관계없으므로 무조건 확대한다.</option></options>
-    <answer>B</answer>
-    <explanation>피해자 재현에서는 정보 전달뿐 아니라 당사자의 권리와 표현의 적절성을 함께 살펴야 한다.</explanation>
-    <advancedExplanation>매체 자료는 현실을 전달하는 동시에 대상 인물에게 영향을 미친다. 피해자의 신원과 사생활, 촬영·공개 동의, 장면의 맥락, 감정 자극의 정도를 검토해야 한다. 사실을 전달하더라도 불필요한 노출이나 맥락 왜곡은 피해야 한다. A·C는 관심 유도를 권리보다 앞세우고, D는 음악으로 사실을 대체한다. E는 인물의 존엄과 표현 방식의 영향을 무시한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-022" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>자막과 화면 정보의 위계</concept>
-    <prompt>안전 교육 영상에서 화면 아래쪽에 작은 글씨로 대피 방향을 표시하고, 화면 중앙에는 장식 문구를 크게 배치했다. 개선 방법으로 가장 적절한 것은?</prompt>
-    <options><option id="A">대피 방향을 더 작게 만들어 화면을 깔끔하게 한다.</option><option id="B">대피 방향과 핵심 행동을 눈에 잘 띄는 위치와 크기로 제시하고 장식 요소를 줄인다.</option><option id="C">모든 글자를 같은 크기로 무조건 키운다.</option><option id="D">대피 정보는 음성으로만 전달한다.</option><option id="E">장식 문구를 늘려 시선을 분산시킨다.</option></options>
-    <answer>B</answer>
-    <explanation>정보의 중요도에 맞춰 시각적 위계를 구성하고 핵심 행동을 쉽게 찾게 해야 한다.</explanation>
-    <advancedExplanation>시각적 위계는 글자 크기와 위치, 대비, 여백 등을 이용해 중요한 정보를 먼저 인식하도록 돕는다. 안전 정보는 장식보다 우선되어야 하며, 음성과 자막을 함께 사용하면 다양한 상황에서 이해를 도울 수 있다. A·E는 핵심 정보의 가시성을 낮추고, C는 모든 정보의 중요도를 같게 만든다. D는 시각적 보완 가능성을 버린다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-023" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>자료 선택의 적절성</concept>
-    <prompt>학교의 보행 안전 문제를 설명하는 영상에 아름다운 학교 건물 사진을 넣으려 한다. 이 사진의 적절성을 판단하는 기준으로 가장 중요한 것은?</prompt>
-    <options><option id="A">사진의 색상이 영상 배경과 잘 어울리는가</option><option id="B">사진이 보행 안전 문제의 위치·환경·위험 요소를 이해하는 데 실제로 도움이 되는가</option><option id="C">사진에 사람이 많이 등장하는가</option><option id="D">사진의 파일 용량이 큰가</option><option id="E">사진이 제작자의 취향에 맞는가</option></options>
-    <answer>B</answer>
-    <explanation>시각 자료는 주제와 목적에 관련되고 설명에 필요한 정보를 제공해야 한다.</explanation>
-    <advancedExplanation>자료 선택은 장식적 아름다움보다 주제 관련성과 정보 전달 기능을 기준으로 해야 한다. 학교 건물 사진이 보행 안전의 위험 요소나 위치를 보여 주지 못한다면 목적에 맞지 않는다. 필요한 경우 횡단보도, 시야 방해물, 보행 동선 등을 보여 주는 사진을 선택한다. A·C·D·E는 자료의 외형이나 개인 취향을 기준으로 삼아 주제와의 관련성을 검토하지 않는다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-024" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>자료의 시간적 맥락</concept>
-    <prompt>온라인 게시물에 ‘오늘 촬영한 폭우 피해’라는 설명과 함께 사진이 올라왔다. 사진의 메타데이터와 원 게시물을 확인하니 5년 전 다른 지역 사진이었다. 가장 적절한 대응은?</prompt>
-    <options><option id="A">사진을 그대로 공유하고 설명은 유지한다.</option><option id="B">현재 피해 사진이 아님을 확인하고 공유를 중단하거나 정확한 촬영 시점·장소를 밝혀 정정한다.</option><option id="C">사진의 내용이 비슷하면 날짜는 중요하지 않다.</option><option id="D">게시물의 조회 수가 높으므로 사실로 본다.</option><option id="E">사진의 색을 바꾸어 현재 사진처럼 보이게 한다.</option></options>
-    <answer>B</answer>
-    <explanation>촬영 시점과 장소가 잘못 표시되었으므로 오해가 확산되지 않도록 정정해야 한다.</explanation>
-    <advancedExplanation>이미지의 실제 촬영 시점과 장소는 사건을 이해하는 핵심 맥락이다. 오래된 사진을 현재 피해 현장처럼 공유하면 잘못된 정보가 된다. 원 게시물과 메타데이터 등을 확인해 정확한 맥락을 밝히고, 잘못된 게시물은 정정하거나 재공유하지 않아야 한다. A·C는 맥락 오류를 방치하고, D는 조회 수를 진위의 근거로 오해한다. E는 정보를 바로잡는 대신 오해를 의도적으로 강화한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-V2-4-025" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>매체 자료 비판적 평가</concept>
-    <prompt>한 뉴스 영상이 특정 정책의 성공 사례 세 곳만 보여 주며 정책의 한계나 실패 사례는 제시하지 않았다. 영상의 설득 방식을 평가하는 질문으로 가장 적절한 것은?</prompt>
-    <options><option id="A">성공 사례가 세 곳이면 정책 효과가 모든 지역에서 입증되는가?</option><option id="B">영상의 배경음악은 어떤 악기인가?</option><option id="C">화면 전환이 몇 초마다 이루어지는가?</option><option id="D">영상에 등장한 사람의 옷 색깔은 무엇인가?</option><option id="E">제작자의 이름이 화면에 크게 나오는가?</option></options>
+  <question id="KOR2S2-V2-4-012" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="대표 사례의 선택은 어떤 삶을 가치 있다고 보는지에 대한 인상을 만든다. 학업 성취만 강조하면 다른 재능과 기여가 낮게 평가될 수 있으므로 다양한 활동과 경험을 함께 보여 주는 편이 균형 있다. B·C는 일부 사례를 전체의 기준으로 삼고, D는 한 유형을 다양성으로 오해한다. E는 분량과 선택의 관계를 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>표현의 가치 판단</concept>
+    <prompt>청소년을 소개하는 영상이 공부를 잘하는 학생만 모범 사례로 보여 주고 예술·돌봄·체육 활동을 하는 청소년은 다루지 않았다. 이 영상의 한계는?</prompt>
+    <options><option id="A">청소년의 다양한 능력과 삶을 좁은 기준으로 평가하게 만들 수 있다.</option><option id="B">공부를 잘하는 학생만 청소년의 대표가 될 수 있다.</option><option id="C">영상에 나온 사례가 실제라면 다른 모습은 중요하지 않다.</option><option id="D">모범 사례를 제시하면 다양한 삶을 모두 보여 준 셈이다.</option><option id="E">영상의 길이가 짧으면 선택과 배제는 발생하지 않는다.</option></options>
     <answer>A</answer>
-    <explanation>일부 성공 사례가 정책 전체의 효과를 대표하는지, 반대 자료와 적용 조건은 무엇인지 확인해야 한다.</explanation>
-    <advancedExplanation>사례는 정책의 가능성을 보여 줄 수 있지만, 대표성과 충분성을 자동으로 보장하지 않는다. 사례 선정 기준, 실패 사례, 적용 지역의 조건, 비교 자료와 장기적 결과 등을 함께 살펴야 설득의 타당성을 평가할 수 있다. B~E는 영상의 외형적 세부에 초점을 맞춰 주장과 근거의 충분성 및 대표성을 평가하지 않는다.</advancedExplanation>
+    <explanation>한 가지 기준의 사례만 제시하면 청소년의 다양한 모습이 가려질 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>재현과 현실의 차이</concept>
-    <prompt>같은 사건을 다룬 영상 두 편이 서로 다른 장면을 중심으로 구성되어 있다. 매체 자료가 현실을 재현하는 과정에서 관점이 반영될 수 있는 이유를 두 가지 쓰시오.</prompt>
-    <answer>제작자는 촬영할 대상과 장면을 선택하고, 촬영 위치와 편집 순서·길이를 정한다. 이 선택과 배열에 따라 특정 인물이나 사건의 측면이 강조되고 다른 정보는 생략될 수 있으므로 관점이 반영된다.</answer>
-    <explanation>질문의 요구에 맞게 매체 자료의 표현 방식과 의미, 자료의 맥락을 근거로 설명해야 한다.</explanation>
-    <advancedExplanation>채점 요소: (1) 촬영 대상·위치·구도 등 장면 선택 1점, (2) 편집·배열·생략 등 구성 선택 1점, (3) 그 결과 특정 측면이 강조되거나 의미가 달라질 수 있음을 설명 1점. '사람마다 생각이 다르기 때문'만 쓰면 제작 과정과의 연결이 부족해 부분 점수만 인정한다.</advancedExplanation>
+  <question id="KOR2S2-V2-4-013" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="홍보물은 누구에게 무엇을 알릴지에 따라 사진과 문구를 선택한다. 어린이에게는 친근한 그림책 공간을, 연구자에게는 자료와 열람 환경을 강조할 수 있다. B·C는 특정 표현을 일방적으로 평가하고, D는 독자 고려의 중요성을 무시한다. E는 표현의 차이를 대상의 차이로 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>홍보물의 대상 독자</concept>
+    <prompt>같은 도서관을 홍보하는 포스터 두 개 중 하나는 어린이 그림책 그림과 쉬운 문구를, 다른 하나는 연구 자료와 조용한 열람 공간 사진을 강조했다. 가장 적절한 설명은?</prompt>
+    <options><option id="A">두 포스터는 예상 독자에 따라 도서관의 서로 다른 이용 가치를 강조한다.</option><option id="B">그림이 있는 포스터는 도서관 정보를 전달하지 못한다.</option><option id="C">연구 자료 사진이 있는 포스터만 사실이다.</option><option id="D">대상 독자는 홍보물의 표현 선택과 관계없다.</option><option id="E">두 포스터의 사진이 다르면 도서관도 두 곳이다.</option></options>
+    <answer>A</answer>
+    <explanation>예상 독자와 목적에 따라 강조하는 서비스와 표현 방식이 달라질 수 있다.</explanation>
+    <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-027" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>복합양식 자료의 불일치</concept>
-    <prompt>학교 행사 안내 포스터의 글에는 ‘오전 10시 시작’이라고 적혀 있지만 그림 속 시계는 오후 2시를 가리킨다. 이 자료에서 생기는 문제와 개선 방법을 각각 쓰시오.</prompt>
-    <answer>문자와 그림이 서로 다른 시간 정보를 전달해 보는 사람이 행사 시작 시각을 혼동할 수 있다. 시계 그림을 삭제하거나 오전 10시를 가리키도록 수정하고, 글과 그림의 정보가 일치하는지 최종 확인한다.</answer>
-    <explanation>질문의 요구에 맞게 매체 자료의 표현 방식과 의미, 자료의 맥락을 근거로 설명해야 한다.</explanation>
-    <advancedExplanation>채점 요소: (1) 문자와 이미지의 정보 불일치 및 혼란 설명 1점, (2) 시각 자료 또는 문구를 바로잡는 구체적 수정 1점, (3) 전체 자료의 일관성을 재점검하는 방법 1점. 단순히 '그림을 예쁘게 바꾼다'는 정보 오류를 해결하지 못하므로 인정하지 않는다.</advancedExplanation>
+  <question id="KOR2S2-V2-4-014" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="‘살기 좋은’은 주거 환경·교통·안전 등 기준에 따라 달라지는 평가 표현이다. 어떤 지역과 비교했는지, 어떤 자료를 사용했는지 확인해야 한다. B·C는 홍보 문구를 검증된 사실로 오해한다. D는 한 사람의 의견을 전체로 일반화하고, E는 의견도 근거를 통해 평가할 수 있다는 점을 놓친다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>사실과 의견의 구분</concept>
+    <prompt>지역 홍보 영상에 ‘우리 동네는 가장 살기 좋은 곳’이라는 문구가 나온다. 이 문구를 평가하는 방법으로 가장 적절한 것은?</prompt>
+    <options><option id="A">평가 표현이므로 어떤 근거로 ‘가장 좋다’고 판단했는지 기준과 자료를 확인한다.</option><option id="B">홍보 영상에 나왔으므로 객관적 사실이다.</option><option id="C">‘가장’이라는 단어가 있으므로 비교 조사가 끝난 것이다.</option><option id="D">주민 한 명이 만족하면 모든 주민이 만족한다고 본다.</option><option id="E">의견 표현은 자료와 함께 검토할 필요가 없다.</option></options>
+    <answer>A</answer>
+    <explanation>‘가장 살기 좋은’은 평가적 주장으로, 비교 기준과 근거를 확인해야 한다.</explanation>
+    <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-028" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>영상 자료의 맥락 검증</concept>
-    <prompt>온라인에서 발견한 재난 사진을 발표 자료에 사용하려 한다. 사진이 현재 사건을 보여 주는지 확인하기 위해 점검할 항목 세 가지를 쓰시오.</prompt>
-    <answer>촬영 날짜와 장소, 최초 게시처와 게시 시점, 사진 설명과 원본 여부를 확인한다. 필요하면 신뢰할 만한 보도나 공식 자료와 대조한다.</answer>
-    <explanation>질문의 요구에 맞게 매체 자료의 표현 방식과 의미, 자료의 맥락을 근거로 설명해야 한다.</explanation>
-    <advancedExplanation>채점 요소: (1) 촬영 날짜·장소 중 하나 1점, (2) 원 게시처·게시 시점·원본 여부 중 하나 1점, (3) 다른 신뢰할 만한 자료와 대조하거나 맥락을 확인하는 절차 1점. 화질이나 공유 횟수만 제시하면 핵심 검증 항목으로 인정하지 않는다.</advancedExplanation>
+  <question id="KOR2S2-V2-4-015" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="두 명의 인터뷰는 해당 직원의 경험을 보여 주지만 전체 직원의 만족도를 나타내기에는 부족하다. 조사 대상과 선정 방법, 응답 분포, 다양한 의견을 확인해야 한다. B·E는 일부 사례나 침묵을 전체의 동의로 해석한다. C·D는 영상 형식과 홍보 목적을 대표성의 근거로 착각한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료의 대표성</concept>
+    <prompt>한 회사가 직원 두 명의 긍정적인 인터뷰만 담아 ‘모든 직원이 근무 환경에 만족한다’는 영상을 만들었다. 가장 적절한 비판은?</prompt>
+    <options><option id="A">인터뷰한 두 명이 전체 직원을 대표하는지 알 수 없으므로 더 다양한 의견과 조사 자료가 필요하다.</option><option id="B">직원 두 명이 만족했으므로 전체 직원도 만족한다.</option><option id="C">인터뷰 영상은 숫자가 없어도 대표성이 자동으로 확보된다.</option><option id="D">긍정적인 의견만 담는 것이 홍보물의 의무이다.</option><option id="E">불만 의견이 없으면 불만이 존재하지 않는다.</option></options>
+    <answer>A</answer>
+    <explanation>소수의 선택된 사례만으로 전체 집단의 의견을 일반화할 수 없다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-029" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>시각 자료의 관점 분석</concept>
-    <prompt>지역 개발을 다룬 사진에서 한 장은 새 도로와 건물을, 다른 장은 철거된 주택과 이주 안내문을 보여 준다. 두 사진이 강조하는 관점의 차이를 설명하고, 균형 있게 판단하기 위해 추가로 확인할 정보 한 가지를 쓰시오.</prompt>
-    <answer>첫 사진은 개발로 인한 시설 개선이나 지역 변화의 측면을 강조하고, 둘째 사진은 기존 주민의 주거 변화와 이주 문제를 강조한다. 균형 있게 판단하려면 개발 전후 자료, 주민 의견, 이주 대책이나 환경 영향 등 추가 정보를 확인해야 한다.</answer>
-    <explanation>질문의 요구에 맞게 매체 자료의 표현 방식과 의미, 자료의 맥락을 근거로 설명해야 한다.</explanation>
-    <advancedExplanation>채점 요소: (1) 첫 사진이 강조하는 측면 설명 1점, (2) 둘째 사진이 강조하는 측면 설명 1점, (3) 균형 판단에 필요한 추가 정보 제시 1점. 사진의 관점만으로 어느 쪽이 거짓이라고 단정하면 감점한다.</advancedExplanation>
+  <question id="KOR2S2-V2-4-016" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="이미지는 문자 그대로의 사실만 전달하는 것이 아니라 상징을 통해 의미를 보탠다. 금이 간 우산과 함께 선 학생은 보호의 필요성과 공동 대응을 떠올리게 할 수 있다. B·D는 상징 이미지를 사실 자료로 오해한다. C는 이미지와 문구의 상호작용을 무시하고, E는 상징 표현을 거짓과 동일시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>이미지의 상징</concept>
+    <prompt>학교 폭력 예방 포스터가 금이 간 우산 아래 함께 서 있는 학생들의 그림을 사용했다. 이 이미지가 문구와 결합해 전달할 수 있는 의미로 가장 적절한 것은?</prompt>
+    <options><option id="A">서로 보호하고 함께 문제를 해결해야 한다는 메시지를 상징적으로 강조한다.</option><option id="B">실제 우산이 학교 폭력을 해결한다는 사실을 증명한다.</option><option id="C">그림은 문구의 의미를 바꾸거나 보완하지 않는다.</option><option id="D">학생들이 모두 같은 생각을 한다는 통계 자료이다.</option><option id="E">이미지가 상징적이면 포스터의 메시지는 거짓이다.</option></options>
+    <answer>A</answer>
+    <explanation>그림은 보호와 연대의 의미를 상징적으로 보태 문구의 메시지를 강화할 수 있다.</explanation>
+    <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-030" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>매체별 정보 구성</concept>
-    <prompt>학교 축제 안전 안내를 모바일 카드뉴스로 제작하려 한다. 카드뉴스에 반드시 포함할 정보 두 가지와, 읽기 쉽게 구성하는 방법 한 가지를 쓰시오.</prompt>
-    <answer>행사 날짜·장소·시간, 안전 수칙과 비상 연락 또는 문의처 등을 포함한다. 한 화면에 한 가지 핵심 내용을 배치하고 짧은 문장과 눈에 띄는 제목·아이콘을 활용해 순서대로 제시한다.</answer>
-    <explanation>질문의 요구에 맞게 매체 자료의 표현 방식과 의미, 자료의 맥락을 근거로 설명해야 한다.</explanation>
-    <advancedExplanation>채점 요소: (1) 행사 기본 정보 중 적절한 항목 1점, (2) 안전 수칙·비상 연락처 등 안전 관련 핵심 정보 1점, (3) 화면별 정보 분리·시각적 위계·간결한 문장 등 매체에 맞는 구성 방법 1점. 장식만 제시하거나 필수 정보를 생략하면 해당 요소를 인정하지 않는다.</advancedExplanation>
+  <question id="KOR2S2-V2-4-017" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체는 인물을 어떤 모습으로 재현하는지에 따라 수용자의 태도에 영향을 준다. 편의 시설 홍보의 중심은 시설의 기능과 접근성, 이용자의 경험이어야 하며 장애인을 일방적인 동정의 대상으로 만들지 않아야 한다. B·D는 감정 자극을 강화한다. C는 당사자의 목소리를 배제하고, E는 등장 배제만으로 공정성이 보장된다고 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>표현 방식의 공정성</concept>
+    <prompt>장애인 편의 시설을 소개하는 홍보물이 시설 자체보다 장애인을 불쌍한 표정으로 촬영한 사진을 크게 보여 준다. 가장 적절한 개선은?</prompt>
+    <options><option id="A">장애인을 동정의 대상으로만 표현하지 않고 시설의 기능과 이용자의 다양한 경험을 존중하는 이미지로 바꾼다.</option><option id="B">불쌍한 표정을 더 크게 확대한다.</option><option id="C">장애인의 의견은 홍보물에 포함하지 않는다.</option><option id="D">시설의 실제 기능보다 감정적 사진을 늘린다.</option><option id="E">장애인을 등장시키지 않으면 언제나 공정해진다.</option></options>
+    <answer>A</answer>
+    <explanation>특정 집단을 동정의 대상으로 고정하지 않고 주제와 당사자의 관점을 존중해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-018" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 편리함을 강조하면서 이동 시간에 영향을 주는 조건을 생략할 수 있다. 출발 지점과 경로, 신호 대기, 보행 환경 등을 확인하면 문구가 실제 생활에 얼마나 적절한지 판단할 수 있다. B·C·E는 표현의 외형에 치우치고, D는 반복 여부가 근거를 보완하지 못한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>홍보 문구의 생략</concept>
+    <prompt>아파트 광고가 ‘역까지 도보 5분’이라고 크게 표시했지만 경사로와 횡단보도 대기 시간을 설명하지 않았다. 광고를 평가하는 질문으로 가장 적절한 것은?</prompt>
+    <options><option id="A">도보 5분을 측정한 출발점·경로·보행 조건이 무엇이며 실제 이용 환경은 어떠한가?</option><option id="B">광고 글씨가 충분히 큰가?</option><option id="C">아파트 사진이 아름다운가?</option><option id="D">광고에 역 이름이 한 번 더 나오는가?</option><option id="E">도보 5분이라는 문구가 짧고 기억하기 쉬운가?</option></options>
+    <answer>A</answer>
+    <explanation>핵심 문구가 어떤 조건에서 성립하는지 확인해야 실제 이용 상황을 판단할 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-019" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="자료 A는 이용 편의, 자료 B는 생태 영향을 부각한다. 두 관점은 사업의 서로 다른 측면을 보여 주므로 어느 하나만으로 전체 평가를 끝내지 말고 사업 계획, 환경 조사, 주민 의견 등을 함께 검토해야 한다. B·C는 시각적 인상이나 한 측면만으로 결론을 내린다. D는 비교를 포기하고, E는 같은 대상이면 관점도 같다고 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>관점 비교</concept>
+    <prompt>같은 하천 정비 사업을 다룬 자료 A는 산책로와 조명을, 자료 B는 공사로 영향을 받은 생물 서식지를 보여 준다. 두 자료를 비교하는 태도로 가장 적절한 것은?</prompt>
+    <options><option id="A">각 자료가 선택한 대상과 강조점을 파악하고 사업의 편익과 환경 영향을 함께 확인한다.</option><option id="B">A가 더 밝은 사진이므로 A의 주장이 옳다.</option><option id="C">B가 자연을 보여 주므로 사업은 무조건 잘못되었다.</option><option id="D">두 자료 중 하나만 선택하고 다른 자료는 무시한다.</option><option id="E">같은 사업을 다루므로 두 자료의 관점은 같다.</option></options>
+    <answer>A</answer>
+    <explanation>서로 다른 관점이 강조하는 정보를 비교하고 추가 근거를 종합해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-020" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 반복과 모델의 이미지를 이용해 상품에 대한 친숙함을 높일 수 있다. 그러나 노출 횟수나 유명인의 사용은 제품의 성능을 검증하는 자료가 아니다. B·E는 반복과 분량을 근거로 오해한다. C는 유명인의 경험을 모든 소비자에게 일반화하고, D는 설득 효과를 부정한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>광고의 반복 노출</concept>
+    <prompt>광고가 같은 상품을 사용하는 유명인의 장면을 여러 차례 반복해서 보여 준다. 반복 노출의 효과를 가장 적절하게 설명한 것은?</prompt>
+    <options><option id="A">상품에 친숙함과 호감을 느끼게 할 수 있지만 제품의 실제 성능을 증명하지는 않는다.</option><option id="B">반복해서 나오면 제품의 성능이 과학적으로 입증된다.</option><option id="C">유명인이 사용하므로 모든 소비자에게 적합하다.</option><option id="D">반복 노출은 수용자의 인식에 영향을 주지 않는다.</option><option id="E">광고가 길수록 근거가 많아진다.</option></options>
+    <answer>A</answer>
+    <explanation>반복과 유명인의 등장은 친숙함·호감에 영향을 줄 수 있지만 성능 근거와는 구분해야 한다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-021" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="자료는 제작자의 홍보 목적뿐 아니라 수용자가 알아야 할 정보를 적절히 전달해야 한다. 알레르기 정보는 안전과 직접 관련되므로 눈에 잘 띄고 이해하기 쉽게 제시해야 한다. B·E는 이미지가 필수 정보를 대신한다고 오해한다. C·D는 이용자의 정보 요구를 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>제작 목적과 정보</concept>
+    <prompt>학교 급식 홍보 영상이 맛있어 보이는 음식 사진은 많이 보여 주지만 알레르기 유발 식품 정보는 작은 글씨로 한쪽에 표시했다. 가장 적절한 평가 및 개선은?</prompt>
+    <options><option id="A">홍보 효과뿐 아니라 이용자에게 필요한 정보가 충분히 드러나는지 살피고 알레르기 정보를 쉽게 확인하도록 제시한다.</option><option id="B">음식 사진이 많으므로 필요한 정보가 모두 전달된다.</option><option id="C">알레르기 정보는 홍보 목적과 관계없으므로 삭제한다.</option><option id="D">작은 글씨는 눈에 띄지 않으므로 오히려 적절하다.</option><option id="E">음식 사진을 더 늘려 알레르기 정보를 대신한다.</option></options>
+    <answer>A</answer>
+    <explanation>홍보의 목적과 함께 수용자에게 필요한 핵심 정보의 가시성과 충분성을 평가해야 한다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-022" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="집단은 내부에 다양한 개인과 경험이 있다. 특정한 모습만 반복하면 그 집단에 대한 편견을 강화할 수 있으므로 다양한 생활 방식과 능력, 목소리를 제시해야 한다. B·C는 일부 사례를 전체로 일반화한다. D는 단순화를 이유로 편견을 정당화하고, E는 다양성의 재현을 배제한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>집단의 다양성</concept>
+    <prompt>한 지역의 노인을 소개하는 영상이 모든 노인을 건강이 나쁘고 디지털 기기를 사용하지 못하는 모습으로만 그렸다. 가장 타당한 비판은?</prompt>
+    <options><option id="A">노인의 다양한 건강 상태와 경험을 지우고 하나의 모습으로 일반화할 위험이 있다.</option><option id="B">노인은 모두 같은 생활 방식을 가지므로 정확하다.</option><option id="C">영상에 등장한 노인이 실제 인물이면 일반화가 가능하다.</option><option id="D">고령층을 단순하게 표현하면 이해가 쉬워 언제나 바람직하다.</option><option id="E">노인의 다양한 모습은 매체에서 다룰 필요가 없다.</option></options>
+    <answer>A</answer>
+    <explanation>집단 내부의 차이를 지우는 표현은 고정 관념을 강화할 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-023" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="감정 호소는 문제의 심각성을 느끼게 해 행동을 유도할 수 있다. 그러나 표현의 강도와 주장의 사실성은 별개이므로 문제의 실태와 제안된 해결 방법을 확인해야 한다. B·C는 정서 효과를 증거로 오해한다. D는 감정 표현을 모두 거짓으로 일반화하고, E는 불안감만으로 판단을 대신한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>문구의 감정 호소</concept>
+    <prompt>공익 광고가 ‘지금 행동하지 않으면 우리 아이들의 미래는 사라집니다’라는 문구와 어두운 이미지를 사용했다. 이를 평가하는 태도로 가장 적절한 것은?</prompt>
+    <options><option id="A">감정에 호소하는 표현의 효과를 파악하되 주장 내용과 해결 방안의 근거도 별도로 확인한다.</option><option id="B">감정을 강하게 자극하므로 주장은 반드시 사실이다.</option><option id="C">어두운 이미지는 근거 자료와 같은 역할을 한다.</option><option id="D">감정에 호소하는 광고는 모두 거짓이다.</option><option id="E">문구가 불안감을 주면 추가 확인 없이 행동해야 한다.</option></options>
+    <answer>A</answer>
+    <explanation>감정적 표현이 주목을 끌 수 있지만 사실 판단은 근거와 함께 해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-024" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="균형 있는 자료는 한쪽 주장만 반복하지 않고 사업의 편익과 비용, 영향을 받는 사람들의 관점과 대책을 함께 다룬다. B는 한쪽 정보만 늘리고, C는 주민 경험의 가치를 무시한다. D는 필요한 정보를 독자에게 떠넘기며, E는 외형을 내용의 균형성과 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>매체 자료의 균형성</concept>
+    <prompt>지역 개발을 소개하는 카드뉴스가 사업의 장점 세 가지를 제시했지만 비용과 주민 의견은 다루지 않았다. 균형성을 높이는 방법은?</prompt>
+    <options><option id="A">장점뿐 아니라 비용, 영향받는 주민의 의견, 예상되는 문제와 대책도 함께 제시한다.</option><option id="B">장점을 더 많이 추가해 분량을 늘린다.</option><option id="C">주민 의견은 주관적이므로 모두 제외한다.</option><option id="D">문제점은 독자가 알아서 추측하게 한다.</option><option id="E">사진을 화려하게 바꾸면 균형성이 높아진다.</option></options>
+    <answer>A</answer>
+    <explanation>다양한 이해관계와 영향, 한계까지 포함해야 사안을 균형 있게 이해할 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-025" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="이미지의 촬영 맥락은 그 이미지가 무엇을 보여 주는지 판단하는 데 중요하다. 다른 시설 사진을 실제 대상 시설인 것처럼 사용하면 수용자가 시설 환경을 오해할 수 있으므로 실제 사진과 정확한 설명을 사용해야 한다. B·C는 이미지의 인상만 중시하고, D·E는 맥락 오류를 감추려 한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>이미지의 맥락</concept>
+    <prompt>홍보 포스터에 어린이들이 웃으며 운동하는 사진이 실렸지만, 사진은 홍보 대상 시설이 아닌 다른 장소에서 촬영된 것으로 확인되었다. 가장 적절한 조치는?</prompt>
+    <options><option id="A">사진의 실제 촬영 장소를 확인하고 해당 시설의 모습인 것처럼 오해되지 않도록 정확한 사진과 설명으로 교체한다.</option><option id="B">어린이들이 웃고 있으므로 그대로 사용한다.</option><option id="C">장소가 달라도 시설 홍보 목적이면 문제가 없다.</option><option id="D">사진의 출처를 숨기면 혼동이 줄어든다.</option><option id="E">사진을 자르면 촬영 장소 문제도 해결된다.</option></options>
+    <answer>A</answer>
+    <explanation>다른 장소의 사진을 해당 시설의 실제 모습처럼 제시하면 잘못된 인상을 줄 수 있다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="비판적 수용은 광고를 무조건 믿거나 무조건 거부하는 태도가 아니다. 광고가 선택한 장점과 생략한 조건을 파악하고 객관적인 정보와 비교해 자신의 필요에 맞게 판단해야 한다. B·C·D는 설득 요소를 사실의 증거로 오해한다. E는 무조건적인 불신으로 균형 잡힌 판단을 포기한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>비판적 수용</concept>
+    <prompt>광고를 본 뒤 제품을 구매하려는 친구에게 해 줄 조언으로 가장 적절한 것은?</prompt>
+    <options><option id="A">광고가 강조한 장점과 생략한 조건을 살펴보고 독립적인 정보와 비교한 뒤 결정하자.</option><option id="B">광고가 유명하므로 바로 구매하자.</option><option id="C">광고에 나온 모델이 사용하므로 나에게도 효과가 있다.</option><option id="D">광고 문구가 반복되면 사실 확인은 필요 없다.</option><option id="E">광고는 모두 거짓이므로 어떤 정보도 보지 말자.</option></options>
+    <answer>A</answer>
+    <explanation>강조와 생략을 파악하고 별도의 근거를 확인하는 것이 비판적 수용이다.</explanation>
+    <advancedExplanation>하</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 선택한 장면이 관점 형성에 영향을 준다는 설명 1점, 배제된 장면이 전달 내용의 범위를 제한한다는 설명 1점, 두 영상의 강조점 차이를 구체적으로 설명 1점. ‘편집이 달라서’만 쓰면 1점 이하. 허용: ‘포함/제외’, ‘보여 줌/감춤’ 등 의미가 같은 표현." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>매체의 선택과 배제</concept>
+    <prompt>같은 학교 축제를 소개하는 영상 두 편이 있다. 한 영상은 공연과 수상 장면을, 다른 영상은 준비 과정과 안전 문제를 중심으로 보여 준다. 두 영상에 제작자의 관점이 반영되는 이유를 ‘선택’과 ‘배제’를 사용하여 설명하시오.</prompt>
+    <answer>제작자는 보여 줄 장면을 선택하고 보여 주지 않을 장면을 배제한다. 첫 영상은 축제의 성과와 즐거움을, 둘째 영상은 준비 과정과 안전 문제를 강조하므로 같은 축제라도 서로 다른 관점으로 재현된다.</answer>
+    <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-027" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 집단 전체로 일반화하는 문제 1점, 고정 관념 또는 다양성 삭제를 지적 1점, 다양한 실제 활동이나 인물을 포함하는 개선안 1점. ‘나쁘다’처럼 이유 없는 평가만 있으면 문제점 점수는 인정하지 않음. 유사한 구체적 대안 허용." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>고정 관념 비판</concept>
+    <prompt>청소년 홍보물이 청소년을 모두 스마트폰만 보는 모습으로 표현했다. 이 표현이 지닐 수 있는 문제점 한 가지와 개선 방법 한 가지를 쓰시오.</prompt>
+    <answer>청소년의 다양한 관심과 활동을 무시하고 청소년 전체가 스마트폰에만 몰두한다는 고정 관념을 만들 수 있다. 학습·운동·봉사·예술 등 다양한 청소년의 모습을 함께 제시한다.</answer>
+    <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
+    <advancedExplanation>중</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-028" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 유명인·단정 문구 등 설득 방식 설명 1점, 객관적 근거가 부족함을 지적 1점, 성능 자료·비교 기준·조건 중 하나 이상 제시 1점. ‘인터넷 검색’만 쓰면 확인 대상이 없어 0~1점. 동등한 근거 확인 방법 허용." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>광고 분석</concept>
+    <prompt>한 광고가 ‘우리 제품은 최고’라는 문구와 유명인의 사진만 제시하고 제품의 성능을 비교한 자료는 제시하지 않았다. 광고의 설득 방식과 소비자가 추가로 확인해야 할 내용을 각각 쓰시오.</prompt>
+    <answer>유명인의 이미지와 단정적인 문구를 이용해 호감과 신뢰를 얻으려는 설득 방식이다. 소비자는 성능을 뒷받침하는 객관적 시험 결과, 비교 기준, 사용 조건과 한계를 확인해야 한다.</answer>
+    <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-029" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 일부 장면으로 집단을 일반화하는 문제 1점, 고정 관념·편견의 형성 가능성 1점, 다양한 사례·당사자 목소리 등 구체적 개선 1점. 범죄 장면을 모두 삭제하라는 답은 균형성 설명이 없으면 최대 2점." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>특정 집단 재현</concept>
+    <prompt>지역 홍보 영상이 이주민을 범죄 사건 장면에만 등장시키고 지역 사회에서 함께 일하거나 생활하는 모습은 보여 주지 않았다. 이 영상의 재현상 문제와 균형을 높일 방법을 설명하시오.</prompt>
+    <answer>범죄 장면만 선택하면 이주민을 위험한 집단으로 일반화하는 고정 관념을 강화할 수 있다. 다양한 이주민의 일상과 직업, 지역 사회 참여 모습을 함께 보여 주고 실제 자료와 당사자의 목소리를 포함해야 한다.</answer>
+    <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-4-030" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(4점): 홍보물 관점 1점, 주민 자료 관점 1점, 추가 정보 두 가지 각 1점. 같은 내용을 반복한 두 항목은 1점만 인정. ‘인터넷 검색’처럼 구체적 정보가 없는 답은 인정하지 않음. 의미가 같은 자료·조사 항목 허용." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>관점 비교와 종합</concept>
+    <prompt>도시 공원 조성 홍보물은 새 산책로와 운동 시설을 강조하고, 주민 모임 자료는 기존 나무의 제거와 생태 변화를 강조한다. 두 자료의 관점 차이를 설명하고 공원 조성 사업을 판단하기 위해 추가로 확인할 정보 두 가지를 쓰시오.</prompt>
+    <answer>홍보물은 이용 편의와 시설 개선을, 주민 자료는 기존 자연환경의 훼손 가능성을 강조한다. 판단을 위해 나무 제거 범위와 생태 영향 조사, 주민 의견 및 대체 녹지 계획, 사업 비용과 이용 계획 등을 확인해야 한다.</answer>
+    <explanation>발문의 요구에 맞게 매체 자료의 선택·배제, 관점·의도 또는 집단 재현의 효과를 구체적인 근거와 연결해 설명해야 한다.</explanation>
+    <advancedExplanation>상</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
 </examBank>
