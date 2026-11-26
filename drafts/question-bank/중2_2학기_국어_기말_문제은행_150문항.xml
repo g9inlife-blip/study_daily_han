@@ -1229,419 +1229,419 @@
     <advancedExplanation>채점 요소: ① 누락된 주민 관점 지적 ② 보완할 구체적 정보 제안. ‘편향되었다’만 쓰면 근거가 부족하다. 채점 요소: ① 누락된 주민 관점 지적 ② 보완할 구체적 정보 제안. ‘편향되었다’만 쓰면 근거가 부족하다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-001" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현</concept>
-    <prompt>급식 만족도 그래프를 분석하는 학생이 있다. '재현'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-4-001" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>표본 편향</concept>
+    <prompt>자발 설문과 무작위 조사 결과가 다를 때 전체 의견을 판단하는 방법은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="C">현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</option>
-      <option id="D">제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
+      <option id="A">자발 설문으로 전체 의견 확정</option>
+      <option id="B">무작위 조사만 무조건 채택</option>
+      <option id="C">표집 방식과 응답률 비교</option>
+      <option id="D">설문은 모두 무의미</option>
+      <option id="E">찬성률 높은 자료만 공개</option>
     </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 재현이다. 현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 재현의 의미를 상황에 적용해야 한다. 현실의 대상이나 현상을 매체를 통해 나타내는 것이다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>표집 방식·응답률·학년 구성을 비교하고 대표성 있는 추가 조사를 검토한다.</answer>
+    <explanation>자발 참여자는 관심이 큰 학생이 몰릴 수 있어 표본 선정과 응답률을 확인해야 한다.</explanation>
+    <advancedExplanation>자발 참여자는 관심이 큰 학생이 몰릴 수 있어 표본 선정과 응답률을 확인해야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-002" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현물의 특성</concept>
-    <prompt>학급 누리집 게시글를 분석하는 학생이 있다. '재현물의 특성'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-4-002" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>그래프 축</concept>
+    <prompt>40%에서 44%로 증가한 그래프의 축이 39%부터 시작해 차이를 과장한다. 개선은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">매체 자료에는 제작자의 의도와 관점이 반영된다.</option>
+      <option id="A">그래프 유지</option>
+      <option id="B">축 범위와 변화량 표시</option>
+      <option id="C">수치 삭제</option>
+      <option id="D">증가율 44%로 수정</option>
+      <option id="E">색만 변경</option>
     </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 재현물의 특성이다. 매체 자료에는 제작자의 의도와 관점이 반영된다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 재현물의 특성의 의미를 상황에 적용해야 한다. 매체 자료에는 제작자의 의도와 관점이 반영된다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>축 범위를 명확히 하고 실제 변화량 4%p가 과장되지 않게 표현한다.</answer>
+    <explanation>축 절단은 작은 차이를 크게 보이게 하므로 축 범위와 실제 변화량을 함께 밝혀야 한다.</explanation>
+    <advancedExplanation>축 절단은 작은 차이를 크게 보이게 하므로 축 범위와 실제 변화량을 함께 밝혀야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-003" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <question id="KOR2S2-4-003" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>상관과 인과</concept>
+    <prompt>독서 시간이 긴 학생의 성적이 높은 경향만으로 독서가 성적 향상의 원인이라고 단정할 수 없는 이유는?</prompt>
+    <options>
+      <option id="A">독서 시간은 수치화 불가</option>
+      <option id="B">인과관계 미검증</option>
+      <option id="C">성적 비교 불가</option>
+      <option id="D">독서와 성적은 무관</option>
+      <option id="E">상관은 인과를 증명</option>
+    </options>
+    <answer>관련성만 확인했을 뿐 다른 요인과 인과관계를 검증하지 않았기 때문이다.</answer>
+    <explanation>상관관계만으로 인과를 확정할 수 없고 학습 환경 등 다른 변수가 작용할 수 있다.</explanation>
+    <advancedExplanation>상관관계만으로 인과를 확정할 수 없고 학습 환경 등 다른 변수가 작용할 수 있다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-004" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>근거 대상</concept>
+    <prompt>청소년 수면 부족 주장에 성인 평균 수면 통계를 제시했다. 핵심 문제는?</prompt>
+    <options>
+      <option id="A">사진 부족</option>
+      <option id="B">조사 대상 불일치</option>
+      <option id="C">제목 길이</option>
+      <option id="D">표본 수가 짝수</option>
+      <option id="E">그래프 색상</option>
+    </options>
+    <answer>주장 대상과 통계의 조사 대상이 달라 직접 근거로 삼기 어렵다.</answer>
+    <explanation>성인 통계는 청소년 실태를 직접 뒷받침하지 않으므로 청소년 대상 조사가 필요하다.</explanation>
+    <advancedExplanation>성인 통계는 청소년 실태를 직접 뒷받침하지 않으므로 청소년 대상 조사가 필요하다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-005" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>과장 표현</concept>
+    <prompt>환경 포스터의 ‘일회용 컵이 지구를 파괴한다’는 문구를 타당하게 개선하려면?</prompt>
+    <options>
+      <option id="A">자극적 사진 추가</option>
+      <option id="B">과장 줄이고 근거 제시</option>
+      <option id="C">출처 없이 전문가 언급</option>
+      <option id="D">반대 사례 삭제</option>
+      <option id="E">문장을 길게 작성</option>
+    </options>
+    <answer>표현의 과장을 줄이고 사용량·폐기 과정 등 출처 있는 근거를 제시한다.</answer>
+    <explanation>강한 문구는 피해 규모를 입증하지 않으므로 주장을 구체화하고 근거를 밝혀야 한다.</explanation>
+    <advancedExplanation>강한 문구는 피해 규모를 입증하지 않으므로 주장을 구체화하고 근거를 밝혀야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-006" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>논증 연결</concept>
+    <prompt>교통 위험 주장에 통행량 표와 사고 사례 한 건을 제시했다. 설득력을 높이는 방법은?</prompt>
+    <options>
+      <option id="A">사례 반복</option>
+      <option id="B">조사 조건과 논리 연결</option>
+      <option id="C">모든 도로 위험 단정</option>
+      <option id="D">사진만으로 확정</option>
+      <option id="E">관련 없는 정책 추가</option>
+    </options>
+    <answer>조사 시간·장소와 사고 조건을 밝히고 자료가 위험성 판단에 연결되는 이유를 설명한다.</answer>
+    <explanation>자료의 범위와 주장을 연결하는 논리가 필요하다.</explanation>
+    <advancedExplanation>자료의 범위와 주장을 연결하는 논리가 필요하다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-007" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>유도 질문</concept>
+    <prompt>‘유명한 검사가 자신을 이해하는 데 얼마나 도움이 되었나요?’라는 설문 문항의 문제는?</prompt>
+    <options>
+      <option id="A">응답자 수 증가</option>
+      <option id="B">긍정 응답 유도</option>
+      <option id="C">표본 대표성 확보</option>
+      <option id="D">응답 100%</option>
+      <option id="E">표현은 무관</option>
+    </options>
+    <answer>‘유명한’이라는 표현이 긍정적 평가를 유도해 응답을 편향시킬 수 있다.</answer>
+    <explanation>중립적이지 않은 수식어는 응답에 영향을 줄 수 있어 질문을 중립적으로 바꿔야 한다.</explanation>
+    <advancedExplanation>중립적이지 않은 수식어는 응답에 영향을 줄 수 있어 질문을 중립적으로 바꿔야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-008" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 기능</concept>
+    <prompt>잔반량 변화와 잔반을 남기는 이유를 함께 전달하려 한다. 적절한 구성은?</prompt>
+    <options>
+      <option id="A">사진만 사용</option>
+      <option id="B">그래프와 설문 결합</option>
+      <option id="C">설문만 제시</option>
+      <option id="D">한 학생 의견 일반화</option>
+      <option id="E">같은 그래프 반복</option>
+    </options>
+    <answer>월별 잔반량은 그래프로, 이유는 익명 설문과 대표 의견으로 보완한다.</answer>
+    <explanation>양의 변화는 그래프, 이유와 인식은 설문·사례가 적절하다.</explanation>
+    <advancedExplanation>양의 변화는 그래프, 이유와 인식은 설문·사례가 적절하다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-009" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>정보 일치</concept>
+    <prompt>본문 대출 기간은 14일, 표는 10일, 사진 안내판은 7일이다. 발행 전 조치는?</prompt>
+    <options>
+      <option id="A">본문만 남김</option>
+      <option id="B">공식 규정으로 통일</option>
+      <option id="C">독자 선택</option>
+      <option id="D">사진 흐리기</option>
+      <option id="E">평균값 사용</option>
+    </options>
+    <answer>최신 공식 규정을 확인해 본문·표·사진의 정보를 통일한다.</answer>
+    <explanation>복합양식 글의 정보 불일치는 혼란을 일으키므로 공식 자료로 수정해야 한다.</explanation>
+    <advancedExplanation>복합양식 글의 정보 불일치는 혼란을 일으키므로 공식 자료로 수정해야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-010" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>인터뷰 대표성</concept>
+    <prompt>만족도 글에 친한 친구 네 명만 인터뷰했다. 대표성 한계를 줄이는 방법은?</prompt>
+    <options>
+      <option id="A">네 명의 말 늘림</option>
+      <option id="B">다양한 학생 선정</option>
+      <option id="C">반대 의견 제외</option>
+      <option id="D">대상 비공개</option>
+      <option id="E">강한 의견 일반화</option>
+    </options>
+    <answer>학년·이용 경험을 고려해 다양한 학생을 선정하고 조사 범위를 밝힌다.</answer>
+    <explanation>친구 네 명은 전체를 대표하기 어렵다.</explanation>
+    <advancedExplanation>친구 네 명은 전체를 대표하기 어렵다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-011" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>매체 선택</concept>
+    <prompt>행사 일정·장소·준비물을 모바일로 알리고 신청을 유도하려 한다. 적절한 구성은?</prompt>
+    <options>
+      <option id="A">작은 글씨 장문</option>
+      <option id="B">모바일 카드와 신청 연결</option>
+      <option id="C">사진만 게시</option>
+      <option id="D">자막 없는 영상</option>
+      <option id="E">마감일 생략</option>
+    </options>
+    <answer>핵심 정보를 위계화한 모바일 안내 카드와 신청 상세 정보 연결을 함께 제공한다.</answer>
+    <explanation>핵심 정보를 빠르게 확인하고 신청으로 이어지게 해야 한다.</explanation>
+    <advancedExplanation>핵심 정보를 빠르게 확인하고 신청으로 이어지게 해야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-012" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>내용 조직</concept>
+    <prompt>도서관 안내 초고가 장점·현황·예약 절차를 뒤섞었다. 고쳐쓰기 방법은?</prompt>
+    <options>
+      <option id="A">순서 유지</option>
+      <option id="B">절차 중심 재배열</option>
+      <option id="C">장점만 남김</option>
+      <option id="D">모든 시간대로 일반화</option>
+      <option id="E">절차 삭제</option>
+    </options>
+    <answer>이용 절차를 중심으로 재배열하고 장점과 현황은 알맞은 위치에 둔다.</answer>
+    <explanation>안내 글은 독자의 행동 흐름에 맞게 조직해야 한다.</explanation>
+    <advancedExplanation>안내 글은 독자의 행동 흐름에 맞게 조직해야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-013" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>독자 오해</concept>
+    <prompt>‘누구나 원하는 책을 바로 빌릴 수 있다’고 썼지만 인기 도서는 예약 대기가 있다. 수정은?</prompt>
+    <options>
+      <option id="A">누구나 강조</option>
+      <option id="B">가능 여부와 예약 절차 구분</option>
+      <option id="C">대기 사실 숨김</option>
+      <option id="D">바로를 즉시로 변경</option>
+      <option id="E">직접 확인만 요구</option>
+    </options>
+    <answer>대출 가능 여부와 예약 절차를 구분해 안내하고 예외 상황을 밝힌다.</answer>
+    <explanation>과장 표현을 고치고 실제 이용 조건을 안내해야 한다.</explanation>
+    <advancedExplanation>과장 표현을 고치고 실제 이용 조건을 안내해야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-014" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>저작권</concept>
+    <prompt>인터넷 사진을 안내문에 사용하려 한다. 적절한 처리 방법은?</prompt>
+    <options>
+      <option id="A">온라인이면 자유 이용</option>
+      <option id="B">이용 조건·출처 확인</option>
+      <option id="C">작게 쓰면 출처 불필요</option>
+      <option id="D">작성자 이름 변경</option>
+      <option id="E">출처 표시만으로 무제한 이용</option>
+    </options>
+    <answer>이용 허락 조건과 출처를 확인하고 필요한 권한을 확보하거나 직접 촬영한다.</answer>
+    <explanation>온라인 공개가 자유 이용을 뜻하지 않는다.</explanation>
+    <advancedExplanation>온라인 공개가 자유 이용을 뜻하지 않는다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-015" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>논증 읽기</concept>
+    <prompt>논설문 주장은 찾았지만 근거가 여러 문단에 흩어져 있다. 효과적 전략은?</prompt>
+    <options>
+      <option id="A">첫 문장 암기</option>
+      <option id="B">핵심 메모·연결·요약</option>
+      <option id="C">주장을 자기 의견으로 변경</option>
+      <option id="D">문단 순서 변경</option>
+      <option id="E">읽기 종료</option>
+    </options>
+    <answer>문단별 핵심을 메모하고 주장과 근거를 연결한 뒤 전체 논지를 요약한다.</answer>
+    <explanation>메모와 구조화로 정보 관계를 파악하고 논증 구조를 확인한다.</explanation>
+    <advancedExplanation>메모와 구조화로 정보 관계를 파악하고 논증 구조를 확인한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-016" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>예측 수정</concept>
+    <prompt>전쟁 원인을 예상했지만 글은 전쟁 이후 사회 변화부터 다룬다. 적절한 태도는?</prompt>
+    <options>
+      <option id="A">예측 고집</option>
+      <option id="B">예측 대조 후 조정</option>
+      <option id="C">글이 틀렸다고 판단</option>
+      <option id="D">제목만 읽기</option>
+      <option id="E">수정은 실패</option>
+    </options>
+    <answer>예측과 실제 내용을 대조하고 글의 전개에 맞게 질문과 읽기 목적을 조정한다.</answer>
+    <explanation>예측은 출발점이며 실제 내용에 맞춰 질문을 수정해야 한다.</explanation>
+    <advancedExplanation>예측은 출발점이며 실제 내용에 맞춰 질문을 수정해야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-017" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>비유 표현</concept>
+    <prompt>‘그의 발언은 논쟁에 불을 붙였다’를 실제 불로 해석했다. 조정은?</prompt>
+    <options>
+      <option id="A">문자 뜻 고집</option>
+      <option id="B">문맥 확인 후 비유 해석</option>
+      <option id="C">사전 첫 뜻만 적용</option>
+      <option id="D">문장 건너뛰기</option>
+      <option id="E">익숙한 뜻 선택</option>
+    </options>
+    <answer>앞뒤 문장에서 논쟁이 커졌는지 확인해 비유적 의미로 해석한다.</answer>
+    <explanation>문맥상 논쟁을 촉발했다는 비유로 볼 수 있다.</explanation>
+    <advancedExplanation>문맥상 논쟁을 촉발했다는 비유로 볼 수 있다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-018" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>목적 요약</concept>
+    <prompt>학교 숲 조성 글에서 실행 방법을 요약하려 한다. 중심 내용은?</prompt>
+    <options>
+      <option id="A">개인 일화</option>
+      <option id="B">참여 방식과 관리 일정</option>
+      <option id="C">나무 특징만</option>
+      <option id="D">첫 문장 복사</option>
+      <option id="E">모든 정보 동등</option>
+    </options>
+    <answer>학생 참여 방식과 관리 담당·일정 등 실행에 직접 필요한 정보를 묶는다.</answer>
+    <explanation>요약의 핵심은 읽기 목적에 따라 달라진다.</explanation>
+    <advancedExplanation>요약의 핵심은 읽기 목적에 따라 달라진다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-019" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>감상 근거</concept>
+    <prompt>추상화에 파란색이 반복된다. 타당한 감상은?</prompt>
+    <options>
+      <option id="A">외로웠다고 단정</option>
+      <option id="B">느낌으로 표현하되 실제 감정 단정 금지</option>
+      <option id="C">없는 색 언급</option>
+      <option id="D">근거 불필요</option>
+      <option id="E">색채 의미 부정</option>
+    </options>
+    <answer>파란색이 차분함이나 고독한 느낌을 줄 수 있다고 해석하되 작가의 실제 감정으로 단정하지 않는다.</answer>
+    <explanation>작품에서 느낀 인상은 말할 수 있지만 작가의 실제 심리는 별도 근거가 필요하다.</explanation>
+    <advancedExplanation>작품에서 느낀 인상은 말할 수 있지만 작가의 실제 심리는 별도 근거가 필요하다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-020" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>읽기 점검</concept>
+    <prompt>글을 대략 이해했다고 느끼지만 결론 질문에 답하지 못한다. 점검 방법은?</prompt>
+    <options>
+      <option id="A">읽은 시간 확인</option>
+      <option id="B">결론·근거 설명 후 재독</option>
+      <option id="C">친구 이해에 의존</option>
+      <option id="D">쉬운 부분만 반복</option>
+      <option id="E">느낌으로 판단</option>
+    </options>
+    <answer>결론을 본문에서 찾아 근거와 연결해 설명할 수 있는지 확인하고 부족한 부분을 다시 읽는다.</answer>
+    <explanation>느낌과 실제 이해는 다를 수 있다. 근거를 들어 답할 수 있는지 확인한다.</explanation>
+    <advancedExplanation>느낌과 실제 이해는 다를 수 있다. 근거를 들어 답할 수 있는지 확인한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+    <question id="KOR2S2-4-021" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>선택과 배제</concept>
-    <prompt>학생회 선거 포스터를 분석하는 학생이 있다. '선택과 배제'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <prompt>지역 소멸 뉴스 A는 빈집, B는 청년 창업 공간을 보여 준다. 종합 판단은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</option>
-      <option id="C">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</option>
+      <option id="A">A가 더 정확</option>
+      <option id="B">누락 정보와 다른 근거 확인</option>
+      <option id="C">B로 소멸 부정</option>
+      <option id="D">한쪽은 거짓</option>
+      <option id="E">인터뷰면 확인 불필요</option>
     </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 선택과 배제이다. 사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 선택과 배제의 의미를 상황에 적용해야 한다. 사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>사례 선정과 누락 집단을 확인하고 인구·상권 통계 등 다른 근거와 함께 해석한다.</answer>
+    <explanation>각 보도는 현실의 일부를 선택했다. 일부 장면만으로 전체를 단정하지 말아야 한다.</explanation>
+    <advancedExplanation>각 보도는 현실의 일부를 선택했다. 일부 장면만으로 전체를 단정하지 말아야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-004" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>문구 분석</concept>
-    <prompt>환경 보호 카드 뉴스를 분석하는 학생이 있다. '문구 분석'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-4-022" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>편집 순서</concept>
+    <prompt>예방 캠페인보다 폭력 사건 재연 장면을 길게 보여 주었다. 효과는?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</option>
+      <option id="A">영향 없음</option>
+      <option id="B">사건 자극성 집중·예방 비중 축소</option>
+      <option id="C">마지막 장면만 중요</option>
+      <option id="D">재연은 허위</option>
+      <option id="E">캠페인으로 관점 제거</option>
     </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 문구 분석이다. 제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 문구 분석의 의미를 상황에 적용해야 한다. 제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>사건의 자극성에 관심을 집중시켜 예방 활동의 비중을 작게 인식하게 할 수 있다.</answer>
+    <explanation>장면의 길이와 순서는 시청자가 느끼는 정보의 비중을 바꾼다.</explanation>
+    <advancedExplanation>장면의 길이와 순서는 시청자가 느끼는 정보의 비중을 바꾼다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-005" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>이미지 분석</concept>
-    <prompt>동아리 홍보 영상를 분석하는 학생이 있다. '이미지 분석'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 이미지 분석이다. 사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 이미지 분석의 의미를 상황에 적용해야 한다. 사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-006" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <question id="KOR2S2-4-023" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>고정 관념</concept>
-    <prompt>학교 안전 안내 자료를 분석하는 학생이 있다. '고정 관념'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <prompt>광고에서 가사 노동은 여성만, 기계 수리는 남성만 하는 모습이 반복된다. 영향은?</prompt>
     <options>
-      <option id="A">특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">광고는 영향 없음</option>
+      <option id="B">성별 역할 연결을 당연하게 인식</option>
+      <option id="C">역할은 원래 고정</option>
+      <option id="D">한 광고가 모두 결정</option>
+      <option id="E">반복은 무관</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 고정 관념이다. 특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 고정 관념의 의미를 상황에 적용해야 한다. 특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>특정 성별과 역할의 연결을 당연한 규범처럼 받아들이게 해 선택과 인식에 영향을 줄 수 있다.</answer>
+    <explanation>반복 재현은 특정 역할 분담을 자연스럽게 보이게 할 수 있다.</explanation>
+    <advancedExplanation>반복 재현은 특정 역할 분담을 자연스럽게 보이게 할 수 있다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-007" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>비판적 매체 읽기</concept>
-    <prompt>도서관 이용 안내를 분석하는 학생이 있다. '비판적 매체 읽기'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-4-024" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>사진과 통계</concept>
+    <prompt>피해 사진과 ‘도시 전체가 사라졌다’는 제목을 썼지만 피해 건물은 12%다. 평가는?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</option>
-      <option id="E">현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</option>
+      <option id="A">사진이 실제면 제목도 참</option>
+      <option id="B">제목이 통계 범위를 넘어 과장</option>
+      <option id="C">12%면 피해 없음</option>
+      <option id="D">사진이 수치보다 우선</option>
+      <option id="E">제목은 과장 가능</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 비판적 매체 읽기이다. 문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 비판적 매체 읽기의 의미를 상황에 적용해야 한다. 문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>사진은 피해를 강조하지만 제목은 통계 범위를 넘어 과장한다.</answer>
+    <explanation>사진은 일부 장면일 수 있다. 제목은 통계 범위와 일치해야 한다.</explanation>
+    <advancedExplanation>사진은 일부 장면일 수 있다. 제목은 통계 범위와 일치해야 한다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-008" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>다른 재현</concept>
-    <prompt>청소년 독서 안내 글를 분석하는 학생이 있다. '다른 재현'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-4-025" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>홍보물 의도</concept>
+    <prompt>학교 홍보 영상은 수상 장면과 새 시설을 반복하고 학생 불편은 다루지 않는다. 분석은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</option>
-      <option id="E">현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</option>
+      <option id="A">모든 현실 재현</option>
+      <option id="B">긍정 이미지 강조·보완 자료 필요</option>
+      <option id="C">불편이 없다고 단정</option>
+      <option id="D">관점 없음</option>
+      <option id="E">시설이 있으면 제한 없음</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 다른 재현이다. 같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 다른 재현의 의미를 상황에 적용해야 한다. 같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>긍정적 이미지를 강화하려는 의도가 드러나며 학생 의견·이용 규정 등 보완 자료가 필요하다.</answer>
+    <explanation>선택된 장면은 성과를 강조한다. 일부 장면만으로 학교생활 전체를 판단할 수 없다.</explanation>
+    <advancedExplanation>선택된 장면은 성과를 강조한다. 일부 장면만으로 학교생활 전체를 판단할 수 없다. 오답은 자료의 범위나 대표성을 확대하거나 일부 장면을 전체 현실로 단정한 경우다. 정답은 근거와 한계를 함께 고려한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-009" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>광고와 홍보물</concept>
-    <prompt>지역 행사 기사를 분석하는 학생이 있다. '광고와 홍보물'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">매체 자료에는 제작자의 의도와 관점이 반영된다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 광고와 홍보물이다. 문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 광고와 홍보물의 의미를 상황에 적용해야 한다. 문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>조사 결과 비교</concept>
+    <prompt>두 설문 결과가 다를 때 신뢰성을 비교하기 위해 확인할 요소 세 가지를 쓰시오.</prompt>
+    <answer>표본 선정 방법과 구성, 질문 문항의 중립성, 조사 시기·응답률 등 조사 조건을 비교한다.</answer>
+    <explanation>채점 기준: 표집 대표성, 질문의 중립성과 측정 대상, 조사 시기·응답률을 구체적으로 제시한다.</explanation>
+    <advancedExplanation>채점 기준: 표집 대표성, 질문의 중립성과 측정 대상, 조사 시기·응답률을 구체적으로 제시한다. 채점 기준은 핵심 판단과 구체적 근거를 포함하는지 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-010" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>매체 자료 평가</concept>
-    <prompt>학교 축제 게시물를 분석하는 학생이 있다. '매체 자료 평가'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</option>
-      <option id="C">사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-    </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 매체 자료 평가이다. 현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 매체 자료 평가의 의미를 상황에 적용해야 한다. 현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-4-027" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>모바일 안내 설계</concept>
+    <prompt>축제 안내를 모바일로 제작한다. 일정·장소 파악과 신청을 돕는 자료 구성 두 가지와 점검 사항 한 가지를 쓰시오.</prompt>
+    <answer>일정·장소를 표나 카드로 제시하고 신청 방법을 연결 정보로 제공한다. 최신 공식 정보인지 본문과 시각 자료가 일치하는지 점검한다.</answer>
+    <explanation>채점 기준: 일정·장소 시각화, 신청 정보, 최신성·출처·정보 일치 확인.</explanation>
+    <advancedExplanation>채점 기준: 일정·장소 시각화, 신청 정보, 최신성·출처·정보 일치 확인. 채점 기준은 핵심 판단과 구체적 근거를 포함하는지 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-011" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현</concept>
-    <prompt>급식 만족도 그래프를 분석하는 학생이 있다. '재현'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 재현이다. 현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 재현의 의미를 상황에 적용해야 한다. 현실의 대상이나 현상을 매체를 통해 나타내는 것이다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-4-028" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>읽기 전략 적용</concept>
+    <prompt>논설문 근거의 타당성을 판단하기 위한 읽기 전략 두 가지와 목적을 쓰시오.</prompt>
+    <answer>주장과 근거를 구분해 메모하고, 근거의 출처·조사 대상·자료 범위를 확인해 주장을 뒷받침하는지 평가한다.</answer>
+    <explanation>채점 기준: 주장-근거 구조화와 출처·표본·자료 범위 검토, 각 전략의 목적.</explanation>
+    <advancedExplanation>채점 기준: 주장-근거 구조화와 출처·표본·자료 범위 검토, 각 전략의 목적. 채점 기준은 핵심 판단과 구체적 근거를 포함하는지 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-012" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현물의 특성</concept>
-    <prompt>학급 누리집 게시글를 분석하는 학생이 있다. '재현물의 특성'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">매체 자료에는 제작자의 의도와 관점이 반영된다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-    </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 재현물의 특성이다. 매체 자료에는 제작자의 의도와 관점이 반영된다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 재현물의 특성의 의미를 상황에 적용해야 한다. 매체 자료에는 제작자의 의도와 관점이 반영된다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-4-029" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>누락 정보 분석</concept>
+    <prompt>뉴스가 빈 점포 사진만 제시하고 청년 창업 사례는 다루지 않았다. 형성할 인식과 보완 자료를 쓰시오.</prompt>
+    <answer>지역 상권이 전반적으로 쇠퇴한다는 인상을 줄 수 있다. 상권 통계와 다양한 상인·청년 창업자 인터뷰가 필요하다.</answer>
+    <explanation>채점 기준: 장면이 만드는 인상, 누락 관점, 통계·다양한 인터뷰 제안.</explanation>
+    <advancedExplanation>채점 기준: 장면이 만드는 인상, 누락 관점, 통계·다양한 인터뷰 제안. 채점 기준은 핵심 판단과 구체적 근거를 포함하는지 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-4-013" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>선택과 배제</concept>
-    <prompt>학생회 선거 포스터를 분석하는 학생이 있다. '선택과 배제'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</option>
-      <option id="B">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="C">특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-    </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 선택과 배제이다. 사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 선택과 배제의 의미를 상황에 적용해야 한다. 사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-014" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>문구 분석</concept>
-    <prompt>환경 보호 카드 뉴스를 분석하는 학생이 있다. '문구 분석'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</option>
-    </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 문구 분석이다. 제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 문구 분석의 의미를 상황에 적용해야 한다. 제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-015" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>이미지 분석</concept>
-    <prompt>동아리 홍보 영상를 분석하는 학생이 있다. '이미지 분석'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</option>
-    </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 이미지 분석이다. 사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 이미지 분석의 의미를 상황에 적용해야 한다. 사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-016" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>고정 관념</concept>
-    <prompt>학교 안전 안내 자료를 분석하는 학생이 있다. '고정 관념'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="D">문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-    </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 고정 관념이다. 특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 고정 관념의 의미를 상황에 적용해야 한다. 특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-017" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>비판적 매체 읽기</concept>
-    <prompt>도서관 이용 안내를 분석하는 학생이 있다. '비판적 매체 읽기'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="B">문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</option>
-      <option id="C">현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-    </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 비판적 매체 읽기이다. 문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 비판적 매체 읽기의 의미를 상황에 적용해야 한다. 문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-018" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>다른 재현</concept>
-    <prompt>청소년 독서 안내 글를 분석하는 학생이 있다. '다른 재현'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="B">같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</option>
-    </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 다른 재현이다. 같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 다른 재현의 의미를 상황에 적용해야 한다. 같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-019" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>광고와 홍보물</concept>
-    <prompt>지역 행사 기사를 분석하는 학생이 있다. '광고와 홍보물'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">매체 자료에는 제작자의 의도와 관점이 반영된다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</option>
-    </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 광고와 홍보물이다. 문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 광고와 홍보물의 의미를 상황에 적용해야 한다. 문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-020" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>매체 자료 평가</concept>
-    <prompt>학교 축제 게시물를 분석하는 학생이 있다. '매체 자료 평가'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 매체 자료 평가이다. 현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 매체 자료 평가의 의미를 상황에 적용해야 한다. 현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-021" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현</concept>
-    <prompt>급식 만족도 그래프를 분석하는 학생이 있다. '재현'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</option>
-      <option id="C">현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 재현이다. 현실의 대상이나 현상을 매체를 통해 나타내는 것이다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 재현의 의미를 상황에 적용해야 한다. 현실의 대상이나 현상을 매체를 통해 나타내는 것이다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-022" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>재현물의 특성</concept>
-    <prompt>학급 누리집 게시글를 분석하는 학생이 있다. '재현물의 특성'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</option>
-      <option id="C">매체 자료에는 제작자의 의도와 관점이 반영된다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 재현물의 특성이다. 매체 자료에는 제작자의 의도와 관점이 반영된다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 재현물의 특성의 의미를 상황에 적용해야 한다. 매체 자료에는 제작자의 의도와 관점이 반영된다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-023" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>선택과 배제</concept>
-    <prompt>학생회 선거 포스터를 분석하는 학생이 있다. '선택과 배제'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</option>
-    </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 선택과 배제이다. 사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 선택과 배제의 의미를 상황에 적용해야 한다. 사건·쟁점·인물 등을 표현할 때 특정 장면이나 정보를 선택하거나 제외한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-024" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>문구 분석</concept>
-    <prompt>환경 보호 카드 뉴스를 분석하는 학생이 있다. '문구 분석'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="B">문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</option>
-      <option id="C">제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 문구 분석이다. 제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 문구 분석의 의미를 상황에 적용해야 한다. 제목·자막·해시태그 등이 어떤 대상을 강조하거나 평가하는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-025" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>이미지 분석</concept>
-    <prompt>동아리 홍보 영상를 분석하는 학생이 있다. '이미지 분석'에 관한 설명으로 가장 적절한 것은?</prompt>
-    <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</option>
-      <option id="D">같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-    </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 이미지 분석이다. 사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 이미지 분석의 의미를 상황에 적용해야 한다. 사진·그림의 선택과 배치가 어떤 장면과 인물을 부각하는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>고정 관념</concept>
-    <prompt>재현의 뜻을 쓰시오.</prompt>
-    <answer>특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</answer>
-    <explanation>핵심 개념은 고정 관념이다. 특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 고정 관념의 의미를 상황에 적용해야 한다. 특정 집단이나 대상에 대해 단순화되고 굳어진 생각이나 이미지이다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-027" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>비판적 매체 읽기</concept>
-    <prompt>매체 자료에 제작자의 관점이 반영되는 이유를 쓰시오.</prompt>
-    <answer>문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</answer>
-    <explanation>핵심 개념은 비판적 매체 읽기이다. 문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 비판적 매체 읽기의 의미를 상황에 적용해야 한다. 문구·이미지의 의도와 관점을 파악하고 고정 관념이 있는지 살핀다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-028" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>다른 재현</concept>
-    <prompt>선택과 배제가 의미하는 바를 쓰시오.</prompt>
-    <answer>같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</answer>
-    <explanation>핵심 개념은 다른 재현이다. 같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 다른 재현의 의미를 상황에 적용해야 한다. 같은 사건도 제작자의 목적과 관점에 따라 다르게 강조될 수 있다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-029" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>광고와 홍보물</concept>
-    <prompt>고정 관념이 반영된 자료가 일으킬 수 있는 문제를 쓰시오.</prompt>
-    <answer>문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</answer>
-    <explanation>핵심 개념은 광고와 홍보물이다. 문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 광고와 홍보물의 의미를 상황에 적용해야 한다. 문구와 이미지로 상품·기관·활동을 알리거나 행동을 유도한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-4-030" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>매체 자료 평가</concept>
-    <prompt>매체 자료를 비판적으로 읽을 때 확인할 요소 두 가지를 쓰시오.</prompt>
-    <answer>현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</answer>
-    <explanation>핵심 개념은 매체 자료 평가이다. 현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 매체 자료 평가의 의미를 상황에 적용해야 한다. 현실과 자료를 구별하고 선택·배제 및 관점이 해석에 미치는 영향을 따진다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-4-030" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>고정 관념 비판</concept>
+    <prompt>특정 성별을 한 가지 직업으로만 반복 묘사하는 광고의 문제와 개선 방안을 쓰시오.</prompt>
+    <answer>성별과 역할의 연결을 당연하게 만들어 선택을 제한할 수 있다. 다양한 성별이 여러 역할을 수행하는 모습을 균형 있게 제시한다.</answer>
+    <explanation>채점 기준: 고정 관념 강화·선택 제한, 역할 다양성과 균형 있는 재현.</explanation>
+    <advancedExplanation>채점 기준: 고정 관념 강화·선택 제한, 역할 다양성과 균형 있는 재현. 채점 기준은 핵심 판단과 구체적 근거를 포함하는지 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="KOR2S2-R-001" stage="0" reserve="true" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
