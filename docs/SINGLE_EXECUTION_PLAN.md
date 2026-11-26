@@ -1,9 +1,9 @@
 # 상용 학습사이트 단일 실행계획
 
 > 문서 상태: 실행 기준안(법률·플랫폼 정책·시장 수치는 출시 전 재확인 필요)  
-> 기준 자료: \`docs/학습사이트 단일 실행안.html\`, \`docs/LEARNING_BLUEPRINT.md\`, \`docs/QUESTION_GENERATION_WORKFLOW.md\`  
+> 기준 자료: `docs/학습사이트 단일 실행안.html`, `docs/LEARNING_BLUEPRINT.md`, `docs/QUESTION_GENERATION_WORKFLOW.md`  
 > 작성 기준일: 2026-11-26  
-> 저장소: \`g9inlife-blip/study_daily_han\`
+> 저장소: `g9inlife-blip/study_daily_han`
 
 ## 1. 요약 및 의사결정
 
@@ -52,7 +52,7 @@
 5. 틀린 문제를 오답 복습 목록에 넣는다.
 6. 주간 결과에서 과목·단원별 약점을 확인한다.
 
-주관식은 자동 채점 가능한 숫자·단어·짧은 구절만 사용한다. 풀이 과정이나 이유를 자유롭게 서술하게 하지 않는다. 문제 생성 규칙과 검수는 \`QUESTION_GENERATION_WORKFLOW.md\`를 기준으로 한다.
+주관식은 자동 채점 가능한 숫자·단어·짧은 구절만 사용한다. 풀이 과정이나 이유를 자유롭게 서술하게 하지 않는다. 문제 생성 규칙과 검수는 `QUESTION_GENERATION_WORKFLOW.md`를 기준으로 한다.
 
 ## 3. 기능 범위와 단계
 
@@ -155,7 +155,7 @@ GitHub Pages는 현재 테스트 및 공개 학습용으로 사용한다. 공식
 - 출처·저작권 검토 상태
 - 콘텐츠 버전 및 검수 상태
 
-문제 생성은 월간 캘린더를 먼저 확정하고 5일 단위로 생성·검수한다. 자동 생성 문제를 검수 없이 배포하지 않는다. 자세한 규칙은 \`QUESTION_GENERATION_WORKFLOW.md\`를 따른다.
+문제 생성은 월간 캘린더를 먼저 확정하고 5일 단위로 생성·검수한다. 자동 생성 문제를 검수 없이 배포하지 않는다. 자세한 규칙은 `QUESTION_GENERATION_WORKFLOW.md`를 따른다.
 
 ## 7. 개인정보·보안 기준
 
@@ -261,10 +261,10 @@ DAU 5,000을 90일 내 달성하지 못했다고 기능 개발을 무조건 중�
 
 ## 11. 기존 문서와의 관계
 
-- \`LEARNING_BLUEPRINT.md\`: 제품 청사진·기능·기술 방향의 상세 기준
-- \`QUESTION_GENERATION_WORKFLOW.md\`: 월간/주간 문제 생성과 검수 기준
-- \`DEPLOYMENT_AND_ACCESS_GUIDE.md\`: 테스트 호스팅 및 배포 안내
-- \`학습사이트 단일 실행안.html\`: 사업·수익 구조의 원본 참고자료
+- `LEARNING_BLUEPRINT.md`: 제품 청사진·기능·기술 방향의 상세 기준
+- `QUESTION_GENERATION_WORKFLOW.md`: 월간/주간 문제 생성과 검수 기준
+- `DEPLOYMENT_AND_ACCESS_GUIDE.md`: 테스트 호스팅 및 배포 안내
+- `학습사이트 단일 실행안.html`: 사업·수익 구조의 원본 참고자료
 - 본 문서: 상용화 실행 순서, 출시 게이트, 위험 관리 및 의사결정 기준
 
 문서 내용이 충돌하면 아동 안전·법률 준수·데이터 보안이 우선한다. 본 문서는 기존 학습 콘텐츠 형식이나 현재 기능을 무단으로 변경하는 구현 지시가 아니다.
