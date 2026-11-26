@@ -146,6 +146,8 @@ var LS_KEY='study_daily_han_results_v1';
 var ANSWER_KEY='study_daily_han_answers_v1';
 var WEEKEND_SET_KEY='study_daily_han_weekend_sets_v3';
 var FINAL_RESULTS_KEY='study_daily_han_final_exam_results_v1';
+var ROUND_RESULTS_KEY='study_daily_han_round_exam_results_v1';
+var roundBanks={}, roundCurrent=null, roundCurrentNo=0, roundSubmitted=false;
 var finalBank=null, finalExam=null, finalSubmitted=false;
 var manifest=null, current=null, currentMeta=null, currentDate='', startTime=0, graded=false, lastResult=null, loadToken=0, selectedWeekStart='';
 function el(id){return document.getElementById(id)}
