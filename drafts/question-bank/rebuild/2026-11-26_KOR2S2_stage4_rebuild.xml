@@ -226,15 +226,6 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="비판적 수용은 광고를 무조건 믿거나 무조건 거부하는 태도가 아니다. 광고가 선택한 장점과 생략한 조건을 파악하고 객관적인 정보와 비교해 자신의 필요에 맞게 판단해야 한다. B·C·D는 설득 요소를 사실의 증거로 오해한다. E는 무조건적인 불신으로 균형 잡힌 판단을 포기한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>비판적 수용</concept>
-    <prompt>광고를 본 뒤 제품을 구매하려는 친구에게 해 줄 조언으로 가장 적절한 것은?</prompt>
-    <options><option id="A">광고가 강조한 장점과 생략한 조건을 살펴보고 독립적인 정보와 비교한 뒤 결정하자.</option><option id="B">광고가 유명하므로 바로 구매하자.</option><option id="C">광고에 나온 모델이 사용하므로 나에게도 효과가 있다.</option><option id="D">광고 문구가 반복되면 사실 확인은 필요 없다.</option><option id="E">광고는 모두 거짓이므로 어떤 정보도 보지 말자.</option></options>
-    <answer>A</answer>
-    <explanation>강조와 생략을 파악하고 별도의 근거를 확인하는 것이 비판적 수용이다.</explanation>
-    <advancedExplanation>하</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
   <question id="KOR2S2-V2-4-026" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="채점(3점): 선택한 장면이 관점 형성에 영향을 준다는 설명 1점, 배제된 장면이 전달 내용의 범위를 제한한다는 설명 1점, 두 영상의 강조점 차이를 구체적으로 설명 1점. ‘편집이 달라서’만 쓰면 1점 이하. 허용: ‘포함/제외’, ‘보여 줌/감춤’ 등 의미가 같은 표현." difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
     <concept>매체의 선택과 배제</concept>
     <prompt>같은 학교 축제를 소개하는 영상 두 편이 있다. 한 영상은 공연과 수상 장면을, 다른 영상은 준비 과정과 안전 문제를 중심으로 보여 준다. 두 영상에 제작자의 관점이 반영되는 이유를 ‘선택’과 ‘배제’를 사용하여 설명하시오.</prompt>
