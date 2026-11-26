@@ -566,7 +566,7 @@ function roundQuestionList(stage,previousWrong){
  var refs=stage>1?(previousWrong||[]):[],loads=[loadRoundBank(0)];
  refs.forEach(function(ref){if(ref.stage===-1)loads.push(loadRoundBank(-1))});
  return Promise.all(loads).then(function(){
-  var bank=roundBanks[0],all=Array.prototype.slice.call(bank.getElementsByTagName('question')),chosen=[],used={},prior=stage===1?{}:cycleUsedKeys(stage);
+  var bank=roundBanks[0],all=Array.prototype.slice.call(bank.getElementsByTagName('question')).filter(function(q){return q.getAttribute('reserve')!=='true'}),chosen=[],used={},prior=stage===1?{}:cycleUsedKeys(stage);
   function addRef(ref){var key=ref.stage+'|'+ref.id;if(used[key])return;var source=roundBanks[ref.stage];if(!source)return;var qs=source.getElementsByTagName('question');for(var i=0;i<qs.length;i++){if(qs[i].getAttribute('id')===ref.id){chosen.push({node:qs[i],sourceStage:ref.stage,sourceId:ref.id});used[key]=true;return}}}
   refs.forEach(addRef);
   var fresh=all.filter(function(q){var id=q.getAttribute('id'),key='0|'+id;return !used[key]&&!prior[key]});
