@@ -56,9 +56,15 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <body>
 <div class="wrap">
 <header><h1>중2 매일 5문제</h1><p class="sub">고려대 입시 대비 · 중2 2학기 마무리 · 월화수목금 돌아가며 하루 5문제</p></header>
-<div class="tabs">
+<div class="tabs" id="mainTabs">
+<button class="tab on" id="tabDaily">매일공부</button>
+<button class="tab" id="tabExam">시험</button>
+</div>
+<div id="dailyView">
+<div class="tabs subtabs">
 <button class="tab on" id="tabQuiz">문제 풀기</button>
 <button class="tab" id="tabTrend">결과 · 추세</button>
+</div>
 </div>
 <div id="notice" class="notice" style="display:none"></div>
 
@@ -86,7 +92,28 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <button class="btn ghost" id="clearBtn">기록 전체 지우기</button>
 <div id="historyBox"></div></div>
 </section>
-<footer>문제는 data/days/*.xml 에서 불러옵니다. 새 날짜는 XML 한 파일 + manifest 한 줄이면 추가됩니다.</footer>
+</div>
+<section id="examView" style="display:none">
+<div class="card">
+  <div style="font-weight:800;font-size:19px">중학교 2학년 2학기 국어 기말고사</div>
+  <p class="meta">국어 A 미래엔 166~199쪽 · 국어 B 70~119쪽 및 관련 활동지</p>
+  <div class="notice">교과서 판본과 A/B의 정확한 서지가 확인되지 않아 문항은 아직 공개하지 않았습니다. 범위가 다른 교과서로 문제를 만드는 오류를 막기 위해 자료를 확인 중입니다.</div>
+  <p class="hint">사전 문제은행 150문항 · 4단계 · 단계별 30문항(객관식 25 + 단답형 5)</p>
+</div>
+<div class="card">
+  <div style="font-weight:700;margin-bottom:10px">시험 단계</div>
+  <div class="q"><b>1단계</b> <span class="badge">최초 단계</span><p class="meta">30문항 · 객관식 25 · 단답형 5</p><button class="btn" disabled>문항 자료 확인 후 시작</button></div>
+  <div class="q"><b>2단계</b> <span class="badge">잠김</span><p class="meta">1단계 제출 후 오답 재출제 + 새 문제</p></div>
+  <div class="q"><b>3단계</b> <span class="badge">잠김</span><p class="meta">2단계 제출 후 오답 재출제 + 새 문제</p></div>
+  <div class="q"><b>4단계</b> <span class="badge">잠김</span><p class="meta">3단계 제출 후 오답 재출제 + 새 문제</p></div>
+</div>
+<div class="card">
+  <div style="font-weight:700">문항 데이터 준비 상태</div>
+  <p class="meta">교과서 페이지·목차·활동지의 실제 내용이 대조되면 XML 문제은행을 생성하고 단계별 응시 기능을 연결합니다.</p>
+  <p><a href="docs/BOOK_SOURCE_RESEARCH_KOR2_SEM2.md" target="_blank" rel="noopener">교과서 판본 조사 결과 보기</a></p>
+</div>
+</section>
+<footer>매일공부 문제는 data/days/*.xml 에서 불러옵니다. 시험 문항은 별도 XML 문제은행으로 관리합니다.</footer>
 </div>
 <script>
 var LS_KEY='study_daily_han_results_v1';
@@ -368,6 +395,8 @@ function renderTrend(){
   c.stroke();
   pts.forEach(function(r,i){ var x=40+i*(630/(n-1)), y=150-r.score*1.3; c.fillStyle='#c96f2e'; c.beginPath(); c.arc(x,y,4,0,7); c.fill(); c.fillStyle='#2b2620'; c.fillText(r.score,x-8,y-8); });
 }
+el('tabDaily').onclick=function(){el('tabDaily').classList.add('on');el('tabExam').classList.remove('on');el('dailyView').style.display='block';el('examView').style.display='none';el('notice').style.display='none'};
+el('tabExam').onclick=function(){el('tabExam').classList.add('on');el('tabDaily').classList.remove('on');el('examView').style.display='block';el('dailyView').style.display='none';el('notice').style.display='none'};
 el('tabQuiz').onclick=function(){el('tabQuiz').classList.add('on');el('tabTrend').classList.remove('on');el('viewQuiz').style.display='block';el('viewTrend').style.display='none'};
 el('tabTrend').onclick=function(){el('tabTrend').classList.add('on');el('tabQuiz').classList.remove('on');el('viewTrend').style.display='block';el('viewQuiz').style.display='none';renderTrend()};
 el('gradeBtn').onclick=function(){grade();};
