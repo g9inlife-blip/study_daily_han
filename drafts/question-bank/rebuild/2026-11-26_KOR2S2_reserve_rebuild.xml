@@ -84,7 +84,7 @@
   </question>
   <question id="KOR2S2-RES-014" stage="reserve" reserve="true" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="통합 복습" scopePages="70-119,166-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>문맥을 활용한 어휘 추론</concept>
-    <prompt>안내문에 ‘오전 9시에는 12℃였지만 정오에는 2℃로 낮아졌고, 강한 바람까지 불어 야외 행사가 취소되었다’고 쓰여 있다. 여기서 ‘급격히 낮아졌다’의 뜻으로 가장 적절한 것은?</prompt>
+    <prompt>안내문에 ‘오전 9시에는 12℃였지만 정오에는 2℃로 낮아졌다. 기온이 급격히 낮아지고 강한 바람까지 불어 야외 행사가 취소되었다.’라고 쓰여 있다. 여기서 ‘급격히 낮아졌다’의 뜻으로 가장 적절한 것은?</prompt>
     <options><option id="A">짧은 시간 동안 큰 폭으로 내려갔다.</option><option id="B">오랜 시간에 걸쳐 조금씩 내려갔다.</option><option id="C">일정한 온도로 계속 유지되었다.</option><option id="D">갑자기 높아졌다.</option><option id="E">온도와 관계없이 바람만 강해졌다.</option></options>
     <answer>A</answer>
     <explanation>9시 12℃에서 정오 2℃로 짧은 시간에 크게 변했으므로 ‘급격히’는 빠르고 큰 폭으로 변했다는 뜻이다.</explanation>
