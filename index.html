@@ -526,6 +526,92 @@ function submitFinalExam(){
  el('restartFinalBtn').onclick=function(){if(confirm('새 응시를 시작할까요? 기존 기록은 보존됩니다.')){finalSubmitted=false;el('finalExamArea').style.display='none';el('finalIntro').style.display='block';}};
  el('submitFinalBtn').style.display='none';renderFinalHistory();
 }
+function loadRoundResults(){try{return JSON.parse(localStorage.getItem(ROUND_RESULTS_KEY)||'[]')}catch(e){return []}}
+function saveRoundResults(rows){try{localStorage.setItem(ROUND_RESULTS_KEY,JSON.stringify(rows))}catch(e){alert('회차 풀이 기록을 저장하지 못했습니다. 저장 공간을 확인해 주세요.')}}
+function roundBankPath(n){return 'drafts/question-bank/rebuild/2026-11-26_KOR2S2_stage'+n+'_rebuild'+(n<=2?'_partial':'')+'.xml'}
+function loadRoundBank(n){
+ if(roundBanks[n])return Promise.resolve(roundBanks[n]);
+ return fetchText(roundBankPath(n)).then(function(t){var d=parseXmlOrThrow(t,n+'차 문제은행');roundBanks[n]=d;return d});
+}
+function roundLatest(n){var rows=loadRoundResults().filter(function(r){return r.stage===n});return rows.length?rows[rows.length-1]:null}
+function renderRoundCards(){
+ var box=el('roundCards');box.innerHTML='';
+ for(var n=1;n<=4;n++){
+  var prev=n===1?null:roundLatest(n-1),latest=roundLatest(n),locked=n>1&&!prev;
+  var card=document.createElement('div');card.className='card';
+  card.innerHTML='<b>'+n+'차 학습</b><p class="meta">'+(latest?'최근 '+latest.score+'점 · '+latest.correct+'/'+latest.total+' 정답':(n===1?'전체 범위 통합 30문항':'직전 차수 오답 + 신규 문항'))+'</p>'+
+   (locked?'<p class="hint">이전 회차를 먼저 제출해 주세요.</p>':'')+
+   '<button class="btn '+(locked?'ghost':'')+'" '+(locked?'disabled':'')+' data-round="'+n+'">'+(latest?n+'차 다시 풀기':n+'차 시작')+'</button>';
+  box.appendChild(card);
+ }
+ box.querySelectorAll('button[data-round]').forEach(function(b){b.onclick=function(){startRound(Number(b.dataset.round))}});
+ var finalCard=document.createElement('div');finalCard.className='card';finalCard.innerHTML='<b>FINAL 예상 기말고사</b><p class="meta">별도 26문항 · 기존 FINAL 기록 유지</p>';box.appendChild(finalCard);
+}
+function roundQuestionList(stage,previousWrong){
+ return loadRoundBank(stage).then(function(bank){
+  var bankQs=Array.prototype.slice.call(bank.getElementsByTagName('question')),chosen=[],used={};
+  function addRef(ref){var key=ref.stage+'|'+ref.id;if(used[key])return;var source=roundBanks[ref.stage];if(!source)return;var qs=source.getElementsByTagName('question');for(var i=0;i<qs.length;i++){if(qs[i].getAttribute('id')===ref.id){chosen.push({node:qs[i],sourceStage:ref.stage,sourceId:ref.id});used[key]=true;return}}}
+  if(stage>1)(previousWrong||[]).forEach(addRef);
+  for(var i=0;i<bankQs.length&&chosen.length<30;i++){var id=bankQs[i].getAttribute('id'),key=stage+'|'+id;if(!used[key]){chosen.push({node:bankQs[i],sourceStage:stage,sourceId:id});used[key]=true}}
+  if(chosen.length<30){
+   return fetchText('drafts/question-bank/rebuild/2026-11-26_KOR2S2_reserve_rebuild.xml').then(function(t){
+    var reserve=parseXmlOrThrow(t,'예비 문제은행'),qs=reserve.getElementsByTagName('question');
+    Array.prototype.forEach.call(qs,function(q){if(chosen.length>=30)return;var id=q.getAttribute('id'),key='reserve|'+id;if(!used[key]){chosen.push({node:q,sourceStage:0,sourceId:id});used[key]=true}});
+    if(chosen.length<30)throw new Error('문항이 30개 미만입니다. 현재 '+chosen.length+'개');
+    return chosen;
+   });
+  }
+  return chosen;
+ });
+}
+function startRound(stage){
+ var prev=stage>1?roundLatest(stage-1):null;
+ if(stage>1&&!prev){alert('먼저 '+(stage-1)+'차를 제출해 주세요.');return}
+ roundCurrentNo=stage;roundSubmitted=false;el('roundResult').style.display='none';
+ el('roundExamArea').style.display='block';el('roundExamMeta').textContent=stage+'차 문항을 준비하고 있습니다...';
+ roundQuestionList(stage,prev?prev.wrongRefs:[]).then(function(items){
+  roundCurrent=items;var area=el('roundQuestionList');area.innerHTML='';
+  items.forEach(function(entry,i){
+   var q=entry.node,type=q.getAttribute('type'),prompt=xmlText(q,'prompt'),div=document.createElement('div');
+   div.className='final-question';div.dataset.index=i;div.dataset.sourceStage=entry.sourceStage;div.dataset.sourceId=entry.sourceId;div.dataset.type=type;
+   var html='<h3>'+ (i+1)+'. '+esc(prompt)+'</h3><div class="hint">문항 '+esc(entry.sourceId)+' · 난이도 '+esc(q.getAttribute('difficulty')||'')+'</div>';
+   var options=q.getElementsByTagName('option');
+   if(type==='multiple_choice'){
+    html+='<div class="final-options">';
+    Array.prototype.forEach.call(options,function(opt){var key=opt.getAttribute('id');html+='<label class="final-option"><input type="radio" name="round-answer-'+i+'" value="'+esc(key)+'"><span><b>'+esc(key)+'.</b> '+esc(opt.textContent.trim())+'</span></label>'});
+    html+='</div>';
+   }else html+='<textarea class="round-short" placeholder="답안을 작성하세요."></textarea>';
+   html+='<div class="final-feedback"></div>';div.innerHTML=html;area.appendChild(div);
+  });
+  el('roundExamMeta').textContent=stage+'차 · '+items.length+'문항 · 직전 차수 오답 '+(prev?prev.wrongRefs.length:0)+'문항을 우선 포함하고 신규 문항으로 구성';
+  el('roundExamArea').scrollIntoView({behavior:'smooth',block:'start'});
+ }).catch(function(err){el('roundExamMeta').textContent='문항 로드 오류: '+err.message;});
+}
+function submitRound(){
+ if(roundSubmitted||!roundCurrent)return;
+ var divs=el('roundQuestionList').querySelectorAll('.final-question'),missing=[];
+ divs.forEach(function(d){if(d.dataset.type==='multiple_choice'){if(!d.querySelector('input:checked'))missing.push(Number(d.dataset.index)+1}else if(!d.querySelector('.round-short').value.trim())missing.push(Number(d.dataset.index)+1)});
+ if(missing.length){alert('답변하지 않은 문항이 있습니다: '+missing.slice(0,8).join(', '));return}
+ if(!confirm(roundCurrentNo+'차 답안을 제출하고 채점할까요?'))return;
+ var correct=0,wrongRefs=[],answers={};
+ divs.forEach(function(div,i){
+  var entry=roundCurrent[i],q=entry.node,answer=xmlText(q,'answer'),ok=false,picked='';
+  if(div.dataset.type==='multiple_choice'){var selected=div.querySelector('input:checked');picked=selected.value;ok=picked===answer;
+   div.querySelectorAll('.final-option').forEach(function(label){var input=label.querySelector('input');if(input.value===answer)label.classList.add('selected');if(input.checked&&input.value!==answer)label.style.borderColor='var(--bad)'});
+  }else{picked=div.querySelector('.round-short').value;ok=norm(picked)===norm(answer)}
+  if(ok)correct++;else wrongRefs.push({stage:entry.sourceStage,id:entry.sourceId});
+  answers[entry.sourceStage+'|'+entry.sourceId]=picked;
+  div.classList.add('revealed');div.querySelector('.final-feedback').innerHTML='<b>'+(ok?'정답':'오답')+'</b> · 정답 '+esc(answer)+'<p>'+esc(xmlText(q,'explanation'))+'</p><p><b>심화해설</b><br>'+esc(xmlText(q,'advancedExplanation'))+'</p>';
+  div.querySelectorAll('input,textarea').forEach(function(c){c.disabled=true});
+ });
+ roundSubmitted=true;var rows=loadRoundResults(),record={stage:roundCurrentNo,at:new Date().toISOString(),score:Math.round(correct/roundCurrent.length*100),correct:correct,total:roundCurrent.length,wrongRefs:wrongRefs,answers:answers};
+ rows.push(record);saveRoundResults(rows);
+ el('roundResult').style.display='block';el('roundResult').innerHTML='<div class="score">'+record.score+'점</div><p class="center">'+correct+'/'+record.total+' 정답 · 다음 차수에는 이번 회차 오답 '+wrongRefs.length+'문항이 반영됩니다.</p><button class="btn green" id="nextRoundBtn">'+(roundCurrentNo<4?(roundCurrentNo+1)+'차로 이동':'FINAL 시험 보기')+'</button>';
+ el('nextRoundBtn').onclick=function(){if(roundCurrentNo<4){renderRoundCards();startRound(roundCurrentNo+1)}else{el('roundExamArea').style.display='none';el('finalIntro').scrollIntoView({behavior:'smooth',block:'start'})}};
+ renderRoundCards();el('roundResult').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function initRounds(){renderRoundCards();el('submitRoundBtn').onclick=submitRound}
+
 function initFinalExam(){
  renderFinalHistory();
  el('startFinalBtn').onclick=function(){
@@ -538,6 +624,7 @@ function initFinalExam(){
 }
 
 initFinalExam();
+initRounds();
 loadManifest(); renderTrend();
 </script>
 </body>
