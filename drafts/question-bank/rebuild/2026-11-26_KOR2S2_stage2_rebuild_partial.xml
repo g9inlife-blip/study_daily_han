@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<examBank schemaVersion="1.0" revision="1-partial" status="in_progress" subject="국어" schoolLevel="중학교" grade="2" semester="2" textbook="미래엔 중학교 국어 2-2 (민병곤 외)" sourcePages="88-119" created="2026-11-26">
+  <metadata><questionCount>15</questionCount><multipleChoiceCount>12</multipleChoiceCount><shortAnswerCount>3</shortAnswerCount><completion>2단원 1차 부분본 15문항 작성. 30문항 구성 중 나머지 문항 추가 예정.</completion><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics></metadata>
+  <question id="KOR2S2-V2-2-001" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>쓰기 계획·쓰기 맥락</concept>
+    <prompt>학교 누리집에 ‘여름철 물 절약 방법’을 소개하는 글을 쓰려 한다. 글쓰기 계획을 세울 때 가장 먼저 구체화해야 할 요소로 적절한 것은?</prompt>
+    <options>
+      <option id="A">글에 넣을 장식 그림의 색깔</option>
+      <option id="B">글의 주제와 목적, 예상 독자 및 게시할 매체</option>
+      <option id="C">글을 다 쓴 뒤의 맞춤법 검사 결과</option>
+      <option id="D">친구들이 사용할 댓글의 개수</option>
+      <option id="E">글의 마지막 문장에 사용할 느낌표 수</option>
+    </options>
+    <answer>B</answer>
+    <explanation>글의 주제·목적·예상 독자·매체를 고려해야 이후 자료 수집과 내용 조직의 방향을 정할 수 있다.</explanation>
+    <advancedExplanation>쓰기 계획은 글쓰기 맥락을 정리하는 단계다. 무엇을 누구에게 왜 어떤 매체로 전달할지 결정해야 필요한 자료와 표현 방식을 선택할 수 있다. 장식이나 맞춤법은 이후 표현·점검 단계에서 다룰 요소이며, 댓글 수는 글의 목적을 정하는 기준이 아니다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-002" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 수집·자료 선정 기준</concept>
+    <prompt>‘반려동물과 함께 살아가기’라는 안내 글에 활용할 자료를 고르려 한다. 다음 중 가장 적절한 자료 선정 기준을 적용한 것은?</prompt>
+    <options>
+      <option id="A">주제와 직접 관련이 있고 출처가 분명하며 예상 독자가 이해하기 쉬운 자료를 고른다.</option>
+      <option id="B">사진이 화려하고 파일 크기가 큰 자료를 우선 고른다.</option>
+      <option id="C">주제와 조금 달라도 유명인이 등장하는 자료를 고른다.</option>
+      <option id="D">출처가 불분명해도 주장에 유리한 자료를 사용한다.</option>
+      <option id="E">매체에 맞는지와 관계없이 검색 결과 첫 번째 자료를 사용한다.</option>
+    </options>
+    <answer>A</answer>
+    <explanation>자료는 주제·목적과 관련이 있고, 독자에게 적합하며, 출처가 분명하고 매체에 알맞아야 한다.</explanation>
+    <advancedExplanation>자료 선정은 많이 모으는 것보다 글의 목적에 맞는 자료를 골라내는 과정이다. 관련성, 독자 적합성, 출처의 신뢰성, 매체 적합성을 함께 고려해야 한다. B와 C는 외형이나 유명세를 기준으로 삼고, D와 E는 자료의 신뢰성과 적합성을 확인하지 않는 오류다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-003" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>복합양식 자료 유형의 기능</concept>
+    <prompt>학교 주변의 나무 종류를 소개하는 글에서 나무의 잎 모양과 줄기 생김새를 독자가 실제 모습처럼 확인하도록 돕고 싶다. 가장 적절한 자료는?</prompt>
+    <options>
+      <option id="A">나무 종류별 수량을 비교한 표</option>
+      <option id="B">나무의 실제 모습을 자세히 보여 주는 사진</option>
+      <option id="C">나무에 관한 추상적인 감상 문장</option>
+      <option id="D">나무와 관계없는 배경 음악</option>
+      <option id="E">조사 날짜만 나열한 목록</option>
+    </options>
+    <answer>B</answer>
+    <explanation>사진은 설명 대상의 모양과 위치 등 구체적인 모습을 사실적으로 보여 주는 데 적합하다.</explanation>
+    <advancedExplanation>자료의 유형마다 전달에 유리한 정보가 다르다. 사진과 그림은 대상의 생김새나 위치를 보여 주고, 표와 그래프는 수량과 변화를 비교하는 데 효과적이다. 글의 목적에 따라 자료를 선택해야 하며, 보기 좋은 자료라고 무조건 적절한 것은 아니다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-004" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 유형·수량 비교</concept>
+    <prompt>학교의 월별 전기 사용량이 1월부터 6월까지 어떻게 달라졌는지 한눈에 비교하려 한다. 가장 적절한 자료 유형은?</prompt>
+    <options>
+      <option id="A">전기 사용량과 무관한 사진 모음</option>
+      <option id="B">월별 수치를 비교하기 쉬운 막대그래프 또는 꺾은선그래프</option>
+      <option id="C">전기 절약에 대한 감탄문</option>
+      <option id="D">학교 건물의 위치를 표시한 지도만</option>
+      <option id="E">전기 사용과 관련 없는 인터뷰 영상</option>
+    </options>
+    <answer>B</answer>
+    <explanation>시간에 따른 수치 변화와 월별 비교를 보여 주려면 그래프가 효과적이다.</explanation>
+    <advancedExplanation>표는 정확한 수치를 확인하는 데 유리하고 그래프는 변화나 차이를 시각적으로 파악하는 데 유리하다. 시간에 따른 추세는 꺾은선그래프, 항목 간 크기 비교는 막대그래프가 적합할 수 있다. 자료 유형은 전달하려는 정보의 성격에 따라 선택한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-005" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 선정·출처 신뢰성</concept>
+    <prompt>‘청소년의 수면 습관’을 주제로 글을 쓸 때 다음 자료 중 우선적으로 선정할 자료는?</prompt>
+    <options>
+      <option id="A">작성자와 조사 방법이 밝혀지지 않은 개인 블로그의 단정적 주장</option>
+      <option id="B">출처가 명확하고 조사 대상·시기·방법이 공개된 공공기관의 통계</option>
+      <option id="C">친구 한 명이 경험한 수면 시간</option>
+      <option id="D">출처가 없는 이미지에 적힌 임의의 백분율</option>
+      <option id="E">광고 목적이지만 근거를 제시하지 않은 제품 홍보 문구</option>
+    </options>
+    <answer>B</answer>
+    <explanation>출처와 조사 방법이 공개된 자료는 내용의 정확성과 신뢰성을 검토하기에 유리하다.</explanation>
+    <advancedExplanation>자료 선정 기준에는 주제 관련성뿐 아니라 출처의 명확성과 신뢰성이 포함된다. 공공기관 자료라고 무조건 오류가 없는 것은 아니지만, 조사 대상·시기·방법을 확인하고 타당성을 판단할 수 있다. 개인 경험이나 출처 없는 수치는 전체 경향을 설명하는 근거로 쓰기 어렵다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-006" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>내용 생성·개요 조직</concept>
+    <prompt>‘학교에서 일회용품 사용 줄이기’를 주제로 설득하는 글을 쓰려 한다. 다음 중 내용을 조직한 방식으로 가장 자연스러운 것은?</prompt>
+    <options>
+      <option id="A">개인적인 일화만 반복하고 해결 방안은 제시하지 않는다.</option>
+      <option id="B">문제 상황과 영향, 실천 가능한 해결 방안, 기대 효과 순서로 구성한다.</option>
+      <option id="C">해결 방안을 먼저 나열한 뒤 주제와 무관한 이야기를 덧붙인다.</option>
+      <option id="D">자료 출처만 나열하고 자신의 주장을 밝히지 않는다.</option>
+      <option id="E">결론을 여러 번 반복하고 근거는 생략한다.</option>
+    </options>
+    <answer>B</answer>
+    <explanation>문제와 영향, 해결 방안, 기대 효과의 흐름은 독자가 주장과 실천 방향을 이해하도록 돕는다.</explanation>
+    <advancedExplanation>내용 조직은 글의 유형과 목적에 맞게 정보의 순서를 정하는 과정이다. 설득하는 글에서는 문제를 제시하고 근거를 통해 필요성을 설명한 뒤 구체적인 해결 방안을 제안하는 구성이 효과적이다. 모든 글에 하나의 고정된 순서가 있는 것은 아니지만, 독자가 논리를 따라갈 수 있어야 한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-007" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>예상 독자 분석·독자 고려</concept>
+    <prompt>중학생을 대상으로 ‘학교 급식 잔반 줄이기’ 글을 쓸 때 예상 독자를 고려한 내용 구성으로 가장 적절한 것은?</prompt>
+    <options>
+      <option id="A">전문 영양학 용어를 설명 없이 나열한다.</option>
+      <option id="B">학생의 급식 경험과 연결되는 사례를 들고 실천 가능한 행동을 제안한다.</option>
+      <option id="C">성인 조리 전문가만 이해할 수 있는 조리 공정 중심으로 쓴다.</option>
+      <option id="D">급식과 관계없는 국가 정책만 길게 설명한다.</option>
+      <option id="E">독자의 경험과 무관하게 통계 수치만 나열한다.</option>
+    </options>
+    <answer>B</answer>
+    <explanation>예상 독자의 경험과 관심을 고려하고 실제로 실천할 수 있는 행동을 제시해야 이해와 참여를 높일 수 있다.</explanation>
+    <advancedExplanation>예상 독자를 분석할 때에는 지식수준뿐 아니라 관심, 요구, 태도와 글을 접하는 상황도 고려한다. 중학생에게는 학교생활과 연결된 사례와 구체적인 실천 방법이 효과적이다. 전문 용어를 사용할 때는 쉬운 설명을 덧붙여야 한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-008" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>매체 특성 고려·자료 활용</concept>
+    <prompt>휴대전화로 보는 짧은 카드 뉴스를 제작한다. 긴 설명문보다 내용을 효과적으로 전달하기 위한 방법은?</prompt>
+    <options>
+      <option id="A">한 화면에 긴 문단을 빽빽하게 넣는다.</option>
+      <option id="B">핵심 정보를 짧은 문장으로 나누고 의미를 보완하는 그림이나 도표를 배치한다.</option>
+      <option id="C">모든 자료의 출처를 생략한다.</option>
+      <option id="D">글자 크기를 작게 해 최대한 많은 내용을 넣는다.</option>
+      <option id="E">화면마다 주제를 바꾸어 독자가 연결 관계를 추측하게 한다.</option>
+    </options>
+    <answer>B</answer>
+    <explanation>모바일 화면과 카드 뉴스의 특성을 고려해 핵심 정보를 간결하게 제시하고 시각 자료로 보완하는 것이 적절하다.</explanation>
+    <advancedExplanation>매체에 따라 읽는 환경과 정보 처리 방식이 다르다. 모바일 카드 뉴스는 화면이 작고 넘겨 보며 읽기 때문에 핵심을 짧게 나누고 각 화면의 연결을 분명히 해야 한다. 간결함을 위해 출처나 필수 정보를 생략해서는 안 된다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-009" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>쓰기 과정 점검·조정</concept>
+    <prompt>자료를 모으는 과정에서 글의 주제와 직접 관련이 없는 사진이 많다는 사실을 발견했다. 쓰기 과정에서 가장 적절한 조정은?</prompt>
+    <options>
+      <option id="A">모은 사진을 모두 사용해 자료의 양을 늘린다.</option>
+      <option id="B">주제와 목적에 맞는 사진만 남기고 관련성이 낮은 자료는 제외한다.</option>
+      <option id="C">이미 수집했으므로 자료를 바꾸지 않는다.</option>
+      <option id="D">글의 주제를 사진에 맞게 무조건 변경한다.</option>
+      <option id="E">출처가 없는 사진을 우선 사용한다.</option>
+    </options>
+    <answer>B</answer>
+    <explanation>자료 수집 후에는 선정 기준에 따라 관련성과 적절성을 점검하고 불필요한 자료를 제외해야 한다.</explanation>
+    <advancedExplanation>쓰기 과정은 계획대로 진행되기만 하는 직선 과정이 아니다. 자료를 수집하고 내용을 구성하는 중에도 주제와 목적에 맞는지 점검하고 필요하면 조정한다. 이미 수집한 자료라는 이유로 모두 사용할 필요는 없다. 자료를 줄이면 글의 초점이 분명해질 수 있다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-010" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 해석·글의 주장과 자료의 일치</concept>
+    <prompt>‘우리 학교 학생들이 가장 선호하는 운동은 농구’라고 주장하는 글에 설문 결과가 제시되어 있다. 그래프에서 축구 42명, 농구 35명, 배드민턴 18명으로 나타났다. 글을 고칠 방법으로 적절한 것은?</prompt>
+    <options>
+      <option id="A">주장을 유지하고 그래프의 농구와 축구 항목을 바꾼다.</option>
+      <option id="B">그래프 결과와 일치하도록 주장을 수정하거나 자료를 다시 확인한다.</option>
+      <option id="C">농구를 강조하기 위해 축구 응답을 삭제한다.</option>
+      <option id="D">그래프의 수치는 무시하고 작성자의 생각을 유지한다.</option>
+      <option id="E">선호도 조사이므로 어떤 주장이든 가능하다.</option>
+    </options>
+    <answer>B</answer>
+    <explanation>본문의 주장과 자료의 수치가 일치하지 않으므로 자료를 왜곡하지 말고 주장 또는 자료의 오류를 바로잡아야 한다.</explanation>
+    <advancedExplanation>복합양식 글에서는 문자 정보와 시각 자료가 서로 일치해야 한다. 그래프가 축구 42명으로 가장 높다면 ‘농구가 가장 선호된다’는 주장은 자료로 뒷받침되지 않는다. 자료를 임의로 바꾸는 것은 잘못이며, 원자료를 확인한 뒤 정확한 표현으로 수정해야 한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-011" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>고쳐쓰기·내용과 조직</concept>
+    <prompt>글을 읽어 보니 같은 근거가 세 문단에서 반복되고, 핵심 해결 방안은 마지막에 한 문장으로만 제시되어 있다. 가장 적절한 고쳐쓰기 방법은?</prompt>
+    <options>
+      <option id="A">반복된 근거를 정리하고 해결 방안을 논리적인 위치에서 구체적으로 설명한다.</option>
+      <option id="B">반복을 더 늘려 글의 분량을 채운다.</option>
+      <option id="C">해결 방안을 삭제하고 문제 상황만 남긴다.</option>
+      <option id="D">문단 순서는 그대로 두고 글꼴만 바꾼다.</option>
+      <option id="E">근거와 해결 방안을 모두 삭제한다.</option>
+    </options>
+    <answer>A</answer>
+    <explanation>내용의 중복을 줄이고 핵심 해결 방안을 충분히 설명하도록 내용과 조직을 조정해야 한다.</explanation>
+    <advancedExplanation>고쳐쓰기는 맞춤법만 고치는 활동이 아니다. 내용의 충분성, 중복, 문단 간 연결, 정보의 순서와 강조점을 점검해야 한다. 독자가 주장을 이해하고 행동 방향을 파악할 수 있도록 해결 방안을 근거와 연결해 구체화하는 것이 중요하다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-012" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>표현 차원 고쳐쓰기</concept>
+    <prompt>다음 문장을 중학생 독자가 쉽게 이해하도록 고쳐 쓴 것은? ‘본 시설의 이용자는 사용 후 해당 기기의 전원 차단을 이행하여야 한다.’</prompt>
+    <options>
+      <option id="A">이용자는 사용 후 기기의 전원을 꺼야 합니다.</option>
+      <option id="B">본 시설 이용자의 전원 차단 이행 의무는 필수적이다.</option>
+      <option id="C">기기 전원 차단에 관한 제반 사항을 숙지한다.</option>
+      <option id="D">사용 종료 후 해당 기기의 전원 차단을 이행하여야 함.</option>
+      <option id="E">전원 차단은 전원 차단이다.</option>
+    </options>
+    <answer>A</answer>
+    <explanation>불필요하게 딱딱한 표현을 쉬운 말과 간결한 문장으로 바꾸었다.</explanation>
+    <advancedExplanation>표현 차원의 고쳐쓰기는 독자와 매체에 맞는 어휘와 문장으로 다듬는 것이다. A는 핵심 의미를 유지하면서 전문적이고 관료적인 표현을 쉬운 말로 바꾸었다. 나머지 선택지는 딱딱한 표현을 유지하거나 의미를 명확하게 전달하지 못한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-013" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>자료 선정 기준</concept>
+    <prompt>‘청소년의 대중교통 이용’에 관한 글을 쓰기 위해 자료를 고르려고 한다. 자료를 선정할 때 고려할 기준을 세 가지 쓰시오.</prompt>
+    <answer>글의 주제와 목적에 관련 있는지, 예상 독자의 수준과 관심에 적합한지, 출처가 분명하고 믿을 만한지, 선택한 매체에 적합한지 중 세 가지.</answer>
+    <explanation>자료는 주제·목적과의 관련성, 예상 독자 적합성, 출처 신뢰성, 매체 적합성 등을 기준으로 선정한다.</explanation>
+    <advancedExplanation>답안은 서로 다른 기준 세 가지를 제시해야 한다. ‘좋은 자료인지 확인한다’처럼 포괄적인 표현만으로는 충분하지 않다. 예를 들어 교통 이용 통계는 주제와 관련되어야 하고, 조사 기관과 조사 시기가 밝혀져야 하며, 모바일 카드 뉴스에 넣을 때는 독자가 쉽게 읽을 수 있는 형태인지도 고려해야 한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-014" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>쓰기 과정 점검·조정</concept>
+    <prompt>글을 쓰는 도중 처음 계획한 예상 독자가 초등학생에서 중학생으로 바뀌었다. 이에 따라 자료와 표현을 어떻게 조정할지 두 가지 쓰시오.</prompt>
+    <answer>중학생의 관심과 배경지식에 맞는 자료를 다시 선정하고, 어휘·설명 수준·사례를 중학생에게 적절하게 조정한다.</answer>
+    <explanation>예상 독자가 바뀌면 자료 선정 기준과 어휘, 설명의 깊이, 사례 등 글의 여러 요소를 함께 점검해야 한다.</explanation>
+    <advancedExplanation>독자는 글의 내용과 표현을 결정하는 중요한 쓰기 맥락이다. 독자가 바뀌면 기존 자료가 지나치게 쉽거나 어렵지 않은지, 관심을 끌 수 있는지 다시 판단해야 한다. 표현도 독자의 지식수준과 요구에 맞게 조정해야 한다. 단순히 호칭만 바꾸는 것은 충분한 조정이 아니다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="KOR2S2-V2-2-015" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>복합양식 자료 활용의 효과</concept>
+    <prompt>학교 주변 보행 안전을 알리는 글에 지도와 현장 사진을 함께 활용하면 좋은 점을 각각 한 가지씩 쓰시오.</prompt>
+    <answer>지도는 위험 구간의 위치와 이동 경로를 한눈에 파악하게 하고, 현장 사진은 실제 주변 환경과 위험 요소의 모습을 구체적으로 보여 준다.</answer>
+    <explanation>지도와 사진은 서로 다른 정보를 보완하여 독자가 위치와 현장 상황을 더 정확히 이해하도록 돕는다.</explanation>
+    <advancedExplanation>복합양식 자료를 활용할 때는 자료마다 어떤 정보를 전달하는지 구분해야 한다. 지도는 공간적 위치와 관계를 보여 주고, 사진은 현장의 구체적인 모습을 보여 준다. 자료를 나란히 배치하는 것만으로 효과가 생기는 것은 아니며 본문 설명과 연결해 독자가 의미를 파악하도록 해야 한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+</examBank>
