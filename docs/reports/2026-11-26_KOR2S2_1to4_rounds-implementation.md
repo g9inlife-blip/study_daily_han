@@ -30,6 +30,14 @@
 - FINAL 기록 키 `study_daily_han_final_exam_results_v1` 및 매일공부 기록과 분리.
 - 페이지를 새로 열어도 저장된 직전 회차 오답의 원본 문항을 XML에서 다시 불러올 수 있도록 문항 원본 참조를 기록.
 
+## 시험 화면 초기화 오류 복구
+
+- 확인된 핵심 오류: `initRounds()`와 회차 렌더링 함수는 있었지만, HTML에 `roundCards`, `roundExamArea`, `submitRoundBtn` 요소가 누락되어 있었다.
+- 이로 인해 초기화 중 존재하지 않는 요소에 접근해 오류가 발생할 수 있었고, 시험 화면에 FINAL만 나타나는 증상이 발생했다.
+- `roundsCard` 및 회차 응시 영역 HTML을 `subject-korean` 아래에 복구했다.
+- 회차 HTML 복구 후 `index.html` JavaScript 문법 검사 통과.
+- 정적 ID 검사: HTML ID 56개, 중복 ID 0, `el('...')`에서 참조하는 정적 요소 누락 0.
+
 ## 오류 수정 및 추가 점검
 
 - 통합 문제은행 XML은 총 150문항이며, 기본 문항 120개와 `reserve="true"` 예비 문항 30개가 함께 들어 있음을 확인했다.
@@ -54,3 +62,5 @@
 - `b49a2397b217a039a337b2952da55442a1215d5e` — 회차 답안 미입력 검사 문법 오류 수정
 - `b1415ff06462e0d38e9cf5147d91bbe06442ba5e` — 재응시 사이클 및 신규 문항 추적 수정
 - `7b2e07828b0f98c11e08bb981b6b4bc13ba675b3` — 기본 회차 편성에서 예비 문항 제외
+- `609e92a584945a90705250eba3d8020f1cd1bbc6` — 주관식 의미 답안 자기채점 적용
+- `c608e2d2b2a45dbcfbc93d51e68a88d1928bdbec` — 누락된 회차 시험 화면 HTML 복구
