@@ -588,6 +588,7 @@ function roundQuestionList(stage,previousWrong){
    var groups={};fresh=all.slice();fresh.forEach(function(q){var u=getRoundUnit(q);(groups[u]=groups[u]||[]).push(q)});
    var unitNames=Object.keys(groups),picked=[],base=Math.floor(30/unitNames.length),remainder=30%unitNames.length;
    unitNames.forEach(function(u,index){picked.push.apply(picked,shuffleRound(groups[u]).slice(0,base+(index<remainder?1:0)))});
+   if(picked.length<30){var pickedSet=new Set(picked);var remainderPool=shuffleRound(all.filter(function(q){return pickedSet.has(q)===false}));picked.push.apply(picked,remainderPool.slice(0,30-picked.length));}
    fresh=shuffleRound(picked).slice(0,30);
   }else fresh=shuffleRound(fresh);
   fresh.forEach(function(q){if(chosen.length>=30)return;var id=q.getAttribute('id'),key='0|'+id;if(!used[key]){chosen.push({node:q,sourceStage:0,sourceId:id});used[key]=true}});
