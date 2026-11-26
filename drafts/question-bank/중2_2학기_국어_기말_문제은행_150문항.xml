@@ -814,419 +814,419 @@
   <question id="KOR2S2-2-028" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0"><concept>읽기 전략 조정 과정 설명</concept><prompt>글을 읽다가 핵심 문장의 뜻을 이해하지 못한 학생이 문맥으로 추측했지만 여전히 이해하지 못했다. 이때 사용할 수 있는 읽기 전략 두 가지와 그 순서를 쓰시오.</prompt><answer>모르는 부분을 표시한 뒤 사전이나 참고 자료로 낱말·구절의 뜻을 확인하고, 해당 문장이나 문단을 다시 읽어 의미를 점검한다.</answer><explanation>이해가 되지 않는 부분을 확인 자료로 해결한 뒤 다시 읽어 전체 맥락에서 이해를 점검하는 과정이다.</explanation><advancedExplanation>채점 요소: ① 사전·참고 자료 등을 활용해 뜻 확인 ② 다시 읽기 또는 앞뒤 문맥과 연결해 이해 점검. 단순히 ‘계속 읽는다’는 답은 구체적인 전략이 아니다.</advancedExplanation><statistics attemptCount="0" correctCount="0" correctRate="미산정" /></question>
   <question id="KOR2S2-2-029" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0"><concept>매체 자료의 선택과 배제에 따른 영향 서술</concept><prompt>학교 홍보 영상이 과학 활동 장면에는 남학생만, 돌봄 활동 장면에는 여학생만 보여 주었다. 이러한 장면 선택이 시청자의 인식에 미칠 수 있는 영향을 고정 관념과 연결해 쓰시오.</prompt><answer>특정 성별이 특정 활동에만 어울린다는 고정 관념을 강화하여 학생들이 활동이나 역할을 성별에 따라 제한적으로 생각하게 할 수 있다.</answer><explanation>성별과 활동을 반복적으로 연결한 재현이 시청자의 역할 인식에 미칠 영향을 설명해야 한다.</explanation><advancedExplanation>채점 요소: ① 성별과 활동을 고정적으로 연결한 장면 선택 지적 ② 역할을 성별에 따라 제한적으로 인식하게 할 수 있다는 영향. ‘차별적이다’만 쓰면 구체적인 영향 설명이 부족하다.</advancedExplanation><statistics attemptCount="0" correctCount="0" correctRate="미산정" /></question>
   <question id="KOR2S2-2-030" stage="2" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0"><concept>주장과 근거의 범위 제한 서술</concept><prompt>‘MBTI는 사람의 성격을 정확하게 알려 준다’라는 주장을 평가하려 한다. 검사 결과만으로 개인의 성격을 단정하기 어려운 이유를 검사 결과의 한계와 연결하여 두 가지 쓰시오.</prompt><answer>검사 문항과 응답 당시의 상황에 따라 결과가 달라질 수 있고, 몇 가지 유형만으로 한 사람의 복잡하고 다양한 성격을 모두 설명할 수 없기 때문이다.</answer><explanation>검사 과정의 한계와 유형 분류의 설명 범위 한계를 구분해 제시해야 한다.</explanation><advancedExplanation>채점 요소: ① 문항 구성·응답 상황 등 검사 과정의 한계 ② 유형만으로 개인의 모든 특성을 설명할 수 없다는 한계. ‘사람마다 다르기 때문이다’만 쓰면 두 가지 근거가 구체적이지 않다.</advancedExplanation><statistics attemptCount="0" correctCount="0" correctRate="미산정" /></question>
-  <question id="KOR2S2-3-001" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 목적</concept>
-    <prompt>환경 보호 카드 뉴스를 분석하는 학생이 있다. '읽기 목적'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-001" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>설문 결과의 해석 범위</concept>
+    <prompt>자료의 두 응답 항목이 각각 48%와 30%일 때, 이에 대한 해석으로 가장 타당한 것은?</prompt>
     <options>
-      <option id="A">읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">두 집단의 인원수는 같다.</option>
+      <option id="B">자기 이해 응답이 타인 이해 응답보다 18%p 높다.</option>
+      <option id="C">모든 학생이 자기 이해를 가장 중요하게 여긴다.</option>
+      <option id="D">MBTI가 성격을 정확히 설명한다.</option>
+      <option id="E">타인 이해 응답자는 검사를 해 본 적이 없다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 읽기 목적이다. 읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 목적의 의미를 상황에 적용해야 한다. 읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>응답 학생 중 자기 이해를 이유로 든 비율이 타인 이해를 이유로 든 비율보다 18%p 높다.</answer>
+    <explanation>두 비율의 차이는 48-30=18%p이다. 이는 응답 집단 안에서의 차이이며 전체 학생 집단의 차이라고 확대해서는 안 된다.</explanation>
+    <advancedExplanation>두 비율의 차이는 48-30=18%p이다. 이는 응답 집단 안에서의 차이이며 전체 학생 집단의 차이라고 확대해서는 안 된다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-002" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 수준</concept>
-    <prompt>동아리 홍보 영상를 분석하는 학생이 있다. '읽기 수준'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-002" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>표본 대표성 판단</concept>
+    <prompt>한 학교 한 학급 학생만 조사한 결과로 전국 중학생의 생각을 설명하려 한다. 가장 먼저 지적할 문제는?</prompt>
     <options>
-      <option id="A">자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</option>
-      <option id="B">요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">응답 비율을 계산할 수 없다.</option>
+      <option id="B">조사 대상이 전체 중학생을 대표한다고 보기 어렵다.</option>
+      <option id="C">질문 문항이 반드시 두 개여야 한다.</option>
+      <option id="D">수치 자료는 글로 설명할 수 없다.</option>
+      <option id="E">표본이 작으면 모든 응답이 거짓이다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 읽기 수준이다. 자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 수준의 의미를 상황에 적용해야 한다. 자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>조사 대상이 전체 중학생을 대표한다고 보기 어렵다.</answer>
+    <explanation>표본의 규모뿐 아니라 선정 방식과 지역·학년 분포를 살펴야 한다. 특정 학급만 조사하면 관심이나 환경이 다른 학생들의 의견이 반영되지 않을 수 있다.</explanation>
+    <advancedExplanation>표본의 규모뿐 아니라 선정 방식과 지역·학년 분포를 살펴야 한다. 특정 학급만 조사하면 관심이나 환경이 다른 학생들의 의견이 반영되지 않을 수 있다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-003" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 전 전략</concept>
-    <prompt>학교 안전 안내 자료를 분석하는 학생이 있다. '읽기 전 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-003" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>그래프 표현의 적절성</concept>
+    <prompt>같은 설문 결과를 나타낸 그래프에서 세로축을 45%부터 시작해 48% 막대가 30% 막대보다 몇 배나 커 보이게 했다. 평가로 적절한 것은?</prompt>
     <options>
-      <option id="A">목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</option>
-      <option id="B">제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">막대그래프는 언제나 신뢰할 수 없다.</option>
+      <option id="B">축의 시작점을 확인하고 실제 차이보다 과장된 인상을 주는지 따져야 한다.</option>
+      <option id="C">색이 다르면 자료가 틀린 것이다.</option>
+      <option id="D">세로축은 반드시 50%부터 시작해야 한다.</option>
+      <option id="E">그래프는 출처를 확인할 필요가 없다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 읽기 전 전략이다. 목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 전 전략의 의미를 상황에 적용해야 한다. 목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>축의 시작점을 확인하고 실제 차이보다 과장된 인상을 주는지 따져야 한다.</answer>
+    <explanation>축의 범위를 좁히면 작은 수치 차이도 시각적으로 크게 보일 수 있다. 그래프는 수치뿐 아니라 축·눈금·비율 표현을 함께 평가해야 한다.</explanation>
+    <advancedExplanation>축의 범위를 좁히면 작은 수치 차이도 시각적으로 크게 보일 수 있다. 그래프는 수치뿐 아니라 축·눈금·비율 표현을 함께 평가해야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-004" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 중 전략</concept>
-    <prompt>도서관 이용 안내를 분석하는 학생이 있다. '읽기 중 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-004" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>근거와 결론의 비약</concept>
+    <prompt>학생 120명 중 48%가 MBTI가 자기 이해에 도움이 될 것 같다고 답했다. 이를 근거로 ‘MBTI는 과학적으로 검증되었다’고 주장하는 것은 왜 타당하지 않은가?</prompt>
     <options>
-      <option id="A">독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
+      <option id="A">응답자가 120명이라서 숫자가 홀수이기 때문이다.</option>
+      <option id="B">흥미의 이유를 묻는 응답은 과학적 검증 여부를 측정한 결과가 아니기 때문이다.</option>
+      <option id="C">과학적 주장은 설문으로 절대 확인할 수 없기 때문이다.</option>
+      <option id="D">48%는 절반보다 작기 때문이다.</option>
+      <option id="E">MBTI는 네 지표로 이루어졌기 때문이다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 읽기 중 전략이다. 독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 중 전략의 의미를 상황에 적용해야 한다. 독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>흥미의 이유를 묻는 응답은 과학적 검증 여부를 측정한 결과가 아니기 때문이다.</answer>
+    <explanation>조사 문항이 측정한 것은 관심의 이유이다. 과학적 타당성을 판단하려면 검사 신뢰도·타당도 등에 관한 별도의 연구 근거가 필요하다.</explanation>
+    <advancedExplanation>조사 문항이 측정한 것은 관심의 이유이다. 과학적 타당성을 판단하려면 검사 신뢰도·타당도 등에 관한 별도의 연구 근거가 필요하다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-005" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 후 전략</concept>
-    <prompt>청소년 독서 안내 글를 분석하는 학생이 있다. '읽기 후 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-005" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 교차 검증</concept>
+    <prompt>온라인 게시글은 ‘전국 최고’라고 주장하지만 조사 기관과 표본을 밝히지 않았다. 카드뉴스는 조사 날짜·질문·응답자 수를 공개했다. 가장 적절한 읽기 태도는?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</option>
+      <option id="A">카드뉴스는 그림이 있으므로 무조건 참이다.</option>
+      <option id="B">‘전국 최고’라는 표현이 강하므로 게시글을 믿는다.</option>
+      <option id="C">카드뉴스의 조사 방법을 확인하고 다른 독립 자료와도 대조한다.</option>
+      <option id="D">두 자료 중 더 짧은 자료를 선택한다.</option>
+      <option id="E">출처가 없더라도 조회 수가 많으면 신뢰한다.</option>
     </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 읽기 후 전략이다. 요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 후 전략의 의미를 상황에 적용해야 한다. 요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>카드뉴스의 조사 방법을 확인하고 다른 독립 자료와도 대조한다.</answer>
+    <explanation>정보가 구체적으로 공개되었다는 점은 검토에 도움이 되지만, 공개 사실만으로 결론이 참이라고 확정할 수는 없다. 조사 방법과 원자료, 다른 자료와의 일치 여부를 확인한다.</explanation>
+    <advancedExplanation>정보가 구체적으로 공개되었다는 점은 검토에 도움이 되지만, 공개 사실만으로 결론이 참이라고 확정할 수는 없다. 조사 방법과 원자료, 다른 자료와의 일치 여부를 확인한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-006" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>예측과 확인</concept>
-    <prompt>지역 행사 기사를 분석하는 학생이 있다. '예측과 확인'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-006" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>유도 질문의 영향</concept>
+    <prompt>설문 문항을 ‘유명한 MBTI 검사가 자신을 이해하는 데 얼마나 도움이 되었나요?’라고 바꾸었다. 응답 결과에 미칠 수 있는 영향은?</prompt>
     <options>
-      <option id="A">제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">응답자 수가 자동으로 늘어난다.</option>
+      <option id="B">‘유명한’이라는 표현이 응답자의 판단을 긍정적인 방향으로 유도할 수 있다.</option>
+      <option id="C">질문이 길어지면 표본이 대표성을 갖는다.</option>
+      <option id="D">응답 결과가 반드시 100%가 된다.</option>
+      <option id="E">질문 표현은 결과에 영향을 주지 않는다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 예측과 확인이다. 제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 예측과 확인의 의미를 상황에 적용해야 한다. 제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>‘유명한’이라는 표현이 응답자의 판단을 긍정적인 방향으로 유도할 수 있다.</answer>
+    <explanation>문항에 평가적 표현을 넣으면 응답자가 특정 관점을 받아들이도록 압박할 수 있다. 중립적 질문으로 바꾸어야 응답자의 실제 생각을 더 정확히 확인할 수 있다.</explanation>
+    <advancedExplanation>문항에 평가적 표현을 넣으면 응답자가 특정 관점을 받아들이도록 압박할 수 있다. 중립적 질문으로 바꾸어야 응답자의 실제 생각을 더 정확히 확인할 수 있다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-007" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>질문과 추론</concept>
-    <prompt>학교 축제 게시물를 분석하는 학생이 있다. '질문과 추론'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-007" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>정보 배열의 논리성</concept>
+    <prompt>도서관 이용 안내 글을 ‘이용 자격-운영 시간-자료 검색-대출 절차-문의 방법’ 순서로 구성했다. 이 배열의 장점은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</option>
-      <option id="C">읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">글쓴이가 좋아하는 순서이기 때문이다.</option>
+      <option id="B">독자가 실제 이용 과정에서 필요한 정보를 순서대로 찾을 수 있다.</option>
+      <option id="C">모든 글은 시간 순서로만 써야 하기 때문이다.</option>
+      <option id="D">사진을 넣지 않아도 되기 때문이다.</option>
+      <option id="E">정보의 출처를 생략할 수 있기 때문이다.</option>
     </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 질문과 추론이다. 읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 질문과 추론의 의미를 상황에 적용해야 한다. 읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>독자가 실제 이용 과정에서 필요한 정보를 순서대로 찾을 수 있다.</answer>
+    <explanation>안내 글은 예상 독자가 행동하는 흐름에 맞춰 정보를 조직하면 이해와 활용이 쉬워진다.</explanation>
+    <advancedExplanation>안내 글은 예상 독자가 행동하는 흐름에 맞춰 정보를 조직하면 이해와 활용이 쉬워진다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-008" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>이해 점검</concept>
-    <prompt>급식 만족도 그래프를 분석하는 학생이 있다. '이해 점검'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-008" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>시각 자료의 기능</concept>
+    <prompt>도서관 좌석 사진과 운영 시간표를 함께 제시하려 한다. 두 자료의 기능을 가장 적절하게 설명한 것은?</prompt>
     <options>
-      <option id="A">읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="D">이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
+      <option id="A">두 자료는 같은 정보를 반복하므로 하나만 남긴다.</option>
+      <option id="B">사진은 공간의 모습을 보여 주고 시간표는 이용 가능 시간을 정확히 전달한다.</option>
+      <option id="C">사진은 근거가 될 수 없으므로 삭제한다.</option>
+      <option id="D">시간표는 글보다 항상 이해하기 어렵다.</option>
+      <option id="E">시각 자료는 본문과 관계없이 배치한다.</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 이해 점검이다. 이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 이해 점검의 의미를 상황에 적용해야 한다. 이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>사진은 공간의 모습을 보여 주고 시간표는 이용 가능 시간을 정확히 전달한다.</answer>
+    <explanation>자료는 장식이 아니라 각각 전달에 적합한 정보를 맡아야 한다. 사진만으로 운영 시간을 알기 어렵고, 시간표만으로 공간의 실제 모습을 파악하기 어렵다.</explanation>
+    <advancedExplanation>자료는 장식이 아니라 각각 전달에 적합한 정보를 맡아야 한다. 사진만으로 운영 시간을 알기 어렵고, 시간표만으로 공간의 실제 모습을 파악하기 어렵다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-009" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 후 평가</concept>
-    <prompt>학급 누리집 게시글를 분석하는 학생이 있다. '읽기 후 평가'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-009" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 출처와 저작권</concept>
+    <prompt>학생이 인터넷에서 찾은 도서관 사진을 출처 표시 없이 안내문에 사용하려 한다. 가장 적절한 조언은?</prompt>
     <options>
-      <option id="A">처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</option>
-      <option id="B">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="C">자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
+      <option id="A">인터넷 자료는 모두 자유 이용이 가능하다.</option>
+      <option id="B">이용 허락 조건을 확인하고 필요한 출처를 표시하거나 직접 촬영한다.</option>
+      <option id="C">사진을 작게 쓰면 출처를 밝힐 필요가 없다.</option>
+      <option id="D">작성자 이름만 바꾸면 된다.</option>
+      <option id="E">출처를 표시하면 어떤 자료든 제한 없이 사용할 수 있다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 읽기 후 평가이다. 처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 후 평가의 의미를 상황에 적용해야 한다. 처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>이용 허락 조건을 확인하고 필요한 출처를 표시하거나 직접 촬영한다.</answer>
+    <explanation>온라인에 공개된 자료라고 해서 자유롭게 재사용할 수 있는 것은 아니다. 저작권과 이용 조건을 확인하고 출처를 밝혀야 하며, 직접 촬영한 자료도 촬영 대상의 사생활을 고려한다.</explanation>
+    <advancedExplanation>온라인에 공개된 자료라고 해서 자유롭게 재사용할 수 있는 것은 아니다. 저작권과 이용 조건을 확인하고 출처를 밝혀야 하며, 직접 촬영한 자료도 촬영 대상의 사생활을 고려한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-010" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>능동적 읽기</concept>
-    <prompt>학생회 선거 포스터를 분석하는 학생이 있다. '능동적 읽기'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-010" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>예상 독자에 맞춘 표현</concept>
+    <prompt>중학생을 대상으로 도서관 이용을 안내할 때 가장 적절한 표현 방식은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</option>
-      <option id="E">읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</option>
+      <option id="A">전문 용어를 설명 없이 최대한 많이 사용한다.</option>
+      <option id="B">학생들이 바로 이해할 수 있는 쉬운 용어와 구체적인 이용 절차를 제시한다.</option>
+      <option id="C">작성자의 개인 경험만 길게 소개한다.</option>
+      <option id="D">이용 절차보다 추상적인 찬사만 나열한다.</option>
+      <option id="E">독자와 관계없는 통계만 제시한다.</option>
     </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 능동적 읽기이다. 읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 능동적 읽기의 의미를 상황에 적용해야 한다. 읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>학생들이 바로 이해할 수 있는 쉬운 용어와 구체적인 이용 절차를 제시한다.</answer>
+    <explanation>예상 독자의 배경지식과 필요를 고려해야 한다. 전문 용어를 그대로 쓰기보다 쉬운 말로 풀고 행동 순서를 구체적으로 제시한다.</explanation>
+    <advancedExplanation>예상 독자의 배경지식과 필요를 고려해야 한다. 전문 용어를 그대로 쓰기보다 쉬운 말로 풀고 행동 순서를 구체적으로 제시한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-011" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 목적</concept>
-    <prompt>환경 보호 카드 뉴스를 분석하는 학생이 있다. '읽기 목적'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-011" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>고쳐쓰기의 내용 점검</concept>
+    <prompt>초고에 ‘도서관은 언제나 자리가 넉넉하다’고 썼지만 점심시간에는 좌석이 부족하다는 사실을 확인했다. 가장 적절한 고쳐쓰기 방법은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</option>
-      <option id="E">독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</option>
+      <option id="A">문장을 더 강하게 바꾸어 강조한다.</option>
+      <option id="B">상황에 맞게 표현을 한정하고 실제 좌석 현황을 확인할 수 있는 정보를 덧붙인다.</option>
+      <option id="C">좌석 부족 사실을 숨긴다.</option>
+      <option id="D">사진만 남기고 이용 안내를 삭제한다.</option>
+      <option id="E">문장 길이만 줄이면 내용 오류가 해결된다.</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 읽기 목적이다. 읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 목적의 의미를 상황에 적용해야 한다. 읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>상황에 맞게 표현을 한정하고 실제 좌석 현황을 확인할 수 있는 정보를 덧붙인다.</answer>
+    <explanation>초고의 주장이 실제 상황과 맞는지 점검해야 한다. 과장된 일반화를 고치고 독자가 판단할 수 있는 정확한 정보를 제시한다.</explanation>
+    <advancedExplanation>초고의 주장이 실제 상황과 맞는지 점검해야 한다. 과장된 일반화를 고치고 독자가 판단할 수 있는 정확한 정보를 제시한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-012" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 수준</concept>
-    <prompt>동아리 홍보 영상를 분석하는 학생이 있다. '읽기 수준'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-012" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자료 간 정합성</concept>
+    <prompt>안내문 본문에는 평일 운영 시간이 9~17시라고 쓰고, 삽입한 시간표에는 9~18시라고 표시했다. 고쳐쓰기 단계에서 해야 할 일은?</prompt>
     <options>
-      <option id="A">자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</option>
-      <option id="B">요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
+      <option id="A">본문을 더 눈에 띄게 꾸민다.</option>
+      <option id="B">공식 운영 정보를 확인해 본문과 시간표의 내용을 일치시킨다.</option>
+      <option id="C">시간표를 작게 만들어 차이를 감춘다.</option>
+      <option id="D">두 정보를 모두 유지해 독자가 선택하게 한다.</option>
+      <option id="E">자료 출처를 지운다.</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 읽기 수준이다. 자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 수준의 의미를 상황에 적용해야 한다. 자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>공식 운영 정보를 확인해 본문과 시간표의 내용을 일치시킨다.</answer>
+    <explanation>복합양식 글에서는 글·표·사진 설명이 서로 모순되지 않는지 확인해야 한다. 정보가 다르면 독자는 어느 내용을 따라야 할지 알 수 없다.</explanation>
+    <advancedExplanation>복합양식 글에서는 글·표·사진 설명이 서로 모순되지 않는지 확인해야 한다. 정보가 다르면 독자는 어느 내용을 따라야 할지 알 수 없다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-013" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 전 전략</concept>
-    <prompt>학교 안전 안내 자료를 분석하는 학생이 있다. '읽기 전 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-013" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>읽기 전략의 전환</concept>
+    <prompt>민서는 낯선 용어를 문맥으로 추측했지만 문단의 핵심 내용을 이해하지 못했다. 다음 행동으로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
+      <option id="A">이해하지 못한 부분을 건너뛰고 읽기를 끝낸다.</option>
+      <option id="B">용어의 뜻을 확인한 뒤 핵심 문장을 다시 읽고 요약이 맞는지 점검한다.</option>
+      <option id="C">처음 추측한 뜻을 무조건 정답으로 정한다.</option>
+      <option id="D">문단 전체를 외우기만 한다.</option>
+      <option id="E">읽기 목적과 관계없는 자료를 찾는다.</option>
     </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 읽기 전 전략이다. 목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 전 전략의 의미를 상황에 적용해야 한다. 목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>용어의 뜻을 확인한 뒤 핵심 문장을 다시 읽고 요약이 맞는지 점검한다.</answer>
+    <explanation>문맥 추측이 실패하거나 이해가 충분하지 않으면 사전 확인, 재독, 요약 등 다른 전략으로 조정해야 한다.</explanation>
+    <advancedExplanation>문맥 추측이 실패하거나 이해가 충분하지 않으면 사전 확인, 재독, 요약 등 다른 전략으로 조정해야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-014" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 중 전략</concept>
-    <prompt>도서관 이용 안내를 분석하는 학생이 있다. '읽기 중 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-014" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>추론의 근거와 한계</concept>
+    <prompt>글에 ‘그는 창문을 닫고 두꺼운 외투를 꺼냈다’고 쓰여 있다. ‘날씨가 추워졌을 것이다’라는 추론을 평가한 것으로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</option>
-      <option id="E">읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</option>
+      <option id="A">글에 직접 나온 사실이므로 추론이 아니다.</option>
+      <option id="B">행동을 근거로 한 가능한 추론이지만, 날씨 정보가 직접 제시된 것은 아니다.</option>
+      <option id="C">외투가 나오므로 계절은 반드시 겨울이다.</option>
+      <option id="D">창문을 닫았으므로 외부에 비가 온다.</option>
+      <option id="E">근거가 없어도 추론은 항상 옳다.</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 읽기 중 전략이다. 독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 중 전략의 의미를 상황에 적용해야 한다. 독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>행동을 근거로 한 가능한 추론이지만, 날씨 정보가 직접 제시된 것은 아니다.</answer>
+    <explanation>추론은 글의 단서와 배경지식을 연결해 의미를 구성하는 활동이다. 가능성 있는 해석이라도 글에 직접 나온 사실과 구분해야 한다.</explanation>
+    <advancedExplanation>추론은 글의 단서와 배경지식을 연결해 의미를 구성하는 활동이다. 가능성 있는 해석이라도 글에 직접 나온 사실과 구분해야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-015" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 후 전략</concept>
-    <prompt>청소년 독서 안내 글를 분석하는 학생이 있다. '읽기 후 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-015" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>요약의 핵심 정보</concept>
+    <prompt>설명문이 ‘자료를 고를 때 목적과 독자를 고려하고, 출처와 정확성을 확인한 뒤, 글의 흐름에 맞게 배치해야 한다’고 설명한다. 가장 적절한 요약은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</option>
-      <option id="E">요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</option>
+      <option id="A">자료는 많을수록 좋다.</option>
+      <option id="B">자료는 목적·독자에 맞게 신뢰성을 확인하고 내용 흐름에 따라 활용해야 한다.</option>
+      <option id="C">출처만 표시하면 자료 선택은 끝난다.</option>
+      <option id="D">글의 흐름보다 사진 수가 중요하다.</option>
+      <option id="E">자료의 정확성은 독자와 관계없다.</option>
     </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 읽기 후 전략이다. 요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 후 전략의 의미를 상황에 적용해야 한다. 요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>자료는 목적·독자에 맞게 신뢰성을 확인하고 내용 흐름에 따라 활용해야 한다.</answer>
+    <explanation>요약은 세부 사례를 모두 나열하기보다 핵심 관계를 간결하게 묶어야 한다. 원문의 핵심 조건인 목적·독자, 신뢰성, 배치를 포함한다.</explanation>
+    <advancedExplanation>요약은 세부 사례를 모두 나열하기보다 핵심 관계를 간결하게 묶어야 한다. 원문의 핵심 조건인 목적·독자, 신뢰성, 배치를 포함한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-016" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>예측과 확인</concept>
-    <prompt>지역 행사 기사를 분석하는 학생이 있다. '예측과 확인'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-016" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>문맥을 활용한 어휘 추론</concept>
+    <prompt>글에서 ‘작가는 불필요한 세부를 덜어 내고 핵심 형상을 부각했다’고 했다. ‘부각했다’의 의미로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">완전히 감추었다.</option>
+      <option id="B">두드러지게 드러냈다.</option>
+      <option id="C">원래와 다르게 왜곡했다.</option>
+      <option id="D">작품을 복제했다.</option>
+      <option id="E">세부를 무작위로 늘렸다.</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 예측과 확인이다. 제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 예측과 확인의 의미를 상황에 적용해야 한다. 제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>두드러지게 드러냈다.</answer>
+    <explanation>‘불필요한 세부를 덜어 내고’와 짝을 이루므로 핵심 형상을 더 눈에 띄게 했다는 뜻으로 해석할 수 있다.</explanation>
+    <advancedExplanation>‘불필요한 세부를 덜어 내고’와 짝을 이루므로 핵심 형상을 더 눈에 띄게 했다는 뜻으로 해석할 수 있다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-017" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>질문과 추론</concept>
-    <prompt>학교 축제 게시물를 분석하는 학생이 있다. '질문과 추론'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-017" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>읽기 질문 생성</concept>
+    <prompt>‘학생 수 감소’에 관한 서로 다른 뉴스 두 편을 읽는다. 두 자료를 깊이 비교하기 위한 질문으로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</option>
+      <option id="A">어느 기사의 글씨가 더 큰가?</option>
+      <option id="B">각 뉴스가 어떤 통계와 인터뷰 대상을 선택했고 무엇을 덜 다루었는가?</option>
+      <option id="C">두 기사의 제목 글자 수는 같은가?</option>
+      <option id="D">뉴스를 쓴 기자의 나이는 몇 살인가?</option>
+      <option id="E">사진의 색깔은 모두 같은가?</option>
     </options>
-    <answer>A</answer>
-    <explanation>핵심 개념은 질문과 추론이다. 읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 질문과 추론의 의미를 상황에 적용해야 한다. 읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>각 뉴스가 어떤 통계와 인터뷰 대상을 선택했고 무엇을 덜 다루었는가?</answer>
+    <explanation>자료의 관점과 선택·배제를 비교하려면 사용한 근거, 인터뷰 대상, 강조·누락 정보를 질문해야 한다.</explanation>
+    <advancedExplanation>자료의 관점과 선택·배제를 비교하려면 사용한 근거, 인터뷰 대상, 강조·누락 정보를 질문해야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-018" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>이해 점검</concept>
-    <prompt>급식 만족도 그래프를 분석하는 학생이 있다. '이해 점검'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-018" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>읽기 과정 점검</concept>
+    <prompt>글을 다 읽었지만 처음 세운 ‘주장의 근거를 확인한다’는 목적을 달성했는지 판단하기 어렵다. 읽은 뒤 가장 적절한 행동은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="C">이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</option>
+      <option id="A">읽은 쪽수를 세고 끝낸다.</option>
+      <option id="B">주장과 근거를 구분해 표시하고 근거가 주장을 뒷받침하는지 되돌아본다.</option>
+      <option id="C">기억나는 문장 하나만 외운다.</option>
+      <option id="D">읽기 목적을 바꾸고 평가를 생략한다.</option>
+      <option id="E">어려웠던 부분을 모두 삭제한다.</option>
     </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 이해 점검이다. 이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 이해 점검의 의미를 상황에 적용해야 한다. 이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>주장과 근거를 구분해 표시하고 근거가 주장을 뒷받침하는지 되돌아본다.</answer>
+    <explanation>읽기 후에는 목적 달성 여부와 이해 정도를 평가해야 한다. 필요하면 근거를 다시 찾아 읽으며 전략을 조정한다.</explanation>
+    <advancedExplanation>읽기 후에는 목적 달성 여부와 이해 정도를 평가해야 한다. 필요하면 근거를 다시 찾아 읽으며 전략을 조정한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-019" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 후 평가</concept>
-    <prompt>학급 누리집 게시글를 분석하는 학생이 있다. '읽기 후 평가'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-019" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>장면 선택과 현실 재현</concept>
+    <prompt>학생 수 감소 뉴스에서 한 영상은 빈 교실만 반복해 보여 주고 다른 영상은 통학 거리와 지역 주민 인터뷰를 함께 제시했다. 두 영상의 차이를 분석하는 기준은?</prompt>
     <options>
-      <option id="A">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="B">처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</option>
-      <option id="C">자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">영상 길이가 긴 쪽이 현실을 더 정확히 재현한다.</option>
+      <option id="B">선택한 장면과 정보가 문제를 어떤 관점에서 이해하게 하는지 비교한다.</option>
+      <option id="C">빈 교실이 나오면 학생 수 감소의 원인은 확정된다.</option>
+      <option id="D">인터뷰가 있으면 제작자의 관점은 사라진다.</option>
+      <option id="E">두 영상은 같은 주제이므로 의미도 같다.</option>
     </options>
-    <answer>B</answer>
-    <explanation>핵심 개념은 읽기 후 평가이다. 처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 후 평가의 의미를 상황에 적용해야 한다. 처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>선택한 장면과 정보가 문제를 어떤 관점에서 이해하게 하는지 비교한다.</answer>
+    <explanation>매체는 현실 전체를 그대로 옮기지 않고 일부 장면과 정보를 선택한다. 무엇을 보여 주고 제외했는지, 그 결과 어떤 관점이 강조되는지 비교해야 한다.</explanation>
+    <advancedExplanation>매체는 현실 전체를 그대로 옮기지 않고 일부 장면과 정보를 선택한다. 무엇을 보여 주고 제외했는지, 그 결과 어떤 관점이 강조되는지 비교해야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-020" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>능동적 읽기</concept>
-    <prompt>학생회 선거 포스터를 분석하는 학생이 있다. '능동적 읽기'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-020" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>자막의 프레이밍</concept>
+    <prompt>같은 장면에 A 영상은 ‘텅 빈 학교의 위기’, B 영상은 ‘새로운 교육 환경을 준비할 때’라는 자막을 붙였다. 자막의 역할로 가장 적절한 것은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="E">읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</option>
+      <option id="A">장면의 실제 촬영 장소를 바꾼다.</option>
+      <option id="B">같은 장면을 해석하는 방향을 달리해 시청자의 판단에 영향을 준다.</option>
+      <option id="C">영상의 사실 여부를 자동으로 증명한다.</option>
+      <option id="D">시청자의 해석에 아무런 영향을 주지 않는다.</option>
+      <option id="E">자막은 영상 내용과 무관하다.</option>
     </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 능동적 읽기이다. 읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 능동적 읽기의 의미를 상황에 적용해야 한다. 읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>같은 장면을 해석하는 방향을 달리해 시청자의 판단에 영향을 준다.</answer>
+    <explanation>자막은 장면의 의미를 특정 방향으로 이끌 수 있다. 장면 자체와 제작자가 덧붙인 언어적 해석을 구분해 살펴야 한다.</explanation>
+    <advancedExplanation>자막은 장면의 의미를 특정 방향으로 이끌 수 있다. 장면 자체와 제작자가 덧붙인 언어적 해석을 구분해 살펴야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-021" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 목적</concept>
-    <prompt>환경 보호 카드 뉴스를 분석하는 학생이 있다. '읽기 목적'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-021" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>정보 배제의 영향</concept>
+    <prompt>지역 축제 보도에서 방문객 인터뷰만 싣고 주변 주민의 소음 민원은 다루지 않았다. 이 보도의 한계를 가장 적절하게 설명한 것은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</option>
+      <option id="A">방문객 인터뷰가 있으므로 모든 관점이 포함되었다.</option>
+      <option id="B">축제의 긍정적 경험은 드러나지만 주변 주민의 관점과 갈등은 충분히 나타나지 않는다.</option>
+      <option id="C">민원은 축제와 관계없는 정보이므로 항상 제외해야 한다.</option>
+      <option id="D">인터뷰가 한 종류면 보도는 거짓이다.</option>
+      <option id="E">제외된 정보는 시청자 판단에 영향을 주지 않는다.</option>
     </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 읽기 목적이다. 읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 목적의 의미를 상황에 적용해야 한다. 읽기 전에 목적을 정하고 그 목적에 맞는 글을 선택한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>축제의 긍정적 경험은 드러나지만 주변 주민의 관점과 갈등은 충분히 나타나지 않는다.</answer>
+    <explanation>어떤 정보를 제외했는지 살피면 재현의 한계를 파악할 수 있다. 방문객 인터뷰만으로 축제에 대한 지역사회 전체의 평가를 대표할 수 없다.</explanation>
+    <advancedExplanation>어떤 정보를 제외했는지 살피면 재현의 한계를 파악할 수 있다. 방문객 인터뷰만으로 축제에 대한 지역사회 전체의 평가를 대표할 수 없다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-022" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 수준</concept>
-    <prompt>동아리 홍보 영상를 분석하는 학생이 있다. '읽기 수준'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-022" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>편집 순서의 효과</concept>
+    <prompt>재난 보도 영상이 피해 장면을 먼저 보여 준 뒤 복구 통계를 제시했다. 편집 순서가 시청자에게 미칠 수 있는 영향은?</prompt>
     <options>
-      <option id="A">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="B">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="C">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="D">요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</option>
-      <option id="E">자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</option>
+      <option id="A">편집 순서는 의미 형성에 영향을 주지 않는다.</option>
+      <option id="B">초반의 강한 장면이 문제를 바라보는 정서와 이후 정보 해석에 영향을 줄 수 있다.</option>
+      <option id="C">통계가 뒤에 나오면 통계는 반드시 조작된 것이다.</option>
+      <option id="D">피해 장면은 언제나 삭제해야 한다.</option>
+      <option id="E">영상 순서는 촬영 순서와 반드시 같아야 한다.</option>
     </options>
-    <answer>E</answer>
-    <explanation>핵심 개념은 읽기 수준이다. 자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 수준의 의미를 상황에 적용해야 한다. 자신의 배경지식·읽기 능력·흥미를 고려해 적절한 글을 고른다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>초반의 강한 장면이 문제를 바라보는 정서와 이후 정보 해석에 영향을 줄 수 있다.</answer>
+    <explanation>영상은 정보의 배열 순서와 장면 길이도 의미 구성에 관여한다. 따라서 어떤 장면을 먼저·오래 보여 주는지 살펴야 한다.</explanation>
+    <advancedExplanation>영상은 정보의 배열 순서와 장면 길이도 의미 구성에 관여한다. 따라서 어떤 장면을 먼저·오래 보여 주는지 살펴야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-023" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 전 전략</concept>
-    <prompt>학교 안전 안내 자료를 분석하는 학생이 있다. '읽기 전 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-023" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>고정 관념의 재생산</concept>
+    <prompt>학교 홍보 영상에서 과학 동아리 활동은 남학생만, 미술 활동은 여학생만 참여하는 모습으로 반복 제시했다. 비판적으로 볼 점은?</prompt>
     <options>
-      <option id="A">제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</option>
-      <option id="B">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="C">목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</option>
-      <option id="D">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="E">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
+      <option id="A">실제 학생이 출연했으므로 문제될 것이 없다.</option>
+      <option id="B">특정 성별과 활동을 연결하는 고정 관념을 강화할 수 있다.</option>
+      <option id="C">동아리 활동은 성별과 무관하므로 표현은 영향을 주지 않는다.</option>
+      <option id="D">영상에 자막이 없으면 고정 관념이 생기지 않는다.</option>
+      <option id="E">홍보물은 사실 여부만 확인하면 된다.</option>
     </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 읽기 전 전략이다. 목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 전 전략의 의미를 상황에 적용해야 한다. 목적 정하기, 글 선정, 예측하기, 배경지식 활성화 등을 활용한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>특정 성별과 활동을 연결하는 고정 관념을 강화할 수 있다.</answer>
+    <explanation>반복적으로 특정 집단을 특정 역할에만 배치하면 시청자가 그 연결을 자연스럽고 당연한 것으로 받아들일 수 있다.</explanation>
+    <advancedExplanation>반복적으로 특정 집단을 특정 역할에만 배치하면 시청자가 그 연결을 자연스럽고 당연한 것으로 받아들일 수 있다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-024" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 중 전략</concept>
-    <prompt>도서관 이용 안내를 분석하는 학생이 있다. '읽기 중 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-024" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>이미지와 통계의 관계</concept>
+    <prompt>학생 수 감소를 다룬 기사에 빈 운동장 사진과 함께 ‘학생 수 10년간 20% 감소’ 통계를 제시했다. 사진과 통계의 관계를 평가하는 방법은?</prompt>
     <options>
-      <option id="A">읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</option>
-      <option id="B">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="C">독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</option>
-      <option id="D">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
-      <option id="E">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
+      <option id="A">사진이 통계와 함께 있으면 통계는 검증된 것이다.</option>
+      <option id="B">사진이 통계의 대상·기간·지역을 실제로 대표하는지 확인한다.</option>
+      <option id="C">사진은 감정을 전달하므로 분석에서 제외한다.</option>
+      <option id="D">통계 수치가 있으면 사진의 맥락은 중요하지 않다.</option>
+      <option id="E">빈 운동장은 모든 학교의 상황을 대표한다.</option>
     </options>
-    <answer>C</answer>
-    <explanation>핵심 개념은 읽기 중 전략이다. 독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 중 전략의 의미를 상황에 적용해야 한다. 독서 환경 확인, 예측 확인, 질문하기, 답 찾기, 추론하기 등을 활용한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>사진이 통계의 대상·기간·지역을 실제로 대표하는지 확인한다.</answer>
+    <explanation>사진은 분위기를 전달하지만 통계의 범위와 대표성을 자동으로 증명하지 않는다. 사진 촬영 시점·장소와 통계의 범위를 대조해야 한다.</explanation>
+    <advancedExplanation>사진은 분위기를 전달하지만 통계의 범위와 대표성을 자동으로 증명하지 않는다. 사진 촬영 시점·장소와 통계의 범위를 대조해야 한다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-025" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>읽기 후 전략</concept>
-    <prompt>청소년 독서 안내 글를 분석하는 학생이 있다. '읽기 후 전략'에 관한 설명으로 가장 적절한 것은?</prompt>
+    <question id="KOR2S2-3-025" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+    <concept>매체 관점 비교</concept>
+    <prompt>학생 수 감소를 다룬 뉴스 A는 폐교 건물과 빈 교실을 보여 주고, 뉴스 B는 통학 거리와 주민 인터뷰를 제시했다. 두 뉴스의 관점을 비교할 때 가장 적절한 기준은?</prompt>
     <options>
-      <option id="A">자료의 출처와 근거는 확인하지 않고 겉모습만 본다.</option>
-      <option id="B">이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</option>
-      <option id="C">자료에 제시된 내용을 모두 사실이라고 보고 추가 확인을 하지 않는다.</option>
-      <option id="D">요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</option>
-      <option id="E">예상 독자와 목적은 고려하지 않고 작성자의 취향만 따른다.</option>
+      <option id="A">영상의 배경 음악이 더 큰 쪽을 고른다.</option>
+      <option id="B">각 뉴스가 선택한 장면·인터뷰 대상·강조한 문제와 제외한 정보를 함께 살핀다.</option>
+      <option id="C">화면 전환이 빠른 쪽이 객관적이다.</option>
+      <option id="D">뉴스 제목이 짧은 쪽이 사실에 가깝다.</option>
+      <option id="E">인터뷰 수가 많은 쪽은 무조건 중립적이다.</option>
     </options>
-    <answer>D</answer>
-    <explanation>핵심 개념은 읽기 후 전략이다. 요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 후 전략의 의미를 상황에 적용해야 한다. 요약, 주제 파악, 읽기 활동 평가, 추가 탐구 내용 찾기 등을 한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <answer>각 뉴스가 선택한 장면·인터뷰 대상·강조한 문제와 제외한 정보를 함께 살핀다.</answer>
+    <explanation>같은 현상을 다뤄도 어떤 장면과 목소리를 선택하는지에 따라 문제의 원인과 해결 방향을 다르게 이해하게 된다.</explanation>
+    <advancedExplanation>같은 현상을 다뤄도 어떤 장면과 목소리를 선택하는지에 따라 문제의 원인과 해결 방향을 다르게 이해하게 된다. 각 선택지를 검토할 때에는 질문이 요구하는 판단 기준과 자료에서 확인할 수 있는 근거를 연결해야 한다. 오답은 자료의 범위를 확대하거나, 근거가 없는 사실을 덧붙이거나, 표현의 일부만 보고 전체 의미를 단정한 경우이다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-026" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>예측과 확인</concept>
-    <prompt>읽기 전 전략 두 가지를 쓰시오.</prompt>
-    <answer>제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</answer>
-    <explanation>핵심 개념은 예측과 확인이다. 제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 예측과 확인의 의미를 상황에 적용해야 한다. 제목·그림·배경지식으로 내용을 예상하고 실제 내용과 비교한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-3-026" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>일반화의 한계</concept>
+    <prompt>한 중학교 학생 120명의 MBTI 흥미 이유 설문으로 전국 중학생의 생각을 단정하기 어려운 까닭을 두 가지 쓰시오.</prompt>
+    <answer>한 학교 학생만 조사해 표본의 대표성이 부족할 수 있고, 설문은 흥미 이유만 물었으므로 전국 중학생 전체의 생각을 측정했다고 볼 수 없다.</answer>
+    <explanation>채점 요소: ① 한 학교 표본의 대표성 한계 ② 조사 문항이 측정한 범위의 한계. ‘표본이 적다’만 쓰면 일부 인정한다. 응답 결과를 전국 전체의 사실로 확대하면 안 된다.</explanation>
+    <advancedExplanation>채점 요소: ① 한 학교 표본의 대표성 한계 ② 조사 문항이 측정한 범위의 한계. ‘표본이 적다’만 쓰면 일부 인정한다. 응답 결과를 전국 전체의 사실로 확대하면 안 된다. 채점 요소: ① 한 학교 표본의 대표성 한계 ② 조사 문항이 측정한 범위의 한계. ‘표본이 적다’만 쓰면 일부 인정한다. 응답 결과를 전국 전체의 사실로 확대하면 안 된다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-027" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>질문과 추론</concept>
-    <prompt>읽기 중 전략 두 가지를 쓰시오.</prompt>
-    <answer>읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</answer>
-    <explanation>핵심 개념은 질문과 추론이다. 읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 질문과 추론의 의미를 상황에 적용해야 한다. 읽는 중 생긴 질문의 답을 찾고 글의 단서에 근거해 의미를 추론한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-3-027" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="글과 자료 평가하며 읽기" scopePages="70-87" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>그래프 해석</concept>
+    <prompt>그래프의 세로축이 40%부터 시작할 때 자료를 읽는 사람이 주의해야 할 점을 쓰시오.</prompt>
+    <answer>세로축의 시작점 때문에 실제 비율 차이가 시각적으로 과장되어 보일 수 있으므로 축과 눈금을 확인해야 한다.</answer>
+    <explanation>채점 요소: ① 축 시작점 확인 ② 차이가 과장될 가능성 설명. 단순히 ‘그래프를 믿지 않는다’는 답은 불충분하다.</explanation>
+    <advancedExplanation>채점 요소: ① 축 시작점 확인 ② 차이가 과장될 가능성 설명. 단순히 ‘그래프를 믿지 않는다’는 답은 불충분하다. 채점 요소: ① 축 시작점 확인 ② 차이가 과장될 가능성 설명. 단순히 ‘그래프를 믿지 않는다’는 답은 불충분하다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-028" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>이해 점검</concept>
-    <prompt>읽기 후 전략 두 가지를 쓰시오.</prompt>
-    <answer>이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</answer>
-    <explanation>핵심 개념은 이해 점검이다. 이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 이해 점검의 의미를 상황에 적용해야 한다. 이해 여부를 확인하고 어려우면 사전·메모 등 전략을 활용해 조정한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-3-028" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="복합양식 자료를 활용하여 글 쓰기" scopePages="88-119" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>독자 맞춤 글쓰기</concept>
+    <prompt>중학생에게 도서관 이용을 안내하는 글을 쓸 때 예상 독자를 고려해 표현과 자료를 어떻게 구성할지 두 가지 쓰시오.</prompt>
+    <answer>쉬운 용어로 이용 절차를 단계별로 설명하고, 운영 시간표나 실제 공간 사진처럼 학생에게 필요한 자료를 함께 제시한다.</answer>
+    <explanation>채점 요소: ① 독자 수준에 맞는 쉬운 표현·구체적 절차 ② 목적에 맞는 시각 자료 선택. ‘재미있게 쓴다’만으로는 구체성이 부족하다.</explanation>
+    <advancedExplanation>채점 요소: ① 독자 수준에 맞는 쉬운 표현·구체적 절차 ② 목적에 맞는 시각 자료 선택. ‘재미있게 쓴다’만으로는 구체성이 부족하다. 채점 요소: ① 독자 수준에 맞는 쉬운 표현·구체적 절차 ② 목적에 맞는 시각 자료 선택. ‘재미있게 쓴다’만으로는 구체성이 부족하다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-029" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>읽기 후 평가</concept>
-    <prompt>자신의 수준에 맞는 글을 선정해야 하는 까닭을 쓰시오.</prompt>
-    <answer>처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</answer>
-    <explanation>핵심 개념은 읽기 후 평가이다. 처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 읽기 후 평가의 의미를 상황에 적용해야 한다. 처음 정한 읽기 목적을 달성했는지 평가하고 더 알고 싶은 내용을 찾는다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-3-029" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>읽기 전략 조정</concept>
+    <prompt>글을 읽다가 핵심 개념을 이해하지 못했을 때 사용할 수 있는 읽기 전략 두 가지와 그 목적을 쓰시오.</prompt>
+    <answer>낯선 어휘를 사전이나 문맥으로 확인하고 핵심 문장을 다시 읽어 요약하여 이해 여부를 점검한다.</answer>
+    <explanation>채점 요소: 서로 다른 전략 두 가지와 각 전략의 목적. ‘다시 읽는다’만 반복하면 한 가지 전략으로 본다.</explanation>
+    <advancedExplanation>채점 요소: 서로 다른 전략 두 가지와 각 전략의 목적. ‘다시 읽는다’만 반복하면 한 가지 전략으로 본다. 채점 요소: 서로 다른 전략 두 가지와 각 전략의 목적. ‘다시 읽는다’만 반복하면 한 가지 전략으로 본다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-3-030" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="점검하고 조정하며 읽기" scopePages="166-187" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-    <concept>능동적 읽기</concept>
-    <prompt>읽다가 이해가 어려울 때 사용할 조정 방법 한 가지를 쓰시오.</prompt>
-    <answer>읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</answer>
-    <explanation>핵심 개념은 능동적 읽기이다. 읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다.</explanation>
-    <advancedExplanation>정답을 판단할 때에는 능동적 읽기의 의미를 상황에 적용해야 한다. 읽기 전·중·후 전략을 목적과 상황에 맞게 선택하고 조정한다. 단순히 용어를 외우는 데 그치지 말고 자료의 목적과 맥락, 제시된 근거를 함께 살펴야 한다.</advancedExplanation>
+    <question id="KOR2S2-3-030" stage="3" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+    <concept>누락된 관점 분석</concept>
+    <prompt>지역 축제 보도가 방문객의 만족 인터뷰만 제시하고 주변 주민의 불편은 다루지 않았다. 이 자료의 한계와 보완할 정보를 쓰시오.</prompt>
+    <answer>방문객의 긍정적 경험만 드러나 지역 주민의 관점이 빠져 있다. 주민 인터뷰나 소음·교통 관련 자료를 함께 제시해야 한다.</answer>
+    <explanation>채점 요소: ① 누락된 주민 관점 지적 ② 보완할 구체적 정보 제안. ‘편향되었다’만 쓰면 근거가 부족하다.</explanation>
+    <advancedExplanation>채점 요소: ① 누락된 주민 관점 지적 ② 보완할 구체적 정보 제안. ‘편향되었다’만 쓰면 근거가 부족하다. 채점 요소: ① 누락된 주민 관점 지적 ② 보완할 구체적 정보 제안. ‘편향되었다’만 쓰면 근거가 부족하다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="KOR2S2-4-001" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
