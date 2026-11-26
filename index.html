@@ -528,10 +528,15 @@ function submitFinalExam(){
 }
 function loadRoundResults(){try{return JSON.parse(localStorage.getItem(ROUND_RESULTS_KEY)||'[]')}catch(e){return []}}
 function saveRoundResults(rows){try{localStorage.setItem(ROUND_RESULTS_KEY,JSON.stringify(rows))}catch(e){alert('회차 풀이 기록을 저장하지 못했습니다. 저장 공간을 확인해 주세요.')}}
-function roundBankPath(n){return n===0?'drafts/question-bank/rebuild/2026-11-26_KOR2S2_reserve_rebuild.xml':'drafts/question-bank/rebuild/2026-11-26_KOR2S2_stage'+n+'_rebuild'+(n<=2?'_partial':'')+'.xml'}
+function roundBankPath(n){return n===-1?'drafts/question-bank/rebuild/2026-11-26_KOR2S2_reserve_rebuild.xml':'drafts/question-bank/중2_2학기_국어_기말_문제은행_150문항.xml'}
 function loadRoundBank(n){
  if(roundBanks[n])return Promise.resolve(roundBanks[n]);
- return fetchText(roundBankPath(n)).then(function(t){var d=parseXmlOrThrow(t,n===0?'예비 문제은행':n+'차 문제은행');roundBanks[n]=d;return d});
+ return fetchText(roundBankPath(n)).then(function(t){var d=parseXmlOrThrow(t,n===-1?'예비 문제은행':'통합 문제은행');roundBanks[n]=d;return d});
+}
+function shuffleRound(items){var a=items.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),v=a[i];a[i]=a[j];a[j]=v}return a}
+function getRoundUnit(q){return q.getAttribute('unit')||'기타'}
+function allPreviouslyUsed(){
+ var used={};loadRoundResults().forEach(function(r){Object.keys(r.answers||{}).forEach(function(k){used[k]=true})});return used;
 }
 function roundLatest(n){var rows=loadRoundResults().filter(function(r){return r.stage===n});return rows.length?rows[rows.length-1]:null}
 function renderRoundCards(){
@@ -548,17 +553,24 @@ function renderRoundCards(){
  var finalCard=document.createElement('div');finalCard.className='card';finalCard.innerHTML='<b>FINAL 예상 기말고사</b><p class="meta">별도 26문항 · 기존 FINAL 기록 유지</p>';box.appendChild(finalCard);
 }
 function roundQuestionList(stage,previousWrong){
- var refs=stage>1?(previousWrong||[]):[],loads=[loadRoundBank(stage)];
- refs.forEach(function(ref){if(ref.stage>=0)loads.push(loadRoundBank(ref.stage))});
+ var refs=stage>1?(previousWrong||[]):[],loads=[loadRoundBank(0)];
+ refs.forEach(function(ref){if(ref.stage===-1)loads.push(loadRoundBank(-1))});
  return Promise.all(loads).then(function(){
-  var bank=roundBanks[stage],bankQs=Array.prototype.slice.call(bank.getElementsByTagName('question')),chosen=[],used={};
+  var bank=roundBanks[0],all=Array.prototype.slice.call(bank.getElementsByTagName('question')),chosen=[],used={},prior=allPreviouslyUsed();
   function addRef(ref){var key=ref.stage+'|'+ref.id;if(used[key])return;var source=roundBanks[ref.stage];if(!source)return;var qs=source.getElementsByTagName('question');for(var i=0;i<qs.length;i++){if(qs[i].getAttribute('id')===ref.id){chosen.push({node:qs[i],sourceStage:ref.stage,sourceId:ref.id});used[key]=true;return}}}
   refs.forEach(addRef);
-  for(var i=0;i<bankQs.length&&chosen.length<30;i++){var id=bankQs[i].getAttribute('id'),key=stage+'|'+id;if(!used[key]){chosen.push({node:bankQs[i],sourceStage:stage,sourceId:id});used[key]=true}}
+  var fresh=all.filter(function(q){var id=q.getAttribute('id'),key='0|'+id;return !used[key]&&!prior[key]});
+  if(stage===1){
+   var groups={};fresh.forEach(function(q){var u=getRoundUnit(q);(groups[u]=groups[u]||[]).push(q)});
+   var unitNames=Object.keys(groups),picked=[];
+   unitNames.forEach(function(u){picked.push.apply(picked,shuffleRound(groups[u]).slice(0,Math.ceil(30/unitNames.length)))});
+   fresh=shuffleRound(picked).slice(0,30);
+  }else fresh=shuffleRound(fresh);
+  fresh.forEach(function(q){if(chosen.length>=30)return;var id=q.getAttribute('id'),key='0|'+id;if(!used[key]){chosen.push({node:q,sourceStage:0,sourceId:id});used[key]=true}});
   if(chosen.length<30){
-   return loadRoundBank(0).then(function(reserve){
-    var qs=reserve.getElementsByTagName('question');
-    Array.prototype.forEach.call(qs,function(q){if(chosen.length>=30)return;var id=q.getAttribute('id'),key='0|'+id;if(!used[key]){chosen.push({node:q,sourceStage:0,sourceId:id});used[key]=true}});
+   return loadRoundBank(-1).then(function(reserve){
+    var qs=shuffleRound(Array.prototype.slice.call(reserve.getElementsByTagName('question')));
+    qs.forEach(function(q){if(chosen.length>=30)return;var id=q.getAttribute('id'),key='-1|'+id;if(!used[key]&&!prior[key]){chosen.push({node:q,sourceStage:-1,sourceId:id});used[key]=true}});
     if(chosen.length<30)throw new Error('문항이 30개 미만입니다. 현재 '+chosen.length+'개');
     return chosen;
    });
