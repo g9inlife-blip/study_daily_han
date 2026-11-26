@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <examBank schemaVersion="1.0" revision="2-rebuild" status="draft_revised" subject="국어" schoolLevel="중학교" grade="2" semester="2" textbook="미래엔 중학교 국어 2-2 (민병곤 외)" sourcePages="188-199" created="2026-11-26">
   <metadata><questionCount>30</questionCount><multipleChoiceCount>25</multipleChoiceCount><shortAnswerCount>5</shortAnswerCount><completion>4단원 교과서 핵심 목표 중심으로 전면 재구성. 문항별 교육적 재검수 예정.</completion><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics></metadata>
-  <question id="KOR2S2-V2-4-001" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체 자료는 현실 전체가 아니라 선택·구성된 일부를 보여 준다. 위험한 횡단보도만 제시하면 문제의 심각성이 부각되지만, 그것만으로 학교 주변 전체가 위험하다고 단정할 수는 없다. A·D는 선택과 구성의 영향을 무시한다. C는 일부 정보의 생략을 곧바로 거짓으로 단정한다. E는 한 장면을 전체에 일반화한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-001" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>매체의 현실 재현</concept>
     <prompt>학교 주변의 교통 문제를 다룬 홍보 영상이 위험한 횡단보도만 보여 주고 안전하게 정비된 길은 보여 주지 않았다. 이 영상에 대한 설명으로 가장 적절한 것은?</prompt>
     <options><option id="A">영상은 현실을 있는 그대로 빠짐없이 전달한다.</option><option id="B">위험한 장면을 선택해 보여 줌으로써 교통 문제의 심각성을 강조한다.</option><option id="C">안전한 길을 보여 주지 않았으므로 영상 전체가 거짓이다.</option><option id="D">촬영한 장면은 제작자의 관점과 무관하다.</option><option id="E">영상에 나온 장소는 모두 같은 위험도를 가진다.</option></options>
@@ -10,7 +10,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-002" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="홍보물은 목적에 맞는 장면을 선택해 수용자의 관심과 행동을 유도한다. 다만 일부 장면만으로 실제 축제의 모든 측면을 알 수 없으므로 다른 정보도 확인해야 한다. B·C는 홍보물의 선택을 객관적 증명으로 오해하고, D는 일부 방문객을 전체로 일반화한다. E는 제작 목적과 표현 선택의 관계를 부정한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-002" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>제작자의 의도</concept>
     <prompt>지역 축제 홍보물에 공연 장면과 방문객의 웃는 얼굴만 담고 교통 혼잡이나 소음 문제는 담지 않았다. 제작자의 의도를 추론한 것으로 가장 적절한 것은?</prompt>
     <options><option id="A">축제의 긍정적인 이미지를 강조해 방문을 유도하려는 의도일 수 있다.</option><option id="B">축제에 문제가 전혀 없음을 객관적으로 증명하려는 것이다.</option><option id="C">교통 혼잡이 존재하지 않는다는 사실이 확인된다.</option><option id="D">방문객의 표정은 축제의 모든 측면을 대표한다.</option><option id="E">홍보물에는 제작자의 의도가 반영될 수 없다.</option></options>
@@ -19,7 +19,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-003" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="이미지는 무엇을 보여 주고 무엇을 제외하는지에 따라 주제에 대한 인상을 형성한다. 깨끗한 숲은 지켜야 할 자연의 모습을 강조하지만, 환경 문제가 해결되었다는 근거는 아니다. A·C는 이미지의 상징적 효과를 사실 판단으로 바꾸고, D는 복합양식 표현의 상호작용을 무시한다. E는 미적 완성도와 주장 타당성을 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-003" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>이미지의 선택과 배제</concept>
     <prompt>환경 보호 포스터가 깨끗한 숲 사진과 ‘우리의 선택이 숲을 지킵니다’라는 문구를 사용하고, 쓰레기가 쌓인 장소의 사진은 넣지 않았다. 이미지 선택의 효과로 가장 적절한 것은?</prompt>
     <options><option id="A">환경 문제가 이미 해결되었다는 사실을 증명한다.</option><option id="B">깨끗한 숲의 이미지를 통해 보호해야 할 대상을 긍정적으로 떠올리게 한다.</option><option id="C">쓰레기 문제는 존재하지 않는다고 결론 내리게 한다.</option><option id="D">문구와 이미지의 관계는 의미 형성에 영향을 주지 않는다.</option><option id="E">사진이 아름다우므로 포스터의 모든 주장은 사실이다.</option></options>
@@ -28,7 +28,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-004" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="대상을 어떤 말로 이름 붙이고 어떤 특징을 앞세우는지에 따라 관점이 드러난다. 두 문구는 동일한 사업의 편익과 환경 영향을 각각 부각할 수 있으므로 사업 계획과 실제 자료를 함께 살펴야 한다. A·D는 표현의 관점 형성 기능을 부정한다. C는 관점 차이를 사실·거짓의 이분법으로 처리하고, E는 표현 차이를 대상 자체의 차이로 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-004" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>문구의 관점</concept>
     <prompt>같은 공원 조성 사업을 두고 홍보물 1은 ‘도심에 생기는 새로운 쉼터’, 홍보물 2는 ‘나무가 사라지는 공사 현장’이라고 표현했다. 두 문구의 차이를 가장 잘 설명한 것은?</prompt>
     <options><option id="A">두 문구는 같은 단어를 사용하므로 관점이 같다.</option><option id="B">첫 문구는 편의와 혜택을, 둘째 문구는 자연 훼손 가능성을 강조한다.</option><option id="C">둘 중 하나는 반드시 사실이 아니다.</option><option id="D">문구는 이미지가 없으면 관점을 드러낼 수 없다.</option><option id="E">표현이 다르므로 실제 사업도 서로 다른 사업이다.</option></options>
@@ -37,7 +37,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-005" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 성공 사례를 선택해 효과를 강조할 수 있다. 한 명의 사례는 가능성을 보여 줄 뿐 모든 사람에게 같은 결과가 나타난다는 증거는 아니다. 수강 기간, 학습량, 전체 수강생의 결과 등 추가 근거가 필요하다. A는 외형에 치우치고, C·D는 강조 표현과 단일 사례를 충분한 증거로 착각한다. E는 광고의 설득 목적을 이유로 비판적 검토를 포기한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-005" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>광고의 설득 방식</concept>
     <prompt>학원 광고가 성적이 크게 오른 학생 한 명의 사례와 ‘누구나 성적 향상!’이라는 문구를 제시한다. 광고를 비판적으로 볼 때 가장 먼저 확인할 점은?</prompt>
     <options><option id="A">학생의 사진이 선명한지 확인한다.</option><option id="B">한 명의 사례가 모든 학생에게 적용되는지, 다른 결과와 조건은 어떠한지 확인한다.</option><option id="C">광고 문구가 크면 근거가 충분하다고 판단한다.</option><option id="D">학생의 사례가 있으므로 누구나 같은 결과를 얻는다고 본다.</option><option id="E">광고는 홍보 목적이므로 검토할 필요가 없다.</option></options>
@@ -46,7 +46,7 @@
     <advancedExplanation>상</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-006" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체 자료는 누구를 대표 사례로 선택하는지에 따라 집단에 대한 인식을 형성한다. 다양한 직업인을 균형 있게 제시하면 특정 성별만 해당 직업에 어울린다는 인상을 줄일 수 있다. B는 편향된 재현을 현실 전체로 일반화한다. C는 실제 인물이라는 이유로 선택의 편향을 무시하고, D·E는 반복 노출의 영향을 간과한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-006" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>고정 관념의 재현</concept>
     <prompt>직업 소개 포스터에서 간호사는 여성 사진으로, 기계 기술자는 남성 사진으로만 제시했다. 이 자료를 비판적으로 평가한 내용은?</prompt>
     <options><option id="A">직업별 성별 고정 관념을 강화할 수 있으므로 다양한 성별의 직업인을 함께 보여 주는 것이 바람직하다.</option><option id="B">실제 직업인은 모두 포스터와 같은 성별이다.</option><option id="C">사진이 실제 인물이라면 고정 관념과 관계없다.</option><option id="D">직업을 쉽게 이해시키므로 성별 구분은 문제가 없다.</option><option id="E">포스터의 사진은 직업에 대한 인식에 영향을 주지 않는다.</option></options>
@@ -55,7 +55,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-007" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="특정 집단을 한 가지 모습으로 반복 재현하면 다양한 개인과 생활 모습을 지우고 고정 관념을 강화할 수 있다. 제작자는 누구를 어떤 상황에서 보여 주는지 점검해야 한다. B는 오락성을 이유로 차별적 표현을 정당화하고, C는 한 사람을 전체로 일반화한다. D·E는 매체의 사회적 영향과 당사자 관점을 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-007" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>특정 집단의 재현</concept>
     <prompt>관광 안내 영상이 특정 지역 주민을 늘 게으르고 무질서한 모습으로 묘사한다. 가장 적절한 비판은?</prompt>
     <options><option id="A">일부 장면만으로 집단 전체의 특성을 일반화해 편견을 만들 수 있다.</option><option id="B">재미있는 영상이면 집단을 어떻게 표현해도 괜찮다.</option><option id="C">실제 주민 한 명이 등장했으므로 전체 묘사가 정확하다.</option><option id="D">영상은 사진과 달리 고정 관념을 만들지 않는다.</option><option id="E">지역 주민의 의견은 매체 자료 해석과 관계없다.</option></options>
@@ -64,7 +64,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-008" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="문자와 이미지는 함께 의미를 만든다. 사진이 한산한 시점에 촬영되었을 수도 있으므로 곧바로 거짓이라고 단정하지 말고 촬영 시점·장소와 ‘주말마다’라는 표현의 근거를 확인해야 한다. A·B는 한 요소만으로 결론을 내리고, D는 홍보 목적을 정확성 면제 사유로 오해한다. E는 표현 조작으로 근거 부족을 해결하려 한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-008" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>사진과 문구의 관계</concept>
     <prompt>지역 상점 홍보물에 한산한 거리 사진을 넣고 ‘주말마다 발 디딜 틈 없는 명소’라고 적었다. 가장 적절한 평가 방법은?</prompt>
     <options><option id="A">문구만 읽고 실제로 붐빈다고 판단한다.</option><option id="B">사진만 보고 상점이 인기가 없다고 확정한다.</option><option id="C">사진 촬영 시점과 장소, 문구의 근거를 확인해 이미지와 설명이 일치하는지 살핀다.</option><option id="D">홍보물이므로 사진과 문구가 달라도 문제가 없다.</option><option id="E">사진의 색을 바꾸면 문구의 타당성이 높아진다.</option></options>
@@ -73,7 +73,7 @@
     <advancedExplanation>상</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-009" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="누구의 목소리를 포함하고 제외하는지는 매체의 관점에 영향을 준다. 수상자와 교장의 경험은 의미가 있지만 일반 학생의 경험까지 대표한다고 볼 수는 없다. B·E는 대표성을 근거 없이 부여하고, C는 일부 생략을 곧바로 거짓으로 단정한다. D는 인물 선택의 효과를 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-009" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>선택된 인물</concept>
     <prompt>학교 홍보 영상에서 수상한 학생과 교장만 인터뷰하고 일반 학생의 의견은 담지 않았다. 이 구성의 한계를 가장 잘 설명한 것은?</prompt>
     <options><option id="A">인터뷰 대상의 선택에 따라 학교생활의 특정 측면만 대표되는 것처럼 보일 수 있다.</option><option id="B">수상자와 교장의 말은 모든 학생의 생각을 자동으로 대표한다.</option><option id="C">일반 학생이 나오지 않으면 영상은 무조건 거짓이다.</option><option id="D">인터뷰 대상은 영상의 관점과 무관하다.</option><option id="E">등장인물 수가 적으면 메시지가 객관적이다.</option></options>
@@ -82,7 +82,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-010" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 소비자의 관심을 끌기 위해 효과를 크게 표현할 수 있다. 건강이나 성능에 관한 주장은 검증 자료와 조건이 필요하다. A·C는 표현의 자신감이나 제품 사진을 증거로 착각한다. D는 인기와 사실성을 혼동하고, E는 기억에 남는 표현과 정확성을 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-010" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>광고의 과장 표현</concept>
     <prompt>음료 광고가 ‘마시면 하루 종일 피로가 사라진다’고 주장하지만 구체적인 근거는 제시하지 않았다. 가장 타당한 반응은?</prompt>
     <options><option id="A">광고 문구가 단정적이므로 사실로 받아들인다.</option><option id="B">효과를 뒷받침하는 신뢰할 만한 근거와 적용 조건을 확인하고 과장 여부를 판단한다.</option><option id="C">광고에 제품 사진이 있으므로 효과가 입증된다.</option><option id="D">많이 판매되면 광고의 모든 표현이 사실이다.</option><option id="E">문구가 기억에 남으면 정확한 광고이다.</option></options>
@@ -91,7 +91,7 @@
     <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-011" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체 자료의 의미는 포함된 정보뿐 아니라 제외된 정보와도 관련된다. 이주 주민의 생활 변화는 사업 평가에 중요한 요소일 수 있으므로 관련 자료를 추가로 확인해야 한다. B·C는 보이지 않는 정보를 부정하거나 임의로 추정한다. D는 홍보물의 목적을 일방적 정보 제공으로 오해하고, E는 의도적 선택 가능성을 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-011" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>생략의 효과</concept>
     <prompt>재개발 홍보 영상이 새 아파트와 도로의 모습만 보여 주고 이주 주민의 생활 변화는 다루지 않았다. 생략된 정보에 주목해야 하는 이유는?</prompt>
     <options><option id="A">생략된 정보가 사업을 바라보는 판단에 중요한 영향을 줄 수 있기 때문이다.</option><option id="B">영상에 나오지 않은 정보는 존재하지 않기 때문이다.</option><option id="C">새 건물 사진만으로 주민의 만족도가 확인되기 때문이다.</option><option id="D">홍보물은 긍정적인 내용만 다루어야 하기 때문이다.</option><option id="E">생략은 언제나 제작자의 실수이기 때문이다.</option></options>
@@ -100,7 +100,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-012" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="대표 사례의 선택은 어떤 삶을 가치 있다고 보는지에 대한 인상을 만든다. 학업 성취만 강조하면 다른 재능과 기여가 낮게 평가될 수 있으므로 다양한 활동과 경험을 함께 보여 주는 편이 균형 있다. B·C는 일부 사례를 전체의 기준으로 삼고, D는 한 유형을 다양성으로 오해한다. E는 분량과 선택의 관계를 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-012" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>표현의 가치 판단</concept>
     <prompt>청소년을 소개하는 영상이 공부를 잘하는 학생만 모범 사례로 보여 주고 예술·돌봄·체육 활동을 하는 청소년은 다루지 않았다. 이 영상의 한계는?</prompt>
     <options><option id="A">청소년의 다양한 능력과 삶을 좁은 기준으로 평가하게 만들 수 있다.</option><option id="B">공부를 잘하는 학생만 청소년의 대표가 될 수 있다.</option><option id="C">영상에 나온 사례가 실제라면 다른 모습은 중요하지 않다.</option><option id="D">모범 사례를 제시하면 다양한 삶을 모두 보여 준 셈이다.</option><option id="E">영상의 길이가 짧으면 선택과 배제는 발생하지 않는다.</option></options>
@@ -109,7 +109,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-013" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="홍보물은 누구에게 무엇을 알릴지에 따라 사진과 문구를 선택한다. 어린이에게는 친근한 그림책 공간을, 연구자에게는 자료와 열람 환경을 강조할 수 있다. B·C는 특정 표현을 일방적으로 평가하고, D는 독자 고려의 중요성을 무시한다. E는 표현의 차이를 대상의 차이로 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-013" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>홍보물의 대상 독자</concept>
     <prompt>같은 도서관을 홍보하는 포스터 두 개 중 하나는 어린이 그림책 그림과 쉬운 문구를, 다른 하나는 연구 자료와 조용한 열람 공간 사진을 강조했다. 가장 적절한 설명은?</prompt>
     <options><option id="A">두 포스터는 예상 독자에 따라 도서관의 서로 다른 이용 가치를 강조한다.</option><option id="B">그림이 있는 포스터는 도서관 정보를 전달하지 못한다.</option><option id="C">연구 자료 사진이 있는 포스터만 사실이다.</option><option id="D">대상 독자는 홍보물의 표현 선택과 관계없다.</option><option id="E">두 포스터의 사진이 다르면 도서관도 두 곳이다.</option></options>
@@ -118,7 +118,7 @@
     <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-014" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="‘살기 좋은’은 주거 환경·교통·안전 등 기준에 따라 달라지는 평가 표현이다. 어떤 지역과 비교했는지, 어떤 자료를 사용했는지 확인해야 한다. B·C는 홍보 문구를 검증된 사실로 오해한다. D는 한 사람의 의견을 전체로 일반화하고, E는 의견도 근거를 통해 평가할 수 있다는 점을 놓친다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-014" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>사실과 의견의 구분</concept>
     <prompt>지역 홍보 영상에 ‘우리 동네는 가장 살기 좋은 곳’이라는 문구가 나온다. 이 문구를 평가하는 방법으로 가장 적절한 것은?</prompt>
     <options><option id="A">평가 표현이므로 어떤 근거로 ‘가장 좋다’고 판단했는지 기준과 자료를 확인한다.</option><option id="B">홍보 영상에 나왔으므로 객관적 사실이다.</option><option id="C">‘가장’이라는 단어가 있으므로 비교 조사가 끝난 것이다.</option><option id="D">주민 한 명이 만족하면 모든 주민이 만족한다고 본다.</option><option id="E">의견 표현은 자료와 함께 검토할 필요가 없다.</option></options>
@@ -127,7 +127,7 @@
     <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-015" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="두 명의 인터뷰는 해당 직원의 경험을 보여 주지만 전체 직원의 만족도를 나타내기에는 부족하다. 조사 대상과 선정 방법, 응답 분포, 다양한 의견을 확인해야 한다. B·E는 일부 사례나 침묵을 전체의 동의로 해석한다. C·D는 영상 형식과 홍보 목적을 대표성의 근거로 착각한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-015" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>자료의 대표성</concept>
     <prompt>한 회사가 직원 두 명의 긍정적인 인터뷰만 담아 ‘모든 직원이 근무 환경에 만족한다’는 영상을 만들었다. 가장 적절한 비판은?</prompt>
     <options><option id="A">인터뷰한 두 명이 전체 직원을 대표하는지 알 수 없으므로 더 다양한 의견과 조사 자료가 필요하다.</option><option id="B">직원 두 명이 만족했으므로 전체 직원도 만족한다.</option><option id="C">인터뷰 영상은 숫자가 없어도 대표성이 자동으로 확보된다.</option><option id="D">긍정적인 의견만 담는 것이 홍보물의 의무이다.</option><option id="E">불만 의견이 없으면 불만이 존재하지 않는다.</option></options>
@@ -136,7 +136,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-016" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="이미지는 문자 그대로의 사실만 전달하는 것이 아니라 상징을 통해 의미를 보탠다. 금이 간 우산과 함께 선 학생은 보호의 필요성과 공동 대응을 떠올리게 할 수 있다. B·D는 상징 이미지를 사실 자료로 오해한다. C는 이미지와 문구의 상호작용을 무시하고, E는 상징 표현을 거짓과 동일시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-016" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>이미지의 상징</concept>
     <prompt>학교 폭력 예방 포스터가 금이 간 우산 아래 함께 서 있는 학생들의 그림을 사용했다. 이 이미지가 문구와 결합해 전달할 수 있는 의미로 가장 적절한 것은?</prompt>
     <options><option id="A">서로 보호하고 함께 문제를 해결해야 한다는 메시지를 상징적으로 강조한다.</option><option id="B">실제 우산이 학교 폭력을 해결한다는 사실을 증명한다.</option><option id="C">그림은 문구의 의미를 바꾸거나 보완하지 않는다.</option><option id="D">학생들이 모두 같은 생각을 한다는 통계 자료이다.</option><option id="E">이미지가 상징적이면 포스터의 메시지는 거짓이다.</option></options>
@@ -145,7 +145,7 @@
     <advancedExplanation>하</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-017" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="매체는 인물을 어떤 모습으로 재현하는지에 따라 수용자의 태도에 영향을 준다. 편의 시설 홍보의 중심은 시설의 기능과 접근성, 이용자의 경험이어야 하며 장애인을 일방적인 동정의 대상으로 만들지 않아야 한다. B·D는 감정 자극을 강화한다. C는 당사자의 목소리를 배제하고, E는 등장 배제만으로 공정성이 보장된다고 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-017" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>표현 방식의 공정성</concept>
     <prompt>장애인 편의 시설을 소개하는 홍보물이 시설 자체보다 장애인을 불쌍한 표정으로 촬영한 사진을 크게 보여 준다. 가장 적절한 개선은?</prompt>
     <options><option id="A">장애인을 동정의 대상으로만 표현하지 않고 시설의 기능과 이용자의 다양한 경험을 존중하는 이미지로 바꾼다.</option><option id="B">불쌍한 표정을 더 크게 확대한다.</option><option id="C">장애인의 의견은 홍보물에 포함하지 않는다.</option><option id="D">시설의 실제 기능보다 감정적 사진을 늘린다.</option><option id="E">장애인을 등장시키지 않으면 언제나 공정해진다.</option></options>
@@ -154,7 +154,7 @@
     <advancedExplanation>상</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-018" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 편리함을 강조하면서 이동 시간에 영향을 주는 조건을 생략할 수 있다. 출발 지점과 경로, 신호 대기, 보행 환경 등을 확인하면 문구가 실제 생활에 얼마나 적절한지 판단할 수 있다. B·C·E는 표현의 외형에 치우치고, D는 반복 여부가 근거를 보완하지 못한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-018" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>홍보 문구의 생략</concept>
     <prompt>아파트 광고가 ‘역까지 도보 5분’이라고 크게 표시했지만 경사로와 횡단보도 대기 시간을 설명하지 않았다. 광고를 평가하는 질문으로 가장 적절한 것은?</prompt>
     <options><option id="A">도보 5분을 측정한 출발점·경로·보행 조건이 무엇이며 실제 이용 환경은 어떠한가?</option><option id="B">광고 글씨가 충분히 큰가?</option><option id="C">아파트 사진이 아름다운가?</option><option id="D">광고에 역 이름이 한 번 더 나오는가?</option><option id="E">도보 5분이라는 문구가 짧고 기억하기 쉬운가?</option></options>
@@ -163,7 +163,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-019" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="자료 A는 이용 편의, 자료 B는 생태 영향을 부각한다. 두 관점은 사업의 서로 다른 측면을 보여 주므로 어느 하나만으로 전체 평가를 끝내지 말고 사업 계획, 환경 조사, 주민 의견 등을 함께 검토해야 한다. B·C는 시각적 인상이나 한 측면만으로 결론을 내린다. D는 비교를 포기하고, E는 같은 대상이면 관점도 같다고 오해한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-019" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>관점 비교</concept>
     <prompt>같은 하천 정비 사업을 다룬 자료 A는 산책로와 조명을, 자료 B는 공사로 영향을 받은 생물 서식지를 보여 준다. 두 자료를 비교하는 태도로 가장 적절한 것은?</prompt>
     <options><option id="A">각 자료가 선택한 대상과 강조점을 파악하고 사업의 편익과 환경 영향을 함께 확인한다.</option><option id="B">A가 더 밝은 사진이므로 A의 주장이 옳다.</option><option id="C">B가 자연을 보여 주므로 사업은 무조건 잘못되었다.</option><option id="D">두 자료 중 하나만 선택하고 다른 자료는 무시한다.</option><option id="E">같은 사업을 다루므로 두 자료의 관점은 같다.</option></options>
@@ -172,7 +172,7 @@
     <advancedExplanation>상</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-020" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="광고는 반복과 모델의 이미지를 이용해 상품에 대한 친숙함을 높일 수 있다. 그러나 노출 횟수나 유명인의 사용은 제품의 성능을 검증하는 자료가 아니다. B·E는 반복과 분량을 근거로 오해한다. C는 유명인의 경험을 모든 소비자에게 일반화하고, D는 설득 효과를 부정한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-020" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>광고의 반복 노출</concept>
     <prompt>광고가 같은 상품을 사용하는 유명인의 장면을 여러 차례 반복해서 보여 준다. 반복 노출의 효과를 가장 적절하게 설명한 것은?</prompt>
     <options><option id="A">상품에 친숙함과 호감을 느끼게 할 수 있지만 제품의 실제 성능을 증명하지는 않는다.</option><option id="B">반복해서 나오면 제품의 성능이 과학적으로 입증된다.</option><option id="C">유명인이 사용하므로 모든 소비자에게 적합하다.</option><option id="D">반복 노출은 수용자의 인식에 영향을 주지 않는다.</option><option id="E">광고가 길수록 근거가 많아진다.</option></options>
@@ -181,7 +181,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-021" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="자료는 제작자의 홍보 목적뿐 아니라 수용자가 알아야 할 정보를 적절히 전달해야 한다. 알레르기 정보는 안전과 직접 관련되므로 눈에 잘 띄고 이해하기 쉽게 제시해야 한다. B·E는 이미지가 필수 정보를 대신한다고 오해한다. C·D는 이용자의 정보 요구를 무시한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-021" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>제작 목적과 정보</concept>
     <prompt>학교 급식 홍보 영상이 맛있어 보이는 음식 사진은 많이 보여 주지만 알레르기 유발 식품 정보는 작은 글씨로 한쪽에 표시했다. 가장 적절한 평가 및 개선은?</prompt>
     <options><option id="A">홍보 효과뿐 아니라 이용자에게 필요한 정보가 충분히 드러나는지 살피고 알레르기 정보를 쉽게 확인하도록 제시한다.</option><option id="B">음식 사진이 많으므로 필요한 정보가 모두 전달된다.</option><option id="C">알레르기 정보는 홍보 목적과 관계없으므로 삭제한다.</option><option id="D">작은 글씨는 눈에 띄지 않으므로 오히려 적절하다.</option><option id="E">음식 사진을 더 늘려 알레르기 정보를 대신한다.</option></options>
@@ -190,7 +190,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-022" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="집단은 내부에 다양한 개인과 경험이 있다. 특정한 모습만 반복하면 그 집단에 대한 편견을 강화할 수 있으므로 다양한 생활 방식과 능력, 목소리를 제시해야 한다. B·C는 일부 사례를 전체로 일반화한다. D는 단순화를 이유로 편견을 정당화하고, E는 다양성의 재현을 배제한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-022" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>집단의 다양성</concept>
     <prompt>한 지역의 노인을 소개하는 영상이 모든 노인을 건강이 나쁘고 디지털 기기를 사용하지 못하는 모습으로만 그렸다. 가장 타당한 비판은?</prompt>
     <options><option id="A">노인의 다양한 건강 상태와 경험을 지우고 하나의 모습으로 일반화할 위험이 있다.</option><option id="B">노인은 모두 같은 생활 방식을 가지므로 정확하다.</option><option id="C">영상에 등장한 노인이 실제 인물이면 일반화가 가능하다.</option><option id="D">고령층을 단순하게 표현하면 이해가 쉬워 언제나 바람직하다.</option><option id="E">노인의 다양한 모습은 매체에서 다룰 필요가 없다.</option></options>
@@ -199,7 +199,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-023" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="감정 호소는 문제의 심각성을 느끼게 해 행동을 유도할 수 있다. 그러나 표현의 강도와 주장의 사실성은 별개이므로 문제의 실태와 제안된 해결 방법을 확인해야 한다. B·C는 정서 효과를 증거로 오해한다. D는 감정 표현을 모두 거짓으로 일반화하고, E는 불안감만으로 판단을 대신한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-023" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="중" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>문구의 감정 호소</concept>
     <prompt>공익 광고가 ‘지금 행동하지 않으면 우리 아이들의 미래는 사라집니다’라는 문구와 어두운 이미지를 사용했다. 이를 평가하는 태도로 가장 적절한 것은?</prompt>
     <options><option id="A">감정에 호소하는 표현의 효과를 파악하되 주장 내용과 해결 방안의 근거도 별도로 확인한다.</option><option id="B">감정을 강하게 자극하므로 주장은 반드시 사실이다.</option><option id="C">어두운 이미지는 근거 자료와 같은 역할을 한다.</option><option id="D">감정에 호소하는 광고는 모두 거짓이다.</option><option id="E">문구가 불안감을 주면 추가 확인 없이 행동해야 한다.</option></options>
@@ -208,7 +208,7 @@
     <advancedExplanation>상</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-024" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="균형 있는 자료는 한쪽 주장만 반복하지 않고 사업의 편익과 비용, 영향을 받는 사람들의 관점과 대책을 함께 다룬다. B는 한쪽 정보만 늘리고, C는 주민 경험의 가치를 무시한다. D는 필요한 정보를 독자에게 떠넘기며, E는 외형을 내용의 균형성과 혼동한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-024" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="상" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>매체 자료의 균형성</concept>
     <prompt>지역 개발을 소개하는 카드뉴스가 사업의 장점 세 가지를 제시했지만 비용과 주민 의견은 다루지 않았다. 균형성을 높이는 방법은?</prompt>
     <options><option id="A">장점뿐 아니라 비용, 영향받는 주민의 의견, 예상되는 문제와 대책도 함께 제시한다.</option><option id="B">장점을 더 많이 추가해 분량을 늘린다.</option><option id="C">주민 의견은 주관적이므로 모두 제외한다.</option><option id="D">문제점은 독자가 알아서 추측하게 한다.</option><option id="E">사진을 화려하게 바꾸면 균형성이 높아진다.</option></options>
@@ -217,7 +217,7 @@
     <advancedExplanation>중</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-V2-4-025" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="이미지의 촬영 맥락은 그 이미지가 무엇을 보여 주는지 판단하는 데 중요하다. 다른 시설 사진을 실제 대상 시설인 것처럼 사용하면 수용자가 시설 환경을 오해할 수 있으므로 실제 사진과 정확한 설명을 사용해야 한다. B·C는 이미지의 인상만 중시하고, D·E는 맥락 오류를 감추려 한다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+  <question id="KOR2S2-V2-4-025" stage="4" reserve="false" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="현실을 재현하는 매체 자료" scopePages="188-199" difficulty="하" type="multiple_choice" attemptCount="0" correctCount="0">
     <concept>이미지의 맥락</concept>
     <prompt>홍보 포스터에 어린이들이 웃으며 운동하는 사진이 실렸지만, 사진은 홍보 대상 시설이 아닌 다른 장소에서 촬영된 것으로 확인되었다. 가장 적절한 조치는?</prompt>
     <options><option id="A">사진의 실제 촬영 장소를 확인하고 해당 시설의 모습인 것처럼 오해되지 않도록 정확한 사진과 설명으로 교체한다.</option><option id="B">어린이들이 웃고 있으므로 그대로 사용한다.</option><option id="C">장소가 달라도 시설 홍보 목적이면 문제가 없다.</option><option id="D">사진의 출처를 숨기면 혼동이 줄어든다.</option><option id="E">사진을 자르면 촬영 장소 문제도 해결된다.</option></options>
