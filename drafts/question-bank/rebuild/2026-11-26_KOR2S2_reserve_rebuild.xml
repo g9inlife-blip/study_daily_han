@@ -151,30 +151,6 @@
     <answer>B</answer><explanation>확대 화면은 세부를 보여 주지만 주변 맥락을 잃게 할 수 있으므로 축척과 범례를 함께 확인해야 한다.</explanation><advancedExplanation>지도는 공간 정보를 전달하지만 범위와 축척, 범례에 따라 해석이 달라진다. 일부 지역만 확대하면 위치 관계나 다른 지역과의 연결이 보이지 않을 수 있다. A는 확대를 정확성과 동일시하고, C는 핵심 정보를 무시한다. D는 생략을 존재 부정으로 오해하며, E는 지도 해석에 필요한 설명을 무시한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="KOR2S2-RES-026" stage="reserve" reserve="true" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="통합 복습" scopePages="70-119;166-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>주제와 자료의 관련성</concept><prompt>‘독서 시간이 학습에 미치는 영향’을 설명하는 글에 가장 관련 있는 자료는?</prompt>
-    <options><option id="A">학생의 일주일 독서 시간과 학습 습관을 조사한 자료</option><option id="B">학교 운동장 면적</option><option id="C">급식 메뉴 사진</option><option id="D">지역 날씨 예보</option><option id="E">교실 벽 색상</option></options>
-    <answer>A</answer><explanation>주제와 직접 관련된 독서 시간 및 학습 습관 자료가 적절하다.</explanation><advancedExplanation>자료는 글의 주제와 주장에 관련되어야 한다. 독서 시간과 학습 습관의 관계를 조사한 자료는 주장을 검토하는 데 직접 활용할 수 있다. B~E는 주제와의 관련성이 낮다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-RES-027" stage="reserve" reserve="true" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="통합 복습" scopePages="70-119;166-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>정보의 과장</concept><prompt>자료에 ‘응답자의 6명 중 4명’이라고 되어 있는데 홍보물은 ‘대부분의 시민이 찬성’이라고 표현했다. 적절한 평가로 옳은 것은?</prompt>
-    <options><option id="A">6명 중 4명이므로 모든 시민의 찬성이 입증되었다.</option><option id="B">표본 규모와 조사 대상을 밝히지 않은 채 전체 시민으로 일반화해 과장했을 수 있다.</option><option id="C">비율로 표현했으므로 정확하다.</option><option id="D">홍보물은 의견을 전달하므로 수치 검토가 필요 없다.</option><option id="E">응답자 수는 결론과 관계없다.</option></options>
-    <answer>B</answer><explanation>작은 표본의 결과를 전체 시민의 의견으로 확대하면 대표성과 일반화에 문제가 생긴다.</explanation><advancedExplanation>6명 중 4명은 조사 응답자 범위의 결과다. 표본이 작고 조사 대상이 제한적이면 '대부분의 시민'이라고 표현하기 어렵다. 표본 수와 추출 방식, 조사 범위를 밝혀야 한다. A·C는 수치 표현만으로 대표성이 보장된다고 오해한다. D·E는 수치의 검증과 범위가 중요함을 무시한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-RES-028" stage="reserve" reserve="true" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="통합 복습" scopePages="70-119;166-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>초안 점검</concept><prompt>설명문 초안을 읽어 보니 문단 사이의 연결이 갑작스럽다. 가장 적절한 수정 방법은?</prompt>
-    <options><option id="A">문단 순서를 무작정 바꾼다.</option><option id="B">문단별 역할과 논리 관계를 확인하고 필요한 연결 문장이나 순서를 조정한다.</option><option id="C">모든 문장을 삭제한다.</option><option id="D">글자 크기만 바꾼다.</option><option id="E">근거와 관계없이 접속어를 많이 넣는다.</option></options>
-    <answer>B</answer><explanation>문단의 기능과 논리적 흐름을 점검한 뒤 필요한 연결을 보완해야 한다.</explanation><advancedExplanation>글의 응집성과 논리성은 문단의 순서와 내용 관계에 달려 있다. 접속어를 무조건 추가하기보다 앞뒤 문단이 어떤 관계인지 확인해 적절히 연결해야 한다. A·C는 근거 없는 전면 수정이고, D는 내용 문제를 해결하지 못한다. E는 논리 관계와 맞지 않는 접속어를 남발한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
-  <question id="KOR2S2-RES-029" stage="reserve" reserve="true" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="통합 복습" scopePages="70-119;166-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-    <concept>정보의 한계 표현</concept><prompt>조사 결과가 특정 기간과 지역에서만 확인되었다. 결론을 쓸 때 가장 적절한 표현은?</prompt>
-    <options><option id="A">이 결과는 언제 어디서나 동일하게 나타난다.</option><option id="B">조사한 기간과 지역에서는 이런 경향이 나타났으며 다른 조건에서도 확인할 필요가 있다.</option><option id="C">모든 사람에게 적용된다.</option><option id="D">추가 조사는 전혀 필요 없다.</option><option id="E">조사 범위를 밝히지 않는 편이 설득력 있다.</option></options>
-    <answer>B</answer><explanation>자료가 확인된 범위를 밝히고 일반화에는 신중해야 한다.</explanation><advancedExplanation>연구나 조사의 결과는 표본과 조건의 범위 안에서 해석해야 한다. 적용 범위를 명시하면 정보의 한계를 투명하게 전달하고 과도한 일반화를 피할 수 있다. A·C는 범위를 무제한으로 확장하고, D·E는 검증과 한계 공개를 회피한다.</advancedExplanation>
-    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
-  </question>
   <question id="KOR2S2-RES-026" stage="reserve" reserve="true" subject="국어" schoolLevel="중학교" grade="2" semester="2" unit="통합 복습" scopePages="70-119;166-199" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
     <concept>자료 신뢰성 평가</concept><prompt>온라인에서 발견한 통계 자료를 학교 발표에 활용하려 한다. 신뢰성을 확인하기 위해 점검할 항목 세 가지를 쓰시오.</prompt><answer>자료를 제공한 기관·작성자, 조사 시점과 대상·방법, 원자료나 근거의 공개 여부를 확인하고 다른 신뢰할 만한 자료와 비교한다.</answer>
     <explanation>문항에서 요구한 점검 기준과 근거를 구체적으로 제시해야 한다.</explanation><advancedExplanation>채점 요소: (1) 출처·작성 주체 1점, (2) 조사 시점·대상·방법 중 하나 1점, (3) 원자료 확인 또는 독립 자료와 대조 1점. 조회 수나 디자인만 제시하면 인정하지 않는다.</advancedExplanation>
