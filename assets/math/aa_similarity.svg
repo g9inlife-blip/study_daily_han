@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 230">
+<rect width="440" height="230" fill="white"/>
+<g stroke="#243b66" stroke-width="3" fill="none" stroke-linejoin="round">
+<path d="M45 180 L105 35 L175 180 Z"/>
+<path d="M265 180 L325 35 L395 180 Z"/>
+</g>
+<g stroke="#c34b35" stroke-width="3" fill="none">
+<path d="M58 180 Q58 166 70 162"/>
+<path d="M278 180 Q278 166 290 162"/>
+<path d="M96 57 Q108 61 117 58"/>
+<path d="M316 57 Q328 61 337 58"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="18" fill="#172b4d">
+<text x="35" y="202">A</text><text x="100" y="25">B</text><text x="178" y="202">C</text>
+<text x="255" y="202">D</text><text x="320" y="25">E</text><text x="398" y="202">F</text>
+<text x="220" y="115" text-anchor="middle">…</text>
+<text x="220" y="220" text-anchor="middle" font-size="15">두 쌍의 대응각이 각각 같음</text>
+</g>
+</svg>

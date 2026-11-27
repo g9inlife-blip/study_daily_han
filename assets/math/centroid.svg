@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240"><rect width="420" height="240" fill="white"/><g stroke="#243b66" stroke-width="3" fill="none"><path d="M210 25 L55 205 L365 205 Z"/><path d="M210 25 L210 205 M55 205 L287.5 115 M365 205 L132.5 115"/></g><circle cx="210" cy="145" r="5" fill="#c34b35"/><g font-family="Arial,sans-serif" font-size="18" fill="#172b4d"><text x="200" y="18">A</text><text x="38" y="225">B</text><text x="370" y="225">C</text><text x="220" y="143">G</text><text x="220" y="85">2x</text><text x="220" y="185">x</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250">
+<rect width="420" height="250" fill="white"/>
+<g stroke="#243b66" stroke-width="3" fill="none">
+<path d="M210 25 L55 205 L365 205 Z"/>
+<path d="M210 25 L210 205 M55 205 L287.5 115 M365 205 L132.5 115"/>
+</g>
+<circle cx="210" cy="145" r="5" fill="#c34b35"/>
+<g font-family="Arial,sans-serif" font-size="18" fill="#172b4d">
+<text x="200" y="18">A</text><text x="38" y="225">B</text><text x="370" y="225">C</text>
+<text x="220" y="143">G</text><text x="222" y="85">AG</text><text x="222" y="185">GM</text><text x="222" y="225">M</text>
+</g></svg>
