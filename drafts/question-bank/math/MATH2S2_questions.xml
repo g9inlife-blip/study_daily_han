@@ -1,1209 +1,1065 @@
 <?xml version="1.0" encoding="utf-8"?>
 <examBank schemaVersion="1.0" subject="수학" schoolLevel="중학교" grade="2" semester="2" textbook="천재교육 중학교 수학 2-2" sourcePages="184-249" created="2026-11-27">
-<metadata><mainQuestionCount>120</mainQuestionCount><reserveQuestionCount>30</reserveQuestionCount><stageCount>4</stageCount><questionsPerStage>30</questionsPerStage><multipleChoicePerStage>25</multipleChoicePerStage><shortAnswerPerStage>5</shortAnswerPerStage><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics><scopeNote>Ⅴ-1 도형의 닮음 184-206쪽 전체. 207-218쪽 제외, 219쪽 미확인으로 제외. 220쪽 7-11번 유형, 221쪽 14-15번 유형. Ⅵ 확률 226-249쪽 전체, 249쪽 13-16번 유형. 220쪽 12번 및 221쪽 13·16번 제외.</scopeNote><excludedPages>207-218,219</excludedPages><excludedItems>220쪽 12번;221쪽 13번;221쪽 16번</excludedItems><probabilityPage249>13-16번 유형 포함</probabilityPage249><diagramAssets>assets/math/*.svg</diagramAssets></metadata>
+<metadata><mainQuestionCount>120</mainQuestionCount><reserveQuestionCount>30</reserveQuestionCount><stageCount>4</stageCount><questionsPerStage>30</questionsPerStage><multipleChoicePerStage>25</multipleChoicePerStage><shortAnswerPerStage>5</shortAnswerPerStage><difficultyStatistics>기본 난이도는 문항별 상·중상·중으로 설정, 정답률 통계 축적 후 difficulty2 산정</difficultyStatistics><scopeNote>기출 분석을 반영한 전 범위 문제은행. 1~4차 시험은 Ⅴ-1 도형의 닮음(184-206쪽)과 Ⅵ 확률(226-249쪽) 전체에서 문항을 조합한다. stage는 제작·분류용 원천 그룹이며 시험 범위 구분이 아니다. 단순 공식 대입형을 줄이고 닮음비·평행선·중점연결·무게중심의 다단계 응용, 경우의 수의 조건부 배열, 주사위·조사 자료·복원/비복원 추출 확률을 포함한다. 제외 범위 207-218쪽, 219쪽 미확인, 220쪽 12번, 221쪽 13·16번은 유지한다.</scopeNote><excludedPages>207-218,219</excludedPages><excludedItems>220쪽 12번;221쪽 13번;221쪽 16번</excludedItems><probabilityPage249>13-16번 유형 포함</probabilityPage249><diagramAssets>assets/math/*.svg</diagramAssets></metadata>
 <questions>
-<question id="MATH2S2-1-001" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비로 대응변의 길이 구하기</concept>
-<prompt>두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 3:5이고 작은 삼각형의 대응변이 3 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
-<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
-
-<options><option id="A">4</option><option id="B">6</option><option id="C">15</option><option id="D">8</option><option id="E">5</option></options>
+<question id="MATH2S2-1-001" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 대응변</concept>
+<prompt>작은 삼각형과 큰 삼각형은 닮음이고 대응변의 비가 작은 삼각형:큰 삼각형 = 2:3이다. 작은 삼각형의 대응변이 12 cm일 때 큰 삼각형의 대응변의 길이는?</prompt>
+<options><option id="A">12 cm</option><option id="B">20 cm</option><option id="C">16 cm</option><option id="D">8 cm</option><option id="E">18 cm</option></options>
 <answer>E</answer>
-<explanation>작은 변:큰 변=3:5이므로 큰 변은 3×5/3=5 cm이다.</explanation>
-<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
+<explanation>대응변의 비에서 큰 변/작은 변=3/2이므로 12×3/2=18 cm이다.</explanation>
+<advancedExplanation>비의 순서를 바꾸면 8 cm가 나오므로 작은 변과 큰 변의 순서를 먼저 맞춰야 한다. 오답 점검: 정답은 18 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-002" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
-<diagram src="assets/math/aa_similarity.svg" alt="두 삼각형에서 두 쌍의 대응각이 같은 AA 닮음 조건"/>
-<options><option id="A">SSS 닮음</option><option id="B">중점연결정리</option><option id="C">확률의 곱셈</option><option id="D">AA 닮음</option><option id="E">SAS 닮음</option></options>
-<answer>D</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-003" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 둘레의 비</concept>
-<prompt>두 닮은 도형의 닮음비가 1:5이고 작은 도형의 둘레가 15 cm이다. 큰 도형의 둘레는?</prompt>
-
-<options><option id="A">20</option><option id="B">375</option><option id="C">75</option><option id="D">15</option><option id="E">76</option></options>
-<answer>C</answer>
-<explanation>둘레의 비는 닮음비와 같으므로 큰 도형의 둘레는 15×5=75 cm이다.</explanation>
-<advancedExplanation>대응하는 모든 길이가 같은 비율로 변하므로 둘레도 닮음비만큼 변한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-004" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SAS 닮음 조건</concept>
-<prompt>두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
-
-<options><option id="A">합의 법칙</option><option id="B">SAS</option><option id="C">AA</option><option id="D">SSS</option><option id="E">중점연결</option></options>
+<question id="MATH2S2-1-002" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 둘레</concept>
+<prompt>두 닮은 다각형의 둘레의 비(작은 도형:큰 도형)가 2:3이고 작은 도형의 둘레가 24 cm이다. 큰 도형의 둘레를 구하시오.</prompt>
+<options><option id="A">16 cm</option><option id="B">36 cm</option><option id="C">24 cm</option><option id="D">38 cm</option><option id="E">34 cm</option></options>
 <answer>B</answer>
-<explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
-<advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
+<explanation>닮은 도형의 둘레의 비는 닮음비와 같으므로 큰 둘레는 24×3/2=36 cm이다.</explanation>
+<advancedExplanation>넓이의 비처럼 제곱하지 않는다. 둘레는 길이이므로 닮음비를 그대로 적용한다. 오답 점검: 정답은 36 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-005" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 넓이의 비</concept>
-<prompt>두 닮은 도형의 닮음비가 1:3일 때 넓이의 비는?</prompt>
-
-<options><option id="A">1:9</option><option id="B">1:3</option><option id="C">3:1</option><option id="D">1:27</option><option id="E">9:1</option></options>
-<answer>A</answer>
-<explanation>넓이의 비는 닮음비의 제곱이므로 1²:3²=1:9이다.</explanation>
-<advancedExplanation>길이 비가 a배이면 넓이는 두 방향으로 a배씩 변하여 a²배가 된다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-006" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대응각과 대응변</concept>
-<prompt>두 닮은 삼각형의 한 대응각이 58°이다. 다른 삼각형의 그 대응각은?</prompt>
-
-<options><option id="A">48</option><option id="B">52</option><option id="C">60</option><option id="D">122</option><option id="E">58</option></options>
-<answer>E</answer>
-<explanation>닮은 도형의 대응각은 서로 같다.</explanation>
-<advancedExplanation>닮음에서는 대응각이 같고 대응변의 길이는 닮음비를 이룬다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-007" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 닮음 조건 적용</concept>
-<prompt>세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
-
-<options><option id="A">AA</option><option id="B">중점연결</option><option id="C">합의 법칙</option><option id="D">SSS</option><option id="E">SAS</option></options>
+<question id="MATH2S2-1-003" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 넓이</concept>
+<prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 2:3이고 작은 도형의 넓이가 32 cm²이다. 큰 도형의 넓이는?</prompt>
+<options><option id="A">24 cm²</option><option id="B">78 cm²</option><option id="C">24 cm²</option><option id="D">72 cm²</option><option id="E">48 cm²</option></options>
 <answer>D</answer>
-<explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
-<advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
+<explanation>넓이의 비는 닮음비의 제곱이므로 2²:3²=4:9이다. 큰 넓이는 32×9/4=72 cm²이다.</explanation>
+<advancedExplanation>길이비를 넓이비로 그대로 사용하면 48 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 72 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-008" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-1-004" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>넓이비에서 닮음비 역산</concept>
+<prompt>두 닮은 도형의 넓이의 비(작은 도형:큰 도형)가 9:25이고 작은 도형의 대응변이 12 cm이다. 큰 도형의 대응변의 길이는?</prompt>
+<options><option id="A">20 cm</option><option id="B">33.33 cm</option><option id="C">23 cm</option><option id="D">12 cm</option><option id="E">19 cm</option></options>
+<answer>A</answer>
+<explanation>넓이비 9:25에서 닮음비는 제곱근을 취한 3:5이다. 따라서 큰 변은 12×5/3=20 cm이다.</explanation>
+<advancedExplanation>넓이비를 변의 비로 바로 쓰면 길이가 지나치게 커진다. 먼저 닮음비를 구한 뒤 길이에 적용한다. 오답 점검: 정답은 20 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-005" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>AA 닮음과 각의 조건</concept>
+<prompt>△ABC에서 ∠A=38°, ∠B=67°이고 △DEF에서 ∠D=38°, ∠E=67°이다. 두 삼각형이 닮았다고 판단할 수 있는 이유와 ∠C의 크기를 바르게 연결한 것은?</prompt>
+<options><option id="A">67° · 중점연결정리</option><option id="B">75° · SSS 닮음</option><option id="C">75° · AA 닮음</option><option id="D">85° · SAS 닮음</option><option id="E">142° · SSS 닮음</option></options>
+<answer>C</answer>
+<explanation>삼각형의 내각의 합은 180°이므로 ∠C=180°−38°−67°=75°이다. 두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
+<advancedExplanation>두 각이 같다는 조건만으로 SSS나 SAS를 사용할 수 없다. 두 대응각의 일치가 AA 닮음의 근거다. 오답 점검: 정답은 75° · AA 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-006" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SSS 닮음과 확대비</concept>
+<prompt>△ABC의 세 변이 6, 8, 10이고 △DEF의 대응변이 각각 9, 12, 15이다. 두 삼각형의 닮음 판정으로 가장 적절한 것은?</prompt>
+<options><option id="A">AA 닮음 · 확대비 1.5</option><option id="B">닮지 않음</option><option id="C">SSS 닮음 · 확대비 0.6666666666666666</option><option id="D">SSS 닮음 · 확대비 1.5</option><option id="E">SAS 닮음 · 확대비 1.5</option></options>
+<answer>D</answer>
+<explanation>세 대응변의 비가 모두 1.5으로 같으므로 SSS 닮음이고 확대비는 1.5이다.</explanation>
+<advancedExplanation>SAS는 끼인각까지 확인해야 하며 AA는 두 각을 확인해야 한다. 여기서는 세 변의 비가 주어졌다. 오답 점검: 정답은 SSS 닮음 · 확대비 1.5이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-007" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SAS 닮음의 조건 확인</concept>
+<prompt>△ABC와 △DEF에서 AB=6, AC=9, DE=10, DF=15이고 ∠A=∠D=60°이다. 두 삼각형의 닮음 조건은?</prompt>
+<options><option id="A">SAS 닮음</option><option id="B">AA 닮음</option><option id="C">SSS 닮음</option><option id="D">조건만으로 닮음을 알 수 없음</option><option id="E">평행선의 성질</option></options>
+<answer>A</answer>
+<explanation>AB:DE=6:10이고 AC:DF=9:15로 두 변의 비가 같다. 그 끼인각도 같으므로 SAS 닮음이다.</explanation>
+<advancedExplanation>두 변의 비가 같아도 주어진 각이 두 변 사이의 끼인각인지 확인해야 한다. 이 문항에서는 ∠A와 ∠D가 바로 그 끼인각이다. 오답 점검: 정답은 SAS 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-008" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형의 대응변</concept>
+<prompt>닮은 두 삼각형에서 작은 삼각형의 한 변 6 cm에 대응하는 큰 삼각형의 변은 15 cm이다. 작은 삼각형의 다른 대응변이 8 cm일 때 큰 삼각형의 그 변은?</prompt>
+<options><option id="A">3.2 cm</option><option id="B">17 cm</option><option id="C">20 cm</option><option id="D">22 cm</option><option id="E">8 cm</option></options>
+<answer>C</answer>
+<explanation>확대비는 15/6이다. 따라서 대응변은 8×15/6=20 cm이다.</explanation>
+<advancedExplanation>작은 도형에서 큰 도형으로 갈 때 확대비를 곱한다. 역으로 큰 도형에서 작은 도형으로 구할 때만 나눈다. 오답 점검: 정답은 20 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-009" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
-<prompt>△ABC에서 DE∥BC이고 AD:DB=2:4, AE=2 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
-<options><option id="A">8</option><option id="B">6</option><option id="C">4</option><option id="D">2</option><option id="E">5</option></options>
-<answer>C</answer>
-<explanation>평행선의 성질에 따라 AD:DB=AE:EC이다. 2번째 비의 첫 항 AE가 2 cm이므로 EC=2×4/2=4 cm이다.</explanation>
-<advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:DB=2:3, AE=8 cm일 때 EC의 길이는?</prompt>
+<options><option id="A">5.33 cm</option><option id="B">14 cm</option><option id="C">20 cm</option><option id="D">11 cm</option><option id="E">12 cm</option></options>
+<answer>E</answer>
+<explanation>평행선이 두 변을 나누므로 AD:DB=AE:EC이다. 2:3=8:EC에서 EC=12 cm이다.</explanation>
+<advancedExplanation>비례식의 항을 같은 위치끼리 대응시킨다. AE와 EC는 각각 AD와 DB에 대응한다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-009" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-1-010" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형에서 대응변</concept>
+<prompt>△ABC에서 DE∥BC이고 AD:AB=2:5, AC=20 cm이다. 작은 삼각형 ADE의 변 AE를 구하시오.</prompt>
+<options><option id="A">20 cm</option><option id="B">8 cm</option><option id="C">50 cm</option><option id="D">12 cm</option><option id="E">10 cm</option></options>
+<answer>B</answer>
+<explanation>△ADE∼△ABC이므로 AE:AC=AD:AB=2:5. 따라서 AE=20×2/5=8 cm이다.</explanation>
+<advancedExplanation>AD:DB가 아니라 AD:AB가 주어졌으므로 전체 변 AB 기준의 비를 그대로 대응변 AC에 적용한다. 오답 점검: 정답은 8 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-011" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선과 삼각형의 넓이·길이</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:AB=2:3, BC=18 cm일 때 DE의 길이는?</prompt>
+<options><option id="A">14 cm</option><option id="B">18 cm</option><option id="C">12 cm</option><option id="D">27 cm</option><option id="E">6 cm</option></options>
+<answer>C</answer>
+<explanation>△ADE∼△ABC이므로 DE:BC=AD:AB=2:3. DE=18×2/3=12 cm이다.</explanation>
+<advancedExplanation>AD:AB는 작은 삼각형과 큰 삼각형의 대응변 비다. 전체 밑변 BC에 같은 비를 곱해야 한다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-012" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리</concept>
-<prompt>삼각형의 두 변의 중점을 연결한 선분의 길이가 3 cm이다. 나머지 한 변의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">6</option><option id="C">3</option><option id="D">7</option><option id="E">5</option></options>
-<answer>B</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이다. 따라서 나머지 한 변은 3×2=6 cm이다.</explanation>
-<advancedExplanation>중점연결정리는 평행성과 길이의 절반 관계를 함께 나타낸다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-010" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선과 비례식</concept>
-<prompt>△ABC에서 DE∥BC, AD=4 cm, DB=6 cm, AE=4 cm이다. EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">6</option><option id="B">4</option><option id="C">7</option><option id="D">10</option><option id="E">24</option></options>
-<answer>A</answer>
-<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=4×6/4=6 cm이다.</explanation>
-<advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-011" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선의 역</concept>
-<prompt>두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
-
-<options><option id="A">수직이다</option><option id="B">길이가 같다</option><option id="C">항상 중선이다</option><option id="D">관계가 없다</option><option id="E">평행하다</option></options>
+<prompt>△ABC에서 D와 E는 각각 AB와 AC의 중점이다. BC=18 cm일 때 중점연결선 DE의 길이는?</prompt>
+<options><option id="A">18 cm</option><option id="B">12 cm</option><option id="C">6 cm</option><option id="D">7 cm</option><option id="E">9 cm</option></options>
 <answer>E</answer>
-<explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
-<advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
+<explanation>중점연결정리에 따라 DE∥BC이고 DE=BC/2=18/2=9 cm이다.</explanation>
+<advancedExplanation>중점연결선은 밑변과 평행하며 길이는 밑변의 절반이다. 평행하다는 사실만으로 길이가 같다고 생각하면 안 된다. 오답 점검: 정답은 9 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-012" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중점연결정리의 적용</concept>
-<prompt>△ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 4 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">3</option><option id="B">6</option><option id="C">1</option><option id="D">2</option><option id="E">4</option></options>
-<answer>D</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이므로 4÷2=2 cm이다.</explanation>
-<advancedExplanation>중점연결 선분의 길이=밑변의 길이÷2이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-013" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 비례식</concept>
-<prompt>△ABC에서 DE∥BC이고 AD:AB=2:5, AC=15 cm이다. AE는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">10</option><option id="B">12</option><option id="C">6</option><option id="D">5</option><option id="E">7</option></options>
-<answer>C</answer>
-<explanation>AE:AC=AD:AB=2:5이므로 AE=15×2/5=6 cm이다.</explanation>
-<advancedExplanation>평행선에 의해 작은 삼각형과 큰 삼각형이 닮으므로 대응변의 비가 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-014" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>중선 AM에서 G가 무게중심이고 AG=8 cm이다. GM은?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">16</option><option id="B">4</option><option id="C">8</option><option id="D">12</option><option id="E">6</option></options>
+<question id="MATH2S2-1-013" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중점연결정리의 역</concept>
+<prompt>△ABC에서 D는 AB의 중점, E는 AC의 중점이다. DE=7 cm일 때 BC의 길이와 DE와 BC의 관계를 바르게 나타낸 것은?</prompt>
+<options><option id="A">14 cm · DE∥AB</option><option id="B">14 cm · DE∥BC</option><option id="C">7 cm · DE=BC</option><option id="D"> 28 cm · DE⊥BC</option><option id="E">14 cm · DE=2BC</option></options>
 <answer>B</answer>
-<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나눈다. 따라서 GM=8÷2=4 cm이다.</explanation>
-<advancedExplanation>AG:GM=2:1이며 꼭짓점 쪽의 AG가 더 길다.</advancedExplanation>
+<explanation>중점연결정리의 역으로 DE∥BC이고 BC=2DE=14 cm이다.</explanation>
+<advancedExplanation>두 중점의 연결선은 세 번째 변과 평행하고 그 절반 길이이다. 두 배로 하는 대상은 DE가 아니라 BC이다. 오답 점검: 정답은 14 cm · DE∥BC이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-015" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 길이</concept>
-<prompt>중선 AM의 길이가 15 cm이고 G는 무게중심이다. AG는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">10</option><option id="B">5</option><option id="C">15</option><option id="D">8</option><option id="E">20</option></options>
+<question id="MATH2S2-1-014" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선으로 나뉜 선분의 비</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=4 cm, DB=6 cm, AE=8 cm이다. EC를 구하시오.</prompt>
+<options><option id="A">20 cm</option><option id="B">15 cm</option><option id="C">10 cm</option><option id="D">12 cm</option><option id="E">5.33 cm</option></options>
+<answer>D</answer>
+<explanation>AD:DB=AE:EC이므로 4:6=8:EC. EC=8×6/4=12 cm이다.</explanation>
+<advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-015" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심의 2:1</concept>
+<prompt>△ABC의 중선 AM 위에 무게중심 G가 있고 AG=6 cm이다. GM의 길이는?</prompt>
+<options><option id="A">3 cm</option><option id="B">12 cm</option><option id="C">2 cm</option><option id="D">6 cm</option><option id="E">5 cm</option></options>
 <answer>A</answer>
-<explanation>AG는 중선의 2/3이므로 15×2/3=10 cm이다.</explanation>
-<advancedExplanation>중선은 AG와 GM을 합한 3부분으로 나뉘고 AG는 그중 2부분이다.</advancedExplanation>
+<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나누므로 AG:GM=2:1. GM=6/2=3 cm이다.</explanation>
+<advancedExplanation>AG는 GM의 두 배다. 무게중심에서 꼭짓점까지의 거리를 중점까지의 거리로 나누어 구한다. 오답 점검: 정답은 3 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-016" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-1-016" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중선과 무게중심</concept>
+<prompt>△ABC의 중선 AM=12 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
+<options><option id="A">6 cm</option><option id="B">4 cm</option><option id="C">8 cm</option><option id="D">6 cm</option><option id="E">24 cm</option></options>
+<answer>B</answer>
+<explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=12/3=4 cm이다.</explanation>
+<advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 4 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-017" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심과 중선 길이</concept>
+<prompt>△ABC에서 AM은 중선이고 G는 무게중심이다. GM=4 cm일 때 중선 AM의 길이는?</prompt>
+<options><option id="A">4 cm</option><option id="B">10 cm</option><option id="C">16 cm</option><option id="D">12 cm</option><option id="E">8 cm</option></options>
+<answer>D</answer>
+<explanation>AG:GM=2:1이므로 AM=AG+GM=2GM+GM=3GM=4×3=12 cm이다.</explanation>
+<advancedExplanation>무게중심은 중선을 2:1로 나누므로 전체 중선은 GM의 3배다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-018" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>무게중심과 넓이</concept>
-<prompt>△ABC의 넓이가 24 cm²이다. G가 무게중심일 때 △GBC의 넓이는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">4</option><option id="B">6</option><option id="C">12</option><option id="D">2</option><option id="E">8</option></options>
-<answer>E</answer>
-<explanation>무게중심은 삼각형을 넓이가 같은 세 부분으로 나눈다. 따라서 △GBC의 넓이는 24÷3=8 cm²이다.</explanation>
-<advancedExplanation>세 중선이 만드는 세 삼각형의 넓이는 서로 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-017" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 2:1</concept>
-<prompt>GM=3 cm일 때 중선 AM의 길이는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">3</option><option id="B">12</option><option id="C">10</option><option id="D">9</option><option id="E">6</option></options>
-<answer>D</answer>
-<explanation>AG:GM=2:1이므로 AM은 GM의 3배이다. 따라서 AM=3×3=9 cm이다.</explanation>
-<advancedExplanation>무게중심에서 중점까지가 1부분, 꼭짓점까지가 2부분이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-018" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심과 넓이의 비</concept>
-<prompt>무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1:1:2</option><option id="B">3:2:1</option><option id="C">1:1:1</option><option id="D">1:2:3</option><option id="E">2:1:1</option></options>
-<answer>C</answer>
-<explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
-<advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-019" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>합의 법칙</concept>
-<prompt>서로 겹치지 않는 두 선택이 각각 5가지, 3가지이다. 둘 중 하나를 고르는 방법은?</prompt>
-
-<options><option id="A">16</option><option id="B">8</option><option id="C">15</option><option id="D">9</option><option id="E">2</option></options>
-<answer>B</answer>
-<explanation>서로 겹치지 않는 선택 중 하나를 고르는 경우이므로 합의 법칙을 적용한다. 5+3=8가지이다.</explanation>
-<advancedExplanation>합의 법칙은 배반적인 선택 방법의 경우의 수를 더한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-020" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>상의 2벌과 하의 4벌 중 하나씩 고르는 방법은?</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">8</option><option id="B">6</option><option id="C">9</option><option id="D">10</option><option id="E">7</option></options>
+<prompt>△ABC의 넓이가 72 cm²이고 G는 무게중심이다. △GBC의 넓이는?</prompt>
+<options><option id="A">24 cm²</option><option id="B">48 cm²</option><option id="C">36 cm²</option><option id="D">30 cm²</option><option id="E">12 cm²</option></options>
 <answer>A</answer>
-<explanation>상의 2벌 각각에 하의 4벌을 조합할 수 있으므로 2×4=8가지이다.</explanation>
-<advancedExplanation>여러 단계에서 선택을 모두 해야 하므로 곱의 법칙을 사용한다.</advancedExplanation>
+<explanation>G에서 BC까지의 높이는 A에서 BC까지의 높이의 1/3이다. 밑변 BC가 같으므로 △GBC의 넓이는 전체의 1/3, 즉 72/3=24 cm²이다.</explanation>
+<advancedExplanation>AG:GM=2:1이므로 G는 꼭짓점 A에서 밑변 쪽으로 전체 높이의 2/3만큼 내려온 점이다. 남은 높이는 1/3이다. 오답 점검: 정답은 24 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-021" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대표와 부대표</concept>
-<prompt>학생 5명 중 대표와 부대표를 각각 한 명씩 뽑는 방법은?</prompt>
-
-<options><option id="A">5</option><option id="B">10</option><option id="C">21</option><option id="D">9</option><option id="E">20</option></options>
-<answer>E</answer>
-<explanation>대표는 5명 중 1명, 부대표는 남은 4명 중 1명을 뽑는다. 따라서 5×4=20가지이다.</explanation>
-<advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-022" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>서로 다른 숫자로 두 자리 수</concept>
-<prompt>1, 2, 3, 4, 5 중 서로 다른 두 숫자로 두 자리 수를 만들 수 있는 경우의 수는?</prompt>
-<diagram src="assets/math/cards.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">15</option><option id="B">25</option><option id="C">5</option><option id="D">20</option><option id="E">10</option></options>
-<answer>D</answer>
-<explanation>십의 자리 5가지, 일의 자리 4가지이므로 5×4=20가지이다.</explanation>
-<advancedExplanation>첫 번째 자리를 정한 뒤 남은 4개 중 하나를 선택한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-023" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>확률의 범위</concept>
-<prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
-
-<options><option id="A">확률은 항상 1/2</option><option id="B">확률은 경우의 수와 무관</option><option id="C">0≤P(A)≤1</option><option id="D">P(A)&lt;0일 수 있다</option><option id="E">P(A)>1일 수 있다</option></options>
+<question id="MATH2S2-1-019" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심이 나누는 넓이</concept>
+<prompt>△ABC에서 두 중선의 교점 G가 무게중심이다. △ABC의 넓이가 48 cm²일 때 △ABG의 넓이는?</prompt>
+<options><option id="A">20 cm²</option><option id="B">12 cm²</option><option id="C">16 cm²</option><option id="D">24 cm²</option><option id="E">32 cm²</option></options>
 <answer>C</answer>
-<explanation>확률은 0 이상 1 이하이다.</explanation>
-<advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
+<explanation>무게중심과 세 꼭짓점을 연결하면 생기는 세 삼각형의 넓이는 서로 같다. 따라서 △ABG의 넓이는 48/3=16 cm²이다.</explanation>
+<advancedExplanation>세 작은 삼각형의 밑변과 높이 관계를 이용하면 각각 전체 삼각형 넓이의 1/3임을 알 수 있다. 오답 점검: 정답은 16 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-024" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>수학적 확률</concept>
-<prompt>공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5/6</option><option id="B">1/2</option><option id="C">1/6</option><option id="D">1/3</option><option id="E">2/3</option></options>
-<answer>B</answer>
-<explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
-<advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
+<question id="MATH2S2-1-020" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>합의 법칙의 상황 적용</concept>
+<prompt>학교 축제에서 간식으로 4가지 빵 중 하나 또는 3가지 과일 중 하나를 고르려고 한다. 두 종류를 함께 고르지 않을 때 선택 방법은 몇 가지인가?</prompt>
+<options><option id="A">12가지</option><option id="B">9가지</option><option id="C">4가지</option><option id="D">3가지</option><option id="E">7가지</option></options>
+<answer>E</answer>
+<explanation>빵과 과일 중 하나만 선택하므로 합의 법칙을 적용한다. 4+3=7가지이다.</explanation>
+<advancedExplanation>두 항목을 모두 선택하는 것이 아니라 둘 중 하나를 선택한다. 따라서 곱하지 않고 더한다. 오답 점검: 정답은 7가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-025" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-1-021" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>곱의 법칙과 선택</concept>
+<prompt>체험학습 복장을 고른다. 상의 3벌, 바지 4벌, 운동화 2켤레 중 하나씩 선택할 때 가능한 조합은?</prompt>
+<options><option id="A">24가지</option><option id="B">9가지</option><option id="C">12가지</option><option id="D">27가지</option><option id="E">22가지</option></options>
+<answer>A</answer>
+<explanation>상의·바지·운동화를 모두 하나씩 고르므로 곱의 법칙을 적용한다. 3×4×2=24가지이다.</explanation>
+<advancedExplanation>각 선택은 다른 선택과 결합해 한 가지 복장을 만든다. 따라서 각 단계의 선택 수를 곱한다. 오답 점검: 정답은 24가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-022" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>순서가 있는 두 직책</concept>
+<prompt>학생 7명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
+<options><option id="A">49가지</option><option id="B">6가지</option><option id="C">42가지</option><option id="D">49가지</option><option id="E">21가지</option></options>
+<answer>C</answer>
+<explanation>회장은 7명 중 선택하고, 부회장은 남은 6명 중 선택한다. 7×6=42가지이다.</explanation>
+<advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 7C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 42가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-023" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>숫자 카드로 두 자리 수 만들기</concept>
+<prompt>숫자 카드 0부터 4까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
+<options><option id="A">20개</option><option id="B">8개</option><option id="C">21개</option><option id="D">4개</option><option id="E">16개</option></options>
+<answer>E</answer>
+<explanation>십의 자리에는 0을 제외한 4개, 일의 자리에는 이미 쓴 숫자를 제외한 4개를 놓을 수 있다. 4×4=16개이다.</explanation>
+<advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 16개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-024" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>특정 두 사람이 이웃하는 배열</concept>
+<prompt>친구 4명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
+<options><option id="A">12가지</option><option id="B">12가지</option><option id="C">24가지</option><option id="D">6가지</option><option id="E">14가지</option></options>
+<answer>A</answer>
+<explanation>민수와 지훈이를 한 묶음으로 보면 3개를 배열하므로 3!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×6=12가지이다.</explanation>
+<advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 12가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-025" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>두 주사위의 합의 확률</concept>
+<prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 7일 확률은?</prompt>
+<options><option id="A">7/36</option><option id="B">1/6</option><option id="C">12/36</option><option id="D">6/36</option><option id="E">7/36</option></options>
+<answer>D</answer>
+<explanation>전체 경우는 6×6=36가지이다. 합이 7이 되는 순서쌍은 6가지이므로 확률은 6/36이다.</explanation>
+<advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 6/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-026" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>두 주사위 사건의 확률</concept>
+<prompt>공정한 주사위를 한 번 던져 2보다 큰 눈이 나올 확률을 풀이와 함께 구하시오.</prompt>
+<answer>1/6</answer>
+<explanation>2보다 큰 눈은 3, 4, 5, 6이다. 유리한 경우의 수를 6으로 나누면 1/6이다.</explanation>
+<advancedExplanation>기준값 2 자체는 “보다 큰” 조건에 포함되지 않는다. 조건에 맞는 눈만 세어야 한다. 오답 점검: 정답은 1/6이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-027" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>여사건의 확률</concept>
-<prompt>사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
-
-<options><option id="A">5/8</option><option id="B">3/8</option><option id="C">1/8</option><option id="D">1/2</option><option id="E">7/8</option></options>
-<answer>A</answer>
-<explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
-<advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
+<prompt>사건 A가 일어날 확률이 0.35이다. 사건 A가 일어나지 않을 확률을 구하시오.</prompt>
+<answer>0.65</answer>
+<explanation>사건 A와 A가 일어나지 않는 사건은 여사건이다. 따라서 1−0.35=0.65이다.</explanation>
+<advancedExplanation>여사건의 확률은 사건 A의 확률을 그대로 쓰거나 0에서 빼는 것이 아니라 전체 확률 1에서 뺀다. 오답 점검: 정답은 0.65이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-026" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>중선 AM의 길이가 21 cm이고 G가 무게중심이다. AG의 길이를 구하시오.</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>14 cm</answer>
-<explanation>AG는 중선의 2/3이므로 21×2/3=14 cm이다.</explanation>
-<advancedExplanation>중선은 꼭짓점에서 2부분, 중점 쪽에서 1부분으로 나누어진다.</advancedExplanation>
+<question id="MATH2S2-1-028" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>조사 결과와 확률</concept>
+<prompt>학생 200명을 대상으로 선호하는 방과 후 활동을 조사했더니 56명이 독서 활동을 선택했다. 조사한 학생 중 한 명을 임의로 고를 때 독서 활동을 선택한 학생일 확률을 소수로 구하시오.</prompt>
+<answer>0.28</answer>
+<explanation>상대도수로 확률을 추정하면 56/200=0.28이다.</explanation>
+<advancedExplanation>전체 조사 인원을 분모, 해당 응답 인원을 분자로 둔다. 전체 인원과 응답 인원을 뒤바꾸지 않는다. 오답 점검: 정답은 0.28이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-1-027" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>상의 3벌, 바지 4벌, 모자 2개 중 하나씩 고르는 방법의 수를 구하시오.</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>24가지</answer>
-<explanation>3×4×2=24가지이다.</explanation>
-<advancedExplanation>세 선택을 모두 해야 하므로 각 선택 수를 곱한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-028" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>여사건</concept>
-<prompt>사건 A의 확률이 0.42이다. A가 일어나지 않을 확률을 구하시오.</prompt>
-
-
-<answer>0.58</answer>
-<explanation>1-0.42=0.58이다.</explanation>
-<advancedExplanation>여사건의 확률은 전체 확률 1에서 사건 A의 확률을 뺀다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-029" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 14~15번 서술형 유형</concept>
-<prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>3/4</answer>
-<explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
-<advancedExplanation>여사건 모두 뒷면의 확률 1/4을 이용해 1-1/4=3/4로 구할 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-1-030" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 16번 서술형 유형</concept>
-<prompt>주머니에 빨간 공 3개, 파란 공 2개가 있다. 한 개를 꺼내 확인하고 다시 넣은 뒤 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률을 구하시오.</prompt>
-<diagram src="assets/math/bag_draw.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
+<question id="MATH2S2-1-029" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 3개와 파란 공 2개가 있다. 한 개를 꺼내 색을 확인한 뒤 다시 넣고, 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률은?</prompt>
 <answer>9/25</answer>
-<explanation>복원 추출이므로 3/5×3/5=9/25이다.</explanation>
-<advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
+<explanation>복원 추출이므로 두 번의 빨간 공 확률은 각각 3/5이다. 곱의 법칙으로 3/5×3/5=9/25이다.</explanation>
+<advancedExplanation>공을 다시 넣으므로 두 번째 시행의 전체 공 수와 빨간 공 수는 첫 시행 전과 같다. 복원하지 않는 경우와 구분한다. 오답 점검: 정답은 9/25이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-1-030" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>비복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 5개와 파란 공 3개가 있다. 공을 한 개 꺼낸 뒤 넣지 않고 다시 한 개를 꺼낸다. 두 공이 모두 빨간 공일 확률은?</prompt>
+<answer>5/14</answer>
+<explanation>첫 번째 빨간 공 확률은 5/8, 두 번째는 4/7이다. 따라서 5/8×4/7=5/14이다.</explanation>
+<advancedExplanation>비복원 추출에서는 첫 번째 공을 꺼낸 뒤 빨간 공과 전체 공의 수가 각각 1씩 줄어든다. 오답 점검: 정답은 5/14이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-2-001" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비로 대응변의 길이 구하기</concept>
-<prompt>두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 4:6이고 작은 삼각형의 대응변이 4 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
-<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
-
-<options><option id="A">7</option><option id="B">24</option><option id="C">10</option><option id="D">6</option><option id="E">5</option></options>
+<concept>닮음비와 대응변</concept>
+<prompt>작은 삼각형과 큰 삼각형은 닮음이고 대응변의 비가 작은 삼각형:큰 삼각형 = 3:5이다. 작은 삼각형의 대응변이 15 cm일 때 큰 삼각형의 대응변의 길이는?</prompt>
+<options><option id="A">28 cm</option><option id="B">23 cm</option><option id="C">9 cm</option><option id="D">25 cm</option><option id="E">15 cm</option></options>
 <answer>D</answer>
-<explanation>작은 변:큰 변=4:6이므로 큰 변은 4×6/4=6 cm이다.</explanation>
-<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
+<explanation>대응변의 비에서 큰 변/작은 변=5/3이므로 15×5/3=25 cm이다.</explanation>
+<advancedExplanation>비의 순서를 바꾸면 9 cm가 나오므로 작은 변과 큰 변의 순서를 먼저 맞춰야 한다. 오답 점검: 정답은 25 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-002" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
-
-<options><option id="A">중점연결정리</option><option id="B">확률의 곱셈</option><option id="C">AA 닮음</option><option id="D">SAS 닮음</option><option id="E">SSS 닮음</option></options>
-<answer>C</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-003" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 둘레의 비</concept>
-<prompt>두 닮은 도형의 닮음비가 1:2이고 작은 도형의 둘레가 6 cm이다. 큰 도형의 둘레는?</prompt>
-
-<options><option id="A">24</option><option id="B">12</option><option id="C">6</option><option id="D">13</option><option id="E">8</option></options>
-<answer>B</answer>
-<explanation>둘레의 비는 닮음비와 같으므로 큰 도형의 둘레는 15×5=75 cm이다.</explanation>
-<advancedExplanation>대응하는 모든 길이가 같은 비율로 변하므로 둘레도 닮음비만큼 변한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-004" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SAS 닮음 조건</concept>
-<prompt>두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
-
-<options><option id="A">SAS</option><option id="B">AA</option><option id="C">SSS</option><option id="D">중점연결</option><option id="E">합의 법칙</option></options>
+<question id="MATH2S2-2-002" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 둘레</concept>
+<prompt>두 닮은 다각형의 둘레의 비(작은 도형:큰 도형)가 3:4이고 작은 도형의 둘레가 30 cm이다. 큰 도형의 둘레를 구하시오.</prompt>
+<options><option id="A">40 cm</option><option id="B">30 cm</option><option id="C">43 cm</option><option id="D">38 cm</option><option id="E">22.5 cm</option></options>
 <answer>A</answer>
-<explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
-<advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
+<explanation>닮은 도형의 둘레의 비는 닮음비와 같으므로 큰 둘레는 30×4/3=40 cm이다.</explanation>
+<advancedExplanation>넓이의 비처럼 제곱하지 않는다. 둘레는 길이이므로 닮음비를 그대로 적용한다. 오답 점검: 정답은 40 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-005" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 넓이의 비</concept>
-<prompt>두 닮은 도형의 닮음비가 1:4일 때 넓이의 비는?</prompt>
-
-<options><option id="A">1:4</option><option id="B">4:1</option><option id="C">1:64</option><option id="D">16:1</option><option id="E">1:16</option></options>
-<answer>E</answer>
-<explanation>넓이의 비는 닮음비의 제곱이므로 1²:4²=1:16이다.</explanation>
-<advancedExplanation>길이 비가 a배이면 넓이는 두 방향으로 a배씩 변하여 a²배가 된다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-006" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대응각과 대응변</concept>
-<prompt>두 닮은 삼각형의 한 대응각이 58°이다. 다른 삼각형의 그 대응각은?</prompt>
-
-<options><option id="A">52</option><option id="B">60</option><option id="C">122</option><option id="D">58</option><option id="E">48</option></options>
-<answer>D</answer>
-<explanation>닮은 도형의 대응각은 서로 같다.</explanation>
-<advancedExplanation>닮음에서는 대응각이 같고 대응변의 길이는 닮음비를 이룬다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-007" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 닮음 조건 적용</concept>
-<prompt>세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
-
-<options><option id="A">중점연결</option><option id="B">합의 법칙</option><option id="C">SSS</option><option id="D">SAS</option><option id="E">AA</option></options>
+<question id="MATH2S2-2-003" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 넓이</concept>
+<prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 3:4이고 작은 도형의 넓이가 45 cm²이다. 큰 도형의 넓이는?</prompt>
+<options><option id="A">92 cm²</option><option id="B">20 cm²</option><option id="C">80 cm²</option><option id="D">60 cm²</option><option id="E">20 cm²</option></options>
 <answer>C</answer>
-<explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
-<advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
+<explanation>넓이의 비는 닮음비의 제곱이므로 3²:4²=9:16이다. 큰 넓이는 45×16/9=80 cm²이다.</explanation>
+<advancedExplanation>길이비를 넓이비로 그대로 사용하면 60 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 80 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-008" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-2-004" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>넓이비에서 닮음비 역산</concept>
+<prompt>두 닮은 도형의 넓이의 비(작은 도형:큰 도형)가 4:9이고 작은 도형의 대응변이 10 cm이다. 큰 도형의 대응변의 길이는?</prompt>
+<options><option id="A">22.5 cm</option><option id="B">17 cm</option><option id="C">10 cm</option><option id="D">14 cm</option><option id="E">15 cm</option></options>
+<answer>E</answer>
+<explanation>넓이비 4:9에서 닮음비는 제곱근을 취한 2:3이다. 따라서 큰 변은 10×3/2=15 cm이다.</explanation>
+<advancedExplanation>넓이비를 변의 비로 바로 쓰면 길이가 지나치게 커진다. 먼저 닮음비를 구한 뒤 길이에 적용한다. 오답 점검: 정답은 15 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-005" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>AA 닮음과 각의 조건</concept>
+<prompt>△ABC에서 ∠A=47°, ∠B=58°이고 △DEF에서 ∠D=47°, ∠E=58°이다. 두 삼각형이 닮았다고 판단할 수 있는 이유와 ∠C의 크기를 바르게 연결한 것은?</prompt>
+<options><option id="A">75° · SSS 닮음</option><option id="B">75° · AA 닮음</option><option id="C">85° · SAS 닮음</option><option id="D">133° · SSS 닮음</option><option id="E">58° · 중점연결정리</option></options>
+<answer>B</answer>
+<explanation>삼각형의 내각의 합은 180°이므로 ∠C=180°−47°−58°=75°이다. 두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
+<advancedExplanation>두 각이 같다는 조건만으로 SSS나 SAS를 사용할 수 없다. 두 대응각의 일치가 AA 닮음의 근거다. 오답 점검: 정답은 75° · AA 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-006" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SSS 닮음과 확대비</concept>
+<prompt>△ABC의 세 변이 7, 9, 11이고 △DEF의 대응변이 각각 14, 18, 22이다. 두 삼각형의 닮음 판정으로 가장 적절한 것은?</prompt>
+<options><option id="A">닮지 않음</option><option id="B">SSS 닮음 · 확대비 0.5</option><option id="C">SSS 닮음 · 확대비 2</option><option id="D">SAS 닮음 · 확대비 2</option><option id="E">AA 닮음 · 확대비 2</option></options>
+<answer>C</answer>
+<explanation>세 대응변의 비가 모두 2으로 같으므로 SSS 닮음이고 확대비는 2이다.</explanation>
+<advancedExplanation>SAS는 끼인각까지 확인해야 하며 AA는 두 각을 확인해야 한다. 여기서는 세 변의 비가 주어졌다. 오답 점검: 정답은 SSS 닮음 · 확대비 2이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-007" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SAS 닮음의 조건 확인</concept>
+<prompt>△ABC와 △DEF에서 AB=8, AC=12, DE=12, DF=18이고 ∠A=∠D=72°이다. 두 삼각형의 닮음 조건은?</prompt>
+<options><option id="A">AA 닮음</option><option id="B">SSS 닮음</option><option id="C">조건만으로 닮음을 알 수 없음</option><option id="D">평행선의 성질</option><option id="E">SAS 닮음</option></options>
+<answer>E</answer>
+<explanation>AB:DE=8:12이고 AC:DF=12:18로 두 변의 비가 같다. 그 끼인각도 같으므로 SAS 닮음이다.</explanation>
+<advancedExplanation>두 변의 비가 같아도 주어진 각이 두 변 사이의 끼인각인지 확인해야 한다. 이 문항에서는 ∠A와 ∠D가 바로 그 끼인각이다. 오답 점검: 정답은 SAS 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-008" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형의 대응변</concept>
+<prompt>닮은 두 삼각형에서 작은 삼각형의 한 변 9 cm에 대응하는 큰 삼각형의 변은 18 cm이다. 작은 삼각형의 다른 대응변이 7 cm일 때 큰 삼각형의 그 변은?</prompt>
+<options><option id="A">11 cm</option><option id="B">14 cm</option><option id="C">16 cm</option><option id="D">7 cm</option><option id="E">3.5 cm</option></options>
+<answer>B</answer>
+<explanation>확대비는 18/9이다. 따라서 대응변은 7×18/9=14 cm이다.</explanation>
+<advancedExplanation>작은 도형에서 큰 도형으로 갈 때 확대비를 곱한다. 역으로 큰 도형에서 작은 도형으로 구할 때만 나눈다. 오답 점검: 정답은 14 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-009" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
-<prompt>△ABC에서 DE∥BC이고 AD:DB=3:6, AE=3 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
-<options><option id="A">9</option><option id="B">6</option><option id="C">3</option><option id="D">7</option><option id="E">18</option></options>
-<answer>B</answer>
-<explanation>평행선의 성질에 따라 AD:DB=AE:EC이다. 2번째 비의 첫 항 AE가 3 cm이므로 EC=3×6/3=6 cm이다.</explanation>
-<advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:DB=3:4, AE=9 cm일 때 EC의 길이는?</prompt>
+<options><option id="A">14 cm</option><option id="B">21 cm</option><option id="C">11 cm</option><option id="D">12 cm</option><option id="E">6.75 cm</option></options>
+<answer>D</answer>
+<explanation>평행선이 두 변을 나누므로 AD:DB=AE:EC이다. 3:4=9:EC에서 EC=12 cm이다.</explanation>
+<advancedExplanation>비례식의 항을 같은 위치끼리 대응시킨다. AE와 EC는 각각 AD와 DB에 대응한다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-009" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-2-010" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형에서 대응변</concept>
+<prompt>△ABC에서 DE∥BC이고 AD:AB=3:7, AC=28 cm이다. 작은 삼각형 ADE의 변 AE를 구하시오.</prompt>
+<options><option id="A">12 cm</option><option id="B">65.33 cm</option><option id="C">16 cm</option><option id="D">14 cm</option><option id="E">28 cm</option></options>
+<answer>A</answer>
+<explanation>△ADE∼△ABC이므로 AE:AC=AD:AB=3:7. 따라서 AE=28×3/7=12 cm이다.</explanation>
+<advancedExplanation>AD:DB가 아니라 AD:AB가 주어졌으므로 전체 변 AB 기준의 비를 그대로 대응변 AC에 적용한다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-011" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선과 삼각형의 넓이·길이</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:AB=3:5, BC=25 cm일 때 DE의 길이는?</prompt>
+<options><option id="A">25 cm</option><option id="B">15 cm</option><option id="C">41.67 cm</option><option id="D">10 cm</option><option id="E">17 cm</option></options>
+<answer>B</answer>
+<explanation>△ADE∼△ABC이므로 DE:BC=AD:AB=3:5. DE=25×3/5=15 cm이다.</explanation>
+<advancedExplanation>AD:AB는 작은 삼각형과 큰 삼각형의 대응변 비다. 전체 밑변 BC에 같은 비를 곱해야 한다. 오답 점검: 정답은 15 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-012" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리</concept>
-<prompt>삼각형의 두 변의 중점을 연결한 선분의 길이가 4 cm이다. 나머지 한 변의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">8</option><option id="B">4</option><option id="C">9</option><option id="D">6</option><option id="E">12</option></options>
-<answer>A</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이다. 따라서 나머지 한 변은 4×2=8 cm이다.</explanation>
-<advancedExplanation>중점연결정리는 평행성과 길이의 절반 관계를 함께 나타낸다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-010" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선과 비례식</concept>
-<prompt>△ABC에서 DE∥BC, AD=5 cm, DB=4 cm, AE=5 cm이다. EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">6</option><option id="C">9</option><option id="D">20</option><option id="E">4</option></options>
-<answer>E</answer>
-<explanation>AD:DB=AE:EC이므로 5:4=5:EC이다. 따라서 EC=5×4/5=4 cm이다.</explanation>
-<advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-011" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선의 역</concept>
-<prompt>두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
-
-<options><option id="A">길이가 같다</option><option id="B">항상 중선이다</option><option id="C">관계가 없다</option><option id="D">평행하다</option><option id="E">수직이다</option></options>
+<prompt>△ABC에서 D와 E는 각각 AB와 AC의 중점이다. BC=24 cm일 때 중점연결선 DE의 길이는?</prompt>
+<options><option id="A">15 cm</option><option id="B">8 cm</option><option id="C">10 cm</option><option id="D">12 cm</option><option id="E">24 cm</option></options>
 <answer>D</answer>
-<explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
-<advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
+<explanation>중점연결정리에 따라 DE∥BC이고 DE=BC/2=24/2=12 cm이다.</explanation>
+<advancedExplanation>중점연결선은 밑변과 평행하며 길이는 밑변의 절반이다. 평행하다는 사실만으로 길이가 같다고 생각하면 안 된다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-012" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중점연결정리의 적용</concept>
-<prompt>△ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 6 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">1.5</option><option id="C">3</option><option id="D">6</option><option id="E">4</option></options>
-<answer>C</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이므로 6÷2=3 cm이다.</explanation>
-<advancedExplanation>중점연결 선분의 길이=밑변의 길이÷2이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-013" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 비례식</concept>
-<prompt>△ABC에서 DE∥BC이고 AD:AB=2:5, AC=15 cm이다. AE는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">12</option><option id="B">6</option><option id="C">5</option><option id="D">7</option><option id="E">10</option></options>
-<answer>B</answer>
-<explanation>AE:AC=AD:AB=2:5이므로 AE=15×2/5=6 cm이다.</explanation>
-<advancedExplanation>평행선에 의해 작은 삼각형과 큰 삼각형이 닮으므로 대응변의 비가 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-014" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>중선 AM에서 G가 무게중심이고 AG=10 cm이다. GM은?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">10</option><option id="C">15</option><option id="D">7</option><option id="E">20</option></options>
+<question id="MATH2S2-2-013" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중점연결정리의 역</concept>
+<prompt>△ABC에서 D는 AB의 중점, E는 AC의 중점이다. DE=9 cm일 때 BC의 길이와 DE와 BC의 관계를 바르게 나타낸 것은?</prompt>
+<options><option id="A">18 cm · DE∥BC</option><option id="B">9 cm · DE=BC</option><option id="C"> 36 cm · DE⊥BC</option><option id="D">18 cm · DE=2BC</option><option id="E">18 cm · DE∥AB</option></options>
 <answer>A</answer>
-<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나눈다. 따라서 GM=10÷2=5 cm이다.</explanation>
-<advancedExplanation>AG:GM=2:1이며 꼭짓점 쪽의 AG가 더 길다.</advancedExplanation>
+<explanation>중점연결정리의 역으로 DE∥BC이고 BC=2DE=18 cm이다.</explanation>
+<advancedExplanation>두 중점의 연결선은 세 번째 변과 평행하고 그 절반 길이이다. 두 배로 하는 대상은 DE가 아니라 BC이다. 오답 점검: 정답은 18 cm · DE∥BC이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-015" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 길이</concept>
-<prompt>중선 AM의 길이가 6 cm이고 G는 무게중심이다. AG는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">2</option><option id="B">6</option><option id="C">5</option><option id="D">8</option><option id="E">4</option></options>
+<question id="MATH2S2-2-014" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선으로 나뉜 선분의 비</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=5 cm, DB=5 cm, AE=10 cm이다. EC를 구하시오.</prompt>
+<options><option id="A">13 cm</option><option id="B">10 cm</option><option id="C">10 cm</option><option id="D">10 cm</option><option id="E">20 cm</option></options>
+<answer>B</answer>
+<explanation>AD:DB=AE:EC이므로 5:5=10:EC. EC=10×5/5=10 cm이다.</explanation>
+<advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 10 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-015" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심의 2:1</concept>
+<prompt>△ABC의 중선 AM 위에 무게중심 G가 있고 AG=8 cm이다. GM의 길이는?</prompt>
+<options><option id="A">16 cm</option><option id="B">2.67 cm</option><option id="C">8 cm</option><option id="D">6 cm</option><option id="E">4 cm</option></options>
 <answer>E</answer>
-<explanation>AG는 중선의 2/3이므로 6×2/3=4 cm이다.</explanation>
-<advancedExplanation>중선은 AG와 GM을 합한 3부분으로 나뉘고 AG는 그중 2부분이다.</advancedExplanation>
+<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나누므로 AG:GM=2:1. GM=8/2=4 cm이다.</explanation>
+<advancedExplanation>AG는 GM의 두 배다. 무게중심에서 꼭짓점까지의 거리를 중점까지의 거리로 나누어 구한다. 오답 점검: 정답은 4 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-016" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-2-016" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중선과 무게중심</concept>
+<prompt>△ABC의 중선 AM=15 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
+<options><option id="A">5 cm</option><option id="B">10 cm</option><option id="C">7.5 cm</option><option id="D">30 cm</option><option id="E">7 cm</option></options>
+<answer>A</answer>
+<explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=15/3=5 cm이다.</explanation>
+<advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 5 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-017" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심과 중선 길이</concept>
+<prompt>△ABC에서 AM은 중선이고 G는 무게중심이다. GM=5 cm일 때 중선 AM의 길이는?</prompt>
+<options><option id="A">13 cm</option><option id="B">20 cm</option><option id="C">15 cm</option><option id="D">10 cm</option><option id="E">5 cm</option></options>
+<answer>C</answer>
+<explanation>AG:GM=2:1이므로 AM=AG+GM=2GM+GM=3GM=5×3=15 cm이다.</explanation>
+<advancedExplanation>무게중심은 중선을 2:1로 나누므로 전체 중선은 GM의 3배다. 오답 점검: 정답은 15 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-018" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>무게중심과 넓이</concept>
-<prompt>△ABC의 넓이가 36 cm²이다. G가 무게중심일 때 △GBC의 넓이는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">18</option><option id="C">3</option><option id="D">12</option><option id="E">6</option></options>
-<answer>D</answer>
-<explanation>무게중심은 삼각형을 넓이가 같은 세 부분으로 나눈다. 따라서 △GBC의 넓이는 36÷3=12 cm²이다.</explanation>
-<advancedExplanation>세 중선이 만드는 세 삼각형의 넓이는 서로 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-017" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 2:1</concept>
-<prompt>GM=4 cm일 때 중선 AM의 길이는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">16</option><option id="B">13</option><option id="C">12</option><option id="D">8</option><option id="E">4</option></options>
-<answer>C</answer>
-<explanation>AG:GM=2:1이므로 AM은 GM의 3배이다. 따라서 AM=4×3=12 cm이다.</explanation>
-<advancedExplanation>무게중심에서 중점까지가 1부분, 꼭짓점까지가 2부분이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-018" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심과 넓이의 비</concept>
-<prompt>무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">3:2:1</option><option id="B">1:1:1</option><option id="C">1:2:3</option><option id="D">2:1:1</option><option id="E">1:1:2</option></options>
-<answer>B</answer>
-<explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
-<advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-019" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>합의 법칙</concept>
-<prompt>서로 겹치지 않는 두 선택이 각각 2가지, 5가지이다. 둘 중 하나를 고르는 방법은?</prompt>
-
-<options><option id="A">7</option><option id="B">10</option><option id="C">8</option><option id="D">-3</option><option id="E">11</option></options>
-<answer>A</answer>
-<explanation>서로 겹치지 않는 선택 중 하나를 고르는 경우이므로 합의 법칙을 적용한다. 2+5=7가지이다.</explanation>
-<advancedExplanation>합의 법칙은 배반적인 선택 방법의 경우의 수를 더한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-020" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>상의 3벌과 하의 6벌 중 하나씩 고르는 방법은?</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">19</option><option id="C">15</option><option id="D">10</option><option id="E">18</option></options>
+<prompt>△ABC의 넓이가 90 cm²이고 G는 무게중심이다. △GBC의 넓이는?</prompt>
+<options><option id="A">60 cm²</option><option id="B">45 cm²</option><option id="C">36 cm²</option><option id="D">15 cm²</option><option id="E">30 cm²</option></options>
 <answer>E</answer>
-<explanation>상의 3벌 각각에 하의 6벌을 조합할 수 있으므로 3×6=18가지이다.</explanation>
-<advancedExplanation>여러 단계에서 선택을 모두 해야 하므로 곱의 법칙을 사용한다.</advancedExplanation>
+<explanation>G에서 BC까지의 높이는 A에서 BC까지의 높이의 1/3이다. 밑변 BC가 같으므로 △GBC의 넓이는 전체의 1/3, 즉 90/3=30 cm²이다.</explanation>
+<advancedExplanation>AG:GM=2:1이므로 G는 꼭짓점 A에서 밑변 쪽으로 전체 높이의 2/3만큼 내려온 점이다. 남은 높이는 1/3이다. 오답 점검: 정답은 30 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-021" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대표와 부대표</concept>
-<prompt>학생 6명 중 대표와 부대표를 각각 한 명씩 뽑는 방법은?</prompt>
-
-<options><option id="A">15</option><option id="B">12</option><option id="C">16</option><option id="D">30</option><option id="E">6</option></options>
-<answer>D</answer>
-<explanation>대표는 6명 중 1명, 부대표는 남은 5명 중 1명을 뽑는다. 따라서 6×5=30가지이다.</explanation>
-<advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-022" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>서로 다른 숫자로 두 자리 수</concept>
-<prompt>1, 2, 3, 4, 5 중 서로 다른 두 숫자로 두 자리 수를 만들 수 있는 경우의 수는?</prompt>
-<diagram src="assets/math/cards.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">25</option><option id="B">5</option><option id="C">20</option><option id="D">10</option><option id="E">15</option></options>
-<answer>C</answer>
-<explanation>십의 자리 5가지, 일의 자리 4가지이므로 5×4=20가지이다.</explanation>
-<advancedExplanation>첫 번째 자리를 정한 뒤 남은 4개 중 하나를 선택한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-023" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>확률의 범위</concept>
-<prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
-
-<options><option id="A">확률은 경우의 수와 무관</option><option id="B">0≤P(A)≤1</option><option id="C">P(A)&lt;0일 수 있다</option><option id="D">P(A)>1일 수 있다</option><option id="E">확률은 항상 1/2</option></options>
+<question id="MATH2S2-2-019" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심이 나누는 넓이</concept>
+<prompt>△ABC에서 두 중선의 교점 G가 무게중심이다. △ABC의 넓이가 63 cm²일 때 △ABG의 넓이는?</prompt>
+<options><option id="A">15.75 cm²</option><option id="B">21 cm²</option><option id="C">31.5 cm²</option><option id="D">42 cm²</option><option id="E">25 cm²</option></options>
 <answer>B</answer>
-<explanation>확률은 0 이상 1 이하이다.</explanation>
-<advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
+<explanation>무게중심과 세 꼭짓점을 연결하면 생기는 세 삼각형의 넓이는 서로 같다. 따라서 △ABG의 넓이는 63/3=21 cm²이다.</explanation>
+<advancedExplanation>세 작은 삼각형의 밑변과 높이 관계를 이용하면 각각 전체 삼각형 넓이의 1/3임을 알 수 있다. 오답 점검: 정답은 21 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-024" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>수학적 확률</concept>
-<prompt>공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1/2</option><option id="B">1/6</option><option id="C">1/3</option><option id="D">2/3</option><option id="E">5/6</option></options>
+<question id="MATH2S2-2-020" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>합의 법칙의 상황 적용</concept>
+<prompt>학교 축제에서 간식으로 6가지 빵 중 하나 또는 5가지 과일 중 하나를 고르려고 한다. 두 종류를 함께 고르지 않을 때 선택 방법은 몇 가지인가?</prompt>
+<options><option id="A">13가지</option><option id="B">6가지</option><option id="C">5가지</option><option id="D">11가지</option><option id="E">30가지</option></options>
+<answer>D</answer>
+<explanation>빵과 과일 중 하나만 선택하므로 합의 법칙을 적용한다. 6+5=11가지이다.</explanation>
+<advancedExplanation>두 항목을 모두 선택하는 것이 아니라 둘 중 하나를 선택한다. 따라서 곱하지 않고 더한다. 오답 점검: 정답은 11가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-021" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>곱의 법칙과 선택</concept>
+<prompt>체험학습 복장을 고른다. 상의 4벌, 바지 3벌, 운동화 3켤레 중 하나씩 선택할 때 가능한 조합은?</prompt>
+<options><option id="A">10가지</option><option id="B">12가지</option><option id="C">40가지</option><option id="D">33가지</option><option id="E">36가지</option></options>
+<answer>E</answer>
+<explanation>상의·바지·운동화를 모두 하나씩 고르므로 곱의 법칙을 적용한다. 4×3×3=36가지이다.</explanation>
+<advancedExplanation>각 선택은 다른 선택과 결합해 한 가지 복장을 만든다. 따라서 각 단계의 선택 수를 곱한다. 오답 점검: 정답은 36가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-022" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>순서가 있는 두 직책</concept>
+<prompt>학생 8명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
+<options><option id="A">7가지</option><option id="B">56가지</option><option id="C">64가지</option><option id="D">28가지</option><option id="E">64가지</option></options>
+<answer>B</answer>
+<explanation>회장은 8명 중 선택하고, 부회장은 남은 7명 중 선택한다. 8×7=56가지이다.</explanation>
+<advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 8C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 56가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-023" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>숫자 카드로 두 자리 수 만들기</concept>
+<prompt>숫자 카드 0부터 5까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
+<options><option id="A">10개</option><option id="B">31개</option><option id="C">5개</option><option id="D">25개</option><option id="E">30개</option></options>
+<answer>D</answer>
+<explanation>십의 자리에는 0을 제외한 5개, 일의 자리에는 이미 쓴 숫자를 제외한 5개를 놓을 수 있다. 5×5=25개이다.</explanation>
+<advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 25개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-024" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>특정 두 사람이 이웃하는 배열</concept>
+<prompt>친구 5명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
+<options><option id="A">48가지</option><option id="B">120가지</option><option id="C">24가지</option><option id="D">50가지</option><option id="E">20가지</option></options>
 <answer>A</answer>
-<explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
-<advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
+<explanation>민수와 지훈이를 한 묶음으로 보면 4개를 배열하므로 4!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×24=48가지이다.</explanation>
+<advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 48가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-025" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-2-025" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>두 주사위의 합의 확률</concept>
+<prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 8일 확률은?</prompt>
+<options><option id="A">1/6</option><option id="B">10/36</option><option id="C">5/36</option><option id="D">6/36</option><option id="E">8/36</option></options>
+<answer>C</answer>
+<explanation>전체 경우는 6×6=36가지이다. 합이 8이 되는 순서쌍은 5가지이므로 확률은 5/36이다.</explanation>
+<advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 5/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-026" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>두 주사위 사건의 확률</concept>
+<prompt>공정한 주사위를 한 번 던져 3보다 큰 눈이 나올 확률을 풀이와 함께 구하시오.</prompt>
+<answer>1/4</answer>
+<explanation>3보다 큰 눈은 4, 5, 6이다. 유리한 경우의 수를 6으로 나누면 1/4이다.</explanation>
+<advancedExplanation>기준값 3 자체는 “보다 큰” 조건에 포함되지 않는다. 조건에 맞는 눈만 세어야 한다. 오답 점검: 정답은 1/4이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-2-027" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>여사건의 확률</concept>
-<prompt>사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
-
-<options><option id="A">3/8</option><option id="B">1/8</option><option id="C">1/2</option><option id="D">7/8</option><option id="E">5/8</option></options>
-<answer>E</answer>
-<explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
-<advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
+<prompt>사건 A가 일어날 확률이 0.4이다. 사건 A가 일어나지 않을 확률을 구하시오.</prompt>
+<answer>0.6</answer>
+<explanation>사건 A와 A가 일어나지 않는 사건은 여사건이다. 따라서 1−0.4=0.6이다.</explanation>
+<advancedExplanation>여사건의 확률은 사건 A의 확률을 그대로 쓰거나 0에서 빼는 것이 아니라 전체 확률 1에서 뺀다. 오답 점검: 정답은 0.6이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-026" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>중선 AM의 길이가 21 cm이고 G가 무게중심이다. AG의 길이를 구하시오.</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>14 cm</answer>
-<explanation>AG는 중선의 2/3이므로 21×2/3=14 cm이다.</explanation>
-<advancedExplanation>중선은 꼭짓점에서 2부분, 중점 쪽에서 1부분으로 나누어진다.</advancedExplanation>
+<question id="MATH2S2-2-028" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>조사 결과와 확률</concept>
+<prompt>학생 250명을 대상으로 선호하는 방과 후 활동을 조사했더니 75명이 독서 활동을 선택했다. 조사한 학생 중 한 명을 임의로 고를 때 독서 활동을 선택한 학생일 확률을 소수로 구하시오.</prompt>
+<answer>0.3</answer>
+<explanation>상대도수로 확률을 추정하면 75/250=0.3이다.</explanation>
+<advancedExplanation>전체 조사 인원을 분모, 해당 응답 인원을 분자로 둔다. 전체 인원과 응답 인원을 뒤바꾸지 않는다. 오답 점검: 정답은 0.3이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-027" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>상의 3벌, 바지 4벌, 모자 2개 중 하나씩 고르는 방법의 수를 구하시오.</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>24가지</answer>
-<explanation>3×4×2=24가지이다.</explanation>
-<advancedExplanation>세 선택을 모두 해야 하므로 각 선택 수를 곱한다.</advancedExplanation>
+<question id="MATH2S2-2-029" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 4개와 파란 공 3개가 있다. 한 개를 꺼내 색을 확인한 뒤 다시 넣고, 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률은?</prompt>
+<answer>16/49</answer>
+<explanation>복원 추출이므로 두 번의 빨간 공 확률은 각각 4/7이다. 곱의 법칙으로 4/7×4/7=16/49이다.</explanation>
+<advancedExplanation>공을 다시 넣으므로 두 번째 시행의 전체 공 수와 빨간 공 수는 첫 시행 전과 같다. 복원하지 않는 경우와 구분한다. 오답 점검: 정답은 16/49이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-028" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>여사건</concept>
-<prompt>사건 A의 확률이 0.42이다. A가 일어나지 않을 확률을 구하시오.</prompt>
-
-
-<answer>0.58</answer>
-<explanation>1-0.42=0.58이다.</explanation>
-<advancedExplanation>여사건의 확률은 전체 확률 1에서 사건 A의 확률을 뺀다.</advancedExplanation>
+<question id="MATH2S2-2-030" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>비복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 4개와 파란 공 4개가 있다. 공을 한 개 꺼낸 뒤 넣지 않고 다시 한 개를 꺼낸다. 두 공이 모두 빨간 공일 확률은?</prompt>
+<answer>3/14</answer>
+<explanation>첫 번째 빨간 공 확률은 4/8, 두 번째는 3/7이다. 따라서 4/8×3/7=3/14이다.</explanation>
+<advancedExplanation>비복원 추출에서는 첫 번째 공을 꺼낸 뒤 빨간 공과 전체 공의 수가 각각 1씩 줄어든다. 오답 점검: 정답은 3/14이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-029" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 14~15번 서술형 유형</concept>
-<prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>3/4</answer>
-<explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
-<advancedExplanation>여사건 모두 뒷면의 확률 1/4을 이용해 1-1/4=3/4로 구할 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-2-030" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 16번 서술형 유형</concept>
-<prompt>주머니에 빨간 공 3개, 파란 공 2개가 있다. 한 개를 꺼내 확인하고 다시 넣은 뒤 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률을 구하시오.</prompt>
-<diagram src="assets/math/bag_draw.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>9/25</answer>
-<explanation>복원 추출이므로 3/5×3/5=9/25이다.</explanation>
-<advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-001" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비로 대응변의 길이 구하기</concept>
-<prompt>【조건 분석】 두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 2:4이고 작은 삼각형의 대응변이 2 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
-<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
-
-<options><option id="A">8</option><option id="B">6</option><option id="C">4</option><option id="D">3</option><option id="E">5</option></options>
+<question id="MATH2S2-3-001" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 대응변</concept>
+<prompt>작은 삼각형과 큰 삼각형은 닮음이고 대응변의 비가 작은 삼각형:큰 삼각형 = 4:7이다. 작은 삼각형의 대응변이 20 cm일 때 큰 삼각형의 대응변의 길이는?</prompt>
+<options><option id="A">33 cm</option><option id="B">11.43 cm</option><option id="C">35 cm</option><option id="D">20 cm</option><option id="E">39 cm</option></options>
 <answer>C</answer>
-<explanation>작은 변:큰 변=2:4이므로 큰 변은 2×4/2=4 cm이다.</explanation>
-<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
+<explanation>대응변의 비에서 큰 변/작은 변=7/4이므로 20×7/4=35 cm이다.</explanation>
+<advancedExplanation>비의 순서를 바꾸면 11.43 cm가 나오므로 작은 변과 큰 변의 순서를 먼저 맞춰야 한다. 오답 점검: 정답은 35 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-002" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>【조건을 분석하여 판단】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
-
-<options><option id="A">확률의 곱셈</option><option id="B">AA 닮음</option><option id="C">SAS 닮음</option><option id="D">SSS 닮음</option><option id="E">중점연결정리</option></options>
-<answer>B</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
+<question id="MATH2S2-3-002" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 둘레</concept>
+<prompt>두 닮은 다각형의 둘레의 비(작은 도형:큰 도형)가 4:5이고 작은 도형의 둘레가 36 cm이다. 큰 도형의 둘레를 구하시오.</prompt>
+<options><option id="A">36 cm</option><option id="B">49 cm</option><option id="C">43 cm</option><option id="D">28.8 cm</option><option id="E">45 cm</option></options>
+<answer>E</answer>
+<explanation>닮은 도형의 둘레의 비는 닮음비와 같으므로 큰 둘레는 36×5/4=45 cm이다.</explanation>
+<advancedExplanation>넓이의 비처럼 제곱하지 않는다. 둘레는 길이이므로 닮음비를 그대로 적용한다. 오답 점검: 정답은 45 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-3-003" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 둘레의 비</concept>
-<prompt>【조건을 분석하여 판단】 두 닮은 도형의 닮음비가 1:3이고 작은 도형의 둘레가 9 cm이다. 큰 도형의 둘레는?</prompt>
-
-<options><option id="A">27</option><option id="B">9</option><option id="C">28</option><option id="D">12</option><option id="E">81</option></options>
-<answer>A</answer>
-<explanation>둘레의 비는 닮음비와 같으므로 큰 도형의 둘레는 15×5=75 cm이다.</explanation>
-<advancedExplanation>대응하는 모든 길이가 같은 비율로 변하므로 둘레도 닮음비만큼 변한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-004" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SAS 닮음 조건</concept>
-<prompt>【조건을 분석하여 판단】 두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
-
-<options><option id="A">AA</option><option id="B">SSS</option><option id="C">중점연결</option><option id="D">합의 법칙</option><option id="E">SAS</option></options>
-<answer>E</answer>
-<explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
-<advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-005" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 넓이의 비</concept>
-<prompt>【조건을 분석하여 판단】 두 닮은 도형의 닮음비가 1:5일 때 넓이의 비는?</prompt>
-
-<options><option id="A">5:1</option><option id="B">1:125</option><option id="C">25:1</option><option id="D">1:25</option><option id="E">1:5</option></options>
-<answer>D</answer>
-<explanation>넓이의 비는 닮음비의 제곱이므로 1²:5²=1:25이다.</explanation>
-<advancedExplanation>길이 비가 a배이면 넓이는 두 방향으로 a배씩 변하여 a²배가 된다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-006" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대응각과 대응변</concept>
-<prompt>【조건을 분석하여 판단】 두 닮은 삼각형의 한 대응각이 58°이다. 다른 삼각형의 그 대응각은?</prompt>
-
-<options><option id="A">60</option><option id="B">122</option><option id="C">58</option><option id="D">48</option><option id="E">52</option></options>
-<answer>C</answer>
-<explanation>닮은 도형의 대응각은 서로 같다.</explanation>
-<advancedExplanation>닮음에서는 대응각이 같고 대응변의 길이는 닮음비를 이룬다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-007" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 닮음 조건 적용</concept>
-<prompt>【조건을 분석하여 판단】 세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
-
-<options><option id="A">합의 법칙</option><option id="B">SSS</option><option id="C">SAS</option><option id="D">AA</option><option id="E">중점연결</option></options>
+<concept>닮음비와 넓이</concept>
+<prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 2:5이고 작은 도형의 넓이가 24 cm²이다. 큰 도형의 넓이는?</prompt>
+<options><option id="A">30 cm²</option><option id="B">150 cm²</option><option id="C">60 cm²</option><option id="D">30 cm²</option><option id="E">160 cm²</option></options>
 <answer>B</answer>
-<explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
-<advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
+<explanation>넓이의 비는 닮음비의 제곱이므로 2²:5²=4:25이다. 큰 넓이는 24×25/4=150 cm²이다.</explanation>
+<advancedExplanation>길이비를 넓이비로 그대로 사용하면 60 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 150 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-008" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-3-004" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>넓이비에서 닮음비 역산</concept>
+<prompt>두 닮은 도형의 넓이의 비(작은 도형:큰 도형)가 16:49이고 작은 도형의 대응변이 16 cm이다. 큰 도형의 대응변의 길이는?</prompt>
+<options><option id="A">32 cm</option><option id="B">16 cm</option><option id="C">27 cm</option><option id="D">28 cm</option><option id="E">49 cm</option></options>
+<answer>D</answer>
+<explanation>넓이비 16:49에서 닮음비는 제곱근을 취한 4:7이다. 따라서 큰 변은 16×7/4=28 cm이다.</explanation>
+<advancedExplanation>넓이비를 변의 비로 바로 쓰면 길이가 지나치게 커진다. 먼저 닮음비를 구한 뒤 길이에 적용한다. 오답 점검: 정답은 28 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-005" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>AA 닮음과 각의 조건</concept>
+<prompt>△ABC에서 ∠A=56°, ∠B=49°이고 △DEF에서 ∠D=56°, ∠E=49°이다. 두 삼각형이 닮았다고 판단할 수 있는 이유와 ∠C의 크기를 바르게 연결한 것은?</prompt>
+<options><option id="A">75° · AA 닮음</option><option id="B">85° · SAS 닮음</option><option id="C">124° · SSS 닮음</option><option id="D">49° · 중점연결정리</option><option id="E">75° · SSS 닮음</option></options>
+<answer>A</answer>
+<explanation>삼각형의 내각의 합은 180°이므로 ∠C=180°−56°−49°=75°이다. 두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
+<advancedExplanation>두 각이 같다는 조건만으로 SSS나 SAS를 사용할 수 없다. 두 대응각의 일치가 AA 닮음의 근거다. 오답 점검: 정답은 75° · AA 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-006" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SSS 닮음과 확대비</concept>
+<prompt>△ABC의 세 변이 8, 10, 12이고 △DEF의 대응변이 각각 20, 25, 30이다. 두 삼각형의 닮음 판정으로 가장 적절한 것은?</prompt>
+<options><option id="A">SSS 닮음 · 확대비 0.4</option><option id="B">SSS 닮음 · 확대비 2.5</option><option id="C">SAS 닮음 · 확대비 2.5</option><option id="D">AA 닮음 · 확대비 2.5</option><option id="E">닮지 않음</option></options>
+<answer>B</answer>
+<explanation>세 대응변의 비가 모두 2.5으로 같으므로 SSS 닮음이고 확대비는 2.5이다.</explanation>
+<advancedExplanation>SAS는 끼인각까지 확인해야 하며 AA는 두 각을 확인해야 한다. 여기서는 세 변의 비가 주어졌다. 오답 점검: 정답은 SSS 닮음 · 확대비 2.5이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-007" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SAS 닮음의 조건 확인</concept>
+<prompt>△ABC와 △DEF에서 AB=9, AC=12, DE=15, DF=20이고 ∠A=∠D=55°이다. 두 삼각형의 닮음 조건은?</prompt>
+<options><option id="A">SSS 닮음</option><option id="B">조건만으로 닮음을 알 수 없음</option><option id="C">평행선의 성질</option><option id="D">SAS 닮음</option><option id="E">AA 닮음</option></options>
+<answer>D</answer>
+<explanation>AB:DE=9:15이고 AC:DF=12:20로 두 변의 비가 같다. 그 끼인각도 같으므로 SAS 닮음이다.</explanation>
+<advancedExplanation>두 변의 비가 같아도 주어진 각이 두 변 사이의 끼인각인지 확인해야 한다. 이 문항에서는 ∠A와 ∠D가 바로 그 끼인각이다. 오답 점검: 정답은 SAS 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-008" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형의 대응변</concept>
+<prompt>닮은 두 삼각형에서 작은 삼각형의 한 변 8 cm에 대응하는 큰 삼각형의 변은 28 cm이다. 작은 삼각형의 다른 대응변이 9 cm일 때 큰 삼각형의 그 변은?</prompt>
+<options><option id="A">31.5 cm</option><option id="B">33.5 cm</option><option id="C">9 cm</option><option id="D">2.57 cm</option><option id="E">28.5 cm</option></options>
+<answer>A</answer>
+<explanation>확대비는 28/8이다. 따라서 대응변은 9×28/8=31.5 cm이다.</explanation>
+<advancedExplanation>작은 도형에서 큰 도형으로 갈 때 확대비를 곱한다. 역으로 큰 도형에서 작은 도형으로 구할 때만 나눈다. 오답 점검: 정답은 31.5 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-009" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
-<prompt>【조건을 분석하여 판단】 △ABC에서 DE∥BC이고 AD:DB=4:4, AE=4 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
-<options><option id="A">4</option><option id="B">6</option><option id="C">5</option><option id="D">16</option><option id="E">8</option></options>
-<answer>A</answer>
-<explanation>평행선의 성질에 따라 AD:DB=AE:EC이다. 2번째 비의 첫 항 AE가 4 cm이므로 EC=4×4/4=4 cm이다.</explanation>
-<advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:DB=4:5, AE=12 cm일 때 EC의 길이는?</prompt>
+<options><option id="A">27 cm</option><option id="B">14 cm</option><option id="C">15 cm</option><option id="D">9.6 cm</option><option id="E">17 cm</option></options>
+<answer>C</answer>
+<explanation>평행선이 두 변을 나누므로 AD:DB=AE:EC이다. 4:5=12:EC에서 EC=15 cm이다.</explanation>
+<advancedExplanation>비례식의 항을 같은 위치끼리 대응시킨다. AE와 EC는 각각 AD와 DB에 대응한다. 오답 점검: 정답은 15 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-009" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-3-010" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형에서 대응변</concept>
+<prompt>△ABC에서 DE∥BC이고 AD:AB=4:9, AC=27 cm이다. 작은 삼각형 ADE의 변 AE를 구하시오.</prompt>
+<options><option id="A">60.75 cm</option><option id="B">15 cm</option><option id="C">14 cm</option><option id="D">27 cm</option><option id="E">12 cm</option></options>
+<answer>E</answer>
+<explanation>△ADE∼△ABC이므로 AE:AC=AD:AB=4:9. 따라서 AE=27×4/9=12 cm이다.</explanation>
+<advancedExplanation>AD:DB가 아니라 AD:AB가 주어졌으므로 전체 변 AB 기준의 비를 그대로 대응변 AC에 적용한다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-011" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선과 삼각형의 넓이·길이</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:AB=4:7, BC=28 cm일 때 DE의 길이는?</prompt>
+<options><option id="A">16 cm</option><option id="B">49 cm</option><option id="C">12 cm</option><option id="D">18 cm</option><option id="E">28 cm</option></options>
+<answer>A</answer>
+<explanation>△ADE∼△ABC이므로 DE:BC=AD:AB=4:7. DE=28×4/7=16 cm이다.</explanation>
+<advancedExplanation>AD:AB는 작은 삼각형과 큰 삼각형의 대응변 비다. 전체 밑변 BC에 같은 비를 곱해야 한다. 오답 점검: 정답은 16 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-012" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리</concept>
-<prompt>【조건을 분석하여 판단】 삼각형의 두 변의 중점을 연결한 선분의 길이가 5 cm이다. 나머지 한 변의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">11</option><option id="C">7</option><option id="D">15</option><option id="E">10</option></options>
-<answer>E</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이다. 따라서 나머지 한 변은 5×2=10 cm이다.</explanation>
-<advancedExplanation>중점연결정리는 평행성과 길이의 절반 관계를 함께 나타낸다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-010" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선과 비례식</concept>
-<prompt>【조건을 분석하여 판단】 △ABC에서 DE∥BC, AD=2 cm, DB=6 cm, AE=2 cm이다. EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">7</option><option id="B">8</option><option id="C">12</option><option id="D">6</option><option id="E">2</option></options>
-<answer>D</answer>
-<explanation>AD:DB=AE:EC이므로 2:6=2:EC이다. 따라서 EC=2×6/2=6 cm이다.</explanation>
-<advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-011" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선의 역</concept>
-<prompt>【조건을 분석하여 판단】 두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
-
-<options><option id="A">항상 중선이다</option><option id="B">관계가 없다</option><option id="C">평행하다</option><option id="D">수직이다</option><option id="E">길이가 같다</option></options>
+<prompt>△ABC에서 D와 E는 각각 AB와 AC의 중점이다. BC=30 cm일 때 중점연결선 DE의 길이는?</prompt>
+<options><option id="A">10 cm</option><option id="B">13 cm</option><option id="C">15 cm</option><option id="D">30 cm</option><option id="E">18 cm</option></options>
 <answer>C</answer>
-<explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
-<advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
+<explanation>중점연결정리에 따라 DE∥BC이고 DE=BC/2=30/2=15 cm이다.</explanation>
+<advancedExplanation>중점연결선은 밑변과 평행하며 길이는 밑변의 절반이다. 평행하다는 사실만으로 길이가 같다고 생각하면 안 된다. 오답 점검: 정답은 15 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-012" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중점연결정리의 적용</concept>
-<prompt>【조건을 분석하여 판단】 △ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 8 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">2</option><option id="B">4</option><option id="C">8</option><option id="D">5</option><option id="E">12</option></options>
-<answer>B</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이므로 8÷2=4 cm이다.</explanation>
-<advancedExplanation>중점연결 선분의 길이=밑변의 길이÷2이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-013" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 비례식</concept>
-<prompt>【조건을 분석하여 판단】 △ABC에서 DE∥BC이고 AD:AB=2:5, AC=15 cm이다. AE는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">6</option><option id="B">5</option><option id="C">7</option><option id="D">10</option><option id="E">12</option></options>
-<answer>A</answer>
-<explanation>AE:AC=AD:AB=2:5이므로 AE=15×2/5=6 cm이다.</explanation>
-<advancedExplanation>평행선에 의해 작은 삼각형과 큰 삼각형이 닮으므로 대응변의 비가 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-014" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>【조건을 분석하여 판단】 중선 AM에서 G가 무게중심이고 AG=4 cm이다. GM은?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">4</option><option id="B">6</option><option id="C">3</option><option id="D">8</option><option id="E">2</option></options>
+<question id="MATH2S2-3-013" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중점연결정리의 역</concept>
+<prompt>△ABC에서 D는 AB의 중점, E는 AC의 중점이다. DE=11 cm일 때 BC의 길이와 DE와 BC의 관계를 바르게 나타낸 것은?</prompt>
+<options><option id="A">11 cm · DE=BC</option><option id="B"> 44 cm · DE⊥BC</option><option id="C">22 cm · DE=2BC</option><option id="D">22 cm · DE∥AB</option><option id="E">22 cm · DE∥BC</option></options>
 <answer>E</answer>
-<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나눈다. 따라서 GM=4÷2=2 cm이다.</explanation>
-<advancedExplanation>AG:GM=2:1이며 꼭짓점 쪽의 AG가 더 길다.</advancedExplanation>
+<explanation>중점연결정리의 역으로 DE∥BC이고 BC=2DE=22 cm이다.</explanation>
+<advancedExplanation>두 중점의 연결선은 세 번째 변과 평행하고 그 절반 길이이다. 두 배로 하는 대상은 DE가 아니라 BC이다. 오답 점검: 정답은 22 cm · DE∥BC이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-015" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 길이</concept>
-<prompt>【조건을 분석하여 판단】 중선 AM의 길이가 9 cm이고 G는 무게중심이다. AG는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">6</option><option id="C">12</option><option id="D">7</option><option id="E">3</option></options>
+<question id="MATH2S2-3-014" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선으로 나뉜 선분의 비</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=6 cm, DB=9 cm, AE=12 cm이다. EC를 구하시오.</prompt>
+<options><option id="A">15 cm</option><option id="B">18 cm</option><option id="C">8 cm</option><option id="D">30 cm</option><option id="E">21 cm</option></options>
 <answer>B</answer>
-<explanation>AG는 중선의 2/3이므로 9×2/3=6 cm이다.</explanation>
-<advancedExplanation>중선은 AG와 GM을 합한 3부분으로 나뉘고 AG는 그중 2부분이다.</advancedExplanation>
+<explanation>AD:DB=AE:EC이므로 6:9=12:EC. EC=12×9/6=18 cm이다.</explanation>
+<advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 18 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-016" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-3-015" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심의 2:1</concept>
+<prompt>△ABC의 중선 AM 위에 무게중심 G가 있고 AG=10 cm이다. GM의 길이는?</prompt>
+<options><option id="A">3.33 cm</option><option id="B">10 cm</option><option id="C">7 cm</option><option id="D">5 cm</option><option id="E">20 cm</option></options>
+<answer>D</answer>
+<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나누므로 AG:GM=2:1. GM=10/2=5 cm이다.</explanation>
+<advancedExplanation>AG는 GM의 두 배다. 무게중심에서 꼭짓점까지의 거리를 중점까지의 거리로 나누어 구한다. 오답 점검: 정답은 5 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-016" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중선과 무게중심</concept>
+<prompt>△ABC의 중선 AM=18 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
+<options><option id="A">12 cm</option><option id="B">9 cm</option><option id="C">36 cm</option><option id="D">8 cm</option><option id="E">6 cm</option></options>
+<answer>E</answer>
+<explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=18/3=6 cm이다.</explanation>
+<advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 6 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-017" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심과 중선 길이</concept>
+<prompt>△ABC에서 AM은 중선이고 G는 무게중심이다. GM=6 cm일 때 중선 AM의 길이는?</prompt>
+<options><option id="A">24 cm</option><option id="B">18 cm</option><option id="C">12 cm</option><option id="D">6 cm</option><option id="E">16 cm</option></options>
+<answer>B</answer>
+<explanation>AG:GM=2:1이므로 AM=AG+GM=2GM+GM=3GM=6×3=18 cm이다.</explanation>
+<advancedExplanation>무게중심은 중선을 2:1로 나누므로 전체 중선은 GM의 3배다. 오답 점검: 정답은 18 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-018" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>무게중심과 넓이</concept>
-<prompt>【조건을 분석하여 판단】 △ABC의 넓이가 48 cm²이다. G가 무게중심일 때 △GBC의 넓이는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">24</option><option id="B">4</option><option id="C">16</option><option id="D">8</option><option id="E">12</option></options>
-<answer>C</answer>
-<explanation>무게중심은 삼각형을 넓이가 같은 세 부분으로 나눈다. 따라서 △GBC의 넓이는 48÷3=16 cm²이다.</explanation>
-<advancedExplanation>세 중선이 만드는 세 삼각형의 넓이는 서로 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-017" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 2:1</concept>
-<prompt>【조건을 분석하여 판단】 GM=5 cm일 때 중선 AM의 길이는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">16</option><option id="B">15</option><option id="C">10</option><option id="D">5</option><option id="E">20</option></options>
-<answer>B</answer>
-<explanation>AG:GM=2:1이므로 AM은 GM의 3배이다. 따라서 AM=5×3=15 cm이다.</explanation>
-<advancedExplanation>무게중심에서 중점까지가 1부분, 꼭짓점까지가 2부분이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-018" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심과 넓이의 비</concept>
-<prompt>【조건을 분석하여 판단】 무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1:1:1</option><option id="B">1:2:3</option><option id="C">2:1:1</option><option id="D">1:1:2</option><option id="E">3:2:1</option></options>
-<answer>A</answer>
-<explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
-<advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-019" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>합의 법칙</concept>
-<prompt>【조건을 분석하여 판단】 서로 겹치지 않는 두 선택이 각각 3가지, 3가지이다. 둘 중 하나를 고르는 방법은?</prompt>
-
-<options><option id="A">9</option><option id="B">7</option><option id="C">0</option><option id="D">10</option><option id="E">6</option></options>
-<answer>E</answer>
-<explanation>서로 겹치지 않는 선택 중 하나를 고르는 경우이므로 합의 법칙을 적용한다. 3+3=6가지이다.</explanation>
-<advancedExplanation>합의 법칙은 배반적인 선택 방법의 경우의 수를 더한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-020" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>【조건을 분석하여 판단】 상의 4벌과 하의 4벌 중 하나씩 고르는 방법은?</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">17</option><option id="B">12</option><option id="C">9</option><option id="D">16</option><option id="E">8</option></options>
+<prompt>△ABC의 넓이가 120 cm²이고 G는 무게중심이다. △GBC의 넓이는?</prompt>
+<options><option id="A">60 cm²</option><option id="B">46 cm²</option><option id="C">20 cm²</option><option id="D">40 cm²</option><option id="E">80 cm²</option></options>
 <answer>D</answer>
-<explanation>상의 4벌 각각에 하의 4벌을 조합할 수 있으므로 4×4=16가지이다.</explanation>
-<advancedExplanation>여러 단계에서 선택을 모두 해야 하므로 곱의 법칙을 사용한다.</advancedExplanation>
+<explanation>G에서 BC까지의 높이는 A에서 BC까지의 높이의 1/3이다. 밑변 BC가 같으므로 △GBC의 넓이는 전체의 1/3, 즉 120/3=40 cm²이다.</explanation>
+<advancedExplanation>AG:GM=2:1이므로 G는 꼭짓점 A에서 밑변 쪽으로 전체 높이의 2/3만큼 내려온 점이다. 남은 높이는 1/3이다. 오답 점검: 정답은 40 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-021" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대표와 부대표</concept>
-<prompt>【조건을 분석하여 판단】 학생 7명 중 대표와 부대표를 각각 한 명씩 뽑는 방법은?</prompt>
-
-<options><option id="A">14</option><option id="B">25</option><option id="C">42</option><option id="D">7</option><option id="E">21</option></options>
-<answer>C</answer>
-<explanation>대표는 7명 중 1명, 부대표는 남은 6명 중 1명을 뽑는다. 따라서 7×6=42가지이다.</explanation>
-<advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-022" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>서로 다른 숫자로 두 자리 수</concept>
-<prompt>【조건을 분석하여 판단】 1, 2, 3, 4, 5 중 서로 다른 두 숫자로 두 자리 수를 만들 수 있는 경우의 수는?</prompt>
-<diagram src="assets/math/cards.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">20</option><option id="C">10</option><option id="D">15</option><option id="E">25</option></options>
-<answer>B</answer>
-<explanation>십의 자리 5가지, 일의 자리 4가지이므로 5×4=20가지이다.</explanation>
-<advancedExplanation>첫 번째 자리를 정한 뒤 남은 4개 중 하나를 선택한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-023" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>확률의 범위</concept>
-<prompt>【조건을 분석하여 판단】 사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
-
-<options><option id="A">0≤P(A)≤1</option><option id="B">P(A)&lt;0일 수 있다</option><option id="C">P(A)>1일 수 있다</option><option id="D">확률은 항상 1/2</option><option id="E">확률은 경우의 수와 무관</option></options>
+<question id="MATH2S2-3-019" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심이 나누는 넓이</concept>
+<prompt>△ABC에서 두 중선의 교점 G가 무게중심이다. △ABC의 넓이가 84 cm²일 때 △ABG의 넓이는?</prompt>
+<options><option id="A">28 cm²</option><option id="B">42 cm²</option><option id="C">56 cm²</option><option id="D">32 cm²</option><option id="E">21 cm²</option></options>
 <answer>A</answer>
-<explanation>확률은 0 이상 1 이하이다.</explanation>
-<advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
+<explanation>무게중심과 세 꼭짓점을 연결하면 생기는 세 삼각형의 넓이는 서로 같다. 따라서 △ABG의 넓이는 84/3=28 cm²이다.</explanation>
+<advancedExplanation>세 작은 삼각형의 밑변과 높이 관계를 이용하면 각각 전체 삼각형 넓이의 1/3임을 알 수 있다. 오답 점검: 정답은 28 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-024" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>수학적 확률</concept>
-<prompt>【조건을 분석하여 판단】 공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1/6</option><option id="B">1/3</option><option id="C">2/3</option><option id="D">5/6</option><option id="E">1/2</option></options>
+<question id="MATH2S2-3-020" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>합의 법칙의 상황 적용</concept>
+<prompt>학교 축제에서 간식으로 5가지 빵 중 하나 또는 8가지 과일 중 하나를 고르려고 한다. 두 종류를 함께 고르지 않을 때 선택 방법은 몇 가지인가?</prompt>
+<options><option id="A">5가지</option><option id="B">8가지</option><option id="C">13가지</option><option id="D">40가지</option><option id="E">15가지</option></options>
+<answer>C</answer>
+<explanation>빵과 과일 중 하나만 선택하므로 합의 법칙을 적용한다. 5+8=13가지이다.</explanation>
+<advancedExplanation>두 항목을 모두 선택하는 것이 아니라 둘 중 하나를 선택한다. 따라서 곱하지 않고 더한다. 오답 점검: 정답은 13가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-021" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>곱의 법칙과 선택</concept>
+<prompt>체험학습 복장을 고른다. 상의 5벌, 바지 6벌, 운동화 2켤레 중 하나씩 선택할 때 가능한 조합은?</prompt>
+<options><option id="A">30가지</option><option id="B">65가지</option><option id="C">58가지</option><option id="D">60가지</option><option id="E">13가지</option></options>
+<answer>D</answer>
+<explanation>상의·바지·운동화를 모두 하나씩 고르므로 곱의 법칙을 적용한다. 5×6×2=60가지이다.</explanation>
+<advancedExplanation>각 선택은 다른 선택과 결합해 한 가지 복장을 만든다. 따라서 각 단계의 선택 수를 곱한다. 오답 점검: 정답은 60가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-022" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>순서가 있는 두 직책</concept>
+<prompt>학생 9명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
+<options><option id="A">72가지</option><option id="B">81가지</option><option id="C">36가지</option><option id="D">81가지</option><option id="E">8가지</option></options>
+<answer>A</answer>
+<explanation>회장은 9명 중 선택하고, 부회장은 남은 8명 중 선택한다. 9×8=72가지이다.</explanation>
+<advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 9C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 72가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-023" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>숫자 카드로 두 자리 수 만들기</concept>
+<prompt>숫자 카드 0부터 6까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
+<options><option id="A">43개</option><option id="B">6개</option><option id="C">36개</option><option id="D">42개</option><option id="E">12개</option></options>
+<answer>C</answer>
+<explanation>십의 자리에는 0을 제외한 6개, 일의 자리에는 이미 쓴 숫자를 제외한 6개를 놓을 수 있다. 6×6=36개이다.</explanation>
+<advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 36개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-024" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>특정 두 사람이 이웃하는 배열</concept>
+<prompt>친구 6명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
+<options><option id="A">720가지</option><option id="B">120가지</option><option id="C">242가지</option><option id="D">30가지</option><option id="E">240가지</option></options>
 <answer>E</answer>
-<explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
-<advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
+<explanation>민수와 지훈이를 한 묶음으로 보면 5개를 배열하므로 5!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×120=240가지이다.</explanation>
+<advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 240가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-025" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-3-025" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>두 주사위의 합의 확률</concept>
+<prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 9일 확률은?</prompt>
+<options><option id="A">8/36</option><option id="B">4/36</option><option id="C">5/36</option><option id="D">9/36</option><option id="E">1/6</option></options>
+<answer>B</answer>
+<explanation>전체 경우는 6×6=36가지이다. 합이 9이 되는 순서쌍은 4가지이므로 확률은 4/36이다.</explanation>
+<advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 4/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-026" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>두 주사위 사건의 확률</concept>
+<prompt>공정한 주사위를 한 번 던져 4보다 큰 눈이 나올 확률을 풀이와 함께 구하시오.</prompt>
+<answer>1/3</answer>
+<explanation>4보다 큰 눈은 5, 6이다. 유리한 경우의 수를 6으로 나누면 1/3이다.</explanation>
+<advancedExplanation>기준값 4 자체는 “보다 큰” 조건에 포함되지 않는다. 조건에 맞는 눈만 세어야 한다. 오답 점검: 정답은 1/3이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-3-027" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>여사건의 확률</concept>
-<prompt>【조건을 분석하여 판단】 사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
-
-<options><option id="A">1/8</option><option id="B">1/2</option><option id="C">7/8</option><option id="D">5/8</option><option id="E">3/8</option></options>
-<answer>D</answer>
-<explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
-<advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
+<prompt>사건 A가 일어날 확률이 0.62이다. 사건 A가 일어나지 않을 확률을 구하시오.</prompt>
+<answer>0.38</answer>
+<explanation>사건 A와 A가 일어나지 않는 사건은 여사건이다. 따라서 1−0.62=0.38이다.</explanation>
+<advancedExplanation>여사건의 확률은 사건 A의 확률을 그대로 쓰거나 0에서 빼는 것이 아니라 전체 확률 1에서 뺀다. 오답 점검: 정답은 0.38이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-026" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>중선 AM의 길이가 21 cm이고 G가 무게중심이다. AG의 길이를 구하시오.</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>14 cm</answer>
-<explanation>AG는 중선의 2/3이므로 21×2/3=14 cm이다.</explanation>
-<advancedExplanation>중선은 꼭짓점에서 2부분, 중점 쪽에서 1부분으로 나누어진다.</advancedExplanation>
+<question id="MATH2S2-3-028" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>조사 결과와 확률</concept>
+<prompt>학생 300명을 대상으로 선호하는 방과 후 활동을 조사했더니 84명이 독서 활동을 선택했다. 조사한 학생 중 한 명을 임의로 고를 때 독서 활동을 선택한 학생일 확률을 소수로 구하시오.</prompt>
+<answer>0.28</answer>
+<explanation>상대도수로 확률을 추정하면 84/300=0.28이다.</explanation>
+<advancedExplanation>전체 조사 인원을 분모, 해당 응답 인원을 분자로 둔다. 전체 인원과 응답 인원을 뒤바꾸지 않는다. 오답 점검: 정답은 0.28이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-027" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>상의 3벌, 바지 4벌, 모자 2개 중 하나씩 고르는 방법의 수를 구하시오.</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>24가지</answer>
-<explanation>3×4×2=24가지이다.</explanation>
-<advancedExplanation>세 선택을 모두 해야 하므로 각 선택 수를 곱한다.</advancedExplanation>
+<question id="MATH2S2-3-029" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 5개와 파란 공 4개가 있다. 한 개를 꺼내 색을 확인한 뒤 다시 넣고, 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률은?</prompt>
+<answer>25/81</answer>
+<explanation>복원 추출이므로 두 번의 빨간 공 확률은 각각 5/9이다. 곱의 법칙으로 5/9×5/9=25/81이다.</explanation>
+<advancedExplanation>공을 다시 넣으므로 두 번째 시행의 전체 공 수와 빨간 공 수는 첫 시행 전과 같다. 복원하지 않는 경우와 구분한다. 오답 점검: 정답은 25/81이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-028" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>여사건</concept>
-<prompt>사건 A의 확률이 0.42이다. A가 일어나지 않을 확률을 구하시오.</prompt>
-
-
-<answer>0.58</answer>
-<explanation>1-0.42=0.58이다.</explanation>
-<advancedExplanation>여사건의 확률은 전체 확률 1에서 사건 A의 확률을 뺀다.</advancedExplanation>
+<question id="MATH2S2-3-030" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>비복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 6개와 파란 공 2개가 있다. 공을 한 개 꺼낸 뒤 넣지 않고 다시 한 개를 꺼낸다. 두 공이 모두 빨간 공일 확률은?</prompt>
+<answer>15/28</answer>
+<explanation>첫 번째 빨간 공 확률은 6/8, 두 번째는 5/7이다. 따라서 6/8×5/7=15/28이다.</explanation>
+<advancedExplanation>비복원 추출에서는 첫 번째 공을 꺼낸 뒤 빨간 공과 전체 공의 수가 각각 1씩 줄어든다. 오답 점검: 정답은 15/28이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-029" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 14~15번 서술형 유형</concept>
-<prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>3/4</answer>
-<explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
-<advancedExplanation>여사건 모두 뒷면의 확률 1/4을 이용해 1-1/4=3/4로 구할 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-3-030" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 16번 서술형 유형</concept>
-<prompt>주머니에 빨간 공 3개, 파란 공 2개가 있다. 한 개를 꺼내 확인하고 다시 넣은 뒤 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률을 구하시오.</prompt>
-<diagram src="assets/math/bag_draw.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>9/25</answer>
-<explanation>복원 추출이므로 3/5×3/5=9/25이다.</explanation>
-<advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-001" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비로 대응변의 길이 구하기</concept>
-<prompt>【조건 분석】 두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 3:5이고 작은 삼각형의 대응변이 3 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
-<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
-
-<options><option id="A">8</option><option id="B">5</option><option id="C">4</option><option id="D">6</option><option id="E">15</option></options>
+<question id="MATH2S2-4-001" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 대응변</concept>
+<prompt>작은 삼각형과 큰 삼각형은 닮음이고 대응변의 비가 작은 삼각형:큰 삼각형 = 5:8이다. 작은 삼각형의 대응변이 25 cm일 때 큰 삼각형의 대응변의 길이는?</prompt>
+<options><option id="A">15.63 cm</option><option id="B">40 cm</option><option id="C">25 cm</option><option id="D">45 cm</option><option id="E">38 cm</option></options>
 <answer>B</answer>
-<explanation>작은 변:큰 변=3:5이므로 큰 변은 3×5/3=5 cm이다.</explanation>
-<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
+<explanation>대응변의 비에서 큰 변/작은 변=8/5이므로 25×8/5=40 cm이다.</explanation>
+<advancedExplanation>비의 순서를 바꾸면 15.63 cm가 나오므로 작은 변과 큰 변의 순서를 먼저 맞춰야 한다. 오답 점검: 정답은 40 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-002" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>【종합 응용】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
-
-<options><option id="A">AA 닮음</option><option id="B">SAS 닮음</option><option id="C">SSS 닮음</option><option id="D">중점연결정리</option><option id="E">확률의 곱셈</option></options>
-<answer>A</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-003" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 둘레의 비</concept>
-<prompt>【종합 응용】 두 닮은 도형의 닮음비가 1:4이고 작은 도형의 둘레가 12 cm이다. 큰 도형의 둘레는?</prompt>
-
-<options><option id="A">12</option><option id="B">49</option><option id="C">16</option><option id="D">192</option><option id="E">48</option></options>
-<answer>E</answer>
-<explanation>둘레의 비는 닮음비와 같으므로 큰 도형의 둘레는 15×5=75 cm이다.</explanation>
-<advancedExplanation>대응하는 모든 길이가 같은 비율로 변하므로 둘레도 닮음비만큼 변한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-004" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SAS 닮음 조건</concept>
-<prompt>【종합 응용】 두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
-
-<options><option id="A">SSS</option><option id="B">중점연결</option><option id="C">합의 법칙</option><option id="D">SAS</option><option id="E">AA</option></options>
+<question id="MATH2S2-4-002" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 둘레</concept>
+<prompt>두 닮은 다각형의 둘레의 비(작은 도형:큰 도형)가 5:7이고 작은 도형의 둘레가 40 cm이다. 큰 도형의 둘레를 구하시오.</prompt>
+<options><option id="A">61 cm</option><option id="B">54 cm</option><option id="C">28.57 cm</option><option id="D">56 cm</option><option id="E">40 cm</option></options>
 <answer>D</answer>
-<explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
-<advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
+<explanation>닮은 도형의 둘레의 비는 닮음비와 같으므로 큰 둘레는 40×7/5=56 cm이다.</explanation>
+<advancedExplanation>넓이의 비처럼 제곱하지 않는다. 둘레는 길이이므로 닮음비를 그대로 적용한다. 오답 점검: 정답은 56 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-005" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>닮음비와 넓이의 비</concept>
-<prompt>【종합 응용】 두 닮은 도형의 닮음비가 1:2일 때 넓이의 비는?</prompt>
-
-<options><option id="A">1:8</option><option id="B">4:1</option><option id="C">1:4</option><option id="D">1:2</option><option id="E">2:1</option></options>
+<question id="MATH2S2-4-003" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮음비와 넓이</concept>
+<prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 4:7이고 작은 도형의 넓이가 64 cm²이다. 큰 도형의 넓이는?</prompt>
+<options><option id="A">196 cm²</option><option id="B">112 cm²</option><option id="C">28 cm²</option><option id="D">224 cm²</option><option id="E">28 cm²</option></options>
+<answer>A</answer>
+<explanation>넓이의 비는 닮음비의 제곱이므로 4²:7²=16:49이다. 큰 넓이는 64×49/16=196 cm²이다.</explanation>
+<advancedExplanation>길이비를 넓이비로 그대로 사용하면 112 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 196 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-004" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>넓이비에서 닮음비 역산</concept>
+<prompt>두 닮은 도형의 넓이의 비(작은 도형:큰 도형)가 25:64이고 작은 도형의 대응변이 20 cm이다. 큰 도형의 대응변의 길이는?</prompt>
+<options><option id="A">20 cm</option><option id="B">31 cm</option><option id="C">32 cm</option><option id="D">51.2 cm</option><option id="E">37 cm</option></options>
 <answer>C</answer>
-<explanation>넓이의 비는 닮음비의 제곱이므로 1²:2²=1:4이다.</explanation>
-<advancedExplanation>길이 비가 a배이면 넓이는 두 방향으로 a배씩 변하여 a²배가 된다.</advancedExplanation>
+<explanation>넓이비 25:64에서 닮음비는 제곱근을 취한 5:8이다. 따라서 큰 변은 20×8/5=32 cm이다.</explanation>
+<advancedExplanation>넓이비를 변의 비로 바로 쓰면 길이가 지나치게 커진다. 먼저 닮음비를 구한 뒤 길이에 적용한다. 오답 점검: 정답은 32 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-006" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대응각과 대응변</concept>
-<prompt>【종합 응용】 두 닮은 삼각형의 한 대응각이 58°이다. 다른 삼각형의 그 대응각은?</prompt>
-
-<options><option id="A">122</option><option id="B">58</option><option id="C">48</option><option id="D">52</option><option id="E">60</option></options>
-<answer>B</answer>
-<explanation>닮은 도형의 대응각은 서로 같다.</explanation>
-<advancedExplanation>닮음에서는 대응각이 같고 대응변의 길이는 닮음비를 이룬다.</advancedExplanation>
+<question id="MATH2S2-4-005" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>AA 닮음과 각의 조건</concept>
+<prompt>△ABC에서 ∠A=64°, ∠B=36°이고 △DEF에서 ∠D=64°, ∠E=36°이다. 두 삼각형이 닮았다고 판단할 수 있는 이유와 ∠C의 크기를 바르게 연결한 것은?</prompt>
+<options><option id="A">90° · SAS 닮음</option><option id="B">116° · SSS 닮음</option><option id="C">36° · 중점연결정리</option><option id="D">80° · SSS 닮음</option><option id="E">80° · AA 닮음</option></options>
+<answer>E</answer>
+<explanation>삼각형의 내각의 합은 180°이므로 ∠C=180°−64°−36°=80°이다. 두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
+<advancedExplanation>두 각이 같다는 조건만으로 SSS나 SAS를 사용할 수 없다. 두 대응각의 일치가 AA 닮음의 근거다. 오답 점검: 정답은 80° · AA 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-007" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 닮음 조건 적용</concept>
-<prompt>【종합 응용】 세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
-
-<options><option id="A">SSS</option><option id="B">SAS</option><option id="C">AA</option><option id="D">중점연결</option><option id="E">합의 법칙</option></options>
+<question id="MATH2S2-4-006" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SSS 닮음과 확대비</concept>
+<prompt>△ABC의 세 변이 9, 11, 13이고 △DEF의 대응변이 각각 27, 33, 39이다. 두 삼각형의 닮음 판정으로 가장 적절한 것은?</prompt>
+<options><option id="A">SSS 닮음 · 확대비 3</option><option id="B">SAS 닮음 · 확대비 3</option><option id="C">AA 닮음 · 확대비 3</option><option id="D">닮지 않음</option><option id="E">SSS 닮음 · 확대비 0.3333333333333333</option></options>
 <answer>A</answer>
-<explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
-<advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
+<explanation>세 대응변의 비가 모두 3으로 같으므로 SSS 닮음이고 확대비는 3이다.</explanation>
+<advancedExplanation>SAS는 끼인각까지 확인해야 하며 AA는 두 각을 확인해야 한다. 여기서는 세 변의 비가 주어졌다. 오답 점검: 정답은 SSS 닮음 · 확대비 3이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-008" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-007" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>SAS 닮음의 조건 확인</concept>
+<prompt>△ABC와 △DEF에서 AB=10, AC=15, DE=18, DF=27이고 ∠A=∠D=48°이다. 두 삼각형의 닮음 조건은?</prompt>
+<options><option id="A">조건만으로 닮음을 알 수 없음</option><option id="B">평행선의 성질</option><option id="C">SAS 닮음</option><option id="D">AA 닮음</option><option id="E">SSS 닮음</option></options>
+<answer>C</answer>
+<explanation>AB:DE=10:18이고 AC:DF=15:27로 두 변의 비가 같다. 그 끼인각도 같으므로 SAS 닮음이다.</explanation>
+<advancedExplanation>두 변의 비가 같아도 주어진 각이 두 변 사이의 끼인각인지 확인해야 한다. 이 문항에서는 ∠A와 ∠D가 바로 그 끼인각이다. 오답 점검: 정답은 SAS 닮음이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-008" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형의 대응변</concept>
+<prompt>닮은 두 삼각형에서 작은 삼각형의 한 변 10 cm에 대응하는 큰 삼각형의 변은 35 cm이다. 작은 삼각형의 다른 대응변이 12 cm일 때 큰 삼각형의 그 변은?</prompt>
+<options><option id="A">44 cm</option><option id="B">12 cm</option><option id="C">3.43 cm</option><option id="D">39 cm</option><option id="E">42 cm</option></options>
+<answer>E</answer>
+<explanation>확대비는 35/10이다. 따라서 대응변은 12×35/10=42 cm이다.</explanation>
+<advancedExplanation>작은 도형에서 큰 도형으로 갈 때 확대비를 곱한다. 역으로 큰 도형에서 작은 도형으로 구할 때만 나눈다. 오답 점검: 정답은 42 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-009" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
-<prompt>【종합 응용】 △ABC에서 DE∥BC이고 AD:DB=5:6, AE=5 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
-<options><option id="A">5</option><option id="B">7</option><option id="C">30</option><option id="D">11</option><option id="E">6</option></options>
-<answer>E</answer>
-<explanation>평행선의 성질에 따라 AD:DB=AE:EC이다. 2번째 비의 첫 항 AE가 5 cm이므로 EC=5×6/5=6 cm이다.</explanation>
-<advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:DB=5:7, AE=15 cm일 때 EC의 길이는?</prompt>
+<options><option id="A">20 cm</option><option id="B">21 cm</option><option id="C">10.71 cm</option><option id="D">23 cm</option><option id="E">36 cm</option></options>
+<answer>B</answer>
+<explanation>평행선이 두 변을 나누므로 AD:DB=AE:EC이다. 5:7=15:EC에서 EC=21 cm이다.</explanation>
+<advancedExplanation>비례식의 항을 같은 위치끼리 대응시킨다. AE와 EC는 각각 AD와 DB에 대응한다. 오답 점검: 정답은 21 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-009" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-010" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>닮은 삼각형에서 대응변</concept>
+<prompt>△ABC에서 DE∥BC이고 AD:AB=5:8, AC=32 cm이다. 작은 삼각형 ADE의 변 AE를 구하시오.</prompt>
+<options><option id="A">12 cm</option><option id="B">22 cm</option><option id="C">32 cm</option><option id="D">20 cm</option><option id="E">51.2 cm</option></options>
+<answer>D</answer>
+<explanation>△ADE∼△ABC이므로 AE:AC=AD:AB=5:8. 따라서 AE=32×5/8=20 cm이다.</explanation>
+<advancedExplanation>AD:DB가 아니라 AD:AB가 주어졌으므로 전체 변 AB 기준의 비를 그대로 대응변 AC에 적용한다. 오답 점검: 정답은 20 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-011" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선과 삼각형의 넓이·길이</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD:AB=5:8, BC=32 cm일 때 DE의 길이는?</prompt>
+<options><option id="A">51.2 cm</option><option id="B">12 cm</option><option id="C">22 cm</option><option id="D">32 cm</option><option id="E">20 cm</option></options>
+<answer>E</answer>
+<explanation>△ADE∼△ABC이므로 DE:BC=AD:AB=5:8. DE=32×5/8=20 cm이다.</explanation>
+<advancedExplanation>AD:AB는 작은 삼각형과 큰 삼각형의 대응변 비다. 전체 밑변 BC에 같은 비를 곱해야 한다. 오답 점검: 정답은 20 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-012" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리</concept>
-<prompt>【종합 응용】 삼각형의 두 변의 중점을 연결한 선분의 길이가 2 cm이다. 나머지 한 변의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">4</option><option id="C">6</option><option id="D">3</option><option id="E">2</option></options>
+<prompt>△ABC에서 D와 E는 각각 AB와 AC의 중점이다. BC=36 cm일 때 중점연결선 DE의 길이는?</prompt>
+<options><option id="A">16 cm</option><option id="B">18 cm</option><option id="C">36 cm</option><option id="D">21 cm</option><option id="E">12 cm</option></options>
 <answer>B</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이다. 따라서 나머지 한 변은 2×2=4 cm이다.</explanation>
-<advancedExplanation>중점연결정리는 평행성과 길이의 절반 관계를 함께 나타낸다.</advancedExplanation>
+<explanation>중점연결정리에 따라 DE∥BC이고 DE=BC/2=36/2=18 cm이다.</explanation>
+<advancedExplanation>중점연결선은 밑변과 평행하며 길이는 밑변의 절반이다. 평행하다는 사실만으로 길이가 같다고 생각하면 안 된다. 오답 점검: 정답은 18 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-010" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선과 비례식</concept>
-<prompt>【종합 응용】 △ABC에서 DE∥BC, AD=3 cm, DB=4 cm, AE=3 cm이다. EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">7</option><option id="B">12</option><option id="C">4</option><option id="D">3</option><option id="E">5</option></options>
-<answer>C</answer>
-<explanation>AD:DB=AE:EC이므로 3:4=3:EC이다. 따라서 EC=3×4/3=4 cm이다.</explanation>
-<advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-011" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>평행선의 역</concept>
-<prompt>【종합 응용】 두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
-
-<options><option id="A">관계가 없다</option><option id="B">평행하다</option><option id="C">수직이다</option><option id="D">길이가 같다</option><option id="E">항상 중선이다</option></options>
-<answer>B</answer>
-<explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
-<advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-012" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중점연결정리의 적용</concept>
-<prompt>【종합 응용】 △ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 10 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
-<diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">10</option><option id="C">6</option><option id="D">15</option><option id="E">2.5</option></options>
-<answer>A</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이므로 10÷2=5 cm이다.</explanation>
-<advancedExplanation>중점연결 선분의 길이=밑변의 길이÷2이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-013" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>삼각형의 비례식</concept>
-<prompt>【종합 응용】 △ABC에서 DE∥BC이고 AD:AB=2:5, AC=15 cm이다. AE는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">7</option><option id="C">10</option><option id="D">12</option><option id="E">6</option></options>
-<answer>E</answer>
-<explanation>AE:AC=AD:AB=2:5이므로 AE=15×2/5=6 cm이다.</explanation>
-<advancedExplanation>평행선에 의해 작은 삼각형과 큰 삼각형이 닮으므로 대응변의 비가 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-014" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>【종합 응용】 중선 AM에서 G가 무게중심이고 AG=6 cm이다. GM은?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">5</option><option id="C">12</option><option id="D">3</option><option id="E">6</option></options>
+<question id="MATH2S2-4-013" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중점연결정리의 역</concept>
+<prompt>△ABC에서 D는 AB의 중점, E는 AC의 중점이다. DE=13 cm일 때 BC의 길이와 DE와 BC의 관계를 바르게 나타낸 것은?</prompt>
+<options><option id="A"> 52 cm · DE⊥BC</option><option id="B">26 cm · DE=2BC</option><option id="C">26 cm · DE∥AB</option><option id="D">26 cm · DE∥BC</option><option id="E">13 cm · DE=BC</option></options>
 <answer>D</answer>
-<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나눈다. 따라서 GM=6÷2=3 cm이다.</explanation>
-<advancedExplanation>AG:GM=2:1이며 꼭짓점 쪽의 AG가 더 길다.</advancedExplanation>
+<explanation>중점연결정리의 역으로 DE∥BC이고 BC=2DE=26 cm이다.</explanation>
+<advancedExplanation>두 중점의 연결선은 세 번째 변과 평행하고 그 절반 길이이다. 두 배로 하는 대상은 DE가 아니라 BC이다. 오답 점검: 정답은 26 cm · DE∥BC이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-015" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 길이</concept>
-<prompt>【종합 응용】 중선 AM의 길이가 12 cm이고 G는 무게중심이다. AG는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">7</option><option id="B">16</option><option id="C">8</option><option id="D">4</option><option id="E">12</option></options>
+<question id="MATH2S2-4-014" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>평행선으로 나뉜 선분의 비</concept>
+<prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=7 cm, DB=8 cm, AE=14 cm이다. EC를 구하시오.</prompt>
+<options><option id="A">16 cm</option><option id="B">12.25 cm</option><option id="C">30 cm</option><option id="D">19 cm</option><option id="E">15 cm</option></options>
+<answer>A</answer>
+<explanation>AD:DB=AE:EC이므로 7:8=14:EC. EC=14×8/7=16 cm이다.</explanation>
+<advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 16 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-015" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심의 2:1</concept>
+<prompt>△ABC의 중선 AM 위에 무게중심 G가 있고 AG=12 cm이다. GM의 길이는?</prompt>
+<options><option id="A">12 cm</option><option id="B">8 cm</option><option id="C">6 cm</option><option id="D">24 cm</option><option id="E">4 cm</option></options>
 <answer>C</answer>
-<explanation>AG는 중선의 2/3이므로 12×2/3=8 cm이다.</explanation>
-<advancedExplanation>중선은 AG와 GM을 합한 3부분으로 나뉘고 AG는 그중 2부분이다.</advancedExplanation>
+<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나누므로 AG:GM=2:1. GM=12/2=6 cm이다.</explanation>
+<advancedExplanation>AG는 GM의 두 배다. 무게중심에서 꼭짓점까지의 거리를 중점까지의 거리로 나누어 구한다. 오답 점검: 정답은 6 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-016" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-016" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>중선과 무게중심</concept>
+<prompt>△ABC의 중선 AM=21 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
+<options><option id="A">10.5 cm</option><option id="B">42 cm</option><option id="C">9 cm</option><option id="D">7 cm</option><option id="E">14 cm</option></options>
+<answer>D</answer>
+<explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=21/3=7 cm이다.</explanation>
+<advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 7 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-017" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심과 중선 길이</concept>
+<prompt>△ABC에서 AM은 중선이고 G는 무게중심이다. GM=7 cm일 때 중선 AM의 길이는?</prompt>
+<options><option id="A">21 cm</option><option id="B">14 cm</option><option id="C">7 cm</option><option id="D">19 cm</option><option id="E">28 cm</option></options>
+<answer>A</answer>
+<explanation>AG:GM=2:1이므로 AM=AG+GM=2GM+GM=3GM=7×3=21 cm이다.</explanation>
+<advancedExplanation>무게중심은 중선을 2:1로 나누므로 전체 중선은 GM의 3배다. 오답 점검: 정답은 21 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-018" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>무게중심과 넓이</concept>
-<prompt>【종합 응용】 △ABC의 넓이가 60 cm²이다. G가 무게중심일 때 △GBC의 넓이는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">20</option><option id="C">10</option><option id="D">15</option><option id="E">30</option></options>
-<answer>B</answer>
-<explanation>무게중심은 삼각형을 넓이가 같은 세 부분으로 나눈다. 따라서 △GBC의 넓이는 60÷3=20 cm²이다.</explanation>
-<advancedExplanation>세 중선이 만드는 세 삼각형의 넓이는 서로 같다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-017" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>중선의 2:1</concept>
-<prompt>【종합 응용】 GM=2 cm일 때 중선 AM의 길이는?</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">6</option><option id="B">4</option><option id="C">2</option><option id="D">8</option><option id="E">7</option></options>
-<answer>A</answer>
-<explanation>AG:GM=2:1이므로 AM은 GM의 3배이다. 따라서 AM=2×3=6 cm이다.</explanation>
-<advancedExplanation>무게중심에서 중점까지가 1부분, 꼭짓점까지가 2부분이다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-018" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="200-206" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>무게중심과 넓이의 비</concept>
-<prompt>【종합 응용】 무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
-<diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1:2:3</option><option id="B">2:1:1</option><option id="C">1:1:2</option><option id="D">3:2:1</option><option id="E">1:1:1</option></options>
-<answer>E</answer>
-<explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
-<advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-019" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>합의 법칙</concept>
-<prompt>【종합 응용】 서로 겹치지 않는 두 선택이 각각 4가지, 5가지이다. 둘 중 하나를 고르는 방법은?</prompt>
-
-<options><option id="A">10</option><option id="B">-1</option><option id="C">21</option><option id="D">9</option><option id="E">20</option></options>
-<answer>D</answer>
-<explanation>서로 겹치지 않는 선택 중 하나를 고르는 경우이므로 합의 법칙을 적용한다. 4+5=9가지이다.</explanation>
-<advancedExplanation>합의 법칙은 배반적인 선택 방법의 경우의 수를 더한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-020" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>【종합 응용】 상의 5벌과 하의 6벌 중 하나씩 고르는 방법은?</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">25</option><option id="B">12</option><option id="C">30</option><option id="D">11</option><option id="E">31</option></options>
+<prompt>△ABC의 넓이가 150 cm²이고 G는 무게중심이다. △GBC의 넓이는?</prompt>
+<options><option id="A">56 cm²</option><option id="B">25 cm²</option><option id="C">50 cm²</option><option id="D">100 cm²</option><option id="E">75 cm²</option></options>
 <answer>C</answer>
-<explanation>상의 5벌 각각에 하의 6벌을 조합할 수 있으므로 5×6=30가지이다.</explanation>
-<advancedExplanation>여러 단계에서 선택을 모두 해야 하므로 곱의 법칙을 사용한다.</advancedExplanation>
+<explanation>G에서 BC까지의 높이는 A에서 BC까지의 높이의 1/3이다. 밑변 BC가 같으므로 △GBC의 넓이는 전체의 1/3, 즉 150/3=50 cm²이다.</explanation>
+<advancedExplanation>AG:GM=2:1이므로 G는 꼭짓점 A에서 밑변 쪽으로 전체 높이의 2/3만큼 내려온 점이다. 남은 높이는 1/3이다. 오답 점검: 정답은 50 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-021" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대표와 부대표</concept>
-<prompt>【종합 응용】 학생 4명 중 대표와 부대표를 각각 한 명씩 뽑는 방법은?</prompt>
-
-<options><option id="A">4</option><option id="B">12</option><option id="C">13</option><option id="D">6</option><option id="E">8</option></options>
-<answer>B</answer>
-<explanation>대표는 4명 중 1명, 부대표는 남은 3명 중 1명을 뽑는다. 따라서 4×3=12가지이다.</explanation>
-<advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-022" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>서로 다른 숫자로 두 자리 수</concept>
-<prompt>【종합 응용】 1, 2, 3, 4, 5 중 서로 다른 두 숫자로 두 자리 수를 만들 수 있는 경우의 수는?</prompt>
-<diagram src="assets/math/cards.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">20</option><option id="B">10</option><option id="C">15</option><option id="D">25</option><option id="E">5</option></options>
-<answer>A</answer>
-<explanation>십의 자리 5가지, 일의 자리 4가지이므로 5×4=20가지이다.</explanation>
-<advancedExplanation>첫 번째 자리를 정한 뒤 남은 4개 중 하나를 선택한다.</advancedExplanation>
-<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
-</question>
-<question id="MATH2S2-4-023" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>확률의 범위</concept>
-<prompt>【종합 응용】 사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
-
-<options><option id="A">P(A)&lt;0일 수 있다</option><option id="B">P(A)>1일 수 있다</option><option id="C">확률은 항상 1/2</option><option id="D">확률은 경우의 수와 무관</option><option id="E">0≤P(A)≤1</option></options>
+<question id="MATH2S2-4-019" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>무게중심이 나누는 넓이</concept>
+<prompt>△ABC에서 두 중선의 교점 G가 무게중심이다. △ABC의 넓이가 96 cm²일 때 △ABG의 넓이는?</prompt>
+<options><option id="A">48 cm²</option><option id="B">64 cm²</option><option id="C">36 cm²</option><option id="D">24 cm²</option><option id="E">32 cm²</option></options>
 <answer>E</answer>
-<explanation>확률은 0 이상 1 이하이다.</explanation>
-<advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
+<explanation>무게중심과 세 꼭짓점을 연결하면 생기는 세 삼각형의 넓이는 서로 같다. 따라서 △ABG의 넓이는 96/3=32 cm²이다.</explanation>
+<advancedExplanation>세 작은 삼각형의 밑변과 높이 관계를 이용하면 각각 전체 삼각형 넓이의 1/3임을 알 수 있다. 오답 점검: 정답은 32 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-024" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>수학적 확률</concept>
-<prompt>【종합 응용】 공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1/3</option><option id="B">2/3</option><option id="C">5/6</option><option id="D">1/2</option><option id="E">1/6</option></options>
-<answer>D</answer>
-<explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
-<advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
+<question id="MATH2S2-4-020" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>합의 법칙의 상황 적용</concept>
+<prompt>학교 축제에서 간식으로 7가지 빵 중 하나 또는 4가지 과일 중 하나를 고르려고 한다. 두 종류를 함께 고르지 않을 때 선택 방법은 몇 가지인가?</prompt>
+<options><option id="A">4가지</option><option id="B">11가지</option><option id="C">28가지</option><option id="D">13가지</option><option id="E">7가지</option></options>
+<answer>B</answer>
+<explanation>빵과 과일 중 하나만 선택하므로 합의 법칙을 적용한다. 7+4=11가지이다.</explanation>
+<advancedExplanation>두 항목을 모두 선택하는 것이 아니라 둘 중 하나를 선택한다. 따라서 곱하지 않고 더한다. 오답 점검: 정답은 11가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-025" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 13번 유형 · 두 주사위의 관계</concept>
-<prompt>서로 다른 두 주사위 A, B를 동시에 던진다. A의 눈이 B의 2배일 확률은?</prompt>
-
-<options><option id="A">1/9</option><option id="B">1/36</option><option id="C">1/12</option><option id="D">1/18</option><option id="E">1/6</option></options>
+<question id="MATH2S2-4-021" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>곱의 법칙과 선택</concept>
+<prompt>체험학습 복장을 고른다. 상의 6벌, 바지 5벌, 운동화 4켤레 중 하나씩 선택할 때 가능한 조합은?</prompt>
+<options><option id="A">126가지</option><option id="B">116가지</option><option id="C">120가지</option><option id="D">15가지</option><option id="E">30가지</option></options>
 <answer>C</answer>
-<explanation>조건을 만족하는 순서쌍은 (2,1),(4,2),(6,3)의 3개이고 전체는 36개이므로 1/12이다.</explanation>
-<advancedExplanation>서로 다른 주사위이므로 순서를 구별한다. 6×6=36개 중 A=2B를 만족하는 경우 3개를 세어 3/36=1/12로 계산한다.</advancedExplanation>
+<explanation>상의·바지·운동화를 모두 하나씩 고르므로 곱의 법칙을 적용한다. 6×5×4=120가지이다.</explanation>
+<advancedExplanation>각 선택은 다른 선택과 결합해 한 가지 복장을 만든다. 따라서 각 단계의 선택 수를 곱한다. 오답 점검: 정답은 120가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-026" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="221" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>무게중심의 2:1 성질</concept>
-<prompt>중선 AM의 길이가 21 cm이고 G가 무게중심이다. AG의 길이를 구하시오.</prompt>
-<diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>14 cm</answer>
-<explanation>AG는 중선의 2/3이므로 21×2/3=14 cm이다.</explanation>
-<advancedExplanation>중선은 꼭짓점에서 2부분, 중점 쪽에서 1부분으로 나누어진다.</advancedExplanation>
+<question id="MATH2S2-4-022" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>순서가 있는 두 직책</concept>
+<prompt>학생 10명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
+<options><option id="A">100가지</option><option id="B">45가지</option><option id="C">100가지</option><option id="D">9가지</option><option id="E">90가지</option></options>
+<answer>E</answer>
+<explanation>회장은 10명 중 선택하고, 부회장은 남은 9명 중 선택한다. 10×9=90가지이다.</explanation>
+<advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 10C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 90가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-027" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="221" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>닮음비로 대응변 구하기</concept>
-<prompt>두 닮은 삼각형의 대응변의 비가 2:5이고 작은 삼각형의 대응변이 8 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
-<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
-
-<answer>20 cm</answer>
-<explanation>8:x=2:5이므로 x=20 cm이다.</explanation>
-<advancedExplanation>닮음비를 작은 도형:큰 도형 순서로 세우고 비례식을 풀어 대응변의 길이를 구한다.</advancedExplanation>
+<question id="MATH2S2-4-023" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>숫자 카드로 두 자리 수 만들기</concept>
+<prompt>숫자 카드 0부터 7까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
+<options><option id="A">7개</option><option id="B">49개</option><option id="C">56개</option><option id="D">14개</option><option id="E">57개</option></options>
+<answer>B</answer>
+<explanation>십의 자리에는 0을 제외한 7개, 일의 자리에는 이미 쓴 숫자를 제외한 7개를 놓을 수 있다. 7×7=49개이다.</explanation>
+<advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 49개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-028" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="249" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>여사건</concept>
-<prompt>사건 A의 확률이 0.42이다. A가 일어나지 않을 확률을 구하시오.</prompt>
-
-
-<answer>0.58</answer>
-<explanation>1-0.42=0.58이다.</explanation>
-<advancedExplanation>여사건의 확률은 전체 확률 1에서 사건 A의 확률을 뺀다.</advancedExplanation>
+<question id="MATH2S2-4-024" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>특정 두 사람이 이웃하는 배열</concept>
+<prompt>친구 7명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
+<options><option id="A">720가지</option><option id="B">1442가지</option><option id="C">42가지</option><option id="D">1440가지</option><option id="E">5040가지</option></options>
+<answer>D</answer>
+<explanation>민수와 지훈이를 한 묶음으로 보면 6개를 배열하므로 6!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×720=1440가지이다.</explanation>
+<advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 1440가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-029" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 14~15번 서술형 유형</concept>
-<prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>3/4</answer>
-<explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
-<advancedExplanation>여사건 모두 뒷면의 확률 1/4을 이용해 1-1/4=3/4로 구할 수 있다.</advancedExplanation>
+<question id="MATH2S2-4-025" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>두 주사위의 합의 확률</concept>
+<prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 10일 확률은?</prompt>
+<options><option id="A">3/36</option><option id="B">4/36</option><option id="C">10/36</option><option id="D">1/6</option><option id="E">6/36</option></options>
+<answer>A</answer>
+<explanation>전체 경우는 6×6=36가지이다. 합이 10이 되는 순서쌍은 3가지이므로 확률은 3/36이다.</explanation>
+<advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 3/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-030" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>대단원 마무리 16번 서술형 유형</concept>
-<prompt>주머니에 빨간 공 3개, 파란 공 2개가 있다. 한 개를 꺼내 확인하고 다시 넣은 뒤 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률을 구하시오.</prompt>
-<diagram src="assets/math/bag_draw.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-
-<answer>9/25</answer>
-<explanation>복원 추출이므로 3/5×3/5=9/25이다.</explanation>
-<advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
+<question id="MATH2S2-4-026" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>두 주사위 사건의 확률</concept>
+<prompt>공정한 주사위를 한 번 던져 5보다 큰 눈이 나올 확률을 풀이와 함께 구하시오.</prompt>
+<answer>5/12</answer>
+<explanation>5보다 큰 눈은 6이다. 유리한 경우의 수를 6으로 나누면 5/12이다.</explanation>
+<advancedExplanation>기준값 5 자체는 “보다 큰” 조건에 포함되지 않는다. 조건에 맞는 눈만 세어야 한다. 오답 점검: 정답은 5/12이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-027" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>여사건의 확률</concept>
+<prompt>사건 A가 일어날 확률이 0.75이다. 사건 A가 일어나지 않을 확률을 구하시오.</prompt>
+<answer>0.25</answer>
+<explanation>사건 A와 A가 일어나지 않는 사건은 여사건이다. 따라서 1−0.75=0.25이다.</explanation>
+<advancedExplanation>여사건의 확률은 사건 A의 확률을 그대로 쓰거나 0에서 빼는 것이 아니라 전체 확률 1에서 뺀다. 오답 점검: 정답은 0.25이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-028" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="232-237" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>조사 결과와 확률</concept>
+<prompt>학생 400명을 대상으로 선호하는 방과 후 활동을 조사했더니 124명이 독서 활동을 선택했다. 조사한 학생 중 한 명을 임의로 고를 때 독서 활동을 선택한 학생일 확률을 소수로 구하시오.</prompt>
+<answer>0.31</answer>
+<explanation>상대도수로 확률을 추정하면 124/400=0.31이다.</explanation>
+<advancedExplanation>전체 조사 인원을 분모, 해당 응답 인원을 분자로 둔다. 전체 인원과 응답 인원을 뒤바꾸지 않는다. 오답 점검: 정답은 0.31이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-029" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 6개와 파란 공 5개가 있다. 한 개를 꺼내 색을 확인한 뒤 다시 넣고, 한 개를 더 꺼낸다. 두 번 모두 빨간 공일 확률은?</prompt>
+<answer>36/121</answer>
+<explanation>복원 추출이므로 두 번의 빨간 공 확률은 각각 6/11이다. 곱의 법칙으로 6/11×6/11=36/121이다.</explanation>
+<advancedExplanation>공을 다시 넣으므로 두 번째 시행의 전체 공 수와 빨간 공 수는 첫 시행 전과 같다. 복원하지 않는 경우와 구분한다. 오답 점검: 정답은 36/121이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="MATH2S2-4-030" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>비복원 추출의 확률</concept>
+<prompt>주머니에 빨간 공 7개와 파란 공 3개가 있다. 공을 한 개 꺼낸 뒤 넣지 않고 다시 한 개를 꺼낸다. 두 공이 모두 빨간 공일 확률은?</prompt>
+<answer>7/15</answer>
+<explanation>첫 번째 빨간 공 확률은 7/10, 두 번째는 6/9이다. 따라서 7/10×6/9=7/15이다.</explanation>
+<advancedExplanation>비복원 추출에서는 첫 번째 공을 꺼낸 뒤 빨간 공과 전체 공의 수가 각각 1씩 줄어든다. 오답 점검: 정답은 7/15이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-R-001" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
