@@ -3,13 +3,14 @@
 <metadata><mainQuestionCount>120</mainQuestionCount><reserveQuestionCount>30</reserveQuestionCount><stageCount>4</stageCount><questionsPerStage>30</questionsPerStage><multipleChoicePerStage>25</multipleChoicePerStage><shortAnswerPerStage>5</shortAnswerPerStage><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics><scopeNote>Ⅴ-1 도형의 닮음 184-206쪽 전체. 207-218쪽 제외, 219쪽 미확인으로 제외. 220쪽 7-11번 유형, 221쪽 14-15번 유형. Ⅵ 확률 226-249쪽 전체, 249쪽 13-16번 유형. 220쪽 12번 및 221쪽 13·16번 제외.</scopeNote><excludedPages>207-218,219</excludedPages><excludedItems>220쪽 12번;221쪽 13번;221쪽 16번</excludedItems><probabilityPage249>13-16번 유형 포함</probabilityPage249><diagramAssets>assets/math/*.svg</diagramAssets></metadata>
 <questions>
 <question id="MATH2S2-1-001" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
+<concept>닮음비로 대응변의 길이 구하기</concept>
+<prompt>두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 3:5이고 작은 삼각형의 대응변이 3 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
+<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
 
 <options><option id="A">4</option><option id="B">6</option><option id="C">15</option><option id="D">8</option><option id="E">5</option></options>
 <answer>E</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
+<explanation>작은 변:큰 변=3:5이므로 큰 변은 3×5/3=5 cm이다.</explanation>
+<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-1-002" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
@@ -303,13 +304,14 @@
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-2-001" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
+<concept>닮음비로 대응변의 길이 구하기</concept>
+<prompt>두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 4:6이고 작은 삼각형의 대응변이 4 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
+<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
 
-<options><option id="A">4</option><option id="B">12</option><option id="C">7</option><option id="D">3</option><option id="E">5</option></options>
+<options><option id="A">7</option><option id="B">24</option><option id="C">10</option><option id="D">6</option><option id="E">5</option></options>
 <answer>D</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
+<explanation>작은 변:큰 변=4:6이므로 큰 변은 4×6/4=6 cm이다.</explanation>
+<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-2-002" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
@@ -603,13 +605,14 @@
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-3-001" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>【조건을 분석하여 판단】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
+<concept>닮음비로 대응변의 길이 구하기</concept>
+<prompt>【조건 분석】 두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 2:4이고 작은 삼각형의 대응변이 2 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
+<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
 
-<options><option id="A">25</option><option id="B">10</option><option id="C">5</option><option id="D">6</option><option id="E">7</option></options>
+<options><option id="A">8</option><option id="B">6</option><option id="C">4</option><option id="D">3</option><option id="E">5</option></options>
 <answer>C</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
+<explanation>작은 변:큰 변=2:4이므로 큰 변은 2×4/2=4 cm이다.</explanation>
+<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-3-002" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
@@ -903,13 +906,14 @@
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-4-001" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>【종합 응용】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
+<concept>닮음비로 대응변의 길이 구하기</concept>
+<prompt>【조건 분석】 두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 3:5이고 작은 삼각형의 대응변이 3 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
+<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
 
-<options><option id="A">7</option><option id="B">3</option><option id="C">5</option><option id="D">4</option><option id="E">6</option></options>
+<options><option id="A">8</option><option id="B">5</option><option id="C">4</option><option id="D">6</option><option id="E">15</option></options>
 <answer>B</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
+<explanation>작은 변:큰 변=3:5이므로 큰 변은 3×5/3=5 cm이다.</explanation>
+<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-4-002" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
@@ -1203,13 +1207,14 @@
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-R-001" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>SSS·SAS·AA 닮음 판정</concept>
-<prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
+<concept>닮음비로 대응변의 길이 구하기</concept>
+<prompt>【조건 분석】 두 닮은 삼각형의 대응변의 비(작은 삼각형:큰 삼각형)가 4:6이고 작은 삼각형의 대응변이 4 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
+<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
 
-<options><option id="A">5</option><option id="B">4</option><option id="C">6</option><option id="D">15</option><option id="E">8</option></options>
+<options><option id="A">6</option><option id="B">5</option><option id="C">7</option><option id="D">24</option><option id="E">10</option></options>
 <answer>A</answer>
-<explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
-<advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
+<explanation>작은 변:큰 변=4:6이므로 큰 변은 4×6/4=6 cm이다.</explanation>
+<advancedExplanation>닮음비는 대응하는 변끼리 같은 비를 이룬다. 비의 순서를 작은 도형:큰 도형으로 맞춘 뒤 비례식을 풀어 길이를 구한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-R-002" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
