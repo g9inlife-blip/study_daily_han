@@ -7,7 +7,7 @@ function loadBank(){
  return fetchText('drafts/question-bank/math/MATH2S2_questions.xml').then(function(t){
   var doc=parseXmlOrThrow(t,'수학 문제은행'),all=[].slice.call(doc.getElementsByTagName('question')),ids={};
   all.forEach(function(q){var id=q.getAttribute('id');if(!id||ids[id])throw Error('문항 ID 중복: '+id);ids[id]=1});
-  var main=all.filter(function(q){return q.getAttribute('reserve')!=='true'}),reserve=all.filter(function(q){return q.getAttribute('reserve')==='true'};
+  var main=all.filter(function(q){return q.getAttribute('reserve')!=='true'}),reserve=all.filter(function(q){return q.getAttribute('reserve')==='true'});
   for(var s=1;s<=4;s++)if(main.filter(function(q){return +q.getAttribute('stage')===s}).length!==30)throw Error(s+'차 문항 수 오류');
   if(main.length!==120||reserve.length!==30)throw Error('문항은행 수 오류');
   bank={doc:doc,all:all,main:main,reserve:reserve};return bank;
