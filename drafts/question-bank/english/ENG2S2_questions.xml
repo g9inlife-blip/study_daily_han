@@ -996,9 +996,9 @@ A beautiful _____ landed on the flower.</prompt>
       <option id="D">That useful</option>
       <option id="E">To it useful</option>
     </options>
-<answer>B</answer>
-<explanation>It is useful to learn about other cultures.가 올바른 어순이다.</explanation>
-<advancedExplanation>가주어 it 뒤에 be동사와 형용사가 오고, 실제 내용인 to부정사가 문장 뒤에 온다.</advancedExplanation>
+<answer>A</answer>
+<explanation>It is useful to learn about other cultures.가 올바른 문장이다. 빈칸에는 It is useful이 들어간다.</explanation>
+<advancedExplanation>가주어 it 뒤에 be동사와 형용사가 오고, 진주어 to learn about other cultures가 뒤에 온다. 선택지 B를 넣으면 to가 중복된다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-1-018" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
