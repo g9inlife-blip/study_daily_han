@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<examBank schemaVersion="1.0" subject="역사" schoolLevel="중학교" grade="2" semester="2" textbook="비상교육 중학교 역사 ①" sourcePages="163-165,177-208,216-222" created="2026-11-27">
+<metadata><mainQuestionCount>30</mainQuestionCount><reserveQuestionCount>0</reserveQuestionCount><stageCount>1</stageCount><questionsPerStage>30</questionsPerStage><multipleChoicePerStage>30</multipleChoicePerStage><shortAnswerPerStage>0</shortAnswerPerStage><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics><scopeNote>1차 예상문제 30문항. 163-165쪽 제국주의, 177-178쪽 조선의 국민 국가 건설 운동, 185-194쪽 세계 대전·국제 질서, 207-208쪽 동아시아 민족 운동, 216-222쪽 냉전·제3세계 및 국제 질서 변화. 범위 내 세부 단원은 이후 회차에서 보충한다.</scopeNote><sourceNote>docs/교과서/역사정리.txt를 기반으로 자체 제작. 교과서 원문·인터넷 이미지 복제 없음.</sourceNote><imagePolicy>지도·사료·사진 자료형 문항은 검증 가능한 출처가 확보된 경우에만 후속 회차에 추가한다.</imagePolicy></metadata>
+<questions>
+<question id="HIS2S2-1-001" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="제국주의의 경제적 배경" scopePages="봉건제를 부활시키기 위해" difficulty="국제 연맹을 창설하기 위해" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>19세기 후반 유럽 열강이 해외 식민지 확보에 적극적으로 나선 경제적 이유로 가장 적절한 것은?</prompt>
+<options><option id="A">원료 공급지와 상품 시장, 자본 투자처 확보</option><option id="B">유럽의 인구 감소를 막기 위해</option><option id="C">봉건제를 부활시키기 위해</option><option id="D">농업 생산을 줄이기 위해</option><option id="E">국제 연맹을 창설하기 위해</option></options>
+<answer>A</answer><explanation>하</explanation><advancedExplanation>163-165</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-002" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="제국주의 정당화 논리" scopePages="모든 민족의 문화가 동등하다는 주장" difficulty="군사 동맹을 해체해야 한다는 주장" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>제국주의 열강이 아시아와 아프리카 침략을 정당화하는 데 이용한 주장으로 옳은 것은?</prompt>
+<options><option id="A">식민지 주민의 자결권을 보장해야 한다는 주장</option><option id="B">사회 진화론과 백인 우월주의를 내세운 문명화 사명</option><option id="C">모든 민족의 문화가 동등하다는 주장</option><option id="D">식민지의 경제적 독립을 지원한다는 주장</option><option id="E">군사 동맹을 해체해야 한다는 주장</option></options>
+<answer>B</answer><explanation>중</explanation><advancedExplanation>163-165</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-003" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="베를린 회의" scopePages="유럽 열강의 아프리카 분할과 식민지 획득 경쟁이 격화되었다." difficulty="국제 연맹이 아프리카의 국경을 결정했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>C</concept><prompt>1884년 베를린 회의 이후 아프리카에서 나타난 변화로 가장 적절한 것은?</prompt>
+<options><option id="A">아프리카 국가들이 유럽 열강을 공동으로 축출했다.</option><option id="B">아프리카의 모든 지역이 독립국이 되었다.</option><option id="C">유럽 열강의 아프리카 분할과 식민지 획득 경쟁이 격화되었다.</option><option id="D">미국이 아프리카 전체를 지배하게 되었다.</option><option id="E">국제 연맹이 아프리카의 국경을 결정했다.</option></options>
+<answer>C</answer><explanation>중</explanation><advancedExplanation>163-165</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-004" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="파쇼다 사건" scopePages="사라예보 사건" difficulty="쿠바 미사일 위기" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>영국의 종단 정책과 프랑스의 횡단 정책이 충돌한 사건은?</prompt>
+<options><option id="A">보스턴 차 사건</option><option id="B">파쇼다 사건</option><option id="C">사라예보 사건</option><option id="D">베를린 봉쇄</option><option id="E">쿠바 미사일 위기</option></options>
+<answer>B</answer><explanation>하</explanation><advancedExplanation>163-165</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-005" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="아시아 식민지" scopePages="영국이 하와이를 병합했다." difficulty="미국이 인도네시아 대부분을 지배했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>다음 중 제국주의 열강의 아시아 침탈 사례로 옳은 것은?</prompt>
+<options><option id="A">프랑스가 베트남과 캄보디아 등 인도차이나를 점령했다.</option><option id="B">네덜란드가 인도 전체를 직접 통치했다.</option><option id="C">영국이 하와이를 병합했다.</option><option id="D">독일이 일본을 식민지로 삼았다.</option><option id="E">미국이 인도네시아 대부분을 지배했다.</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>163-165</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-006" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="강화도 조약" scopePages="대한 제국이 일본에 외교권을 넘긴 조약이었다." difficulty="일본의 식민 지배가 공식적으로 시작된 조약이었다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>1876년 강화도 조약에 대한 설명으로 옳은 것은?</prompt>
+<options><option id="A">조선이 일본과 맺은 최초의 근대식 조약이며 불평등 조약이었다.</option><option id="B">조선이 미국과 맺은 평등 조약이었다.</option><option id="C">대한 제국이 일본에 외교권을 넘긴 조약이었다.</option><option id="D">조선이 청과 맺은 군사 동맹이었다.</option><option id="E">일본의 식민 지배가 공식적으로 시작된 조약이었다.</option></options>
+<answer>A</answer><explanation>하</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-007" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="갑신정변" scopePages="청의 간섭에서 벗어나 근대 국가를 만들려 한 정치적 정변" difficulty="독립 협회가 만민 공동회를 개최한 사건" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>C</concept><prompt>1884년 김옥균 등 급진 개화파가 일으킨 사건의 목적과 성격을 가장 잘 설명한 것은?</prompt>
+<options><option id="A">농민이 탐관오리와 외세에 맞서 봉기한 운동</option><option id="B">일본의 외교권 침탈에 대응한 의병 운동</option><option id="C">청의 간섭에서 벗어나 근대 국가를 만들려 한 정치적 정변</option><option id="D">고종이 황제에 올라 대한 제국을 선포한 사건</option><option id="E">독립 협회가 만민 공동회를 개최한 사건</option></options>
+<answer>C</answer><explanation>중</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-008" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="동학 농민 운동" scopePages="일본의 식민 지배를 환영한 운동이었다." difficulty="대한 제국의 외교권을 회복한 외교 협상이었다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>동학 농민 운동(1894)의 요구와 성격을 바르게 설명한 것은?</prompt>
+<options><option id="A">왕권을 강화하고 신분제를 유지하려는 운동이었다.</option><option id="B">탐관오리의 수탈과 외세의 침입에 저항하고 잘못된 제도를 고치려 했다.</option><option id="C">일본의 식민 지배를 환영한 운동이었다.</option><option id="D">러시아 공사관으로 고종의 처소를 옮기려는 운동이었다.</option><option id="E">대한 제국의 외교권을 회복한 외교 협상이었다.</option></options>
+<answer>B</answer><explanation>중</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-009" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="갑오개혁" scopePages="조선의 개항을 처음 결정하였다." difficulty="독립 협회가 해산된 뒤 추진되었다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>갑오개혁의 내용으로 옳은 것은?</prompt>
+<options><option id="A">신분제와 과거제를 폐지하였다.</option><option id="B">대한 제국을 선포하였다.</option><option id="C">조선의 개항을 처음 결정하였다.</option><option id="D">을사늑약으로 외교권을 일본에 넘겼다.</option><option id="E">독립 협회가 해산된 뒤 추진되었다.</option></options>
+<answer>A</answer><explanation>하</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-010" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="독립 협회" scopePages="일본군과 함께 조선을 침략했다." difficulty="인도에서 세포이 항쟁을 주도했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>독립 협회의 활동으로 옳은 것은?</prompt>
+<options><option id="A">독립문 건립과 만민 공동회 개최 등을 통해 자주 국권 운동을 펼쳤다.</option><option id="B">동학 농민군을 조직해 집강소를 설치했다.</option><option id="C">일본군과 함께 조선을 침략했다.</option><option id="D">대한 제국의 외교권을 일본에 넘겼다.</option><option id="E">인도에서 세포이 항쟁을 주도했다.</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-011" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="아관 파천" scopePages="일본이 조선의 외교권을 빼앗았다." difficulty="독립 협회가 독립문을 세웠다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>1896년 아관 파천의 의미로 옳은 것은?</prompt>
+<options><option id="A">고종이 일본의 감시를 피해 러시아 공사관으로 처소를 옮겼다.</option><option id="B">고종이 황제에 즉위하고 대한 제국을 선포했다.</option><option id="C">일본이 조선의 외교권을 빼앗았다.</option><option id="D">조선이 일본과 강화도 조약을 맺었다.</option><option id="E">독립 협회가 독립문을 세웠다.</option></options>
+<answer>A</answer><explanation>하</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-012" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="대한 제국" scopePages="1905년 일본이 대한 제국 수립을 허가했다." difficulty="독립 협회가 황제를 폐위하고 수립했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>대한 제국 수립에 대한 설명으로 옳은 것은?</prompt>
+<options><option id="A">1897년 고종이 황제에 올라 대한 제국 수립을 선포했다.</option><option id="B">1884년 김옥균이 황제에 올라 선포했다.</option><option id="C">1905년 일본이 대한 제국 수립을 허가했다.</option><option id="D">1910년 한일 병합 이후 선포되었다.</option><option id="E">독립 협회가 황제를 폐위하고 수립했다.</option></options>
+<answer>A</answer><explanation>하</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-013" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="국권 수호 운동" scopePages="세포이 항쟁과 5·4 운동" difficulty="뉴딜 정책과 마셜 계획" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>을사늑약 체결 이후 국권 수호 운동의 두 흐름을 바르게 연결한 것은?</prompt>
+<options><option id="A">의병 운동과 애국 계몽 운동</option><option id="B">갑신정변과 동학 농민 운동</option><option id="C">세포이 항쟁과 5·4 운동</option><option id="D">파쇼다 사건과 베를린 회의</option><option id="E">뉴딜 정책과 마셜 계획</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>177-178</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-014" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="제1차 세계 대전 원인" scopePages="국제 연합이 유럽 국가들을 군사적으로 통합했다." difficulty="유럽의 모든 국가가 군비를 폐지했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>제1차 세계 대전이 일어나기 전 유럽의 국제 정세를 설명한 것으로 옳은 것은?</prompt>
+<options><option id="A">제국주의 경쟁 속에서 3국 동맹과 3국 협상이 대립하였다.</option><option id="B">미국과 소련이 냉전 동맹을 맺었다.</option><option id="C">국제 연합이 유럽 국가들을 군사적으로 통합했다.</option><option id="D">독일과 프랑스가 식민지 경쟁을 완전히 중단했다.</option><option id="E">유럽의 모든 국가가 군비를 폐지했다.</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>185-188</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-015" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="사라예보 사건" scopePages="베를린 봉쇄" difficulty="쿠바 미사일 위기" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>제1차 세계 대전의 직접적인 도화선이 된 사건은?</prompt>
+<options><option id="A">파쇼다 사건</option><option id="B">사라예보 사건</option><option id="C">베를린 봉쇄</option><option id="D">진주만 기습</option><option id="E">쿠바 미사일 위기</option></options>
+<answer>B</answer><explanation>하</explanation><advancedExplanation>185-188</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-016" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="제1차 세계 대전 전개" scopePages="미국이 러시아 혁명을 진압하려 했기 때문에" difficulty="미국이 국제 연맹을 탈퇴했기 때문에" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>제1차 세계 대전 중 독일의 무제한 잠수함 작전이 미국의 참전에 영향을 준 이유는?</prompt>
+<options><option id="A">미국의 식민지 독립을 지원했기 때문에</option><option id="B">미국 상선과 국민의 피해가 발생해 미국 내 참전 여론이 커졌기 때문에</option><option id="C">미국이 러시아 혁명을 진압하려 했기 때문에</option><option id="D">미국이 베를린을 봉쇄했기 때문에</option><option id="E">미국이 국제 연맹을 탈퇴했기 때문에</option></options>
+<answer>B</answer><explanation>상</explanation><advancedExplanation>185-188</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-017" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="베르사유 체제" scopePages="모든 식민지가 즉시 독립했다." difficulty="미국이 유럽의 모든 국가를 합병했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>제1차 세계 대전 이후 형성된 베르사유 체제의 특징으로 옳은 것은?</prompt>
+<options><option id="A">독일에 전쟁 책임을 묻고 군비 축소와 배상금 지불을 강요했다.</option><option id="B">독일이 유럽 전체를 통일했다.</option><option id="C">모든 식민지가 즉시 독립했다.</option><option id="D">국제 연맹이 군대를 보유해 모든 분쟁을 해결했다.</option><option id="E">미국이 유럽의 모든 국가를 합병했다.</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>185-188</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-018" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="러시아 3월 혁명" scopePages="소련이 해체되었다." difficulty="러시아가 제1차 세계 대전에 새로 참전했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>교과서의 표기 기준으로 1917년 러시아 3월 혁명의 결과는?</prompt>
+<options><option id="A">레닌이 임시 정부를 무너뜨렸다.</option><option id="B">차르가 물러나고 임시 정부가 수립되었다.</option><option id="C">소련이 해체되었다.</option><option id="D">스탈린이 5개년 계획을 시작했다.</option><option id="E">러시아가 제1차 세계 대전에 새로 참전했다.</option></options>
+<answer>B</answer><explanation>중</explanation><advancedExplanation>189-190</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-019" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="러시아 11월 혁명" scopePages="영국 의회" difficulty="프랑스 혁명 정부" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>1917년 러시아 11월 혁명에서 임시 정부를 무너뜨리고 소비에트 정부를 세운 세력은?</prompt>
+<options><option id="A">멘셰비키 온건파</option><option id="B">볼셰비키와 레닌</option><option id="C">영국 의회</option><option id="D">독일 나치스</option><option id="E">프랑스 혁명 정부</option></options>
+<answer>B</answer><explanation>중</explanation><advancedExplanation>189-190</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-020" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="대공황" scopePages="국제 연합이 무역을 금지했기 때문에" difficulty="인도 독립으로 미국 경제가 붕괴했기 때문에" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>1929년 대공황이 발생한 배경으로 가장 적절한 것은?</prompt>
+<options><option id="A">생산이 소비를 크게 밑돌아 상품 부족이 심해졌기 때문에</option><option id="B">기업의 과잉 생산으로 재고가 쌓이고 주가가 폭락했기 때문에</option><option id="C">국제 연합이 무역을 금지했기 때문에</option><option id="D">유럽에서 봉건제가 부활했기 때문에</option><option id="E">인도 독립으로 미국 경제가 붕괴했기 때문에</option></options>
+<answer>B</answer><explanation>중</explanation><advancedExplanation>191-194</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-021" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="뉴딜 정책" scopePages="식민지 확대를 통해 실업 문제를 해결했다." difficulty="국제 연맹을 해산했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>미국 루스벨트 대통령이 대공황을 극복하기 위해 실시한 뉴딜 정책의 특징은?</prompt>
+<options><option id="A">정부가 경제에 적극 개입하고 공공 사업으로 실업자를 구제했다.</option><option id="B">모든 기업을 외국에 매각했다.</option><option id="C">식민지 확대를 통해 실업 문제를 해결했다.</option><option id="D">군부 독재를 강화했다.</option><option id="E">국제 연맹을 해산했다.</option></options>
+<answer>A</answer><explanation>하</explanation><advancedExplanation>191-194</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-022" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="전체주의" scopePages="정당 간 자유로운 경쟁을 보장했다." difficulty="식민지의 자치권을 전면 보장했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>전체주의의 공통적인 특징으로 옳은 것은?</prompt>
+<options><option id="A">개인의 자유와 권리를 국가보다 우선시했다.</option><option id="B">국가와 민족의 이익을 앞세우고 개인의 희생을 강요했다.</option><option id="C">정당 간 자유로운 경쟁을 보장했다.</option><option id="D">군비를 줄이고 대외 침략을 중단했다.</option><option id="E">식민지의 자치권을 전면 보장했다.</option></options>
+<answer>B</answer><explanation>중</explanation><advancedExplanation>191-194</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-023" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="제2차 세계 대전 발발" scopePages="소련의 베를린 봉쇄" difficulty="미국의 마셜 계획" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>제2차 세계 대전이 시작된 직접적인 계기는?</prompt>
+<options><option id="A">일본의 하와이 진주만 기습</option><option id="B">독일의 폴란드 침공</option><option id="C">소련의 베를린 봉쇄</option><option id="D">이탈리아의 파쇼다 점령</option><option id="E">미국의 마셜 계획</option></options>
+<answer>B</answer><explanation>하</explanation><advancedExplanation>191-194</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-024" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="전쟁의 전환점" scopePages="노르망디 상륙 작전은 1939년에 실시되었다." difficulty="일본은 1942년에 무조건 항복했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>제2차 세계 대전의 전개에 대한 설명으로 옳은 것은?</prompt>
+<options><option id="A">미드웨이 해전에서 미국이 일본을 물리쳤다.</option><option id="B">스탈린그라드 전투에서 독일이 소련을 완전히 점령했다.</option><option id="C">노르망디 상륙 작전은 1939년에 실시되었다.</option><option id="D">독일은 진주만을 공격했다.</option><option id="E">일본은 1942년에 무조건 항복했다.</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>191-194</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-025" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="동아시아 민족 운동" scopePages="소련의 베를린 봉쇄에 대한 반대" difficulty="프랑스의 파쇼다 정책에 대한 반대" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>1919년 중국에서 일어난 5·4 운동의 주요 배경과 요구는?</prompt>
+<options><option id="A">파리 강화 회의에서 산둥반도 이권 반환 요구가 받아들여지지 않은 데 대한 반발</option><option id="B">일본이 인도를 독립시킨 데 대한 감사</option><option id="C">소련의 베를린 봉쇄에 대한 반대</option><option id="D">미국의 뉴딜 정책에 대한 반발</option><option id="E">프랑스의 파쇼다 정책에 대한 반대</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>207-208</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-026" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="국공 합작" scopePages="두 차례 모두 일본과 동맹을 맺기 위한 것이었다." difficulty="두 차례 모두 장제스가 공산당을 지휘했다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>중국의 제1차 국공 합작과 제2차 국공 합작을 구분한 것으로 옳은 것은?</prompt>
+<options><option id="A">제1차는 항일 전쟁, 제2차는 군벌 타도만을 목표로 했다.</option><option id="B">제1차는 군벌·열강 타도, 제2차는 일본의 침략에 맞선 연합이었다.</option><option id="C">두 차례 모두 일본과 동맹을 맺기 위한 것이었다.</option><option id="D">제1차는 냉전 이후, 제2차는 제1차 세계 대전 이전에 이루어졌다.</option><option id="E">두 차례 모두 장제스가 공산당을 지휘했다.</option></options>
+<answer>B</answer><explanation>상</explanation><advancedExplanation>207-208</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-027" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="냉전의 의미" scopePages="유럽 열강이 아프리카를 분할한 상태" difficulty="모든 국가가 군사 동맹을 해체한 상태" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>B</concept><prompt>냉전 체제를 설명한 것으로 가장 적절한 것은?</prompt>
+<options><option id="A">미국과 소련이 직접 전면전을 벌여 한쪽이 점령한 상태</option><option id="B">미국 중심 자본주의 진영과 소련 중심 공산주의 진영이 정치·군사·외교적으로 대립한 상태</option><option id="C">유럽 열강이 아프리카를 분할한 상태</option><option id="D">제1차 세계 대전 직후 독일이 주변국을 병합한 상태</option><option id="E">모든 국가가 군사 동맹을 해체한 상태</option></options>
+<answer>B</answer><explanation>하</explanation><advancedExplanation>216-219</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-028" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="냉전 진영" scopePages="트루먼 독트린·마셜 계획·NATO" difficulty="코민포름·트루먼 독트린·바르샤바 조약 기구" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>C</concept><prompt>다음 중 미국 중심 서방 진영의 정책·기구로만 묶인 것은?</prompt>
+<options><option id="A">코메콘·바르샤바 조약 기구</option><option id="B">코민포름·NATO</option><option id="C">트루먼 독트린·마셜 계획·NATO</option><option id="D">마셜 계획·코메콘·바르샤바 조약 기구</option><option id="E">코민포름·트루먼 독트린·바르샤바 조약 기구</option></options>
+<answer>C</answer><explanation>중</explanation><advancedExplanation>216-219</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-029" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="냉전의 사건" scopePages="다-가-나" difficulty="나-다-가" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>다음 사건을 시간순으로 바르게 나열한 것은? (가) 트루먼 독트린 (나) 베를린 장벽 건설 (다) 쿠바 미사일 위기</prompt>
+<options><option id="A">가-나-다</option><option id="B">나-가-다</option><option id="C">다-가-나</option><option id="D">가-다-나</option><option id="E">나-다-가</option></options>
+<answer>A</answer><explanation>상</explanation><advancedExplanation>216-219</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-030" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="제3 세계" scopePages="미국과 소련 어느 진영에도 속하지 않으려는 비동맹주의" difficulty="군사 동맹을 세계적으로 확대하는 입장" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>C</concept><prompt>제3 세계 국가들의 공통적인 외교적 입장으로 가장 적절한 것은?</prompt>
+<options><option id="A">미국 진영에 모두 가입하는 친서방주의</option><option id="B">소련 진영에 모두 가입하는 친소련주의</option><option id="C">미국과 소련 어느 진영에도 속하지 않으려는 비동맹주의</option><option id="D">유럽 제국주의 국가의 식민 지배를 지지하는 입장</option><option id="E">군사 동맹을 세계적으로 확대하는 입장</option></options>
+<answer>C</answer><explanation>하</explanation><advancedExplanation>220-221</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-031" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="반둥 회의" scopePages="미국과 소련이 독일 통일을 선언했다." difficulty="국제 연맹을 창설한 회의였다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>1955년 반둥 회의에 대한 설명으로 옳은 것은?</prompt>
+<options><option id="A">아시아·아프리카 29개국 대표가 모여 평화 10원칙 등을 논의했다.</option><option id="B">유럽 국가들이 NATO 창설을 결정했다.</option><option id="C">미국과 소련이 독일 통일을 선언했다.</option><option id="D">일본이 중국을 침략하기 위해 개최했다.</option><option id="E">국제 연맹을 창설한 회의였다.</option></options>
+<answer>A</answer><explanation>중</explanation><advancedExplanation>220-221</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-032" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="아프리카의 해" scopePages="수에즈 운하가 처음 건설되었기 때문에" difficulty="국제 연합이 해체되었기 때문에" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>1960년을 '아프리카의 해'라고 부르는 이유는?</prompt>
+<options><option id="A">아프리카 17개국이 독립했기 때문에</option><option id="B">아프리카 전체가 유럽 연합에 가입했기 때문에</option><option id="C">수에즈 운하가 처음 건설되었기 때문에</option><option id="D">남아프리카 공화국이 아프리카를 통일했기 때문에</option><option id="E">국제 연합이 해체되었기 때문에</option></options>
+<answer>A</answer><explanation>하</explanation><advancedExplanation>220-221</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+<question id="HIS2S2-1-033" stage="1" reserve="false" subject="역사" schoolLevel="중학교" grade="2" semester="2" unit="국제 질서 변화" scopePages="모든 국가가 NATO에 가입했다." difficulty="국제 연합이 해체되었다." difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>A</concept><prompt>냉전의 양극 체제가 점차 다극 체제로 변화한 배경으로 옳은 것은?</prompt>
+<options><option id="A">중소 갈등, 프랑스의 독자 노선, 미국의 베트남 전쟁 부담 등이 나타났다.</option><option id="B">미국과 소련이 하나의 국가로 통일되었다.</option><option id="C">모든 국가가 NATO에 가입했다.</option><option id="D">제3 세계 국가가 모두 식민지로 되돌아갔다.</option><option id="E">국제 연합이 해체되었다.</option></options>
+<answer>A</answer><explanation>상</explanation><advancedExplanation>222</advancedExplanation>
+<statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
+</question>
+</questions></examBank>
