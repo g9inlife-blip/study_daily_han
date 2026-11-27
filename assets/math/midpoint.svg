@@ -11,7 +11,7 @@
 <text x="42" y="243">A</text><text x="215" y="19">B</text><text x="390" y="243">C</text>
 <text x="116" y="119">D</text><text x="307" y="119">E</text>
 <text x="220" y="110" text-anchor="middle">DE</text>
-<text x="220" y="250" text-anchor="middle">AC (밑변)</text>
-<text x="220" y="266" text-anchor="middle" font-size="13">D, E는 각각 AB, BC의 중점 · DE ∥ AC</text>
+
+
 </g>
 </svg>
