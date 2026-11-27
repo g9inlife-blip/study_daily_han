@@ -212,7 +212,7 @@
 <question id="MATH2S2-1-024" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>특정 두 사람이 이웃하는 배열</concept>
 <prompt>친구 4명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
-<options><option id="A">12가지</option><option id="B">12가지</option><option id="C">24가지</option><option id="D">6가지</option><option id="E">14가지</option></options>
+<options><option id="A">12가지</option><option id="B">24가지</option><option id="C">6가지</option><option id="D">15가지</option><option id="E">10가지</option></options>
 <answer>A</answer>
 <explanation>민수와 지훈이를 한 묶음으로 보면 3개를 배열하므로 3!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×6=12가지이다.</explanation>
 <advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 12가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -477,7 +477,7 @@
 <question id="MATH2S2-2-024" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>특정 두 사람이 이웃하는 배열</concept>
 <prompt>친구 5명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
-<options><option id="A">48가지</option><option id="B">120가지</option><option id="C">24가지</option><option id="D">50가지</option><option id="E">20가지</option></options>
+<options><option id="A">48가지</option><option id="B">120가지</option><option id="C">24가지</option><option id="D">51가지</option><option id="E">46가지</option></options>
 <answer>A</answer>
 <explanation>민수와 지훈이를 한 묶음으로 보면 4개를 배열하므로 4!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×24=48가지이다.</explanation>
 <advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 48가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -742,7 +742,7 @@
 <question id="MATH2S2-3-024" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>특정 두 사람이 이웃하는 배열</concept>
 <prompt>친구 6명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
-<options><option id="A">720가지</option><option id="B">120가지</option><option id="C">242가지</option><option id="D">30가지</option><option id="E">240가지</option></options>
+<options><option id="A">720가지</option><option id="B">120가지</option><option id="C">243가지</option><option id="D">238가지</option><option id="E">240가지</option></options>
 <answer>E</answer>
 <explanation>민수와 지훈이를 한 묶음으로 보면 5개를 배열하므로 5!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×120=240가지이다.</explanation>
 <advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 240가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -1007,7 +1007,7 @@
 <question id="MATH2S2-4-024" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>특정 두 사람이 이웃하는 배열</concept>
 <prompt>친구 7명이 한 줄로 서서 사진을 찍는다. 그중 민수와 지훈이가 반드시 이웃하여 서는 경우의 수는?</prompt>
-<options><option id="A">720가지</option><option id="B">1442가지</option><option id="C">42가지</option><option id="D">1440가지</option><option id="E">5040가지</option></options>
+<options><option id="A">5040가지</option><option id="B">720가지</option><option id="C">1443가지</option><option id="D">1440가지</option><option id="E">1438가지</option></options>
 <answer>D</answer>
 <explanation>민수와 지훈이를 한 묶음으로 보면 6개를 배열하므로 6!가지이다. 묶음 안에서 두 사람의 순서는 2가지이므로 2×720=1440가지이다.</explanation>
 <advancedExplanation>두 사람이 이웃해야 하므로 한 묶음으로 처리하고, 묶음 내부의 순서 2가지를 다시 곱한다. 오답 점검: 정답은 1440가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
