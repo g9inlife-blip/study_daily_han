@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>영어 단어·숙어 단기 암기 2장</title>
+    <style>
+      :root {
+        --bg: #f4f5f2;
+        --paper: #ffffff;
+        --ink: #1c1e1a;
+        --ink-soft: #4a4d46;
+        --muted: #82867e;
+        --line: #dcded6;
+        --accent: #1d5fb8;
+        --accent-bg: #e3edfb;
+        --dup: #b3541e;
+        --dup-bg: #fbe9dc;
+        --pair-bg: #f0f1ec;
+        --btn-bg: #ffffff;
+        --btn-on: #1c1e1a;
+        --btn-on-ink: #ffffff;
+        --shadow: 0 1px 2px rgba(20, 22, 18, 0.06);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #17181a;
+          --paper: #212226;
+          --ink: #eceee8;
+          --ink-soft: #c3c7bd;
+          --muted: #8d9188;
+          --line: #3a3c40;
+          --accent: #7fb0f2;
+          --accent-bg: #26374f;
+          --dup: #f0a06a;
+          --dup-bg: #4a3220;
+          --pair-bg: #26272b;
+          --btn-bg: #26272b;
+          --btn-on: #eceee8;
+          --btn-on-ink: #17181a;
+          --shadow: none;
+        }
+      }
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+        font-size: 13.5px;
+        line-height: 1.35;
+      }
+      button, input { font: inherit; }
+      button { min-height: 36px; cursor: pointer; }
+
+      /* ---------- 상단 컨트롤 ---------- */
+      .controls {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background: var(--bg);
+        border-bottom: 1px solid var(--line);
+        padding: 8px 10px 7px;
+      }
+      .controls .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 6px;
+        max-width: 1180px;
+        margin: 0 auto;
+      }
+      .tabs { display: flex; gap: 4px; }
+      .tab {
+        border: 1px solid var(--line);
+        background: var(--btn-bg);
+        color: var(--ink-soft);
+        border-radius: 6px;
+        padding: 5px 12px;
+        font-weight: 700;
+        font-size: 13.5px;
+      }
+      .tab[aria-selected="true"] { background: var(--btn-on); color: var(--btn-on-ink); border-color: var(--btn-on); }
+      .tab .cnt { font-weight: 400; font-size: 11.5px; opacity: 0.75; }
+      .modes { display: flex; gap: 4px; margin-left: auto; }
+      .mode-btn {
+        border: 1px solid var(--line);
+        background: var(--btn-bg);
+        color: var(--ink-soft);
+        border-radius: 6px;
+        padding: 5px 10px;
+        font-size: 12.5px;
+        font-weight: 600;
+      }
+      .mode-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+      .search-wrap { display: flex; align-items: center; gap: 6px; flex: 1 1 180px; min-width: 150px; }
+      .search-wrap input {
+        flex: 1;
+        min-height: 36px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--paper);
+        color: var(--ink);
+        padding: 5px 9px;
+        font-size: 13.5px;
+      }
+      .search-wrap input::placeholder { color: var(--muted); }
+      .result-count { font-size: 12px; color: var(--muted); white-space: nowrap; }
+      .print-note { max-width: 1180px; margin: 4px auto 0; font-size: 11.5px; color: var(--muted); }
+
+      /* ---------- 본문 ---------- */
+      main { max-width: 1180px; margin: 0 auto; padding: 8px 10px 26px; }
+      .sheet { display: none; }
+      .sheet.active { display: block; }
+      body.searching .sheet { display: block; }
+      .sheet-head {
+        display: flex; align-items: baseline; gap: 8px;
+        margin: 4px 0 6px;
+      }
+      .sheet-head h1 { font-size: 17px; margin: 0; letter-spacing: -0.01em; }
+      .sheet-head .sub { font-size: 12px; color: var(--muted); }
+      .group-title {
+        font-size: 12.5px; font-weight: 700; color: var(--ink-soft);
+        margin: 10px 0 4px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid var(--line);
+      }
+      .group-title:first-of-type { margin-top: 2px; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 4px;
+      }
+      .item {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 5px;
+        padding: 4px 7px 3px;
+        box-shadow: var(--shadow);
+        min-width: 0;
+      }
+      .item .line1 { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 5px; }
+      .num { font-size: 10.5px; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 15px; }
+      .word { font-weight: 800; font-size: 14px; letter-spacing: -0.01em; }
+      .pos { font-size: 10.5px; color: var(--muted); font-style: italic; }
+      .badge-phr {
+        font-size: 9.5px; font-weight: 700; font-style: normal;
+        color: var(--accent); background: var(--accent-bg);
+        border-radius: 3px; padding: 0 4px; line-height: 1.5;
+      }
+      .badge-dup {
+        font-size: 9.5px; font-weight: 700;
+        color: var(--dup); background: var(--dup-bg);
+        border-radius: 3px; padding: 0 4px; line-height: 1.5;
+      }
+      .meaning { color: var(--ink); font-size: 13px; }
+      .ex {
+        font-size: 11px; color: var(--muted);
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        margin-top: 1px;
+      }
+      .item.hidden, .group-title.hidden, .pair-box.hidden { display: none; }
+
+      /* 가리기 모드 */
+      body.mode-mean .meaning, body.mode-word .word {
+        filter: blur(5px);
+        cursor: pointer;
+        user-select: none;
+        border-radius: 2px;
+      }
+      body.mode-mean .meaning.revealed, body.mode-word .word.revealed { filter: none; }
+      .hint { font-size: 11.5px; color: var(--muted); margin: 2px 0 0; display: none; }
+      body.mode-mean .hint.mean-hint, body.mode-word .hint.word-hint { display: block; }
+
+      /* 헷갈리는 쌍 */
+      .pair-box {
+        margin-top: 10px;
+        background: var(--pair-bg);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 7px 10px 6px;
+      }
+      .pair-box h2 { font-size: 13px; margin: 0 0 4px; }
+      .pair-box ul { margin: 0; padding-left: 16px; }
+      .pair-box li { font-size: 12.5px; margin: 2px 0; color: var(--ink-soft); }
+      .pair-box b { color: var(--ink); }
+      .empty-msg { display: none; font-size: 13px; color: var(--muted); padding: 14px 2px; }
+      body.searching .empty-msg.show { display: block; }
+
+      @media (max-width: 700px) {
+        .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+        .modes { margin-left: 0; }
+        .word { font-size: 13.5px; }
+        .meaning { font-size: 12.5px; }
+      }
+      @media (max-width: 380px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+
+      /* ---------- 인쇄: Lesson 7·8 = A4 2장 ---------- */
+      @media print {
+        @page { size: A4; margin: 9mm; }
+        body { background: #fff; color: #000; font-size: 10.5px; }
+        .controls, .hint, .empty-msg { display: none !important; }
+        main { max-width: none; padding: 0; }
+        .sheet { display: block !important; page-break-after: always; }
+        .sheet:last-child { page-break-after: auto; }
+        .grid { grid-template-columns: repeat(3, 1fr); gap: 3px; }
+        .item { border-color: #bbb; box-shadow: none; padding: 3px 5px 2px; break-inside: avoid; }
+        .word { font-size: 11px; }
+        .meaning { font-size: 10.5px; }
+        .ex { font-size: 8.5px; color: #666; }
+        .sheet-head h1 { font-size: 14px; }
+        .pair-box { background: #f4f4f4; break-inside: avoid; }
+        body.mode-mean .meaning, body.mode-word .word { filter: none !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="controls">
+      <div class="row">
+        <div class="tabs" role="tablist" aria-label="장 선택">
+          <button class="tab" id="tab7" role="tab" aria-selected="true" data-sheet="sheet7">1장 · Lesson 7 <span class="cnt">59개</span></button>
+          <button class="tab" id="tab8" role="tab" aria-selected="false" data-sheet="sheet8">2장 · Lesson 8 <span class="cnt">90개</span></button>
+        </div>
+        <div class="modes" role="group" aria-label="암기 모드">
+          <button class="mode-btn" data-mode="all" aria-pressed="true">모두 보기</button>
+          <button class="mode-btn" data-mode="mean" aria-pressed="false">뜻 가리기</button>
+          <button class="mode-btn" data-mode="word" aria-pressed="false">단어 가리기</button>
+        </div>
+        <div class="search-wrap">
+          <input type="search" id="search" placeholder="단어·뜻 검색 (예: possible, 덮다)" aria-label="단어 검색" />
+          <span class="result-count" id="resultCount"></span>
+        </div>
+      </div>
+      <p class="print-note">인쇄는 브라우저 메뉴(Ctrl/⌘+P)로 하세요 — Lesson 7과 Lesson 8이 A4 한 장씩 나뉘어 출력됩니다.</p>
+    </div>
+
+    <main>
+      <!-- ================= 1장 · Lesson 7 ================= -->
+      <section class="sheet active" id="sheet7" aria-label="Lesson 7">
+        <div class="sheet-head">
+          <h1>Lesson 7</h1>
+          <span class="sub">핵심 단어 19개 + 단어·숙어 40개 = 59개</span>
+        </div>
+        <p class="hint mean-hint">뜻 가리기 중 — 가려진 뜻을 누르면 그 단어만 다시 보입니다.</p>
+        <p class="hint word-hint">단어 가리기 중 — 가려진 단어를 누르면 그 단어만 다시 보입니다.</p>
+        <h2 class="group-title" data-group="g7a">핵심 단어 1~19</h2>
+        <div class="grid" id="grid7a"></div>
+        <h2 class="group-title" data-group="g7b">단어·숙어 1~40</h2>
+        <div class="grid" id="grid7b"></div>
+        <div class="pair-box">
+          <h2>헷갈리는 쌍 — Lesson 7</h2>
+          <ul>
+            <li><b>participate</b>(참가하다) vs <b>participate in ~</b>(~에 참여하다) — 뒤에 대상이 오면 in을 붙인다.</li>
+            <li><b>take place</b>(열리다, 발생하다 — 행사가 주어) vs <b>have fun</b>(즐기다, 재미있게 지내다 — 사람이 주어).</li>
+            <li><b>hardly</b>(거의 ~않다) — hardly 자체가 부정 의미라 뒤에 not을 또 쓰지 않는다.</li>
+            <li><b>especially</b>(특히) vs <b>surprisingly</b>(놀랍게도) — '특히'는 especially, 문장 앞에서 '놀랍게도'는 surprisingly.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================= 2장 · Lesson 8 ================= -->
+      <section class="sheet" id="sheet8" aria-label="Lesson 8">
+        <div class="sheet-head">
+          <h1>Lesson 8</h1>
+          <span class="sub">핵심 단어 31개 + 단어·숙어 59개 = 90개</span>
+        </div>
+        <p class="hint mean-hint">뜻 가리기 중 — 가려진 뜻을 누르면 그 단어만 다시 보입니다.</p>
+        <p class="hint word-hint">단어 가리기 중 — 가려진 단어를 누르면 그 단어만 다시 보입니다.</p>
+        <h2 class="group-title" data-group="g8a">핵심 단어 1~31</h2>
+        <div class="grid" id="grid8a"></div>
+        <h2 class="group-title" data-group="g8b">단어·숙어 1~59</h2>
+        <div class="grid" id="grid8b"></div>
+        <div class="pair-box">
+          <h2>헷갈리는 쌍 — Lesson 8</h2>
+          <ul>
+            <li><b>scared</b>(겁먹은) vs <b>terrified</b>(공포에 휩싸인) — terrified가 훨씬 강하다.</li>
+            <li><b>quiet</b>(조용한, 형용사) vs <b>quietly</b>(조용히, 부사) / <b>careful</b>(주의 깊은, 형용사) vs <b>carefully</b>(주의 깊게, 부사) — 동사를 꾸미면 -ly 형태.</li>
+            <li><b>calm</b>(차분한 — 사람·마음의 상태) vs <b>quiet</b>(조용한 — 소리·장소).</li>
+            <li><b>cover</b>(덮다, 동사) vs <b>be covered in ~</b>(~로 덮여 있다, ~투성이다 — 상태).</li>
+            <li><b>foolish</b>(어리석은, 형용사) vs <b>fool</b>(바보, 명사).</li>
+            <li><b>in danger</b>(위험에 처한 — 상태) vs <b>put ~ in danger</b>(~을 위험에 빠뜨리다 — 동작).</li>
+            <li><b>possible</b>(가능한)과 <b>welcome</b>(환영하다)은 Lesson 7과 Lesson 8에 <b>중복</b> 출제.</li>
+          </ul>
+        </div>
+      </section>
+      <p class="empty-msg" id="emptyMsg">검색 결과가 없습니다. 다른 단어나 뜻으로 검색해 보세요.</p>
+    </main>
+
+    <script>
+      // [단어, 품사, 뜻, 예문(파일 예문을 짧게), 중복여부]
+      var L7A = [
+        ["altar","n.","제단, 제대","Flowers were placed on the altar.",0],
+        ["burn","n./v.","타다, 태우다, 화상","The candle burned all night.",0],
+        ["celebrate","v.","축하하다, 기념하다","We celebrate New Year with family.",0],
+        ["costume","n.","의상, 복장","She wore a beautiful costume to the party.",0],
+        ["decorate","v.","장식하다, 꾸미다","She decorates her house with lights.",0],
+        ["fireworks","n.","불꽃놀이, 폭죽","The city displayed beautiful fireworks.",0],
+        ["giant","adj./n.","거대한, 매우 큰, 거인","We watched the game on a giant screen.",0],
+        ["matter","v.","중요하다","Your opinion matters to us very much.",0],
+        ["parade","n.","퍼레이드, 행렬","The parade had marching bands.",0],
+        ["participate","v.","참가하다, 참여하다","Students should participate actively.",0],
+        ["pole","n.","기둥","The flag flies on top of a tall pole.",0],
+        ["possible","adj.","가능한","Is it possible to finish the work on time?",1],
+        ["puzzle","n.","퍼즐, 수수께끼","The children are doing a puzzle together.",0],
+        ["recipe","n.","조리법, 레시피","Grandmother wrote down her famous cake recipe.",0],
+        ["reindeer","n.","순록, 카리부","Eight reindeer pulled Santa's sleigh.",0],
+        ["skeleton","n.","골격, 해골","The museum displayed ancient human skeletons.",0],
+        ["statue","n.","조각상, 동상","The ancient marble statue stood in the park.",0],
+        ["symbolize","v.","상징하다","The dove symbolizes peace and hope.",0],
+        ["take place","v.phr.","열리다, 발생하다","The conference will take place in Seoul.",0]
+      ];
+      var L7B = [
+        ["festival","n.","축제","The food festival happens every summer.",0],
+        ["spring","n.","봄","In spring, the days get warmer.",0],
+        ["enjoy","v.","즐기다","My little sister enjoys swimming.",0],
+        ["star","n./v.","별, 스타, 주연하다","I can see many stars tonight.",0],
+        ["wooden","adj.","나무로 된, 목재의","The old wooden bridge was damaged.",0],
+        ["city","n.","도시, 시","My family moved to a big city last year.",0],
+        ["surprisingly","adv.","놀랍게도","Surprisingly, the old man ran very fast.",0],
+        ["winter","n.","겨울","Winter is cold and perfect for skiing.",0],
+        ["dark","adj.","어두운, 검은","The room became dark.",0],
+        ["especially","adv.","특히","I love chocolate, especially dark chocolate.",0],
+        ["welcome","adj./interj./n./v.","환영하다, 환영합니다, 반가운","Welcome to our restaurant!",1],
+        ["summer","n.","여름","I swim at the beach in summer.",0],
+        ["special","adj.","특별한","Today is a special day for us.",0],
+        ["evening","n.","저녁","We eat together every evening.",0],
+        ["tall","adj.","키가 큰, 높은","The tall basketball player scored points.",0],
+        ["flower","n.","꽃","A beautiful red flower bloomed in spring.",0],
+        ["green","adj./n.","녹색(의), 초록색(의), 친환경적인","She has a beautiful green dress.",0],
+        ["leaf","n.","잎","A red leaf is on the ground.",0],
+        ["traditional","adj.","전통적인","This restaurant serves traditional Japanese food.",0],
+        ["dance","n./v.","춤을 추다, 춤","My sister dances at parties.",0],
+        ["sun","n.","태양, 햇빛","The sun rises in the east.",0],
+        ["hardly","adv.","거의 ~않다","She hardly talks to anyone at school.",0],
+        ["cemetery","n.","묘지","The old cemetery contains grave sites.",0],
+        ["area","n.","지역, 면적","This area has good schools and buses.",0],
+        ["visitor","n.","방문객, 관광객","A visitor came to our house yesterday.",0],
+        ["various","adj.","다양한, 여러 가지의","The store sells various types of fruit.",0],
+        ["sport","n.","스포츠, 운동","My favorite sport is basketball.",0],
+        ["event","n.","행사, 사건","The sports event happens every Saturday.",0],
+        ["race","n./v.","경주(하다)","Athletes prepared for the race.",0],
+        ["wear","v.","입다, 착용하다","I usually wear jeans and a T-shirt.",0],
+        ["fast","adj./adv.","빠른, 빠르게, 빨리","He drives a fast sports car.",0],
+        ["around the world","phr.","전 세계에, 세계 각지에","People around the world celebrate holidays.",0],
+        ["all over","phr.","곳곳에, 여기저기","There are coffee shops all over the city.",0],
+        ["come back","phr.v.","돌아오다, 되돌아오다, 복귀하다","What time will you come back from work?",0],
+        ["set up","phr.v.","설치하다, 설립하다","Can you help me set up the computer?",0],
+        ["at the end of","v.phr.","~의 끝에, ~이 끝날 때","We'll have a party at the end of the semester.",0],
+        ["dress up","phr.v.","차려입다, 정장을 입다","We need to dress up for the wedding.",0],
+        ["such as","adv.phr.","~와 같은, 예를 들어","I like fruits such as mangoes.",0],
+        ["participate in","phr.v.","~에 참여하다","All the children can participate in the sports day.",0],
+        ["have fun","v.phr.","즐기다, 재미있게 지내다","Have fun at the party tonight!",0]
+      ];
+      var L8A = [
+        ["appear","v.","나타나다, 보이다","Strange clouds appeared in the sky.",0],
+        ["at any time","adv.phr.","언제든지, 아무 때나","You can call me at any time.",0],
+        ["be covered in","phr.v.","~로 덮여 있다, ~투성이다","The town will be covered in snow.",0],
+        ["breathe","v.","숨을 쉬다, 호흡하다","Open the window so we can breathe fresh air.",0],
+        ["by accident","adv.phr.","우연히, 실수로","I discovered this café by accident.",0],
+        ["cause","n./v.","원인, 이유, 야기하다","What was the cause of the fire?",0],
+        ["confused","adj.","혼란스러운, 당황한","She looked confused.",0],
+        ["dinosaur","n.","공룡","Children love learning about dinosaurs.",0],
+        ["except","conj./prep.","~을 제외하고, ~외에는","Everyone passed except two students.",0],
+        ["fog","n.","안개","Thick fog made it hard to see.",0],
+        ["foolish","adj.","어리석은, 바보 같은","It was foolish to trust someone unknown.",0],
+        ["founder","n.","설립자, 창립자","The founder started with a small team.",0],
+        ["instruction","n.","지시, 설명, 교육","Follow the instructions before assembling.",0],
+        ["jungle","n.","정글, 밀림","A traveler found rare animals in the jungle.",0],
+        ["million","number","백만","The prize was ten million dollars.",0],
+        ["mud","n.","진흙","The children played in the mud.",0],
+        ["panic","n./v.","공황, 공포, 당황하다","The fire alarm made people panic.",0],
+        ["path","n.","길, 통로","The path led to a waterfall.",0],
+        ["present","adj./n.","현재의, 참석한","We need to focus on the present moment.",0],
+        ["president","n.","대통령, 회장","The president will visit our school.",0],
+        ["put ~ in danger","phr.v.","~을 위험에 빠뜨리다","Driving too fast can put you in danger.",0],
+        ["roar","n./v.","포효하다, 포효, 굉음","The lion roars loudly.",0],
+        ["scared","adj.","겁먹은, 무서워하는","The children were scared of the dark.",0],
+        ["shocked","adj.","충격을 받은, 놀란","She was shocked when she heard the news.",0],
+        ["silence","n.","침묵, 고요함","The silence was broken by turning pages.",0],
+        ["stare","v.","응시하다, 뚫어지게 보다","Don't stare at people.",0],
+        ["suddenly","adv.","갑자기","Suddenly the lights went out.",0],
+        ["terrified","adj.","겁먹은, 공포에 휩싸인","The child was terrified of thunder.",0],
+        ["toward","prep.","~를 향해, ~쪽으로","She walked toward the main entrance.",0],
+        ["unthinkable","adj.","상상도 할 수 없는, 생각할 수 없는","A phone without buttons was unthinkable.",0],
+        ["whisper","n./v.","속삭이다, 속삭임","She will whisper the secret quietly.",0]
+      ];
+      var L8B = [
+        ["butterfly","n.","나비","My sister saw a yellow butterfly.",0],
+        ["future","adj./n.","미래(의)","She wants a good job in the future.",0],
+        ["travel","n./v.","여행(하다), 이동(하다)","She travels abroad every summer.",0],
+        ["sign","n.","표지판, 신호, 조짐","The sign showed the direction to the hospital.",0],
+        ["wall","n.","벽, 담벼락","The wall between the rooms is thick.",0],
+        ["possible","adj.","가능한","Is it possible to finish the work on time?",1],
+        ["lucky","adj.","운이 좋은, 행운의","We were lucky to get concert tickets.",0],
+        ["machine","n.","기계","This machine helps us make bread.",0],
+        ["guide","n./v.","안내하다, 안내자, 안내서","The hiker will guide us through the forest.",0],
+        ["safe","adj.","안전한","It is safe to walk on this street.",0],
+        ["follow","v.","따르다, 따라가다, 이어지다","My dog follows me everywhere.",0],
+        ["traveler","n.","여행자, 여행객","The traveler visited five countries.",0],
+        ["close","v.","닫다, 끝내다","Please close the window.",0],
+        ["eye","n.","눈, 시선","He has brown eyes like his father.",0],
+        ["move","n./v.","움직이다, 이사하다, 움직임","Please move your chair a bit.",0],
+        ["foot","n.","발, 피트","He hurt his left foot.",0],
+        ["arrive","v.","도착하다","The train will arrive at platform five.",0],
+        ["explain","v.","설명하다","The teacher explained the math problem.",0],
+        ["touch","n./v.","만지다, 촉각, 접촉","Please don't touch the hot pan.",0],
+        ["slowly","adv.","천천히","She walked slowly down the stairs.",0],
+        ["cover","n./v.","덮다, 덮개, 포함하다","Please cover the pot.",0],
+        ["quiet","n./adj.","조용한, 조용함","The classroom was very quiet.",0],
+        ["excited","adj.","신난, 흥분한","The children were excited about the trip.",0],
+        ["careful","adj.","주의 깊은, 조심하는","Be careful with the glass.",0],
+        ["hungry","adj.","배고픈","All the kids were very hungry.",0],
+        ["calm","adj.","차분한, 고요한","The teacher remained calm.",0],
+        ["fool","n.","바보, 얼간이","Don't be a fool.",0],
+        ["begin","v.","시작하다","The concert will begin at eight.",0],
+        ["meter","n.","미터","The room is five meters wide.",0],
+        ["huge","adj.","아주 큰, 엄청 큰","The new shopping mall is huge.",0],
+        ["angrily","adv.","화가 나서, 성난 듯이","The teacher looked at us angrily.",0],
+        ["quietly","adv.","조용히","The baby slept quietly.",0],
+        ["shout","n./v.","외치다, 외침, 함성","He began to shout.",0],
+        ["moment","n.","순간","Wait just a moment.",0],
+        ["loud","adj./adv.","시끄러운, 큰 소리로","The music was too loud.",0],
+        ["return","v.","돌아가다, 반환하다","Please return home before dark.",0],
+        ["safely","adv.","안전하게","The children arrived home safely.",0],
+        ["angry","adj.","화난, 성난","They were angry about the noise.",0],
+        ["voice","n.","목소리, 의견","Her voice is perfect for classical music.",0],
+        ["shoe","n.","신발","I bought new black shoes.",0],
+        ["finally","adv.","마침내, 마지막으로, 결국","We walked for hours and finally arrived home.",0],
+        ["welcome","adj./interj./n./v.","환영하다, 환영합니다, 반가운","Welcome to our restaurant!",1],
+        ["carefully","adv.","주의 깊게, 조심스럽게","The boy walked carefully on the ice.",0],
+        ["closely","adv.","면밀히, 가까이","The detective examined the evidence closely.",0],
+        ["small","adj.","작은","We have a small cat at home.",0],
+        ["in the past","phr.","과거에, 예전에","In the past, people traveled by horse.",0],
+        ["on the news","phr.","뉴스에, 뉴스에서","I saw the story on the news.",0],
+        ["sit down","phr.v.","앉다, 자리에 앉다","Please sit down.",0],
+        ["a few","n.phr.","몇 개, 약간","I have a few friends coming over.",0],
+        ["over there","adv.phr.","저기, 저쪽에","Your keys are over there.",0],
+        ["in the future","phr.","미래에, 앞으로","I hope to travel more in the future.",0],
+        ["a little","adv.phr.","조금, 약간","I speak a little Korean.",0],
+        ["turn around","phr.v.","돌아서다, 방향을 바꾸다, (상황을) 호전시키다","She will turn around and smile.",0],
+        ["in danger","adv.phr.","위험에 처한, 위기에","People were in danger from smoke.",0],
+        ["for a long time","phr.","오랫동안, 오래","I've been waiting for a long time.",0],
+        ["go home","v.phr.","집에 가다, 귀가하다","The children go home after school.",0],
+        ["look around","phr.v.","둘러보다, 주위를 살피다","Let's look around the museum.",0],
+        ["go on","phr.v.","계속되다, 지속되다, 일어나다, 발생하다, 계속 진행하다","The concert will go on for three hours.",0],
+        ["because of","prep.","때문에, ~으로 인해","The game was stopped because of rain.",0]
+      ];
+
+      function render(gridId, list) {
+        var grid = document.getElementById(gridId);
+        var html = "";
+        for (var i = 0; i < list.length; i++) {
+          var e = list[i];
+          var isPhr = e[1].indexOf("phr") !== -1;
+          html += '<article class="item" data-search="' + (e[0] + " " + e[2]).toLowerCase().replace(/"/g, "") + '">'
+            + '<div class="line1">'
+            + '<span class="num">' + (i + 1) + '</span>'
+            + '<span class="word">' + e[0] + '</span>'
+            + '<span class="pos">' + e[1] + '</span>'
+            + (isPhr ? '<span class="badge-phr">숙어</span>' : '')
+            + (e[4] ? '<span class="badge-dup">중복</span>' : '')
+            + '<span class="meaning">' + e[2] + '</span>'
+            + '</div>'
+            + '<div class="ex">' + e[3] + '</div>'
+            + '</article>';
+        }
+        grid.innerHTML = html;
+      }
+      render("grid7a", L7A);
+      render("grid7b", L7B);
+      render("grid8a", L8A);
+      render("grid8b", L8B);
+
+      // 탭 전환
+      var tabs = document.querySelectorAll(".tab");
+      tabs.forEach(function (tab) {
+        tab.addEventListener("click", function () {
+          tabs.forEach(function (t) { t.setAttribute("aria-selected", "false"); });
+          tab.setAttribute("aria-selected", "true");
+          document.querySelectorAll(".sheet").forEach(function (s) { s.classList.remove("active"); });
+          document.getElementById(tab.getAttribute("data-sheet")).classList.add("active");
+          window.scrollTo(0, 0);
+        });
+      });
+
+      // 가리기 모드
+      var modeBtns = document.querySelectorAll(".mode-btn");
+      modeBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          modeBtns.forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
+          btn.setAttribute("aria-pressed", "true");
+          document.body.classList.remove("mode-mean", "mode-word");
+          var m = btn.getAttribute("data-mode");
+          if (m === "mean") document.body.classList.add("mode-mean");
+          if (m === "word") document.body.classList.add("mode-word");
+          document.querySelectorAll(".revealed").forEach(function (el) { el.classList.remove("revealed"); });
+        });
+      });
+
+      // 가려진 항목 클릭 → 개별 공개 토글
+      document.addEventListener("click", function (ev) {
+        var t = ev.target;
+        if ((document.body.classList.contains("mode-mean") && t.classList.contains("meaning")) ||
+            (document.body.classList.contains("mode-word") && t.classList.contains("word"))) {
+          t.classList.toggle("revealed");
+        }
+      });
+
+      // 검색
+      var searchInput = document.getElementById("search");
+      var resultCount = document.getElementById("resultCount");
+      var emptyMsg = document.getElementById("emptyMsg");
+      searchInput.addEventListener("input", function () {
+        var q = searchInput.value.trim().toLowerCase();
+        document.body.classList.toggle("searching", q.length > 0);
+        var shown = 0;
+        document.querySelectorAll(".item").forEach(function (item) {
+          var hit = q.length === 0 || item.getAttribute("data-search").indexOf(q) !== -1;
+          item.classList.toggle("hidden", !hit);
+          if (hit) shown++;
+        });
+        // 그룹 제목·헷갈리는 쌍: 그룹에 보이는 항목이 없으면 숨김
+        document.querySelectorAll(".grid").forEach(function (grid) {
+          var anyVisible = grid.querySelector(".item:not(.hidden)") !== null;
+          var title = document.querySelector('[data-group="' + grid.id.replace("grid", "g") + '"]');
+          if (title) title.classList.toggle("hidden", q.length > 0 && !anyVisible);
+        });
+        document.querySelectorAll(".pair-box").forEach(function (box) {
+          box.classList.toggle("hidden", q.length > 0);
+        });
+        resultCount.textContent = q.length > 0 ? ("검색 결과 " + shown + "개") : "";
+        emptyMsg.classList.toggle("show", q.length > 0 && shown === 0);
+      });
+    </script>
+  </body>
+</html>
