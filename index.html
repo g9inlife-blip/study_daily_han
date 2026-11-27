@@ -739,5 +739,25 @@ loadManifest(); renderTrend();
 </script>
 <script src="scripts/english_exam.js"></script>
 <script src="scripts/math_exam.js"></script>
+<script>
+// 수학 탭 표시 fallback: 과목별 스크립트 초기화에 문제가 있어도 패널 전환은 가능하게 함
+(function(){
+  var tabs=document.getElementById('subjectTabs');
+  if(!tabs)return;
+  tabs.addEventListener('click',function(event){
+    var button=event.target.closest('button[data-subject="math"]');
+    if(!button)return;
+    tabs.querySelectorAll('button[data-subject]').forEach(function(tab){
+      tab.classList.remove('on');
+      tab.setAttribute('aria-selected','false');
+    });
+    button.classList.add('on');
+    button.setAttribute('aria-selected','true');
+    document.getElementById('subject-korean').style.display='none';
+    document.getElementById('subject-english').style.display='none';
+    document.getElementById('subject-math').style.display='block';
+  });
+})();
+</script>
 </body>
 </html>
