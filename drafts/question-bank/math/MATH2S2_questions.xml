@@ -29,7 +29,7 @@
 
 <options><option id="A">20</option><option id="B">375</option><option id="C">75</option><option id="D">15</option><option id="E">76</option></options>
 <answer>C</answer>
-<explanation>둘레의 비는 닮음비와 같으므로 작은 둘레에 a를 곱한다.</explanation>
+<explanation>둘레의 비는 닮음비와 같으므로 작은 둘레에 5를 곱한다. 15×5=75 cm이다.</explanation>
 <advancedExplanation>대응하는 모든 길이가 같은 비율로 변하므로 둘레도 닮음비만큼 변한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -49,7 +49,7 @@
 
 <options><option id="A">1:9</option><option id="B">1:3</option><option id="C">3:1</option><option id="D">1:27</option><option id="E">9:1</option></options>
 <answer>A</answer>
-<explanation>넓이의 비는 닮음비의 제곱이므로 1:a²이다.</explanation>
+<explanation>넓이의 비는 닮음비의 제곱이므로 1²:3²=1:9이다.</explanation>
 <advancedExplanation>길이 비가 a배이면 넓이는 두 방향으로 a배씩 변하여 a²배가 된다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -89,7 +89,7 @@
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">9</option><option id="B">6</option><option id="C">3</option><option id="D">7</option><option id="E">5</option></options>
 <answer>B</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이므로 2a cm이다.</explanation>
+<explanation>중점연결 선분은 나머지 한 변의 절반이므로 나머지 한 변은 3×2=6 cm이다.</explanation>
 <advancedExplanation>중점연결정리는 평행성과 길이의 절반 관계를 함께 나타낸다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -119,7 +119,7 @@
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">3</option><option id="B">6</option><option id="C">1</option><option id="D">2</option><option id="E">4</option></options>
 <answer>D</answer>
-<explanation>중점연결 선분은 나머지 한 변의 절반이므로 a cm이다.</explanation>
+<explanation>중점연결 선분은 나머지 한 변의 절반이므로 4÷2=2 cm이다.</explanation>
 <advancedExplanation>중점연결 선분의 길이=밑변의 길이÷2이다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -139,7 +139,7 @@
 <diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">16</option><option id="B">4</option><option id="C">8</option><option id="D">12</option><option id="E">6</option></options>
 <answer>B</answer>
-<explanation>무게중심은 중선을 2:1로 나누므로 GM=AG÷2=a cm이다.</explanation>
+<explanation>무게중심은 중선을 꼭짓점 쪽에서 2:1로 나누므로 GM=8÷2=4 cm이다.</explanation>
 <advancedExplanation>AG:GM=2:1이며 꼭짓점 쪽의 AG가 더 길다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -149,7 +149,7 @@
 <diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">10</option><option id="B">5</option><option id="C">15</option><option id="D">8</option><option id="E">20</option></options>
 <answer>A</answer>
-<explanation>AG는 중선의 2/3이므로 2a cm이다.</explanation>
+<explanation>AG는 중선의 2/3이므로 15×2/3=10 cm이다.</explanation>
 <advancedExplanation>중선은 AG와 GM을 합한 3부분으로 나뉘고 AG는 그중 2부분이다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -159,7 +159,7 @@
 <diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">4</option><option id="B">6</option><option id="C">12</option><option id="D">2</option><option id="E">8</option></options>
 <answer>E</answer>
-<explanation>무게중심은 삼각형의 넓이를 세 부분으로 나누므로 전체의 1/3인 4a cm²이다.</explanation>
+<explanation>무게중심은 삼각형을 넓이가 같은 세 부분으로 나누므로 △GBC의 넓이는 24÷3=8 cm²이다.</explanation>
 <advancedExplanation>세 중선이 만드는 세 삼각형의 넓이는 서로 같다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -169,7 +169,7 @@
 <diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">3</option><option id="B">12</option><option id="C">10</option><option id="D">9</option><option id="E">6</option></options>
 <answer>D</answer>
-<explanation>AG:GM=2:1이므로 AM=2a+a=3a cm이다.</explanation>
+<explanation>AG:GM=2:1이므로 AM=3×3=9 cm이다.</explanation>
 <advancedExplanation>무게중심에서 중점까지가 1부분, 꼭짓점까지가 2부분이다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -189,7 +189,7 @@
 
 <options><option id="A">16</option><option id="B">8</option><option id="C">15</option><option id="D">9</option><option id="E">2</option></options>
 <answer>B</answer>
-<explanation>‘또는’으로 연결된 서로 겹치지 않는 선택은 합의 법칙으로 a+b가지이다.</explanation>
+<explanation>서로 겹치지 않는 선택 중 하나를 고르는 경우이므로 합의 법칙을 적용해 5+3=8가지이다.</explanation>
 <advancedExplanation>합의 법칙은 배반적인 선택 방법의 경우의 수를 더한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -209,7 +209,7 @@
 
 <options><option id="A">5</option><option id="B">10</option><option id="C">21</option><option id="D">9</option><option id="E">20</option></options>
 <answer>E</answer>
-<explanation>대표를 먼저 뽑고 부대표를 뽑으므로 (a+2)(a+1)가지이다.</explanation>
+<explanation>대표를 뽑는 방법은 5가지이고, 그 뒤 남은 4명 중 부대표를 뽑으므로 5×4=20가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
