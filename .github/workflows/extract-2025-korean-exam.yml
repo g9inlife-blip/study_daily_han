@@ -1,0 +1,51 @@
+name: Extract 2025 Korean exam DOCX
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          path: work
+
+      - name: Checkout main for source DOCX
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: source
+          sparse-checkout: |
+            docs/기출문제/2025학년도 2학기 기말고사 2학년 국어 문제.docx
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Extract DOCX text and tables
+        run: |
+          python -m pip install python-docx
+          python work/scripts/extract_exam_docx.py \
+            "source/docs/기출문제/2025학년도 2학기 기말고사 2학년 국어 문제.docx" \
+            "work/docs/기출문제/2025학년도 2학기 기말고사 2학년 국어 문제_추출본.md"
+
+      - name: Commit extracted source text
+        working-directory: work
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "docs/기출문제/2025학년도 2학기 기말고사 2학년 국어 문제_추출본.md"
+          if git diff --cached --quiet; then
+            echo "No extracted text changes."
+          else
+            git commit -m "docs: extract 2025 Korean exam source text"
+            git push origin "HEAD:${{ github.ref_name }}"
+          fi
