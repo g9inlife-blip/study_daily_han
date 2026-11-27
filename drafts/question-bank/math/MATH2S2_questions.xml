@@ -2,11 +2,11 @@
 <examBank schemaVersion="1.0" subject="수학" schoolLevel="중학교" grade="2" semester="2" textbook="천재교육 중학교 수학 2-2" sourcePages="184-249" created="2026-11-27">
 <metadata><mainQuestionCount>120</mainQuestionCount><reserveQuestionCount>30</reserveQuestionCount><stageCount>4</stageCount><questionsPerStage>30</questionsPerStage><multipleChoicePerStage>25</multipleChoicePerStage><shortAnswerPerStage>5</shortAnswerPerStage><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics><scopeNote>Ⅴ-1 도형의 닮음 184-206쪽 전체. 207-218쪽 제외, 219쪽 미확인으로 제외. 220쪽 7-11번 유형, 221쪽 14-15번 유형. Ⅵ 확률 226-249쪽 전체, 249쪽 13-16번 유형. 220쪽 12번 및 221쪽 13·16번 제외.</scopeNote><excludedPages>207-218,219</excludedPages><excludedItems>220쪽 12번;221쪽 13번;221쪽 16번</excludedItems><probabilityPage249>13-16번 유형 포함</probabilityPage249><diagramAssets>assets/math/*.svg</diagramAssets></metadata>
 <questions>
-<question id="MATH2S2-1-001" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-1-001" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">SAS 닮음</option><option id="B">SSS 닮음</option><option id="C">중점연결정리</option><option id="D">확률의 곱셈</option><option id="E">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option></options>
+<options><option id="A">4</option><option id="B">6</option><option id="C">15</option><option id="D">8</option><option id="E">5</option></options>
 <answer>E</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -75,7 +75,7 @@
 <question id="MATH2S2-1-008" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
 <prompt>△ABC에서 DE∥BC이고 AD:DB=2:4, AE=2 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
 <options><option id="A">8</option><option id="B">6</option><option id="C">4</option><option id="D">2</option><option id="E">5</option></options>
 <answer>C</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
@@ -302,11 +302,11 @@
 <advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-2-001" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-2-001" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">SSS 닮음</option><option id="B">중점연결정리</option><option id="C">확률의 곱셈</option><option id="D">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="E">SAS 닮음</option></options>
+<options><option id="A">4</option><option id="B">12</option><option id="C">7</option><option id="D">3</option><option id="E">5</option></options>
 <answer>D</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -375,7 +375,7 @@
 <question id="MATH2S2-2-008" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
 <prompt>△ABC에서 DE∥BC이고 AD:DB=3:6, AE=3 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
 <options><option id="A">9</option><option id="B">6</option><option id="C">3</option><option id="D">7</option><option id="E">18</option></options>
 <answer>B</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
@@ -602,11 +602,11 @@
 <advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-3-001" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-3-001" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>【조건을 분석하여 판단】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">중점연결정리</option><option id="B">확률의 곱셈</option><option id="C">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="D">SAS 닮음</option><option id="E">SSS 닮음</option></options>
+<options><option id="A">25</option><option id="B">10</option><option id="C">5</option><option id="D">6</option><option id="E">7</option></options>
 <answer>C</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -675,8 +675,8 @@
 <question id="MATH2S2-3-008" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
 <prompt>【조건을 분석하여 판단】 △ABC에서 DE∥BC이고 AD:DB=4:4, AE=4 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">4</option><option id="B">5</option><option id="C">6</option><option id="D">16</option><option id="E">8</option></options>
+<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
+<options><option id="A">4</option><option id="B">6</option><option id="C">5</option><option id="D">16</option><option id="E">8</option></options>
 <answer>A</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
@@ -902,11 +902,11 @@
 <advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-001" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-001" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>【종합 응용】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">확률의 곱셈</option><option id="B">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="C">SAS 닮음</option><option id="D">SSS 닮음</option><option id="E">중점연결정리</option></options>
+<options><option id="A">7</option><option id="B">3</option><option id="C">5</option><option id="D">4</option><option id="E">6</option></options>
 <answer>B</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -975,7 +975,7 @@
 <question id="MATH2S2-4-008" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
 <prompt>【종합 응용】 △ABC에서 DE∥BC이고 AD:DB=5:6, AE=5 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
 <options><option id="A">5</option><option id="B">7</option><option id="C">30</option><option id="D">11</option><option id="E">6</option></options>
 <answer>E</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
@@ -1202,11 +1202,11 @@
 <advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-R-001" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-R-001" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="B">SAS 닮음</option><option id="C">SSS 닮음</option><option id="D">중점연결정리</option><option id="E">확률의 곱셈</option></options>
+<options><option id="A">5</option><option id="B">4</option><option id="C">6</option><option id="D">15</option><option id="E">8</option></options>
 <answer>A</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -1275,8 +1275,8 @@
 <question id="MATH2S2-R-008" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선과 선분의 비</concept>
 <prompt>△ABC에서 DE∥BC이고 AD:DB=2:4, AE=2 cm일 때 EC는?</prompt>
-<diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">7</option><option id="B">30</option><option id="C">11</option><option id="D">6</option><option id="E">5</option></options>
+<diagram src="assets/math/triangle_ratio.svg" alt="평행선과 선분의 비"/>
+<options><option id="A">5</option><option id="B">8</option><option id="C">6</option><option id="D">4</option><option id="E">2</option></options>
 <answer>D</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
