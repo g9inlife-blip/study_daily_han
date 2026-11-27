@@ -1581,8 +1581,8 @@ A beautiful _____ landed on the flower.</prompt>
   </question>
   <question id="ENG2S2-1-027" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문법 변형</concept>
-<prompt>They started the festival in 2021. (현재완료로 바꾸고 since를 사용)</prompt>
-<answer>They have started the festival since 2021.</answer>
+<prompt>They celebrate the festival every year. (현재완료로 바꾸고 since 2021을 사용)</prompt>
+<answer>They have celebrated the festival since 2021.</answer>
 <explanation>since와 현재완료를 사용해 과거부터 현재까지 연결한다.</explanation>
 <advancedExplanation>정답은 have + 과거분사 형태 및 since 2021을 포함해야 한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
