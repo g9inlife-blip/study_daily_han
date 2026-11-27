@@ -23,7 +23,7 @@
 <question id="MATH2S2-1-003" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>닮음비와 넓이</concept>
 <prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 2:3이고 작은 도형의 넓이가 32 cm²이다. 큰 도형의 넓이는?</prompt>
-<options><option id="A">24 cm²</option><option id="B">78 cm²</option><option id="C">24 cm²</option><option id="D">72 cm²</option><option id="E">48 cm²</option></options>
+<options><option id="A">54 cm²</option><option id="B">78 cm²</option><option id="C">60 cm²</option><option id="D">72 cm²</option><option id="E">36 cm²</option></options>
 <answer>D</answer>
 <explanation>넓이의 비는 닮음비의 제곱이므로 2²:3²=4:9이다. 큰 넓이는 32×9/4=72 cm²이다.</explanation>
 <advancedExplanation>길이비를 넓이비로 그대로 사용하면 48 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 72 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -122,7 +122,7 @@
 <question id="MATH2S2-1-014" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선으로 나뉜 선분의 비</concept>
 <prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=4 cm, DB=6 cm, AE=8 cm이다. EC를 구하시오.</prompt>
-<options><option id="A">20 cm</option><option id="B">15 cm</option><option id="C">10 cm</option><option id="D">12 cm</option><option id="E">5.33 cm</option></options>
+<options><option id="A">14 cm</option><option id="B">20 cm</option><option id="C">15 cm</option><option id="D">12 cm</option><option id="E">17 cm</option></options>
 <answer>D</answer>
 <explanation>AD:DB=AE:EC이므로 4:6=8:EC. EC=8×6/4=12 cm이다.</explanation>
 <advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 12 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -140,7 +140,7 @@
 <question id="MATH2S2-1-016" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중선과 무게중심</concept>
 <prompt>△ABC의 중선 AM=12 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
-<options><option id="A">6 cm</option><option id="B">4 cm</option><option id="C">8 cm</option><option id="D">6 cm</option><option id="E">24 cm</option></options>
+<options><option id="A">8 cm</option><option id="B">4 cm</option><option id="C">7 cm</option><option id="D">24 cm</option><option id="E">6 cm</option></options>
 <answer>B</answer>
 <explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=12/3=4 cm이다.</explanation>
 <advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 4 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -194,7 +194,7 @@
 <question id="MATH2S2-1-022" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>순서가 있는 두 직책</concept>
 <prompt>학생 7명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
-<options><option id="A">49가지</option><option id="B">6가지</option><option id="C">42가지</option><option id="D">49가지</option><option id="E">21가지</option></options>
+<options><option id="A">49가지</option><option id="B">21가지</option><option id="C">42가지</option><option id="D">44가지</option><option id="E">6가지</option></options>
 <answer>C</answer>
 <explanation>회장은 7명 중 선택하고, 부회장은 남은 6명 중 선택한다. 7×6=42가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 7C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 42가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -203,7 +203,7 @@
 <question id="MATH2S2-1-023" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>숫자 카드로 두 자리 수 만들기</concept>
 <prompt>숫자 카드 0부터 4까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
-<options><option id="A">20개</option><option id="B">8개</option><option id="C">21개</option><option id="D">4개</option><option id="E">16개</option></options>
+<options><option id="A">24가지</option><option id="B">6가지</option><option id="C">15가지</option><option id="D">10가지</option><option id="E">16개</option></options>
 <answer>E</answer>
 <explanation>십의 자리에는 0을 제외한 4개, 일의 자리에는 이미 쓴 숫자를 제외한 4개를 놓을 수 있다. 4×4=16개이다.</explanation>
 <advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 16개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -221,7 +221,7 @@
 <question id="MATH2S2-1-025" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>두 주사위의 합의 확률</concept>
 <prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 7일 확률은?</prompt>
-<options><option id="A">7/36</option><option id="B">1/6</option><option id="C">12/36</option><option id="D">6/36</option><option id="E">7/36</option></options>
+<options><option id="A">8/36</option><option id="B">7/36</option><option id="C">1/12</option><option id="D">6/36</option><option id="E">12/36</option></options>
 <answer>D</answer>
 <explanation>전체 경우는 6×6=36가지이다. 합이 7이 되는 순서쌍은 6가지이므로 확률은 6/36이다.</explanation>
 <advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 6/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -288,7 +288,7 @@
 <question id="MATH2S2-2-003" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>닮음비와 넓이</concept>
 <prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 3:4이고 작은 도형의 넓이가 45 cm²이다. 큰 도형의 넓이는?</prompt>
-<options><option id="A">92 cm²</option><option id="B">20 cm²</option><option id="C">80 cm²</option><option id="D">60 cm²</option><option id="E">20 cm²</option></options>
+<options><option id="A">60 cm²</option><option id="B">86 cm²</option><option id="C">80 cm²</option><option id="D">68 cm²</option><option id="E">40 cm²</option></options>
 <answer>C</answer>
 <explanation>넓이의 비는 닮음비의 제곱이므로 3²:4²=9:16이다. 큰 넓이는 45×16/9=80 cm²이다.</explanation>
 <advancedExplanation>길이비를 넓이비로 그대로 사용하면 60 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 80 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -387,7 +387,7 @@
 <question id="MATH2S2-2-014" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선으로 나뉜 선분의 비</concept>
 <prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=5 cm, DB=5 cm, AE=10 cm이다. EC를 구하시오.</prompt>
-<options><option id="A">13 cm</option><option id="B">10 cm</option><option id="C">10 cm</option><option id="D">10 cm</option><option id="E">20 cm</option></options>
+<options><option id="A">12 cm</option><option id="B">10 cm</option><option id="C">20 cm</option><option id="D">13 cm</option><option id="E">17 cm</option></options>
 <answer>B</answer>
 <explanation>AD:DB=AE:EC이므로 5:5=10:EC. EC=10×5/5=10 cm이다.</explanation>
 <advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 10 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -405,7 +405,7 @@
 <question id="MATH2S2-2-016" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중선과 무게중심</concept>
 <prompt>△ABC의 중선 AM=15 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
-<options><option id="A">5 cm</option><option id="B">10 cm</option><option id="C">7.5 cm</option><option id="D">30 cm</option><option id="E">7 cm</option></options>
+<options><option id="A">5 cm</option><option id="B">10 cm</option><option id="C">8.5 cm</option><option id="D">30 cm</option><option id="E">7 cm</option></options>
 <answer>A</answer>
 <explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=15/3=5 cm이다.</explanation>
 <advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 5 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -459,7 +459,7 @@
 <question id="MATH2S2-2-022" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>순서가 있는 두 직책</concept>
 <prompt>학생 8명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
-<options><option id="A">7가지</option><option id="B">56가지</option><option id="C">64가지</option><option id="D">28가지</option><option id="E">64가지</option></options>
+<options><option id="A">64가지</option><option id="B">56가지</option><option id="C">28가지</option><option id="D">58가지</option><option id="E">7가지</option></options>
 <answer>B</answer>
 <explanation>회장은 8명 중 선택하고, 부회장은 남은 7명 중 선택한다. 8×7=56가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 8C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 56가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -468,7 +468,7 @@
 <question id="MATH2S2-2-023" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>숫자 카드로 두 자리 수 만들기</concept>
 <prompt>숫자 카드 0부터 5까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
-<options><option id="A">10개</option><option id="B">31개</option><option id="C">5개</option><option id="D">25개</option><option id="E">30개</option></options>
+<options><option id="A">120가지</option><option id="B">24가지</option><option id="C">51가지</option><option id="D">25개</option><option id="E">46가지</option></options>
 <answer>D</answer>
 <explanation>십의 자리에는 0을 제외한 5개, 일의 자리에는 이미 쓴 숫자를 제외한 5개를 놓을 수 있다. 5×5=25개이다.</explanation>
 <advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 25개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -486,7 +486,7 @@
 <question id="MATH2S2-2-025" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>두 주사위의 합의 확률</concept>
 <prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 8일 확률은?</prompt>
-<options><option id="A">1/6</option><option id="B">10/36</option><option id="C">5/36</option><option id="D">6/36</option><option id="E">8/36</option></options>
+<options><option id="A">7/36</option><option id="B">8/36</option><option id="C">5/36</option><option id="D">1/12</option><option id="E">10/36</option></options>
 <answer>C</answer>
 <explanation>전체 경우는 6×6=36가지이다. 합이 8이 되는 순서쌍은 5가지이므로 확률은 5/36이다.</explanation>
 <advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 5/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -553,7 +553,7 @@
 <question id="MATH2S2-3-003" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>닮음비와 넓이</concept>
 <prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 2:5이고 작은 도형의 넓이가 24 cm²이다. 큰 도형의 넓이는?</prompt>
-<options><option id="A">30 cm²</option><option id="B">150 cm²</option><option id="C">60 cm²</option><option id="D">30 cm²</option><option id="E">160 cm²</option></options>
+<options><option id="A">112.5 cm²</option><option id="B">150 cm²</option><option id="C">156 cm²</option><option id="D">138 cm²</option><option id="E">75 cm²</option></options>
 <answer>B</answer>
 <explanation>넓이의 비는 닮음비의 제곱이므로 2²:5²=4:25이다. 큰 넓이는 24×25/4=150 cm²이다.</explanation>
 <advancedExplanation>길이비를 넓이비로 그대로 사용하면 60 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 150 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -652,7 +652,7 @@
 <question id="MATH2S2-3-014" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선으로 나뉜 선분의 비</concept>
 <prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=6 cm, DB=9 cm, AE=12 cm이다. EC를 구하시오.</prompt>
-<options><option id="A">15 cm</option><option id="B">18 cm</option><option id="C">8 cm</option><option id="D">30 cm</option><option id="E">21 cm</option></options>
+<options><option id="A">20 cm</option><option id="B">18 cm</option><option id="C">30 cm</option><option id="D">21 cm</option><option id="E">22 cm</option></options>
 <answer>B</answer>
 <explanation>AD:DB=AE:EC이므로 6:9=12:EC. EC=12×9/6=18 cm이다.</explanation>
 <advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 18 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -670,7 +670,7 @@
 <question id="MATH2S2-3-016" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중선과 무게중심</concept>
 <prompt>△ABC의 중선 AM=18 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
-<options><option id="A">12 cm</option><option id="B">9 cm</option><option id="C">36 cm</option><option id="D">8 cm</option><option id="E">6 cm</option></options>
+<options><option id="A">12 cm</option><option id="B">10 cm</option><option id="C">36 cm</option><option id="D">8 cm</option><option id="E">6 cm</option></options>
 <answer>E</answer>
 <explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=18/3=6 cm이다.</explanation>
 <advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 6 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -724,7 +724,7 @@
 <question id="MATH2S2-3-022" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>순서가 있는 두 직책</concept>
 <prompt>학생 9명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
-<options><option id="A">72가지</option><option id="B">81가지</option><option id="C">36가지</option><option id="D">81가지</option><option id="E">8가지</option></options>
+<options><option id="A">72가지</option><option id="B">81가지</option><option id="C">36가지</option><option id="D">74가지</option><option id="E">8가지</option></options>
 <answer>A</answer>
 <explanation>회장은 9명 중 선택하고, 부회장은 남은 8명 중 선택한다. 9×8=72가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 9C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 72가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -733,7 +733,7 @@
 <question id="MATH2S2-3-023" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>숫자 카드로 두 자리 수 만들기</concept>
 <prompt>숫자 카드 0부터 6까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
-<options><option id="A">43개</option><option id="B">6개</option><option id="C">36개</option><option id="D">42개</option><option id="E">12개</option></options>
+<options><option id="A">720가지</option><option id="B">120가지</option><option id="C">36개</option><option id="D">243가지</option><option id="E">238가지</option></options>
 <answer>C</answer>
 <explanation>십의 자리에는 0을 제외한 6개, 일의 자리에는 이미 쓴 숫자를 제외한 6개를 놓을 수 있다. 6×6=36개이다.</explanation>
 <advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 36개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -751,7 +751,7 @@
 <question id="MATH2S2-3-025" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>두 주사위의 합의 확률</concept>
 <prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 9일 확률은?</prompt>
-<options><option id="A">8/36</option><option id="B">4/36</option><option id="C">5/36</option><option id="D">9/36</option><option id="E">1/6</option></options>
+<options><option id="A">6/36</option><option id="B">4/36</option><option id="C">9/36</option><option id="D">1/12</option><option id="E">8/36</option></options>
 <answer>B</answer>
 <explanation>전체 경우는 6×6=36가지이다. 합이 9이 되는 순서쌍은 4가지이므로 확률은 4/36이다.</explanation>
 <advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 4/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -818,7 +818,7 @@
 <question id="MATH2S2-4-003" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>닮음비와 넓이</concept>
 <prompt>두 닮은 도형의 닮음비(작은 도형:큰 도형)가 4:7이고 작은 도형의 넓이가 64 cm²이다. 큰 도형의 넓이는?</prompt>
-<options><option id="A">196 cm²</option><option id="B">112 cm²</option><option id="C">28 cm²</option><option id="D">224 cm²</option><option id="E">28 cm²</option></options>
+<options><option id="A">196 cm²</option><option id="B">147 cm²</option><option id="C">202 cm²</option><option id="D">184 cm²</option><option id="E">98 cm²</option></options>
 <answer>A</answer>
 <explanation>넓이의 비는 닮음비의 제곱이므로 4²:7²=16:49이다. 큰 넓이는 64×49/16=196 cm²이다.</explanation>
 <advancedExplanation>길이비를 넓이비로 그대로 사용하면 112 cm²가 된다. 넓이는 두 방향의 길이 변화가 반영되어 제곱비가 된다. 오답 점검: 정답은 196 cm²이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -917,7 +917,7 @@
 <question id="MATH2S2-4-014" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>평행선으로 나뉜 선분의 비</concept>
 <prompt>△ABC에서 D는 AB 위, E는 AC 위에 있고 DE∥BC이다. AD=7 cm, DB=8 cm, AE=14 cm이다. EC를 구하시오.</prompt>
-<options><option id="A">16 cm</option><option id="B">12.25 cm</option><option id="C">30 cm</option><option id="D">19 cm</option><option id="E">15 cm</option></options>
+<options><option id="A">16 cm</option><option id="B">18 cm</option><option id="C">30 cm</option><option id="D">19 cm</option><option id="E">22 cm</option></options>
 <answer>A</answer>
 <explanation>AD:DB=AE:EC이므로 7:8=14:EC. EC=14×8/7=16 cm이다.</explanation>
 <advancedExplanation>AD와 DB는 AB를 나누는 두 부분이다. AD:AB가 아니라 AD:DB를 주었으므로 EC를 대응시키는 비례식을 사용한다. 오답 점검: 정답은 16 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -935,7 +935,7 @@
 <question id="MATH2S2-4-016" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="200-206" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중선과 무게중심</concept>
 <prompt>△ABC의 중선 AM=21 cm이고 G는 무게중심이다. 중점 M과 무게중심 G 사이의 거리 GM은?</prompt>
-<options><option id="A">10.5 cm</option><option id="B">42 cm</option><option id="C">9 cm</option><option id="D">7 cm</option><option id="E">14 cm</option></options>
+<options><option id="A">14 cm</option><option id="B">11.5 cm</option><option id="C">42 cm</option><option id="D">7 cm</option><option id="E">9 cm</option></options>
 <answer>D</answer>
 <explanation>AG:GM=2:1이므로 중선 AM은 3등분된다. GM=21/3=7 cm이다.</explanation>
 <advancedExplanation>AG를 구할 때는 중선의 2/3, GM을 구할 때는 1/3을 사용한다. 오답 점검: 정답은 7 cm이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -989,7 +989,7 @@
 <question id="MATH2S2-4-022" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>순서가 있는 두 직책</concept>
 <prompt>학생 10명 중 회장 1명과 부회장 1명을 뽑는다. 한 사람이 두 직책을 맡지 않을 때 뽑는 방법은?</prompt>
-<options><option id="A">100가지</option><option id="B">45가지</option><option id="C">100가지</option><option id="D">9가지</option><option id="E">90가지</option></options>
+<options><option id="A">100가지</option><option id="B">45가지</option><option id="C">92가지</option><option id="D">9가지</option><option id="E">90가지</option></options>
 <answer>E</answer>
 <explanation>회장은 10명 중 선택하고, 부회장은 남은 9명 중 선택한다. 10×9=90가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하다. 두 사람을 단순히 조합으로 뽑아 10C2로 계산하면 회장·부회장 역할의 구분을 놓친다. 오답 점검: 정답은 90가지이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -998,7 +998,7 @@
 <question id="MATH2S2-4-023" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="226-231" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>숫자 카드로 두 자리 수 만들기</concept>
 <prompt>숫자 카드 0부터 7까지가 한 장씩 있다. 서로 다른 카드 두 장을 사용해 두 자리 자연수를 만들 때 가능한 수의 개수는?</prompt>
-<options><option id="A">7개</option><option id="B">49개</option><option id="C">56개</option><option id="D">14개</option><option id="E">57개</option></options>
+<options><option id="A">5040가지</option><option id="B">49개</option><option id="C">720가지</option><option id="D">1443가지</option><option id="E">1438가지</option></options>
 <answer>B</answer>
 <explanation>십의 자리에는 0을 제외한 7개, 일의 자리에는 이미 쓴 숫자를 제외한 7개를 놓을 수 있다. 7×7=49개이다.</explanation>
 <advancedExplanation>십의 자리에 0을 놓을 수 없고, 두 자리에 같은 숫자를 사용할 수 없다. 두 조건을 각각 반영한다. 오답 점검: 정답은 49개이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
@@ -1016,7 +1016,7 @@
 <question id="MATH2S2-4-025" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ 확률" scopePages="238-241" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>두 주사위의 합의 확률</concept>
 <prompt>서로 다른 두 개의 공정한 주사위를 동시에 던진다. 두 눈의 합이 10일 확률은?</prompt>
-<options><option id="A">3/36</option><option id="B">4/36</option><option id="C">10/36</option><option id="D">1/6</option><option id="E">6/36</option></options>
+<options><option id="A">3/36</option><option id="B">5/36</option><option id="C">10/36</option><option id="D">1/12</option><option id="E">6/36</option></options>
 <answer>A</answer>
 <explanation>전체 경우는 6×6=36가지이다. 합이 10이 되는 순서쌍은 3가지이므로 확률은 3/36이다.</explanation>
 <advancedExplanation>두 주사위는 구별되므로 (1,6)과 (6,1)은 서로 다른 경우다. 순서쌍을 빠뜨리지 않고 센다. 오답 점검: 정답은 3/36이다. 선택지의 수치가 달라지는 이유를 비교하고, 길이비·넓이비·전체 경우의 수·유리한 경우의 수 중 무엇을 사용해야 하는지 확인한다.</advancedExplanation>
