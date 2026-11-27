@@ -3,5 +3,5 @@
 <path d="M210 145 L55 205 L365 205 Z" fill="#e9a23b" opacity=".35"/>
 <g stroke="#243b66" stroke-width="3" fill="none"><path d="M210 25 L55 205 L365 205 Z"/><path d="M210 25 L210 205"/></g>
 <circle cx="210" cy="145" r="5" fill="#c34b35"/>
-<g font-family="Arial,sans-serif" font-size="18" fill="#172b4d"><text x="200" y="18">A</text><text x="38" y="225">B</text><text x="370" y="225">C</text><text x="220" y="143">G</text><text x="210" y="240" text-anchor="middle">△GBC</text></g>
+<g font-family="Arial,sans-serif" font-size="18" fill="#172b4d"><text x="200" y="18">A</text><text x="38" y="225">B</text><text x="370" y="225">C</text><text x="220" y="143">G</text></g>
 </svg>
