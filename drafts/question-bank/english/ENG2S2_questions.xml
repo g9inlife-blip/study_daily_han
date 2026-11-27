@@ -1601,19 +1601,19 @@ The traveler _____ his key, so he cannot open the door.</prompt>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-1-029" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>문법 고치기</concept>
-<prompt>Do you know where does the parade take place?에서 틀린 부분을 고쳐 쓰시오.</prompt>
-<answer>Do you know where the parade takes place?</answer>
-<explanation>간접의문문은 의문사 뒤에 주어+동사 어순을 쓴다.</explanation>
-<advancedExplanation>where does the parade take place → where the parade takes place</advancedExplanation>
+<concept>현재완료의 계속 용법</concept>
+<prompt>They live here. (현재완료로 바꾸고 since 2021을 사용)</prompt>
+<answer>They have lived here since 2021.</answer>
+<explanation>since 2021은 시작 시점을 나타내므로 현재완료의 계속 용법을 쓴다.</explanation>
+<advancedExplanation>since 2021은 시작 시점을 나타내므로 현재완료의 계속 용법을 쓴다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-1-030" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>문장 완성</concept>
-<prompt>The road was closed _____ the heavy fog. because / because of 중 알맞은 표현을 쓰시오.</prompt>
-<answer>because of</answer>
-<explanation>뒤에 명사구 the heavy fog가 있으므로 because of를 쓴다.</explanation>
-<advancedExplanation>because of + 명사구</advancedExplanation>
+<concept>형용사의 위치</concept>
+<prompt>The child is _____. (asleep을 사용하여 완성)</prompt>
+<answer>asleep</answer>
+<explanation>asleep은 be동사 뒤에서 상태를 나타내는 형용사로 쓰인다.</explanation>
+<advancedExplanation>asleep은 be동사 뒤에서 상태를 나타내는 형용사로 쓰인다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-2-026" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 어휘" scopePages="118-135" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
@@ -1641,19 +1641,19 @@ The traveler _____ his key, so he cannot open the door.</prompt>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-2-029" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>간접의문문</concept>
-<prompt>Can you tell me what time _____? (the parade / start) 올바른 어순으로 완성하시오.</prompt>
-<answer>the parade starts</answer>
-<explanation>간접의문문은 의문사구 뒤에 주어+동사 어순을 쓴다.</explanation>
-<advancedExplanation>the parade starts</advancedExplanation>
+<concept>현재완료의 경험 용법</concept>
+<prompt>I (never / see) a dinosaur. 현재완료 문장으로 완성하시오.</prompt>
+<answer>I have never seen a dinosaur.</answer>
+<explanation>never와 have + 과거분사 seen을 사용해 지금까지의 경험을 나타낸다.</explanation>
+<advancedExplanation>never와 have + 과거분사 seen을 사용해 지금까지의 경험을 나타낸다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-2-030" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>because / because of</concept>
-<prompt>We stayed home _____ it was raining. because / because of 중 알맞은 표현을 쓰시오.</prompt>
-<answer>because</answer>
-<explanation>뒤에 it was raining이라는 절이 오므로 because를 쓴다.</explanation>
-<advancedExplanation>because</advancedExplanation>
+<concept>명사 앞에만 쓰는 형용사</concept>
+<prompt>This is the _____ reason. (main을 사용하여 완성)</prompt>
+<answer>main</answer>
+<explanation>main은 명사 reason 앞에서 수식하는 형용사이다.</explanation>
+<advancedExplanation>main은 명사 reason 앞에서 수식하는 형용사이다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-3-026" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
@@ -1681,19 +1681,19 @@ The traveler _____ his key, so he cannot open the door.</prompt>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-3-029" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>간접의문문</concept>
-<prompt>I wonder _____ the traveler went. (where / 직접의문문 어순으로 쓰지 말 것)</prompt>
-<answer>where the traveler went</answer>
-<explanation>의문사 where 뒤에 주어 the traveler, 동사 went 순서로 쓴다.</explanation>
-<advancedExplanation>where the traveler went</advancedExplanation>
+<concept>명사 뒤에서 수식하는 형용사</concept>
+<prompt>The people _____ were asked to wait. (present를 사용)</prompt>
+<answer>present</answer>
+<explanation>present는 ‘참석한’이라는 뜻으로 people 뒤에서 수식할 수 있다.</explanation>
+<advancedExplanation>present는 ‘참석한’이라는 뜻으로 people 뒤에서 수식할 수 있다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-3-030" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>문장 완성</concept>
-<prompt>The traveler was late _____ the fog. because / because of 중 알맞은 표현을 쓰시오.</prompt>
-<answer>because of</answer>
-<explanation>the fog는 명사구이므로 because of를 쓴다.</explanation>
-<advancedExplanation>because of</advancedExplanation>
+<concept>현재완료의 경험 용법</concept>
+<prompt>I (never / see) a dinosaur. 현재완료 문장으로 완성하시오.</prompt>
+<answer>I have never seen a dinosaur.</answer>
+<explanation>현재완료 have + 과거분사 seen과 never를 사용한다.</explanation>
+<advancedExplanation>현재완료 have + 과거분사 seen과 never를 사용한다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-4-026" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
@@ -1721,19 +1721,19 @@ The traveler _____ his key, so he cannot open the door.</prompt>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-4-029" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>간접의문문</concept>
-<prompt>Do you know _____ the museum is open? (if / whether 중 하나)</prompt>
-<answer>if</answer>
-<explanation>if 또는 whether가 ‘~인지 아닌지’를 이끄는 간접의문문을 만들 수 있다.</explanation>
-<advancedExplanation>if 또는 whether 모두 인정</advancedExplanation>
+<concept>형용사의 위치</concept>
+<prompt>The baby is _____. (asleep을 사용하여 완성)</prompt>
+<answer>asleep</answer>
+<explanation>asleep은 be동사 뒤에서 상태를 나타낸다.</explanation>
+<advancedExplanation>asleep은 be동사 뒤에서 상태를 나타낸다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-4-030" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>because / because of</concept>
-<prompt>‘짙은 안개 때문에’에 해당하는 영어 표현을 쓰시오.</prompt>
-<answer>because of the thick fog</answer>
-<explanation>because of 뒤에 명사구 the thick fog가 온다.</explanation>
-<advancedExplanation>because of the thick fog</advancedExplanation>
+<concept>현재완료의 계속 용법</concept>
+<prompt>We (know) her since 2020. 알맞게 완성하시오.</prompt>
+<answer>We have known her since 2020.</answer>
+<explanation>since 2020은 시작 시점이며 현재까지 알고 지낸다는 뜻이므로 have known을 쓴다.</explanation>
+<advancedExplanation>since 2020은 시작 시점이며 현재까지 알고 지낸다는 뜻이므로 have known을 쓴다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-R-001" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
@@ -2135,11 +2135,11 @@ We had time to _____ the old town.</prompt>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-R-027" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>간접의문문</concept>
-<prompt>Do you know where _____? (the traveler / live)</prompt>
-<answer>the traveler lives</answer>
-<explanation>간접의문문은 의문사 뒤에 주어+동사 어순을 쓴다.</explanation>
-<advancedExplanation>the traveler lives</advancedExplanation>
+<concept>현재완료의 경험 용법</concept>
+<prompt>I (never / see) a dinosaur. 현재완료 문장으로 완성하시오.</prompt>
+<answer>I have never seen a dinosaur.</answer>
+<explanation>현재완료 have + 과거분사 seen을 사용한다.</explanation>
+<advancedExplanation>현재완료 have + 과거분사 seen을 사용한다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-R-028" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 어휘" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
@@ -2151,11 +2151,11 @@ We had time to _____ the old town.</prompt>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-R-029" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>because</concept>
-<prompt>The road was wet _____ it had rained. 알맞은 표현을 쓰시오.</prompt>
-<answer>because</answer>
-<explanation>뒤에 it had rained라는 절이 온다.</explanation>
-<advancedExplanation>because</advancedExplanation>
+<concept>명사 뒤에서 수식하는 형용사</concept>
+<prompt>The people _____ were invited. (present를 사용하여 완성)</prompt>
+<answer>present</answer>
+<explanation>present는 ‘참석한’이라는 뜻으로 people 뒤에서 수식할 수 있다.</explanation>
+<advancedExplanation>present는 ‘참석한’이라는 뜻으로 people 뒤에서 수식할 수 있다. 문장의 의미와 형태를 함께 확인한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
   <question id="ENG2S2-R-030" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
