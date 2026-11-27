@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230"><rect width="420" height="230" fill="white"/><g stroke="#243b66" stroke-width="3" fill="none"><path d="M55 195 L190 25 L365 195 Z"/><path d="M122.5 110 L277.5 110"/></g><g font-family="Arial,sans-serif" font-size="18" fill="#172b4d"><text x="42" y="215">A</text><text x="186" y="20">B</text><text x="370" y="215">C</text><text x="105" y="104">D</text><text x="282" y="104">E</text><text x="155" y="135">DE ∥ AC</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 270">
+<rect width="440" height="270" fill="white"/>
+<g stroke="#243b66" stroke-width="3" fill="none" stroke-linejoin="round">
+<path d="M55 220 L220 25 L385 220 Z"/>
+<path d="M137.5 122.5 L302.5 122.5"/>
+</g>
+<g stroke="#c34b35" stroke-width="3">
+<path d="M91 173 l10 8 M110 151 l10 8 M320 151 l-10 8 M339 173 l-10 8"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="18" fill="#172b4d">
+<text x="42" y="243">A</text><text x="215" y="19">B</text><text x="390" y="243">C</text>
+<text x="116" y="119">D</text><text x="307" y="119">E</text>
+<text x="220" y="110" text-anchor="middle">DE</text>
+<text x="220" y="250" text-anchor="middle">AC (밑변)</text>
+<text x="220" y="266" text-anchor="middle" font-size="13">D, E는 각각 AB, BC의 중점 · DE ∥ AC</text>
+</g>
+</svg>
