@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>역사 시험 단기 암기 3장</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@700;900&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f4f1ea;
+        --paper: #fffdf8;
+        --ink: #1d2129;
+        --ink-soft: #4a4f58;
+        --line: #ddd5c4;
+        --line-strong: #b9ae94;
+        --red: #d92b2b;
+        --red-soft: #fdecec;
+        --hl: #ffe45e;
+        --hl-ink: #1d2129;
+        --accent: #14532d;
+        --accent-soft: #e7f2e9;
+        --blue: #1d4ed8;
+        --blue-soft: #e8eefc;
+        --chip: #efe9da;
+        --shadow: 0 2px 10px rgba(60, 50, 20, .10);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #17181c;
+          --paper: #212228;
+          --ink: #ece9e2;
+          --ink-soft: #b7b3a8;
+          --line: #3a3b42;
+          --line-strong: #55565e;
+          --red: #ff6b6b;
+          --red-soft: #3d2226;
+          --hl: #f5d90a;
+          --hl-ink: #191a05;
+          --accent: #7fce9b;
+          --accent-soft: #22352a;
+          --blue: #93b4ff;
+          --blue-soft: #26314d;
+          --chip: #2c2d33;
+          --shadow: 0 2px 10px rgba(0,0,0,.4);
+        }
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Noto Sans KR", -apple-system, "Malgun Gothic", sans-serif;
+        font-size: 15px;
+        line-height: 1.55;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      /* ── 상단 바 ─────────────────────────── */
+      .topbar {
+        position: sticky; top: 0; z-index: 50;
+        background: var(--paper);
+        border-bottom: 2px solid var(--ink);
+        padding: 10px 14px;
+      }
+      .topbar-in { max-width: 860px; margin: 0 auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+      .topbar .brand { font-family: "Noto Serif KR", serif; font-weight: 900; font-size: 17px; margin-right: auto; letter-spacing: -.02em; }
+      .topbar .brand small { display: block; font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 11px; color: var(--ink-soft); letter-spacing: 0; }
+      .tabs { display: flex; gap: 6px; }
+      .tab {
+        min-height: 40px; padding: 8px 16px;
+        border: 2px solid var(--ink); border-radius: 999px;
+        background: transparent; color: var(--ink);
+        font: inherit; font-weight: 700; font-size: 14px; cursor: pointer;
+      }
+      .tab[aria-selected="true"] { background: var(--ink); color: var(--paper); }
+      .print-hint {
+        font-size: 12.5px; font-weight: 700; color: var(--red);
+        border: 1.5px dashed var(--red); border-radius: 999px; padding: 7px 12px;
+      }
+      .legend {
+        max-width: 860px; margin: 10px auto 0; padding: 0 14px;
+        display: flex; flex-wrap: wrap; gap: 6px 14px;
+        font-size: 12.5px; color: var(--ink-soft);
+      }
+      .legend b { color: var(--ink); }
+
+      main { max-width: 860px; margin: 0 auto; padding: 14px 12px 40px; }
+
+      /* ── 시트(장) ─────────────────────────── */
+      .sheet {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        box-shadow: var(--shadow);
+        padding: 22px 20px 26px;
+        margin-bottom: 22px;
+      }
+      .sheet[hidden] { display: none; }
+      .sheet-head { display: flex; align-items: flex-start; gap: 12px; border-bottom: 3px double var(--line-strong); padding-bottom: 12px; margin-bottom: 16px; }
+      .sheet-no {
+        flex: none; width: 52px; height: 52px; border-radius: 8px;
+        background: var(--ink); color: var(--paper);
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+        font-weight: 900; line-height: 1.05;
+      }
+      .sheet-no .n { font-size: 22px; }
+      .sheet-no .u { font-size: 11px; font-weight: 700; }
+      .sheet-head h2 { margin: 0; font-family: "Noto Serif KR", serif; font-size: 21px; font-weight: 900; letter-spacing: -.02em; line-height: 1.3; }
+      .sheet-head .pages { margin-top: 4px; font-size: 12.5px; color: var(--ink-soft); font-weight: 500; }
+
+      h3.sec {
+        margin: 20px 0 8px; font-size: 16.5px; font-weight: 900;
+        display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+      }
+      h3.sec:first-of-type { margin-top: 4px; }
+      h3.sec .pg { font-size: 12px; font-weight: 700; color: var(--ink-soft); background: var(--chip); border-radius: 4px; padding: 2px 7px; }
+      h4.sub { margin: 14px 0 5px; font-size: 14.5px; font-weight: 900; }
+
+      p { margin: 6px 0; }
+      ul { margin: 5px 0 8px; padding-left: 18px; }
+      li { margin: 3px 0; }
+      .yr { font-weight: 900; white-space: nowrap; }
+      .kw { font-weight: 700; }
+
+      /* 형광펜 · 출제 표시 */
+      .hl { background: var(--hl); color: var(--hl-ink); padding: 0 3px; border-radius: 2px; font-weight: 700; }
+      .star {
+        display: inline-block; vertical-align: 1px;
+        background: var(--red); color: #fff;
+        font-size: 11px; font-weight: 900;
+        border-radius: 4px; padding: 1px 6px; margin-right: 5px; white-space: nowrap;
+      }
+      .star::before { content: "★ "; }
+      .exam {
+        background: var(--red-soft); border: 1px dashed var(--red);
+        border-radius: 8px; padding: 9px 12px; margin: 10px 0; font-size: 14px;
+      }
+      .exam .t { font-weight: 900; color: var(--red); font-size: 12.5px; letter-spacing: .02em; }
+      .defbox {
+        background: var(--accent-soft); border-radius: 8px;
+        padding: 11px 14px; margin: 8px 0; font-size: 15px;
+      }
+      .defbox .t { font-weight: 900; color: var(--accent); font-size: 12.5px; display: block; margin-bottom: 2px; }
+      .note { font-size: 13px; color: var(--ink-soft); }
+
+      /* 표 */
+      .tblwrap { overflow-x: auto; margin: 8px 0 12px; }
+      table { border-collapse: collapse; width: 100%; font-size: 13.8px; }
+      th, td { border: 1px solid var(--line); padding: 6px 9px; text-align: left; vertical-align: top; }
+      th { background: var(--chip); font-weight: 900; white-space: nowrap; }
+      td.c, th.c { text-align: center; }
+      table.vs th:first-child { width: 22%; }
+
+      /* 연표 */
+      .timeline { list-style: none; margin: 8px 0 12px; padding: 0; }
+      .timeline li {
+        display: flex; gap: 10px; align-items: baseline;
+        padding: 5px 0; border-bottom: 1px dotted var(--line-strong);
+      }
+      .timeline li:last-child { border-bottom: none; }
+      .timeline .y {
+        flex: none; width: 74px; text-align: right;
+        font-weight: 900; font-size: 15px;
+      }
+      .timeline .e { flex: 1; }
+      .timeline .arrow { color: var(--ink-soft); font-weight: 900; }
+
+      /* 흐름 화살표 */
+      .flow { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 8px 0; font-size: 13.5px; }
+      .flow .step { background: var(--blue-soft); border-radius: 6px; padding: 4px 9px; font-weight: 700; }
+      .flow .arr { color: var(--blue); font-weight: 900; }
+
+      /* 마지막 체크 */
+      .checklist { list-style: none; margin: 8px 0; padding: 0; }
+      .checklist li {
+        display: flex; gap: 9px; align-items: flex-start;
+        padding: 6px 0; border-bottom: 1px dotted var(--line-strong); font-size: 14.5px;
+      }
+      .checklist li:last-child { border-bottom: none; }
+      .checklist .box {
+        flex: none; width: 19px; height: 19px; margin-top: 2px;
+        border: 2px solid var(--ink-soft); border-radius: 4px;
+      }
+
+      .foot { text-align: center; font-size: 12px; color: var(--ink-soft); padding: 4px 0 10px; }
+
+      @media (max-width: 560px) {
+        body { font-size: 14.5px; }
+        .sheet { padding: 16px 13px 20px; }
+        .sheet-head h2 { font-size: 18.5px; }
+        .timeline .y { width: 62px; font-size: 14px; }
+        .topbar .brand { font-size: 15px; }
+        .tab { padding: 8px 12px; }
+      }
+
+      /* ── 인쇄: A4 3장 ─────────────────────────── */
+      @page { size: A4; margin: 11mm 10mm; }
+      @media print {
+        :root {
+          --bg: #fff; --paper: #fff; --ink: #16181d; --ink-soft: #44484f;
+          --line: #cfc8b8; --line-strong: #a89e86;
+          --red: #c81e1e; --red-soft: #fdecec;
+          --accent: #14532d; --accent-soft: #e9f4ec;
+          --blue: #1d4ed8; --blue-soft: #e8eefc; --chip: #f0ebdd;
+          --shadow: none;
+        }
+        body { background: #fff; font-size: 12.3px; line-height: 1.45; }
+        .topbar, .legend, .foot { display: none !important; }
+        main { max-width: none; padding: 0; }
+        .sheet {
+          display: block !important;
+          border: none; border-radius: 0; box-shadow: none;
+          padding: 0; margin: 0;
+          break-after: page; page-break-after: always;
+        }
+        .sheet:last-child { break-after: auto; page-break-after: auto; }
+        .sheet-head h2 { font-size: 19px; }
+        h3.sec { font-size: 14.5px; margin-top: 13px; }
+        table { font-size: 11.8px; }
+        th, td { padding: 4px 6px; }
+        .exam, .defbox { break-inside: avoid; }
+        tr, li { break-inside: avoid; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-in">
+        <div class="brand">역사 시험 단기 암기<small>비상교육 중학교 역사 ① · 범위 163-165, 177-208, 216-222쪽</small></div>
+        <nav class="tabs" role="tablist" aria-label="장 이동">
+          <button class="tab" role="tab" data-sheet="s1" aria-selected="true">1장</button>
+          <button class="tab" role="tab" data-sheet="s2" aria-selected="false">2장</button>
+          <button class="tab" role="tab" data-sheet="s3" aria-selected="false">3장</button>
+        </nav>
+        <span class="print-hint">인쇄하면 A4 3장으로 나뉩니다</span>
+      </div>
+    </header>
+    <div class="legend" aria-hidden="true">
+      <span><span class="star">시험 출제</span> 표시 = 시험에 나올 만한 핵심</span>
+      <span><span class="hl">노란 형광펜</span> = 꼭 외울 문장·숫자</span>
+      <span><b>굵은 숫자</b> = 연도, 순서 문제 대비</span>
+    </div>
+
+    <main>
+      <!-- ════════════ 1장 ════════════ -->
+      <section class="sheet" id="s1" role="tabpanel" aria-label="1장 제국주의와 조선">
+        <div class="sheet-head">
+          <div class="sheet-no"><span class="n">1</span><span class="u">장</span></div>
+          <div>
+            <h2>제국주의의 등장과 조선의 국민 국가 건설 운동</h2>
+            <div class="pages">교과서 163-165쪽 · 177-178쪽</div>
+          </div>
+        </div>
+
+        <h3 class="sec">제국주의가 등장하다 <span class="pg">163-165쪽</span></h3>
+
+        <div class="defbox">
+          <span class="t">정의 — 그대로 외우기</span>
+          <span class="star">시험 출제</span><span class="hl">19세기 후반</span>, 산업화·자본주의가 발전한 서양 열강이 값싼 <span class="hl">원료 공급지</span>, <span class="hl">상품 판매 시장</span>, 남아도는 <span class="hl">자본의 투자처</span>를 확보하려고 <span class="hl">군사력을 앞세워 약소국을 식민지로 삼은 팽창 정책</span>
+        </div>
+
+        <h4 class="sub">침략을 정당화한 논리 3개</h4>
+        <table class="vs">
+          <tr><th>논리</th><th>내용</th></tr>
+          <tr><td class="kw">사회 진화론</td><td>적자생존 논리를 인간 사회에 적용 — <span class="hl">강한 나라가 약한 나라를 지배하는 것은 당연</span></td></tr>
+          <tr><td class="kw">백인 우월 인종주의</td><td>백인이 다른 인종보다 우월하다는 생각</td></tr>
+          <tr><td class="kw">백인의 짐</td><td>키플링의 시 — 아시아·아프리카를 <span class="hl">'문명화'하는 것이 백인의 의무·은혜</span>라는 명분</td></tr>
+        </table>
+
+        <h4 class="sub">아프리카 침탈 — 영국 vs 프랑스</h4>
+        <table class="vs">
+          <tr><th></th><th>영국</th><th>프랑스</th></tr>
+          <tr><th>정책</th><td><span class="kw">종단 정책</span> — 카이로~케이프타운, 남북 연결</td><td><span class="kw">횡단 정책</span> — 알제리~마다가스카르, 동서 연결</td></tr>
+          <tr><th>충돌</th><td colspan="2"><span class="star">시험 출제</span>두 정책이 부딪힌 사건 = <span class="hl">파쇼다 사건 (<span class="yr">1898</span>)</span></td></tr>
+        </table>
+        <ul>
+          <li><span class="star">시험 출제</span><span class="yr">1884</span> <span class="hl">베를린 회의</span>에서 아프리카 분할 합의 → 식민지 획득 경쟁 격화</li>
+          <li>뒤늦게 뛰어든 <span class="kw">독일</span>은 <span class="kw">모로코</span>를 둘러싸고 프랑스와 대립</li>
+          <li>독립을 유지한 나라 단 2곳: <span class="hl">라이베리아 · 에티오피아</span></li>
+        </ul>
+
+        <h4 class="sub">아시아·태평양 침탈</h4>
+        <table class="vs">
+          <tr><th>나라</th><th>지배 방식·지역</th></tr>
+          <tr><td class="kw">영국</td><td>인도 — 동인도 회사를 세워 지배하다가 19세기 후반부터 <span class="hl">총독을 보내 직접 통치</span></td></tr>
+          <tr><td class="kw">프랑스</td><td>베트남·캄보디아 등 <span class="kw">인도차이나</span>반도 점령</td></tr>
+          <tr><td class="kw">네덜란드</td><td><span class="kw">인도네시아</span> 대부분을 식민지로</td></tr>
+          <tr><td class="kw">중국</td><td>영토가 넓고 인구가 많아 열강이 진출해 <span class="hl">여러 이권을 빼앗고 정치에 간섭</span></td></tr>
+          <tr><td class="kw">미국</td><td><span class="kw">하와이 병합</span>, <span class="kw">필리핀·괌</span> 차지 (영국은 오스트레일리아·뉴질랜드, 독일은 마셜·캐롤라인 제도)</td></tr>
+        </table>
+        <p class="note">한국사 나란히 보기 — 조선에도 열강의 접근 계속: <span class="yr">1866</span> 프랑스 침략, <span class="yr">1871</span> 미국 침략 (통상 요구)</p>
+
+        <h3 class="sec">조선에서 국민 국가 건설 운동이 일어나다 <span class="pg">177-178쪽</span></h3>
+
+        <h4 class="sub">조선 연표 — 순서 문제 단골</h4>
+        <ol class="timeline">
+          <li><span class="y">1876</span><span class="e"><span class="kw">강화도 조약</span> — 운요호 사건 계기, 부산 포함 3곳 개항</span></li>
+          <li><span class="y">1884</span><span class="e"><span class="kw">갑신정변</span> — 김옥균 등 급진 개화파</span></li>
+          <li><span class="y">1894</span><span class="e"><span class="kw">동학 농민 운동</span> — 전봉준, 탐관오리 횡포와 외국 세력 침입에 저항</span></li>
+          <li><span class="y">1894</span><span class="e"><span class="kw">갑오개혁</span> — 김홍집 중심, 신분제·과거제 폐지</span></li>
+          <li><span class="y">1896</span><span class="e"><span class="kw">아관파천</span> — 고종, 러시아 공사관으로 피신 · <span class="kw">독립 협회 설립</span></span></li>
+          <li><span class="y">1897</span><span class="e"><span class="kw">대한 제국 수립</span> — 고종 황제 즉위</span></li>
+          <li><span class="y">1905</span><span class="e"><span class="kw">을사늑약</span> — 외교권 빼앗김</span></li>
+          <li><span class="y">1910</span><span class="e"><span class="kw">강제 병합</span> — 식민지가 됨</span></li>
+        </ol>
+
+        <div class="exam">
+          <span class="t">★ 출제 포인트</span><br />
+          강화도 조약(<span class="yr">1876</span>) = <span class="hl">조선이 외국과 맺은 최초의 근대식 조약</span>이자 <span class="hl">불평등 조약</span>. 이 두 성격이 한 세트로 나온다.
+        </div>
+
+        <h4 class="sub">독립 협회 vs 대한 제국</h4>
+        <table class="vs">
+          <tr><th></th><th>독립 협회 (<span class="yr">1896</span>)</th><th>대한 제국 (<span class="yr">1897</span>)</th></tr>
+          <tr><th>주도·성격</th><td>서재필 + 개화파 관료</td><td>고종이 황제에 올라 선포</td></tr>
+          <tr><th>활동·개혁</th><td><span class="kw">독립신문</span> 발간, <span class="kw">독립문</span> 건립, <span class="kw">만민 공동회</span>, <span class="hl">의회 설립 주장</span></td><td><span class="kw">군사 제도 개혁</span>, <span class="kw">근대적 교육 시설</span> 설립</td></tr>
+        </table>
+
+        <h4 class="sub">국권 수호 운동 2갈래</h4>
+        <table class="vs">
+          <tr><th>운동</th><th>내용</th></tr>
+          <tr><td class="kw">의병 운동</td><td><span class="hl">을사늑약 이후 전국적</span>으로 활발 → 일본 탄압으로 <span class="kw">만주·연해주</span>로 이동해 독립군으로 활약</td></tr>
+          <tr><td class="kw">애국 계몽 운동</td><td>지식인·관료층 — 민족의 <span class="kw">실력을 길러</span> 국권 회복 주장, <span class="hl">학교 설립, 신문·잡지 발간</span></td></tr>
+        </table>
+      </section>
+
+      <!-- ════════════ 2장 ════════════ -->
+      <section class="sheet" id="s2" role="tabpanel" aria-label="2장 세계 대전과 평화 유지 노력" hidden>
+        <div class="sheet-head">
+          <div class="sheet-no"><span class="n">2</span><span class="u">장</span></div>
+          <div>
+            <h2>세계 대전과 국제 질서의 변화 · 전쟁 범죄에 맞선 평화 유지 노력</h2>
+            <div class="pages">교과서 185-194쪽 · 195쪽(융합) · 197-205쪽</div>
+          </div>
+        </div>
+
+        <h3 class="sec">제1차 세계 대전 <span class="pg">185-188쪽</span></h3>
+        <table class="vs">
+          <tr><th>대립 구도</th><td><span class="star">시험 출제</span><span class="hl">3국 동맹 (<span class="yr">1882</span>)</span> 독일·오스트리아-헝가리·이탈리아 <b>vs</b> <span class="hl">3국 협상 (<span class="yr">1907</span>)</span> 영국·프랑스·러시아</td></tr>
+          <tr><th>불씨</th><td>발칸반도 — 범게르만주의(오스트리아-헝가리) vs 범슬라브주의(세르비아 등) 대립</td></tr>
+          <tr><th>발발</th><td><span class="star">시험 출제</span><span class="hl">사라예보 사건 (<span class="yr">1914</span>)</span> — 황태자 부부 암살 → 오스트리아-헝가리가 세르비아에 선전포고 → 동맹 따라 전 유럽 확산</td></tr>
+        </table>
+        <h4 class="sub">전개 연표</h4>
+        <ol class="timeline">
+          <li><span class="y">1914</span><span class="e"><span class="kw">마른 전투</span> — 독일 진격 저지, 이후 4년간 참호전</span></li>
+          <li><span class="y">1915</span><span class="e"><span class="kw">루시타니아호 침몰</span> — 독일 무제한 잠수함 작전, 미국인 사망 → 미국 여론 악화</span></li>
+          <li><span class="y">1916</span><span class="e"><span class="kw">베르됭 전투</span> — <span class="hl">30만 명 사망</span>, '군인의 공동묘지'</span></li>
+          <li><span class="y">1918</span><span class="e">동맹국 잇단 항복, 독일 새 정부 항복 → 종전</span></li>
+        </ol>
+        <p>전쟁의 모습 변화 3가지: <span class="hl">참호전 · 신무기 등장 · 총력전</span>(민간인도 전쟁에 참여)</p>
+        <div class="exam">
+          <span class="t">★ 출제 포인트</span><br />
+          베르사유 체제 — 파리 강화 회의(<span class="yr">1919</span>), 윌슨의 <span class="kw">14개조</span> 평화 원칙, 독일에 전쟁 책임·군비 축소·막대한 배상금. 국제 연맹 창설(<span class="yr">1920</span>)의 한계 = <span class="hl">미국 등 강대국 불참 + 분쟁을 막을 군사적 수단 없음</span>
+        </div>
+
+        <h3 class="sec">유럽 각국의 정치 체제 변화 <span class="pg">189-190쪽</span></h3>
+        <h4 class="sub">러시아 혁명 — 교과서 표기 그대로!</h4>
+        <div class="flow">
+          <span class="step">피의 일요일 <b>1905</b></span><span class="arr">→</span>
+          <span class="step"><span class="hl">3월 혁명</span> 1917 — 차르 몰아내고 임시 정부</span><span class="arr">→</span>
+          <span class="step"><span class="hl">11월 혁명</span> 1917 — 레닌·볼셰비키, 소비에트 정부</span><span class="arr">→</span>
+          <span class="step">소련 수립 <b>1922</b></span>
+        </div>
+        <ul>
+          <li><span class="kw">소비에트</span> = 노동자·군인들의 의회(대의원 회의) / <span class="kw">볼셰비키</span> = 러시아 사회주의 노동당의 급진파</li>
+          <li>스탈린 — 농업 집산화 + 중공업 중심 <span class="hl">경제 개발 5개년 계획</span>, 공산당 독재 강화</li>
+          <li>독일 — <span class="kw">바이마르 공화국</span>(<span class="yr">1919</span>), 바이마르 헌법이 노동자 권리·여성 참정권 보장</li>
+        </ul>
+        <h4 class="sub">여성 참정권 획득 시기 표</h4>
+        <div class="tblwrap"><table>
+          <tr><th class="c">1893</th><th class="c">1918</th><th class="c">1919</th><th class="c">1920</th><th class="c">1928</th><th class="c">1945</th><th class="c">1946</th></tr>
+          <tr><td class="c">뉴질랜드</td><td class="c">영국<br />(30세 이상)</td><td class="c">독일</td><td class="c">미국</td><td class="c">영국<br />(21세 이상)</td><td class="c">이탈리아·일본</td><td class="c">프랑스</td></tr>
+        </table></div>
+        <p class="note">영국의 여성 참정권 운동 집단 = <span class="kw">서프러제트</span>, 지도자 <span class="kw">팽크허스트</span> (청원·연설·집회·단식 투쟁)</p>
+
+        <h3 class="sec">대공황과 제2차 세계 대전 <span class="pg">191-194쪽</span></h3>
+        <div class="flow">
+          <span class="step"><span class="hl">대공황 1929</span> 뉴욕 주가 폭락</span><span class="arr">→</span>
+          <span class="step">실업·사회 불안</span><span class="arr">→</span>
+          <span class="step">전체주의 집권</span><span class="arr">→</span>
+          <span class="step">군비 증강·침략</span><span class="arr">→</span>
+          <span class="step"><span class="hl">2차 대전 1939</span></span>
+        </div>
+        <ul>
+          <li>미국 대응 = <span class="star">시험 출제</span><span class="hl">뉴딜 정책</span> (루스벨트) — 정부가 경제에 적극 개입, 생산량 조절·대규모 공공 사업</li>
+          <li>영국·프랑스 대응 = <span class="kw">보호 무역</span> — 식민지에 상품 판매, 수입품에 높은 관세</li>
+        </ul>
+        <table class="vs">
+          <tr><th>전체주의</th><th>지도자·특징</th></tr>
+          <tr><td>이탈리아 — <span class="kw">파시즘</span></td><td><span class="hl">무솔리니, <span class="yr">1922</span> 정권 장악</span>, 다른 정당 활동 금지</td></tr>
+          <tr><td>독일 — <span class="kw">나치즘</span></td><td>히틀러 — 독일 민족 우수성 강조, 유대인 탄압 인종주의</td></tr>
+          <tr><td>일본 — <span class="kw">군국주의</span></td><td>대공황 이후 군부 세력이 권력 장악</td></tr>
+        </table>
+        <p>침략 행보: 일본 중일 전쟁(<span class="yr">1937</span>~<span class="yr">1945</span>) · 이탈리아 에티오피아 침략 · 독일 오스트리아 병합, 체코슬로바키아 점령</p>
+        <h4 class="sub">제2차 세계 대전 연표</h4>
+        <ol class="timeline">
+          <li><span class="y">1939</span><span class="e"><span class="star">시험 출제</span><span class="hl">독일, 폴란드 침공</span> → 2차 대전 발발 (앞서 소련과 독소 불가침 조약)</span></li>
+          <li><span class="y">1941</span><span class="e">일본 <span class="kw">진주만</span> 기습 → 미국 참전, 아시아·태평양 전쟁 시작 / 독일, 조약 어기고 소련 공격</span></li>
+          <li><span class="y">1942</span><span class="e"><span class="kw">미드웨이 해전</span> — 미국이 일본 격파 (태평양 전선 전환점)</span></li>
+          <li><span class="y">1943</span><span class="e"><span class="kw">스탈린그라드 전투</span> — 소련이 독일에 승리 (유럽 전선 전환점)</span></li>
+          <li><span class="y">1944</span><span class="e"><span class="kw">노르망디 상륙 작전</span> — 파리 해방</span></li>
+          <li><span class="y">1945.5</span><span class="e"><span class="hl">독일 항복</span></span></li>
+          <li><span class="y">1945.8</span><span class="e"><span class="hl">일본 무조건 항복</span> (원자 폭탄 투하)</span></li>
+          <li><span class="y">1945.10</span><span class="e"><span class="hl">국제 연합(UN) 창설</span></span></li>
+        </ol>
+        <p class="note">195쪽 융합 — 페니실린: <span class="yr">1928</span> 플레밍 발견, 1940년대 대량 생산돼 부상자 치료 / 핵무기: 원자 폭탄 개발 → 히로시마·나가사키 투하</p>
+
+        <h3 class="sec">전쟁 범죄에 맞선 평화 유지 노력 <span class="pg">197-205쪽</span></h3>
+        <h4 class="sub">전쟁 범죄 — 숫자 3개 세트</h4>
+        <table class="vs">
+          <tr><th>범죄</th><th>내용</th></tr>
+          <tr><td>2차 대전 전체</td><td>민간인 포함 <span class="hl">약 5,000만 명 사망</span></td></tr>
+          <tr><td>난징 대학살 (<span class="yr">1937</span>)</td><td>일본군, 포로·여성·아이 포함 민간인 학살 — <span class="hl">약 30만 명</span></td></tr>
+          <tr><td>홀로코스트</td><td>나치스의 유대인 학살 — <span class="hl">약 600만 명</span></td></tr>
+          <tr><td>일본군 '위안부'</td><td>한국·중국·필리핀·인도네시아 등에서 <span class="hl">수만 명</span>의 여성 강제 동원</td></tr>
+        </table>
+        <p class="note">증언 자료 — 일본군 '위안부' 공개 증언 <span class="kw">김학순</span>(<span class="yr">1991</span>), 홀로코스트 생존자 엘리 위젤의 소설 <span class="kw">『밤』</span></p>
+
+        <h4 class="sub">전후 처리 회담 — 순서대로</h4>
+        <ol class="timeline">
+          <li><span class="y">1941</span><span class="e"><span class="kw">대서양 헌장</span> — 미국·영국, 전후 평화 원칙</span></li>
+          <li><span class="y">1943</span><span class="e"><span class="star">시험 출제</span><span class="kw">카이로 회담</span> — <span class="hl">한국의 독립</span>과 일본의 무조건 항복 논의</span></li>
+          <li><span class="y">1945</span><span class="e"><span class="kw">얄타 회담</span> — 독일 분할 점령, 소련의 대일 참전 결정</span></li>
+          <li><span class="y">1945</span><span class="e"><span class="kw">포츠담 회담</span> — 전후 처리 문제 결정</span></li>
+        </ol>
+
+        <h4 class="sub">국제 연합(UN) — 국제 연맹과 비교 출제</h4>
+        <table class="vs">
+          <tr><th></th><th>국제 연맹 (<span class="yr">1920</span>)</th><th>국제 연합 (<span class="yr">1945</span>)</th></tr>
+          <tr><th>강대국</th><td>미국 등 불참</td><td><span class="hl">미국·소련 등 강대국 참여</span></td></tr>
+          <tr><th>분쟁 해결</th><td>군사적 수단 없음</td><td><span class="hl">군사적 수단 동원 가능</span></td></tr>
+        </table>
+        <ul>
+          <li>UN 기구: 총회 · 안전 보장 이사회 · 국제 사법 재판소 · 사무국 · UNESCO · WHO</li>
+          <li>안전 보장 이사회 상임 이사국: <span class="hl">미국 · 소련 · 영국 · 중국 · 프랑스</span></li>
+        </ul>
+
+        <h4 class="sub">전범 재판과 평화 노력</h4>
+        <table class="vs">
+          <tr><th>재판</th><th>결과</th></tr>
+          <tr><td>뉘른베르크 재판</td><td>독일 전범 <span class="hl">12명 사형</span></td></tr>
+          <tr><td>도쿄 극동 국제 군사 재판</td><td>일본 전범 <span class="hl">7명 사형</span></td></tr>
+          <tr><td>처벌의 한계</td><td><span class="star">시험 출제</span>일본 <span class="hl">천황은 처벌받지 않았고</span>, 생체 실험을 한 <span class="hl">731부대 책임자도 재판받지 않음</span></td></tr>
+        </table>
+        <ul>
+          <li>평화를 위한 약속: 제노바 회의(<span class="yr">1922</span>) · 로카르노 조약(<span class="yr">1925</span>) · <span class="kw">켈로그-브리앙 조약</span>(<span class="yr">1928</span>, 전쟁을 불법으로 규정)</li>
+          <li>반성의 상징: 서독 총리 <span class="kw">브란트</span>, <span class="yr">1970</span>년대 유대인 위령탑 앞에서 <span class="hl">무릎 꿇고 사죄</span></li>
+        </ul>
+      </section>
+
+      <!-- ════════════ 3장 ════════════ -->
+      <section class="sheet" id="s3" role="tabpanel" aria-label="3장 민족 운동과 냉전" hidden>
+        <div class="sheet-head">
+          <div class="sheet-no"><span class="n">3</span><span class="u">장</span></div>
+          <div>
+            <h2>아시아의 민족 운동 · 냉전 체제와 제3 세계의 형성</h2>
+            <div class="pages">교과서 207-208쪽 · 216-222쪽</div>
+          </div>
+        </div>
+
+        <h3 class="sec">동아시아의 민족 운동 <span class="pg">207-208쪽</span></h3>
+        <h4 class="sub">한국 — 3·1 운동</h4>
+        <ul>
+          <li><span class="star">시험 출제</span><span class="hl"><span class="yr">1919</span>년 3월 1일</span>, 경성(서울) <span class="kw">탑골 공원</span>에서 독립 선언서 낭독, '대한 독립 만세'</li>
+          <li>평양 등 주요 도시로 번지고, 만주·연해주·일본·미국 등 <span class="kw">해외로 확산</span></li>
+          <li>이후 중국 상하이에 <span class="hl">대한민국 임시 정부</span> 수립</li>
+          <li>3·1 운동은 중국의 5·4 운동 등 다른 나라 민족 운동에도 영향</li>
+        </ul>
+        <table class="vs">
+          <tr><th>진영</th><th>운동 방향</th></tr>
+          <tr><td>민족주의 진영</td><td>경제적·문화적으로 민족의 힘을 키우는 <span class="hl">실력 양성 운동</span></td></tr>
+          <tr><td>사회주의 진영</td><td>농민·노동자 중심의 <span class="hl">사회 운동</span></td></tr>
+        </table>
+
+        <h4 class="sub">중국 — 5·4 운동과 국공 합작</h4>
+        <ul>
+          <li>1차 대전 중 일본이 강요한 <span class="kw">21개조 요구</span>를 중국 정부가 받아들임</li>
+          <li><span class="star">시험 출제</span><span class="hl">5·4 운동 (<span class="yr">1919</span>)</span> — 파리 강화 회의에서 21개조 무효 주장이 받아들여지지 않자, 베이징 학생들이 <span class="kw">산둥반도 이권 반환</span> 등을 요구</li>
+        </ul>
+        <div class="flow">
+          <span class="step">제1차 국공 합작 — 쑨원의 국민당 + 공산당 (군벌·열강 타도)</span><span class="arr">→</span>
+          <span class="step">장제스, 공산당 탄압 → 합작 붕괴</span><span class="arr">→</span>
+          <span class="step">중국 통일 <b>1928</b></span><span class="arr">→</span>
+          <span class="step">제2차 국공 합작 — 중일 전쟁에 맞서 재연합</span>
+        </div>
+        <p class="note">중일 전쟁 시작 — <span class="yr">1937</span>년 7월 7일 <span class="kw">루거우차오</span> 사건</p>
+
+        <h3 class="sec">냉전 체제가 형성되다 <span class="pg">216-219쪽</span></h3>
+        <p class="note">도입(216쪽) — 우주 경쟁: 소련 인공위성 <span class="kw">스푸트니크</span>(<span class="yr">1957</span>) → 미국 NASA 설립 → 아폴로, 달 착륙 성공(<span class="yr">1969</span>)</p>
+        <div class="defbox">
+          <span class="t">냉전이란</span>
+          직접적인 무력 충돌보다는 <span class="hl">정치·군사·외교 등에서 경쟁과 대립</span>을 유지하던 상황 — 미국 중심 자본주의 vs 소련 중심 공산주의
+        </div>
+        <table class="vs">
+          <tr><th>분야</th><th>미국 진영</th><th>소련 진영</th></tr>
+          <tr><th>선언·이념</th><td><span class="hl">트루먼 독트린 (<span class="yr">1947</span>)</span> — 공산주의 확산 저지 선언</td><td>코민포름 (공산당 정보국)</td></tr>
+          <tr><th>경제</th><td><span class="hl">마셜 계획</span> — <span class="yr">1948</span>~<span class="yr">1951</span>, <span class="hl">130억 달러를 16개국</span>에 원조</td><td><span class="hl">코메콘</span> (경제 상호 원조 회의)</td></tr>
+          <tr><th>군사</th><td><span class="hl">NATO (<span class="yr">1949</span>)</span> 북대서양 조약 기구</td><td><span class="hl">바르샤바 조약 기구</span></td></tr>
+        </table>
+        <h4 class="sub">냉전의 심화 연표</h4>
+        <ol class="timeline">
+          <li><span class="y">1948-49</span><span class="e"><span class="kw">베를린 봉쇄</span> — 소련, 베를린 육로를 약 1년간 봉쇄 → 독일 분단 (서독·동독)</span></li>
+          <li><span class="y">1949</span><span class="e">국공 내전 끝에 마오쩌둥, <span class="kw">중화 인민 공화국</span> 수립</span></li>
+          <li><span class="y">1950</span><span class="e"><span class="star">시험 출제</span><span class="hl">6·25 전쟁</span> — 북한의 남침, 동아시아 냉전 심화</span></li>
+          <li><span class="y">1961</span><span class="e"><span class="kw">베를린 장벽</span> 세워짐</span></li>
+          <li><span class="y">1962</span><span class="e"><span class="kw">쿠바 미사일 위기</span> — 소련 미사일 철수로 핵전쟁 위기 해소</span></li>
+          <li><span class="y">1964-75</span><span class="e"><span class="kw">베트남 전쟁</span> — 북베트남 승리, <span class="yr">1975</span> 베트남 통일</span></li>
+        </ol>
+
+        <h3 class="sec">제3 세계가 나타나다 <span class="pg">220-221쪽</span></h3>
+        <h4 class="sub">독립 물결</h4>
+        <ol class="timeline">
+          <li><span class="y">1947</span><span class="e"><span class="kw">인도</span> 독립 (영국 식민지에서)</span></li>
+          <li><span class="y">1948</span><span class="e"><span class="kw">이스라엘</span> 수립</span></li>
+          <li><span class="y">1951</span><span class="e"><span class="kw">리비아</span> 독립 — 아프리카 독립의 시작</span></li>
+          <li><span class="y">1952</span><span class="e">이집트 <span class="kw">나세르</span>, 왕정 몰아내고 공화정 수립</span></li>
+          <li><span class="y">1956</span><span class="e">나세르, <span class="kw">수에즈 운하 국유화</span> 선언 — 운영권 회수</span></li>
+          <li><span class="y">1960</span><span class="e"><span class="star">시험 출제</span><span class="hl">'아프리카의 해'</span> — 17개국 독립</span></li>
+        </ol>
+        <div class="defbox">
+          <span class="t">제3 세계 — 정의</span>
+          자본주의 진영(<span class="kw">제1 세계</span>)이나 공산주의 진영(<span class="kw">제2 세계</span>) 중 <span class="hl">어느 쪽에도 속하지 않는 비동맹주의</span>를 내세운 국가들
+        </div>
+        <table class="vs">
+          <tr><th>원칙</th><th>내용</th></tr>
+          <tr><td><span class="hl">평화 5원칙</span> (<span class="yr">1955</span>)</td><td><span class="kw">인도와 중국의 대표</span>가 합의 — 상호 불가침·평화 공존 등</td></tr>
+          <tr><td><span class="hl">평화 10원칙</span> (<span class="yr">1955</span>)</td><td><span class="kw">반둥 회의</span> — 아시아·아프리카 <span class="hl">29개국</span> 대표, 분쟁의 평화적 해결·상호 존중</td></tr>
+        </table>
+        <p>제3 세계 국가들은 <span class="yr">1961</span>년부터 정기적으로 회의를 열어 개발 도상국의 이익·권리를 지키며 냉전 체제에 변화를 줌</p>
+
+        <h3 class="sec">국제 질서가 변화하다 <span class="pg">222쪽</span></h3>
+        <ul>
+          <li>양극 체제 → <span class="hl">다극 체제</span>: 중소 갈등으로 소련 영향력 약화, 프랑스의 NATO 탈퇴·독자 노선, 미국의 베트남 전쟁 고전</li>
+          <li><span class="kw">닉슨 독트린</span>(<span class="yr">1969</span>) — 미국, 아시아 전쟁에 군사 개입 회피 선언</li>
+          <li>미·중 접근: <span class="kw">탁구 외교</span>(<span class="yr">1971</span>) → 닉슨 방중(<span class="yr">1972</span>) → <span class="hl">미·중 외교 관계 수립(<span class="yr">1979</span>)</span></li>
+          <li>미·소: 전략 무기 제한 협정(<span class="kw">SALT</span>) <span class="hl">두 차례</span> 체결</li>
+          <li>중국·서독, <span class="kw">UN 동시 가입</span>(<span class="yr">1973</span>)</li>
+          <li>한국사 나란히 보기: <span class="hl">7·4 남북 공동 성명</span>(<span class="yr">1972</span>)</li>
+        </ul>
+
+        <h3 class="sec">헷갈리는 쌍 — 마지막 구분</h3>
+        <div class="tblwrap"><table class="vs">
+          <tr><th>쌍</th><th>구분 포인트</th></tr>
+          <tr><td>갑신정변 vs 갑오개혁</td><td>갑신 = 김옥균 급진 개화파의 정변(<span class="yr">1884</span>) / 갑오 = 김홍집 중심 새 정부의 개혁(<span class="yr">1894</span>, 신분제·과거제 폐지)</td></tr>
+          <tr><td>3월 혁명 vs 11월 혁명</td><td>3월 = 차르 몰아내고 임시 정부 / 11월 = 레닌·볼셰비키가 소비에트 정부 수립 <span class="hl">(교과서 표기! 2월·10월 아님)</span></td></tr>
+          <tr><td>국제 연맹 vs UN</td><td>연맹 = 미국 불참·군사적 수단 없음 / UN = 강대국 참여·군사적 수단 가능</td></tr>
+          <tr><td>마셜 계획 vs 코메콘</td><td>마셜 = 미국이 서유럽에 경제 원조(130억 달러·16개국) / 코메콘 = 소련 진영 경제 상호 원조</td></tr>
+          <tr><td>NATO vs 바르샤바 조약 기구</td><td>NATO = 서방 군사 동맹(<span class="yr">1949</span>) / 바르샤바 = 소련 진영 군사 동맹</td></tr>
+          <tr><td>평화 5원칙 vs 평화 10원칙</td><td>5원칙 = <span class="yr">1955</span> 인도·중국 합의 / 10원칙 = 반둥 회의 29개국 발표</td></tr>
+          <tr><td>제1차 vs 제2차 국공 합작</td><td>1차 = 군벌·열강 타도(쑨원) / 2차 = 중일 전쟁에 맞선 항일 연합</td></tr>
+          <tr><td>사회 진화론 vs 백인의 짐</td><td>사회 진화론 = 적자생존 논리 / 백인의 짐 = 문명화 사명 — 둘 다 침략 정당화 논리</td></tr>
+          <tr><td>종단 정책 vs 횡단 정책</td><td>종단 = 영국, 카이로~케이프타운 남북 / 횡단 = 프랑스, 알제리~마다가스카르 동서 → 파쇼다에서 충돌</td></tr>
+        </table></div>
+
+        <h3 class="sec">마지막 체크 — 시험 직전 자가 점검</h3>
+        <ul class="checklist">
+          <li><span class="box"></span><span>제국주의 정의(원료·시장·자본 투자처 + 군사력 + 식민지)를 한 문장으로 말할 수 있다</span></li>
+          <li><span class="box"></span><span>조선 연표 1876 → 1884 → 1894 → 1896 → 1897 → 1905 → 1910을 순서대로 쓸 수 있다</span></li>
+          <li><span class="box"></span><span>러시아 혁명을 <b>3월 혁명 / 11월 혁명</b>으로 답한다 (2월·10월로 쓰면 오답)</span></li>
+          <li><span class="box"></span><span>숫자 세트: 난징 약 30만 · 홀로코스트 약 600만 · 2차 대전 약 5,000만 / 뉘른베르크 12명 · 도쿄 7명 사형</span></li>
+          <li><span class="box"></span><span>회담 순서: 대서양 헌장(1941) → 카이로(1943, 한국 독립) → 얄타(1945) → 포츠담(1945)</span></li>
+          <li><span class="box"></span><span>냉전 짝짓기: 마셜↔코메콘, NATO(1949)↔바르샤바, 평화 5원칙(인도·중국)↔평화 10원칙(반둥 29개국)</span></li>
+          <li><span class="box"></span><span>제3 세계 = 제1·제2 세계 어느 쪽에도 속하지 않는 비동맹주의 국가들이라고 설명할 수 있다</span></li>
+        </ul>
+      </section>
+    </main>
+
+    <p class="foot">비상교육 중학교 역사 ① 교과서 범위(163-165, 177-208, 216-222쪽)만 요약·표로 정리한 암기 자료</p>
+
+    <script>
+      (function () {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+        var sheets = { s1: document.getElementById('s1'), s2: document.getElementById('s2'), s3: document.getElementById('s3') };
+        function show(id) {
+          tabs.forEach(function (t) { t.setAttribute('aria-selected', t.getAttribute('data-sheet') === id ? 'true' : 'false'); });
+          Object.keys(sheets).forEach(function (k) { sheets[k].hidden = k !== id; });
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        tabs.forEach(function (t) {
+          t.addEventListener('click', function () { show(t.getAttribute('data-sheet')); });
+        });
+      })();
+    </script>
+  </body>
+</html>
