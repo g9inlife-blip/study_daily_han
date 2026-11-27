@@ -99,15 +99,15 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <section id="examView" style="display:none">
 <div class="card">
   <div style="font-weight:800;font-size:19px">중학교 2학년 2학기 시험</div>
-  <p class="meta">과목별 시험 공간 · 국어·영어·수학 이용 가능</p>
+  <p class="meta">과목별 시험 공간 · 국어·영어·역사·수학 이용 가능</p>
   <div class="tabs subject-tabs" id="subjectTabs" role="tablist" aria-label="시험 과목">
     <button class="tab on" type="button" data-subject="korean" role="tab" aria-selected="true">국어</button>
     <button class="tab" type="button" data-subject="english" role="tab" aria-selected="false">영어</button>
     <button class="tab" type="button" data-subject="science" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">과학</button>
-    <button class="tab" type="button" data-subject="history" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">역사</button>
+    <button class="tab" type="button" data-subject="history" role="tab" aria-selected="false">역사</button>
     <button class="tab" type="button" data-subject="math" role="tab" aria-selected="false">수학</button>
   </div>
-  <p class="hint">국어·영어·수학 시험을 이용할 수 있습니다. 과학·역사는 준비 중입니다.</p>
+  <p class="hint">국어·영어·역사·수학 시험을 이용할 수 있습니다. 과학은 준비 중입니다.</p>
 </div>
 <div id="subject-korean">
 <div class="card" id="roundsCard">
@@ -194,6 +194,33 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
     <div class="card" id="mathFinalResult" style="display:none"></div>
   </div>
   <div class="card"><p class="hint">문제은행 XML: <a href="drafts/question-bank/math/MATH2S2_questions.xml" target="_blank" rel="noopener">수학 2-2 문제은행 150문항</a></p></div>
+</div>
+<div id="subject-history" style="display:none">
+  <div class="card">
+    <div style="font-weight:800;font-size:18px">중학교 2학년 역사 2학기 기말 대비</div>
+    <p class="meta">교과서: 비상교육 중학교 역사 · 163~165쪽, 177~208쪽, 216~222쪽</p>
+    <p class="hint">제국주의와 조선의 국민 국가 건설 운동, 세계 대전, 동아시아·인도 민족 운동, 냉전과 제3세계 범위입니다.</p>
+  </div>
+  <div class="card" id="historyRoundsCard">
+    <div style="font-weight:800;font-size:18px">1차~4차 학습</div>
+    <p class="meta">각 회차 30문항 · 직전 회차 오답 + 해당 범위 복습 문항</p>
+    <div id="historyRoundCards"></div>
+    <div id="historyRoundArea" style="display:none">
+      <div id="historyRoundMeta" class="meta"></div><div id="historyRoundQuestions"></div>
+      <button class="btn" id="historySubmitRound">답안 제출 및 채점</button>
+      <div class="card" id="historyRoundResult" style="display:none"></div>
+    </div>
+  </div>
+  <div class="card" id="historyFinalIntro">
+    <div style="font-weight:800;font-size:18px">역사 FINAL 예상 기말고사</div>
+    <p class="meta">26문항 · 객관식 5지 선다 · 전 범위</p>
+    <button class="btn" id="historyStartFinal">FINAL 시험 시작</button>
+    <p class="hint"><a href="drafts/question-bank/history/HIS2S2_FINAL_exam.xml" target="_blank" rel="noopener">FINAL 시험 구성 XML</a> · <a href="drafts/question-bank/history/HIS2S2_questions.xml" target="_blank" rel="noopener">역사 문제은행 XML</a></p>
+  </div>
+  <div id="historyFinalArea" style="display:none">
+    <div class="card"><div id="historyFinalMeta" class="meta"></div><div id="historyFinalQuestions"></div><button class="btn" id="historySubmitFinal">FINAL 답안 제출 및 채점</button></div>
+    <div class="card" id="historyFinalResult" style="display:none"></div>
+  </div>
 </div>
 </section>
 <footer>매일공부 문제는 data/days/*.xml 에서 불러옵니다. 시험 문항은 별도 XML 문제은행으로 관리합니다.</footer>
@@ -739,6 +766,7 @@ loadManifest(); renderTrend();
 </script>
 <script src="scripts/english_exam.js"></script>
 <script src="scripts/math_exam.js"></script>
+<script src="scripts/history_exam.js"></script>
 <script>
 // 수학 탭 표시 fallback: 과목별 스크립트 초기화에 문제가 있어도 패널 전환은 가능하게 함
 (function(){
