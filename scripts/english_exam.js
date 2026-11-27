@@ -93,8 +93,8 @@ function submitFinal(){
 function init(){
  var tabs=el('subjectTabs').querySelectorAll('button[data-subject]'),eng=el('subjectTabs').querySelector('[data-subject="english"]'),kor=el('subjectTabs').querySelector('[data-subject="korean"]');
  eng.disabled=false;eng.removeAttribute('aria-disabled');eng.title='영어 시험';
- eng.onclick=function(){tabs.forEach(function(t){t.classList.remove('on');t.setAttribute('aria-selected','false')});eng.classList.add('on');eng.setAttribute('aria-selected','true');el('subject-korean').style.display='none';el('subject-english').style.display='block';renderCards()};
- kor.onclick=function(){tabs.forEach(function(t){t.classList.remove('on');t.setAttribute('aria-selected','false')});kor.classList.add('on');kor.setAttribute('aria-selected','true');el('subject-english').style.display='none';el('subject-korean').style.display='block'};
+ eng.onclick=function(){tabs.forEach(function(t){t.classList.remove('on');t.setAttribute('aria-selected','false')});eng.classList.add('on');eng.setAttribute('aria-selected','true');el('subject-korean').style.display='none';el('subject-math').style.display='none';el('subject-english').style.display='block';renderCards()};
+ kor.onclick=function(){tabs.forEach(function(t){t.classList.remove('on');t.setAttribute('aria-selected','false')});kor.classList.add('on');kor.setAttribute('aria-selected','true');el('subject-english').style.display='none';el('subject-math').style.display='none';el('subject-korean').style.display='block'};
  el('englishSubmitRound').onclick=submitRound;el('englishStartFinal').onclick=startFinal;el('englishSubmitFinal').onclick=submitFinal;renderCards();
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
