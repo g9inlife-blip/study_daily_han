@@ -115,7 +115,7 @@
 </question>
 <question id="MATH2S2-1-012" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리의 적용</concept>
-<prompt>삼각형의 한 변 길이가 4 cm이고 두 변의 중점을 연결했다. 연결 선분의 길이는?</prompt>
+<prompt>△ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 4 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">3</option><option id="B">6</option><option id="C">1</option><option id="D">2</option><option id="E">4</option></options>
 <answer>D</answer>
@@ -416,7 +416,7 @@
 </question>
 <question id="MATH2S2-2-012" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리의 적용</concept>
-<prompt>삼각형의 한 변 길이가 6 cm이고 두 변의 중점을 연결했다. 연결 선분의 길이는?</prompt>
+<prompt>△ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 6 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">9</option><option id="B">1.5</option><option id="C">3</option><option id="D">6</option><option id="E">4</option></options>
 <answer>C</answer>
@@ -717,7 +717,7 @@
 </question>
 <question id="MATH2S2-3-012" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리의 적용</concept>
-<prompt>【조건을 분석하여 판단】 삼각형의 한 변 길이가 8 cm이고 두 변의 중점을 연결했다. 연결 선분의 길이는?</prompt>
+<prompt>【조건을 분석하여 판단】 △ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 8 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">2</option><option id="B">4</option><option id="C">8</option><option id="D">5</option><option id="E">12</option></options>
 <answer>B</answer>
@@ -1018,7 +1018,7 @@
 </question>
 <question id="MATH2S2-4-012" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리의 적용</concept>
-<prompt>【종합 응용】 삼각형의 한 변 길이가 10 cm이고 두 변의 중점을 연결했다. 연결 선분의 길이는?</prompt>
+<prompt>【종합 응용】 △ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 10 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">5</option><option id="B">10</option><option id="C">6</option><option id="D">15</option><option id="E">2.5</option></options>
 <answer>A</answer>
@@ -1319,7 +1319,7 @@
 </question>
 <question id="MATH2S2-R-012" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형과 평행선" scopePages="194-199" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>중점연결정리의 적용</concept>
-<prompt>삼각형의 한 변 길이가 4 cm이고 두 변의 중점을 연결했다. 연결 선분의 길이는?</prompt>
+<prompt>△ABC에서 D, E는 각각 AB, BC의 중점이다. AC의 길이가 4 cm이고 DE ∥ AC일 때, DE의 길이는? 연결 선분의 길이는?</prompt>
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">4</option><option id="B">3</option><option id="C">6</option><option id="D">1</option><option id="E">2</option></options>
 <answer>E</answer>
