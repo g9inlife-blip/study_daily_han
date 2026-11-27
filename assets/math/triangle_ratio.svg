@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260">
-<rect width="420" height="260" fill="white"/>
-<g stroke="#243b66" stroke-width="3" fill="none">
-<path d="M55 220 L185 25 L365 220 Z"/>
-<path d="M113.5 132.25 L266 132.25"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 270">
+<rect width="420" height="270" fill="white"/>
+<g stroke="#243b66" stroke-width="3" fill="none" stroke-linejoin="round">
+<path d="M210 25 L55 225 L365 225 Z"/>
+<path d="M148 105 L272 105"/>
 </g>
 <g font-family="Arial,sans-serif" font-size="18" fill="#172b4d">
-<text x="42" y="242">A</text><text x="180" y="19">B</text><text x="370" y="242">C</text>
-<text x="92" y="137">D</text><text x="269" y="137">E</text>
-<text x="145" y="111">DE ∥ BC</text>
-<text x="66" y="174">AD</text><text x="139" y="75">DB</text>
-<text x="290" y="174">EC</text><text x="305" y="75">AE</text>
+<text x="202" y="18">A</text><text x="37" y="246">B</text><text x="370" y="246">C</text>
+<text x="128" y="101">D</text><text x="276" y="101">E</text>
+<text x="210" y="91" text-anchor="middle">DE ∥ BC</text>
+<text x="104" y="173">AD</text><text x="157" y="55">DB</text>
+<text x="300" y="173">AE</text><text x="245" y="55">EC</text>
 </g>
 </svg>
