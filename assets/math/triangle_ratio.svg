@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240"><rect width="420" height="240" fill="white"/><g stroke="#243b66" stroke-width="3" fill="none"><path d="M55 205 L185 25 L365 205 Z"/><path d="M120 115 L300 115"/></g><g font-family="Arial,sans-serif" font-size="18" fill="#172b4d"><text x="45" y="225">A</text><text x="180" y="18">B</text><text x="369" y="225">C</text><text x="107" y="109">D</text><text x="304" y="109">E</text><text x="140" y="95">DE ∥ BC</text><text x="74" y="145">AD</text><text x="200" y="130">DE</text><text x="275" y="170">EC</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260">
+<rect width="420" height="260" fill="white"/>
+<g stroke="#243b66" stroke-width="3" fill="none">
+<path d="M55 220 L185 25 L365 220 Z"/>
+<path d="M113.5 132.25 L266 132.25"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="18" fill="#172b4d">
+<text x="42" y="242">A</text><text x="180" y="19">B</text><text x="370" y="242">C</text>
+<text x="92" y="137">D</text><text x="269" y="137">E</text>
+<text x="145" y="111">DE ∥ BC</text>
+<text x="66" y="174">AD</text><text x="139" y="75">DB</text>
+<text x="290" y="174">EC</text><text x="305" y="75">AE</text>
+</g>
+</svg>
