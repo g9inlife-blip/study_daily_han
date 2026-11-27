@@ -76,8 +76,8 @@
 <concept>평행선과 선분의 비</concept>
 <prompt>△ABC에서 DE∥BC이고 AD:DB=2:4, AE=2 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">4</option><option id="B">4</option><option id="C">8</option><option id="D">6</option><option id="E">9</option></options>
-<answer>D</answer>
+<options><option id="A">8</option><option id="B">6</option><option id="C">4</option><option id="D">2</option><option id="E">5</option></options>
+<answer>C</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
@@ -196,7 +196,7 @@
 <concept>곱의 법칙</concept>
 <prompt>상의 2벌과 하의 4벌 중 하나씩 고르는 방법은?</prompt>
 <diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">8</option><option id="B">6</option><option id="C">9</option><option id="D">6</option><option id="E">7</option></options>
+<options><option id="A">8</option><option id="B">6</option><option id="C">9</option><option id="D">10</option><option id="E">7</option></options>
 <answer>A</answer>
 <explanation>상의 한 벌마다 하의를 b가지 고를 수 있으므로 a×b가지이다.</explanation>
 <advancedExplanation>여러 단계에서 선택을 모두 해야 하므로 곱의 법칙을 사용한다.</advancedExplanation>
@@ -206,7 +206,7 @@
 <concept>대표와 부대표</concept>
 <prompt>학생 5명 중 대표와 부대표를 각각 한 명씩 뽑는 방법은?</prompt>
 
-<options><option id="A">5</option><option id="B">10</option><option id="C">10</option><option id="D">9</option><option id="E">20</option></options>
+<options><option id="A">5</option><option id="B">10</option><option id="C">21</option><option id="D">9</option><option id="E">20</option></options>
 <answer>E</answer>
 <explanation>대표를 먼저 뽑고 부대표를 뽑으므로 (a+2)(a+1)가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
@@ -236,7 +236,7 @@
 <concept>수학적 확률</concept>
 <prompt>공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
 <diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">0.8333333333333334</option><option id="B">0.5</option><option id="C">0.16666666666666666</option><option id="D">0.3333333333333333</option><option id="E">0.6666666666666666</option></options>
+<options><option id="A">5/6</option><option id="B">1/2</option><option id="C">1/6</option><option id="D">1/3</option><option id="E">2/3</option></options>
 <answer>B</answer>
 <explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
 <advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
@@ -246,7 +246,7 @@
 <concept>여사건의 확률</concept>
 <prompt>사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
 
-<options><option id="A">0.625</option><option id="B">0.375</option><option id="C">0.125</option><option id="D">0.5</option><option id="E">0.875</option></options>
+<options><option id="A">5/8</option><option id="B">3/8</option><option id="C">1/8</option><option id="D">1/2</option><option id="E">7/8</option></options>
 <answer>A</answer>
 <explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
 <advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
@@ -376,8 +376,8 @@
 <concept>평행선과 선분의 비</concept>
 <prompt>△ABC에서 DE∥BC이고 AD:DB=3:6, AE=3 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">18</option><option id="C">9</option><option id="D">19</option><option id="E">6</option></options>
-<answer>E</answer>
+<options><option id="A">9</option><option id="B">6</option><option id="C">3</option><option id="D">7</option><option id="E">18</option></options>
+<answer>B</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
@@ -396,7 +396,7 @@
 <concept>평행선과 비례식</concept>
 <prompt>△ABC에서 DE∥BC, AD=5 cm, DB=4 cm, AE=5 cm이다. EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">5</option><option id="C">9</option><option id="D">20</option><option id="E">4</option></options>
+<options><option id="A">5</option><option id="B">6</option><option id="C">9</option><option id="D">20</option><option id="E">4</option></options>
 <answer>E</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x에서 x=b이다.</explanation>
 <advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
@@ -536,7 +536,7 @@
 <concept>수학적 확률</concept>
 <prompt>공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
 <diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">0.5</option><option id="B">0.16666666666666666</option><option id="C">0.3333333333333333</option><option id="D">0.6666666666666666</option><option id="E">0.8333333333333334</option></options>
+<options><option id="A">1/2</option><option id="B">1/6</option><option id="C">1/3</option><option id="D">2/3</option><option id="E">5/6</option></options>
 <answer>A</answer>
 <explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
 <advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
@@ -546,7 +546,7 @@
 <concept>여사건의 확률</concept>
 <prompt>사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
 
-<options><option id="A">0.375</option><option id="B">0.125</option><option id="C">0.5</option><option id="D">0.875</option><option id="E">0.625</option></options>
+<options><option id="A">3/8</option><option id="B">1/8</option><option id="C">1/2</option><option id="D">7/8</option><option id="E">5/8</option></options>
 <answer>E</answer>
 <explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
 <advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
@@ -676,7 +676,7 @@
 <concept>평행선과 선분의 비</concept>
 <prompt>【조건을 분석하여 판단】 △ABC에서 DE∥BC이고 AD:DB=4:4, AE=4 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">16</option><option id="B">8</option><option id="C">17</option><option id="D">4</option><option id="E">16</option></options>
+<options><option id="A">4</option><option id="B">5</option><option id="C">6</option><option id="D">16</option><option id="E">8</option></options>
 <answer>A</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
@@ -736,7 +736,7 @@
 <concept>무게중심의 2:1 성질</concept>
 <prompt>【조건을 분석하여 판단】 중선 AM에서 G가 무게중심이고 AG=4 cm이다. GM은?</prompt>
 <diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">4</option><option id="B">6</option><option id="C">4</option><option id="D">8</option><option id="E">2</option></options>
+<options><option id="A">4</option><option id="B">6</option><option id="C">3</option><option id="D">8</option><option id="E">2</option></options>
 <answer>E</answer>
 <explanation>무게중심은 중선을 2:1로 나누므로 GM=AG÷2=a cm이다.</explanation>
 <advancedExplanation>AG:GM=2:1이며 꼭짓점 쪽의 AG가 더 길다.</advancedExplanation>
@@ -746,7 +746,7 @@
 <concept>중선의 길이</concept>
 <prompt>【조건을 분석하여 판단】 중선 AM의 길이가 9 cm이고 G는 무게중심이다. AG는?</prompt>
 <diagram src="assets/math/centroid.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">6</option><option id="C">12</option><option id="D">6</option><option id="E">3</option></options>
+<options><option id="A">9</option><option id="B">6</option><option id="C">12</option><option id="D">7</option><option id="E">3</option></options>
 <answer>B</answer>
 <explanation>AG는 중선의 2/3이므로 2a cm이다.</explanation>
 <advancedExplanation>중선은 AG와 GM을 합한 3부분으로 나뉘고 AG는 그중 2부분이다.</advancedExplanation>
@@ -836,7 +836,7 @@
 <concept>수학적 확률</concept>
 <prompt>【조건을 분석하여 판단】 공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
 <diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">0.16666666666666666</option><option id="B">0.3333333333333333</option><option id="C">0.6666666666666666</option><option id="D">0.8333333333333334</option><option id="E">0.5</option></options>
+<options><option id="A">1/6</option><option id="B">1/3</option><option id="C">2/3</option><option id="D">5/6</option><option id="E">1/2</option></options>
 <answer>E</answer>
 <explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
 <advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
@@ -846,7 +846,7 @@
 <concept>여사건의 확률</concept>
 <prompt>【조건을 분석하여 판단】 사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
 
-<options><option id="A">0.125</option><option id="B">0.5</option><option id="C">0.875</option><option id="D">0.625</option><option id="E">0.375</option></options>
+<options><option id="A">1/8</option><option id="B">1/2</option><option id="C">7/8</option><option id="D">5/8</option><option id="E">3/8</option></options>
 <answer>D</answer>
 <explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
 <advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
@@ -902,7 +902,7 @@
 <advancedExplanation>첫 공을 다시 넣기 때문에 두 번째 시행에서도 빨간 공 확률은 3/5로 유지된다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-001" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-001" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>【종합 응용】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
@@ -912,7 +912,7 @@
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-002" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-002" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>【종합 응용】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
@@ -922,7 +922,7 @@
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-003" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-003" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>닮음비와 둘레의 비</concept>
 <prompt>【종합 응용】 두 닮은 도형의 닮음비가 1:4이고 작은 도형의 둘레가 12 cm이다. 큰 도형의 둘레는?</prompt>
 
@@ -932,7 +932,7 @@
 <advancedExplanation>대응하는 모든 길이가 같은 비율로 변하므로 둘레도 닮음비만큼 변한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-004" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="190-193" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-004" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 닮음 조건" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>SAS 닮음 조건</concept>
 <prompt>【종합 응용】 두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
 
@@ -942,7 +942,7 @@
 <advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-005" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="184-189" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-005" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="220" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>닮음비와 넓이의 비</concept>
 <prompt>【종합 응용】 두 닮은 도형의 닮음비가 1:2일 때 넓이의 비는?</prompt>
 
@@ -976,8 +976,8 @@
 <concept>평행선과 선분의 비</concept>
 <prompt>【종합 응용】 △ABC에서 DE∥BC이고 AD:DB=5:6, AE=5 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">11</option><option id="B">31</option><option id="C">6</option><option id="D">25</option><option id="E">30</option></options>
-<answer>B</answer>
+<options><option id="A">5</option><option id="B">7</option><option id="C">30</option><option id="D">11</option><option id="E">6</option></options>
+<answer>E</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
@@ -986,7 +986,7 @@
 <concept>중점연결정리</concept>
 <prompt>【종합 응용】 삼각형의 두 변의 중점을 연결한 선분의 길이가 2 cm이다. 나머지 한 변의 길이는?</prompt>
 <diagram src="assets/math/midpoint.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">5</option><option id="B">4</option><option id="C">6</option><option id="D">4</option><option id="E">2</option></options>
+<options><option id="A">5</option><option id="B">4</option><option id="C">6</option><option id="D">3</option><option id="E">2</option></options>
 <answer>B</answer>
 <explanation>중점연결 선분은 나머지 한 변의 절반이므로 2a cm이다.</explanation>
 <advancedExplanation>중점연결정리는 평행성과 길이의 절반 관계를 함께 나타낸다.</advancedExplanation>
@@ -1106,7 +1106,7 @@
 <concept>대표와 부대표</concept>
 <prompt>【종합 응용】 학생 4명 중 대표와 부대표를 각각 한 명씩 뽑는 방법은?</prompt>
 
-<options><option id="A">4</option><option id="B">12</option><option id="C">4</option><option id="D">6</option><option id="E">8</option></options>
+<options><option id="A">4</option><option id="B">12</option><option id="C">13</option><option id="D">6</option><option id="E">8</option></options>
 <answer>B</answer>
 <explanation>대표를 먼저 뽑고 부대표를 뽑으므로 (a+2)(a+1)가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
@@ -1136,20 +1136,20 @@
 <concept>수학적 확률</concept>
 <prompt>【종합 응용】 공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
 <diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">0.3333333333333333</option><option id="B">0.6666666666666666</option><option id="C">0.8333333333333334</option><option id="D">0.5</option><option id="E">0.16666666666666666</option></options>
+<options><option id="A">1/3</option><option id="B">2/3</option><option id="C">5/6</option><option id="D">1/2</option><option id="E">1/6</option></options>
 <answer>D</answer>
 <explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
 <advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-025" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="232-237" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
-<concept>여사건의 확률</concept>
-<prompt>【종합 응용】 사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
+<question id="MATH2S2-4-025" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>대단원 마무리 13번 유형 · 두 주사위의 관계</concept>
+<prompt>서로 다른 두 주사위 A, B를 동시에 던진다. A의 눈이 B의 2배일 확률은?</prompt>
 
-<options><option id="A">0.5</option><option id="B">0.875</option><option id="C">0.625</option><option id="D">0.375</option><option id="E">0.125</option></options>
+<options><option id="A">1/9</option><option id="B">1/36</option><option id="C">1/12</option><option id="D">1/18</option><option id="E">1/6</option></options>
 <answer>C</answer>
-<explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
-<advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
+<explanation>조건을 만족하는 순서쌍은 (2,1),(4,2),(6,3)의 3개이고 전체는 36개이므로 1/12이다.</explanation>
+<advancedExplanation>서로 다른 주사위이므로 순서를 구별한다. 6×6=36개 중 A=2B를 만족하는 경우 3개를 세어 3/36=1/12로 계산한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
 <question id="MATH2S2-4-026" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 삼각형의 무게중심" scopePages="221" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
@@ -1162,17 +1162,17 @@
 <advancedExplanation>중선은 꼭짓점에서 2부분, 중점 쪽에서 1부분으로 나누어진다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-027" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-1 경우의 수" scopePages="221" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
-<concept>곱의 법칙</concept>
-<prompt>상의 3벌, 바지 4벌, 모자 2개 중 하나씩 고르는 방법의 수를 구하시오.</prompt>
-<diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<question id="MATH2S2-4-027" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅴ-1 도형의 닮음" scopePages="221" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>닮음비로 대응변 구하기</concept>
+<prompt>두 닮은 삼각형의 대응변의 비가 2:5이고 작은 삼각형의 대응변이 8 cm이다. 큰 삼각형의 대응변의 길이를 구하시오.</prompt>
+<diagram src="assets/math/similar_triangles.svg" alt="닮은 삼각형의 대응변 관계"/>
 
-<answer>24가지</answer>
-<explanation>3×4×2=24가지이다.</explanation>
-<advancedExplanation>세 선택을 모두 해야 하므로 각 선택 수를 곱한다.</advancedExplanation>
+<answer>20 cm</answer>
+<explanation>8:x=2:5이므로 x=20 cm이다.</explanation>
+<advancedExplanation>닮음비를 작은 도형:큰 도형 순서로 세우고 비례식을 풀어 대응변의 길이를 구한다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-028" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="221" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-028" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-2 확률의 뜻과 성질" scopePages="249" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>여사건</concept>
 <prompt>사건 A의 확률이 0.42이다. A가 일어나지 않을 확률을 구하시오.</prompt>
 
@@ -1182,7 +1182,7 @@
 <advancedExplanation>여사건의 확률은 전체 확률 1에서 사건 A의 확률을 뺀다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
-<question id="MATH2S2-4-029" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="221" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<question id="MATH2S2-4-029" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>대단원 마무리 14~15번 서술형 유형</concept>
 <prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
 <diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
@@ -1276,8 +1276,8 @@
 <concept>평행선과 선분의 비</concept>
 <prompt>△ABC에서 DE∥BC이고 AD:DB=2:4, AE=2 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">9</option><option id="B">4</option><option id="C">4</option><option id="D">8</option><option id="E">6</option></options>
-<answer>C</answer>
+<options><option id="A">7</option><option id="B">30</option><option id="C">11</option><option id="D">6</option><option id="E">5</option></options>
+<answer>D</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
@@ -1396,7 +1396,7 @@
 <concept>곱의 법칙</concept>
 <prompt>상의 2벌과 하의 4벌 중 하나씩 고르는 방법은?</prompt>
 <diagram src="assets/math/choice_table.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">7</option><option id="B">8</option><option id="C">6</option><option id="D">9</option><option id="E">6</option></options>
+<options><option id="A">7</option><option id="B">8</option><option id="C">6</option><option id="D">9</option><option id="E">10</option></options>
 <answer>B</answer>
 <explanation>상의 한 벌마다 하의를 b가지 고를 수 있으므로 a×b가지이다.</explanation>
 <advancedExplanation>여러 단계에서 선택을 모두 해야 하므로 곱의 법칙을 사용한다.</advancedExplanation>
@@ -1406,7 +1406,7 @@
 <concept>대표와 부대표</concept>
 <prompt>학생 5명 중 대표와 부대표를 각각 한 명씩 뽑는 방법은?</prompt>
 
-<options><option id="A">20</option><option id="B">5</option><option id="C">10</option><option id="D">10</option><option id="E">9</option></options>
+<options><option id="A">20</option><option id="B">5</option><option id="C">10</option><option id="D">21</option><option id="E">9</option></options>
 <answer>A</answer>
 <explanation>대표를 먼저 뽑고 부대표를 뽑으므로 (a+2)(a+1)가지이다.</explanation>
 <advancedExplanation>직책이 다르므로 순서가 중요하고 같은 사람을 두 번 뽑을 수 없다.</advancedExplanation>
@@ -1436,7 +1436,7 @@
 <concept>수학적 확률</concept>
 <prompt>공정한 주사위를 한 번 던질 때 짝수의 눈이 나올 확률은?</prompt>
 <diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">0.6666666666666666</option><option id="B">0.8333333333333334</option><option id="C">0.5</option><option id="D">0.16666666666666666</option><option id="E">0.3333333333333333</option></options>
+<options><option id="A">2/3</option><option id="B">5/6</option><option id="C">1/2</option><option id="D">1/6</option><option id="E">1/3</option></options>
 <answer>C</answer>
 <explanation>짝수는 2,4,6의 3가지이므로 3/6=1/2이다.</explanation>
 <advancedExplanation>유리한 경우의 수를 전체 경우의 수로 나눈다.</advancedExplanation>
@@ -1446,7 +1446,7 @@
 <concept>여사건의 확률</concept>
 <prompt>사건 A의 확률이 3/8일 때 A가 일어나지 않을 확률은?</prompt>
 
-<options><option id="A">0.875</option><option id="B">0.625</option><option id="C">0.375</option><option id="D">0.125</option><option id="E">0.5</option></options>
+<options><option id="A">7/8</option><option id="B">5/8</option><option id="C">3/8</option><option id="D">1/8</option><option id="E">1/2</option></options>
 <answer>B</answer>
 <explanation>여사건의 확률은 1-P(A)=1-3/8=5/8이다.</explanation>
 <advancedExplanation>사건과 여사건은 전체를 이루므로 확률의 합은 1이다.</advancedExplanation>
