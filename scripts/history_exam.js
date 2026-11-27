@@ -16,15 +16,19 @@ function loadBank(){if(bank)return Promise.resolve(bank);return fetchText('draft
 })}
 function renderCards(){var box=el('historyRoundCards');box.innerHTML='';
  for(var s=1;s<=4;s++){var prev=s===1?null:latest(s-1),last=latest(s),locked=s>1&&!prev,card=document.createElement('div');card.className='card';
- card.innerHTML='<b>'+s+'차 학습</b><p class="meta">'+(last?'최근 '+last.score+'점 · '+last.correct+'/30 정답':(s===1?'전 범위 30문항':'직전 회차 오답 + 신규·복습 문항'))+'</p>'+(locked?'<p class="hint">이전 회차를 먼저 제출해 주세요.</p>':'')+'<button class="btn '+(locked?'ghost':'')+'" '+(locked?'disabled':'')+' data-his-round="'+s+'">'+(last?'다시 풀기':'시작')+'</button>';
+ card.innerHTML='<b>'+s+'차 학습</b><p class="meta">'+(last?'최근 '+last.score+'점 · '+last.correct+'/30 정답':(s===1?'전 범위 30문항':'전 범위 문제 조합 · 직전 회차 오답 우선 복습'))+'</p>'+(locked?'<p class="hint">이전 회차를 먼저 제출해 주세요.</p>':'')+'<button class="btn '+(locked?'ghost':'')+'" '+(locked?'disabled':'')+' data-his-round="'+s+'">'+(last?'다시 풀기':'시작')+'</button>';
  box.appendChild(card)}
  if(!box.dataset.bound){box.addEventListener('click',function(e){var b=e.target.closest('[data-his-round]');if(b&&!b.disabled)startRound(+b.dataset.hisRound)});box.dataset.bound='1'}
 }
 function prepare(s,wrong,b){var chosen=[],used={},map={};b.all.forEach(function(q){map[q.getAttribute('id')]=q});
- (wrong||[]).forEach(function(ref){var q=map[ref.id];if(q&&!used[ref.id]){chosen.push({node:q,sourceStage:ref.stage,sourceId:ref.id});used[ref.id]=1}});
- shuffle(b.main.filter(function(q){return +q.getAttribute('stage')===s&&!used[q.getAttribute('id')]})).forEach(function(q){if(chosen.length<30){chosen.push({node:q,sourceStage:s,sourceId:q.getAttribute('id')});used[q.getAttribute('id')]=1}});
- shuffle(b.reserve).forEach(function(q){if(chosen.length<30&&!used[q.getAttribute('id')]){chosen.push({node:q,sourceStage:0,sourceId:q.getAttribute('id')});used[q.getAttribute('id')]=1}});
- if(chosen.length<30)throw Error('회차 문항이 부족합니다.');return shuffle(chosen.slice(0,30))}
+ var previous=s>1?latest(s-1):null,previousIds=previous?Object.keys(previous.answers||{}):[],wrongIds={};
+ (wrong||[]).forEach(function(ref){var q=map[ref.id];if(q&&!used[ref.id]){chosen.push({node:q,sourceStage:+q.getAttribute('stage')||ref.stage,sourceId:ref.id});used[ref.id]=1;wrongIds[ref.id]=1}});
+ // 직전 회차에서 맞힌 문항은 바로 다음 회차의 신규 조합에서 제외하고, 틀린 문항은 우선 복습한다.
+ previousIds.forEach(function(id){if(!wrongIds[id])used[id]=1});
+ shuffle(b.main.filter(function(q){return !used[q.getAttribute('id')]})).forEach(function(q){if(chosen.length<30){chosen.push({node:q,sourceStage:+q.getAttribute('stage')||0,sourceId:q.getAttribute('id')});used[q.getAttribute('id')]=1}});
+ shuffle(b.reserve).forEach(function(q){if(chosen.length<30&&!used[q.getAttribute('id')]){chosen.push({node:q,sourceStage:+q.getAttribute('stage')||0,sourceId:q.getAttribute('id')});used[q.getAttribute('id')]=1}});
+ if(chosen.length<30)throw Error('전 범위 문제은행에서 회차 문항 30개를 구성할 수 없습니다.');return shuffle(chosen.slice(0,30))
+}
 function formatPrompt(text){return esc(text).replace(/\s+(ㄱ|ㄴ|ㄷ|ㄹ|가|나|다|라)([.)、])/g,'<br><span class="statement-label">$1$2</span> ')}
 function render(items,target,mode){target.innerHTML='';items.forEach(function(entry,i){var q=entry.node,d=document.createElement('div'),type=q.getAttribute('type');d.className='final-question';d.dataset.index=i;d.dataset.type=type;d.dataset.id=q.getAttribute('id');if(mode==='round'){d.dataset.sourceStage=entry.sourceStage;d.dataset.sourceId=entry.sourceId}
  var h='<h3>'+(i+1)+'. '+formatPrompt(xmlText(q,'prompt'))+'</h3><div class="hint">'+esc(q.getAttribute('unit')||'')+' · '+esc(q.getAttribute('scopePages')||'')+'쪽 · 난이도 '+esc(q.getAttribute('difficulty')||'')+'</div>';
@@ -33,7 +37,7 @@ function render(items,target,mode){target.innerHTML='';items.forEach(function(en
  h+='<div class="final-feedback"></div>';d.innerHTML=h;target.appendChild(d)})}
 function startRound(s){var prev=s>1?latest(s-1):null;if(s>1&&!prev){alert('먼저 '+(s-1)+'차를 제출해 주세요.');return}
  stage=s;submitted=false;current=[];el('historyRoundArea').style.display='block';el('historyRoundResult').style.display='none';el('historyRoundMeta').textContent='역사 문항을 불러오는 중...';
- loadBank().then(function(b){current=prepare(s,prev?prev.wrongRefs:[],b);render(current,el('historyRoundQuestions'),'round');el('historyRoundMeta').textContent=s+'차 · 30문항 · 직전 회차 오답 '+(prev?prev.wrongRefs.length:0)+'개 반영';el('historyRoundArea').scrollIntoView({behavior:'smooth',block:'start'})}).catch(function(e){el('historyRoundMeta').textContent='문항 로드 오류: '+e.message})}
+ loadBank().then(function(b){current=prepare(s,prev?prev.wrongRefs:[],b);render(current,el('historyRoundQuestions'),'round');el('historyRoundMeta').textContent=s+'차 · 전 범위 30문항 · 직전 회차 오답 '+(prev?prev.wrongRefs.length:0)+'개 우선 복습';el('historyRoundArea').scrollIntoView({behavior:'smooth',block:'start'})}).catch(function(e){el('historyRoundMeta').textContent='문항 로드 오류: '+e.message})}
 function grade(items,target,mode){var ds=target.querySelectorAll('.final-question'),missing=[];ds.forEach(function(d){if(d.dataset.type==='multiple_choice'&&!d.querySelector('input:checked'))missing.push(+d.dataset.index+1);else if(d.dataset.type!=='multiple_choice'&&!d.querySelector('.round-short').value.trim())missing.push(+d.dataset.index+1)});
  if(missing.length){alert('답변하지 않은 문항: '+missing.slice(0,8).join(', '));return null}if(!confirm(mode==='round'?stage+'차 답안을 제출할까요?':'역사 FINAL 답안을 제출할까요?'))return null;
  var correct=0,wrong=[],answers={};ds.forEach(function(d,i){var e=items[i],q=e.node,a=xmlText(q,'answer'),pick='',ok=false;
