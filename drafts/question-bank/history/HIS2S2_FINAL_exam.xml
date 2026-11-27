@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exam schemaVersion="1.0" id="HIS2S2-FINAL-2026" subject="역사" schoolLevel="중학교" grade="2" semester="2" title="2026 중2 역사 2학기 FINAL 예상 기말고사" questionBank="HIS2S2_questions.xml" status="draft">
+ <metadata><questionCount>26</questionCount><multipleChoiceCount>26</multipleChoiceCount><shortAnswerCount>0</shortAnswerCount><scope>163-165, 177-208, 216-222</scope></metadata>
+ <sections>
+  <section id="A" title="제국주의와 조선의 근대 국가 건설"><item questionRef="HIS2S2-1-001"/><item questionRef="HIS2S2-1-002"/><item questionRef="HIS2S2-1-003"/><item questionRef="HIS2S2-1-004"/><item questionRef="HIS2S2-1-005"/></section>
+  <section id="B" title="세계 대전과 전후 국제 질서"><item questionRef="HIS2S2-1-006"/><item questionRef="HIS2S2-1-007"/><item questionRef="HIS2S2-1-008"/><item questionRef="HIS2S2-2-001"/><item questionRef="HIS2S2-2-002"/><item questionRef="HIS2S2-2-003"/><item questionRef="HIS2S2-2-004"/></section>
+  <section id="C" title="동아시아와 인도의 민족 운동"><item questionRef="HIS2S2-2-005"/><item questionRef="HIS2S2-2-006"/><item questionRef="HIS2S2-2-007"/><item questionRef="HIS2S2-2-008"/><item questionRef="HIS2S2-3-001"/></section>
+  <section id="D" title="냉전과 제3 세계"><item questionRef="HIS2S2-3-002"/><item questionRef="HIS2S2-3-003"/><item questionRef="HIS2S2-3-004"/><item questionRef="HIS2S2-3-005"/><item questionRef="HIS2S2-4-001"/><item questionRef="HIS2S2-4-002"/><item questionRef="HIS2S2-4-003"/><item questionRef="HIS2S2-4-004"/><item questionRef="HIS2S2-4-005"/></section>
+ </sections>
+</exam>
