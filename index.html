@@ -51,7 +51,7 @@ canvas{width:100%;height:180px;border:1px solid var(--line);border-radius:12px;b
 .notice{background:#fff3cd;border:1px solid #e6c87a;border-radius:12px;padding:12px;font-size:14px}
 footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 @media(max-width:520px){.wordgrid{grid-template-columns:1fr}h1{font-size:22px}}
-.subject-tabs{gap:6px}.subject-tabs .tab{padding:9px 4px;font-size:14px}.subject-tabs .tab:disabled{opacity:.42;cursor:not-allowed;background:#f4f0ea;color:#8a7f72}
+.subject-tabs{gap:6px}.subject-tabs .tab{padding:9px 4px;font-size:14px}.subject-tabs .tab:disabled{opacity:.42;cursor:not-allowed;background:#f4f0ea;color:#8a7f72}.math-diagram{margin:12px auto;max-width:520px;text-align:center}.math-diagram img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
 .final-passage{background:#fff6e8;border-left:4px solid #c96f2e;border-radius:9px;padding:12px;margin:12px 0;white-space:pre-wrap}
 .final-question{border-top:1px solid var(--line);padding:16px 0}.final-question h3{font-size:16px;margin:0 0 10px}.final-options{display:grid;gap:8px}.final-option{display:flex;gap:9px;align-items:flex-start;border:1px solid var(--line);border-radius:10px;padding:10px}.final-option input{width:auto;margin-top:5px}.final-option.selected{border-color:var(--accent);background:#fff1e2}.final-feedback{display:none;background:#f6f2ea;padding:12px;border-radius:10px;margin-top:10px;font-size:14px}.final-question.revealed .final-feedback{display:block}.final-score-select{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:15px;margin-top:8px}
 @media(max-width:420px){.subject-tabs{gap:4px}.subject-tabs .tab{font-size:12px;padding:8px 2px}}
@@ -99,15 +99,15 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <section id="examView" style="display:none">
 <div class="card">
   <div style="font-weight:800;font-size:19px">중학교 2학년 2학기 시험</div>
-  <p class="meta">과목별 시험 공간 · 현재 국어만 이용할 수 있습니다.</p>
+  <p class="meta">과목별 시험 공간 · 국어·영어·수학 이용 가능</p>
   <div class="tabs subject-tabs" id="subjectTabs" role="tablist" aria-label="시험 과목">
     <button class="tab on" type="button" data-subject="korean" role="tab" aria-selected="true">국어</button>
-    <button class="tab" type="button" data-subject="english" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">영어</button>
+    <button class="tab" type="button" data-subject="english" role="tab" aria-selected="false">영어</button>
     <button class="tab" type="button" data-subject="science" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">과학</button>
     <button class="tab" type="button" data-subject="history" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">역사</button>
-    <button class="tab" type="button" data-subject="math" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">수학</button>
+    <button class="tab" type="button" data-subject="math" role="tab" aria-selected="false">수학</button>
   </div>
-  <p class="hint">비활성 과목은 탭만 먼저 마련했으며, 과목별 범위와 문제은행이 준비되면 순차적으로 열 예정입니다.</p>
+  <p class="hint">국어·영어·수학 시험을 이용할 수 있습니다. 과학·역사는 준비 중입니다.</p>
 </div>
 <div id="subject-korean">
 <div class="card" id="roundsCard">
@@ -137,6 +137,63 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
   <div class="card"><div id="finalProgress" class="meta"></div><div id="finalQuestionList"></div><button class="btn" id="submitFinalBtn">답안 제출 및 채점</button></div>
   <div class="card" id="finalResult" style="display:none"></div>
 </div>
+</div>
+<div id="subject-english" style="display:none">
+  <div class="card">
+    <div style="font-weight:800;font-size:18px">영어 7~8과 시험 대비</div>
+    <p class="meta">동아출판 중학교 영어 2 · 윤정미</p>
+    <p class="hint">1~4차 각 30문항 · 7과 지문/어휘/문법 · 8과 어휘/문법 · 8과 지문 제외</p>
+    <div class="hint">7과: It ~ to부정사, call A B, make/find it + 형용사 + to부정사 및 지문 독해 · 8과: 현재완료(경험·완료·결과·계속), 형용사의 위치</div>
+  </div>
+  <div class="card" id="englishRoundsCard">
+    <div style="font-weight:800;font-size:18px">1차~4차 학습</div>
+    <p class="meta">각 회차 30문항 · 직전 회차 오답 + 신규 문항</p>
+    <div id="englishRoundCards"></div>
+    <div id="englishRoundArea" style="display:none">
+      <div id="englishRoundMeta" class="meta"></div><div id="englishRoundQuestions"></div>
+      <button class="btn" id="englishSubmitRound">답안 제출 및 채점</button>
+      <div class="card" id="englishRoundResult" style="display:none"></div>
+    </div>
+  </div>
+  <div class="card" id="englishFinalIntro">
+    <div style="font-weight:800;font-size:18px">영어 FINAL 실전</div>
+    <p class="meta">문제은행에서 선택한 26문항 · 객관식 23 · 서술형 3</p>
+    <p class="hint">FINAL은 1~4차와 별도 풀이이며, 7과 지문과 8과 어휘·문법을 포함합니다.</p>
+    <button class="btn" id="englishStartFinal">FINAL 시험 시작</button>
+  </div>
+  <div id="englishFinalArea" style="display:none">
+    <div class="card"><div id="englishFinalMeta" class="meta"></div><div id="englishFinalQuestions"></div><button class="btn" id="englishSubmitFinal">답안 제출 및 채점</button></div>
+    <div class="card" id="englishFinalResult" style="display:none"></div>
+  </div>
+  <div class="card"><p class="hint">문제은행 XML: <a href="drafts/question-bank/english/ENG2S2_questions.xml" target="_blank" rel="noopener">영어 7~8과 150문항</a></p></div>
+</div>
+<div id="subject-math" style="display:none">
+  <div class="card">
+    <div style="font-weight:800;font-size:18px">수학 Ⅴ 도형의 닮음과 피타고라스 정리 · Ⅵ 확률</div>
+    <p class="meta">천재교육 중학교 수학 2-2 · 184~249쪽</p>
+    <p class="hint">도형의 닮음(184~206), 삼각형과 평행선, 무게중심, 경우의 수와 확률. 피타고라스 정리 207~218쪽 및 지정 제외 문항은 출제하지 않습니다.</p>
+    <p class="hint">문제에 도형이 있는 경우 그림을 함께 표시합니다. 교과서 문제항목 이미지의 출제 범위와 유형을 참고해 새 문항으로 구성했습니다.</p>
+  </div>
+  <div class="card" id="mathRoundsCard">
+    <div style="font-weight:800;font-size:18px">1차~4차 학습</div>
+    <p class="meta">각 회차 30문항 · 직전 회차 오답 + 신규 문항</p>
+    <div id="mathRoundCards"></div>
+    <div id="mathRoundArea" style="display:none">
+      <div id="mathRoundMeta" class="meta"></div><div id="mathRoundQuestions"></div>
+      <button class="btn" id="mathSubmitRound">답안 제출 및 채점</button>
+      <div class="card" id="mathRoundResult" style="display:none"></div>
+    </div>
+  </div>
+  <div class="card" id="mathFinalIntro">
+    <div style="font-weight:800;font-size:18px">수학 FINAL 실전</div>
+    <p class="meta">문제은행에서 선택한 26문항 · 객관식 23 · 서술형 3</p>
+    <button class="btn" id="mathStartFinal">FINAL 시험 시작</button>
+  </div>
+  <div id="mathFinalArea" style="display:none">
+    <div class="card"><div id="mathFinalMeta" class="meta"></div><div id="mathFinalQuestions"></div><button class="btn" id="mathSubmitFinal">답안 제출 및 채점</button></div>
+    <div class="card" id="mathFinalResult" style="display:none"></div>
+  </div>
+  <div class="card"><p class="hint">문제은행 XML: <a href="drafts/question-bank/math/MATH2S2_questions.xml" target="_blank" rel="noopener">수학 2-2 문제은행 150문항</a></p></div>
 </div>
 </section>
 <footer>매일공부 문제는 data/days/*.xml 에서 불러옵니다. 시험 문항은 별도 XML 문제은행으로 관리합니다.</footer>
@@ -679,6 +736,28 @@ function initFinalExam(){
 initFinalExam();
 initRounds();
 loadManifest(); renderTrend();
+</script>
+<script src="scripts/english_exam.js"></script>
+<script src="scripts/math_exam.js"></script>
+<script>
+// 수학 탭 표시 fallback: 과목별 스크립트 초기화에 문제가 있어도 패널 전환은 가능하게 함
+(function(){
+  var tabs=document.getElementById('subjectTabs');
+  if(!tabs)return;
+  tabs.addEventListener('click',function(event){
+    var button=event.target.closest('button[data-subject="math"]');
+    if(!button)return;
+    tabs.querySelectorAll('button[data-subject]').forEach(function(tab){
+      tab.classList.remove('on');
+      tab.setAttribute('aria-selected','false');
+    });
+    button.classList.add('on');
+    button.setAttribute('aria-selected','true');
+    document.getElementById('subject-korean').style.display='none';
+    document.getElementById('subject-english').style.display='none';
+    document.getElementById('subject-math').style.display='block';
+  });
+})();
 </script>
 </body>
 </html>
