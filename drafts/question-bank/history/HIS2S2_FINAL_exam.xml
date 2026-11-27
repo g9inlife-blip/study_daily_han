@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <exam schemaVersion="1.0" id="HIS2S2-FINAL-2026" subject="역사" schoolLevel="중학교" grade="2" semester="2" title="2026 중2 역사 2학기 FINAL 예상 기말고사" questionBank="HIS2S2_questions.xml" status="draft">
- <metadata><questionCount>26</questionCount><multipleChoiceCount>26</multipleChoiceCount><shortAnswerCount>0</shortAnswerCount><scope>163-165, 177-178</scope><note>문제은행 신규 1차 30문항 중 26문항을 임시 구성. 2~4차 신규 출제 완료 후 전 범위 균형 구성으로 갱신 예정.</note></metadata>
+ <metadata><questionCount>26</questionCount><multipleChoiceCount>26</multipleChoiceCount><shortAnswerCount>0</shortAnswerCount><scope>163-165,177-208,216-222</scope><note>1~4차 문제은행에서 26문항을 선별해 전 범위를 균형 있게 구성했다. 동일 문항 중복 없이 각 차수에서 문항을 선별했으며 정답·해설은 문제은행 원문을 참조한다.</note></metadata>
  <sections>
-  <section id="A" title="제국주의와 조선의 근대 국가 건설">
+  <section id="A" title="제국주의와 조선의 근대화">
    <item questionRef="HIS2S2-1-001"/>
-   <item questionRef="HIS2S2-1-002"/>
-   <item questionRef="HIS2S2-1-003"/>
-   <item questionRef="HIS2S2-1-004"/>
-   <item questionRef="HIS2S2-1-005"/>
    <item questionRef="HIS2S2-1-006"/>
-   <item questionRef="HIS2S2-1-007"/>
-   <item questionRef="HIS2S2-1-008"/>
-   <item questionRef="HIS2S2-1-009"/>
-   <item questionRef="HIS2S2-1-010"/>
-   <item questionRef="HIS2S2-1-011"/>
-   <item questionRef="HIS2S2-1-012"/>
-   <item questionRef="HIS2S2-1-013"/>
-   <item questionRef="HIS2S2-1-014"/>
-   <item questionRef="HIS2S2-1-015"/>
-   <item questionRef="HIS2S2-1-016"/>
-   <item questionRef="HIS2S2-1-017"/>
-   <item questionRef="HIS2S2-1-018"/>
-   <item questionRef="HIS2S2-1-019"/>
    <item questionRef="HIS2S2-1-020"/>
-   <item questionRef="HIS2S2-1-021"/>
-   <item questionRef="HIS2S2-1-022"/>
-   <item questionRef="HIS2S2-1-023"/>
-   <item questionRef="HIS2S2-1-024"/>
-   <item questionRef="HIS2S2-1-025"/>
-   <item questionRef="HIS2S2-1-026"/>
+  </section>
+  <section id="B" title="세계 대전과 전후 세계">
+   <item questionRef="HIS2S2-2-001"/>
+   <item questionRef="HIS2S2-2-006"/>
+   <item questionRef="HIS2S2-2-012"/>
+   <item questionRef="HIS2S2-2-020"/>
+   <item questionRef="HIS2S2-2-030"/>
+  </section>
+  <section id="C" title="3·1 운동과 중국의 민족 운동">
+   <item questionRef="HIS2S2-3-001"/>
+   <item questionRef="HIS2S2-3-006"/>
+   <item questionRef="HIS2S2-3-010"/>
+   <item questionRef="HIS2S2-3-014"/>
+   <item questionRef="HIS2S2-3-018"/>
+   <item questionRef="HIS2S2-3-030"/>
+  </section>
+  <section id="D" title="근대 세계와 국제 질서의 변화">
+   <item questionRef="HIS2S2-4-001"/>
+   <item questionRef="HIS2S2-4-005"/>
+   <item questionRef="HIS2S2-4-008"/>
+   <item questionRef="HIS2S2-4-010"/>
+   <item questionRef="HIS2S2-4-014"/>
+   <item questionRef="HIS2S2-4-018"/>
+   <item questionRef="HIS2S2-4-020"/>
+   <item questionRef="HIS2S2-4-021"/>
+   <item questionRef="HIS2S2-4-025"/>
+   <item questionRef="HIS2S2-4-026"/>
+   <item questionRef="HIS2S2-4-028"/>
+   <item questionRef="HIS2S2-4-030"/>
   </section>
  </sections>
 </exam>
