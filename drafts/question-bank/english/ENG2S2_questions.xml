@@ -1576,7 +1576,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
     <advancedExplanation>글의 마지막 문장을 바꾸어 말한 선택지를 고른다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-1-026" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-1-026" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>영작</concept>
 <prompt>‘축제에 참여하다’를 영어 숙어로 쓰시오.</prompt>
 <answer>participate in</answer>
@@ -1584,7 +1584,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>참여하다 = participate in</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-1-027" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-1-027" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문법 변형</concept>
 <prompt>They celebrate the festival every year. (현재완료로 바꾸고 since 2021을 사용)</prompt>
 <answer>They have celebrated the festival since 2021.</answer>
@@ -1592,7 +1592,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>정답은 have + 과거분사 형태 및 since 2021을 포함해야 한다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-1-028" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-1-028" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 문법" scopePages="118-135" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문법 영작</concept>
 <prompt>‘다른 문화를 배우는 것은 유익하다.’를 It으로 시작하여 영작하시오.</prompt>
 <answer>It is useful to learn about other cultures.</answer>
@@ -1600,7 +1600,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>It is useful to learn about other cultures.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-1-029" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-1-029" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문법 고치기</concept>
 <prompt>Do you know where does the parade take place?에서 틀린 부분을 고쳐 쓰시오.</prompt>
 <answer>Do you know where the parade takes place?</answer>
@@ -1608,7 +1608,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>where does the parade take place → where the parade takes place</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-1-030" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-1-030" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문장 완성</concept>
 <prompt>The road was closed _____ the heavy fog. because / because of 중 알맞은 표현을 쓰시오.</prompt>
 <answer>because of</answer>
@@ -1616,7 +1616,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>because of + 명사구</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-2-026" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-2-026" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 어휘" scopePages="118-135" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>어휘</concept>
 <prompt>‘전통적인’을 뜻하는 영어 단어를 쓰시오.</prompt>
 <answer>traditional</answer>
@@ -1624,7 +1624,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>traditional</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-2-027" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-2-027" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>현재완료</concept>
 <prompt>We (visit) the festival twice. 괄호 안 동사를 알맞게 바꾸시오.</prompt>
 <answer>have visited</answer>
@@ -1632,7 +1632,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>have visited</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-2-028" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-2-028" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 문법" scopePages="118-135" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문법 영작</concept>
 <prompt>‘그 퍼즐을 푸는 것은 어렵다.’를 It으로 시작하여 영작하시오.</prompt>
 <answer>It is difficult to solve the puzzle.</answer>
@@ -1640,7 +1640,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>It is difficult to solve the puzzle.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-2-029" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-2-029" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>간접의문문</concept>
 <prompt>Can you tell me what time _____? (the parade / start) 올바른 어순으로 완성하시오.</prompt>
 <answer>the parade starts</answer>
@@ -1648,7 +1648,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>the parade starts</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-2-030" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-2-030" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>because / because of</concept>
 <prompt>We stayed home _____ it was raining. because / because of 중 알맞은 표현을 쓰시오.</prompt>
 <answer>because</answer>
@@ -1656,7 +1656,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>because</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-3-026" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-3-026" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>어휘 숙어</concept>
 <prompt>‘우연히’를 뜻하는 영어 숙어를 쓰시오.</prompt>
 <answer>by accident</answer>
@@ -1664,7 +1664,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>by accident</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-3-027" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-3-027" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문장 배열</concept>
 <prompt>다음 단어를 바르게 배열하시오: (have / never / I / seen / a dinosaur)</prompt>
 <answer>I have never seen a dinosaur.</answer>
@@ -1672,7 +1672,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>I have never seen a dinosaur.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-3-028" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-3-028" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 문법" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>가목적어</concept>
 <prompt>She found _____ easy to follow the path. 빈칸에 알맞은 단어를 쓰시오.</prompt>
 <answer>it</answer>
@@ -1680,7 +1680,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>it</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-3-029" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-3-029" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>간접의문문</concept>
 <prompt>I wonder _____ the traveler went. (where / 직접의문문 어순으로 쓰지 말 것)</prompt>
 <answer>where the traveler went</answer>
@@ -1688,7 +1688,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>where the traveler went</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-3-030" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-3-030" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문장 완성</concept>
 <prompt>The traveler was late _____ the fog. because / because of 중 알맞은 표현을 쓰시오.</prompt>
 <answer>because of</answer>
@@ -1696,7 +1696,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>because of</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-4-026" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-4-026" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>어휘</concept>
 <prompt>‘위험에 처한’을 뜻하는 영어 숙어를 쓰시오.</prompt>
 <answer>in danger</answer>
@@ -1704,7 +1704,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>in danger</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-4-027" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-4-027" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>현재완료</concept>
 <prompt>They (celebrate) this event for many years. 알맞게 완성하시오.</prompt>
 <answer>have celebrated</answer>
@@ -1712,7 +1712,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>have celebrated</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-4-028" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-4-028" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 문법" scopePages="118-135" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>call A B</concept>
 <prompt>‘사람들은 그 다리를 Rainbow Bridge라고 부른다.’를 People call로 시작해 영작하시오.</prompt>
 <answer>People call the bridge Rainbow Bridge.</answer>
@@ -1720,7 +1720,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>People call the bridge Rainbow Bridge.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-4-029" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-4-029" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>간접의문문</concept>
 <prompt>Do you know _____ the museum is open? (if / whether 중 하나)</prompt>
 <answer>if</answer>
@@ -1728,7 +1728,7 @@ The traveler _____ his key, so he cannot open the door.</prompt>
 <advancedExplanation>if 또는 whether 모두 인정</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-4-030" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-4-030" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>because / because of</concept>
 <prompt>‘짙은 안개 때문에’에 해당하는 영어 표현을 쓰시오.</prompt>
 <answer>because of the thick fog</answer>
@@ -2126,7 +2126,7 @@ We had time to _____ the old town.</prompt>
     <advancedExplanation>목적격 보어에는 목적어의 상태를 나타내는 형용사가 온다.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-R-026" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-R-026" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 문법" scopePages="118-135" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>문법 영작</concept>
 <prompt>‘그것을 이해하는 것은 쉽다.’를 It으로 시작하여 영작하시오.</prompt>
 <answer>It is easy to understand it.</answer>
@@ -2134,7 +2134,7 @@ We had time to _____ the old town.</prompt>
 <advancedExplanation>It is easy to understand it.</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-R-027" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-R-027" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>간접의문문</concept>
 <prompt>Do you know where _____? (the traveler / live)</prompt>
 <answer>the traveler lives</answer>
@@ -2142,7 +2142,7 @@ We had time to _____ the old town.</prompt>
 <advancedExplanation>the traveler lives</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-R-028" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-R-028" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 어휘" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>어휘</concept>
 <prompt>‘침묵’을 뜻하는 영어 단어를 쓰시오.</prompt>
 <answer>silence</answer>
@@ -2150,7 +2150,7 @@ We had time to _____ the old town.</prompt>
 <advancedExplanation>silence</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-R-029" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-R-029" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>because</concept>
 <prompt>The road was wet _____ it had rained. 알맞은 표현을 쓰시오.</prompt>
 <answer>because</answer>
@@ -2158,7 +2158,7 @@ We had time to _____ the old town.</prompt>
 <advancedExplanation>because</advancedExplanation>
     <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
   </question>
-  <question id="ENG2S2-R-030" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+  <question id="ENG2S2-R-030" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="8과 문법" scopePages="136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>현재완료</concept>
 <prompt>I (never / see) a parade like this. 완성하시오.</prompt>
 <answer>I have never seen a parade like this.</answer>
