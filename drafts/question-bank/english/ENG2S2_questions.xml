@@ -3,6 +3,7 @@
   <metadata>
     <mainQuestionCount>120</mainQuestionCount><reserveQuestionCount>30</reserveQuestionCount><stageCount>4</stageCount><questionsPerStage>30</questionsPerStage><multipleChoicePerStage>25</multipleChoicePerStage><shortAnswerPerStage>5</shortAnswerPerStage><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics>
     <scopeNote>7과는 지문·어휘·문법 전체, 8과는 어휘·문법만 출제. 8과 지문은 포함하지 않음.</scopeNote>
+    <grammarScope>7과: It~to부정사, call A B, make/find it+형용사+to부정사. 8과: 현재완료 네 쓰임, 형용사의 위치.</grammarScope>
   </metadata>
   <passages>
     <passage id="E7P1" unit="7과 지문" scopePages="118-135" title="Reading 1 · Festivals in Four Seasons"><text>People in different places celebrate festivals in every season. In spring, a town may decorate its streets with flowers. In summer, people gather near a river and enjoy music. In autumn, a parade can take place after the harvest. In winter, families may wear special costumes and watch fireworks. These events are different, but they share one purpose: bringing people together. A festival is not only a show for visitors. It can also help a community remember its traditions and share them with younger people.</text></passage>
