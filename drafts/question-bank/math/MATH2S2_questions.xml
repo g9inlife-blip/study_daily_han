@@ -227,7 +227,7 @@
 <concept>확률의 범위</concept>
 <prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">확률은 항상 1/2</option><option id="B">확률은 경우의 수와 무관</option><option id="C">0≤P(A)≤1</option><option id="D">P(A)<0일 수 있다</option><option id="E">P(A)>1일 수 있다</option></options>
+<options><option id="A">확률은 항상 1/2</option><option id="B">확률은 경우의 수와 무관</option><option id="C">0≤P(A)≤1</option><option id="D">P(A)&lt;0일 수 있다</option><option id="E">P(A)>1일 수 있다</option></options>
 <answer>C</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -528,7 +528,7 @@
 <concept>확률의 범위</concept>
 <prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">확률은 경우의 수와 무관</option><option id="B">0≤P(A)≤1</option><option id="C">P(A)<0일 수 있다</option><option id="D">P(A)>1일 수 있다</option><option id="E">확률은 항상 1/2</option></options>
+<options><option id="A">확률은 경우의 수와 무관</option><option id="B">0≤P(A)≤1</option><option id="C">P(A)&lt;0일 수 있다</option><option id="D">P(A)>1일 수 있다</option><option id="E">확률은 항상 1/2</option></options>
 <answer>B</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -829,7 +829,7 @@
 <concept>확률의 범위</concept>
 <prompt>【조건을 분석하여 판단】 사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">0≤P(A)≤1</option><option id="B">P(A)<0일 수 있다</option><option id="C">P(A)>1일 수 있다</option><option id="D">확률은 항상 1/2</option><option id="E">확률은 경우의 수와 무관</option></options>
+<options><option id="A">0≤P(A)≤1</option><option id="B">P(A)&lt;0일 수 있다</option><option id="C">P(A)>1일 수 있다</option><option id="D">확률은 항상 1/2</option><option id="E">확률은 경우의 수와 무관</option></options>
 <answer>A</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -1130,7 +1130,7 @@
 <concept>확률의 범위</concept>
 <prompt>【종합 응용】 사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">P(A)<0일 수 있다</option><option id="B">P(A)>1일 수 있다</option><option id="C">확률은 항상 1/2</option><option id="D">확률은 경우의 수와 무관</option><option id="E">0≤P(A)≤1</option></options>
+<options><option id="A">P(A)&lt;0일 수 있다</option><option id="B">P(A)>1일 수 있다</option><option id="C">확률은 항상 1/2</option><option id="D">확률은 경우의 수와 무관</option><option id="E">0≤P(A)≤1</option></options>
 <answer>E</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -1431,7 +1431,7 @@
 <concept>확률의 범위</concept>
 <prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">P(A)>1일 수 있다</option><option id="B">확률은 항상 1/2</option><option id="C">확률은 경우의 수와 무관</option><option id="D">0≤P(A)≤1</option><option id="E">P(A)<0일 수 있다</option></options>
+<options><option id="A">P(A)>1일 수 있다</option><option id="B">확률은 항상 1/2</option><option id="C">확률은 경우의 수와 무관</option><option id="D">0≤P(A)≤1</option><option id="E">P(A)&lt;0일 수 있다</option></options>
 <answer>D</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
