@@ -99,15 +99,15 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
 <section id="examView" style="display:none">
 <div class="card">
   <div style="font-weight:800;font-size:19px">중학교 2학년 2학기 시험</div>
-  <p class="meta">과목별 시험 공간 · 국어와 영어 이용 가능</p>
+  <p class="meta">과목별 시험 공간 · 국어·영어·수학 이용 가능</p>
   <div class="tabs subject-tabs" id="subjectTabs" role="tablist" aria-label="시험 과목">
     <button class="tab on" type="button" data-subject="korean" role="tab" aria-selected="true">국어</button>
     <button class="tab" type="button" data-subject="english" role="tab" aria-selected="false">영어</button>
     <button class="tab" type="button" data-subject="science" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">과학</button>
     <button class="tab" type="button" data-subject="history" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">역사</button>
-    <button class="tab" type="button" data-subject="math" role="tab" aria-selected="false" disabled aria-disabled="true" title="추후 오픈">수학</button>
+    <button class="tab" type="button" data-subject="math" role="tab" aria-selected="false">수학</button>
   </div>
-  <p class="hint">현재 영어 시험은 7~8과 범위로 제공됩니다. 과학·역사·수학은 준비 중입니다.</p>
+  <p class="hint">국어·영어·수학 시험을 이용할 수 있습니다. 과학·역사는 준비 중입니다.</p>
 </div>
 <div id="subject-korean">
 <div class="card" id="roundsCard">
@@ -165,6 +165,34 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:20px}
     <div class="card" id="englishFinalResult" style="display:none"></div>
   </div>
   <div class="card"><p class="hint">문제은행 XML: <a href="drafts/question-bank/english/ENG2S2_questions.xml" target="_blank" rel="noopener">영어 7~8과 150문항</a></p></div>
+</div>
+<div id="subject-math" style="display:none">
+  <div class="card">
+    <div style="font-weight:800;font-size:18px">수학 Ⅴ 도형의 닮음과 피타고라스 정리 · Ⅵ 확률</div>
+    <p class="meta">천재교육 중학교 수학 2-2 · 184~249쪽</p>
+    <p class="hint">도형의 닮음(184~206), 삼각형과 평행선, 무게중심, 경우의 수와 확률. 피타고라스 정리 207~218쪽 및 지정 제외 문항은 출제하지 않습니다.</p>
+    <p class="hint">문제에 도형이 있는 경우 그림을 함께 표시합니다. 교과서 문제항목 이미지의 출제 범위와 유형을 참고해 새 문항으로 구성했습니다.</p>
+  </div>
+  <div class="card" id="mathRoundsCard">
+    <div style="font-weight:800;font-size:18px">1차~4차 학습</div>
+    <p class="meta">각 회차 30문항 · 직전 회차 오답 + 신규 문항</p>
+    <div id="mathRoundCards"></div>
+    <div id="mathRoundArea" style="display:none">
+      <div id="mathRoundMeta" class="meta"></div><div id="mathRoundQuestions"></div>
+      <button class="btn" id="mathSubmitRound">답안 제출 및 채점</button>
+      <div class="card" id="mathRoundResult" style="display:none"></div>
+    </div>
+  </div>
+  <div class="card" id="mathFinalIntro">
+    <div style="font-weight:800;font-size:18px">수학 FINAL 실전</div>
+    <p class="meta">문제은행에서 선택한 26문항 · 객관식 23 · 서술형 3</p>
+    <button class="btn" id="mathStartFinal">FINAL 시험 시작</button>
+  </div>
+  <div id="mathFinalArea" style="display:none">
+    <div class="card"><div id="mathFinalMeta" class="meta"></div><div id="mathFinalQuestions"></div><button class="btn" id="mathSubmitFinal">답안 제출 및 채점</button></div>
+    <div class="card" id="mathFinalResult" style="display:none"></div>
+  </div>
+  <div class="card"><p class="hint">문제은행 XML: <a href="drafts/question-bank/math/MATH2S2_questions.xml" target="_blank" rel="noopener">수학 2-2 문제은행 150문항</a></p></div>
 </div>
 </div>
 </section>
@@ -710,5 +738,6 @@ initRounds();
 loadManifest(); renderTrend();
 </script>
 <script src="scripts/english_exam.js"></script>
+<script src="scripts/math_exam.js"></script>
 </body>
 </html>
