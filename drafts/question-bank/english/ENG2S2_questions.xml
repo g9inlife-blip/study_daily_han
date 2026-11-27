@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<examBank schemaVersion="1.0" subject="영어" schoolLevel="중학교" grade="2" semester="2" textbook="동아출판 중학교 영어 2 (윤정미)" sourcePages="7과 118-135;8과 136-149" created="2026-11-27">
+  <metadata>
+    <mainQuestionCount>120</mainQuestionCount><reserveQuestionCount>30</reserveQuestionCount><stageCount>4</stageCount><questionsPerStage>30</questionsPerStage><multipleChoicePerStage>25</multipleChoicePerStage><shortAnswerPerStage>5</shortAnswerPerStage><difficultyStatistics>응시 통계 축적 전 미산정</difficultyStatistics>
+    <scopeNote>7과는 지문·어휘·문법 전체, 8과는 어휘·문법만 출제. 8과 지문은 포함하지 않음.</scopeNote>
+  </metadata>
+  <passages>
+    <passage id="E7P1" unit="7과 지문" scopePages="118-135" title="Reading 1 · Festivals in Four Seasons"><text>People in different places celebrate festivals in every season. In spring, a town may decorate its streets with flowers. In summer, people gather near a river and enjoy music. In autumn, a parade can take place after the harvest. In winter, families may wear special costumes and watch fireworks. These events are different, but they share one purpose: bringing people together. A festival is not only a show for visitors. It can also help a community remember its traditions and share them with younger people.</text></passage>
+    <passage id="E7P2" unit="7과 지문" scopePages="118-135" title="Reading 2 · A Festival Team"><text>Our class decided to participate in a local festival. First, we set up a small booth and displayed a wooden puzzle. Then we invited visitors to try it. Some students wore traditional costumes, while others explained the rules. At the end of the day, we hardly had time to rest because so many people came. Surprisingly, the booth was popular even though it was simple. We learned that a festival becomes special when people work together and have fun.</text></passage>
+    <passage id="E7P3" unit="7과 지문" scopePages="118-135" title="Reading 3 · A Festival Poster"><text>The poster for the Green Spring Festival shows a giant tree in the center. Around it, children are planting flowers and cleaning a park. The words 'Small actions matter' appear at the bottom. The poster does not show fireworks or a parade. Instead, it asks visitors to participate in activities that protect nature. The tree symbolizes the hope that the community can make the area greener. The organizers believe that visitors will remember the message when they take part themselves.</text></passage>
+    <passage id="E7P4" unit="7과 지문" scopePages="118-135" title="Reading 4 · Choosing an Activity"><text>At the school festival, students could choose between a dance contest and a puzzle race. Jina wanted to join the dance contest because she enjoys music. Minho preferred the puzzle race because he likes solving problems. Their teacher said that it was important to respect different choices. In the end, both students participated in their favorite activities and helped decorate the hall. They discovered that having fun did not mean everyone had to choose the same thing.</text></passage>
+  </passages>
+  <questions>
+  <question id="ENG2S2-1-001" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 festival의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+Our school will hold a music _____ next Friday.</prompt>
+    <options>
+      <option id="A">million</option>
+      <option id="B">especially</option>
+      <option id="C">at any time</option>
+      <option id="D">festival</option>
+      <option id="E">toward</option>
+    </options>
+<answer>D</answer>
+<explanation>festival는 ‘축제’의 뜻으로 쓰였다. 문장 속 festival의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 festival이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-002" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 celebrate의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+We _____ our team's victory with a small party.</prompt>
+    <options>
+      <option id="A">parade</option>
+      <option id="B">all over</option>
+      <option id="C">except</option>
+      <option id="D">scared</option>
+      <option id="E">celebrate</option>
+    </options>
+<answer>E</answer>
+<explanation>celebrate는 ‘축하하다’의 뜻으로 쓰였다. 문장 속 celebrate의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 celebrate이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-003" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 costume의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+The dancers wore a colorful _____ on the stage.</prompt>
+    <options>
+      <option id="A">costume</option>
+      <option id="B">be covered in</option>
+      <option id="C">mud</option>
+      <option id="D">whisper</option>
+      <option id="E">symbolize</option>
+    </options>
+<answer>A</answer>
+<explanation>costume는 ‘의상’의 뜻으로 쓰였다. 문장 속 costume의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 costume이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-004" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 decorate의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+We _____ the hall with flowers and paper stars.</prompt>
+    <options>
+      <option id="A">fog</option>
+      <option id="B">decorate</option>
+      <option id="C">shocked</option>
+      <option id="D">participate</option>
+      <option id="E">traditional</option>
+    </options>
+<answer>B</answer>
+<explanation>decorate는 ‘장식하다’의 뜻으로 쓰였다. 문장 속 decorate의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 decorate이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-005" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 fireworks의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+Bright _____ lit up the sky at midnight.</prompt>
+    <options>
+      <option id="A">butterfly</option>
+      <option id="B">panic</option>
+      <option id="C">fireworks</option>
+      <option id="D">take place</option>
+      <option id="E">set up</option>
+    </options>
+<answer>C</answer>
+<explanation>fireworks는 ‘불꽃놀이’의 뜻으로 쓰였다. 문장 속 fireworks의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 fireworks이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-006" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 parade의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+A long _____ of musicians walked through the town.</prompt>
+    <options>
+      <option id="A">hardly</option>
+      <option id="B">silence</option>
+      <option id="C">possible</option>
+      <option id="D">parade</option>
+      <option id="E">breathe</option>
+    </options>
+<answer>D</answer>
+<explanation>parade는 ‘퍼레이드’의 뜻으로 쓰였다. 문장 속 parade의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 parade이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-007" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 participate의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+All students can _____ in the school event.</prompt>
+    <options>
+      <option id="A">foolish</option>
+      <option id="B">festival</option>
+      <option id="C">around the world</option>
+      <option id="D">at the end of</option>
+      <option id="E">participate</option>
+    </options>
+<answer>E</answer>
+<explanation>participate는 ‘참가하다’의 뜻으로 쓰였다. 문장 속 participate의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 participate이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-008" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 possible의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Is it _____ to finish the project by tomorrow?</prompt>
+    <options>
+      <option id="A">possible</option>
+      <option id="B">recipe</option>
+      <option id="C">cemetery</option>
+      <option id="D">by accident</option>
+      <option id="E">path</option>
+    </options>
+<answer>A</answer>
+<explanation>possible는 ‘가능한’의 뜻으로 쓰였다. 문장 속 possible의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 possible이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-009" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 appear의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+A rainbow may _____ after the rain.</prompt>
+    <options>
+      <option id="A">festival</option>
+      <option id="B">hardly</option>
+      <option id="C">by accident</option>
+      <option id="D">path</option>
+      <option id="E">appear</option>
+    </options>
+<answer>E</answer>
+<explanation>appear는 ‘나타나다’의 뜻으로 쓰였다. 문장 속 appear의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 appear이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-010" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 at any time의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+You can ask the teacher for help _____.</prompt>
+    <options>
+      <option id="A">at any time</option>
+      <option id="B">at the end of</option>
+      <option id="C">founder</option>
+      <option id="D">stare</option>
+      <option id="E">possible</option>
+    </options>
+<answer>A</answer>
+<explanation>at any time는 ‘언제든지’의 뜻으로 쓰였다. 문장 속 at any time의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 at any time이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-011" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 be covered in의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+After the snowstorm, the road will _____ snow.</prompt>
+    <options>
+      <option id="A">cause</option>
+      <option id="B">be covered in</option>
+      <option id="C">president</option>
+      <option id="D">celebrate</option>
+      <option id="E">around the world</option>
+    </options>
+<answer>B</answer>
+<explanation>be covered in는 ‘~로 덮이다’의 뜻으로 쓰였다. 문장 속 be covered in의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 be covered in이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-012" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 breathe의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+We went outside to _____ fresh air.</prompt>
+    <options>
+      <option id="A">suddenly</option>
+      <option id="B">instruction</option>
+      <option id="C">breathe</option>
+      <option id="D">recipe</option>
+      <option id="E">cemetery</option>
+    </options>
+<answer>C</answer>
+<explanation>breathe는 ‘숨 쉬다’의 뜻으로 쓰였다. 문장 속 breathe의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 breathe이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-013" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 by accident의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+I found the old photo _____.</prompt>
+    <options>
+      <option id="A">spring</option>
+      <option id="B">put ~ in danger</option>
+      <option id="C">costume</option>
+      <option id="D">by accident</option>
+      <option id="E">dress up</option>
+    </options>
+<answer>D</answer>
+<explanation>by accident는 ‘우연히’의 뜻으로 쓰였다. 문장 속 by accident의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 by accident이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-014" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 cause의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+What was the _____ of the strange noise?</prompt>
+    <options>
+      <option id="A">confused</option>
+      <option id="B">terrified</option>
+      <option id="C">reindeer</option>
+      <option id="D">various</option>
+      <option id="E">cause</option>
+    </options>
+<answer>E</answer>
+<explanation>cause는 ‘원인’의 뜻으로 쓰였다. 문장 속 cause의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 cause이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-015" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 confused의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+The instructions were unclear, so I felt _____.</prompt>
+    <options>
+      <option id="A">confused</option>
+      <option id="B">decorate</option>
+      <option id="C">wooden</option>
+      <option id="D">participate in</option>
+      <option id="E">jungle</option>
+    </options>
+<answer>A</answer>
+<explanation>confused는 ‘혼란스러운’의 뜻으로 쓰였다. 문장 속 confused의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 confused이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-001" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 recipe의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+My grandmother gave me a _____ for her special soup.</prompt>
+    <options>
+      <option id="A">cause</option>
+      <option id="B">recipe</option>
+      <option id="C">president</option>
+      <option id="D">celebrate</option>
+      <option id="E">spring</option>
+    </options>
+<answer>B</answer>
+<explanation>recipe는 ‘조리법’의 뜻으로 쓰였다. 문장 속 recipe의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 recipe이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-002" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 reindeer의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+The story says that _____ pull Santa's sleigh.</prompt>
+    <options>
+      <option id="A">suddenly</option>
+      <option id="B">instruction</option>
+      <option id="C">reindeer</option>
+      <option id="D">recipe</option>
+      <option id="E">various</option>
+    </options>
+<answer>C</answer>
+<explanation>reindeer는 ‘순록’의 뜻으로 쓰였다. 문장 속 reindeer의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 reindeer이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-003" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 skeleton의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The science museum displayed a human _____.</prompt>
+    <options>
+      <option id="A">wooden</option>
+      <option id="B">put ~ in danger</option>
+      <option id="C">costume</option>
+      <option id="D">skeleton</option>
+      <option id="E">participate in</option>
+    </options>
+<answer>D</answer>
+<explanation>skeleton는 ‘골격’의 뜻으로 쓰였다. 문장 속 skeleton의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 skeleton이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-004" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 statue의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+A stone _____ stands in front of the museum.</prompt>
+    <options>
+      <option id="A">confused</option>
+      <option id="B">terrified</option>
+      <option id="C">reindeer</option>
+      <option id="D">race</option>
+      <option id="E">statue</option>
+    </options>
+<answer>E</answer>
+<explanation>statue는 ‘조각상’의 뜻으로 쓰였다. 문장 속 statue의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 statue이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-005" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 symbolize의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+In many stories, a dove can _____ peace.</prompt>
+    <options>
+      <option id="A">symbolize</option>
+      <option id="B">decorate</option>
+      <option id="C">surprisingly</option>
+      <option id="D">appear</option>
+      <option id="E">jungle</option>
+    </options>
+<answer>A</answer>
+<explanation>symbolize는 ‘상징하다’의 뜻으로 쓰였다. 문장 속 symbolize의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 symbolize이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-006" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 take place의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+The festival will _____ in the city park.</prompt>
+    <options>
+      <option id="A">skeleton</option>
+      <option id="B">take place</option>
+      <option id="C">wear</option>
+      <option id="D">dinosaur</option>
+      <option id="E">roar</option>
+    </options>
+<answer>B</answer>
+<explanation>take place는 ‘열리다’의 뜻으로 쓰였다. 문장 속 take place의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 take place이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-007" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 around the world의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+People _____ enjoy different seasonal festivals.</prompt>
+    <options>
+      <option id="A">at any time</option>
+      <option id="B">especially</option>
+      <option id="C">around the world</option>
+      <option id="D">million</option>
+      <option id="E">toward</option>
+    </options>
+<answer>C</answer>
+<explanation>around the world는 ‘전 세계에’의 뜻으로 쓰였다. 문장 속 around the world의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 around the world이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-008" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 spring의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+Flowers begin to bloom in _____.</prompt>
+    <options>
+      <option id="A">scared</option>
+      <option id="B">all over</option>
+      <option id="C">except</option>
+      <option id="D">spring</option>
+      <option id="E">fireworks</option>
+    </options>
+<answer>D</answer>
+<explanation>spring는 ‘봄’의 뜻으로 쓰였다. 문장 속 spring의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 spring이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-009" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 dinosaur의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The museum has a model of a huge _____.</prompt>
+    <options>
+      <option id="A">possible</option>
+      <option id="B">founder</option>
+      <option id="C">stare</option>
+      <option id="D">dinosaur</option>
+      <option id="E">hardly</option>
+    </options>
+<answer>D</answer>
+<explanation>dinosaur는 ‘공룡’의 뜻으로 쓰였다. 문장 속 dinosaur의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 dinosaur이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-010" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 except의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+Everyone came _____ Mina, who was sick.</prompt>
+    <options>
+      <option id="A">at the end of</option>
+      <option id="B">president</option>
+      <option id="C">celebrate</option>
+      <option id="D">around the world</option>
+      <option id="E">except</option>
+    </options>
+<answer>E</answer>
+<explanation>except는 ‘~을 제외하고’의 뜻으로 쓰였다. 문장 속 except의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 except이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-011" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 fog의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Thick _____ covered the mountain in the morning.</prompt>
+    <options>
+      <option id="A">fog</option>
+      <option id="B">suddenly</option>
+      <option id="C">recipe</option>
+      <option id="D">cemetery</option>
+      <option id="E">by accident</option>
+    </options>
+<answer>A</answer>
+<explanation>fog는 ‘안개’의 뜻으로 쓰였다. 문장 속 fog의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 fog이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-012" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 foolish의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+It was _____ to cross the road without looking.</prompt>
+    <options>
+      <option id="A">costume</option>
+      <option id="B">foolish</option>
+      <option id="C">spring</option>
+      <option id="D">dress up</option>
+      <option id="E">instruction</option>
+    </options>
+<answer>B</answer>
+<explanation>foolish는 ‘어리석은’의 뜻으로 쓰였다. 문장 속 foolish의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 foolish이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-013" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 founder의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The _____ of the company started it many years ago.</prompt>
+    <options>
+      <option id="A">various</option>
+      <option id="B">reindeer</option>
+      <option id="C">founder</option>
+      <option id="D">cause</option>
+      <option id="E">put ~ in danger</option>
+    </options>
+<answer>C</answer>
+<explanation>founder는 ‘설립자’의 뜻으로 쓰였다. 문장 속 founder의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 founder이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-014" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 instruction의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+Read each _____ before using the machine.</prompt>
+    <options>
+      <option id="A">jungle</option>
+      <option id="B">wooden</option>
+      <option id="C">participate in</option>
+      <option id="D">instruction</option>
+      <option id="E">terrified</option>
+    </options>
+<answer>D</answer>
+<explanation>instruction는 ‘지시’의 뜻으로 쓰였다. 문장 속 instruction의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 instruction이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-015" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 jungle의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Many wild animals live in the _____.</prompt>
+    <options>
+      <option id="A">decorate</option>
+      <option id="B">race</option>
+      <option id="C">confused</option>
+      <option id="D">roar</option>
+      <option id="E">jungle</option>
+    </options>
+<answer>E</answer>
+<explanation>jungle는 ‘정글’의 뜻으로 쓰였다. 문장 속 jungle의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 jungle이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-001" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 wooden의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+They crossed the river on a _____ bridge.</prompt>
+    <options>
+      <option id="A">be covered in</option>
+      <option id="B">shocked</option>
+      <option id="C">parade</option>
+      <option id="D">traditional</option>
+      <option id="E">wooden</option>
+    </options>
+<answer>E</answer>
+<explanation>wooden는 ‘나무로 된’의 뜻으로 쓰였다. 문장 속 wooden의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 wooden이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-002" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 surprisingly의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+_____, the small team won the race.</prompt>
+    <options>
+      <option id="A">surprisingly</option>
+      <option id="B">butterfly</option>
+      <option id="C">symbolize</option>
+      <option id="D">set up</option>
+      <option id="E">fog</option>
+    </options>
+<answer>A</answer>
+<explanation>surprisingly는 ‘놀랍게도’의 뜻으로 쓰였다. 문장 속 surprisingly의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 surprisingly이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-003" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 especially의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+I enjoy outdoor activities, _____ in spring.</prompt>
+    <options>
+      <option id="A">participate</option>
+      <option id="B">especially</option>
+      <option id="C">hardly</option>
+      <option id="D">breathe</option>
+      <option id="E">panic</option>
+    </options>
+<answer>B</answer>
+<explanation>especially는 ‘특히’의 뜻으로 쓰였다. 문장 속 especially의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 especially이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-004" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 traditional의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The family prepared a _____ meal for the holiday.</prompt>
+    <options>
+      <option id="A">at the end of</option>
+      <option id="B">take place</option>
+      <option id="C">traditional</option>
+      <option id="D">foolish</option>
+      <option id="E">silence</option>
+    </options>
+<answer>C</answer>
+<explanation>traditional는 ‘전통적인’의 뜻으로 쓰였다. 문장 속 traditional의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 traditional이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-005" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 hardly의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+I was so tired that I could _____ keep my eyes open.</prompt>
+    <options>
+      <option id="A">path</option>
+      <option id="B">cemetery</option>
+      <option id="C">by accident</option>
+      <option id="D">hardly</option>
+      <option id="E">festival</option>
+    </options>
+<answer>D</answer>
+<explanation>hardly는 ‘거의 ~않다’의 뜻으로 쓰였다. 문장 속 hardly의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 hardly이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-006" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 cemetery의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+People visited the _____ to remember their relatives.</prompt>
+    <options>
+      <option id="A">possible</option>
+      <option id="B">dress up</option>
+      <option id="C">founder</option>
+      <option id="D">stare</option>
+      <option id="E">cemetery</option>
+    </options>
+<answer>E</answer>
+<explanation>cemetery는 ‘묘지’의 뜻으로 쓰였다. 문장 속 cemetery의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 cemetery이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-007" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 various의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+The festival offers _____ games and performances.</prompt>
+    <options>
+      <option id="A">various</option>
+      <option id="B">cause</option>
+      <option id="C">president</option>
+      <option id="D">celebrate</option>
+      <option id="E">around the world</option>
+    </options>
+<answer>A</answer>
+<explanation>various는 ‘다양한’의 뜻으로 쓰였다. 문장 속 various의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 various이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-008" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 million의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The city has more than one _____ people.</prompt>
+    <options>
+      <option id="A">around the world</option>
+      <option id="B">celebrate</option>
+      <option id="C">million</option>
+      <option id="D">at the end of</option>
+      <option id="E">foolish</option>
+    </options>
+<answer>C</answer>
+<explanation>million는 ‘백만’의 뜻으로 쓰였다. 문장 속 million의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 million이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-009" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 mud의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+The children got their shoes dirty in the _____.</prompt>
+    <options>
+      <option id="A">by accident</option>
+      <option id="B">recipe</option>
+      <option id="C">cemetery</option>
+      <option id="D">mud</option>
+      <option id="E">president</option>
+    </options>
+<answer>D</answer>
+<explanation>mud는 ‘진흙’의 뜻으로 쓰였다. 문장 속 mud의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 mud이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-010" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 panic의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Do not _____ when you hear the alarm.</prompt>
+    <options>
+      <option id="A">suddenly</option>
+      <option id="B">spring</option>
+      <option id="C">dress up</option>
+      <option id="D">founder</option>
+      <option id="E">panic</option>
+    </options>
+<answer>E</answer>
+<explanation>panic는 ‘당황하다’의 뜻으로 쓰였다. 문장 속 panic의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 panic이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-011" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 path의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+We followed a narrow _____ through the forest.</prompt>
+    <options>
+      <option id="A">path</option>
+      <option id="B">various</option>
+      <option id="C">cause</option>
+      <option id="D">put ~ in danger</option>
+      <option id="E">costume</option>
+    </options>
+<answer>A</answer>
+<explanation>path는 ‘길’의 뜻으로 쓰였다. 문장 속 path의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 path이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-012" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 president의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The _____ gave a speech to the people.</prompt>
+    <options>
+      <option id="A">participate in</option>
+      <option id="B">president</option>
+      <option id="C">instruction</option>
+      <option id="D">terrified</option>
+      <option id="E">reindeer</option>
+    </options>
+<answer>B</answer>
+<explanation>president는 ‘대통령’의 뜻으로 쓰였다. 문장 속 president의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 president이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-013" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 put ~ in danger의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+Pollution can _____ many sea animals ___.</prompt>
+    <options>
+      <option id="A">roar</option>
+      <option id="B">confused</option>
+      <option id="C">put ~ in danger</option>
+      <option id="D">decorate</option>
+      <option id="E">wooden</option>
+    </options>
+<answer>C</answer>
+<explanation>put ~ in danger는 ‘~을 위험에 빠뜨리다’의 뜻으로 쓰였다. 문장 속 put ~ in danger의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 put ~ in danger이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-014" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 roar의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+We heard a lion _____ loudly.</prompt>
+    <options>
+      <option id="A">skeleton</option>
+      <option id="B">jungle</option>
+      <option id="C">toward</option>
+      <option id="D">roar</option>
+      <option id="E">race</option>
+    </options>
+<answer>D</answer>
+<explanation>roar는 ‘포효하다’의 뜻으로 쓰였다. 문장 속 roar의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 roar이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-015" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 scared의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+The little boy was _____ of the dark.</prompt>
+    <options>
+      <option id="A">appear</option>
+      <option id="B">roar</option>
+      <option id="C">fireworks</option>
+      <option id="D">surprisingly</option>
+      <option id="E">scared</option>
+    </options>
+<answer>E</answer>
+<explanation>scared는 ‘겁먹은’의 뜻으로 쓰였다. 문장 속 scared의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 scared이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-001" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 race의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The runners took part in a 5-kilometer _____.</prompt>
+    <options>
+      <option id="A">various</option>
+      <option id="B">reindeer</option>
+      <option id="C">race</option>
+      <option id="D">confused</option>
+      <option id="E">put ~ in danger</option>
+    </options>
+<answer>C</answer>
+<explanation>race는 ‘경주’의 뜻으로 쓰였다. 문장 속 race의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 race이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-002" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 wear의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+You should _____ a warm coat in winter.</prompt>
+    <options>
+      <option id="A">jungle</option>
+      <option id="B">wooden</option>
+      <option id="C">appear</option>
+      <option id="D">wear</option>
+      <option id="E">terrified</option>
+    </options>
+<answer>D</answer>
+<explanation>wear는 ‘입다’의 뜻으로 쓰였다. 문장 속 wear의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 wear이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-003" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 all over의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Colorful posters were placed _____ the school.</prompt>
+    <options>
+      <option id="A">decorate</option>
+      <option id="B">race</option>
+      <option id="C">dinosaur</option>
+      <option id="D">roar</option>
+      <option id="E">all over</option>
+    </options>
+<answer>E</answer>
+<explanation>all over는 ‘곳곳에’의 뜻으로 쓰였다. 문장 속 all over의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 all over이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-004" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 set up의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+We will _____ a tent near the entrance.</prompt>
+    <options>
+      <option id="A">set up</option>
+      <option id="B">at any time</option>
+      <option id="C">million</option>
+      <option id="D">toward</option>
+      <option id="E">skeleton</option>
+    </options>
+<answer>A</answer>
+<explanation>set up는 ‘설치하다’의 뜻으로 쓰였다. 문장 속 set up의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 set up이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-005" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 at the end of의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+We will clean the room _____ the event.</prompt>
+    <options>
+      <option id="A">except</option>
+      <option id="B">at the end of</option>
+      <option id="C">scared</option>
+      <option id="D">fireworks</option>
+      <option id="E">surprisingly</option>
+    </options>
+<answer>B</answer>
+<explanation>at the end of는 ‘~의 끝에’의 뜻으로 쓰였다. 문장 속 at the end of의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 at the end of이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-006" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 dress up의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+The children will _____ as storybook characters.</prompt>
+    <options>
+      <option id="A">whisper</option>
+      <option id="B">mud</option>
+      <option id="C">dress up</option>
+      <option id="D">statue</option>
+      <option id="E">wear</option>
+    </options>
+<answer>C</answer>
+<explanation>dress up는 ‘차려입다’의 뜻으로 쓰였다. 문장 속 dress up의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 dress up이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-007" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 participate in의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Many families _____ the parade every year.</prompt>
+    <options>
+      <option id="A">especially</option>
+      <option id="B">shocked</option>
+      <option id="C">parade</option>
+      <option id="D">participate in</option>
+      <option id="E">be covered in</option>
+    </options>
+<answer>D</answer>
+<explanation>participate in는 ‘~에 참여하다’의 뜻으로 쓰였다. 문장 속 participate in의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 participate in이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-008" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 shocked의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+I was _____ when I heard the unexpected news.</prompt>
+    <options>
+      <option id="A">cemetery</option>
+      <option id="B">shocked</option>
+      <option id="C">by accident</option>
+      <option id="D">path</option>
+      <option id="E">celebrate</option>
+    </options>
+<answer>B</answer>
+<explanation>shocked는 ‘충격을 받은’의 뜻으로 쓰였다. 문장 속 shocked의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 shocked이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-009" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 silence의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+There was complete _____ in the room.</prompt>
+    <options>
+      <option id="A">founder</option>
+      <option id="B">dress up</option>
+      <option id="C">silence</option>
+      <option id="D">suddenly</option>
+      <option id="E">recipe</option>
+    </options>
+<answer>C</answer>
+<explanation>silence는 ‘침묵’의 뜻으로 쓰였다. 문장 속 silence의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 silence이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-010" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 stare의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+It is rude to _____ at people for a long time.</prompt>
+    <options>
+      <option id="A">costume</option>
+      <option id="B">cause</option>
+      <option id="C">president</option>
+      <option id="D">stare</option>
+      <option id="E">spring</option>
+    </options>
+<answer>D</answer>
+<explanation>stare는 ‘응시하다’의 뜻으로 쓰였다. 문장 속 stare의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 stare이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-011" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 suddenly의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+The lights _____ went out.</prompt>
+    <options>
+      <option id="A">various</option>
+      <option id="B">instruction</option>
+      <option id="C">terrified</option>
+      <option id="D">reindeer</option>
+      <option id="E">suddenly</option>
+    </options>
+<answer>E</answer>
+<explanation>suddenly는 ‘갑자기’의 뜻으로 쓰였다. 문장 속 suddenly의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 suddenly이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-012" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 terrified의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+She was _____ when the huge dog ran toward her.</prompt>
+    <options>
+      <option id="A">terrified</option>
+      <option id="B">put ~ in danger</option>
+      <option id="C">decorate</option>
+      <option id="D">wooden</option>
+      <option id="E">participate in</option>
+    </options>
+<answer>A</answer>
+<explanation>terrified는 ‘겁에 질린’의 뜻으로 쓰였다. 문장 속 terrified의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 terrified이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-013" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 toward의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+The traveler walked _____ the old bridge.</prompt>
+    <options>
+      <option id="A">terrified</option>
+      <option id="B">toward</option>
+      <option id="C">skeleton</option>
+      <option id="D">race</option>
+      <option id="E">confused</option>
+    </options>
+<answer>B</answer>
+<explanation>toward는 ‘~을 향해’의 뜻으로 쓰였다. 문장 속 toward의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 toward이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-014" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 whisper의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Please _____ so you don't wake the baby.</prompt>
+    <options>
+      <option id="A">surprisingly</option>
+      <option id="B">fireworks</option>
+      <option id="C">whisper</option>
+      <option id="D">appear</option>
+      <option id="E">jungle</option>
+    </options>
+<answer>C</answer>
+<explanation>whisper는 ‘속삭이다’의 뜻으로 쓰였다. 문장 속 whisper의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 whisper이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-015" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 butterfly의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+A beautiful _____ landed on the flower.</prompt>
+    <options>
+      <option id="A">dinosaur</option>
+      <option id="B">statue</option>
+      <option id="C">wear</option>
+      <option id="D">butterfly</option>
+      <option id="E">roar</option>
+    </options>
+<answer>D</answer>
+<explanation>butterfly는 ‘나비’의 뜻으로 쓰였다. 문장 속 butterfly의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 butterfly이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-016" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct form.</concept>
+<prompt>We _____ this festival three times.</prompt>
+    <options>
+      <option id="A">have visited</option>
+      <option id="B">visited</option>
+      <option id="C">has visited</option>
+      <option id="D">visit</option>
+      <option id="E">are visit</option>
+    </options>
+<answer>A</answer>
+<explanation>현재완료 경험: 주어 We에 맞는 have + 과거분사 have visited가 알맞다.</explanation>
+<advancedExplanation>현재완료는 과거의 경험·완료·계속을 현재와 연결한다. 단순과거는 과거의 특정 시점에 초점을 둔다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-017" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>_____ to learn about other cultures is useful.</prompt>
+    <options>
+      <option id="A">It is useful</option>
+      <option id="B">It is useful to</option>
+      <option id="C">It useful is</option>
+      <option id="D">That useful</option>
+      <option id="E">To it useful</option>
+    </options>
+<answer>B</answer>
+<explanation>It is useful to learn about other cultures.가 올바른 어순이다.</explanation>
+<advancedExplanation>가주어 it 뒤에 be동사와 형용사가 오고, 실제 내용인 to부정사가 문장 뒤에 온다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-018" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>People call the festival _____.</prompt>
+    <options>
+      <option id="A">as the Spring Day</option>
+      <option id="B">to Spring Day</option>
+      <option id="C">Spring Day</option>
+      <option id="D">for Spring Day</option>
+      <option id="E">Spring Day it</option>
+    </options>
+<answer>C</answer>
+<explanation>call + 목적어 + 목적격 보어의 구조에서 축제의 이름 Spring Day가 보어로 온다.</explanation>
+<advancedExplanation>call A B는 A를 B라고 부르다라는 뜻이다. 이름 앞에 as/to/for를 붙이지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-019" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct indirect question.</concept>
+<prompt>Do you know _____?</prompt>
+    <options>
+      <option id="A">where does he live</option>
+      <option id="B">where he lives</option>
+      <option id="C">where is he live</option>
+      <option id="D">where he live does</option>
+      <option id="E">where lives he</option>
+    </options>
+<answer>B</answer>
+<explanation>간접의문문은 의문사 뒤에 주어+동사 어순을 쓴다.</explanation>
+<advancedExplanation>직접의문문 where does he live의 조동사 does를 없애고 동사 live를 주어 he에 맞춰 lives로 바꾼다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-020" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct expression.</concept>
+<prompt>The road was closed _____ the heavy fog.</prompt>
+    <options>
+      <option id="A">because</option>
+      <option id="B">because of</option>
+      <option id="C">so</option>
+      <option id="D">although</option>
+      <option id="E">during of</option>
+    </options>
+<answer>B</answer>
+<explanation>because of 뒤에는 명사구 the heavy fog가 온다.</explanation>
+<advancedExplanation>because는 뒤에 주어+동사가 있는 절을 이끌고, because of는 명사(구)를 이끈다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-016" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct form.</concept>
+<prompt>She _____ her costume already.</prompt>
+    <options>
+      <option id="A">has decorated</option>
+      <option id="B">have decorated</option>
+      <option id="C">decorates yesterday</option>
+      <option id="D">is decorate</option>
+      <option id="E">decorate</option>
+    </options>
+<answer>A</answer>
+<explanation>현재완료의 already는 완료를 나타낼 수 있으며 She에는 has + decorated가 알맞다.</explanation>
+<advancedExplanation>현재완료는 have/has + 과거분사 형태이다. yesterday와 같은 명확한 과거 시점에는 보통 단순과거를 쓴다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-017" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>It is difficult _____ the old statue.</prompt>
+    <options>
+      <option id="A">to move</option>
+      <option id="B">move</option>
+      <option id="C">moving it</option>
+      <option id="D">for move</option>
+      <option id="E">to moving</option>
+    </options>
+<answer>A</answer>
+<explanation>It is difficult to move the old statue.가 올바르다.</explanation>
+<advancedExplanation>가주어 it이 to부정사구를 대신한다. 형용사 뒤에 to + 동사원형을 쓴다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-018" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>The story made the children _____.</prompt>
+    <options>
+      <option id="A">excitedly</option>
+      <option id="B">exciting</option>
+      <option id="C">excited</option>
+      <option id="D">to excited</option>
+      <option id="E">excite</option>
+    </options>
+<answer>C</answer>
+<explanation>make + 목적어 + 형용사: the children을 excited한 상태로 만들었다.</explanation>
+<advancedExplanation>목적격 보어 자리에는 목적어의 상태를 나타내는 형용사가 온다. excited는 감정을 느끼는 사람의 상태이다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-019" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct indirect question.</concept>
+<prompt>Can you tell me _____?</prompt>
+    <options>
+      <option id="A">what time is the parade</option>
+      <option id="B">what time the parade starts</option>
+      <option id="C">what time does the parade start</option>
+      <option id="D">what starts time parade</option>
+      <option id="E">the parade what time starts</option>
+    </options>
+<answer>B</answer>
+<explanation>what time the parade starts가 간접의문문의 올바른 어순이다.</explanation>
+<advancedExplanation>의문사구 what time 뒤에 주어 the parade와 동사 starts가 온다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-020" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct expression.</concept>
+<prompt>We stayed inside _____ it was raining.</prompt>
+    <options>
+      <option id="A">because of</option>
+      <option id="B">because</option>
+      <option id="C">because of raining</option>
+      <option id="D">due because</option>
+      <option id="E">for it</option>
+    </options>
+<answer>B</answer>
+<explanation>because 뒤에는 주어 it과 동사 was raining이 있는 절이 온다.</explanation>
+<advancedExplanation>because + 절, because of + 명사(구). because of the rain으로 바꿀 수 있다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-016" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct form.</concept>
+<prompt>They _____ the festival since 2022.</prompt>
+    <options>
+      <option id="A">have celebrated</option>
+      <option id="B">celebrate</option>
+      <option id="C">celebrated since</option>
+      <option id="D">has celebrated</option>
+      <option id="E">are celebrate</option>
+    </options>
+<answer>A</answer>
+<explanation>since 2022는 과거부터 현재까지의 계속을 나타내므로 현재완료 have celebrated가 알맞다.</explanation>
+<advancedExplanation>주어 They에는 have를 쓰고 celebrate의 과거분사 celebrated를 쓴다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-017" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>_____ to join the parade is exciting.</prompt>
+    <options>
+      <option id="A">It</option>
+      <option id="B">It is exciting</option>
+      <option id="C">It exciting is</option>
+      <option id="D">Exciting it</option>
+      <option id="E">To it is</option>
+    </options>
+<answer>B</answer>
+<explanation>It is exciting to join the parade.가 올바르다.</explanation>
+<advancedExplanation>가주어 it과 진주어 to join the parade의 관계를 파악한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-018" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>The students found it easy _____ the puzzle.</prompt>
+    <options>
+      <option id="A">solve</option>
+      <option id="B">solving</option>
+      <option id="C">to solve</option>
+      <option id="D">solved</option>
+      <option id="E">for solve</option>
+    </options>
+<answer>C</answer>
+<explanation>find it + 형용사 + to부정사 구조이다.</explanation>
+<advancedExplanation>it은 가목적어이고 실제 목적어는 to solve the puzzle이다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-019" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct indirect question.</concept>
+<prompt>I wonder _____ the traveler went.</prompt>
+    <options>
+      <option id="A">where did</option>
+      <option id="B">where</option>
+      <option id="C">where does</option>
+      <option id="D">where the traveler did</option>
+      <option id="E">where went</option>
+    </options>
+<answer>B</answer>
+<explanation>I wonder where the traveler went.가 올바른 문장이다.</explanation>
+<advancedExplanation>간접의문문은 평서문 어순이며 과거 went만 사용한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-020" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct expression.</concept>
+<prompt>The game was canceled _____ the storm.</prompt>
+    <options>
+      <option id="A">because</option>
+      <option id="B">because of</option>
+      <option id="C">because of it was</option>
+      <option id="D">so that</option>
+      <option id="E">because to</option>
+    </options>
+<answer>B</answer>
+<explanation>because of 뒤에 명사구 the storm이 온다.</explanation>
+<advancedExplanation>because the storm was strong처럼 절을 쓰면 because가 필요하다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-016" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct form.</concept>
+<prompt>My family _____ this festival before.</prompt>
+    <options>
+      <option id="A">has never seen</option>
+      <option id="B">have never saw</option>
+      <option id="C">never see</option>
+      <option id="D">is never seen</option>
+      <option id="E">never seeing</option>
+    </options>
+<answer>A</answer>
+<explanation>My family를 단수 집단으로 보고 has + 과거분사 seen을 쓴다.</explanation>
+<advancedExplanation>never는 현재완료 경험과 함께 쓰일 수 있다. see의 과거분사는 seen이다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-017" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>It is important _____ the instructions carefully.</prompt>
+    <options>
+      <option id="A">read</option>
+      <option id="B">reading</option>
+      <option id="C">to read</option>
+      <option id="D">readed</option>
+      <option id="E">for read</option>
+    </options>
+<answer>C</answer>
+<explanation>It is important to read the instructions carefully.가 올바르다.</explanation>
+<advancedExplanation>It is + 형용사 + to부정사 구조로 행동의 중요성을 표현한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-018" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>They called the wooden bridge _____.</prompt>
+    <options>
+      <option id="A">as Rainbow Bridge</option>
+      <option id="B">Rainbow Bridge</option>
+      <option id="C">to Rainbow Bridge</option>
+      <option id="D">for Rainbow Bridge</option>
+      <option id="E">Rainbow Bridge as</option>
+    </options>
+<answer>B</answer>
+<explanation>call + 목적어 + 이름의 순서로 Rainbow Bridge가 보어가 된다.</explanation>
+<advancedExplanation>이름을 목적격 보어로 쓰는 call A B 구조에서는 전치사 없이 이름을 바로 쓴다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-019" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct indirect question.</concept>
+<prompt>Do you know _____?</prompt>
+    <options>
+      <option id="A">whether the museum is open</option>
+      <option id="B">is the museum open</option>
+      <option id="C">whether is the museum open</option>
+      <option id="D">does the museum open whether</option>
+      <option id="E">the museum whether open</option>
+    </options>
+<answer>A</answer>
+<explanation>whether the museum is open은 간접의문문의 어순이다.</explanation>
+<advancedExplanation>whether/if는 ‘~인지 아닌지’를 나타내며 뒤에는 주어+동사 어순이 온다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-020" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct expression.</concept>
+<prompt>The traveler was late _____ the thick fog.</prompt>
+    <options>
+      <option id="A">because</option>
+      <option id="B">because of</option>
+      <option id="C">because of he saw</option>
+      <option id="D">although of</option>
+      <option id="E">so</option>
+    </options>
+<answer>B</answer>
+<explanation>because of 뒤에 명사구 the thick fog가 온다.</explanation>
+<advancedExplanation>because the fog was thick으로 바꾸면 because 뒤에 절이 온다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-021" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P1">
+<concept>What is the main idea of Reading 1?</concept>
+<prompt>Festivals bring people together and help share traditions.|All festivals must include fireworks.|Only visitors can enjoy festivals.|Festivals happen only in summer.|Every festival has the same activities.</prompt>
+    <options>
+      <option id="A">A</option>
+    </options>
+<answer>글은 계절별 축제의 차이와 공동체를 연결하고 전통을 나누는 공통 목적을 설명한다.</answer>
+<explanation>세부 활동인 꽃 장식·음악·퍼레이드·불꽃놀이를 중심 생각으로 오해하지 않는다. 마지막 두 문장이 축제의 공동체적 기능을 정리한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-022" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P1">
+<concept>According to Reading 1, what may people do in winter?</concept>
+<prompt>Plant flowers in the street.|Gather near a river.|Watch fireworks.|Clean a park.|Take part in a harvest parade.</prompt>
+    <options>
+      <option id="A">C</option>
+    </options>
+<answer>겨울에는 가족들이 특별한 의상을 입고 불꽃놀이를 볼 수 있다고 했다.</answer>
+<explanation>본문의 계절별 정보 연결을 확인한다. 봄은 꽃, 여름은 강가 음악, 가을은 수확 후 퍼레이드, 겨울은 의상과 불꽃놀이다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-023" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P1">
+<concept>What does 'them' refer to in Reading 1?</concept>
+<prompt>different places|festivals|younger people|visitors|seasons</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>them은 앞에서 언급한 traditions(전통)를 가리키는 문맥으로 사용된다.</answer>
+<explanation>대명사의 지시 대상은 바로 앞 단어만 보지 말고 문장 의미와 수·의미 관계를 확인한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-024" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P1">
+<concept>Which statement is NOT true about Reading 1?</concept>
+<prompt>Festivals can take place in different seasons.|A festival may help a community remember traditions.|Every festival is only a show for visitors.|People may share traditions with younger people.|Festivals can bring people together.</prompt>
+    <options>
+      <option id="A">C</option>
+    </options>
+<answer>글은 축제가 방문객을 위한 공연만은 아니라고 명시한다.</answer>
+<explanation>not only / not ... only와 같은 부정 표현을 놓치지 말고 본문 주장과 대조한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-025" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P1">
+<concept>Choose the best title for Reading 1.</concept>
+<prompt>Festivals: Different Activities, Shared Purpose|How to Make Fireworks|A Winter Parade Only|Visitors Who Travel Alone|The Most Popular Festival</prompt>
+    <options>
+      <option id="A">A</option>
+    </options>
+<answer>계절별 활동은 다르지만 사람들을 모으고 전통을 나눈다는 공통 목적이 중심이다.</answer>
+<explanation>제목은 특정 세부 활동보다 글 전체의 핵심 내용을 포괄해야 한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-021" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P2">
+<concept>What did the class do first in Reading 2?</concept>
+<prompt>They explained the rules.|They invited visitors.|They set up a booth and displayed a puzzle.|They cleaned the hall.|They chose a dance contest.</prompt>
+    <options>
+      <option id="A">C</option>
+    </options>
+<answer>먼저 부스를 설치하고 나무 퍼즐을 전시했다.</answer>
+<explanation>순서 표현 First, Then, At the end of를 이용해 사건 순서를 확인한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-022" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P2">
+<concept>Why was the booth popular?</concept>
+<prompt>It was very expensive.|It was simple but students worked together and welcomed visitors.|It had fireworks every hour.|Only teachers could play.|It was the largest booth.</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>글은 단순했지만 많은 방문객이 왔고 협력과 참여가 이루어졌다고 설명한다.</answer>
+<explanation>인기를 얻은 이유를 한 가지 물건이나 규모로 단정하지 않는다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-023" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P2">
+<concept>What does 'hardly had time to rest' mean?</concept>
+<prompt>They rested for a long time.|They had almost no time to rest.|They did not come to the festival.|They finished early.|They wanted to leave immediately.</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>hardly는 ‘거의 ~않다’라는 뜻이므로 쉴 시간이 거의 없었다.</answer>
+<explanation>hardly를 hard(열심히)와 혼동하지 않는다. 문맥에서 부정에 가까운 의미를 갖는다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-024" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P2">
+<concept>Which activity was NOT mentioned in Reading 2?</concept>
+<prompt>Displaying a wooden puzzle|Wearing traditional costumes|Explaining rules|Watching a fireworks show|Setting up a booth</prompt>
+    <options>
+      <option id="A">D</option>
+    </options>
+<answer>Reading 2에는 불꽃놀이를 보았다는 내용이 없다.</answer>
+<explanation>본문에 등장한 활동을 확인하는 문제이므로 상식으로 내용을 보충하지 않는다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-025" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P2">
+<concept>What lesson did the students learn?</concept>
+<prompt>A festival should be expensive.|Only costumes matter.|Working together and having fun can make a simple booth special.|Visitors should not try games.|Students should avoid explaining rules.</prompt>
+    <options>
+      <option id="A">C</option>
+    </options>
+<answer>학생들은 협력과 즐거움이 단순한 부스도 특별하게 만들 수 있음을 배웠다.</answer>
+<explanation>마지막 문장은 경험에서 얻은 교훈을 직접 제시한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-021" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P3">
+<concept>What is the poster mainly asking visitors to do?</concept>
+<prompt>Watch a parade.|Buy wooden puzzles.|Join activities that protect nature.|Wear costumes.|Watch fireworks.</prompt>
+    <options>
+      <option id="A">C</option>
+    </options>
+<answer>포스터는 자연을 보호하는 활동에 참여하도록 권한다.</answer>
+<explanation>중심 메시지는 제목의 Green Spring Festival과 ‘Small actions matter’, 나무·꽃 심기 그림을 종합해 판단한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-022" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P3">
+<concept>What does the giant tree symbolize?</concept>
+<prompt>The end of the festival|The community's hope for a greener area|A famous president|A winter celebration|A puzzle competition</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>나무는 지역을 더 푸르게 만들 수 있다는 공동체의 희망을 상징한다.</answer>
+<explanation>symbolize는 실제 사물과 추상적 의미의 관계를 나타낸다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-023" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P3">
+<concept>Why does the poster not show fireworks or a parade?</concept>
+<prompt>The festival is canceled.|It focuses on environmental participation instead.|The organizers forgot to add pictures.|The event is only for children.|It takes place in winter.</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>포스터의 목적은 자연 보호 활동 참여를 강조하는 것이므로 불꽃놀이·퍼레이드 대신 환경 활동을 보여 준다.</answer>
+<explanation>자료의 선택과 배제는 제작자의 전달 의도와 연결된다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-024" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P3">
+<concept>Which phrase best supports the poster's message?</concept>
+<prompt>Small actions matter.|The biggest show in town.|Come for fireworks.|A parade every hour.|Wear your best costume.</prompt>
+    <options>
+      <option id="A">A</option>
+    </options>
+<answer>‘Small actions matter’가 환경 보호를 위한 작은 실천의 중요성을 직접 전달한다.</answer>
+<explanation>글과 시각 자료가 같은 메시지를 강화하는지 살핀다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-025" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="중상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P3">
+<concept>What can be inferred about the organizers?</concept>
+<prompt>They want visitors to participate, not just watch.|They dislike all festivals.|They only care about decorations.|They expect no visitors.|They want to remove all trees.</prompt>
+    <options>
+      <option id="A">A</option>
+    </options>
+<answer>활동에 참여하도록 권하는 문구와 그림에서 관람보다 참여를 유도한다고 추론할 수 있다.</answer>
+<explanation>추론은 본문 근거를 바탕으로 해야 하며 글에 없는 극단적 주장을 선택하지 않는다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-021" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P4">
+<concept>Why did Jina want to join the dance contest?</concept>
+<prompt>She likes solving puzzles.|She enjoys music.|She wanted to decorate the hall alone.|She was afraid of the race.|Her teacher told her to.</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>Jina는 음악을 즐기기 때문에 춤 경연을 원했다.</answer>
+<explanation>because 뒤의 이유절과 인물의 선호를 연결한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-022" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P4">
+<concept>Why did Minho prefer the puzzle race?</concept>
+<prompt>He likes solving problems.|He wanted to wear a costume.|He dislikes all activities.|He had to leave early.|He wanted to watch fireworks.</prompt>
+    <options>
+      <option id="A">A</option>
+    </options>
+<answer>Minho는 문제 해결을 좋아하기 때문에 퍼즐 경주를 선호했다.</answer>
+<explanation>Jina와 Minho의 선택·이유를 서로 바꾸지 않는다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-023" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P4">
+<concept>What does the teacher mean by 'respect different choices'?</concept>
+<prompt>Everyone must choose the same activity.|Students should accept that classmates may prefer different things.|Only the teacher can choose.|The dance contest is better.|The puzzle race should be canceled.</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>서로 다른 선호를 인정하고 존중하라는 뜻이다.</answer>
+<explanation>respect는 동의한다는 뜻만이 아니라 다른 선택을 존중한다는 의미로 쓰인다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-024" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P4">
+<concept>What did both students do in the end?</concept>
+<prompt>They left the festival.|They joined their favorite activities and helped decorate.|They changed their choices to match.|They stopped having fun.|They watched from outside.</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>두 학생은 각자 좋아하는 활동에 참여하고 홀 장식도 도왔다.</answer>
+<explanation>both는 두 사람 모두를 뜻하며 마지막 문장의 행동을 함께 확인한다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-025" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="상" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P4">
+<concept>Which conclusion is best supported?</concept>
+<prompt>Having fun requires everyone to choose the same activity.|People can enjoy an event while making different choices.|Only music makes a festival special.|Puzzles are always better than dances.|Teachers should choose for students.</prompt>
+    <options>
+      <option id="A">B</option>
+    </options>
+<answer>서로 다른 활동을 선택해도 함께 즐길 수 있다는 결론이다.</answer>
+<explanation>글의 마지막 문장을 바꾸어 말한 선택지를 고른다.</explanation>
+<advancedExplanation>undefined</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-026" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>영작</concept>
+<prompt>‘축제에 참여하다’를 영어 숙어로 쓰시오.</prompt>
+<answer>participate in</answer>
+<explanation>participate in은 뒤에 활동이나 행사를 목적어로 취한다.</explanation>
+<advancedExplanation>참여하다 = participate in</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-027" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문법 변형</concept>
+<prompt>They started the festival in 2021. (현재완료로 바꾸고 since를 사용)</prompt>
+<answer>They have started the festival since 2021.</answer>
+<explanation>since와 현재완료를 사용해 과거부터 현재까지 연결한다.</explanation>
+<advancedExplanation>정답은 have + 과거분사 형태 및 since 2021을 포함해야 한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-028" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문법 영작</concept>
+<prompt>‘다른 문화를 배우는 것은 유익하다.’를 It으로 시작하여 영작하시오.</prompt>
+<answer>It is useful to learn about other cultures.</answer>
+<explanation>It is + 형용사 + to부정사 구조를 사용한다.</explanation>
+<advancedExplanation>It is useful to learn about other cultures.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-029" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문법 고치기</concept>
+<prompt>Do you know where does the parade take place?에서 틀린 부분을 고쳐 쓰시오.</prompt>
+<answer>Do you know where the parade takes place?</answer>
+<explanation>간접의문문은 의문사 뒤에 주어+동사 어순을 쓴다.</explanation>
+<advancedExplanation>where does the parade take place → where the parade takes place</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-1-030" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문장 완성</concept>
+<prompt>The road was closed _____ the heavy fog. because / because of 중 알맞은 표현을 쓰시오.</prompt>
+<answer>because of</answer>
+<explanation>뒤에 명사구 the heavy fog가 있으므로 because of를 쓴다.</explanation>
+<advancedExplanation>because of + 명사구</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-026" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>어휘</concept>
+<prompt>‘전통적인’을 뜻하는 영어 단어를 쓰시오.</prompt>
+<answer>traditional</answer>
+<explanation>traditional은 전통적인이라는 뜻의 형용사이다.</explanation>
+<advancedExplanation>traditional</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-027" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>현재완료</concept>
+<prompt>We (visit) the festival twice. 괄호 안 동사를 알맞게 바꾸시오.</prompt>
+<answer>have visited</answer>
+<explanation>주어 We에 현재완료 have + 과거분사 visited를 쓴다.</explanation>
+<advancedExplanation>have visited</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-028" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문법 영작</concept>
+<prompt>‘그 퍼즐을 푸는 것은 어렵다.’를 It으로 시작하여 영작하시오.</prompt>
+<answer>It is difficult to solve the puzzle.</answer>
+<explanation>가주어 It과 진주어 to solve the puzzle을 사용한다.</explanation>
+<advancedExplanation>It is difficult to solve the puzzle.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-029" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>간접의문문</concept>
+<prompt>Can you tell me what time _____? (the parade / start) 올바른 어순으로 완성하시오.</prompt>
+<answer>the parade starts</answer>
+<explanation>간접의문문은 의문사구 뒤에 주어+동사 어순을 쓴다.</explanation>
+<advancedExplanation>the parade starts</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-2-030" stage="2" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>because / because of</concept>
+<prompt>We stayed home _____ it was raining. because / because of 중 알맞은 표현을 쓰시오.</prompt>
+<answer>because</answer>
+<explanation>뒤에 it was raining이라는 절이 오므로 because를 쓴다.</explanation>
+<advancedExplanation>because</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-026" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>어휘 숙어</concept>
+<prompt>‘우연히’를 뜻하는 영어 숙어를 쓰시오.</prompt>
+<answer>by accident</answer>
+<explanation>by accident는 의도하지 않게 우연히라는 뜻이다.</explanation>
+<advancedExplanation>by accident</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-027" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문장 배열</concept>
+<prompt>다음 단어를 바르게 배열하시오: (have / never / I / seen / a dinosaur)</prompt>
+<answer>I have never seen a dinosaur.</answer>
+<explanation>현재완료 have + 과거분사 seen의 어순을 맞춘다.</explanation>
+<advancedExplanation>I have never seen a dinosaur.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-028" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>가목적어</concept>
+<prompt>She found _____ easy to follow the path. 빈칸에 알맞은 단어를 쓰시오.</prompt>
+<answer>it</answer>
+<explanation>find + it + 형용사 + to부정사에서 it은 가목적어이다.</explanation>
+<advancedExplanation>it</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-029" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>간접의문문</concept>
+<prompt>I wonder _____ the traveler went. (where / 직접의문문 어순으로 쓰지 말 것)</prompt>
+<answer>where the traveler went</answer>
+<explanation>의문사 where 뒤에 주어 the traveler, 동사 went 순서로 쓴다.</explanation>
+<advancedExplanation>where the traveler went</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-3-030" stage="3" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문장 완성</concept>
+<prompt>The traveler was late _____ the fog. because / because of 중 알맞은 표현을 쓰시오.</prompt>
+<answer>because of</answer>
+<explanation>the fog는 명사구이므로 because of를 쓴다.</explanation>
+<advancedExplanation>because of</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-026" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>어휘</concept>
+<prompt>‘위험에 처한’을 뜻하는 영어 숙어를 쓰시오.</prompt>
+<answer>in danger</answer>
+<explanation>in danger는 위험에 처한 상태를 뜻한다.</explanation>
+<advancedExplanation>in danger</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-027" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>현재완료</concept>
+<prompt>They (celebrate) this event for many years. 알맞게 완성하시오.</prompt>
+<answer>have celebrated</answer>
+<explanation>for many years는 과거부터 현재까지의 기간을 나타내므로 현재완료를 쓴다.</explanation>
+<advancedExplanation>have celebrated</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-028" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>call A B</concept>
+<prompt>‘사람들은 그 다리를 Rainbow Bridge라고 부른다.’를 People call로 시작해 영작하시오.</prompt>
+<answer>People call the bridge Rainbow Bridge.</answer>
+<explanation>call + 목적어 + 이름(명사 보어)의 어순을 사용한다.</explanation>
+<advancedExplanation>People call the bridge Rainbow Bridge.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-029" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>간접의문문</concept>
+<prompt>Do you know _____ the museum is open? (if / whether 중 하나)</prompt>
+<answer>if</answer>
+<explanation>if 또는 whether가 ‘~인지 아닌지’를 이끄는 간접의문문을 만들 수 있다.</explanation>
+<advancedExplanation>if 또는 whether 모두 인정</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-4-030" stage="4" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>because / because of</concept>
+<prompt>‘짙은 안개 때문에’에 해당하는 영어 표현을 쓰시오.</prompt>
+<answer>because of the thick fog</answer>
+<explanation>because of 뒤에 명사구 the thick fog가 온다.</explanation>
+<advancedExplanation>because of the thick fog</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-001" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 altar의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+Flowers were placed on the _____ during the ceremony.</prompt>
+    <options>
+      <option id="A">altar</option>
+      <option id="B">recipe</option>
+      <option id="C">cemetery</option>
+      <option id="D">by accident</option>
+      <option id="E">path</option>
+    </options>
+<answer>A</answer>
+<explanation>altar는 ‘제단’의 뜻으로 쓰였다. 문장 속 altar의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 altar이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-002" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 matter의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+Your opinion _____ to the team.</prompt>
+    <options>
+      <option id="A">spring</option>
+      <option id="B">matter</option>
+      <option id="C">dress up</option>
+      <option id="D">founder</option>
+      <option id="E">stare</option>
+    </options>
+<answer>B</answer>
+<explanation>matter는 ‘중요하다’의 뜻으로 쓰였다. 문장 속 matter의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 matter이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-003" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 pole의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+The flag was raised on a tall _____.</prompt>
+    <options>
+      <option id="A">cause</option>
+      <option id="B">various</option>
+      <option id="C">pole</option>
+      <option id="D">president</option>
+      <option id="E">celebrate</option>
+    </options>
+<answer>C</answer>
+<explanation>pole는 ‘기둥’의 뜻으로 쓰였다. 문장 속 pole의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 pole이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-004" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 puzzle의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+The children solved a difficult _____.</prompt>
+    <options>
+      <option id="A">suddenly</option>
+      <option id="B">participate in</option>
+      <option id="C">instruction</option>
+      <option id="D">puzzle</option>
+      <option id="E">recipe</option>
+    </options>
+<answer>D</answer>
+<explanation>puzzle는 ‘퍼즐’의 뜻으로 쓰였다. 문장 속 puzzle의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 puzzle이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-005" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 green의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The festival uses _____ decorations to support its eco-friendly theme.</prompt>
+    <options>
+      <option id="A">spring</option>
+      <option id="B">confused</option>
+      <option id="C">put ~ in danger</option>
+      <option id="D">costume</option>
+      <option id="E">green</option>
+    </options>
+<answer>E</answer>
+<explanation>green는 ‘녹색의’의 뜻으로 쓰였다. 문장 속 green의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 green이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-006" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 leaf의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+A yellow _____ fell from the tree.</prompt>
+    <options>
+      <option id="A">leaf</option>
+      <option id="B">jungle</option>
+      <option id="C">terrified</option>
+      <option id="D">reindeer</option>
+      <option id="E">various</option>
+    </options>
+<answer>A</answer>
+<explanation>leaf는 ‘잎’의 뜻으로 쓰였다. 문장 속 leaf의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 leaf이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-007" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 visitor의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+Each _____ received a map at the gate.</prompt>
+    <options>
+      <option id="A">roar</option>
+      <option id="B">visitor</option>
+      <option id="C">decorate</option>
+      <option id="D">wooden</option>
+      <option id="E">participate in</option>
+    </options>
+<answer>B</answer>
+<explanation>visitor는 ‘방문객’의 뜻으로 쓰였다. 문장 속 visitor의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 visitor이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-008" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 fast의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+The runner was very _____ and won the race.</prompt>
+    <options>
+      <option id="A">skeleton</option>
+      <option id="B">toward</option>
+      <option id="C">fast</option>
+      <option id="D">race</option>
+      <option id="E">confused</option>
+    </options>
+<answer>C</answer>
+<explanation>fast는 ‘빠른’의 뜻으로 쓰였다. 문장 속 fast의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 fast이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-009" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 come back의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+Please _____ before the festival begins.</prompt>
+    <options>
+      <option id="A">appear</option>
+      <option id="B">fireworks</option>
+      <option id="C">surprisingly</option>
+      <option id="D">come back</option>
+      <option id="E">jungle</option>
+    </options>
+<answer>D</answer>
+<explanation>come back는 ‘돌아오다’의 뜻으로 쓰였다. 문장 속 come back의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 come back이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-010" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 have fun의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+We hope you _____ at the event.</prompt>
+    <options>
+      <option id="A">roar</option>
+      <option id="B">statue</option>
+      <option id="C">wear</option>
+      <option id="D">dinosaur</option>
+      <option id="E">have fun</option>
+    </options>
+<answer>E</answer>
+<explanation>have fun는 ‘즐기다’의 뜻으로 쓰였다. 문장 속 have fun의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 have fun이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-011" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 present의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+The _____ situation requires careful attention.</prompt>
+    <options>
+      <option id="A">present</option>
+      <option id="B">especially</option>
+      <option id="C">at any time</option>
+      <option id="D">million</option>
+      <option id="E">toward</option>
+    </options>
+<answer>A</answer>
+<explanation>present는 ‘현재의’의 뜻으로 쓰였다. 문장 속 present의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 present이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-012" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 put ~ in danger의 문맥적 의미</concept>
+<prompt>다음 문장의 의미가 자연스럽게 완성되도록 빈칸에 들어갈 말은?
+Plastic waste can _____ sea animals ___.</prompt>
+    <options>
+      <option id="A">at the end of</option>
+      <option id="B">put ~ in danger</option>
+      <option id="C">foolish</option>
+      <option id="D">stare</option>
+      <option id="E">possible</option>
+    </options>
+<answer>B</answer>
+<explanation>put ~ in danger는 ‘~을 위험에 빠뜨리다’의 뜻으로 쓰였다. 문장 속 put ~ in danger의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 put ~ in danger이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-013" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 guide의 문맥적 의미</concept>
+<prompt>다음 문장의 빈칸에 들어갈 말로 가장 적절한 것은?
+The museum worker will _____ us through the building.</prompt>
+    <options>
+      <option id="A">mud</option>
+      <option id="B">be covered in</option>
+      <option id="C">guide</option>
+      <option id="D">whisper</option>
+      <option id="E">statue</option>
+    </options>
+<answer>C</answer>
+<explanation>guide는 ‘안내하다’의 뜻으로 쓰였다. 문장 속 guide의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 guide이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-014" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 safely의 문맥적 의미</concept>
+<prompt>문맥상 빈칸에 알맞은 단어를 고르시오.
+The children crossed the road _____.</prompt>
+    <options>
+      <option id="A">parade</option>
+      <option id="B">fog</option>
+      <option id="C">shocked</option>
+      <option id="D">safely</option>
+      <option id="E">especially</option>
+    </options>
+<answer>D</answer>
+<explanation>safely는 ‘안전하게’의 뜻으로 쓰였다. 문장 속 safely의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 safely이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-015" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="어휘·숙어" scopePages="136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>단어 look around의 문맥적 의미</concept>
+<prompt>다음 문장에서 설명하는 상황에 알맞은 표현은?
+We had time to _____ the old town.</prompt>
+    <options>
+      <option id="A">all over</option>
+      <option id="B">panic</option>
+      <option id="C">butterfly</option>
+      <option id="D">symbolize</option>
+      <option id="E">look around</option>
+    </options>
+<answer>E</answer>
+<explanation>look around는 ‘둘러보다’의 뜻으로 쓰였다. 문장 속 look around의 의미와 쓰임을 확인한다.</explanation>
+<advancedExplanation>정답은 look around이다. 문장 전체의 의미와 단어의 품사·결합 관계를 함께 살펴야 한다. 다른 선택지는 뜻이 비슷해 보이거나 같은 단원에서 학습한 단어라도 이 문맥의 의미와 맞지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-016" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct form.</concept>
+<prompt>She _____ the festival twice.</prompt>
+    <options>
+      <option id="A">has attended</option>
+      <option id="B">have attend</option>
+      <option id="C">attends yesterday</option>
+      <option id="D">is attended</option>
+      <option id="E">has attend</option>
+    </options>
+<answer>A</answer>
+<explanation>현재완료 경험을 나타내는 has attended가 알맞다.</explanation>
+<advancedExplanation>She는 3인칭 단수이므로 has를 쓰고 attend의 과거분사 attended를 사용한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-017" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>It is fun _____ with friends.</prompt>
+    <options>
+      <option id="A">to celebrate</option>
+      <option id="B">celebrate</option>
+      <option id="C">celebrating it</option>
+      <option id="D">for celebrate</option>
+      <option id="E">to celebrating</option>
+    </options>
+<answer>A</answer>
+<explanation>It is fun to celebrate with friends.가 올바르다.</explanation>
+<advancedExplanation>It is + 형용사 + to부정사 구조이다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-018" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>We call our team _____.</prompt>
+    <options>
+      <option id="A">as the Giants</option>
+      <option id="B">the Giants</option>
+      <option id="C">to the Giants</option>
+      <option id="D">for the Giants</option>
+      <option id="E">the Giants as</option>
+    </options>
+<answer>B</answer>
+<explanation>call + 목적어 + 이름의 구조이다.</explanation>
+<advancedExplanation>목적격 보어인 이름 앞에 전치사를 쓰지 않는다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-019" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct indirect question.</concept>
+<prompt>I don't know _____ the festival starts.</prompt>
+    <options>
+      <option id="A">when does</option>
+      <option id="B">when</option>
+      <option id="C">when is</option>
+      <option id="D">does when</option>
+      <option id="E">the time when does</option>
+    </options>
+<answer>B</answer>
+<explanation>I don't know when the festival starts.가 올바르다.</explanation>
+<advancedExplanation>간접의문문은 의문사+주어+동사 어순이다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-020" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct expression.</concept>
+<prompt>He was tired _____ he walked all day.</prompt>
+    <options>
+      <option id="A">because of</option>
+      <option id="B">because</option>
+      <option id="C">because of walking he</option>
+      <option id="D">although</option>
+      <option id="E">so that</option>
+    </options>
+<answer>B</answer>
+<explanation>because 뒤에 he walked all day라는 절이 온다.</explanation>
+<advancedExplanation>because + 절, because of + 명사구/동명사구.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-021" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct form.</concept>
+<prompt>They _____ the museum since Monday.</prompt>
+    <options>
+      <option id="A">have visited</option>
+      <option id="B">visited since</option>
+      <option id="C">has visit</option>
+      <option id="D">are visiting yesterday</option>
+      <option id="E">visit</option>
+    </options>
+<answer>A</answer>
+<explanation>현재완료 have visited가 알맞다.</explanation>
+<advancedExplanation>since는 시작 시점을 나타내며 현재완료와 자주 쓰인다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-022" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>I found it hard _____ the instructions.</prompt>
+    <options>
+      <option id="A">understand</option>
+      <option id="B">understanding</option>
+      <option id="C">to understand</option>
+      <option id="D">understood</option>
+      <option id="E">for understand</option>
+    </options>
+<answer>C</answer>
+<explanation>find it + 형용사 + to부정사 구조이다.</explanation>
+<advancedExplanation>it은 가목적어, to understand the instructions가 진목적어이다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-023" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct indirect question.</concept>
+<prompt>Can you tell me _____?</prompt>
+    <options>
+      <option id="A">where is the path</option>
+      <option id="B">where the path is</option>
+      <option id="C">where does path</option>
+      <option id="D">the path where is</option>
+      <option id="E">where path be</option>
+    </options>
+<answer>B</answer>
+<explanation>where the path is가 올바른 간접의문문이다.</explanation>
+<advancedExplanation>의문사 뒤에 주어 the path와 동사 is가 온다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-024" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct expression.</concept>
+<prompt>The match was delayed _____ the rain.</prompt>
+    <options>
+      <option id="A">because</option>
+      <option id="B">because of</option>
+      <option id="C">because it</option>
+      <option id="D">because of it rained</option>
+      <option id="E">so</option>
+    </options>
+<answer>B</answer>
+<explanation>because of 뒤에 명사 rain이 온다.</explanation>
+<advancedExplanation>because it rained처럼 절을 쓰면 because를 사용한다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-025" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
+<concept>Choose the correct sentence.</concept>
+<prompt>It is important _____ calm in an emergency.</prompt>
+    <options>
+      <option id="A">stay</option>
+      <option id="B">staying</option>
+      <option id="C">to stay</option>
+      <option id="D">stayed</option>
+      <option id="E">for stay</option>
+    </options>
+<answer>C</answer>
+<explanation>It is important to stay calm.가 올바르다.</explanation>
+<advancedExplanation>It is + 형용사 + to부정사 구조이다.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-026" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>문법 영작</concept>
+<prompt>‘그것을 이해하는 것은 쉽다.’를 It으로 시작하여 영작하시오.</prompt>
+<answer>It is easy to understand it.</answer>
+<explanation>It is + 형용사 + to부정사 구조를 사용한다.</explanation>
+<advancedExplanation>It is easy to understand it.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-027" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>간접의문문</concept>
+<prompt>Do you know where _____? (the traveler / live)</prompt>
+<answer>the traveler lives</answer>
+<explanation>간접의문문은 의문사 뒤에 주어+동사 어순을 쓴다.</explanation>
+<advancedExplanation>the traveler lives</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-028" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>어휘</concept>
+<prompt>‘침묵’을 뜻하는 영어 단어를 쓰시오.</prompt>
+<answer>silence</answer>
+<explanation>silence는 명사로 침묵을 뜻한다.</explanation>
+<advancedExplanation>silence</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-029" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>because</concept>
+<prompt>The road was wet _____ it had rained. 알맞은 표현을 쓰시오.</prompt>
+<answer>because</answer>
+<explanation>뒤에 it had rained라는 절이 온다.</explanation>
+<advancedExplanation>because</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  <question id="ENG2S2-R-030" stage="1" reserve="true" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법·서술형" scopePages="118-135;136-149" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
+<concept>현재완료</concept>
+<prompt>I (never / see) a parade like this. 완성하시오.</prompt>
+<answer>I have never seen a parade like this.</answer>
+<explanation>현재완료 have + 과거분사 seen을 사용한다.</explanation>
+<advancedExplanation>I have never seen a parade like this.</advancedExplanation>
+    <statistics attemptCount="0" correctCount="0" correctRate="미산정" />
+  </question>
+  </questions>
+</examBank>
