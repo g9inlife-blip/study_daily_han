@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" href="data:," />
+<title>수학 시험 단기 암기 3장 — 중2 도형의 닮음 · 확률</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@700;900&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#f4f1ea;
+    --paper:#fffdf7;
+    --ink:#1d1a14;
+    --ink-soft:#4a4438;
+    --line:#ddd5c2;
+    --red:#d92b2b;
+    --red-bg:#fdecec;
+    --hl:#ffe45e;
+    --hl-text:#1d1a14;
+    --blue:#1450b4;
+    --blue-bg:#e8eefb;
+    --green:#0e7a3d;
+    --green-bg:#e6f4ec;
+    --tab-bg:#fffdf7;
+    --shadow:0 2px 14px rgba(60,50,20,.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#171512;
+      --paper:#232019;
+      --ink:#f2ecdd;
+      --ink-soft:#c9c1ad;
+      --line:#454033;
+      --red:#ff6b6b;
+      --red-bg:#3d2222;
+      --hl:#ffe45e;
+      --hl-text:#1d1a14;
+      --blue:#8db1ff;
+      --blue-bg:#26314d;
+      --green:#6fd598;
+      --green-bg:#1e3529;
+      --tab-bg:#232019;
+      --shadow:0 2px 14px rgba(0,0,0,.45);
+    }
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans KR",-apple-system,"Malgun Gothic",sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-text-size-adjust:100%;
+  }
+  /* ---------- 상단 탭 ---------- */
+  .tabbar{
+    position:sticky;top:0;z-index:50;background:var(--tab-bg);
+    border-bottom:2px solid var(--ink);
+    padding:.55rem .8rem .6rem;
+  }
+  .tabbar .tabs{display:flex;gap:.5rem;max-width:860px;margin:0 auto;}
+  .tabbar a{
+    flex:1;text-align:center;text-decoration:none;color:var(--ink);
+    font-weight:900;font-size:1.05rem;padding:.5rem .2rem;
+    border:2px solid var(--ink);border-radius:10px;background:var(--paper);
+    min-height:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.05rem;
+    white-space:nowrap;line-height:1.25;
+  }
+  .tabbar a small{font-weight:500;font-size:.7rem;letter-spacing:-.03em;color:var(--ink-soft);white-space:nowrap;}
+  .tabbar a.active{background:var(--ink);color:var(--paper);}
+  .tabbar a.active small{color:var(--paper);opacity:.75;}
+  .print-note{
+    max-width:860px;margin:.45rem auto 0;font-size:.8rem;color:var(--ink-soft);text-align:center;
+  }
+  /* ---------- 장(시트) ---------- */
+  main{max-width:860px;margin:0 auto;padding:1rem .8rem 3rem;}
+  .sheet{
+    background:var(--paper);border:1.5px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);
+    padding:1.3rem 1.2rem 1.5rem;margin:0 0 1.6rem;
+    scroll-margin-top:110px;
+  }
+  .sheet-head{
+    display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;
+    border-bottom:3px solid var(--ink);padding-bottom:.55rem;margin-bottom:1rem;
+  }
+  .sheet-no{
+    font-family:"Noto Serif KR",serif;font-weight:900;font-size:1.9rem;line-height:1;
+  }
+  .sheet-title{font-weight:900;font-size:1.35rem;}
+  .sheet-range{margin-left:auto;font-size:.82rem;color:var(--ink-soft);font-weight:500;}
+  h3.sec{
+    font-size:1.08rem;font-weight:900;margin:1.25rem 0 .5rem;
+    display:flex;align-items:center;gap:.45rem;
+  }
+  h3.sec::before{content:"";width:.55rem;height:1.05rem;background:var(--red);border-radius:2px;flex:none;}
+  h3.sec:first-of-type{margin-top:.2rem;}
+  p{margin:.35rem 0;}
+  ul.tight{margin:.3rem 0 .3rem;padding-left:1.25rem;}
+  ul.tight li{margin:.22rem 0;}
+  /* ---------- 강조 ---------- */
+  .star{
+    display:inline-block;background:var(--red);color:#fff;font-weight:900;
+    font-size:.78rem;padding:.08rem .45rem;border-radius:999px;vertical-align:.12em;white-space:nowrap;
+  }
+  @media (prefers-color-scheme: dark){ .star{color:#1d1a14;background:#ff8585;} }
+  .hl{
+    background:linear-gradient(transparent 55%, var(--hl) 55%, var(--hl) 92%, transparent 92%);
+    color:var(--hl-text);font-weight:700;padding:0 .12em;border-radius:2px;
+  }
+  @media (prefers-color-scheme: dark){ .hl{color:#ffe45e;background:linear-gradient(transparent 55%, rgba(255,228,94,.35) 55%, rgba(255,228,94,.35) 92%, transparent 92%);} }
+  .formula{
+    font-size:1.22rem;font-weight:900;letter-spacing:.01em;line-height:1.5;
+  }
+  .formula-box{
+    border:2px solid var(--ink);border-radius:10px;padding:.7rem .9rem;margin:.6rem 0;
+    background:var(--paper);
+  }
+  .formula-box .formula{display:block;text-align:center;}
+  .warn{
+    background:var(--red-bg);border-radius:10px;padding:.6rem .85rem;margin:.6rem 0;
+    font-size:.95rem;
+  }
+  .warn b{color:var(--red);}
+  .tip{
+    background:var(--blue-bg);border-radius:10px;padding:.6rem .85rem;margin:.6rem 0;font-size:.95rem;
+  }
+  .ex{
+    background:var(--green-bg);border-radius:10px;padding:.6rem .85rem;margin:.6rem 0;font-size:.95rem;
+  }
+  .ex .ex-tag{font-weight:900;color:var(--green);margin-right:.35rem;}
+  /* ---------- 표 ---------- */
+  table{width:100%;border-collapse:collapse;margin:.6rem 0;font-size:.96rem;}
+  th,td{border:1.5px solid var(--line);padding:.5rem .6rem;text-align:left;vertical-align:top;}
+  th{background:var(--ink);color:var(--paper);font-weight:900;text-align:center;}
+  td.c,th.c{text-align:center;}
+  td.big{font-size:1.12rem;font-weight:900;text-align:center;}
+  .vs-good{font-weight:700;}
+  .frac{display:inline-block;vertical-align:-.45em;text-align:center;font-size:.82em;line-height:1.15;margin:0 .08em;}
+  .frac .top{display:block;border-bottom:2px solid currentColor;padding:0 .25em;}
+  .frac .bot{display:block;padding:0 .25em;}
+  sup{font-size:.68em;}
+  /* ---------- 그림 ---------- */
+  .figs{display:flex;gap:.8rem;flex-wrap:wrap;margin:.6rem 0;}
+  .fig{
+    flex:1 1 220px;border:1.5px dashed var(--line);border-radius:10px;
+    padding:.5rem .6rem .35rem;text-align:center;
+  }
+  .fig svg{max-width:100%;height:auto;}
+  .fig figcaption{font-size:.82rem;color:var(--ink-soft);margin-top:.2rem;}
+  svg .ln{stroke:var(--ink);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+  svg .thin{stroke:var(--ink-soft);stroke-width:1.4;fill:none;}
+  svg .fill-tri{fill:var(--blue-bg);stroke:var(--ink);stroke-width:2;stroke-linejoin:round;}
+  svg .fill-tri2{fill:var(--red-bg);stroke:var(--ink);stroke-width:2;stroke-linejoin:round;}
+  svg text{fill:var(--ink);font-family:"Noto Sans KR",sans-serif;font-weight:700;}
+  svg .pt{fill:var(--red);}
+  /* ---------- 체크 리스트 ---------- */
+  .checklist{list-style:none;margin:.5rem 0;padding:0;counter-reset:chk;}
+  .checklist li{
+    display:flex;gap:.6rem;align-items:flex-start;
+    padding:.5rem .2rem;border-bottom:1px dashed var(--line);
+  }
+  .checklist li:last-child{border-bottom:none;}
+  .checklist .box{
+    flex:none;width:1.25rem;height:1.25rem;margin-top:.18rem;
+    border:2.5px solid var(--red);border-radius:4px;background:var(--paper);
+  }
+  .checklist .num{font-weight:900;color:var(--red);flex:none;}
+  footer{max-width:860px;margin:0 auto;padding:0 .8rem 2.5rem;color:var(--ink-soft);font-size:.85rem;text-align:center;}
+  /* ---------- 인쇄: A4 3장 ---------- */
+  @media print{
+    @page{size:A4;margin:12mm;}
+    body{background:#fff;font-size:11.5pt;}
+    .tabbar{display:none;}
+    main{max-width:none;padding:0;}
+    .sheet{
+      border:none;box-shadow:none;border-radius:0;margin:0;padding:0;
+      page-break-after:always;break-after:page;
+    }
+    .sheet:last-of-type{page-break-after:auto;break-after:auto;}
+    footer{display:none;}
+    .hl{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .star,.warn,.tip,.ex,th{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  }
+</style>
+</head>
+<body>
+
+<nav class="tabbar" aria-label="장 이동">
+  <div class="tabs">
+    <a href="#sheet1" data-tab="sheet1">1장 <small>도형의 닮음</small></a>
+    <a href="#sheet2" data-tab="sheet2">2장 <small>평행선 · 무게중심</small></a>
+    <a href="#sheet3" data-tab="sheet3">3장 <small>경우의 수 · 확률</small></a>
+  </div>
+  <p class="print-note">인쇄할 때는 브라우저 인쇄 메뉴(Ctrl+P)를 이용하세요. A4 3장으로 나뉘어 나옵니다.</p>
+</nav>
+
+<main>
+
+<!-- ================= 1장 ================= -->
+<section class="sheet" id="sheet1">
+  <div class="sheet-head">
+    <span class="sheet-no">1장</span>
+    <span class="sheet-title">도형의 닮음</span>
+    <span class="sheet-range">V 도형의 닮음 · 01 닮음의 뜻과 성질 / 02 삼각형의 닮음 조건</span>
+  </div>
+
+  <h3 class="sec">닮음의 뜻 <span class="star">★ 시험 출제</span></h3>
+  <p>두 도형이 닮음 ⇔ <span class="hl">모양은 같고 크기만 다르다.</span></p>
+  <ul class="tight">
+    <li>대응각의 크기가 각각 <b>같다</b></li>
+    <li>대응변의 길이의 비가 <b>일정하다</b> → 이 비가 <b>닮음비</b></li>
+  </ul>
+  <div class="warn"><b>주의 — 대응 순서!</b> △ABC ∽ △DEF이면 A↔D, B↔E, C↔F가 대응한다. <b>대응 순서를 바꾸면 대응변이 틀린다.</b> 기호로 쓸 때 순서를 맞춰서 쓸 것.</div>
+
+  <h3 class="sec">닮음비 → 둘레 · 넓이 · 부피의 비 <span class="star">★ 시험 출제</span></h3>
+  <table>
+    <tr><th>닮음비</th><th>둘레의 비</th><th>넓이의 비</th><th>부피의 비</th></tr>
+    <tr>
+      <td class="big">a : b</td>
+      <td class="big">a : b</td>
+      <td class="big">a² : b²</td>
+      <td class="big">a³ : b³</td>
+    </tr>
+  </table>
+  <p>길이는 그대로, 넓이는 <b>제곱</b>, 부피는 <b>세제곱</b>. 넓이·부피 문제는 지수부터 확인할 것.</p>
+
+  <h3 class="sec">항상 닮음인 도형 vs 아닌 도형 <span class="star">★ 시험 출제</span></h3>
+  <table>
+    <tr><th style="width:50%">항상 닮음이다 ○</th><th>항상 닮음은 아니다 ✕</th></tr>
+    <tr>
+      <td class="vs-good">두 원<br>두 정삼각형<br>두 정사각형<br>두 직각이등변삼각형<br>정다각형끼리 (같은 종류)</td>
+      <td>두 직사각형<br>두 직각삼각형<br>두 이등변삼각형<br>두 마름모</td>
+    </tr>
+  </table>
+  <p>✕ 쪽은 가로·세로 비나 각이 서로 달라질 수 있어서 항상 닮음이라고 할 수 없다.</p>
+
+  <h3 class="sec">삼각형의 닮음 조건 3가지 <span class="star">★ 시험 출제</span></h3>
+  <table>
+    <tr><th style="width:22%">조건</th><th>내용</th></tr>
+    <tr><td class="big">SSS 닮음</td><td><b>세 쌍</b>의 대응변의 비가 모두 같을 때</td></tr>
+    <tr><td class="big">SAS 닮음</td><td><b>두 쌍</b>의 대응변의 비가 같고, 그 <span class="hl">끼인각</span>이 같을 때</td></tr>
+    <tr><td class="big">AA 닮음</td><td><b>두 쌍</b>의 대응각이 각각 같을 때</td></tr>
+  </table>
+  <div class="tip">삼각형은 내각의 합이 180°라서, <b>두 각만 같으면 나머지 한 각도 자동으로 같다.</b> 그래서 AA는 각 2쌍이면 충분하다. SAS에서는 반드시 <b>끼인각</b>이어야 한다.</div>
+
+  <div class="figs">
+    <figure class="fig">
+      <svg viewBox="0 0 200 120" width="200" height="120" role="img" aria-label="닮은 두 삼각형 그림">
+        <polygon class="fill-tri" points="30,95 95,95 55,30"/>
+        <polygon class="fill-tri2" points="120,95 165,95 143,58"/>
+        <text x="48" y="24" font-size="13">A</text>
+        <text x="18" y="108" font-size="13">B</text>
+        <text x="98" y="108" font-size="13">C</text>
+        <text x="136" y="52" font-size="13">D</text>
+        <text x="110" y="108" font-size="13">E</text>
+        <text x="168" y="108" font-size="13">F</text>
+      </svg>
+      <figcaption>△ABC ∽ △DEF — 모양 같고 크기만 다르다</figcaption>
+    </figure>
+    <figure class="fig">
+      <svg viewBox="0 0 200 120" width="200" height="120" role="img" aria-label="직각삼각형의 수선 그림">
+        <polygon class="fill-tri" points="100,18 25,100 175,100"/>
+        <line class="thin" x1="100" y1="18" x2="100" y2="100"/>
+        <path class="thin" d="M100,88 h12 v12"/>
+        <text x="94" y="12" font-size="13">A</text>
+        <text x="12" y="113" font-size="13">B</text>
+        <text x="178" y="113" font-size="13">C</text>
+        <text x="104" y="95" font-size="13">H</text>
+        <text x="52" y="113" font-size="12">BH</text>
+        <text x="122" y="113" font-size="12">CH</text>
+      </svg>
+      <figcaption>∠A=90°, AH ⊥ BC인 직각삼각형</figcaption>
+    </figure>
+  </div>
+
+  <h3 class="sec">직각삼각형의 수선 <span class="star">★ 시험 출제</span></h3>
+  <p>∠A=90°인 직각삼각형 ABC에서 꼭짓점 A에서 빗변 BC에 수선 AH를 내리면 (AH ⊥ BC)</p>
+  <div class="formula-box">
+    <span class="formula">△ABH ∽ △CAH ∽ △ABC</span>
+  </div>
+  <div class="formula-box">
+    <span class="formula">AC² = CH × BC</span>
+    <span class="formula">AB² = BH × BC</span>
+    <span class="formula">AH² = BH × CH</span>
+  </div>
+  <div class="ex"><span class="ex-tag">예)</span> BH=12cm, CH=4cm이면 BC=12+4=<b>16cm</b>, AC²=CH×BC=4×16=64 → <span class="hl">AC=8cm</span></div>
+</section>
+
+<!-- ================= 2장 ================= -->
+<section class="sheet" id="sheet2">
+  <div class="sheet-head">
+    <span class="sheet-no">2장</span>
+    <span class="sheet-title">삼각형과 평행선 · 무게중심</span>
+    <span class="sheet-range">V 도형의 닮음 · 03 삼각형과 평행선 / 04 삼각형의 무게중심</span>
+  </div>
+
+  <h3 class="sec">삼각형과 평행선 — 비례식 <span class="star">★ 시험 출제</span></h3>
+  <p>△ABC에서 점 D는 AB 위, 점 E는 AC 위의 점이고 <b>DE // BC</b>이면</p>
+  <div class="formula-box">
+    <span class="formula">AD : DB = AE : EC</span>
+    <span class="formula">AD : AB = AE : AC = DE : BC</span>
+  </div>
+  <div class="tip"><b>역도 성립한다.</b> AD : DB = AE : EC 이면 <span class="hl">DE // BC</span> 이다. 평행인지 묻는 문제는 이 비례식이 맞는지를 확인하면 된다.</div>
+
+  <div class="figs">
+    <figure class="fig">
+      <svg viewBox="0 0 200 125" width="200" height="125" role="img" aria-label="삼각형과 평행선 그림">
+        <polygon class="fill-tri" points="100,15 30,105 170,105"/>
+        <line class="ln" x1="72" y1="60" x2="128" y2="60"/>
+        <text x="94" y="11" font-size="13">A</text>
+        <text x="16" y="118" font-size="13">B</text>
+        <text x="174" y="118" font-size="13">C</text>
+        <text x="58" y="57" font-size="13">D</text>
+        <text x="132" y="57" font-size="13">E</text>
+        <text x="88" y="52" font-size="11">DE</text>
+        <text x="88" y="120" font-size="11">BC</text>
+      </svg>
+      <figcaption>DE // BC → 변의 비가 같다</figcaption>
+    </figure>
+    <figure class="fig">
+      <svg viewBox="0 0 200 125" width="200" height="125" role="img" aria-label="무게중심 그림">
+        <polygon class="fill-tri" points="100,15 30,105 170,105"/>
+        <line class="thin" x1="100" y1="15" x2="100" y2="105"/>
+        <circle class="pt" cx="100" cy="75" r="4"/>
+        <text x="94" y="11" font-size="13">A</text>
+        <text x="16" y="118" font-size="13">B</text>
+        <text x="174" y="118" font-size="13">C</text>
+        <text x="104" y="118" font-size="13">D</text>
+        <text x="108" y="72" font-size="13">G</text>
+        <text x="76" y="52" font-size="11">2</text>
+        <text x="76" y="92" font-size="11">1</text>
+      </svg>
+      <figcaption>중선 AD와 무게중심 G — AG : GD = 2 : 1</figcaption>
+    </figure>
+  </div>
+
+  <h3 class="sec">중점연결정리 <span class="star">★ 시험 출제</span></h3>
+  <div class="formula-box">
+    <span class="formula">두 변의 중점을 이은 선분은 밑변과 평행하고, 길이는 밑변의 <span class="frac"><span class="top">1</span><span class="bot">2</span></span></span>
+  </div>
+
+  <h3 class="sec">세 직선이 평행할 때</h3>
+  <div class="formula-box">
+    <span class="formula">l // m // n 이면, 두 직선이 잘리는 선분의 비가 같다</span>
+  </div>
+  <p>한 직선에서 나뉜 선분의 비 = 다른 직선에서 나뉜 선분의 비. 그대로 비례식을 세우면 된다.</p>
+
+  <h3 class="sec">삼각형의 무게중심 <span class="star">★ 시험 출제</span></h3>
+  <ul class="tight">
+    <li><b>중선</b>: 꼭짓점과 <span class="hl">대변의 중점</span>을 이은 선분</li>
+    <li><b>무게중심 G</b>: 세 중선의 교점</li>
+  </ul>
+  <div class="formula-box">
+    <span class="formula">AG : GD = 2 : 1</span>
+    <span class="formula">AG = <span class="frac"><span class="top">2</span><span class="bot">3</span></span> AD ,&nbsp;&nbsp; GD = <span class="frac"><span class="top">1</span><span class="bot">3</span></span> AD</span>
+  </div>
+  <p>꼭짓점 쪽(AG)이 <b>2</b>, 중점 쪽(GD)이 <b>1</b>. 순서를 거꾸로 외우면 전부 틀린다.</p>
+
+  <h3 class="sec">무게중심과 넓이 <span class="star">★ 시험 출제</span></h3>
+  <ul class="tight">
+    <li>세 중선은 삼각형을 <span class="hl">넓이가 같은 6개의 삼각형</span>으로 나눈다.</li>
+    <li>△GBC, △GCA, △GAB의 넓이는 모두 전체의 <b>1/3</b>씩이다.</li>
+  </ul>
+  <div class="ex"><span class="ex-tag">예1)</span> AD=18cm이면 AG=<span class="frac"><span class="top">2</span><span class="bot">3</span></span>×18=<b>12cm</b>, GD=<span class="frac"><span class="top">1</span><span class="bot">3</span></span>×18=<b>6cm</b></div>
+  <div class="ex"><span class="ex-tag">예2)</span> G는 △ABC, G′은 △GBC의 무게중심, AD=18cm → GD=6cm, G′D=<span class="frac"><span class="top">1</span><span class="bot">3</span></span>×6=2cm, <span class="hl">GG′ = 6 − 2 = 4cm</span></div>
+  <div class="ex"><span class="ex-tag">예3)</span> △ABC의 넓이가 24cm²이면 △ABD는 그 절반인 12cm², △GBD는 △ABD의 1/3 → <span class="hl">△GBD = 4cm²</span></div>
+
+  <div class="warn"><b>헷갈리는 점</b> — ① 중선은 꼭짓점에서 <b>대변의 중점</b>으로 간다 (아무 점이나 아님). ② 무게중심은 <b>외심·내심과 다른 점</b>이다. 이름만 보고 섞지 말 것. ③ 2:1에서 2는 항상 <b>꼭짓점 쪽</b>.</div>
+</section>
+
+<!-- ================= 3장 ================= -->
+<section class="sheet" id="sheet3">
+  <div class="sheet-head">
+    <span class="sheet-no">3장</span>
+    <span class="sheet-title">경우의 수 · 확률</span>
+    <span class="sheet-range">VI 확률 · 01 경우의 수 / 02 확률의 뜻과 성질 / 03 확률의 계산</span>
+  </div>
+
+  <h3 class="sec">경우의 수 — 합의 법칙 · 곱의 법칙 <span class="star">★ 시험 출제</span></h3>
+  <table>
+    <tr><th style="width:22%">법칙</th><th style="width:34%">언제 쓰나</th><th>예</th></tr>
+    <tr>
+      <td class="big">합의 법칙<br><span style="font-size:.85rem;font-weight:700">더한다 (+)</span></td>
+      <td>두 사건이 <b>동시에 일어나지 않을</b> 때 — "또는"</td>
+      <td>1~12 카드에서 5의 배수 또는 6의 배수: 5, 10, 6, 12 → <b>4가지</b></td>
+    </tr>
+    <tr>
+      <td class="big">곱의 법칙<br><span style="font-size:.85rem;font-weight:700">곱한다 (×)</span></td>
+      <td>두 사건이 <b>차례로 일어날</b> 때 — "그리고, 각각"</td>
+      <td>상의 5벌 × 하의 4벌 = <b>20가지</b><br>세 부분 A, B, C에 서로 다른 색: 3×2×1 = <b>6가지</b></td>
+    </tr>
+  </table>
+  <div class="ex"><span class="ex-tag">예)</span> 1~20이 적힌 주사위에서 4의 배수: 4, 8, 12, 16, 20 → <b>5가지</b>. 배수는 직접 나열해서 세는 게 안전하다.</div>
+
+  <h3 class="sec">확률의 뜻과 성질 <span class="star">★ 시험 출제</span></h3>
+  <div class="formula-box">
+    <span class="formula">확률 = <span class="frac"><span class="top">어떤 사건이 일어나는 경우의 수</span><span class="bot">일어날 수 있는 모든 경우의 수</span></span></span>
+  </div>
+  <ul class="tight">
+    <li>이 식은 모든 경우의 수가 <span class="hl">공평할 때만</span> 쓴다.</li>
+    <li>확률은 <b>0 이상 1 이하</b>. 답이 1보다 크면 계산이 틀린 것이다.</li>
+    <li><b>여사건</b>: 일어나지 않을 확률 = <span class="hl">1 − (일어날 확률)</span></li>
+  </ul>
+  <div class="ex"><span class="ex-tag">예1)</span> 남학생 39명, 여학생 21명, 총 60명에서 남학생을 뽑을 확률 = <span class="frac"><span class="top">39</span><span class="bot">60</span></span> = <b><span class="frac"><span class="top">13</span><span class="bot">20</span></span></b> (약분 필수)</div>
+  <div class="ex"><span class="ex-tag">예2)</span> 두 주사위에서 두 눈의 수의 차가 5: (1, 6), (6, 1) <b>2가지</b> → <span class="frac"><span class="top">2</span><span class="bot">36</span></span> = <b><span class="frac"><span class="top">1</span><span class="bot">18</span></span></b></div>
+  <div class="ex"><span class="ex-tag">예3)</span> 1~10 공에서 짝수 또는 소수: 짝수 2, 4, 6, 8, 10 (5개), 소수 2, 3, 5, 7 (4개), <b>겹치는 2를 빼면</b> 8가지 → <span class="frac"><span class="top">8</span><span class="bot">10</span></span> = <b><span class="frac"><span class="top">4</span><span class="bot">5</span></span></b></div>
+
+  <h3 class="sec">확률의 계산 <span class="star">★ 시험 출제</span></h3>
+  <div class="formula-box">
+    <span class="formula">동시에 (독립) → 각각의 확률을 곱한다</span>
+    <span class="formula">P(A 또는 B) = P(A) + P(B) − P(A와 B)</span>
+    <span class="formula">적어도 하나 = 1 − (둘 다 안 일어날 확률)</span>
+  </div>
+  <ul class="tight">
+    <li>동전 2개를 던져 둘 다 앞면: <span class="frac"><span class="top">1</span><span class="bot">2</span></span> × <span class="frac"><span class="top">1</span><span class="bot">2</span></span> = <b><span class="frac"><span class="top">1</span><span class="bot">4</span></span></b></li>
+    <li>동전 한 개를 두 번 던져 앞면이 <b>적어도 한 번</b>: 1 − <span class="frac"><span class="top">1</span><span class="bot">4</span></span> = <b><span class="frac"><span class="top">3</span><span class="bot">4</span></span></b> (둘 다 뒷면일 확률이 1/4)</li>
+    <li>흰 공 3개, 검은 공 5개, 빨간 공 7개 (총 15개)에서 흰 공 또는 검은 공: <span class="frac"><span class="top">3+5</span><span class="bot">15</span></span> = <b><span class="frac"><span class="top">8</span><span class="bot">15</span></span></b></li>
+    <li>1~10 카드에서 3의 배수이거나 8 이상: 3, 6, 9와 8, 9, 10에서 <b>겹치는 9를 빼면</b> 5가지 → <span class="frac"><span class="top">5</span><span class="bot">10</span></span> = <b><span class="frac"><span class="top">1</span><span class="bot">2</span></span></b></li>
+    <li>서로 다른 주사위 A, B에서 A는 2의 배수, B는 3 이하: <span class="frac"><span class="top">1</span><span class="bot">2</span></span> × <span class="frac"><span class="top">1</span><span class="bot">2</span></span> = <b><span class="frac"><span class="top">1</span><span class="bot">4</span></span></b></li>
+    <li>서우 합격 <span class="frac"><span class="top">1</span><span class="bot">3</span></span>, 예나 합격 <span class="frac"><span class="top">2</span><span class="bot">5</span></span> → 두 사람 모두 합격: <span class="frac"><span class="top">1</span><span class="bot">3</span></span> × <span class="frac"><span class="top">2</span><span class="bot">5</span></span> = <b><span class="frac"><span class="top">2</span><span class="bot">15</span></span></b></li>
+    <li>원그래프: 200명 중 적극 찬성 10명, 찬성 65명 → 적극 찬성 또는 찬성: <span class="frac"><span class="top">10+65</span><span class="bot">200</span></span> = <b><span class="frac"><span class="top">3</span><span class="bot">8</span></span></b></li>
+  </ul>
+
+  <h3 class="sec">헷갈리는 쌍 총정리</h3>
+  <table>
+    <tr><th style="width:26%">헷갈리는 쌍</th><th>구분법</th></tr>
+    <tr><td class="big">합의 법칙 vs 곱의 법칙</td><td><b>동시에 안 일어나면 더하고(+)</b>, <b>차례로 일어나면 곱한다(×)</b></td></tr>
+    <tr><td class="big">"또는" vs "그리고"</td><td>"또는" → 더하되 <b>겹치는 부분 빼기</b> / "그리고(동시에)" → <b>곱하기</b></td></tr>
+    <tr><td class="big">닮음비 vs 넓이 비 vs 부피 비</td><td>닮음비 a:b → 넓이 <b>a²:b²</b> → 부피 <b>a³:b³</b>. 지수가 하나씩 늘어난다</td></tr>
+    <tr><td class="big">"적어도 하나"</td><td>직접 세지 말고 <b>1 − (둘 다 안 일어날 확률)</b>로 뒤집어 계산</td></tr>
+  </table>
+
+  <h3 class="sec">시험 직전 마지막 체크 10</h3>
+  <ol class="checklist">
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">1.</span> 닮음비는 둘레 a:b, 넓이 a²:b², 부피 a³:b³ — 지수 확인했나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">2.</span> △ABC ∽ △DEF에서 대응 순서 A↔D, B↔E, C↔F 맞게 썼나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">3.</span> 닮음 조건 3개 — SSS(변 3쌍), SAS(변 2쌍+끼인각), AA(각 2쌍) 구분되나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">4.</span> 직각삼각형 수선: AC²=CH×BC, AB²=BH×BC, AH²=BH×CH 외웠나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">5.</span> DE // BC이면 AD:DB=AE:EC — 비례식의 순서를 맞게 세웠나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">6.</span> 중점연결정리: 평행 + 길이는 밑변의 1/2, 두 가지 다 썼나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">7.</span> 무게중심 AG:GD=2:1 — 2가 꼭짓점 쪽이라는 것 확인했나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">8.</span> 경우의 수: 동시에 안 일어나면 더하기, 차례로 일어나면 곱하기인가?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">9.</span> "또는" 문제에서 겹치는 경우를 한 번 뺐나?</span></li>
+    <li><span class="box" aria-hidden="true"></span><span><span class="num">10.</span> 확률 답을 약분했고, 0 이상 1 이하인지 확인했나? "적어도 하나"는 1에서 뺐나?</span></li>
+  </ol>
+</section>
+
+</main>
+
+<footer>중2 수학 V 도형의 닮음 · VI 확률 — 교과서 개념 확인 문제 범위를 요약·표로 정리한 단기 암기 자료</footer>
+
+<script>
+  (function(){
+    var links = document.querySelectorAll('.tabbar a[data-tab]');
+    function setActive(id){
+      links.forEach(function(a){ a.classList.toggle('active', a.getAttribute('data-tab')===id); });
+    }
+    setActive('sheet1');
+    if('IntersectionObserver' in window){
+      var obs = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting) setActive(e.target.id); });
+      }, {rootMargin:'-40% 0px -55% 0px'});
+      ['sheet1','sheet2','sheet3'].forEach(function(id){
+        var el = document.getElementById(id); if(el) obs.observe(el);
+      });
+    }
+    links.forEach(function(a){
+      a.addEventListener('click', function(){ setActive(a.getAttribute('data-tab')); });
+    });
+  })();
+</script>
+</body>
+</html>
