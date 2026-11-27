@@ -1,0 +1,1250 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>중2 수학 모의시험 - 닮음과 확률 25문제</title>
+    <style>
+      :root {
+        --bg: #ece9e1;
+        --paper: #fffefb;
+        --ink: #1d1d20;
+        --muted: #6d6a61;
+        --line: #d9d5c9;
+        --accent: #1e4f9c;
+        --accent-soft: #e9eff8;
+        --figfill: #f3f5f8;
+        --ok: #177245;
+        --ok-bg: #e6f4ec;
+        --bad: #bf2f2f;
+        --bad-bg: #fbecec;
+        --part: #9c6200;
+        --part-bg: #fdf2dc;
+        --shadow: 0 2px 18px rgba(40, 36, 24, 0.13);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #131417;
+          --paper: #1f2126;
+          --ink: #edeae2;
+          --muted: #a5a29a;
+          --line: #3b3e46;
+          --accent: #82a9e3;
+          --accent-soft: #27334d;
+          --figfill: #262931;
+          --ok: #63c486;
+          --ok-bg: #17301f;
+          --bad: #ef8484;
+          --bad-bg: #3a1e1e;
+          --part: #e0aa4e;
+          --part-bg: #38300f;
+          --shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
+        }
+      }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+        line-height: 1.55;
+      }
+      button, input { font-family: inherit; }
+      button, [role="button"], select, summary, input:not([type="checkbox"], [type="radio"]) { min-height: 2rem; }
+
+      .paper {
+        max-width: 880px;
+        margin: 18px auto 40px;
+        background: var(--paper);
+        box-shadow: var(--shadow);
+        border: 1px solid var(--line);
+        padding: 34px 30px 30px;
+      }
+      @media (max-width: 640px) {
+        .paper { margin: 0 auto 24px; padding: 22px 15px 24px; border-left: none; border-right: none; }
+      }
+
+      .exam-top { border-bottom: 3px double var(--ink); padding-bottom: 16px; }
+      .exam-kicker { font-size: 13px; font-weight: 700; letter-spacing: 0.14em; color: var(--muted); margin: 0 0 6px; }
+      h1 {
+        font-family: "Noto Serif KR", "Noto Sans KR", serif;
+        font-size: 27px; font-weight: 900; margin: 0 0 4px; line-height: 1.3;
+      }
+      .exam-sub { margin: 0; color: var(--muted); font-size: 14.5px; }
+      .info-row {
+        display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: flex-end;
+        margin-top: 16px;
+      }
+      .info-field { display: flex; align-items: baseline; gap: 8px; }
+      .info-field label { font-weight: 700; font-size: 14.5px; white-space: nowrap; }
+      .info-field input[type="text"] {
+        border: none; border-bottom: 1.5px solid var(--ink); background: transparent;
+        color: var(--ink); font-size: 16px; padding: 3px 4px; width: 130px; outline: none;
+      }
+      .info-field input[type="date"] {
+        border: none; border-bottom: 1.5px solid var(--ink); background: transparent;
+        color: var(--ink); font-size: 15px; padding: 3px 4px; outline: none; color-scheme: light dark;
+      }
+      .score-box {
+        margin-left: auto; border: 2px solid var(--ink); padding: 6px 16px;
+        font-weight: 900; font-size: 17px; min-width: 118px; text-align: center;
+      }
+      .score-box small { font-weight: 500; font-size: 12.5px; color: var(--muted); display: block; }
+
+      .notice {
+        margin-top: 18px; border: 1px solid var(--line); background: var(--figfill);
+        padding: 13px 16px; font-size: 14.5px;
+      }
+      .notice p { margin: 0 0 5px; }
+      .notice p:last-child { margin-bottom: 0; }
+      .notice strong { font-weight: 700; }
+
+      .section-title {
+        font-family: "Noto Serif KR", serif; font-size: 19px; font-weight: 900;
+        margin: 30px 0 2px; padding-bottom: 7px; border-bottom: 2px solid var(--ink);
+      }
+      .section-title span { font-family: "Noto Sans KR", sans-serif; font-size: 13px; font-weight: 500; color: var(--muted); margin-left: 8px; }
+
+      .q { padding: 20px 12px 22px; border-bottom: 1px solid var(--line); border-radius: 10px; }
+      .q.correct { background: var(--ok-bg); }
+      .q.wrong { background: var(--bad-bg); }
+      .q.partial { background: var(--part-bg); }
+      .qhead { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+      .qnum { font-family: "Noto Serif KR", serif; font-size: 21px; font-weight: 900; }
+      .qtag {
+        font-size: 12px; font-weight: 700; color: var(--accent);
+        background: var(--accent-soft); padding: 3px 9px; border-radius: 999px;
+      }
+      .qpts { font-size: 13px; color: var(--muted); font-weight: 500; }
+      .qbadge { margin-left: auto; font-size: 13.5px; font-weight: 900; display: none; }
+      .q.correct .qbadge { display: inline; color: var(--ok); }
+      .q.wrong .qbadge { display: inline; color: var(--bad); }
+      .q.partial .qbadge { display: inline; color: var(--part); }
+      .qtext { margin: 0 0 6px; font-size: 16.5px; font-weight: 500; }
+
+      figure.figwrap { margin: 8px 0 4px; }
+      figcaption.figcap { text-align: center; font-size: 13px; color: var(--muted); margin-top: 4px; }
+      svg.fig { width: 100%; max-width: 360px; height: auto; display: block; margin: 0 auto; }
+      svg.fig.wide { max-width: 430px; }
+      svg .ln { stroke: var(--ink); stroke-width: 1.7; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      svg .thin { stroke-width: 1.1; }
+      svg .dash { stroke-dasharray: 5 4; }
+      svg .pt { fill: var(--ink); }
+      svg .par { stroke: var(--accent); stroke-width: 1.9; fill: none; stroke-linecap: round; }
+      svg .fillshape { fill: var(--figfill); stroke: var(--ink); stroke-width: 1.5; stroke-linejoin: round; }
+      svg .shade { fill: var(--accent-soft); stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+      svg .cell { fill: var(--figfill); stroke: var(--line); stroke-width: 1.2; }
+      svg .ballw { fill: #ffffff; stroke: var(--ink); stroke-width: 1.4; }
+      svg .ballb { fill: #3c3f45; stroke: var(--ink); stroke-width: 1.4; }
+      svg .ballr { fill: #d84a4a; stroke: #9c2b2b; stroke-width: 1.4; }
+      svg .pie { stroke: var(--paper); stroke-width: 2; }
+      svg .pie1 { fill: var(--accent); }
+      svg .pie2 { fill: var(--accent); fill-opacity: 0.55; }
+      svg .pie3 { fill: var(--ink); fill-opacity: 0.45; }
+      svg .pie4 { fill: var(--ink); fill-opacity: 0.22; }
+      svg .pie5 { fill: var(--accent); fill-opacity: 0.25; }
+      svg text { fill: var(--ink); font-family: "Noto Sans KR", sans-serif; font-size: 13.5px; font-weight: 700; }
+      svg text.lbl { font-size: 12.5px; font-weight: 500; fill: var(--muted); }
+      svg text.big { font-size: 15px; }
+      svg text.onaccent { fill: #ffffff; }
+      @media (prefers-color-scheme: dark) { svg text.onaccent { fill: #10131c; } }
+
+      .opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+      @media (max-width: 520px) { .opts { grid-template-columns: 1fr; } }
+      .opt {
+        text-align: left; font-size: 15.5px; font-weight: 500; color: var(--ink);
+        background: var(--paper); border: 1.5px solid var(--line); border-radius: 10px;
+        padding: 11px 14px; cursor: pointer; min-height: 46px;
+      }
+      .opt:hover { border-color: var(--accent); }
+      .opt.selected { border-color: var(--accent); background: var(--accent-soft); font-weight: 700; }
+      .opt.answer-opt { border-color: var(--ok); background: var(--ok-bg); font-weight: 700; }
+      .opt.wrong-opt { border-color: var(--bad); background: var(--bad-bg); font-weight: 700; }
+      .opt:disabled { cursor: default; opacity: 1; }
+
+      .subin {
+        width: 100%; max-width: 430px; font-size: 16px; padding: 11px 13px; margin-top: 10px;
+        border: 1.5px solid var(--line); border-radius: 9px; background: var(--paper); color: var(--ink);
+      }
+      .subin:focus { border-color: var(--accent); outline: none; }
+      .hint { margin: 7px 0 0; font-size: 13px; color: var(--muted); }
+
+      .explain {
+        display: none; margin-top: 14px; border: 1px solid var(--line);
+        background: var(--paper); padding: 12px 15px; border-radius: 9px; font-size: 14.5px;
+      }
+      .q.show-exp .explain { display: block; }
+      .explain p { margin: 0 0 4px; }
+      .explain p:last-child { margin-bottom: 0; }
+      .explain .ans { font-weight: 900; }
+      .explain .mine { color: var(--muted); }
+
+      .actions { margin-top: 28px; text-align: center; }
+      .progress-note { font-size: 14px; color: var(--muted); margin: 0 0 12px; }
+      .btn-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+      .btn {
+        font-size: 16px; font-weight: 700; padding: 12px 26px; border-radius: 10px;
+        border: 1.5px solid var(--ink); background: var(--paper); color: var(--ink);
+        cursor: pointer; min-height: 48px;
+      }
+      .btn.primary { background: var(--accent); border-color: var(--accent); color: #ffffff; }
+      @media (prefers-color-scheme: dark) { .btn.primary { color: #10131c; } }
+      .btn:hover { filter: brightness(1.06); }
+
+      .summary {
+        display: none; margin-top: 24px; border: 2px solid var(--ink);
+        padding: 20px 18px; text-align: center;
+      }
+      .summary.show { display: block; }
+      .summary .big-score { font-family: "Noto Serif KR", serif; font-size: 40px; font-weight: 900; margin: 0; }
+      .summary .big-score small { font-size: 18px; color: var(--muted); font-weight: 500; }
+      .summary p { margin: 6px 0 0; font-size: 15px; }
+      .summary .wrong-list { color: var(--bad); font-weight: 700; }
+
+      @media print {
+        body { background: #ffffff; }
+        .paper { box-shadow: none; border: none; margin: 0; max-width: none; padding: 8px 4px; }
+        .actions, .progress-note { display: none !important; }
+        .opt { border-color: #999; }
+        .opt.selected { background: #e9eff8; border-color: #1e4f9c; }
+        .q { break-inside: avoid; }
+        .summary { break-inside: avoid; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="paper">
+      <header class="exam-top">
+        <p class="exam-kicker">중학교 2학년 · 수학 · V 도형의 닮음 / VI 확률</p>
+        <h1>중2 수학 모의시험 - 도형의 닮음과 확률</h1>
+        <p class="exam-sub">닮음의 뜻과 성질 · 삼각형의 닮음 조건 · 삼각형과 평행선 · 삼각형의 무게중심 · 경우의 수 · 확률</p>
+        <div class="info-row">
+          <div class="info-field">
+            <label for="stu-name">이름</label>
+            <input type="text" id="stu-name" autocomplete="off" placeholder="이름을 쓰세요" />
+          </div>
+          <div class="info-field">
+            <label for="stu-date">날짜</label>
+            <input type="date" id="stu-date" />
+          </div>
+          <div class="score-box"><small>점수</small><span id="score-display">― / 100</span></div>
+        </div>
+      </header>
+
+      <div class="notice">
+        <p><strong>안내</strong> · 총 25문제입니다. 객관식 20문제 × 4점 = 80점, 주관식 5문제 × 4점 = 20점, <strong>만점 100점</strong>입니다. 시험 시간은 <strong>60분</strong>입니다.</p>
+        <p>객관식은 보기를 눌러 답을 고르고, 주관식은 답만 쓰세요. 주관식 22, 23, 25번은 두 값을 모두 맞히면 4점, 하나만 맞히면 2점입니다.</p>
+        <p>다 풀었으면 아래 <strong>채점하기</strong> 버튼을 누르세요. 점수와 함께 문제마다 정답과 해설이 나타납니다. 인쇄할 때는 브라우저의 인쇄 메뉴를 이용하세요.</p>
+      </div>
+
+      <h2 class="section-title">객관식 <span>1~20번 · 각 4점</span></h2>
+
+      <!-- 1번 -->
+      <article class="q" data-type="mc" data-answer="2">
+        <div class="qhead"><span class="qnum">1</span><span class="qtag">닮음 판별</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">다음 중 항상 닮음인 도형을 모두 고른 것은?</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 340 118" role="img" aria-label="보기 목록: ㉠ 두 정사각형, ㉡ 두 직사각형, ㉢ 두 정삼각형, ㉣ 두 직각삼각형, ㉤ 두 원, ㉥ 두 직각이등변삼각형">
+            <rect class="fillshape" x="10" y="8" width="320" height="102" rx="8" />
+            <text x="28" y="36">㉠ 두 정사각형</text>
+            <text x="182" y="36">㉡ 두 직사각형</text>
+            <text x="28" y="68">㉢ 두 정삼각형</text>
+            <text x="182" y="68">㉣ 두 직각삼각형</text>
+            <text x="28" y="100">㉤ 두 원</text>
+            <text x="182" y="100">㉥ 두 직각이등변삼각형</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① ㉠, ㉡, ㉢</button>
+          <button type="button" class="opt" data-v="2">② ㉠, ㉢, ㉤, ㉥</button>
+          <button type="button" class="opt" data-v="3">③ ㉡, ㉣, ㉤</button>
+          <button type="button" class="opt" data-v="4">④ ㉠, ㉡, ㉣, ㉥</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ② · ㉠, ㉢, ㉤, ㉥</p>
+          <p>해설: 정사각형, 정삼각형, 원, 직각이등변삼각형은 모양이 정해져 있어 항상 닮음이다. 직사각형과 일반 직각삼각형은 가로·세로 비가 달라질 수 있다.</p>
+        </div>
+      </article>
+
+      <!-- 2번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">2</span><span class="qtag">닮음 둘레+넓이</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC ∽ △DEF이고 닮음비가 3:2이다. △ABC의 둘레가 45cm일 때 △DEF의 둘레와, △ABC의 넓이가 36cm²일 때 △DEF의 넓이를 순서대로 고른 것은?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 190" role="img" aria-label="닮음비가 3대 2인 두 삼각형 ABC와 DEF, ABC의 둘레는 45센티미터, 넓이는 36제곱센티미터">
+            <path class="ln" d="M72 34 L24 146 L128 146 Z" />
+            <path class="ln" d="M212 62 L176 148 L250 148 Z" />
+            <text x="72" y="26" text-anchor="middle">A</text>
+            <text x="16" y="151" text-anchor="end">B</text>
+            <text x="136" y="151" text-anchor="start">C</text>
+            <text x="212" y="54" text-anchor="middle">D</text>
+            <text x="168" y="153" text-anchor="end">E</text>
+            <text x="258" y="153" text-anchor="start">F</text>
+            <text class="lbl" x="76" y="166" text-anchor="middle">둘레 45cm · 넓이 36cm²</text>
+            <text class="lbl" x="213" y="166" text-anchor="middle">둘레 ? · 넓이 ?</text>
+            <text class="lbl" x="150" y="186" text-anchor="middle">닮음비 3 : 2</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 30cm, 16cm²</button>
+          <button type="button" class="opt" data-v="2">② 30cm, 24cm²</button>
+          <button type="button" class="opt" data-v="3">③ 67.5cm, 16cm²</button>
+          <button type="button" class="opt" data-v="4">④ 67.5cm, 81cm²</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · 30cm, 16cm²</p>
+          <p>해설: 둘레 비는 3:2이므로 DEF 둘레는 45×2/3=30. 넓이 비는 9:4이므로 DEF 넓이는 36×4/9=16.</p>
+        </div>
+      </article>
+
+      <!-- 3번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">3</span><span class="qtag">닮음 부피</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">서로 닮은 두 원뿔의 부피의 비가 8:125일 때, 두 원뿔의 닮음비와 겉넓이의 비를 순서대로 고른 것은?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 168" role="img" aria-label="크기가 다른 두 원뿔, 부피의 비는 8대 125">
+            <path class="ln" d="M82 26 L46 128 A36 11 0 0 0 118 128 Z" />
+            <ellipse class="ln thin" cx="82" cy="128" rx="36" ry="11" />
+            <path class="ln" d="M218 14 L160 140 A58 16 0 0 0 276 140 Z" />
+            <ellipse class="ln thin" cx="218" cy="140" rx="58" ry="16" />
+            <text class="lbl" x="82" y="160" text-anchor="middle">작은 원뿔</text>
+            <text class="lbl" x="218" y="166" text-anchor="middle">큰 원뿔</text>
+            <text class="lbl" x="150" y="104" text-anchor="middle">부피의 비 8 : 125</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 2:5, 4:25</button>
+          <button type="button" class="opt" data-v="2">② 4:25, 2:5</button>
+          <button type="button" class="opt" data-v="3">③ 2:5, 8:125</button>
+          <button type="button" class="opt" data-v="4">④ 4:9, 8:27</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · 2:5, 4:25</p>
+          <p>해설: 부피 비는 닮음비의 세제곱이므로 닮음비는 2:5, 겉넓이 비는 제곱인 4:25.</p>
+        </div>
+      </article>
+
+      <!-- 4번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">4</span><span class="qtag">삼각형 닮음 판별</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">다음 세 삼각형이 있다. (가) 세 변이 8cm, 10cm, 12cm이고 끼인각이 60°인 삼각형 (나) 세 변이 12cm, 15cm, 18cm이고 끼인각이 60°인 삼각형 (다) 세 변이 16cm, 20cm, 24cm이고 끼인각이 50°인 삼각형. 닮음인 쌍은?</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 360 168" role="img" aria-label="세 삼각형 가, 나, 다. 가는 변 8, 10, 12센티미터에 끼인각 60도, 나는 변 12, 15, 18센티미터에 끼인각 60도, 다는 변 16, 20, 24센티미터에 끼인각 50도">
+            <path class="ln" d="M58 30 L22 118 L96 118 Z" />
+            <text x="34" y="72" text-anchor="end">8cm</text>
+            <text x="59" y="134" text-anchor="middle">10cm</text>
+            <text x="84" y="72" text-anchor="start">12cm</text>
+            <text x="58" y="56" text-anchor="middle">60°</text>
+            <text x="59" y="156" text-anchor="middle">(가)</text>
+            <path class="ln" d="M180 30 L144 118 L218 118 Z" />
+            <text x="156" y="72" text-anchor="end">12cm</text>
+            <text x="181" y="134" text-anchor="middle">15cm</text>
+            <text x="206" y="72" text-anchor="start">18cm</text>
+            <text x="180" y="56" text-anchor="middle">60°</text>
+            <text x="181" y="156" text-anchor="middle">(나)</text>
+            <path class="ln" d="M302 30 L266 118 L340 118 Z" />
+            <text x="278" y="72" text-anchor="end">16cm</text>
+            <text x="303" y="134" text-anchor="middle">20cm</text>
+            <text x="328" y="72" text-anchor="start">24cm</text>
+            <text x="302" y="56" text-anchor="middle">50°</text>
+            <text x="303" y="156" text-anchor="middle">(다)</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① (가)와 (나)</button>
+          <button type="button" class="opt" data-v="2">② (가)와 (다)</button>
+          <button type="button" class="opt" data-v="3">③ (나)와 (다)</button>
+          <button type="button" class="opt" data-v="4">④ 모두 닮음이다</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · (가)와 (나)</p>
+          <p>해설: (가)와 (나)는 두 변의 비가 2:3으로 같고 끼인각 60°가 같아 SAS 닮음이다. (다)는 끼인각이 50°라 다르다.</p>
+        </div>
+      </article>
+
+      <!-- 5번 -->
+      <article class="q" data-type="mc" data-answer="3">
+        <div class="qhead"><span class="qnum">5</span><span class="qtag">닮음 응용</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC에서 D는 AC 위의 점, E는 AB 위의 점이다. ∠AED=∠ABC이고 AD=5cm, AE=4cm, DB=3cm일 때 CE의 길이는?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 208" role="img" aria-label="삼각형 ABC에서 E는 AB 위의 점, D는 AC 위의 점이고 AD는 5, AE는 4, DB는 3센티미터, 각 AED와 각 ABC가 같다">
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln" d="M106 91 L194 91" />
+            <path class="ln thin dash" d="M194 91 L38 168" />
+            <path class="par" d="M176 84 l7 7 l-10 1" />
+            <path class="par" d="M60 158 l10 2 l-4 -9" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="96" y="88" text-anchor="end">E</text>
+            <text x="204" y="88" text-anchor="start">D</text>
+            <text x="112" y="56" text-anchor="end">4cm</text>
+            <text x="196" y="56" text-anchor="start">5cm</text>
+            <text x="104" y="140" text-anchor="middle">3cm</text>
+            <text x="240" y="140" text-anchor="start">CE = ?</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 4cm</button>
+          <button type="button" class="opt" data-v="2">② 5cm</button>
+          <button type="button" class="opt" data-v="3">③ 6cm</button>
+          <button type="button" class="opt" data-v="4">④ 8cm</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ③ · 6cm</p>
+          <p>해설: △ADE ∽ △ACB(AA 닮음)이다. AB=AE+EB가 아니라 AB=AD+DB=8cm이다. AD:AC=AE:AB에서 5:AC=4:8, AC=10cm, CE=AC-AE=6cm.</p>
+        </div>
+      </article>
+
+      <!-- 6번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">6</span><span class="qtag">평행선 x, y</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC에서 DE // BC이다. AD=4cm, DB=6cm, AE=6cm, DE=8cm일 때 EC=x, BC=y를 순서대로 고른 것은?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 208" role="img" aria-label="삼각형 ABC에서 DE가 BC와 평행하고 AD는 4, DB는 6, AE는 6, DE는 8센티미터, EC는 x, BC는 y">
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln" d="M105 84 L195 84" />
+            <path class="par" d="M143 80 l8 4 l-8 4" />
+            <path class="par" d="M143 164 l8 4 l-8 4" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="95" y="81" text-anchor="end">D</text>
+            <text x="205" y="81" text-anchor="start">E</text>
+            <text x="100" y="52" text-anchor="end">4cm</text>
+            <text x="52" y="132" text-anchor="end">6cm</text>
+            <text x="206" y="52" text-anchor="start">6cm</text>
+            <text x="150" y="74" text-anchor="middle">8cm</text>
+            <text x="246" y="132" text-anchor="start">x</text>
+            <text x="150" y="190" text-anchor="middle">BC = y</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① x=9cm, y=20cm</button>
+          <button type="button" class="opt" data-v="2">② x=12cm, y=18cm</button>
+          <button type="button" class="opt" data-v="3">③ x=9cm, y=18cm</button>
+          <button type="button" class="opt" data-v="4">④ x=15cm, y=20cm</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · x=9cm, y=20cm</p>
+          <p>해설: AD:DB=AE:EC에서 4:6=6:x, x=9. AD:AB=DE:BC에서 4:10=8:y, y=20.</p>
+        </div>
+      </article>
+
+      <!-- 7번 -->
+      <article class="q" data-type="mc" data-answer="3">
+        <div class="qhead"><span class="qnum">7</span><span class="qtag">평행선 둘레</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC에서 DE // BC이다. AD=6cm, DB=4cm, AE=9cm, DE=12cm이고 △ADE의 둘레가 27cm일 때 △ABC의 둘레는?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 208" role="img" aria-label="삼각형 ABC에서 DE가 BC와 평행하고 AD는 6, DB는 4, AE는 9, DE는 12센티미터, 삼각형 ADE의 둘레는 27센티미터">
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln" d="M94 98 L206 98" />
+            <path class="par" d="M143 94 l8 4 l-8 4" />
+            <path class="par" d="M143 164 l8 4 l-8 4" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="84" y="95" text-anchor="end">D</text>
+            <text x="216" y="95" text-anchor="start">E</text>
+            <text x="88" y="58" text-anchor="end">6cm</text>
+            <text x="48" y="140" text-anchor="end">4cm</text>
+            <text x="220" y="58" text-anchor="start">9cm</text>
+            <text x="150" y="88" text-anchor="middle">12cm</text>
+            <text class="lbl" x="150" y="190" text-anchor="middle">△ADE의 둘레 27cm · △ABC의 둘레 = ?</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 36cm</button>
+          <button type="button" class="opt" data-v="2">② 40cm</button>
+          <button type="button" class="opt" data-v="3">③ 45cm</button>
+          <button type="button" class="opt" data-v="4">④ 54cm</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ③ · 45cm</p>
+          <p>해설: AD:AB=6:10=3:5이므로 둘레 비도 3:5, △ABC 둘레는 27×5/3=45.</p>
+        </div>
+      </article>
+
+      <!-- 8번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">8</span><span class="qtag">평행선 판별</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">다음 그림 중 BC // DE인 것은?</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 360 300" role="img" aria-label="네 개의 삼각형 그림. 가는 AD대DB가 2대3, AE대EC가 4대6, 나는 AD대DB가 3대5, AE대EC가 2대4, 다는 AD대AB가 2대5, AE대AC가 3대7, 라는 AD대DB가 1대2, AE대EC가 3대5">
+            <path class="ln" d="M82 22 L48 96 L118 96 Z" />
+            <path class="ln thin dash" d="M68 52 L98 52" />
+            <text x="82" y="14" text-anchor="middle">A</text>
+            <text x="40" y="101" text-anchor="end">B</text>
+            <text x="126" y="101" text-anchor="start">C</text>
+            <text x="60" y="49" text-anchor="end">D</text>
+            <text x="106" y="49" text-anchor="start">E</text>
+            <text class="lbl" x="83" y="120" text-anchor="middle">(가) AD:DB=2:3, AE:EC=4:6</text>
+            <path class="ln" d="M262 22 L228 96 L298 96 Z" />
+            <path class="ln thin dash" d="M248 52 L278 52" />
+            <text x="262" y="14" text-anchor="middle">A</text>
+            <text x="220" y="101" text-anchor="end">B</text>
+            <text x="306" y="101" text-anchor="start">C</text>
+            <text x="240" y="49" text-anchor="end">D</text>
+            <text x="286" y="49" text-anchor="start">E</text>
+            <text class="lbl" x="263" y="120" text-anchor="middle">(나) AD:DB=3:5, AE:EC=2:4</text>
+            <path class="ln" d="M82 152 L48 226 L118 226 Z" />
+            <path class="ln thin dash" d="M68 182 L98 182" />
+            <text x="82" y="144" text-anchor="middle">A</text>
+            <text x="40" y="231" text-anchor="end">B</text>
+            <text x="126" y="231" text-anchor="start">C</text>
+            <text x="60" y="179" text-anchor="end">D</text>
+            <text x="106" y="179" text-anchor="start">E</text>
+            <text class="lbl" x="83" y="250" text-anchor="middle">(다) AD:AB=2:5, AE:AC=3:7</text>
+            <path class="ln" d="M262 152 L228 226 L298 226 Z" />
+            <path class="ln thin dash" d="M248 182 L278 182" />
+            <text x="262" y="144" text-anchor="middle">A</text>
+            <text x="220" y="231" text-anchor="end">B</text>
+            <text x="306" y="231" text-anchor="start">C</text>
+            <text x="240" y="179" text-anchor="end">D</text>
+            <text x="286" y="179" text-anchor="start">E</text>
+            <text class="lbl" x="263" y="250" text-anchor="middle">(라) AD:DB=1:2, AE:EC=3:5</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① (가)</button>
+          <button type="button" class="opt" data-v="2">② (나)</button>
+          <button type="button" class="opt" data-v="3">③ (다)</button>
+          <button type="button" class="opt" data-v="4">④ (라)</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · (가)</p>
+          <p>해설: (가)만 AD:DB=AE:EC=2:3이다. (나)는 3:5와 1:2, (다)는 2:5와 3:7, (라)는 1:2와 3:5로 다르다.</p>
+        </div>
+      </article>
+
+      <!-- 9번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">9</span><span class="qtag">세 평행선 x, y</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">l // m // n이다. 한 직선이 l, m, n과 만나 나누는 선분이 위에서부터 6cm, 9cm이고, 다른 직선이 나누는 선분이 위에서부터 8cm, y이다. 또 세 번째 직선이 나누는 선분이 위에서부터 x, 15cm이다. x와 y를 순서대로 고른 것은?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 190" role="img" aria-label="서로 평행한 세 직선 l, m, n을 세 직선이 자르는 그림. 첫 직선은 6과 9, 둘째 직선은 8과 y, 셋째 직선은 x와 15로 나뉜다">
+            <path class="ln" d="M34 52 L268 52" />
+            <path class="ln" d="M34 98 L268 98" />
+            <path class="ln" d="M34 144 L268 144" />
+            <path class="par" d="M52 48 l8 4 l-8 4" />
+            <path class="par" d="M52 94 l8 4 l-8 4" />
+            <path class="par" d="M52 140 l8 4 l-8 4" />
+            <path class="ln" d="M92 26 L140 170" />
+            <path class="ln" d="M168 26 L216 170" />
+            <path class="ln" d="M232 26 L262 170" />
+            <text x="18" y="57" text-anchor="middle">l</text>
+            <text x="18" y="103" text-anchor="middle">m</text>
+            <text x="18" y="149" text-anchor="middle">n</text>
+            <text x="98" y="79" text-anchor="end">6cm</text>
+            <text x="112" y="125" text-anchor="end">9cm</text>
+            <text x="174" y="79" text-anchor="end">8cm</text>
+            <text x="188" y="125" text-anchor="end">y</text>
+            <text x="238" y="79" text-anchor="end">x</text>
+            <text x="252" y="125" text-anchor="end">15cm</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① x=10cm, y=12cm</button>
+          <button type="button" class="opt" data-v="2">② x=12cm, y=10cm</button>
+          <button type="button" class="opt" data-v="3">③ x=10cm, y=10cm</button>
+          <button type="button" class="opt" data-v="4">④ x=12cm, y=12cm</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · x=10cm, y=12cm</p>
+          <p>해설: 비는 6:9=2:3이다. 8:y=2:3에서 y=12. x:15=2:3에서 x=10.</p>
+        </div>
+      </article>
+
+      <!-- 10번 -->
+      <article class="q" data-type="mc" data-answer="2">
+        <div class="qhead"><span class="qnum">10</span><span class="qtag">네 평행선</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">p // q // r // s이다. 한 직선이 나누는 선분이 위에서부터 4cm, 6cm, 8cm이고, 다른 직선이 나누는 선분이 위에서부터 6cm, 9cm, x이다. x는?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 218" role="img" aria-label="서로 평행한 네 직선 p, q, r, s를 두 직선이 자르는 그림. 한 직선은 4, 6, 8로, 다른 직선은 6, 9, x로 나뉜다">
+            <path class="ln" d="M34 44 L268 44" />
+            <path class="ln" d="M34 84 L268 84" />
+            <path class="ln" d="M34 124 L268 124" />
+            <path class="ln" d="M34 164 L268 164" />
+            <path class="par" d="M52 40 l8 4 l-8 4" />
+            <path class="par" d="M52 80 l8 4 l-8 4" />
+            <path class="par" d="M52 120 l8 4 l-8 4" />
+            <path class="par" d="M52 160 l8 4 l-8 4" />
+            <path class="ln" d="M104 20 L160 188" />
+            <path class="ln" d="M196 20 L252 188" />
+            <text x="18" y="49" text-anchor="middle">p</text>
+            <text x="18" y="89" text-anchor="middle">q</text>
+            <text x="18" y="129" text-anchor="middle">r</text>
+            <text x="18" y="169" text-anchor="middle">s</text>
+            <text x="108" y="68" text-anchor="end">4cm</text>
+            <text x="120" y="108" text-anchor="end">6cm</text>
+            <text x="132" y="148" text-anchor="end">8cm</text>
+            <text x="200" y="68" text-anchor="end">6cm</text>
+            <text x="212" y="108" text-anchor="end">9cm</text>
+            <text x="224" y="148" text-anchor="end">x</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 10cm</button>
+          <button type="button" class="opt" data-v="2">② 12cm</button>
+          <button type="button" class="opt" data-v="3">③ 14cm</button>
+          <button type="button" class="opt" data-v="4">④ 16cm</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ② · 12cm</p>
+          <p>해설: 비는 4:6:8=2:3:4이다. 6:9:x=2:3:4에서 x=12.</p>
+        </div>
+      </article>
+
+      <!-- 11번 -->
+      <article class="q" data-type="mc" data-answer="2">
+        <div class="qhead"><span class="qnum">11</span><span class="qtag">무게중심 복합</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC에서 D는 BC의 중점, G는 무게중심이다. BC=10cm, GD=5cm일 때 AG, AD, DC를 순서대로 고른 것은?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 208" role="img" aria-label="삼각형 ABC에서 D는 BC의 중점, G는 중선 AD 위의 무게중심이고 BC는 10, GD는 5센티미터">
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln thin" d="M150 28 L150 168" />
+            <path class="ln thin" d="M94 161 L94 175" />
+            <path class="ln thin" d="M206 161 L206 175" />
+            <circle class="pt" cx="150" cy="121" r="3.5" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="138" y="186" text-anchor="end">D</text>
+            <text x="160" y="118" text-anchor="start">G</text>
+            <text x="162" y="76" text-anchor="start">AG = ?</text>
+            <text x="162" y="146" text-anchor="start">GD = 5cm</text>
+            <text x="150" y="200" text-anchor="middle">BC = 10cm</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 5cm, 10cm, 5cm</button>
+          <button type="button" class="opt" data-v="2">② 10cm, 15cm, 5cm</button>
+          <button type="button" class="opt" data-v="3">③ 10cm, 20cm, 10cm</button>
+          <button type="button" class="opt" data-v="4">④ 15cm, 20cm, 5cm</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ② · 10cm, 15cm, 5cm</p>
+          <p>해설: AG:GD=2:1이므로 AG=10, AD=15. D는 중점이므로 DC=10÷2=5.</p>
+        </div>
+      </article>
+
+      <!-- 12번 -->
+      <article class="q" data-type="mc" data-answer="3">
+        <div class="qhead"><span class="qnum">12</span><span class="qtag">무게중심 두 개</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC에서 D는 BC의 중점, G는 △ABC의 무게중심, G'은 △GBC의 무게중심이다. AD=36cm일 때 GG'는?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 198" role="img" aria-label="삼각형 ABC의 무게중심 G와 삼각형 GBC의 무게중심 G프라임이 중선 AD 위에 있고 AD는 36센티미터">
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln thin" d="M150 28 L150 168" />
+            <path class="ln thin" d="M150 121 L38 168" />
+            <path class="ln thin" d="M150 121 L262 168" />
+            <path class="ln thin" d="M94 161 L94 175" />
+            <path class="ln thin" d="M206 161 L206 175" />
+            <circle class="pt" cx="150" cy="121" r="3.5" />
+            <circle class="pt" cx="150" cy="152" r="3.5" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="140" y="186" text-anchor="end">D</text>
+            <text x="160" y="118" text-anchor="start">G</text>
+            <text x="160" y="156" text-anchor="start">G'</text>
+            <text x="162" y="66" text-anchor="start">AD = 36cm</text>
+            <text x="182" y="140" text-anchor="start">GG' = ?</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 4cm</button>
+          <button type="button" class="opt" data-v="2">② 6cm</button>
+          <button type="button" class="opt" data-v="3">③ 8cm</button>
+          <button type="button" class="opt" data-v="4">④ 12cm</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ③ · 8cm</p>
+          <p>해설: GD=(1/3)AD=12cm, GG'=(2/3)GD=8cm.</p>
+        </div>
+      </article>
+
+      <!-- 13번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">13</span><span class="qtag">무게중심 넓이</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC의 넓이가 30cm²이다. G는 △ABC의 무게중심, D는 BC의 중점일 때 △GBD의 넓이는?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 208" role="img" aria-label="무게중심 G와 BC의 중점 D가 있는 삼각형 ABC에서 삼각형 GBD가 색칠된 그림, 전체 넓이는 30제곱센티미터">
+            <path class="shade" d="M150 121 L38 168 L150 168 Z" />
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln thin" d="M150 28 L150 168" />
+            <path class="ln thin" d="M38 168 L206 98" />
+            <path class="ln thin" d="M262 168 L94 98" />
+            <path class="ln thin" d="M94 161 L94 175" />
+            <path class="ln thin" d="M206 161 L206 175" />
+            <circle class="pt" cx="150" cy="121" r="3.5" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="138" y="186" text-anchor="end">D</text>
+            <text x="160" y="116" text-anchor="start">G</text>
+            <text class="lbl" x="103" y="156" text-anchor="middle">△GBD = ?</text>
+            <text class="lbl" x="150" y="200" text-anchor="middle">△ABC의 넓이 30cm²</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 5cm²</button>
+          <button type="button" class="opt" data-v="2">② 10cm²</button>
+          <button type="button" class="opt" data-v="3">③ 15cm²</button>
+          <button type="button" class="opt" data-v="4">④ 20cm²</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · 5cm²</p>
+          <p>해설: △ABD는 전체의 절반인 15cm²이고, GD:AD=1:3이므로 △GBD는 △ABD의 1/3인 5cm²이다.</p>
+        </div>
+      </article>
+
+      <!-- 14번 -->
+      <article class="q" data-type="mc" data-answer="2">
+        <div class="qhead"><span class="qnum">14</span><span class="qtag">경우의 수 색칠</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">세 부분 A, B, C에 빨강, 파랑, 노랑, 초록 4가지 색 중 서로 다른 색을 칠하는 경우의 수는?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 190" role="img" aria-label="세 부분 A, B, C로 나뉜 그림과 빨강, 파랑, 노랑, 초록 네 가지 색">
+            <rect class="fillshape" x="95" y="14" width="110" height="40" />
+            <rect class="fillshape" x="95" y="54" width="110" height="40" />
+            <rect class="fillshape" x="95" y="94" width="110" height="40" />
+            <text class="big" x="150" y="40" text-anchor="middle">A</text>
+            <text class="big" x="150" y="80" text-anchor="middle">B</text>
+            <text class="big" x="150" y="120" text-anchor="middle">C</text>
+            <circle class="ballr" cx="88" cy="162" r="10" />
+            <circle cx="124" cy="162" r="10" style="fill:#3f6fb5;stroke:#2b4f82;stroke-width:1.4" />
+            <circle cx="160" cy="162" r="10" style="fill:#e8c832;stroke:#a8891a;stroke-width:1.4" />
+            <circle cx="196" cy="162" r="10" style="fill:#4da34d;stroke:#357035;stroke-width:1.4" />
+            <text class="lbl" x="88" y="186" text-anchor="middle">빨강</text>
+            <text class="lbl" x="124" y="186" text-anchor="middle">파랑</text>
+            <text class="lbl" x="160" y="186" text-anchor="middle">노랑</text>
+            <text class="lbl" x="196" y="186" text-anchor="middle">초록</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 12가지</button>
+          <button type="button" class="opt" data-v="2">② 24가지</button>
+          <button type="button" class="opt" data-v="3">③ 36가지</button>
+          <button type="button" class="opt" data-v="4">④ 64가지</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ② · 24가지</p>
+          <p>해설: A는 4가지, B는 남은 3가지, C는 남은 2가지, 4×3×2=24.</p>
+        </div>
+      </article>
+
+      <!-- 15번 -->
+      <article class="q" data-type="mc" data-answer="3">
+        <div class="qhead"><span class="qnum">15</span><span class="qtag">경우의 수 가는 길</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">A지점에서 B지점까지 가는 방법이 3가지, B지점에서 C지점까지 가는 방법이 4가지, A지점에서 C지점까지 바로 가는 방법이 2가지일 때 A지점에서 C지점까지 가는 경우의 수는?</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 320 168" role="img" aria-label="A에서 B로 가는 길 세 가지, B에서 C로 가는 길 네 가지, A에서 C로 바로 가는 길 두 가지를 나타낸 그림">
+            <path class="ln thin" d="M62 66 L143 66" />
+            <path class="ln thin" d="M58 53 Q102 2 147 53" />
+            <path class="ln thin" d="M58 79 Q102 118 147 79" />
+            <path class="ln thin" d="M177 66 L258 66" />
+            <path class="ln thin" d="M173 52 Q217 -4 262 52" />
+            <path class="ln thin" d="M173 59 Q217 28 262 59" />
+            <path class="ln thin" d="M173 80 Q217 124 262 80" />
+            <path class="ln thin" d="M45 88 Q160 158 275 88" />
+            <circle class="fillshape" cx="45" cy="66" r="17" />
+            <circle class="fillshape" cx="160" cy="66" r="17" />
+            <circle class="fillshape" cx="275" cy="66" r="17" />
+            <text x="45" y="72" text-anchor="middle">A</text>
+            <text x="160" y="72" text-anchor="middle">B</text>
+            <text x="275" y="72" text-anchor="middle">C</text>
+            <text class="lbl" x="102" y="140" text-anchor="middle">길 3가지</text>
+            <text class="lbl" x="217" y="140" text-anchor="middle">길 4가지</text>
+            <text class="lbl" x="160" y="164" text-anchor="middle">바로 가는 길 2가지</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 9가지</button>
+          <button type="button" class="opt" data-v="2">② 12가지</button>
+          <button type="button" class="opt" data-v="3">③ 14가지</button>
+          <button type="button" class="opt" data-v="4">④ 24가지</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ③ · 14가지</p>
+          <p>해설: A→B→C는 3×4=12가지, 바로 가는 2가지를 더하면 14가지이다.</p>
+        </div>
+      </article>
+
+      <!-- 16번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">16</span><span class="qtag">확률 포함-배제</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">1부터 30까지의 자연수가 하나씩 적힌 카드 30장 중 한 장을 뽑을 때 3의 배수 또는 5의 배수가 나올 확률은?</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 320 180" role="img" aria-label="1부터 30까지의 수가 적힌 카드 표">
+            <g><rect class="cell" x="19" y="12" width="42" height="27" rx="4" /><text x="40" y="31" text-anchor="middle">1</text></g>
+            <g><rect class="cell" x="66" y="12" width="42" height="27" rx="4" /><text x="87" y="31" text-anchor="middle">2</text></g>
+            <g><rect class="cell" x="113" y="12" width="42" height="27" rx="4" /><text x="134" y="31" text-anchor="middle">3</text></g>
+            <g><rect class="cell" x="160" y="12" width="42" height="27" rx="4" /><text x="181" y="31" text-anchor="middle">4</text></g>
+            <g><rect class="cell" x="207" y="12" width="42" height="27" rx="4" /><text x="228" y="31" text-anchor="middle">5</text></g>
+            <g><rect class="cell" x="254" y="12" width="42" height="27" rx="4" /><text x="275" y="31" text-anchor="middle">6</text></g>
+            <g><rect class="cell" x="19" y="44" width="42" height="27" rx="4" /><text x="40" y="63" text-anchor="middle">7</text></g>
+            <g><rect class="cell" x="66" y="44" width="42" height="27" rx="4" /><text x="87" y="63" text-anchor="middle">8</text></g>
+            <g><rect class="cell" x="113" y="44" width="42" height="27" rx="4" /><text x="134" y="63" text-anchor="middle">9</text></g>
+            <g><rect class="cell" x="160" y="44" width="42" height="27" rx="4" /><text x="181" y="63" text-anchor="middle">10</text></g>
+            <g><rect class="cell" x="207" y="44" width="42" height="27" rx="4" /><text x="228" y="63" text-anchor="middle">11</text></g>
+            <g><rect class="cell" x="254" y="44" width="42" height="27" rx="4" /><text x="275" y="63" text-anchor="middle">12</text></g>
+            <g><rect class="cell" x="19" y="76" width="42" height="27" rx="4" /><text x="40" y="95" text-anchor="middle">13</text></g>
+            <g><rect class="cell" x="66" y="76" width="42" height="27" rx="4" /><text x="87" y="95" text-anchor="middle">14</text></g>
+            <g><rect class="cell" x="113" y="76" width="42" height="27" rx="4" /><text x="134" y="95" text-anchor="middle">15</text></g>
+            <g><rect class="cell" x="160" y="76" width="42" height="27" rx="4" /><text x="181" y="95" text-anchor="middle">16</text></g>
+            <g><rect class="cell" x="207" y="76" width="42" height="27" rx="4" /><text x="228" y="95" text-anchor="middle">17</text></g>
+            <g><rect class="cell" x="254" y="76" width="42" height="27" rx="4" /><text x="275" y="95" text-anchor="middle">18</text></g>
+            <g><rect class="cell" x="19" y="108" width="42" height="27" rx="4" /><text x="40" y="127" text-anchor="middle">19</text></g>
+            <g><rect class="cell" x="66" y="108" width="42" height="27" rx="4" /><text x="87" y="127" text-anchor="middle">20</text></g>
+            <g><rect class="cell" x="113" y="108" width="42" height="27" rx="4" /><text x="134" y="127" text-anchor="middle">21</text></g>
+            <g><rect class="cell" x="160" y="108" width="42" height="27" rx="4" /><text x="181" y="127" text-anchor="middle">22</text></g>
+            <g><rect class="cell" x="207" y="108" width="42" height="27" rx="4" /><text x="228" y="127" text-anchor="middle">23</text></g>
+            <g><rect class="cell" x="254" y="108" width="42" height="27" rx="4" /><text x="275" y="127" text-anchor="middle">24</text></g>
+            <g><rect class="cell" x="19" y="140" width="42" height="27" rx="4" /><text x="40" y="159" text-anchor="middle">25</text></g>
+            <g><rect class="cell" x="66" y="140" width="42" height="27" rx="4" /><text x="87" y="159" text-anchor="middle">26</text></g>
+            <g><rect class="cell" x="113" y="140" width="42" height="27" rx="4" /><text x="134" y="159" text-anchor="middle">27</text></g>
+            <g><rect class="cell" x="160" y="140" width="42" height="27" rx="4" /><text x="181" y="159" text-anchor="middle">28</text></g>
+            <g><rect class="cell" x="207" y="140" width="42" height="27" rx="4" /><text x="228" y="159" text-anchor="middle">29</text></g>
+            <g><rect class="cell" x="254" y="140" width="42" height="27" rx="4" /><text x="275" y="159" text-anchor="middle">30</text></g>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 7/15</button>
+          <button type="button" class="opt" data-v="2">② 1/2</button>
+          <button type="button" class="opt" data-v="3">③ 8/15</button>
+          <button type="button" class="opt" data-v="4">④ 3/5</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · 7/15</p>
+          <p>해설: 3의 배수 10가지, 5의 배수 6가지, 겹치는 15의 배수 2가지(15, 30)를 빼면 10+6-2=14가지, 14/30=7/15.</p>
+        </div>
+      </article>
+
+      <!-- 17번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">17</span><span class="qtag">확률 원그래프</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">어느 중학교 학생 200명을 대상으로 조사한 원그래프가 있다. '적극 찬성' 10명, '찬성' 65명, '반대' 23명, '모른다' 45명, 나머지는 '그저 그렇다'이다. 이 학생 중 한 명을 임의로 뽑을 때 '찬성' 또는 '적극 찬성'인 학생이 뽑힐 확률은?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 240 236" role="img" aria-label="학생 200명의 의견 원그래프. 적극 찬성 10명, 찬성 65명, 반대 23명, 모른다 45명, 그저 그렇다 57명">
+            <path class="pie pie1" d="M120 118 L120.0 30.0 A88 88 0 0 1 147.2 34.3 Z" />
+            <path class="pie pie2" d="M120 118 L147.2 34.3 A88 88 0 0 1 182.2 180.2 Z" />
+            <path class="pie pie3" d="M120 118 L182.2 180.2 A88 88 0 0 1 125.5 205.8 Z" />
+            <path class="pie pie4" d="M120 118 L125.5 205.8 A88 88 0 0 1 34.1 137.2 Z" />
+            <path class="pie pie5" d="M120 118 L34.1 137.2 A88 88 0 0 1 120.0 30.0 Z" />
+            <text class="onaccent" x="133" y="62" text-anchor="middle" style="font-size:11px">적극 찬성</text>
+            <text x="171" y="110" text-anchor="middle">찬성</text>
+            <text x="146" y="170" text-anchor="middle">반대</text>
+            <text x="84" y="164" text-anchor="middle">모른다</text>
+            <text x="72" y="88" text-anchor="middle">그저 그렇다</text>
+          </svg>
+          <figcaption class="figcap">적극 찬성 10명 · 찬성 65명 · 반대 23명 · 모른다 45명 · 그저 그렇다 57명(나머지)</figcaption>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 3/8</button>
+          <button type="button" class="opt" data-v="2">② 7/20</button>
+          <button type="button" class="opt" data-v="3">③ 2/5</button>
+          <button type="button" class="opt" data-v="4">④ 1/2</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · 3/8</p>
+          <p>해설: (65+10)/200=75/200=3/8.</p>
+        </div>
+      </article>
+
+      <!-- 18번 -->
+      <article class="q" data-type="mc" data-answer="2">
+        <div class="qhead"><span class="qnum">18</span><span class="qtag">확률 두 주사위</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">두 주사위를 동시에 던질 때 나오는 두 눈의 수의 합이 9일 확률은?</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 320 142" role="img" aria-label="주사위 두 개 그림">
+            <rect class="fillshape" x="72" y="30" width="66" height="66" rx="10" />
+            <circle class="pt" cx="88" cy="46" r="6" /><circle class="pt" cx="122" cy="46" r="6" />
+            <circle class="pt" cx="105" cy="63" r="6" />
+            <circle class="pt" cx="88" cy="80" r="6" /><circle class="pt" cx="122" cy="80" r="6" />
+            <rect class="fillshape" x="182" y="30" width="66" height="66" rx="10" />
+            <circle class="pt" cx="198" cy="46" r="6" /><circle class="pt" cx="215" cy="63" r="6" /><circle class="pt" cx="232" cy="80" r="6" />
+            <text class="lbl" x="160" y="122" text-anchor="middle">주사위 2개를 동시에 던진다</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 1/12</button>
+          <button type="button" class="opt" data-v="2">② 1/9</button>
+          <button type="button" class="opt" data-v="3">③ 1/6</button>
+          <button type="button" class="opt" data-v="4">④ 5/36</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ② · 1/9</p>
+          <p>해설: 합이 9가 되는 경우는 (3,6), (4,5), (5,4), (6,3) 4가지, 4/36=1/9.</p>
+        </div>
+      </article>
+
+      <!-- 19번 -->
+      <article class="q" data-type="mc" data-answer="1">
+        <div class="qhead"><span class="qnum">19</span><span class="qtag">확률 두 번 뽑기</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">흰 공 3개, 검은 공 5개가 들어 있는 상자에서 공을 한 개씩 두 번 꺼낸다. 꺼낸 공은 다시 넣지 않는다. 두 공이 모두 흰 공일 확률은?</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 320 168" role="img" aria-label="흰 공 세 개와 검은 공 다섯 개가 든 상자">
+            <rect class="ln" x="52" y="36" width="216" height="92" rx="8" />
+            <circle class="ballw" cx="88" cy="66" r="15" /><circle class="ballw" cx="132" cy="66" r="15" /><circle class="ballw" cx="176" cy="66" r="15" /><circle class="ballb" cx="220" cy="66" r="15" />
+            <circle class="ballb" cx="88" cy="102" r="15" /><circle class="ballb" cx="132" cy="102" r="15" /><circle class="ballb" cx="176" cy="102" r="15" /><circle class="ballb" cx="220" cy="102" r="15" />
+            <text class="lbl" x="160" y="152" text-anchor="middle">흰 공 3개 · 검은 공 5개 — 한 개씩 두 번, 다시 넣지 않는다</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 3/28</button>
+          <button type="button" class="opt" data-v="2">② 1/8</button>
+          <button type="button" class="opt" data-v="3">③ 3/16</button>
+          <button type="button" class="opt" data-v="4">④ 9/64</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ① · 3/28</p>
+          <p>해설: 첫 번째가 흰 공일 확률은 3/8, 두 번째가 흰 공일 확률은 2/7, 곱하면 3/28.</p>
+        </div>
+      </article>
+
+      <!-- 20번 -->
+      <article class="q" data-type="mc" data-answer="3">
+        <div class="qhead"><span class="qnum">20</span><span class="qtag">확률 동전 세 번</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">동전 한 개를 세 번 던질 때 앞면이 두 번 이상 나올 확률은?</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 320 142" role="img" aria-label="동전 한 개를 세 번 던지는 그림">
+            <circle class="fillshape" cx="70" cy="58" r="30" />
+            <circle class="ln thin" cx="70" cy="58" r="23" />
+            <text class="big" x="70" y="64" text-anchor="middle">100</text>
+            <circle class="fillshape" cx="160" cy="58" r="30" />
+            <circle class="ln thin" cx="160" cy="58" r="23" />
+            <text class="big" x="160" y="64" text-anchor="middle">100</text>
+            <circle class="fillshape" cx="250" cy="58" r="30" />
+            <circle class="ln thin" cx="250" cy="58" r="23" />
+            <text class="big" x="250" y="64" text-anchor="middle">100</text>
+            <text class="lbl" x="70" y="114" text-anchor="middle">첫 번째</text>
+            <text class="lbl" x="160" y="114" text-anchor="middle">두 번째</text>
+            <text class="lbl" x="250" y="114" text-anchor="middle">세 번째</text>
+          </svg>
+        </figure>
+        <div class="opts">
+          <button type="button" class="opt" data-v="1">① 1/4</button>
+          <button type="button" class="opt" data-v="2">② 3/8</button>
+          <button type="button" class="opt" data-v="3">③ 1/2</button>
+          <button type="button" class="opt" data-v="4">④ 5/8</button>
+        </div>
+        <div class="explain">
+          <p class="ans">정답 ③ · 1/2</p>
+          <p>해설: 앞면이 2번 나오는 경우는 3가지, 3번 나오는 경우는 1가지, 전체 8가지 중 4가지, 4/8=1/2.</p>
+        </div>
+      </article>
+
+      <h2 class="section-title">주관식 <span>21~25번 · 각 4점 · 답만 쓰세요</span></h2>
+
+      <!-- 21번 -->
+      <article class="q" data-type="sub" data-grade="unitnum" data-accept="90|90cm²|90cm2">
+        <div class="qhead"><span class="qnum">21</span><span class="qtag">닮음 넓이</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">서로 닮은 두 삼각형의 닮음비가 3:5이고, 큰 삼각형의 넓이가 250cm²일 때 작은 삼각형의 넓이를 구하시오.</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 190" role="img" aria-label="닮음비가 3대 5인 두 삼각형, 큰 삼각형의 넓이는 250제곱센티미터이고 작은 삼각형의 넓이는 물음표">
+            <path class="ln" d="M62 66 L34 140 L94 140 Z" />
+            <path class="ln" d="M205 28 L146 148 L262 148 Z" />
+            <text x="62" y="58" text-anchor="middle">작은 삼각형</text>
+            <text x="204" y="20" text-anchor="middle">큰 삼각형</text>
+            <text class="lbl" x="64" y="160" text-anchor="middle">넓이 ?</text>
+            <text class="lbl" x="204" y="168" text-anchor="middle">넓이 250cm²</text>
+            <text class="lbl" x="150" y="186" text-anchor="middle">닮음비 3 : 5</text>
+          </svg>
+        </figure>
+        <input type="text" class="subin" inputmode="text" autocomplete="off" placeholder="답을 쓰세요 (예: 90cm²)" aria-label="21번 답 입력" />
+        <p class="hint">작은 삼각형의 넓이를 <strong>cm² 단위로 쓰시오</strong>.</p>
+        <div class="explain">
+          <p class="ans">정답 · 90cm²</p>
+          <p>해설: 넓이 비는 9:25이므로 작은 삼각형의 넓이는 250×9/25=90.</p>
+        </div>
+      </article>
+
+      <!-- 22번 -->
+      <article class="q" data-type="sub" data-grade="pair" data-expect="48,21">
+        <div class="qhead"><span class="qnum">22</span><span class="qtag">평행선 둘레</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC에서 DE // BC이다. AD=8cm, DB=4cm, AE=10cm, DE=14cm이고 △ADE의 둘레가 32cm일 때 △ABC의 둘레와 BC의 길이를 구하시오.</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 208" role="img" aria-label="삼각형 ABC에서 DE가 BC와 평행하고 AD는 8, DB는 4, AE는 10, DE는 14센티미터, 삼각형 ADE의 둘레는 32센티미터">
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln" d="M86 112 L214 112" />
+            <path class="par" d="M143 108 l8 4 l-8 4" />
+            <path class="par" d="M143 164 l8 4 l-8 4" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="76" y="109" text-anchor="end">D</text>
+            <text x="224" y="109" text-anchor="start">E</text>
+            <text x="84" y="66" text-anchor="end">8cm</text>
+            <text x="44" y="148" text-anchor="end">4cm</text>
+            <text x="224" y="66" text-anchor="start">10cm</text>
+            <text x="150" y="102" text-anchor="middle">14cm</text>
+            <text class="lbl" x="150" y="190" text-anchor="middle">△ADE의 둘레 32cm · △ABC의 둘레 = ?, BC = ?</text>
+          </svg>
+        </figure>
+        <input type="text" class="subin" inputmode="text" autocomplete="off" placeholder="답을 쓰세요 (예: 48cm, 21cm)" aria-label="22번 답 입력" />
+        <p class="hint">△ABC의 둘레와 BC의 길이를 순서대로 쓰세요. '48cm, 21cm'처럼 써도 되고 숫자만 '48, 21'로 써도 됩니다. 두 값이 모두 맞으면 4점, 하나만 맞으면 2점입니다.</p>
+        <div class="explain">
+          <p class="ans">정답 · 둘레 48cm, BC=21cm</p>
+          <p>해설: AD:AB=8:12=2:3이므로 둘레는 32×3/2=48. BC는 14×3/2=21.</p>
+        </div>
+      </article>
+
+      <!-- 23번 -->
+      <article class="q" data-type="sub" data-grade="pair" data-expect="4,8">
+        <div class="qhead"><span class="qnum">23</span><span class="qtag">무게중심 넓이</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">△ABC의 넓이가 24cm²이다. G는 △ABC의 무게중심, D는 BC의 중점일 때 △GBD의 넓이와 △GBC의 넓이를 구하시오.</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 300 208" role="img" aria-label="무게중심 G와 BC의 중점 D가 있는 삼각형 ABC에서 삼각형 GBC가 색칠된 그림, 전체 넓이는 24제곱센티미터">
+            <path class="shade" d="M150 121 L38 168 L262 168 Z" />
+            <path class="ln" d="M150 28 L38 168 L262 168 Z" />
+            <path class="ln thin" d="M150 28 L150 168" />
+            <path class="ln thin" d="M38 168 L206 98" />
+            <path class="ln thin" d="M262 168 L94 98" />
+            <path class="ln thin" d="M94 161 L94 175" />
+            <path class="ln thin" d="M206 161 L206 175" />
+            <circle class="pt" cx="150" cy="121" r="3.5" />
+            <text x="150" y="18" text-anchor="middle">A</text>
+            <text x="28" y="173" text-anchor="end">B</text>
+            <text x="272" y="173" text-anchor="start">C</text>
+            <text x="138" y="186" text-anchor="end">D</text>
+            <text x="160" y="116" text-anchor="start">G</text>
+            <text class="lbl" x="150" y="152" text-anchor="middle">△GBC = ? · △GBD = ?</text>
+            <text class="lbl" x="150" y="200" text-anchor="middle">△ABC의 넓이 24cm²</text>
+          </svg>
+        </figure>
+        <input type="text" class="subin" inputmode="text" autocomplete="off" placeholder="답을 쓰세요 (예: 4cm², 8cm²)" aria-label="23번 답 입력" />
+        <p class="hint">△GBD의 넓이와 △GBC의 넓이를 순서대로 쓰세요. '4cm², 8cm²'처럼 써도 되고 숫자만 '4, 8'로 써도 됩니다. 두 값이 모두 맞으면 4점, 하나만 맞으면 2점입니다.</p>
+        <div class="explain">
+          <p class="ans">정답 · △GBD 4cm², △GBC 8cm²</p>
+          <p>해설: △ABD는 전체의 절반인 12cm², △GBD는 그 1/3인 4cm². △GBC는 전체의 1/3인 8cm².</p>
+        </div>
+      </article>
+
+      <!-- 24번 -->
+      <article class="q" data-type="sub" data-grade="frac" data-expect="5/6">
+        <div class="qhead"><span class="qnum">24</span><span class="qtag">경우의 수와 확률</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">1부터 12까지의 자연수가 하나씩 적힌 카드 12장 중 한 장을 뽑을 때 짝수 또는 소수가 나올 확률을 구하시오.</p>
+        <figure class="figwrap">
+          <svg class="fig wide" viewBox="0 0 320 130" role="img" aria-label="1부터 12까지의 수가 적힌 카드 열두 장">
+            <g><rect class="fillshape" x="20" y="14" width="40" height="46" rx="5" /><text x="40" y="44" text-anchor="middle">1</text></g>
+            <g><rect class="fillshape" x="68" y="14" width="40" height="46" rx="5" /><text x="88" y="44" text-anchor="middle">2</text></g>
+            <g><rect class="fillshape" x="116" y="14" width="40" height="46" rx="5" /><text x="136" y="44" text-anchor="middle">3</text></g>
+            <g><rect class="fillshape" x="164" y="14" width="40" height="46" rx="5" /><text x="184" y="44" text-anchor="middle">4</text></g>
+            <g><rect class="fillshape" x="212" y="14" width="40" height="46" rx="5" /><text x="232" y="44" text-anchor="middle">5</text></g>
+            <g><rect class="fillshape" x="260" y="14" width="40" height="46" rx="5" /><text x="280" y="44" text-anchor="middle">6</text></g>
+            <g><rect class="fillshape" x="20" y="70" width="40" height="46" rx="5" /><text x="40" y="100" text-anchor="middle">7</text></g>
+            <g><rect class="fillshape" x="68" y="70" width="40" height="46" rx="5" /><text x="88" y="100" text-anchor="middle">8</text></g>
+            <g><rect class="fillshape" x="116" y="70" width="40" height="46" rx="5" /><text x="136" y="100" text-anchor="middle">9</text></g>
+            <g><rect class="fillshape" x="164" y="70" width="40" height="46" rx="5" /><text x="184" y="100" text-anchor="middle">10</text></g>
+            <g><rect class="fillshape" x="212" y="70" width="40" height="46" rx="5" /><text x="232" y="100" text-anchor="middle">11</text></g>
+            <g><rect class="fillshape" x="260" y="70" width="40" height="46" rx="5" /><text x="280" y="100" text-anchor="middle">12</text></g>
+          </svg>
+        </figure>
+        <input type="text" class="subin" inputmode="text" autocomplete="off" placeholder="답을 쓰세요 (예: 5/6)" aria-label="24번 답 입력" />
+        <p class="hint">확률을 <strong>기약분수로 쓰시오</strong>.</p>
+        <div class="explain">
+          <p class="ans">정답 · 5/6</p>
+          <p>해설: 짝수 6가지, 소수 5가지, 겹치는 2를 빼면 10가지, 10/12=5/6.</p>
+        </div>
+      </article>
+
+      <!-- 25번 -->
+      <article class="q" data-type="sub" data-grade="fracnum" data-expect="1/6,6">
+        <div class="qhead"><span class="qnum">25</span><span class="qtag">확률 계산</span><span class="qpts">4점</span><span class="qbadge"></span></div>
+        <p class="qtext">서로 다른 주사위 A, B를 동시에 던질 때 A에서는 3의 배수, B에서는 짝수가 나올 확률을 구하고, 그 경우의 수를 함께 구하시오.</p>
+        <figure class="figwrap">
+          <svg class="fig" viewBox="0 0 320 142" role="img" aria-label="서로 다른 주사위 A와 B 그림">
+            <text x="105" y="24" text-anchor="middle">주사위 A</text>
+            <text x="215" y="24" text-anchor="middle">주사위 B</text>
+            <rect class="fillshape" x="72" y="36" width="66" height="66" rx="10" />
+            <circle class="pt" cx="88" cy="52" r="6" /><circle class="pt" cx="122" cy="52" r="6" />
+            <circle class="pt" cx="88" cy="86" r="6" /><circle class="pt" cx="122" cy="86" r="6" />
+            <rect class="fillshape" x="182" y="36" width="66" height="66" rx="10" />
+            <circle class="pt" cx="198" cy="52" r="6" /><circle class="pt" cx="232" cy="86" r="6" />
+            <text class="lbl" x="160" y="126" text-anchor="middle">두 주사위를 동시에 던진다</text>
+          </svg>
+        </figure>
+        <input type="text" class="subin" inputmode="text" autocomplete="off" placeholder="답을 쓰세요 (예: 1/6, 6가지)" aria-label="25번 답 입력" />
+        <p class="hint">확률과 경우의 수를 순서대로 쓰세요. '1/6, 6가지'처럼 써도 되고 '1/6, 6'으로 써도 됩니다. 두 값이 모두 맞으면 4점, 확률만 맞으면 2점입니다.</p>
+        <div class="explain">
+          <p class="ans">정답 · 확률 1/6, 경우의 수 6가지</p>
+          <p>해설: A가 3의 배수일 확률은 2/6=1/3, B가 짝수일 확률은 3/6=1/2, 곱하면 1/6. 경우의 수는 2×3=6가지이다.</p>
+        </div>
+      </article>
+
+      <section class="summary" id="summary" aria-live="polite">
+        <p class="big-score"><span id="sum-score">0</span><small> / 100점</small></p>
+        <p id="sum-count"></p>
+        <p id="sum-wrong"></p>
+      </section>
+
+      <div class="actions">
+        <p class="progress-note" id="progress-note">답한 문제: 0 / 25</p>
+        <div class="btn-row">
+          <button type="button" class="btn primary" id="btn-grade">채점하기</button>
+          <button type="button" class="btn" id="btn-reset">다시 풀기</button>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      (function () {
+        var graded = false;
+        var questions = Array.prototype.slice.call(document.querySelectorAll(".q"));
+        var progressNote = document.getElementById("progress-note");
+        var summary = document.getElementById("summary");
+        var CIRCLES = ["", "①", "②", "③", "④"];
+
+        function updateProgress() {
+          var answered = 0;
+          questions.forEach(function (q) {
+            if (q.dataset.type === "mc") {
+              if (q.querySelector(".opt.selected")) answered++;
+            } else {
+              var inp = q.querySelector(".subin");
+              if (inp && inp.value.trim() !== "") answered++;
+            }
+          });
+          progressNote.textContent = graded
+            ? "채점이 끝났습니다. 틀린 문제는 해설을 보고 다시 풀어 보세요."
+            : "답한 문제: " + answered + " / 25";
+        }
+
+        document.querySelectorAll(".opts").forEach(function (group) {
+          group.addEventListener("click", function (e) {
+            var btn = e.target.closest(".opt");
+            if (!btn || graded) return;
+            group.querySelectorAll(".opt").forEach(function (o) { o.classList.remove("selected"); });
+            btn.classList.add("selected");
+            updateProgress();
+          });
+        });
+        document.querySelectorAll(".subin").forEach(function (inp) {
+          inp.addEventListener("input", updateProgress);
+        });
+
+        function extractNumbers(str) {
+          var m = String(str).replace(/,/g, " ").match(/\d+(\.\d+)?/g);
+          return m ? m.map(Number) : [];
+        }
+
+        function gradeSubjective(q) {
+          var inp = q.querySelector(".subin");
+          var raw = inp ? inp.value : "";
+          var kind = q.dataset.grade;
+          if (kind === "unitnum") {
+            var norm = raw.replace(/\s+/g, "");
+            var accepts = q.dataset.accept.split("|");
+            return accepts.indexOf(norm) >= 0 ? 4 : 0;
+          }
+          if (kind === "pair") {
+            var targets = q.dataset.expect.split(",").map(Number);
+            var nums = extractNumbers(raw);
+            var hits = targets.filter(function (t) { return nums.indexOf(t) >= 0; }).length;
+            if (hits === targets.length) return 4;
+            if (hits === 1) return 2;
+            return 0;
+          }
+          if (kind === "frac") {
+            var f = raw.replace(/\s+/g, "").replace("／", "/");
+            return f === q.dataset.expect ? 4 : 0;
+          }
+          if (kind === "fracnum") {
+            var parts = q.dataset.expect.split(",");
+            var fracStr = parts[0];
+            var numTarget = Number(parts[1]);
+            var compact = raw.replace(/\s+/g, "").replace("／", "/");
+            var hasFrac = compact.indexOf(fracStr) >= 0;
+            var rest = compact.replace(fracStr, " ");
+            var restNums = extractNumbers(rest);
+            var hasNum = restNums.indexOf(numTarget) >= 0;
+            if (hasFrac && hasNum) return 4;
+            if (hasFrac) return 2;
+            return 0;
+          }
+          return 0;
+        }
+
+        function grade() {
+          var total = 0, full = 0, partial = 0, wrongNums = [];
+          questions.forEach(function (q, idx) {
+            var num = idx + 1;
+            var pts = 0;
+            q.classList.remove("correct", "wrong", "partial");
+            q.classList.add("show-exp");
+            var badge = q.querySelector(".qbadge");
+            if (q.dataset.type === "mc") {
+              var answer = Number(q.dataset.answer);
+              var sel = q.querySelector(".opt.selected");
+              q.querySelectorAll(".opt").forEach(function (o) {
+                o.disabled = true;
+                o.classList.remove("answer-opt", "wrong-opt");
+                if (Number(o.dataset.v) === answer) o.classList.add("answer-opt");
+              });
+              if (sel && Number(sel.dataset.v) === answer) {
+                pts = 4;
+              } else if (sel) {
+                sel.classList.add("wrong-opt");
+              }
+              var mine = q.querySelector(".explain .mine");
+              if (!mine) {
+                mine = document.createElement("p");
+                mine.className = "mine";
+                q.querySelector(".explain").appendChild(mine);
+              }
+              mine.textContent = sel
+                ? "내가 고른 답: " + CIRCLES[Number(sel.dataset.v)] + " " + sel.textContent.replace(/^[①②③④]\s*/, "")
+                : "내가 고른 답: (선택하지 않음)";
+            } else {
+              pts = gradeSubjective(q);
+              var inp2 = q.querySelector(".subin");
+              if (inp2) inp2.disabled = true;
+            }
+            total += pts;
+            if (pts === 4) { q.classList.add("correct"); badge.textContent = "○ 정답 · 4점"; full++; }
+            else if (pts === 2) { q.classList.add("partial"); badge.textContent = "△ 부분 정답 · 2점"; partial++; wrongNums.push(num + "번(부분)"); }
+            else { q.classList.add("wrong"); badge.textContent = "✕ 오답 · 0점"; wrongNums.push(num + "번"); }
+          });
+          graded = true;
+          document.getElementById("score-display").textContent = total + " / 100";
+          document.getElementById("sum-score").textContent = total;
+          var countLine = "맞은 문제 " + full + "개 / 25개";
+          if (partial > 0) countLine += " · 부분 정답 " + partial + "개";
+          document.getElementById("sum-count").textContent = countLine;
+          var wrongEl = document.getElementById("sum-wrong");
+          if (wrongNums.length === 0) {
+            wrongEl.innerHTML = "틀린 문제가 없습니다. 만점이에요!";
+          } else {
+            wrongEl.innerHTML = "틀린 문제: <span class=\"wrong-list\">" + wrongNums.join(", ") + "</span> — 아래 해설을 확인하세요.";
+          }
+          summary.classList.add("show");
+          updateProgress();
+          summary.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+
+        function reset() {
+          graded = false;
+          questions.forEach(function (q) {
+            q.classList.remove("correct", "wrong", "partial", "show-exp");
+            q.querySelectorAll(".opt").forEach(function (o) {
+              o.classList.remove("selected", "answer-opt", "wrong-opt");
+              o.disabled = false;
+            });
+            var inp = q.querySelector(".subin");
+            if (inp) { inp.value = ""; inp.disabled = false; }
+          });
+          document.getElementById("score-display").textContent = "― / 100";
+          summary.classList.remove("show");
+          updateProgress();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        document.getElementById("btn-grade").addEventListener("click", grade);
+        document.getElementById("btn-reset").addEventListener("click", reset);
+        updateProgress();
+      })();
+    </script>
+  </body>
+</html>
