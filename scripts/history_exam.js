@@ -11,7 +11,7 @@ function loadBank(){if(bank)return Promise.resolve(bank);return fetchText('draft
  var doc=parseXmlOrThrow(t,'역사 문제은행'),all=[].slice.call(doc.getElementsByTagName('question')),ids={};
  all.forEach(function(q){var id=q.getAttribute('id');if(!id||ids[id])throw Error('문항 ID 중복: '+id);ids[id]=1});
  var main=all.filter(function(q){return q.getAttribute('reserve')!=='true'}),reserve=all.filter(function(q){return q.getAttribute('reserve')==='true'});
- var firstStageCount=main.filter(function(q){return +q.getAttribute('stage')===1}).length;if(firstStageCount<30)throw Error('1차 문항 수가 부족합니다. 현재 '+firstStageCount+'개입니다.');
+ if(main.length<30)throw Error('전 범위 문제은행 문항 수가 부족합니다. 현재 '+main.length+'개입니다.');
  bank={doc:doc,all:all,main:main,reserve:reserve,map:ids};return bank;
 })}
 function renderCards(){var box=el('historyRoundCards');box.innerHTML='';
