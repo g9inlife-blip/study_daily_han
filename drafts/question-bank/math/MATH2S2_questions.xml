@@ -16,7 +16,7 @@
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">SSS 닮음</option><option id="B">중점연결정리</option><option id="C">확률의 곱셈</option><option id="D">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="E">SAS 닮음</option></options>
+<options><option id="A">SSS 닮음</option><option id="B">중점연결정리</option><option id="C">확률의 곱셈</option><option id="D">AA 닮음</option><option id="E">SAS 닮음</option></options>
 <answer>D</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -36,7 +36,7 @@
 <concept>SAS 닮음 조건</concept>
 <prompt>두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
 
-<options><option id="A">합의 법칙</option><option id="B">SAS,AA,SSS,중점연결,합의 법칙</option><option id="C">AA</option><option id="D">SSS</option><option id="E">중점연결</option></options>
+<options><option id="A">합의 법칙</option><option id="B">SAS</option><option id="C">AA</option><option id="D">SSS</option><option id="E">중점연결</option></options>
 <answer>B</answer>
 <explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
 <advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
@@ -66,7 +66,7 @@
 <concept>삼각형의 닮음 조건 적용</concept>
 <prompt>세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
 
-<options><option id="A">AA</option><option id="B">중점연결</option><option id="C">합의 법칙</option><option id="D">SSS,SAS,AA,중점연결,합의 법칙</option><option id="E">SAS</option></options>
+<options><option id="A">AA</option><option id="B">중점연결</option><option id="C">합의 법칙</option><option id="D">SSS</option><option id="E">SAS</option></options>
 <answer>D</answer>
 <explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
 <advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
@@ -106,7 +106,7 @@
 <concept>평행선의 역</concept>
 <prompt>두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
 
-<options><option id="A">수직이다</option><option id="B">길이가 같다</option><option id="C">항상 중선이다</option><option id="D">관계가 없다</option><option id="E">평행하다,수직이다,길이가 같다,항상 중선이다,관계가 없다</option></options>
+<options><option id="A">수직이다</option><option id="B">길이가 같다</option><option id="C">항상 중선이다</option><option id="D">관계가 없다</option><option id="E">평행하다</option></options>
 <answer>E</answer>
 <explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
 <advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
@@ -176,7 +176,7 @@
 <concept>무게중심과 넓이의 비</concept>
 <prompt>무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
 <diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1:1:2</option><option id="B">3:2:1</option><option id="C">1:1:1,1:2:3,2:1:1,1:1:2,3:2:1</option><option id="D">1:2:3</option><option id="E">2:1:1</option></options>
+<options><option id="A">1:1:2</option><option id="B">3:2:1</option><option id="C">1:1:1</option><option id="D">1:2:3</option><option id="E">2:1:1</option></options>
 <answer>C</answer>
 <explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
 <advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
@@ -226,7 +226,7 @@
 <concept>확률의 범위</concept>
 <prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">확률은 항상 1/2</option><option id="B">확률은 경우의 수와 무관</option><option id="C">0≤P(A)≤1,P(A)&lt;0일 수 있다,P(A)&gt;1일 수 있다,확률은 항상 1/2,확률은 경우의 수와 무관</option><option id="D">P(A)&lt;0일 수 있다</option><option id="E">P(A)&gt;1일 수 있다</option></options>
+<options><option id="A">확률은 항상 1/2</option><option id="B">확률은 경우의 수와 무관</option><option id="C">0≤P(A)≤1</option><option id="D">P(A)<0일 수 있다</option><option id="E">P(A)>1일 수 있다</option></options>
 <answer>C</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -316,7 +316,7 @@
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">중점연결정리</option><option id="B">확률의 곱셈</option><option id="C">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="D">SAS 닮음</option><option id="E">SSS 닮음</option></options>
+<options><option id="A">중점연결정리</option><option id="B">확률의 곱셈</option><option id="C">AA 닮음</option><option id="D">SAS 닮음</option><option id="E">SSS 닮음</option></options>
 <answer>C</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -336,7 +336,7 @@
 <concept>SAS 닮음 조건</concept>
 <prompt>두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
 
-<options><option id="A">SAS,AA,SSS,중점연결,합의 법칙</option><option id="B">AA</option><option id="C">SSS</option><option id="D">중점연결</option><option id="E">합의 법칙</option></options>
+<options><option id="A">SAS</option><option id="B">AA</option><option id="C">SSS</option><option id="D">중점연결</option><option id="E">합의 법칙</option></options>
 <answer>A</answer>
 <explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
 <advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
@@ -366,7 +366,7 @@
 <concept>삼각형의 닮음 조건 적용</concept>
 <prompt>세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
 
-<options><option id="A">중점연결</option><option id="B">합의 법칙</option><option id="C">SSS,SAS,AA,중점연결,합의 법칙</option><option id="D">SAS</option><option id="E">AA</option></options>
+<options><option id="A">중점연결</option><option id="B">합의 법칙</option><option id="C">SSS</option><option id="D">SAS</option><option id="E">AA</option></options>
 <answer>C</answer>
 <explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
 <advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
@@ -406,7 +406,7 @@
 <concept>평행선의 역</concept>
 <prompt>두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
 
-<options><option id="A">길이가 같다</option><option id="B">항상 중선이다</option><option id="C">관계가 없다</option><option id="D">평행하다,수직이다,길이가 같다,항상 중선이다,관계가 없다</option><option id="E">수직이다</option></options>
+<options><option id="A">길이가 같다</option><option id="B">항상 중선이다</option><option id="C">관계가 없다</option><option id="D">평행하다</option><option id="E">수직이다</option></options>
 <answer>D</answer>
 <explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
 <advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
@@ -476,7 +476,7 @@
 <concept>무게중심과 넓이의 비</concept>
 <prompt>무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
 <diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">3:2:1</option><option id="B">1:1:1,1:2:3,2:1:1,1:1:2,3:2:1</option><option id="C">1:2:3</option><option id="D">2:1:1</option><option id="E">1:1:2</option></options>
+<options><option id="A">3:2:1</option><option id="B">1:1:1</option><option id="C">1:2:3</option><option id="D">2:1:1</option><option id="E">1:1:2</option></options>
 <answer>B</answer>
 <explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
 <advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
@@ -526,7 +526,7 @@
 <concept>확률의 범위</concept>
 <prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">확률은 경우의 수와 무관</option><option id="B">0≤P(A)≤1,P(A)&lt;0일 수 있다,P(A)&gt;1일 수 있다,확률은 항상 1/2,확률은 경우의 수와 무관</option><option id="C">P(A)&lt;0일 수 있다</option><option id="D">P(A)&gt;1일 수 있다</option><option id="E">확률은 항상 1/2</option></options>
+<options><option id="A">확률은 경우의 수와 무관</option><option id="B">0≤P(A)≤1</option><option id="C">P(A)<0일 수 있다</option><option id="D">P(A)>1일 수 있다</option><option id="E">확률은 항상 1/2</option></options>
 <answer>B</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -616,7 +616,7 @@
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>【조건을 분석하여 판단】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">확률의 곱셈</option><option id="B">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="C">SAS 닮음</option><option id="D">SSS 닮음</option><option id="E">중점연결정리</option></options>
+<options><option id="A">확률의 곱셈</option><option id="B">AA 닮음</option><option id="C">SAS 닮음</option><option id="D">SSS 닮음</option><option id="E">중점연결정리</option></options>
 <answer>B</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -636,7 +636,7 @@
 <concept>SAS 닮음 조건</concept>
 <prompt>【조건을 분석하여 판단】 두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
 
-<options><option id="A">AA</option><option id="B">SSS</option><option id="C">중점연결</option><option id="D">합의 법칙</option><option id="E">SAS,AA,SSS,중점연결,합의 법칙</option></options>
+<options><option id="A">AA</option><option id="B">SSS</option><option id="C">중점연결</option><option id="D">합의 법칙</option><option id="E">SAS</option></options>
 <answer>E</answer>
 <explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
 <advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
@@ -666,7 +666,7 @@
 <concept>삼각형의 닮음 조건 적용</concept>
 <prompt>【조건을 분석하여 판단】 세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
 
-<options><option id="A">합의 법칙</option><option id="B">SSS,SAS,AA,중점연결,합의 법칙</option><option id="C">SAS</option><option id="D">AA</option><option id="E">중점연결</option></options>
+<options><option id="A">합의 법칙</option><option id="B">SSS</option><option id="C">SAS</option><option id="D">AA</option><option id="E">중점연결</option></options>
 <answer>B</answer>
 <explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
 <advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
@@ -706,7 +706,7 @@
 <concept>평행선의 역</concept>
 <prompt>【조건을 분석하여 판단】 두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
 
-<options><option id="A">항상 중선이다</option><option id="B">관계가 없다</option><option id="C">평행하다,수직이다,길이가 같다,항상 중선이다,관계가 없다</option><option id="D">수직이다</option><option id="E">길이가 같다</option></options>
+<options><option id="A">항상 중선이다</option><option id="B">관계가 없다</option><option id="C">평행하다</option><option id="D">수직이다</option><option id="E">길이가 같다</option></options>
 <answer>C</answer>
 <explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
 <advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
@@ -776,7 +776,7 @@
 <concept>무게중심과 넓이의 비</concept>
 <prompt>【조건을 분석하여 판단】 무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
 <diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1:1:1,1:2:3,2:1:1,1:1:2,3:2:1</option><option id="B">1:2:3</option><option id="C">2:1:1</option><option id="D">1:1:2</option><option id="E">3:2:1</option></options>
+<options><option id="A">1:1:1</option><option id="B">1:2:3</option><option id="C">2:1:1</option><option id="D">1:1:2</option><option id="E">3:2:1</option></options>
 <answer>A</answer>
 <explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
 <advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
@@ -826,7 +826,7 @@
 <concept>확률의 범위</concept>
 <prompt>【조건을 분석하여 판단】 사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">0≤P(A)≤1,P(A)&lt;0일 수 있다,P(A)&gt;1일 수 있다,확률은 항상 1/2,확률은 경우의 수와 무관</option><option id="B">P(A)&lt;0일 수 있다</option><option id="C">P(A)&gt;1일 수 있다</option><option id="D">확률은 항상 1/2</option><option id="E">확률은 경우의 수와 무관</option></options>
+<options><option id="A">0≤P(A)≤1</option><option id="B">P(A)<0일 수 있다</option><option id="C">P(A)>1일 수 있다</option><option id="D">확률은 항상 1/2</option><option id="E">확률은 경우의 수와 무관</option></options>
 <answer>A</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -916,7 +916,7 @@
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>【종합 응용】 두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option><option id="B">SAS 닮음</option><option id="C">SSS 닮음</option><option id="D">중점연결정리</option><option id="E">확률의 곱셈</option></options>
+<options><option id="A">AA 닮음</option><option id="B">SAS 닮음</option><option id="C">SSS 닮음</option><option id="D">중점연결정리</option><option id="E">확률의 곱셈</option></options>
 <answer>A</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -936,7 +936,7 @@
 <concept>SAS 닮음 조건</concept>
 <prompt>【종합 응용】 두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
 
-<options><option id="A">SSS</option><option id="B">중점연결</option><option id="C">합의 법칙</option><option id="D">SAS,AA,SSS,중점연결,합의 법칙</option><option id="E">AA</option></options>
+<options><option id="A">SSS</option><option id="B">중점연결</option><option id="C">합의 법칙</option><option id="D">SAS</option><option id="E">AA</option></options>
 <answer>D</answer>
 <explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
 <advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
@@ -966,7 +966,7 @@
 <concept>삼각형의 닮음 조건 적용</concept>
 <prompt>【종합 응용】 세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
 
-<options><option id="A">SSS,SAS,AA,중점연결,합의 법칙</option><option id="B">SAS</option><option id="C">AA</option><option id="D">중점연결</option><option id="E">합의 법칙</option></options>
+<options><option id="A">SSS</option><option id="B">SAS</option><option id="C">AA</option><option id="D">중점연결</option><option id="E">합의 법칙</option></options>
 <answer>A</answer>
 <explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
 <advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
@@ -1006,7 +1006,7 @@
 <concept>평행선의 역</concept>
 <prompt>【종합 응용】 두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
 
-<options><option id="A">관계가 없다</option><option id="B">평행하다,수직이다,길이가 같다,항상 중선이다,관계가 없다</option><option id="C">수직이다</option><option id="D">길이가 같다</option><option id="E">항상 중선이다</option></options>
+<options><option id="A">관계가 없다</option><option id="B">평행하다</option><option id="C">수직이다</option><option id="D">길이가 같다</option><option id="E">항상 중선이다</option></options>
 <answer>B</answer>
 <explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
 <advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
@@ -1076,7 +1076,7 @@
 <concept>무게중심과 넓이의 비</concept>
 <prompt>【종합 응용】 무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
 <diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">1:2:3</option><option id="B">2:1:1</option><option id="C">1:1:2</option><option id="D">3:2:1</option><option id="E">1:1:1,1:2:3,2:1:1,1:1:2,3:2:1</option></options>
+<options><option id="A">1:2:3</option><option id="B">2:1:1</option><option id="C">1:1:2</option><option id="D">3:2:1</option><option id="E">1:1:1</option></options>
 <answer>E</answer>
 <explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
 <advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
@@ -1126,7 +1126,7 @@
 <concept>확률의 범위</concept>
 <prompt>【종합 응용】 사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">P(A)&lt;0일 수 있다</option><option id="B">P(A)&gt;1일 수 있다</option><option id="C">확률은 항상 1/2</option><option id="D">확률은 경우의 수와 무관</option><option id="E">0≤P(A)≤1,P(A)&lt;0일 수 있다,P(A)&gt;1일 수 있다,확률은 항상 1/2,확률은 경우의 수와 무관</option></options>
+<options><option id="A">P(A)<0일 수 있다</option><option id="B">P(A)>1일 수 있다</option><option id="C">확률은 항상 1/2</option><option id="D">확률은 경우의 수와 무관</option><option id="E">0≤P(A)≤1</option></options>
 <answer>E</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
@@ -1216,7 +1216,7 @@
 <concept>SSS·SAS·AA 닮음 판정</concept>
 <prompt>두 삼각형에서 두 쌍의 대응각이 각각 같다. 두 삼각형의 닮음 조건은?</prompt>
 
-<options><option id="A">SAS 닮음</option><option id="B">SSS 닮음</option><option id="C">중점연결정리</option><option id="D">확률의 곱셈</option><option id="E">AA 닮음,SAS 닮음,SSS 닮음,중점연결정리,확률의 곱셈</option></options>
+<options><option id="A">SAS 닮음</option><option id="B">SSS 닮음</option><option id="C">중점연결정리</option><option id="D">확률의 곱셈</option><option id="E">AA 닮음</option></options>
 <answer>E</answer>
 <explanation>두 쌍의 대응각이 같으므로 AA 닮음이다.</explanation>
 <advancedExplanation>AA는 두 각, SAS는 두 변의 비와 끼인각, SSS는 세 변의 비를 확인한다.</advancedExplanation>
@@ -1236,7 +1236,7 @@
 <concept>SAS 닮음 조건</concept>
 <prompt>두 삼각형에서 두 대응변의 비가 같고 그 끼인각도 같다. 사용할 닮음 조건은?</prompt>
 
-<options><option id="A">중점연결</option><option id="B">합의 법칙</option><option id="C">SAS,AA,SSS,중점연결,합의 법칙</option><option id="D">AA</option><option id="E">SSS</option></options>
+<options><option id="A">중점연결</option><option id="B">합의 법칙</option><option id="C">SAS</option><option id="D">AA</option><option id="E">SSS</option></options>
 <answer>C</answer>
 <explanation>두 변의 비와 그 끼인각이 같으므로 SAS 닮음이다.</explanation>
 <advancedExplanation>SAS에서 각은 두 대응변 사이의 끼인각이어야 한다.</advancedExplanation>
@@ -1266,7 +1266,7 @@
 <concept>삼각형의 닮음 조건 적용</concept>
 <prompt>세 쌍의 대응변의 길이의 비가 모두 같다. 닮음 조건은?</prompt>
 
-<options><option id="A">SAS</option><option id="B">AA</option><option id="C">중점연결</option><option id="D">합의 법칙</option><option id="E">SSS,SAS,AA,중점연결,합의 법칙</option></options>
+<options><option id="A">SAS</option><option id="B">AA</option><option id="C">중점연결</option><option id="D">합의 법칙</option><option id="E">SSS</option></options>
 <answer>E</answer>
 <explanation>세 쌍의 대응변 비가 같으므로 SSS 닮음이다.</explanation>
 <advancedExplanation>SSS는 세 변의 대응비를 모두 비교한다.</advancedExplanation>
@@ -1306,7 +1306,7 @@
 <concept>평행선의 역</concept>
 <prompt>두 변을 같은 비로 나누는 점을 연결한 선분은 나머지 한 변과 어떤 관계인가?</prompt>
 
-<options><option id="A">평행하다,수직이다,길이가 같다,항상 중선이다,관계가 없다</option><option id="B">수직이다</option><option id="C">길이가 같다</option><option id="D">항상 중선이다</option><option id="E">관계가 없다</option></options>
+<options><option id="A">평행하다</option><option id="B">수직이다</option><option id="C">길이가 같다</option><option id="D">항상 중선이다</option><option id="E">관계가 없다</option></options>
 <answer>A</answer>
 <explanation>두 변을 같은 비로 나누면 그 점을 연결한 선분은 나머지 한 변과 평행하다.</explanation>
 <advancedExplanation>평행선의 역을 이용하면 길이의 비로 평행성을 판단할 수 있다.</advancedExplanation>
@@ -1376,7 +1376,7 @@
 <concept>무게중심과 넓이의 비</concept>
 <prompt>무게중심 G에서 세 꼭짓점으로 나눈 세 삼각형의 넓이의 비는?</prompt>
 <diagram src="assets/math/centroid_area.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
-<options><option id="A">2:1:1</option><option id="B">1:1:2</option><option id="C">3:2:1</option><option id="D">1:1:1,1:2:3,2:1:1,1:1:2,3:2:1</option><option id="E">1:2:3</option></options>
+<options><option id="A">2:1:1</option><option id="B">1:1:2</option><option id="C">3:2:1</option><option id="D">1:1:1</option><option id="E">1:2:3</option></options>
 <answer>D</answer>
 <explanation>세 삼각형의 넓이는 모두 같으므로 1:1:1이다.</explanation>
 <advancedExplanation>중선은 밑변을 반으로 나누고 공통 높이 관계를 이용해 세 영역의 넓이가 같음을 알 수 있다.</advancedExplanation>
@@ -1426,7 +1426,7 @@
 <concept>확률의 범위</concept>
 <prompt>사건 A의 확률에 대한 설명으로 옳은 것은?</prompt>
 
-<options><option id="A">P(A)&gt;1일 수 있다</option><option id="B">확률은 항상 1/2</option><option id="C">확률은 경우의 수와 무관</option><option id="D">0≤P(A)≤1,P(A)&lt;0일 수 있다,P(A)&gt;1일 수 있다,확률은 항상 1/2,확률은 경우의 수와 무관</option><option id="E">P(A)&lt;0일 수 있다</option></options>
+<options><option id="A">P(A)>1일 수 있다</option><option id="B">확률은 항상 1/2</option><option id="C">확률은 경우의 수와 무관</option><option id="D">0≤P(A)≤1</option><option id="E">P(A)<0일 수 있다</option></options>
 <answer>D</answer>
 <explanation>확률은 0 이상 1 이하이다.</explanation>
 <advancedExplanation>불가능한 사건은 0, 반드시 일어나는 사건은 1이다.</advancedExplanation>
