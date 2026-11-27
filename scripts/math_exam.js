@@ -20,16 +20,20 @@ function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(M
 function renderCards(){
  var box=el('mathRoundCards');if(!box)throw Error('mathRoundCards 영역을 찾을 수 없습니다.');box.innerHTML='';
  for(var s=1;s<=4;s++){var prev=s===1?null:latest(s-1),last=latest(s),locked=s>1&&!prev,card=document.createElement('div');card.className='card';
- card.innerHTML='<b>'+s+'차 학습</b><p class="meta">'+(last?'최근 '+last.score+'점 · '+last.correct+'/30 정답':(s===1?'전체 범위 30문항':'직전 회차 오답 + 신규 문항'))+'</p>'+(locked?'<p class="hint">이전 회차를 먼저 제출해 주세요.</p>':'')+'<button class="btn '+(locked?'ghost':'')+'" '+(locked?'disabled':'')+' data-math-round="'+s+'">'+(last?'다시 풀기':'시작')+'</button>';box.appendChild(card)}
+ card.innerHTML='<b>'+s+'차 학습</b><p class="meta">'+(last?'최근 '+last.score+'점 · '+last.correct+'/30 정답':(s===1?'전 범위 30문항 · 무작위 조합':'전 범위 조합 · 직전 회차 오답 우선'))+'</p>'+(locked?'<p class="hint">이전 회차를 먼저 제출해 주세요.</p>':'')+'<button class="btn '+(locked?'ghost':'')+'" '+(locked?'disabled':'')+' data-math-round="'+s+'">'+(last?'다시 풀기':'시작')+'</button>';box.appendChild(card)}
  // 동적 버튼은 부모 영역에서 위임 처리하여 재렌더링 후에도 클릭 이벤트가 유지되도록 한다.
  if(!box.dataset.mathClickBound){box.addEventListener('click',function(event){var b=event.target.closest('button[data-math-round]');if(!b||b.disabled)return;startRound(Number(b.dataset.mathRound));});box.dataset.mathClickBound='1';}
 }
 function prepare(s,wrong,b){
- var chosen=[],used={},map={};b.all.forEach(function(q){map[q.getAttribute('id')]=q});
- (wrong||[]).forEach(function(r){var q=map[r.id];if(q&&!used[r.id]){chosen.push({node:q,sourceStage:r.stage,sourceId:r.id});used[r.id]=1}});
- shuffle(b.main.filter(function(q){return +q.getAttribute('stage')===s&&!used[q.getAttribute('id')]})).forEach(function(q){if(chosen.length<30){chosen.push({node:q,sourceStage:s,sourceId:q.getAttribute('id')});used[q.getAttribute('id')]=1}});
+ var chosen=[],used={},map={},previous=s>1?latest(s-1):null,previousIds=previous?Object.keys(previous.answers||{}):[],wrongIds={};
+ b.all.forEach(function(q){map[q.getAttribute('id')]=q});
+ // 직전 회차 오답은 우선 복습하고, 정답 문항은 다음 회차 신규 조합에서 제외한다.
+ (wrong||[]).forEach(function(ref){var q=map[ref.id];if(q&&!used[ref.id]&&q.getAttribute('reserve')!=='true'){chosen.push({node:q,sourceStage:+q.getAttribute('stage')||ref.stage,sourceId:ref.id});used[ref.id]=1;wrongIds[ref.id]=1}});
+ previousIds.forEach(function(id){if(!wrongIds[id])used[id]=1});
+ shuffle(b.main.filter(function(q){return !used[q.getAttribute('id')]})).forEach(function(q){if(chosen.length<30){chosen.push({node:q,sourceStage:+q.getAttribute('stage')||0,sourceId:q.getAttribute('id')});used[q.getAttribute('id')]=1}});
  shuffle(b.reserve).forEach(function(q){if(chosen.length<30&&!used[q.getAttribute('id')]){chosen.push({node:q,sourceStage:0,sourceId:q.getAttribute('id')});used[q.getAttribute('id')]=1}});
- if(chosen.length<30)throw Error('회차 문항이 부족합니다');return shuffle(chosen.slice(0,30));
+ if(chosen.length<30)throw Error('전 범위 문제은행에서 회차 문항 30개를 구성할 수 없습니다.');
+ return shuffle(chosen.slice(0,30));
 }
 function render(items,target,mode){
  target.innerHTML='';
@@ -48,7 +52,7 @@ function render(items,target,mode){
 function startRound(s){
  var prev=s>1?latest(s-1):null;if(s>1&&!prev){alert('먼저 '+(s-1)+'차를 제출해 주세요.');return}
  stage=s;submitted=false;current=[];el('mathRoundArea').style.display='block';el('mathRoundResult').style.display='none';el('mathRoundMeta').textContent='문항은행과 도형 자료를 확인하고 있습니다...';el('mathRoundQuestions').innerHTML='';
- loadBank().then(function(b){current=prepare(s,prev?prev.wrongRefs:[],b);render(current,el('mathRoundQuestions'),'round');el('mathRoundMeta').textContent=s+'차 · 30문항 · 직전 오답 '+(prev?prev.wrongRefs.length:0)+'개 반영';el('mathRoundArea').scrollIntoView({behavior:'smooth',block:'start'})}).catch(function(e){current=[];el('mathRoundMeta').textContent='수학 문항 로드 실패: '+(e&&e.message?e.message:String(e));el('mathRoundQuestions').innerHTML='<div class="notice">문항을 불러오지 못했습니다. 화면에 표시된 오류 내용을 알려주세요.</div>';el('mathRoundArea').scrollIntoView({behavior:'smooth',block:'start'});});
+ loadBank().then(function(b){current=prepare(s,prev?prev.wrongRefs:[],b);render(current,el('mathRoundQuestions'),'round');el('mathRoundMeta').textContent=s+'차 · 전 범위 30문항 · 직전 오답 '+(prev?prev.wrongRefs.length:0)+'개 우선 복습';el('mathRoundArea').scrollIntoView({behavior:'smooth',block:'start'})}).catch(function(e){current=[];el('mathRoundMeta').textContent='수학 문항 로드 실패: '+(e&&e.message?e.message:String(e));el('mathRoundQuestions').innerHTML='<div class="notice">문항을 불러오지 못했습니다. 화면에 표시된 오류 내용을 알려주세요.</div>';el('mathRoundArea').scrollIntoView({behavior:'smooth',block:'start'});});
 }
 function grade(items,target,confirmText,mode){
  var ds=target.querySelectorAll('.final-question'),missing=[];
