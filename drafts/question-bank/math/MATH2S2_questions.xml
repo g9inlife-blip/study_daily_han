@@ -99,7 +99,7 @@
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">6</option><option id="B">4</option><option id="C">7</option><option id="D">10</option><option id="E">24</option></options>
 <answer>A</answer>
-<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=6 cm이다.</explanation>
+<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=4×6/4=6 cm이다.</explanation>
 <advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -400,7 +400,7 @@
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">5</option><option id="B">6</option><option id="C">9</option><option id="D">20</option><option id="E">4</option></options>
 <answer>E</answer>
-<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=6 cm이다.</explanation>
+<explanation>AD:DB=AE:EC이므로 5:4=5:EC이다. 따라서 EC=5×4/5=4 cm이다.</explanation>
 <advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -701,7 +701,7 @@
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">7</option><option id="B">8</option><option id="C">12</option><option id="D">6</option><option id="E">2</option></options>
 <answer>D</answer>
-<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=6 cm이다.</explanation>
+<explanation>AD:DB=AE:EC이므로 2:6=2:EC이다. 따라서 EC=2×6/2=6 cm이다.</explanation>
 <advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -1002,7 +1002,7 @@
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">7</option><option id="B">12</option><option id="C">4</option><option id="D">3</option><option id="E">5</option></options>
 <answer>C</answer>
-<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=6 cm이다.</explanation>
+<explanation>AD:DB=AE:EC이므로 3:4=3:EC이다. 따라서 EC=3×4/3=4 cm이다.</explanation>
 <advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
@@ -1303,7 +1303,7 @@
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">24</option><option id="B">6</option><option id="C">4</option><option id="D">7</option><option id="E">10</option></options>
 <answer>B</answer>
-<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=6 cm이다.</explanation>
+<explanation>AD:DB=AE:EC이므로 4:6=4:EC이다. 따라서 EC=4×6/4=6 cm이다.</explanation>
 <advancedExplanation>닮은 삼각형의 대응변 비를 이용해 비례식을 만든다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
 </question>
