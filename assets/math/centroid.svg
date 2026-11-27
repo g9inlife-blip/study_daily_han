@@ -7,5 +7,5 @@
 <circle cx="210" cy="145" r="5" fill="#c34b35"/>
 <g font-family="Arial,sans-serif" font-size="18" fill="#172b4d">
 <text x="200" y="18">A</text><text x="38" y="225">B</text><text x="370" y="225">C</text>
-<text x="220" y="143">G</text><text x="222" y="85">AG</text><text x="222" y="185">GM</text><text x="222" y="225">M</text>
+<text x="220" y="143">G</text><text x="222" y="225">M</text>
 </g></svg>
