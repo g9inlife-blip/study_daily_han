@@ -988,7 +988,7 @@ A beautiful _____ landed on the flower.</prompt>
   </question>
   <question id="ENG2S2-1-017" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="문법" scopePages="118-135;136-149" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0">
 <concept>Choose the correct sentence.</concept>
-<prompt>_____ to learn about other cultures is useful.</prompt>
+<prompt>_____ to learn about other cultures.</prompt>
     <options>
       <option id="A">It is useful</option>
       <option id="B">It is useful to</option>
@@ -1295,7 +1295,7 @@ A beautiful _____ landed on the flower.</prompt>
   </question>
   <question id="ENG2S2-1-023" stage="1" reserve="false" subject="영어" schoolLevel="중학교" grade="2" semester="2" unit="7과 지문 독해" scopePages="118-135" difficulty="하" difficulty2="미산정" type="multiple_choice" attemptCount="0" correctCount="0" passageRef="E7P1">
 <concept>What does 'them' refer to in Reading 1?</concept>
-<prompt>different places|festivals|younger people|visitors|seasons</prompt>
+<prompt>different places|traditions|younger people|visitors|seasons</prompt>
     <options>
       <option id="A">B</option>
     </options>
