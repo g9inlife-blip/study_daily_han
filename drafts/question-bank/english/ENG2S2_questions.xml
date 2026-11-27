@@ -1275,7 +1275,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What is the main idea of Reading 1?</concept>
 <prompt>Festivals bring people together and help share traditions.|All festivals must include fireworks.|Only visitors can enjoy festivals.|Festivals happen only in summer.|Every festival has the same activities.</prompt>
     <options>
-      <option id="A">A</option>
+      <option id="A">Festivals bring people together and help share traditions.</option>
+      <option id="B">All festivals must include fireworks.</option>
+      <option id="C">Only visitors can enjoy festivals.</option>
+      <option id="D">Festivals happen only in summer.</option>
+      <option id="E">Every festival has the same activities.</option>
     </options>
 <answer>글은 계절별 축제의 차이와 공동체를 연결하고 전통을 나누는 공통 목적을 설명한다.</answer>
 <explanation>세부 활동인 꽃 장식·음악·퍼레이드·불꽃놀이를 중심 생각으로 오해하지 않는다. 마지막 두 문장이 축제의 공동체적 기능을 정리한다.</explanation>
@@ -1286,7 +1290,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>According to Reading 1, what may people do in winter?</concept>
 <prompt>Plant flowers in the street.|Gather near a river.|Watch fireworks.|Clean a park.|Take part in a harvest parade.</prompt>
     <options>
-      <option id="A">C</option>
+      <option id="A">Plant flowers in the street.</option>
+      <option id="B">Gather near a river.</option>
+      <option id="C">Watch fireworks.</option>
+      <option id="D">Clean a park.</option>
+      <option id="E">Take part in a harvest parade.</option>
     </options>
 <answer>겨울에는 가족들이 특별한 의상을 입고 불꽃놀이를 볼 수 있다고 했다.</answer>
 <explanation>본문의 계절별 정보 연결을 확인한다. 봄은 꽃, 여름은 강가 음악, 가을은 수확 후 퍼레이드, 겨울은 의상과 불꽃놀이다.</explanation>
@@ -1297,7 +1305,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What does 'them' refer to in Reading 1?</concept>
 <prompt>different places|traditions|younger people|visitors|seasons</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">different places</option>
+      <option id="B">traditions</option>
+      <option id="C">younger people</option>
+      <option id="D">visitors</option>
+      <option id="E">seasons</option>
     </options>
 <answer>them은 앞에서 언급한 traditions(전통)를 가리키는 문맥으로 사용된다.</answer>
 <explanation>대명사의 지시 대상은 바로 앞 단어만 보지 말고 문장 의미와 수·의미 관계를 확인한다.</explanation>
@@ -1308,7 +1320,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Which statement is NOT true about Reading 1?</concept>
 <prompt>Festivals can take place in different seasons.|A festival may help a community remember traditions.|Every festival is only a show for visitors.|People may share traditions with younger people.|Festivals can bring people together.</prompt>
     <options>
-      <option id="A">C</option>
+      <option id="A">Festivals can take place in different seasons.</option>
+      <option id="B">A festival may help a community remember traditions.</option>
+      <option id="C">Every festival is only a show for visitors.</option>
+      <option id="D">People may share traditions with younger people.</option>
+      <option id="E">Festivals can bring people together.</option>
     </options>
 <answer>글은 축제가 방문객을 위한 공연만은 아니라고 명시한다.</answer>
 <explanation>not only / not ... only와 같은 부정 표현을 놓치지 말고 본문 주장과 대조한다.</explanation>
@@ -1319,7 +1335,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Choose the best title for Reading 1.</concept>
 <prompt>Festivals: Different Activities, Shared Purpose|How to Make Fireworks|A Winter Parade Only|Visitors Who Travel Alone|The Most Popular Festival</prompt>
     <options>
-      <option id="A">A</option>
+      <option id="A">Festivals: Different Activities, Shared Purpose</option>
+      <option id="B">How to Make Fireworks</option>
+      <option id="C">A Winter Parade Only</option>
+      <option id="D">Visitors Who Travel Alone</option>
+      <option id="E">The Most Popular Festival</option>
     </options>
 <answer>계절별 활동은 다르지만 사람들을 모으고 전통을 나눈다는 공통 목적이 중심이다.</answer>
 <explanation>제목은 특정 세부 활동보다 글 전체의 핵심 내용을 포괄해야 한다.</explanation>
@@ -1330,7 +1350,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What did the class do first in Reading 2?</concept>
 <prompt>They explained the rules.|They invited visitors.|They set up a booth and displayed a puzzle.|They cleaned the hall.|They chose a dance contest.</prompt>
     <options>
-      <option id="A">C</option>
+      <option id="A">They explained the rules.</option>
+      <option id="B">They invited visitors.</option>
+      <option id="C">They set up a booth and displayed a puzzle.</option>
+      <option id="D">They cleaned the hall.</option>
+      <option id="E">They chose a dance contest.</option>
     </options>
 <answer>먼저 부스를 설치하고 나무 퍼즐을 전시했다.</answer>
 <explanation>순서 표현 First, Then, At the end of를 이용해 사건 순서를 확인한다.</explanation>
@@ -1341,7 +1365,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Why was the booth popular?</concept>
 <prompt>It was very expensive.|It was simple but students worked together and welcomed visitors.|It had fireworks every hour.|Only teachers could play.|It was the largest booth.</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">It was very expensive.</option>
+      <option id="B">It was simple but students worked together and welcomed visitors.</option>
+      <option id="C">It had fireworks every hour.</option>
+      <option id="D">Only teachers could play.</option>
+      <option id="E">It was the largest booth.</option>
     </options>
 <answer>글은 단순했지만 많은 방문객이 왔고 협력과 참여가 이루어졌다고 설명한다.</answer>
 <explanation>인기를 얻은 이유를 한 가지 물건이나 규모로 단정하지 않는다.</explanation>
@@ -1352,7 +1380,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What does 'hardly had time to rest' mean?</concept>
 <prompt>They rested for a long time.|They had almost no time to rest.|They did not come to the festival.|They finished early.|They wanted to leave immediately.</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">They rested for a long time.</option>
+      <option id="B">They had almost no time to rest.</option>
+      <option id="C">They did not come to the festival.</option>
+      <option id="D">They finished early.</option>
+      <option id="E">They wanted to leave immediately.</option>
     </options>
 <answer>hardly는 ‘거의 ~않다’라는 뜻이므로 쉴 시간이 거의 없었다.</answer>
 <explanation>hardly를 hard(열심히)와 혼동하지 않는다. 문맥에서 부정에 가까운 의미를 갖는다.</explanation>
@@ -1363,7 +1395,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Which activity was NOT mentioned in Reading 2?</concept>
 <prompt>Displaying a wooden puzzle|Wearing traditional costumes|Explaining rules|Watching a fireworks show|Setting up a booth</prompt>
     <options>
-      <option id="A">D</option>
+      <option id="A">Displaying a wooden puzzle</option>
+      <option id="B">Wearing traditional costumes</option>
+      <option id="C">Explaining rules</option>
+      <option id="D">Watching a fireworks show</option>
+      <option id="E">Setting up a booth</option>
     </options>
 <answer>Reading 2에는 불꽃놀이를 보았다는 내용이 없다.</answer>
 <explanation>본문에 등장한 활동을 확인하는 문제이므로 상식으로 내용을 보충하지 않는다.</explanation>
@@ -1374,7 +1410,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What lesson did the students learn?</concept>
 <prompt>A festival should be expensive.|Only costumes matter.|Working together and having fun can make a simple booth special.|Visitors should not try games.|Students should avoid explaining rules.</prompt>
     <options>
-      <option id="A">C</option>
+      <option id="A">A festival should be expensive.</option>
+      <option id="B">Only costumes matter.</option>
+      <option id="C">Working together and having fun can make a simple booth special.</option>
+      <option id="D">Visitors should not try games.</option>
+      <option id="E">Students should avoid explaining rules.</option>
     </options>
 <answer>학생들은 협력과 즐거움이 단순한 부스도 특별하게 만들 수 있음을 배웠다.</answer>
 <explanation>마지막 문장은 경험에서 얻은 교훈을 직접 제시한다.</explanation>
@@ -1385,7 +1425,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What is the poster mainly asking visitors to do?</concept>
 <prompt>Watch a parade.|Buy wooden puzzles.|Join activities that protect nature.|Wear costumes.|Watch fireworks.</prompt>
     <options>
-      <option id="A">C</option>
+      <option id="A">Watch a parade.</option>
+      <option id="B">Buy wooden puzzles.</option>
+      <option id="C">Join activities that protect nature.</option>
+      <option id="D">Wear costumes.</option>
+      <option id="E">Watch fireworks.</option>
     </options>
 <answer>포스터는 자연을 보호하는 활동에 참여하도록 권한다.</answer>
 <explanation>중심 메시지는 제목의 Green Spring Festival과 ‘Small actions matter’, 나무·꽃 심기 그림을 종합해 판단한다.</explanation>
@@ -1396,7 +1440,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What does the giant tree symbolize?</concept>
 <prompt>The end of the festival|The community's hope for a greener area|A famous president|A winter celebration|A puzzle competition</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">The end of the festival</option>
+      <option id="B">The community's hope for a greener area</option>
+      <option id="C">A famous president</option>
+      <option id="D">A winter celebration</option>
+      <option id="E">A puzzle competition</option>
     </options>
 <answer>나무는 지역을 더 푸르게 만들 수 있다는 공동체의 희망을 상징한다.</answer>
 <explanation>symbolize는 실제 사물과 추상적 의미의 관계를 나타낸다.</explanation>
@@ -1407,7 +1455,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Why does the poster not show fireworks or a parade?</concept>
 <prompt>The festival is canceled.|It focuses on environmental participation instead.|The organizers forgot to add pictures.|The event is only for children.|It takes place in winter.</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">The festival is canceled.</option>
+      <option id="B">It focuses on environmental participation instead.</option>
+      <option id="C">The organizers forgot to add pictures.</option>
+      <option id="D">The event is only for children.</option>
+      <option id="E">It takes place in winter.</option>
     </options>
 <answer>포스터의 목적은 자연 보호 활동 참여를 강조하는 것이므로 불꽃놀이·퍼레이드 대신 환경 활동을 보여 준다.</answer>
 <explanation>자료의 선택과 배제는 제작자의 전달 의도와 연결된다.</explanation>
@@ -1418,7 +1470,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Which phrase best supports the poster's message?</concept>
 <prompt>Small actions matter.|The biggest show in town.|Come for fireworks.|A parade every hour.|Wear your best costume.</prompt>
     <options>
-      <option id="A">A</option>
+      <option id="A">Small actions matter.</option>
+      <option id="B">The biggest show in town.</option>
+      <option id="C">Come for fireworks.</option>
+      <option id="D">A parade every hour.</option>
+      <option id="E">Wear your best costume.</option>
     </options>
 <answer>‘Small actions matter’가 환경 보호를 위한 작은 실천의 중요성을 직접 전달한다.</answer>
 <explanation>글과 시각 자료가 같은 메시지를 강화하는지 살핀다.</explanation>
@@ -1429,7 +1485,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What can be inferred about the organizers?</concept>
 <prompt>They want visitors to participate, not just watch.|They dislike all festivals.|They only care about decorations.|They expect no visitors.|They want to remove all trees.</prompt>
     <options>
-      <option id="A">A</option>
+      <option id="A">They want visitors to participate, not just watch.</option>
+      <option id="B">They dislike all festivals.</option>
+      <option id="C">They only care about decorations.</option>
+      <option id="D">They expect no visitors.</option>
+      <option id="E">They want to remove all trees.</option>
     </options>
 <answer>활동에 참여하도록 권하는 문구와 그림에서 관람보다 참여를 유도한다고 추론할 수 있다.</answer>
 <explanation>추론은 본문 근거를 바탕으로 해야 하며 글에 없는 극단적 주장을 선택하지 않는다.</explanation>
@@ -1440,7 +1500,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Why did Jina want to join the dance contest?</concept>
 <prompt>She likes solving puzzles.|She enjoys music.|She wanted to decorate the hall alone.|She was afraid of the race.|Her teacher told her to.</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">She likes solving puzzles.</option>
+      <option id="B">She enjoys music.</option>
+      <option id="C">She wanted to decorate the hall alone.</option>
+      <option id="D">She was afraid of the race.</option>
+      <option id="E">Her teacher told her to.</option>
     </options>
 <answer>Jina는 음악을 즐기기 때문에 춤 경연을 원했다.</answer>
 <explanation>because 뒤의 이유절과 인물의 선호를 연결한다.</explanation>
@@ -1451,7 +1515,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Why did Minho prefer the puzzle race?</concept>
 <prompt>He likes solving problems.|He wanted to wear a costume.|He dislikes all activities.|He had to leave early.|He wanted to watch fireworks.</prompt>
     <options>
-      <option id="A">A</option>
+      <option id="A">He likes solving problems.</option>
+      <option id="B">He wanted to wear a costume.</option>
+      <option id="C">He dislikes all activities.</option>
+      <option id="D">He had to leave early.</option>
+      <option id="E">He wanted to watch fireworks.</option>
     </options>
 <answer>Minho는 문제 해결을 좋아하기 때문에 퍼즐 경주를 선호했다.</answer>
 <explanation>Jina와 Minho의 선택·이유를 서로 바꾸지 않는다.</explanation>
@@ -1462,7 +1530,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What does the teacher mean by 'respect different choices'?</concept>
 <prompt>Everyone must choose the same activity.|Students should accept that classmates may prefer different things.|Only the teacher can choose.|The dance contest is better.|The puzzle race should be canceled.</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">Everyone must choose the same activity.</option>
+      <option id="B">Students should accept that classmates may prefer different things.</option>
+      <option id="C">Only the teacher can choose.</option>
+      <option id="D">The dance contest is better.</option>
+      <option id="E">The puzzle race should be canceled.</option>
     </options>
 <answer>서로 다른 선호를 인정하고 존중하라는 뜻이다.</answer>
 <explanation>respect는 동의한다는 뜻만이 아니라 다른 선택을 존중한다는 의미로 쓰인다.</explanation>
@@ -1473,7 +1545,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>What did both students do in the end?</concept>
 <prompt>They left the festival.|They joined their favorite activities and helped decorate.|They changed their choices to match.|They stopped having fun.|They watched from outside.</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">They left the festival.</option>
+      <option id="B">They joined their favorite activities and helped decorate.</option>
+      <option id="C">They changed their choices to match.</option>
+      <option id="D">They stopped having fun.</option>
+      <option id="E">They watched from outside.</option>
     </options>
 <answer>두 학생은 각자 좋아하는 활동에 참여하고 홀 장식도 도왔다.</answer>
 <explanation>both는 두 사람 모두를 뜻하며 마지막 문장의 행동을 함께 확인한다.</explanation>
@@ -1484,7 +1560,11 @@ A beautiful _____ landed on the flower.</prompt>
 <concept>Which conclusion is best supported?</concept>
 <prompt>Having fun requires everyone to choose the same activity.|People can enjoy an event while making different choices.|Only music makes a festival special.|Puzzles are always better than dances.|Teachers should choose for students.</prompt>
     <options>
-      <option id="A">B</option>
+      <option id="A">Having fun requires everyone to choose the same activity.</option>
+      <option id="B">People can enjoy an event while making different choices.</option>
+      <option id="C">Only music makes a festival special.</option>
+      <option id="D">Puzzles are always better than dances.</option>
+      <option id="E">Teachers should choose for students.</option>
     </options>
 <answer>서로 다른 활동을 선택해도 함께 즐길 수 있다는 결론이다.</answer>
 <explanation>글의 마지막 문장을 바꾸어 말한 선택지를 고른다.</explanation>
