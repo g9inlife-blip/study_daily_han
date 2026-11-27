@@ -77,7 +77,7 @@
 <prompt>△ABC에서 DE∥BC이고 AD:DB=2:4, AE=2 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">4</option><option id="B">4</option><option id="C">8</option><option id="D">6</option><option id="E">9</option></options>
-<answer>C</answer>
+<answer>D</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
@@ -377,7 +377,7 @@
 <prompt>△ABC에서 DE∥BC이고 AD:DB=3:6, AE=3 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">9</option><option id="B">18</option><option id="C">9</option><option id="D">19</option><option id="E">6</option></options>
-<answer>B</answer>
+<answer>E</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
@@ -977,7 +977,7 @@
 <prompt>【종합 응용】 △ABC에서 DE∥BC이고 AD:DB=5:6, AE=5 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">11</option><option id="B">31</option><option id="C">6</option><option id="D">25</option><option id="E">30</option></options>
-<answer>E</answer>
+<answer>B</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
@@ -1277,7 +1277,7 @@
 <prompt>△ABC에서 DE∥BC이고 AD:DB=2:4, AE=2 cm일 때 EC는?</prompt>
 <diagram src="assets/math/triangle_ratio.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 <options><option id="A">9</option><option id="B">4</option><option id="C">4</option><option id="D">8</option><option id="E">6</option></options>
-<answer>D</answer>
+<answer>C</answer>
 <explanation>AD:DB=AE:EC이므로 a:b=a:x, x=b cm이다.</explanation>
 <advancedExplanation>평행선이 두 변을 나누는 비는 서로 같다. 같은 순서로 비례식을 세운다.</advancedExplanation>
 <statistics attemptCount="0" correctCount="0" correctRate="미산정"/>
