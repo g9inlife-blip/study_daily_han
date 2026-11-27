@@ -286,7 +286,7 @@
 <question id="MATH2S2-1-029" stage="1" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>대단원 마무리 14~15번 서술형 유형</concept>
 <prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 
 <answer>3/4</answer>
 <explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
@@ -587,7 +587,7 @@
 <question id="MATH2S2-2-029" stage="2" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="중" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>대단원 마무리 14~15번 서술형 유형</concept>
 <prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 
 <answer>3/4</answer>
 <explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
@@ -888,7 +888,7 @@
 <question id="MATH2S2-3-029" stage="3" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="중상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>대단원 마무리 14~15번 서술형 유형</concept>
 <prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 
 <answer>3/4</answer>
 <explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
@@ -1189,7 +1189,7 @@
 <question id="MATH2S2-4-029" stage="4" reserve="false" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="상" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>대단원 마무리 14~15번 서술형 유형</concept>
 <prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 
 <answer>3/4</answer>
 <explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
@@ -1490,7 +1490,7 @@
 <question id="MATH2S2-R-029" stage="0" reserve="true" subject="수학" schoolLevel="중학교" grade="2" semester="2" unit="Ⅵ-3 확률의 계산" scopePages="249" difficulty="하" difficulty2="미산정" type="short_answer" attemptCount="0" correctCount="0">
 <concept>대단원 마무리 14~15번 서술형 유형</concept>
 <prompt>공정한 동전을 두 번 던질 때 적어도 한 번 앞면이 나올 확률을 풀이와 함께 구하시오.</prompt>
-<diagram src="assets/math/dice.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
+<diagram src="assets/math/coin.svg" alt="문제의 도형 또는 경우의 수를 나타낸 그림"/>
 
 <answer>3/4</answer>
 <explanation>HH, HT, TH, TT 중 3가지가 해당하므로 3/4이다.</explanation>
